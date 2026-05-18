@@ -1,0 +1,258 @@
+import { OrderStatus, PaymentStatus } from '../types';
+
+export const seedCustomers = [
+  { key: 'u1', name: 'Alice Smith', email: 'alice@example.com', password: 'Customer@123' },
+  { key: 'u2', name: 'Bob Jones', email: 'bob@example.com', password: 'Customer@123' },
+  { key: 'u3', name: 'Charlie Brown', email: 'charlie@example.com', password: 'Customer@123' },
+  { key: 'u4', name: 'Diana Prince', email: 'diana@example.com', password: 'Customer@123' },
+  { key: 'u5', name: 'Evan Wright', email: 'evan@example.com', password: 'Customer@123' },
+];
+
+export const seedContacts = [
+  {
+    name: 'Sarah Connor',
+    email: 'sarah@example.com',
+    subject: 'Return Policy',
+    message:
+      'Hi, I would like to know the return policy for the wool overcoat.',
+    read: true,
+    createdAt: '2024-05-14T08:20:00Z',
+  },
+  {
+    name: 'John Doe',
+    email: 'john@example.com',
+    subject: 'Restock Inquiry',
+    message:
+      'When will the Cashmere Turtleneck in Black size M be restocked?',
+    read: false,
+    createdAt: '2024-05-16T13:45:00Z',
+  },
+];
+
+export interface SeedOrderDef {
+  orderNumber: string;
+  userKey: string;
+  customerName: string;
+  email: string;
+  createdAt: string;
+  total: number;
+  itemCount: number;
+  status: OrderStatus;
+  paymentMethod: string;
+  lineItems: Array<{
+    productName: string;
+    quantity: number;
+    size: string;
+    color: string;
+  }>;
+  orderNote?: string;
+  shippingAddress: {
+    firstName: string;
+    lastName: string;
+    phone: string;
+    street: string;
+    city: string;
+    state: string;
+    country: string;
+    postalCode: string;
+  };
+}
+
+export const seedOrders: SeedOrderDef[] = [
+  {
+    orderNumber: 'ORD-001',
+    userKey: 'u1',
+    customerName: 'Alice Smith',
+    email: 'alice@example.com',
+    createdAt: '2024-05-10T10:30:00Z',
+    total: 395,
+    itemCount: 1,
+    status: 'Delivered',
+    paymentMethod: 'Cash on Delivery',
+    orderNote: 'Please leave package at the front desk.',
+    lineItems: [
+      {
+        productName: 'Classic Wool Overcoat',
+        quantity: 1,
+        size: 'M',
+        color: 'Charcoal',
+      },
+    ],
+    shippingAddress: {
+      firstName: 'Alice',
+      lastName: 'Smith',
+      phone: '+1 555-0101',
+      street: '123 Fashion Ave',
+      city: 'New York',
+      state: 'NY',
+      country: 'United States',
+      postalCode: '10001',
+    },
+  },
+  {
+    orderNumber: 'ORD-002',
+    userKey: 'u2',
+    customerName: 'Bob Jones',
+    email: 'bob@example.com',
+    createdAt: '2024-05-12T14:15:00Z',
+    total: 185,
+    itemCount: 1,
+    status: 'Shipped',
+    paymentMethod: 'Cash on Delivery',
+    lineItems: [
+      {
+        productName: 'Pleated Wide-Leg Trousers',
+        quantity: 1,
+        size: 'L',
+        color: 'Black',
+      },
+    ],
+    shippingAddress: {
+      firstName: 'Bob',
+      lastName: 'Jones',
+      phone: '+1 555-0102',
+      street: '456 Style Street',
+      city: 'Los Angeles',
+      state: 'CA',
+      country: 'United States',
+      postalCode: '90001',
+    },
+  },
+  {
+    orderNumber: 'ORD-003',
+    userKey: 'u3',
+    customerName: 'Charlie Brown',
+    email: 'charlie@example.com',
+    createdAt: '2024-05-15T09:45:00Z',
+    total: 570,
+    itemCount: 2,
+    status: 'Processing',
+    paymentMethod: 'Cash on Delivery',
+    lineItems: [
+      {
+        productName: 'Silk Slip Dress',
+        quantity: 1,
+        size: 'M',
+        color: 'Champagne',
+      },
+      {
+        productName: 'Silk Slip Dress',
+        quantity: 1,
+        size: 'S',
+        color: 'Black',
+      },
+    ],
+    shippingAddress: {
+      firstName: 'Charlie',
+      lastName: 'Brown',
+      phone: '+1 555-0103',
+      street: '789 Design Blvd',
+      city: 'Chicago',
+      state: 'IL',
+      country: 'United States',
+      postalCode: '60601',
+    },
+  },
+  {
+    orderNumber: 'ORD-004',
+    userKey: 'u4',
+    customerName: 'Diana Prince',
+    email: 'diana@example.com',
+    createdAt: '2024-05-16T16:20:00Z',
+    total: 125,
+    itemCount: 1,
+    status: 'Pending',
+    paymentMethod: 'Cash on Delivery',
+    lineItems: [
+      {
+        productName: 'Oversized Poplin Shirt',
+        quantity: 1,
+        size: 'M',
+        color: 'White',
+      },
+    ],
+    shippingAddress: {
+      firstName: 'Diana',
+      lastName: 'Prince',
+      phone: '+1 555-0104',
+      street: '321 Couture Lane',
+      city: 'Miami',
+      state: 'FL',
+      country: 'United States',
+      postalCode: '33101',
+    },
+  },
+  {
+    orderNumber: 'ORD-005',
+    userKey: 'u5',
+    customerName: 'Evan Wright',
+    email: 'evan@example.com',
+    createdAt: '2024-05-17T11:10:00Z',
+    total: 65,
+    itemCount: 1,
+    status: 'Cancelled',
+    paymentMethod: 'Cash on Delivery',
+    orderNote: 'Gift wrap if possible.',
+    lineItems: [
+      {
+        productName: 'Heavyweight Cotton T-Shirt',
+        quantity: 1,
+        size: 'L',
+        color: 'Navy',
+      },
+    ],
+    shippingAddress: {
+      firstName: 'Evan',
+      lastName: 'Wright',
+      phone: '+1 555-0105',
+      street: '654 Minimalist Rd',
+      city: 'Seattle',
+      state: 'WA',
+      country: 'United States',
+      postalCode: '98101',
+    },
+  },
+];
+
+export const seedPayments = [
+  {
+    paymentNumber: 'PAY-101',
+    orderNumber: 'ORD-001',
+    method: 'Cash on Delivery',
+    amount: 395,
+    status: 'Completed' as PaymentStatus,
+    createdAt: '2024-05-10T10:31:00Z',
+  },
+  {
+    paymentNumber: 'PAY-102',
+    orderNumber: 'ORD-002',
+    method: 'Cash on Delivery',
+    amount: 185,
+    status: 'Completed' as PaymentStatus,
+    createdAt: '2024-05-12T14:16:00Z',
+  },
+  {
+    paymentNumber: 'PAY-103',
+    orderNumber: 'ORD-003',
+    method: 'Cash on Delivery',
+    amount: 570,
+    status: 'Completed' as PaymentStatus,
+    createdAt: '2024-05-15T09:46:00Z',
+  },
+  {
+    paymentNumber: 'PAY-104',
+    orderNumber: 'ORD-004',
+    method: 'Cash on Delivery',
+    amount: 125,
+    status: 'Pending' as PaymentStatus,
+    createdAt: '2024-05-16T16:20:00Z',
+  },
+  {
+    paymentNumber: 'PAY-105',
+    orderNumber: 'ORD-005',
+    method: 'Cash on Delivery',
+    amount: 65,
+    status: 'Failed' as PaymentStatus,
+    createdAt: '2024-05-17T11:11:00Z',
+  },
+];
