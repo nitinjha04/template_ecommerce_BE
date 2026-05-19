@@ -1,6 +1,9 @@
+import crypto from 'crypto';
 import { User } from '../models';
 import { ApiError } from '../utils/ApiError';
 import { signToken } from '../utils/jwt';
+import { env } from '../config/env';
+import { EmailService } from './email.service';
 
 interface SignupInput {
   name: string;
@@ -22,6 +25,9 @@ const formatAuthResponse = (user: InstanceType<typeof User>, token: string) => (
   },
   token,
 });
+
+const hashToken = (token: string) =>
+  crypto.createHash('sha256').update(token).digest('hex');
 
 export class AuthService {
   static async signup(input: SignupInput) {
@@ -78,5 +84,46 @@ export class AuthService {
       email: user.email,
       role: user.role,
     };
+  }
+
+  static async forgotPassword(email: string) {
+    const user = await User.findOne({ email: email.toLowerCase() });
+    if (!user) {
+      return { message: 'If that email exists, a reset link has been sent.' };
+    }
+
+    const resetToken = crypto.randomBytes(32).toString('hex');
+    user.resetPasswordToken = hashToken(resetToken);
+    user.resetPasswordExpires = new Date(Date.now() + 60 * 60 * 1000);
+    await user.save({ validateBeforeSave: false });
+
+    const resetUrl = `${env.frontendUrl}/reset-password?token=${resetToken}`;
+
+    await EmailService.sendPasswordResetEmail(user.email, user.name, resetUrl);
+
+    if (env.nodeEnv === 'development') {
+      console.log('[dev] Password reset link:', resetUrl);
+    }
+
+    return { message: 'If that email exists, a reset link has been sent.' };
+  }
+
+  static async resetPassword(token: string, password: string) {
+    const hashed = hashToken(token);
+    const user = await User.findOne({
+      resetPasswordToken: hashed,
+      resetPasswordExpires: { $gt: new Date() },
+    }).select('+password +resetPasswordToken +resetPasswordExpires');
+
+    if (!user) {
+      throw new ApiError(400, 'Invalid or expired reset token');
+    }
+
+    user.password = password;
+    user.resetPasswordToken = undefined;
+    user.resetPasswordExpires = undefined;
+    await user.save();
+
+    return { message: 'Password updated successfully' };
   }
 }

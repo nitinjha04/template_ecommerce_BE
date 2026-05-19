@@ -38,5 +38,11 @@ class OrderController {
         const order = await order_service_1.OrderService.updateStatus((0, params_1.getParamId)(req), req.body.status);
         ApiResponse_1.ApiResponse.success(res, order, 'Order status updated');
     });
+    static exportCsv = (0, asyncHandler_1.asyncHandler)(async (_req, res) => {
+        const csv = await order_service_1.OrderService.exportCsv();
+        res.setHeader('Content-Type', 'text/csv; charset=utf-8');
+        res.setHeader('Content-Disposition', `attachment; filename="orders-${Date.now()}.csv"`);
+        res.send(csv);
+    });
 }
 exports.OrderController = OrderController;

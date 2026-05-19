@@ -43,6 +43,9 @@ export const env = {
       "admin@lucidus.in",
   },
   emailEnabled: process.env.EMAIL_ENABLED === "true",
+  frontendUrl:
+    process.env.FRONTEND_URL?.split(",")[0]?.trim() ||
+    "http://localhost:5173",
 };
 
 export const isImageKitConfigured = (): boolean =>

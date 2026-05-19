@@ -4,6 +4,7 @@ exports.EmailService = void 0;
 const mail_1 = require("../config/mail");
 const env_1 = require("../config/env");
 const orderEmailTemplates_1 = require("../emails/orderEmailTemplates");
+const passwordResetEmail_1 = require("../emails/passwordResetEmail");
 /**
  * Order email notifications via SMTP (Nodemailer).
  *
@@ -34,6 +35,10 @@ class EmailService {
     static async sendOrderStatusUpdatedEmail(order, previousStatus) {
         const { subject, html } = (0, orderEmailTemplates_1.orderStatusUpdatedEmail)(order, previousStatus);
         await this.send(order.email, subject, html);
+    }
+    static async sendPasswordResetEmail(to, name, resetUrl) {
+        const { subject, html } = (0, passwordResetEmail_1.passwordResetEmail)(resetUrl, name);
+        await this.send(to, subject, html);
     }
 }
 exports.EmailService = EmailService;

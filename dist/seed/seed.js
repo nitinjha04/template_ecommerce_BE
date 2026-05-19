@@ -5,6 +5,7 @@ const env_1 = require("../config/env");
 const models_1 = require("../models");
 const mockData_data_1 = require("./mockData.data");
 const products_data_1 = require("./products.data");
+const slug_1 = require("../utils/slug");
 const shouldForce = process.argv.includes('--force');
 const seed = async () => {
     await (0, db_1.connectDB)();
@@ -54,7 +55,14 @@ const seed = async () => {
         if (shouldForce && productCount > 0) {
             await models_1.Product.deleteMany({});
         }
-        await models_1.Product.insertMany(products_data_1.seedProducts);
+        const productsWithSeo = products_data_1.seedProducts.map((p) => ({
+            ...p,
+            slug: (0, slug_1.slugify)(p.name),
+            metaTitle: p.name,
+            metaDescription: p.description.slice(0, 160),
+            metaKeywords: p.tags,
+        }));
+        await models_1.Product.insertMany(productsWithSeo);
         console.log(`Seeded ${products_data_1.seedProducts.length} products`);
     }
     else {

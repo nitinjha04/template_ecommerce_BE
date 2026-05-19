@@ -19,6 +19,10 @@ export const createProductValidator = [
   body('colors').optional().isArray(),
   body('images').optional().isArray(),
   body('tags').optional().isArray(),
+  body('slug').optional().trim().isLength({ min: 1, max: 200 }),
+  body('metaTitle').optional().trim().isLength({ max: 200 }),
+  body('metaDescription').optional().trim().isLength({ max: 500 }),
+  body('metaKeywords').optional().isArray(),
   body('inStock').optional().isBoolean(),
   body('featured').optional().isBoolean(),
 ];
@@ -33,12 +37,20 @@ export const updateProductValidator = [
   body('colors').optional().isArray(),
   body('images').optional().isArray(),
   body('tags').optional().isArray(),
+  body('slug').optional().trim().isLength({ min: 1, max: 200 }),
+  body('metaTitle').optional().trim().isLength({ max: 200 }),
+  body('metaDescription').optional().trim().isLength({ max: 500 }),
+  body('metaKeywords').optional().isArray(),
   body('inStock').optional().isBoolean(),
   body('featured').optional().isBoolean(),
 ];
 
 export const productIdValidator = [
-  param('id').isMongoId().withMessage('Invalid product id'),
+  param('id')
+    .trim()
+    .notEmpty()
+    .withMessage('Product identifier is required')
+    .isLength({ min: 1, max: 200 }),
 ];
 
 export const productQueryValidator = [

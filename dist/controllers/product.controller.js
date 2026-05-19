@@ -20,7 +20,7 @@ class ProductController {
         ApiResponse_1.ApiResponse.success(res, result.products, 'Products fetched', 200, result.pagination);
     });
     static getById = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
-        const product = await product_service_1.ProductService.getById((0, params_1.getParamId)(req));
+        const product = await product_service_1.ProductService.getByIdentifier((0, params_1.getParamId)(req));
         ApiResponse_1.ApiResponse.success(res, product);
     });
     static create = (0, asyncHandler_1.asyncHandler)(async (req, res) => {

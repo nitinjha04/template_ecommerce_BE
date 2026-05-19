@@ -108,5 +108,53 @@ class OrderService {
         // }
         return order;
     }
+    static async exportCsv() {
+        const orders = await models_1.Order.find().sort({ createdAt: -1 }).lean();
+        const escape = (val) => {
+            const str = String(val ?? '');
+            if (str.includes(',') || str.includes('"') || str.includes('\n')) {
+                return `"${str.replace(/"/g, '""')}"`;
+            }
+            return str;
+        };
+        const headers = [
+            'Order Number',
+            'Customer',
+            'Email',
+            'Phone',
+            'Status',
+            'Total',
+            'Payment Method',
+            'Items',
+            'Street',
+            'City',
+            'State',
+            'Country',
+            'Postal Code',
+            'Order Note',
+            'Created At',
+        ];
+        const rows = orders.map((o) => {
+            const addr = o.shippingAddress;
+            return [
+                o.orderNumber,
+                o.customerName,
+                o.email,
+                o.phone,
+                o.status,
+                o.total,
+                o.paymentMethod,
+                o.itemCount,
+                addr?.street || '',
+                addr?.city || '',
+                addr?.state || '',
+                addr?.country || '',
+                addr?.postalCode || '',
+                o.orderNote || '',
+                new Date(o.createdAt).toISOString(),
+            ].map(escape);
+        });
+        return [headers.join(','), ...rows.map((r) => r.join(','))].join('\n');
+    }
 }
 exports.OrderService = OrderService;

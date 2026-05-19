@@ -24,7 +24,7 @@ export class ProductController {
   });
 
   static getById = asyncHandler(async (req: Request, res: Response) => {
-    const product = await ProductService.getById(getParamId(req));
+    const product = await ProductService.getByIdentifier(getParamId(req));
     ApiResponse.success(res, product);
   });
 

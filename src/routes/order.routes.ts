@@ -14,6 +14,7 @@ router.use(authenticate);
 
 router.post('/', validate(createOrderValidator), OrderController.create);
 router.get('/my', OrderController.getMyOrders);
+router.get('/export/csv', authorize('admin'), OrderController.exportCsv);
 router.get('/', authorize('admin'), OrderController.getAll);
 router.get('/:id', validate(orderIdValidator), OrderController.getById);
 router.patch(

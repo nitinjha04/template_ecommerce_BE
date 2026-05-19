@@ -17,5 +17,13 @@ class AuthController {
         const profile = await auth_service_1.AuthService.getProfile(req.user.userId);
         ApiResponse_1.ApiResponse.success(res, profile);
     });
+    static forgotPassword = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
+        const result = await auth_service_1.AuthService.forgotPassword(req.body.email);
+        ApiResponse_1.ApiResponse.success(res, result, result.message);
+    });
+    static resetPassword = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
+        const result = await auth_service_1.AuthService.resetPassword(req.body.token, req.body.password);
+        ApiResponse_1.ApiResponse.success(res, result, result.message);
+    });
 }
 exports.AuthController = AuthController;

@@ -44,6 +44,8 @@ exports.env = {
             "admin@lucidus.in",
     },
     emailEnabled: process.env.EMAIL_ENABLED === "true",
+    frontendUrl: process.env.FRONTEND_URL?.split(",")[0]?.trim() ||
+        "http://localhost:5173",
 };
 const isImageKitConfigured = () => Boolean(exports.env.imagekit.publicKey &&
     exports.env.imagekit.privateKey &&

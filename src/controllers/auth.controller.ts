@@ -19,4 +19,17 @@ export class AuthController {
     const profile = await AuthService.getProfile(req.user!.userId);
     ApiResponse.success(res, profile);
   });
+
+  static forgotPassword = asyncHandler(async (req: AuthRequest, res: Response) => {
+    const result = await AuthService.forgotPassword(req.body.email);
+    ApiResponse.success(res, result, result.message);
+  });
+
+  static resetPassword = asyncHandler(async (req: AuthRequest, res: Response) => {
+    const result = await AuthService.resetPassword(
+      req.body.token,
+      req.body.password
+    );
+    ApiResponse.success(res, result, result.message);
+  });
 }

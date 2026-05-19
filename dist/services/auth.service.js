@@ -1,9 +1,15 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AuthService = void 0;
+const crypto_1 = __importDefault(require("crypto"));
 const models_1 = require("../models");
 const ApiError_1 = require("../utils/ApiError");
 const jwt_1 = require("../utils/jwt");
+const env_1 = require("../config/env");
+const email_service_1 = require("./email.service");
 const formatAuthResponse = (user, token) => ({
     user: {
         id: user._id.toString(),
@@ -13,6 +19,7 @@ const formatAuthResponse = (user, token) => ({
     },
     token,
 });
+const hashToken = (token) => crypto_1.default.createHash('sha256').update(token).digest('hex');
 class AuthService {
     static async signup(input) {
         const existing = await models_1.User.findOne({ email: input.email });
@@ -59,6 +66,37 @@ class AuthService {
             email: user.email,
             role: user.role,
         };
+    }
+    static async forgotPassword(email) {
+        const user = await models_1.User.findOne({ email: email.toLowerCase() });
+        if (!user) {
+            return { message: 'If that email exists, a reset link has been sent.' };
+        }
+        const resetToken = crypto_1.default.randomBytes(32).toString('hex');
+        user.resetPasswordToken = hashToken(resetToken);
+        user.resetPasswordExpires = new Date(Date.now() + 60 * 60 * 1000);
+        await user.save({ validateBeforeSave: false });
+        const resetUrl = `${env_1.env.frontendUrl}/reset-password?token=${resetToken}`;
+        await email_service_1.EmailService.sendPasswordResetEmail(user.email, user.name, resetUrl);
+        if (env_1.env.nodeEnv === 'development') {
+            console.log('[dev] Password reset link:', resetUrl);
+        }
+        return { message: 'If that email exists, a reset link has been sent.' };
+    }
+    static async resetPassword(token, password) {
+        const hashed = hashToken(token);
+        const user = await models_1.User.findOne({
+            resetPasswordToken: hashed,
+            resetPasswordExpires: { $gt: new Date() },
+        }).select('+password +resetPasswordToken +resetPasswordExpires');
+        if (!user) {
+            throw new ApiError_1.ApiError(400, 'Invalid or expired reset token');
+        }
+        user.password = password;
+        user.resetPasswordToken = undefined;
+        user.resetPasswordExpires = undefined;
+        await user.save();
+        return { message: 'Password updated successfully' };
     }
 }
 exports.AuthService = AuthService;

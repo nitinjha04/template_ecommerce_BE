@@ -52,4 +52,14 @@ export class OrderController {
     );
     ApiResponse.success(res, order, 'Order status updated');
   });
+
+  static exportCsv = asyncHandler(async (_req: AuthRequest, res: Response) => {
+    const csv = await OrderService.exportCsv();
+    res.setHeader('Content-Type', 'text/csv; charset=utf-8');
+    res.setHeader(
+      'Content-Disposition',
+      `attachment; filename="orders-${Date.now()}.csv"`
+    );
+    res.send(csv);
+  });
 }

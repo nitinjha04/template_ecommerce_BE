@@ -20,6 +20,10 @@ exports.createProductValidator = [
     (0, express_validator_1.body)('colors').optional().isArray(),
     (0, express_validator_1.body)('images').optional().isArray(),
     (0, express_validator_1.body)('tags').optional().isArray(),
+    (0, express_validator_1.body)('slug').optional().trim().isLength({ min: 1, max: 200 }),
+    (0, express_validator_1.body)('metaTitle').optional().trim().isLength({ max: 200 }),
+    (0, express_validator_1.body)('metaDescription').optional().trim().isLength({ max: 500 }),
+    (0, express_validator_1.body)('metaKeywords').optional().isArray(),
     (0, express_validator_1.body)('inStock').optional().isBoolean(),
     (0, express_validator_1.body)('featured').optional().isBoolean(),
 ];
@@ -33,11 +37,19 @@ exports.updateProductValidator = [
     (0, express_validator_1.body)('colors').optional().isArray(),
     (0, express_validator_1.body)('images').optional().isArray(),
     (0, express_validator_1.body)('tags').optional().isArray(),
+    (0, express_validator_1.body)('slug').optional().trim().isLength({ min: 1, max: 200 }),
+    (0, express_validator_1.body)('metaTitle').optional().trim().isLength({ max: 200 }),
+    (0, express_validator_1.body)('metaDescription').optional().trim().isLength({ max: 500 }),
+    (0, express_validator_1.body)('metaKeywords').optional().isArray(),
     (0, express_validator_1.body)('inStock').optional().isBoolean(),
     (0, express_validator_1.body)('featured').optional().isBoolean(),
 ];
 exports.productIdValidator = [
-    (0, express_validator_1.param)('id').isMongoId().withMessage('Invalid product id'),
+    (0, express_validator_1.param)('id')
+        .trim()
+        .notEmpty()
+        .withMessage('Product identifier is required')
+        .isLength({ min: 1, max: 200 }),
 ];
 exports.productQueryValidator = [
     (0, express_validator_1.query)('page').optional().isInt({ min: 1 }),

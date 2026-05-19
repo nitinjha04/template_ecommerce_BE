@@ -3,9 +3,13 @@ import { ProductCategory } from '../types';
 
 export interface IProduct extends Document {
   name: string;
+  slug: string;
   price: number;
   category: ProductCategory;
   description: string;
+  metaTitle: string;
+  metaDescription: string;
+  metaKeywords: string[];
   sizes: string[];
   colors: string[];
   images: string[];
@@ -33,6 +37,17 @@ const productSchema = new Schema<IProduct>(
       required: [true, 'Product name is required'],
       trim: true,
     },
+    slug: {
+      type: String,
+      required: true,
+      unique: true,
+      lowercase: true,
+      trim: true,
+      index: true,
+    },
+    metaTitle: { type: String, default: '', trim: true },
+    metaDescription: { type: String, default: '', trim: true },
+    metaKeywords: { type: [String], default: [] },
     price: {
       type: Number,
       required: [true, 'Price is required'],
@@ -87,6 +102,6 @@ const productSchema = new Schema<IProduct>(
 );
 
 productSchema.index({ category: 1, featured: 1 });
-productSchema.index({ name: 'text', description: 'text', tags: 'text' });
+productSchema.index({ name: 'text', description: 'text', tags: 'text', slug: 'text' });
 
 export const Product = mongoose.model<IProduct>('Product', productSchema);

@@ -50,6 +50,17 @@ const productSchema = new mongoose_1.Schema({
         required: [true, 'Product name is required'],
         trim: true,
     },
+    slug: {
+        type: String,
+        required: true,
+        unique: true,
+        lowercase: true,
+        trim: true,
+        index: true,
+    },
+    metaTitle: { type: String, default: '', trim: true },
+    metaDescription: { type: String, default: '', trim: true },
+    metaKeywords: { type: [String], default: [] },
     price: {
         type: Number,
         required: [true, 'Price is required'],
@@ -101,5 +112,5 @@ const productSchema = new mongoose_1.Schema({
     },
 });
 productSchema.index({ category: 1, featured: 1 });
-productSchema.index({ name: 'text', description: 'text', tags: 'text' });
+productSchema.index({ name: 'text', description: 'text', tags: 'text', slug: 'text' });
 exports.Product = mongoose_1.default.model('Product', productSchema);
