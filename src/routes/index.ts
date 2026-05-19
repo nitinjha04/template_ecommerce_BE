@@ -10,7 +10,7 @@ import dashboardRoutes from './dashboard.routes';
 const router = Router();
 
 router.get('/health', (_req, res) => {
-  res.json({ success: true, message: 'Lucidus API is running' });
+  res.json({ success: true, message: 'NEXACORE API is running' });
 });
 
 router.use('/auth', authRoutes);

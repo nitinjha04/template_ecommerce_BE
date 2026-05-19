@@ -1,18 +1,12 @@
 import { body, param, query } from 'express-validator';
 
-const categories = [
-  'Men',
-  'Women',
-  'Outerwear',
-  'Knitwear',
-  'Shirts',
-  'Trousers',
-  'Accessories',
-];
+const categories = ['Men', 'Women', 'Accessories'];
 
 export const createProductValidator = [
   body('name').trim().notEmpty().withMessage('Name is required'),
-  body('price').isFloat({ min: 0 }).withMessage('Valid price is required'),
+  body('price')
+    .isFloat({ min: 500, max: 1000 })
+    .withMessage('Price must be between ₹500 and ₹1000'),
   body('category').isIn(categories).withMessage('Invalid category'),
   body('description').trim().notEmpty().withMessage('Description is required'),
   body('sizes').optional().isArray(),
@@ -30,7 +24,7 @@ export const createProductValidator = [
 export const updateProductValidator = [
   param('id').isMongoId().withMessage('Invalid product id'),
   body('name').optional().trim().notEmpty(),
-  body('price').optional().isFloat({ min: 0 }),
+  body('price').optional().isFloat({ min: 500, max: 1000 }),
   body('category').optional().isIn(categories),
   body('description').optional().trim().notEmpty(),
   body('sizes').optional().isArray(),

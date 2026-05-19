@@ -6,14 +6,14 @@ const models_1 = require("../models");
 const ApiError_1 = require("../utils/ApiError");
 const slug_1 = require("../utils/slug");
 const ensureUniqueSlug = async (base, excludeId) => {
-    const root = (0, slug_1.slugify)(base) || 'product';
+    const root = (0, slug_1.slugify)(base) || "product";
     let attempt = 0;
     while (attempt < 100) {
         const candidate = attempt === 0 ? root : `${root}-${attempt}`;
         const filter = { slug: candidate };
         if (excludeId)
             filter._id = { $ne: excludeId };
-        const exists = await models_1.Product.findOne(filter).select('_id');
+        const exists = await models_1.Product.findOne(filter).select("_id");
         if (!exists)
             return candidate;
         attempt += 1;
@@ -56,22 +56,22 @@ class ProductService {
             const term = query.search.trim();
             filter.$or = [
                 { $text: { $search: term } },
-                { name: { $regex: term, $options: 'i' } },
-                { slug: { $regex: term, $options: 'i' } },
+                { name: { $regex: term, $options: "i" } },
+                { slug: { $regex: term, $options: "i" } },
             ];
         }
         let sort = { createdAt: -1 };
         switch (query.sort) {
-            case 'price_asc':
+            case "price_asc":
                 sort = { price: 1 };
                 break;
-            case 'price_desc':
+            case "price_desc":
                 sort = { price: -1 };
                 break;
-            case 'oldest':
+            case "oldest":
                 sort = { createdAt: 1 };
                 break;
-            case 'newest':
+            case "newest":
             default:
                 sort = { createdAt: -1 };
         }
@@ -95,14 +95,14 @@ class ProductService {
             ? await models_1.Product.findById(identifier)
             : await models_1.Product.findOne({ slug: identifier.toLowerCase() });
         if (!product) {
-            throw new ApiError_1.ApiError(404, 'Product not found');
+            throw new ApiError_1.ApiError(404, "Product not found");
         }
         return product;
     }
     static async create(data) {
         const prepared = await prepareProductData(data);
         if (!prepared.slug) {
-            throw new ApiError_1.ApiError(400, 'Slug is required');
+            throw new ApiError_1.ApiError(400, "Slug is required");
         }
         return models_1.Product.create(prepared);
     }
@@ -113,14 +113,14 @@ class ProductService {
             runValidators: true,
         });
         if (!product) {
-            throw new ApiError_1.ApiError(404, 'Product not found');
+            throw new ApiError_1.ApiError(404, "Product not found");
         }
         return product;
     }
     static async remove(id) {
         const product = await models_1.Product.findByIdAndDelete(id);
         if (!product) {
-            throw new ApiError_1.ApiError(404, 'Product not found');
+            throw new ApiError_1.ApiError(404, "Product not found");
         }
         return { id };
     }

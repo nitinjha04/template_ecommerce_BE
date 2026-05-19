@@ -2,18 +2,12 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.productQueryValidator = exports.productIdValidator = exports.updateProductValidator = exports.createProductValidator = void 0;
 const express_validator_1 = require("express-validator");
-const categories = [
-    'Men',
-    'Women',
-    'Outerwear',
-    'Knitwear',
-    'Shirts',
-    'Trousers',
-    'Accessories',
-];
+const categories = ['Men', 'Women', 'Accessories'];
 exports.createProductValidator = [
     (0, express_validator_1.body)('name').trim().notEmpty().withMessage('Name is required'),
-    (0, express_validator_1.body)('price').isFloat({ min: 0 }).withMessage('Valid price is required'),
+    (0, express_validator_1.body)('price')
+        .isFloat({ min: 500, max: 1000 })
+        .withMessage('Price must be between ₹500 and ₹1000'),
     (0, express_validator_1.body)('category').isIn(categories).withMessage('Invalid category'),
     (0, express_validator_1.body)('description').trim().notEmpty().withMessage('Description is required'),
     (0, express_validator_1.body)('sizes').optional().isArray(),
@@ -30,7 +24,7 @@ exports.createProductValidator = [
 exports.updateProductValidator = [
     (0, express_validator_1.param)('id').isMongoId().withMessage('Invalid product id'),
     (0, express_validator_1.body)('name').optional().trim().notEmpty(),
-    (0, express_validator_1.body)('price').optional().isFloat({ min: 0 }),
+    (0, express_validator_1.body)('price').optional().isFloat({ min: 500, max: 1000 }),
     (0, express_validator_1.body)('category').optional().isIn(categories),
     (0, express_validator_1.body)('description').optional().trim().notEmpty(),
     (0, express_validator_1.body)('sizes').optional().isArray(),

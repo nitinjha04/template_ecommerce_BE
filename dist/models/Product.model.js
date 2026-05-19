@@ -35,15 +35,7 @@ var __importStar = (this && this.__importStar) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Product = void 0;
 const mongoose_1 = __importStar(require("mongoose"));
-const PRODUCT_CATEGORIES = [
-    'Men',
-    'Women',
-    'Outerwear',
-    'Knitwear',
-    'Shirts',
-    'Trousers',
-    'Accessories',
-];
+const PRODUCT_CATEGORIES = ['Men', 'Women', 'Accessories'];
 const productSchema = new mongoose_1.Schema({
     name: {
         type: String,
@@ -70,6 +62,7 @@ const productSchema = new mongoose_1.Schema({
         type: String,
         enum: PRODUCT_CATEGORIES,
         required: true,
+        index: true,
     },
     description: {
         type: String,

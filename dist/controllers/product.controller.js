@@ -7,15 +7,15 @@ const params_1 = require("../utils/params");
 const ApiResponse_1 = require("../views/ApiResponse");
 class ProductController {
     static getAll = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
-        const { page, limit, category, featured, inStock, search, sort } = req.query;
+        const { page, limit, featured, inStock, search, sort, category } = req.query;
         const result = await product_service_1.ProductService.getAll({
             page: page ? Number(page) : undefined,
             limit: limit ? Number(limit) : undefined,
-            category: category,
             featured: featured === 'true' ? true : featured === 'false' ? false : undefined,
             inStock: inStock === 'true' ? true : inStock === 'false' ? false : undefined,
             search: search,
             sort: sort,
+            category: category,
         });
         ApiResponse_1.ApiResponse.success(res, result.products, 'Products fetched', 200, result.pagination);
     });

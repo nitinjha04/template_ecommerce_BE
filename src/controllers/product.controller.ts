@@ -8,16 +8,16 @@ import { ProductCategory } from '../types';
 
 export class ProductController {
   static getAll = asyncHandler(async (req: Request, res: Response) => {
-    const { page, limit, category, featured, inStock, search, sort } = req.query;
+    const { page, limit, featured, inStock, search, sort, category } = req.query;
 
     const result = await ProductService.getAll({
       page: page ? Number(page) : undefined,
       limit: limit ? Number(limit) : undefined,
-      category: category as ProductCategory | undefined,
       featured: featured === 'true' ? true : featured === 'false' ? false : undefined,
       inStock: inStock === 'true' ? true : inStock === 'false' ? false : undefined,
       search: search as string | undefined,
       sort: sort as 'price_asc' | 'price_desc' | 'newest' | 'oldest' | undefined,
+      category: category as ProductCategory | undefined,
     });
 
     ApiResponse.success(res, result.products, 'Products fetched', 200, result.pagination);

@@ -20,15 +20,7 @@ export interface IProduct extends Document {
   updatedAt: Date;
 }
 
-const PRODUCT_CATEGORIES: ProductCategory[] = [
-  'Men',
-  'Women',
-  'Outerwear',
-  'Knitwear',
-  'Shirts',
-  'Trousers',
-  'Accessories',
-];
+const PRODUCT_CATEGORIES: ProductCategory[] = ['Men', 'Women', 'Accessories'];
 
 const productSchema = new Schema<IProduct>(
   {
@@ -57,6 +49,7 @@ const productSchema = new Schema<IProduct>(
       type: String,
       enum: PRODUCT_CATEGORIES,
       required: true,
+      index: true,
     },
     description: {
       type: String,

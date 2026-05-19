@@ -49,7 +49,7 @@ const baseLayout = (title: string, body: string): string => `
         <table width="600" cellpadding="0" cellspacing="0" style="background:#fff;border:1px solid #e5e5e5;">
           <tr>
             <td style="padding:32px 40px 24px;border-bottom:1px solid #e5e5e5;">
-              <h1 style="margin:0;font-size:24px;font-weight:normal;letter-spacing:2px;">LUCIDUS</h1>
+              <h1 style="margin:0;font-size:24px;font-weight:normal;letter-spacing:2px;">NEXACORE</h1>
             </td>
           </tr>
           <tr>
@@ -59,7 +59,7 @@ const baseLayout = (title: string, body: string): string => `
           </tr>
           <tr>
             <td style="padding:20px 40px;background:#fafafa;border-top:1px solid #e5e5e5;font-family:Arial,sans-serif;font-size:12px;color:#888;">
-              This is an automated message from Lucidus. Please do not reply directly to this email.
+              This is an automated message from NEXACORE. Please do not reply directly to this email.
             </td>
           </tr>
         </table>

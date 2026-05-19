@@ -3,14 +3,7 @@ import { Types } from 'mongoose';
 
 export type UserRole = 'customer' | 'admin';
 
-export type ProductCategory =
-  | 'Men'
-  | 'Women'
-  | 'Outerwear'
-  | 'Knitwear'
-  | 'Shirts'
-  | 'Trousers'
-  | 'Accessories';
+export type ProductCategory = 'Men' | 'Women' | 'Accessories';
 
 export type OrderStatus =
   | 'Pending'

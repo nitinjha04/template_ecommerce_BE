@@ -13,7 +13,7 @@ const upload_routes_1 = __importDefault(require("./upload.routes"));
 const dashboard_routes_1 = __importDefault(require("./dashboard.routes"));
 const router = (0, express_1.Router)();
 router.get('/health', (_req, res) => {
-    res.json({ success: true, message: 'Lucidus API is running' });
+    res.json({ success: true, message: 'NEXACORE API is running' });
 });
 router.use('/auth', auth_routes_1.default);
 router.use('/products', product_routes_1.default);
