@@ -21,7 +21,10 @@
     "seed:men-women": "tsx src/scripts/seed-men-women.ts",
     "seed:women": "tsx src/scripts/seed-men-women.ts --women-only",
     "seed:men": "tsx src/scripts/seed-men-women.ts --men-only",
-    "seed:accessories": "tsx src/scripts/seed-accessories.ts"
+    "seed:accessories": "tsx src/scripts/seed-accessories.ts",
+    "seed:v2-men-women": "tsx src/scripts/seed-v2-men-women.ts",
+    "seed:v2-men": "tsx src/scripts/seed-v2-men-women.ts --men-only",
+    "seed:v2-women": "tsx src/scripts/seed-v2-men-women.ts --women-only"
   },
   "keywords": [
     "ecommerce",
