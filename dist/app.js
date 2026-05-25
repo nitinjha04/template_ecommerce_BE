@@ -17,6 +17,7 @@ const allowedOrigins = [
     "http://localhost:5173",
     "http://localhost:5174",
     "https://template-ecommerce-fe.vercel.app",
+    "https://template-eccomerce-v2.vercel.app",
 ];
 app.use((0, helmet_1.default)({
     crossOriginResourcePolicy: { policy: "cross-origin" },

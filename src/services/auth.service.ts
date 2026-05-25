@@ -4,6 +4,7 @@ import { ApiError } from '../utils/ApiError';
 import { signToken } from '../utils/jwt';
 import { env } from '../config/env';
 import { EmailService } from './email.service';
+import type { AuthResponsePayload } from '../types/auth';
 
 interface SignupInput {
   name: string;
@@ -16,7 +17,10 @@ interface LoginInput {
   password: string;
 }
 
-const formatAuthResponse = (user: InstanceType<typeof User>, token: string) => ({
+const formatAuthResponse = (
+  user: InstanceType<typeof User>,
+  token: string
+): AuthResponsePayload => ({
   user: {
     id: user._id.toString(),
     name: user.name,
