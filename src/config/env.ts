@@ -16,10 +16,7 @@ export const env = {
   mongodbUri: process.env.MONGODB_URI!,
   jwtSecret: process.env.JWT_SECRET!,
   jwtExpiresIn: process.env.JWT_EXPIRES_IN ?? "7d",
-  corsOrigin: process.env.CORS_ORIGIN?.split(",").map((o) => o.trim()) ?? [
-    "http://localhost:5173",
-    "https://template-ecommerce-fe.vercel.app",
-  ],
+  corsOrigin: process.env.CORS_ORIGIN?.split(",").map((o) => o.trim()),
   imagekit: {
     publicKey: process.env.IMAGEKIT_PUBLIC_KEY ?? "",
     privateKey: process.env.IMAGEKIT_PRIVATE_KEY ?? "",
@@ -44,8 +41,7 @@ export const env = {
   },
   emailEnabled: process.env.EMAIL_ENABLED === "true",
   frontendUrl:
-    process.env.FRONTEND_URL?.split(",")[0]?.trim() ||
-    "http://localhost:5173",
+    process.env.FRONTEND_URL?.split(",")[0]?.trim() || "http://localhost:5173",
 };
 
 const isPlaceholder = (value: string): boolean =>
@@ -66,7 +62,7 @@ export const isImageKitConfigured = (): boolean => {
 
 export const getApiPublicOrigin = (): string => {
   const fromEnv = process.env.API_PUBLIC_URL?.trim();
-  if (fromEnv) return fromEnv.replace(/\/$/, '');
+  if (fromEnv) return fromEnv.replace(/\/$/, "");
   return `http://localhost:${env.port}`;
 };
 

@@ -9,12 +9,8 @@ import routes from "./routes";
 
 const app = express();
 const uploadsDir = path.join(process.cwd(), "uploads");
-const allowedOrigins = [
-  "http://localhost:5173",
-  "http://localhost:5174",
-  "https://template-eccomerce-v2.vercel.app",
-  "https://template-ecommerce-fe.vercel.app",
-];
+const allowedOrigins = env.corsOrigin ?? [];
+console.info("🚀 ~ allowedOrigins:", allowedOrigins)
 app.use(
   helmet({
     crossOriginResourcePolicy: { policy: "cross-origin" },
@@ -39,7 +35,9 @@ app.use(express.json({ limit: "10mb" }));
 app.use(express.urlencoded({ extended: true }));
 app.use(
   "/uploads",
-  express.static(uploadsDir, { maxAge: env.nodeEnv === "production" ? "7d" : 0 }),
+  express.static(uploadsDir, {
+    maxAge: env.nodeEnv === "production" ? "7d" : 0,
+  }),
 );
 
 app.use("/api/v1", routes);
