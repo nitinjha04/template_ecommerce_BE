@@ -116,7 +116,7 @@ const inferColorsFromName = (name, category) => {
     }
     const defaults = category === 'Men'
         ? ['Black', 'Navy', 'White', 'Beige']
-        : category === 'Women'
+        : category === 'Women' || category === 'Lehenga' || category === 'Saree'
             ? ['Black', 'Ivory', 'Navy', 'Blush']
             : ['Black', 'Gold', 'Silver', 'Tan'];
     const merged = [...found, ...defaults];
@@ -137,8 +137,9 @@ exports.inferColorsFromName = inferColorsFromName;
 const sizesForCategory = (category) => {
     if (category === 'Men')
         return ['S', 'M', 'L', 'XL', 'XXL'];
-    if (category === 'Women')
+    if (category === 'Women' || category === 'Lehenga' || category === 'Saree') {
         return ['XS', 'S', 'M', 'L', 'XL', 'XXL'];
+    }
     return ['One Size'];
 };
 exports.sizesForCategory = sizesForCategory;
@@ -147,9 +148,13 @@ exports.randomPriceInr = randomPriceInr;
 const buildDescription = (name, category) => {
     const lead = category === 'Men'
         ? 'Premium menswear piece with a comfortable fit and quality finish.'
-        : category === 'Women'
-            ? 'Stylish womenswear designed for everyday comfort and easy layering.'
-            : 'Thoughtfully crafted accessory to complete your look with polish and ease.';
+        : category === 'Lehenga'
+            ? 'Elegant lehenga set crafted for celebrations with rich detailing and a flattering fit.'
+            : category === 'Saree'
+                ? 'Beautiful saree with quality drape and finish, ideal for festive and everyday occasions.'
+                : category === 'Women'
+                    ? 'Stylish womenswear designed for everyday comfort and easy layering.'
+                    : 'Thoughtfully crafted accessory to complete your look with polish and ease.';
     const trimmed = name.length > 200 ? `${name.slice(0, 197)}...` : name;
     return `${trimmed} ${lead}`;
 };

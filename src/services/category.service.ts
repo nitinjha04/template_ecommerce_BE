@@ -2,11 +2,12 @@ import { Category, ICategory, Product } from '../models';
 import { ApiError } from '../utils/ApiError';
 import { slugify } from '../utils/slug';
 
-const DEFAULT_CATEGORY_NAMES = ['Women', 'Men', 'Accessories'] as const;
+const DEFAULT_CATEGORY_NAMES = ['Men', 'Lehenga', 'Saree', 'Accessories'] as const;
 
 const DEFAULT_SLUGS: Record<(typeof DEFAULT_CATEGORY_NAMES)[number], string> = {
-  Women: 'women',
   Men: 'men',
+  Lehenga: 'lehenga',
+  Saree: 'saree',
   Accessories: 'accessories',
 };
 

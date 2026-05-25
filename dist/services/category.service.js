@@ -4,10 +4,11 @@ exports.CategoryService = void 0;
 const models_1 = require("../models");
 const ApiError_1 = require("../utils/ApiError");
 const slug_1 = require("../utils/slug");
-const DEFAULT_CATEGORY_NAMES = ['Women', 'Men', 'Accessories'];
+const DEFAULT_CATEGORY_NAMES = ['Men', 'Lehenga', 'Saree', 'Accessories'];
 const DEFAULT_SLUGS = {
-    Women: 'women',
     Men: 'men',
+    Lehenga: 'lehenga',
+    Saree: 'saree',
     Accessories: 'accessories',
 };
 let defaultsEnsured = false;

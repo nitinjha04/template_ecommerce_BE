@@ -25,6 +25,7 @@
     "seed:v2-men-women": "tsx src/scripts/seed-v2-men-women.ts",
     "seed:v2-men": "tsx src/scripts/seed-v2-men-women.ts --men-only",
     "seed:v2-women": "tsx src/scripts/seed-v2-men-women.ts --women-only",
+    "seed:v3": "tsx src/scripts/seed-v3-catalog.ts",
     "seed:backfill-pdp": "tsx src/scripts/backfill-product-details.ts"
   },
   "keywords": [

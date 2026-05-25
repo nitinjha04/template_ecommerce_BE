@@ -104,7 +104,7 @@ const resolveOriginalPrice = (raw, salePrice) => {
     return Math.min(original, salePrice + 500);
 };
 const buildRandomProductDetails = (raw, category, salePrice) => {
-    const isWomen = category === 'Women';
+    const isWomen = category === 'Women' || category === 'Lehenga' || category === 'Saree';
     const fabrics = isWomen ? WOMEN_FABRICS : MEN_FABRICS;
     const packages = isWomen ? WOMEN_PACKAGE : MEN_PACKAGE;
     const necklines = isWomen ? NECKLINES_WOMEN : NECKLINES_MEN;
