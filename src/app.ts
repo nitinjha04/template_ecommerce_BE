@@ -12,8 +12,8 @@ const uploadsDir = path.join(process.cwd(), "uploads");
 const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:5174",
-  "https://template-ecommerce-fe.vercel.app",
   "https://template-eccomerce-v2.vercel.app",
+  "https://template-ecommerce-fe.vercel.app",
 ];
 app.use(
   helmet({
