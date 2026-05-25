@@ -1,10 +1,11 @@
 import mongoose, { Document, Schema, Types } from 'mongoose';
 import { PaymentStatus } from '../types';
+import { isPopulatedSubdoc, refToIdString } from '../utils/mongooseRefs';
 
 export interface IPayment extends Document {
   paymentNumber: string;
   order: Types.ObjectId;
-  user: Types.ObjectId;
+  user?: Types.ObjectId;
   method: string;
   amount: number;
   status: PaymentStatus;
@@ -30,7 +31,7 @@ const paymentSchema = new Schema<IPayment>(
     user: {
       type: Schema.Types.ObjectId,
       ref: 'User',
-      required: true,
+      required: false,
       index: true,
     },
     method: { type: String, required: true },
@@ -47,10 +48,31 @@ const paymentSchema = new Schema<IPayment>(
       virtuals: true,
       transform(_doc, ret: Record<string, unknown>) {
         ret.id = String(ret._id);
-        ret.orderId = ret.order != null ? String(ret.order) : ret.order;
+
+        const orderRef = ret.order;
+        if (orderRef != null) {
+          if (isPopulatedSubdoc(orderRef)) {
+            ret.orderId = refToIdString(
+              orderRef._id ?? orderRef.id ?? orderRef
+            );
+            ret.order = {
+              orderNumber: orderRef.orderNumber as string | undefined,
+              total: orderRef.total as number | undefined,
+              status: orderRef.status as string | undefined,
+            };
+          } else {
+            ret.orderId = refToIdString(orderRef);
+            delete ret.order;
+          }
+        }
+
+        if (ret.user != null) {
+          ret.userId = refToIdString(ret.user);
+          delete ret.user;
+        }
+
         delete ret._id;
         delete ret.__v;
-        delete ret.order;
         return ret;
       },
     },

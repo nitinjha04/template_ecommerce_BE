@@ -13,6 +13,7 @@ const router = Router();
 
 router.post('/signup', validate(signupValidator), AuthController.signup);
 router.post('/login', validate(loginValidator), AuthController.login);
+router.post('/admin/login', validate(loginValidator), AuthController.loginAdmin);
 router.post(
   '/forgot-password',
   validate(forgotPasswordValidator),

@@ -6,9 +6,15 @@ import { ApiResponse } from '../views/ApiResponse';
 import { AuthRequest, PaymentStatus } from '../types';
 
 export class PaymentController {
-  static getAll = asyncHandler(async (_req: AuthRequest, res: Response) => {
-    const payments = await PaymentService.getAll();
-    ApiResponse.success(res, payments);
+  static getAll = asyncHandler(async (req: AuthRequest, res: Response) => {
+    const { page, limit, search, status } = req.query;
+    const result = await PaymentService.getAllAdmin({
+      page: page ? Number(page) : undefined,
+      limit: limit ? Number(limit) : undefined,
+      search: search as string | undefined,
+      status: status as string | undefined,
+    });
+    ApiResponse.success(res, result.items, 'Payments fetched', 200, result.pagination);
   });
 
   static getMyPayments = asyncHandler(async (req: AuthRequest, res: Response) => {

@@ -1,7 +1,7 @@
 {
-  "name": "lucidus-ecommerce-api",
+  "name": "casaq-ecommerce-api",
   "version": "1.0.0",
-  "description": "Lucidus ecommerce REST API",
+  "description": "Casaq ecommerce REST API",
   "main": "dist/server.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
@@ -24,7 +24,8 @@
     "seed:accessories": "tsx src/scripts/seed-accessories.ts",
     "seed:v2-men-women": "tsx src/scripts/seed-v2-men-women.ts",
     "seed:v2-men": "tsx src/scripts/seed-v2-men-women.ts --men-only",
-    "seed:v2-women": "tsx src/scripts/seed-v2-men-women.ts --women-only"
+    "seed:v2-women": "tsx src/scripts/seed-v2-men-women.ts --women-only",
+    "seed:backfill-pdp": "tsx src/scripts/backfill-product-details.ts"
   },
   "keywords": [
     "ecommerce",

@@ -1,5 +1,14 @@
+import { FilterQuery } from 'mongoose';
 import { Contact } from '../models';
+import { IContact } from '../models/Contact.model';
 import { ApiError } from '../utils/ApiError';
+import {
+  buildPaginationMeta,
+  PaginatedResult,
+  parsePagination,
+  searchRegex,
+} from '../utils/pagination';
+import { AdminListQuery } from '../types/adminList';
 
 interface CreateContactInput {
   name: string;
@@ -13,8 +22,30 @@ export class ContactService {
     return Contact.create(input);
   }
 
-  static async getAll() {
-    return Contact.find().sort({ createdAt: -1 });
+  static async getAllAdmin(
+    query: AdminListQuery
+  ): Promise<PaginatedResult<IContact>> {
+    const { page, limit, skip } = parsePagination(query);
+    const filter: FilterQuery<IContact> = {};
+    const regex = searchRegex(query.search ?? '');
+    if (regex) {
+      filter.$or = [
+        { name: regex },
+        { email: regex },
+        { subject: regex },
+        { message: regex },
+      ];
+    }
+
+    const [items, total] = await Promise.all([
+      Contact.find(filter).sort({ createdAt: -1 }).skip(skip).limit(limit),
+      Contact.countDocuments(filter),
+    ]);
+
+    return {
+      items,
+      pagination: buildPaginationMeta(page, limit, total),
+    };
   }
 
   static async getById(id: string) {

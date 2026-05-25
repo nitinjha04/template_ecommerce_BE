@@ -15,6 +15,11 @@ export class AuthController {
     ApiResponse.success(res, result, 'Logged in successfully');
   });
 
+  static loginAdmin = asyncHandler(async (req: AuthRequest, res: Response) => {
+    const result = await AuthService.loginAdmin(req.body);
+    ApiResponse.success(res, result, 'Admin logged in successfully');
+  });
+
   static getMe = asyncHandler(async (req: AuthRequest, res: Response) => {
     const profile = await AuthService.getProfile(req.user!.userId);
     ApiResponse.success(res, profile);

@@ -19,7 +19,18 @@ export const errorHandler = (
   }
 
   if (err.name === 'ValidationError') {
-    ApiResponse.error(res, err.message, 400);
+    const mongooseErr = err as Error & {
+      errors?: Record<string, { message?: string; path?: string }>;
+    };
+    const details = mongooseErr.errors
+      ? Object.values(mongooseErr.errors).map((e) => ({
+          field: e.path,
+          message: e.message || 'Invalid value',
+        }))
+      : undefined;
+    const summary =
+      details?.map((d) => d.message).join('. ') || err.message || 'Validation failed';
+    ApiResponse.error(res, summary, 400, details);
     return;
   }
 
@@ -30,6 +41,16 @@ export const errorHandler = (
 
   if (err.name === 'CastError') {
     ApiResponse.error(res, 'Invalid resource identifier', 400);
+    return;
+  }
+
+  const multerCode = (err as { code?: string }).code;
+  if (multerCode === 'LIMIT_FILE_SIZE') {
+    ApiResponse.error(res, 'Each image must be 5MB or smaller', 400);
+    return;
+  }
+  if (multerCode === 'LIMIT_FILE_COUNT' || multerCode === 'LIMIT_UNEXPECTED_FILE') {
+    ApiResponse.error(res, 'Too many images in one upload (max 5)', 400);
     return;
   }
 

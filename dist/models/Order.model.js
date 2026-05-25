@@ -38,7 +38,7 @@ const mongoose_1 = __importStar(require("mongoose"));
 const orderItemSchema = new mongoose_1.Schema({
     product: {
         type: mongoose_1.Schema.Types.ObjectId,
-        ref: 'Product',
+        ref: "Product",
         required: true,
     },
     name: { type: String, required: true },
@@ -51,7 +51,8 @@ const orderItemSchema = new mongoose_1.Schema({
 const shippingAddressSchema = new mongoose_1.Schema({
     firstName: { type: String, required: true },
     lastName: { type: String, required: true },
-    phone: { type: String, required: true },
+    company: { type: String, default: "" },
+    phone: { type: String },
     street: { type: String, required: true },
     city: { type: String, required: true },
     state: { type: String, required: true },
@@ -59,11 +60,11 @@ const shippingAddressSchema = new mongoose_1.Schema({
     postalCode: { type: String, required: true },
 }, { _id: false });
 const ORDER_STATUSES = [
-    'Pending',
-    'Processing',
-    'Shipped',
-    'Delivered',
-    'Cancelled',
+    "Pending",
+    "Processing",
+    "Shipped",
+    "Delivered",
+    "Cancelled",
 ];
 const orderSchema = new mongoose_1.Schema({
     orderNumber: {
@@ -73,8 +74,8 @@ const orderSchema = new mongoose_1.Schema({
     },
     user: {
         type: mongoose_1.Schema.Types.ObjectId,
-        ref: 'User',
-        required: true,
+        ref: "User",
+        required: false,
         index: true,
     },
     customerName: { type: String, required: true },
@@ -82,21 +83,21 @@ const orderSchema = new mongoose_1.Schema({
     phone: { type: String, required: true },
     items: {
         type: [orderItemSchema],
-        validate: [(v) => v.length > 0, 'Order must have items'],
+        validate: [(v) => v.length > 0, "Order must have items"],
     },
     itemCount: { type: Number, required: true, min: 1 },
     total: { type: Number, required: true, min: 0 },
     status: {
         type: String,
         enum: ORDER_STATUSES,
-        default: 'Pending',
+        default: "Pending",
     },
     shippingAddress: {
         type: shippingAddressSchema,
         required: true,
     },
     paymentMethod: { type: String, required: true },
-    orderNote: { type: String, default: '' },
+    orderNote: { type: String, default: "" },
 }, {
     timestamps: true,
     toJSON: {
@@ -112,4 +113,7 @@ const orderSchema = new mongoose_1.Schema({
     },
 });
 orderSchema.index({ status: 1, createdAt: -1 });
-exports.Order = mongoose_1.default.model('Order', orderSchema);
+orderSchema.index({ email: 1, createdAt: -1 });
+orderSchema.index({ phone: 1, createdAt: -1 });
+orderSchema.index({ orderNumber: 1 });
+exports.Order = mongoose_1.default.model("Order", orderSchema);

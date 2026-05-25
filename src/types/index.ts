@@ -3,7 +3,8 @@ import { Types } from 'mongoose';
 
 export type UserRole = 'customer' | 'admin';
 
-export type ProductCategory = 'Men' | 'Women' | 'Accessories';
+/** @deprecated Use string; kept for gradual migration in scripts */
+export type ProductCategory = string;
 
 export type OrderStatus =
   | 'Pending'

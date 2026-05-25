@@ -2,24 +2,30 @@ import { Response } from 'express';
 import { OrderService } from '../services/order.service';
 import { asyncHandler } from '../utils/asyncHandler';
 import { getParamId } from '../utils/params';
+import { normalizeGuestOrderBody } from '../utils/orderPayload';
 import { ApiResponse } from '../views/ApiResponse';
 import { AuthRequest, OrderStatus } from '../types';
 
 export class OrderController {
+  static createGuest = asyncHandler(async (req, res: Response) => {
+    const normalized = normalizeGuestOrderBody(req.body);
+
+    const result = await OrderService.create(normalized);
+
+    ApiResponse.created(res, result, 'Order placed successfully');
+  });
+
+  static track = asyncHandler(async (req, res: Response) => {
+    const orders = await OrderService.track(req.body.query);
+    ApiResponse.success(res, orders);
+  });
+
   static create = asyncHandler(async (req: AuthRequest, res: Response) => {
-    const { email, phone, shippingAddress, paymentMethod, items, orderNote } =
-      req.body;
-    const customerName = `${shippingAddress.firstName} ${shippingAddress.lastName}`;
+    const normalized = normalizeGuestOrderBody(req.body);
 
     const result = await OrderService.create({
       userId: req.user!.userId,
-      customerName,
-      email,
-      phone,
-      items,
-      shippingAddress,
-      paymentMethod,
-      orderNote,
+      ...normalized,
     });
 
     ApiResponse.created(res, result, 'Order placed successfully');
@@ -30,9 +36,15 @@ export class OrderController {
     ApiResponse.success(res, orders);
   });
 
-  static getAll = asyncHandler(async (_req: AuthRequest, res: Response) => {
-    const orders = await OrderService.getAllOrders();
-    ApiResponse.success(res, orders);
+  static getAll = asyncHandler(async (req: AuthRequest, res: Response) => {
+    const { page, limit, search, status } = req.query;
+    const result = await OrderService.getAllAdmin({
+      page: page ? Number(page) : undefined,
+      limit: limit ? Number(limit) : undefined,
+      search: search as string | undefined,
+      status: status as string | undefined,
+    });
+    ApiResponse.success(res, result.items, 'Orders fetched', 200, result.pagination);
   });
 
   static getById = asyncHandler(async (req: AuthRequest, res: Response) => {

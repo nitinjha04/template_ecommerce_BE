@@ -1,11 +1,10 @@
 import mongoose, { Document, Schema } from 'mongoose';
-import { ProductCategory } from '../types';
-
 export interface IProduct extends Document {
   name: string;
   slug: string;
   price: number;
-  category: ProductCategory;
+  originalPrice: number;
+  category: string;
   description: string;
   metaTitle: string;
   metaDescription: string;
@@ -16,11 +15,24 @@ export interface IProduct extends Document {
   tags: string[];
   inStock: boolean;
   featured: boolean;
+  isHot: boolean;
+  isPublished: boolean;
+  fabricComposition: string;
+  garmentLength: string;
+  packageContains: string;
+  washCare: string;
+  neckline: string;
+  sleeveLength: string;
+  fitting: string;
+  weight: string;
+  dimensions: string;
+  stockQuantity: number;
+  deliveryStartDate?: Date;
+  deliveryEndDate?: Date;
+  breadcrumbCategory: string;
   createdAt: Date;
   updatedAt: Date;
 }
-
-const PRODUCT_CATEGORIES: ProductCategory[] = ['Men', 'Women', 'Accessories'];
 
 const productSchema = new Schema<IProduct>(
   {
@@ -45,10 +57,15 @@ const productSchema = new Schema<IProduct>(
       required: [true, 'Price is required'],
       min: 0,
     },
+    originalPrice: {
+      type: Number,
+      default: 0,
+      min: 0,
+    },
     category: {
       type: String,
-      enum: PRODUCT_CATEGORIES,
-      required: true,
+      required: [true, 'Category is required'],
+      trim: true,
       index: true,
     },
     description: {
@@ -79,6 +96,32 @@ const productSchema = new Schema<IProduct>(
       type: Boolean,
       default: false,
     },
+    isHot: {
+      type: Boolean,
+      default: false,
+    },
+    isPublished: {
+      type: Boolean,
+      default: true,
+      index: true,
+    },
+    fabricComposition: { type: String, default: '', trim: true },
+    garmentLength: { type: String, default: '', trim: true },
+    packageContains: { type: String, default: '', trim: true },
+    washCare: { type: String, default: '', trim: true },
+    neckline: { type: String, default: '', trim: true },
+    sleeveLength: { type: String, default: '', trim: true },
+    fitting: { type: String, default: '', trim: true },
+    weight: { type: String, default: '', trim: true },
+    dimensions: { type: String, default: '', trim: true },
+    stockQuantity: {
+      type: Number,
+      default: 0,
+      min: 0,
+    },
+    deliveryStartDate: { type: Date },
+    deliveryEndDate: { type: Date },
+    breadcrumbCategory: { type: String, default: '', trim: true },
   },
   {
     timestamps: true,
@@ -86,6 +129,12 @@ const productSchema = new Schema<IProduct>(
       virtuals: true,
       transform(_doc, ret: Record<string, unknown>) {
         ret.id = String(ret._id);
+        if (ret.deliveryStartDate instanceof Date) {
+          ret.deliveryStartDate = ret.deliveryStartDate.toISOString();
+        }
+        if (ret.deliveryEndDate instanceof Date) {
+          ret.deliveryEndDate = ret.deliveryEndDate.toISOString();
+        }
         delete ret._id;
         delete ret.__v;
         return ret;

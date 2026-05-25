@@ -55,6 +55,13 @@ class AuthService {
         });
         return formatAuthResponse(user, token);
     }
+    static async loginAdmin(input) {
+        const result = await this.login(input);
+        if (result.user.role !== 'admin') {
+            throw new ApiError_1.ApiError(403, 'Admin access only');
+        }
+        return result;
+    }
     static async getProfile(userId) {
         const user = await models_1.User.findById(userId);
         if (!user) {

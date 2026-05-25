@@ -1,6 +1,7 @@
 import { Router } from 'express';
 import authRoutes from './auth.routes';
 import productRoutes from './product.routes';
+import categoryRoutes from './category.routes';
 import orderRoutes from './order.routes';
 import paymentRoutes from './payment.routes';
 import contactRoutes from './contact.routes';
@@ -10,11 +11,12 @@ import dashboardRoutes from './dashboard.routes';
 const router = Router();
 
 router.get('/health', (_req, res) => {
-  res.json({ success: true, message: 'NEXACORE API is running' });
+  res.json({ success: true, message: 'Casaq API is running' });
 });
 
 router.use('/auth', authRoutes);
 router.use('/products', productRoutes);
+router.use('/categories', categoryRoutes);
 router.use('/orders', orderRoutes);
 router.use('/payments', paymentRoutes);
 router.use('/contact', contactRoutes);

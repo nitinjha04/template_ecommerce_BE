@@ -14,7 +14,15 @@ const errorHandler = (err, _req, res, _next) => {
         return;
     }
     if (err.name === 'ValidationError') {
-        ApiResponse_1.ApiResponse.error(res, err.message, 400);
+        const mongooseErr = err;
+        const details = mongooseErr.errors
+            ? Object.values(mongooseErr.errors).map((e) => ({
+                field: e.path,
+                message: e.message || 'Invalid value',
+            }))
+            : undefined;
+        const summary = details?.map((d) => d.message).join('. ') || err.message || 'Validation failed';
+        ApiResponse_1.ApiResponse.error(res, summary, 400, details);
         return;
     }
     if (err.code === 11000) {
@@ -23,6 +31,15 @@ const errorHandler = (err, _req, res, _next) => {
     }
     if (err.name === 'CastError') {
         ApiResponse_1.ApiResponse.error(res, 'Invalid resource identifier', 400);
+        return;
+    }
+    const multerCode = err.code;
+    if (multerCode === 'LIMIT_FILE_SIZE') {
+        ApiResponse_1.ApiResponse.error(res, 'Each image must be 5MB or smaller', 400);
+        return;
+    }
+    if (multerCode === 'LIMIT_FILE_COUNT' || multerCode === 'LIMIT_UNEXPECTED_FILE') {
+        ApiResponse_1.ApiResponse.error(res, 'Too many images in one upload (max 5)', 400);
         return;
     }
     if (err.name === 'JsonWebTokenError') {

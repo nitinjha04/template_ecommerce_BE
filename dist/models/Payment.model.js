@@ -35,6 +35,7 @@ var __importStar = (this && this.__importStar) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Payment = void 0;
 const mongoose_1 = __importStar(require("mongoose"));
+const mongooseRefs_1 = require("../utils/mongooseRefs");
 const PAYMENT_STATUSES = ['Completed', 'Pending', 'Failed'];
 const paymentSchema = new mongoose_1.Schema({
     paymentNumber: {
@@ -51,7 +52,7 @@ const paymentSchema = new mongoose_1.Schema({
     user: {
         type: mongoose_1.Schema.Types.ObjectId,
         ref: 'User',
-        required: true,
+        required: false,
         index: true,
     },
     method: { type: String, required: true },
@@ -67,10 +68,27 @@ const paymentSchema = new mongoose_1.Schema({
         virtuals: true,
         transform(_doc, ret) {
             ret.id = String(ret._id);
-            ret.orderId = ret.order != null ? String(ret.order) : ret.order;
+            const orderRef = ret.order;
+            if (orderRef != null) {
+                if ((0, mongooseRefs_1.isPopulatedSubdoc)(orderRef)) {
+                    ret.orderId = (0, mongooseRefs_1.refToIdString)(orderRef._id ?? orderRef.id ?? orderRef);
+                    ret.order = {
+                        orderNumber: orderRef.orderNumber,
+                        total: orderRef.total,
+                        status: orderRef.status,
+                    };
+                }
+                else {
+                    ret.orderId = (0, mongooseRefs_1.refToIdString)(orderRef);
+                    delete ret.order;
+                }
+            }
+            if (ret.user != null) {
+                ret.userId = (0, mongooseRefs_1.refToIdString)(ret.user);
+                delete ret.user;
+            }
             delete ret._id;
             delete ret.__v;
-            delete ret.order;
             return ret;
         },
     },

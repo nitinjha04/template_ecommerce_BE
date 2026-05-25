@@ -35,7 +35,6 @@ var __importStar = (this && this.__importStar) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Product = void 0;
 const mongoose_1 = __importStar(require("mongoose"));
-const PRODUCT_CATEGORIES = ['Men', 'Women', 'Accessories'];
 const productSchema = new mongoose_1.Schema({
     name: {
         type: String,
@@ -58,10 +57,15 @@ const productSchema = new mongoose_1.Schema({
         required: [true, 'Price is required'],
         min: 0,
     },
+    originalPrice: {
+        type: Number,
+        default: 0,
+        min: 0,
+    },
     category: {
         type: String,
-        enum: PRODUCT_CATEGORIES,
-        required: true,
+        required: [true, 'Category is required'],
+        trim: true,
         index: true,
     },
     description: {
@@ -92,12 +96,44 @@ const productSchema = new mongoose_1.Schema({
         type: Boolean,
         default: false,
     },
+    isHot: {
+        type: Boolean,
+        default: false,
+    },
+    isPublished: {
+        type: Boolean,
+        default: true,
+        index: true,
+    },
+    fabricComposition: { type: String, default: '', trim: true },
+    garmentLength: { type: String, default: '', trim: true },
+    packageContains: { type: String, default: '', trim: true },
+    washCare: { type: String, default: '', trim: true },
+    neckline: { type: String, default: '', trim: true },
+    sleeveLength: { type: String, default: '', trim: true },
+    fitting: { type: String, default: '', trim: true },
+    weight: { type: String, default: '', trim: true },
+    dimensions: { type: String, default: '', trim: true },
+    stockQuantity: {
+        type: Number,
+        default: 0,
+        min: 0,
+    },
+    deliveryStartDate: { type: Date },
+    deliveryEndDate: { type: Date },
+    breadcrumbCategory: { type: String, default: '', trim: true },
 }, {
     timestamps: true,
     toJSON: {
         virtuals: true,
         transform(_doc, ret) {
             ret.id = String(ret._id);
+            if (ret.deliveryStartDate instanceof Date) {
+                ret.deliveryStartDate = ret.deliveryStartDate.toISOString();
+            }
+            if (ret.deliveryEndDate instanceof Date) {
+                ret.deliveryEndDate = ret.deliveryEndDate.toISOString();
+            }
             delete ret._id;
             delete ret.__v;
             return ret;

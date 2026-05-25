@@ -1,6 +1,6 @@
 /**
  * Replaces Men and/or Women products from v2 JSON exports.
- * Only maps fields that exist on the Product model (name, price, images, etc.).
+ * Maps Product fields including random PDP details (fabric, neckline, stock, delivery, etc.).
  * Accessories are never changed.
  *
  * Relative image paths are prefixed with https://uat.tangerineluxury.com by default.
@@ -44,7 +44,7 @@ const sortByPosition = (items: V2ProductRaw[]): V2ProductRaw[] =>
 const importCategory = async (
   items: V2ProductRaw[],
   category: ProductCategory,
-  mediaBase: string
+  mediaBase?: string
 ): Promise<{ inserted: number; skipped: number }> => {
   const sorted = sortByPosition(items);
   const usedSlugs = new Set<string>();
@@ -73,7 +73,9 @@ const importCategory = async (
 
     await Product.create(doc);
     inserted += 1;
-    console.log(`  [${category}] ${doc.name.slice(0, 55)}… → ₹${doc.price} (${doc.images.length} img)`);
+    console.log(
+      `  [${category}] ${doc.name.slice(0, 50)}… → ₹${doc.price} (MRP ₹${doc.originalPrice}, stock ${doc.stockQuantity})`
+    );
   }
 
   return { inserted, skipped };

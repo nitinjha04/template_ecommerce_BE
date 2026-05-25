@@ -26,9 +26,9 @@ export const env = {
     urlEndpoint: process.env.IMAGEKIT_URL_ENDPOINT ?? "",
   },
   seedAdmin: {
-    email: process.env.SEED_ADMIN_EMAIL ?? "admin@lucidus.in",
+    email: process.env.SEED_ADMIN_EMAIL ?? "casaqte@gmail.com",
     password: process.env.SEED_ADMIN_PASSWORD ?? "Admin@123",
-    name: process.env.SEED_ADMIN_NAME ?? "Admin User",
+    name: process.env.SEED_ADMIN_NAME ?? "Casaq Admin",
   },
   smtp: {
     host: process.env.SMTP_HOST ?? "",
@@ -36,11 +36,11 @@ export const env = {
     secure: process.env.SMTP_SECURE === "true",
     user: process.env.SMTP_USER ?? "",
     pass: process.env.SMTP_PASS ?? "",
-    from: process.env.SMTP_FROM ?? "Lucidus <noreply@lucidus.in>",
+    from: process.env.SMTP_FROM ?? "Casaq <casaqte@gmail.com>",
     adminEmail:
       process.env.ADMIN_EMAIL ??
       process.env.SEED_ADMIN_EMAIL ??
-      "admin@lucidus.in",
+      "casaqte@gmail.com",
   },
   emailEnabled: process.env.EMAIL_ENABLED === "true",
   frontendUrl:
@@ -48,12 +48,27 @@ export const env = {
     "http://localhost:5173",
 };
 
-export const isImageKitConfigured = (): boolean =>
-  Boolean(
-    env.imagekit.publicKey &&
-    env.imagekit.privateKey &&
-    env.imagekit.urlEndpoint,
-  );
+const isPlaceholder = (value: string): boolean =>
+  /your_|changeme|example|placeholder/i.test(value);
+
+export const isImageKitConfigured = (): boolean => {
+  const { publicKey, privateKey, urlEndpoint } = env.imagekit;
+  if (!publicKey || !privateKey || !urlEndpoint) return false;
+  if (
+    isPlaceholder(publicKey) ||
+    isPlaceholder(privateKey) ||
+    isPlaceholder(urlEndpoint)
+  ) {
+    return false;
+  }
+  return true;
+};
+
+export const getApiPublicOrigin = (): string => {
+  const fromEnv = process.env.API_PUBLIC_URL?.trim();
+  if (fromEnv) return fromEnv.replace(/\/$/, '');
+  return `http://localhost:${env.port}`;
+};
 
 export const isEmailConfigured = (): boolean =>
   Boolean(env.smtp.host && env.smtp.user && env.smtp.pass);

@@ -1,7 +1,14 @@
-import { Types } from 'mongoose';
+import { FilterQuery, Types } from 'mongoose';
 import { Order, Payment, Product } from '../models';
-import { IOrderItem, IShippingAddress } from '../models/Order.model';
+import { IOrder, IOrderItem, IShippingAddress } from '../models/Order.model';
 import { ApiError } from '../utils/ApiError';
+import {
+  buildPaginationMeta,
+  PaginatedResult,
+  parsePagination,
+  searchRegex,
+} from '../utils/pagination';
+import { AdminListQuery } from '../types/adminList';
 import { OrderStatus } from '../types';
 // import { EmailService } from './email.service';
 
@@ -13,7 +20,7 @@ interface OrderItemInput {
 }
 
 interface CreateOrderInput {
-  userId: string;
+  userId?: string;
   customerName: string;
   email: string;
   phone: string;
@@ -51,6 +58,9 @@ export class OrderService {
       if (!product) {
         throw new ApiError(404, `Product not found: ${item.productId}`);
       }
+      if (product.isPublished === false) {
+        throw new ApiError(400, `${product.name} is no longer available`);
+      }
       if (!product.inStock) {
         throw new ApiError(400, `${product.name} is out of stock`);
       }
@@ -72,9 +82,8 @@ export class OrderService {
 
     const orderNumber = await generateOrderNumber();
 
-    const order = await Order.create({
+    const orderPayload: Record<string, unknown> = {
       orderNumber,
-      user: input.userId,
       customerName: input.customerName,
       email: input.email,
       phone: input.phone,
@@ -85,17 +94,24 @@ export class OrderService {
       shippingAddress: input.shippingAddress,
       paymentMethod: PAYMENT_METHOD_LABEL,
       orderNote: input.orderNote?.trim() || '',
-    });
+    };
+    if (input.userId) {
+      orderPayload.user = input.userId;
+    }
+    const order = await Order.create(orderPayload);
 
     const paymentNumber = await generatePaymentNumber();
-    const payment = await Payment.create({
+    const paymentPayload: Record<string, unknown> = {
       paymentNumber,
       order: order._id,
-      user: input.userId,
       method: PAYMENT_METHOD_LABEL,
       amount: total,
       status: resolvePaymentStatus('COD'),
-    });
+    };
+    if (input.userId) {
+      paymentPayload.user = input.userId;
+    }
+    const payment = await Payment.create(paymentPayload);
 
     // SMTP: order placed → buyer + admin (set EMAIL_ENABLED=true, configure SMTP, uncomment)
     // void EmailService.sendOrderPlacedEmails(order as IOrder).catch((err) =>
@@ -113,17 +129,84 @@ export class OrderService {
     return Order.find().sort({ createdAt: -1 });
   }
 
+  static async getAllAdmin(
+    query: AdminListQuery
+  ): Promise<PaginatedResult<IOrder>> {
+    const { page, limit, skip } = parsePagination(query);
+    const filter: FilterQuery<IOrder> = {};
+
+    if (query.status && query.status !== 'All') {
+      filter.status = query.status as OrderStatus;
+    }
+
+    const regex = searchRegex(query.search ?? '');
+    if (regex) {
+      filter.$or = [
+        { orderNumber: regex },
+        { customerName: regex },
+        { email: regex },
+        { phone: regex },
+      ];
+    }
+
+    const [items, total] = await Promise.all([
+      Order.find(filter).sort({ createdAt: -1 }).skip(skip).limit(limit),
+      Order.countDocuments(filter),
+    ]);
+
+    return {
+      items,
+      pagination: buildPaginationMeta(page, limit, total),
+    };
+  }
+
   static async getById(id: string, userId?: string, isAdmin = false) {
     const order = await Order.findById(id);
     if (!order) {
       throw new ApiError(404, 'Order not found');
     }
 
-    if (!isAdmin && order.user.toString() !== userId) {
-      throw new ApiError(403, 'Access denied');
+    if (!isAdmin) {
+      if (!order.user || !userId) {
+        throw new ApiError(403, 'Access denied');
+      }
+      if (order.user.toString() !== userId) {
+        throw new ApiError(403, 'Access denied');
+      }
     }
 
     return order;
+  }
+
+  static async track(query: string) {
+    const q = query.trim();
+    if (!q) {
+      throw new ApiError(400, 'Enter order ID, email, or phone number');
+    }
+
+    const emailLower = q.toLowerCase();
+    const digitsOnly = q.replace(/\D/g, '');
+
+    const orConditions: Record<string, unknown>[] = [
+      { orderNumber: { $regex: new RegExp(`^${q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`, 'i') } },
+      { email: emailLower },
+    ];
+
+    if (digitsOnly.length >= 6) {
+      orConditions.push({ phone: { $regex: digitsOnly } });
+    } else if (!q.includes('@')) {
+      orConditions.push({ phone: { $regex: q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') } });
+    }
+
+    const orders = await Order.find({ $or: orConditions })
+      .sort({ createdAt: -1 })
+      .limit(20);
+
+    if (orders.length === 0) {
+      throw new ApiError(404, 'No orders found for this search');
+    }
+
+    return orders;
   }
 
   static async updateStatus(id: string, status: OrderStatus) {
@@ -174,6 +257,10 @@ export class OrderService {
       'Total',
       'Payment Method',
       'Items',
+      'First Name',
+      'Last Name',
+      'Company',
+      'Shipping Phone',
       'Street',
       'City',
       'State',
@@ -194,6 +281,10 @@ export class OrderService {
         o.total,
         o.paymentMethod,
         o.itemCount,
+        addr?.firstName || '',
+        addr?.lastName || '',
+        addr?.company || '',
+        addr?.phone || '',
         addr?.street || '',
         addr?.city || '',
         addr?.state || '',

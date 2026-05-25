@@ -1,4 +1,5 @@
 import { ProductCategory } from '../../types';
+import { buildRandomProductDetails } from './random-product-details';
 
 /** Minimal shape read from v2 export JSON — only fields used by our Product model. */
 export type V2GalleryImage = { url?: string; order?: number };
@@ -33,6 +34,7 @@ export type MappedProduct = {
   name: string;
   slug: string;
   price: number;
+  originalPrice: number;
   category: ProductCategory;
   description: string;
   sizes: string[];
@@ -41,9 +43,38 @@ export type MappedProduct = {
   tags: string[];
   inStock: boolean;
   featured: boolean;
+  isHot: boolean;
+  fabricComposition: string;
+  garmentLength: string;
+  packageContains: string;
+  washCare: string;
+  neckline: string;
+  sleeveLength: string;
+  fitting: string;
+  weight: string;
+  dimensions: string;
+  stockQuantity: number;
+  deliveryStartDate: Date;
+  deliveryEndDate: Date;
+  breadcrumbCategory: string;
   metaTitle: string;
   metaDescription: string;
   metaKeywords: string[];
+};
+
+const SALE_MIN = 500;
+const SALE_MAX = 1000;
+
+const randomSalePrice = (): number =>
+  Math.floor(Math.random() * (SALE_MAX - SALE_MIN + 1)) + SALE_MIN;
+
+/** Sale price in ₹500–₹1000 (uses v2 price when already in range). */
+export const resolveSalePrice = (raw: V2ProductRaw): number => {
+  const fromV2 = resolvePrice(raw);
+  if (fromV2 >= SALE_MIN && fromV2 <= SALE_MAX) return Math.round(fromV2);
+  if (fromV2 > SALE_MAX) return SALE_MAX;
+  if (fromV2 > 0 && fromV2 < SALE_MIN) return SALE_MIN;
+  return randomSalePrice();
 };
 
 const stripHtml = (html: string): string =>
@@ -154,11 +185,15 @@ export const mapV2ToProduct = (
   const descriptionRaw = raw.description?.trim() ?? '';
   const description = stripHtml(descriptionRaw) || `${name} — ${category} collection.`;
 
-  const price = resolvePrice(raw);
+  const price = resolveSalePrice(raw);
   if (price <= 0) return null;
 
   const images = collectImages(raw, mediaBase);
   if (images.length === 0) return null;
+
+  const sizes = collectSizes(raw);
+  const colors = collectColors(raw);
+  const details = buildRandomProductDetails(raw, category, price);
 
   const tags = (raw.tags ?? [])
     .map((t) => String(t).trim())
@@ -169,20 +204,35 @@ export const mapV2ToProduct = (
     raw.isSoldOut !== true &&
     raw.isActive !== false &&
     raw.isPublished !== false &&
-    (raw.totalStock === undefined || raw.totalStock > 0);
+    details.stockQuantity > 0;
 
   return {
     name,
     slug,
     price,
+    originalPrice: details.originalPrice,
     category,
     description,
-    sizes: collectSizes(raw),
-    colors: collectColors(raw),
+    sizes: sizes.length > 0 ? sizes : ['Free Size'],
+    colors: colors.length > 0 ? colors : ['Multi'],
     images,
     tags,
     inStock,
     featured: index < 4,
+    isHot: details.isHot,
+    fabricComposition: details.fabricComposition,
+    garmentLength: details.garmentLength,
+    packageContains: details.packageContains,
+    washCare: details.washCare,
+    neckline: details.neckline,
+    sleeveLength: details.sleeveLength,
+    fitting: details.fitting,
+    weight: details.weight,
+    dimensions: details.dimensions,
+    stockQuantity: details.stockQuantity,
+    deliveryStartDate: details.deliveryStartDate,
+    deliveryEndDate: details.deliveryEndDate,
+    breadcrumbCategory: details.breadcrumbCategory,
     metaTitle: name.slice(0, 70),
     metaDescription: description.slice(0, 160),
     metaKeywords: tags.slice(0, 12),

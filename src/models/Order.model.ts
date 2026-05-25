@@ -1,5 +1,5 @@
-import mongoose, { Document, Schema, Types } from 'mongoose';
-import { OrderStatus } from '../types';
+import mongoose, { Document, Schema, Types } from "mongoose";
+import { OrderStatus } from "../types";
 
 export interface IOrderItem {
   product: Types.ObjectId;
@@ -14,7 +14,8 @@ export interface IOrderItem {
 export interface IShippingAddress {
   firstName: string;
   lastName: string;
-  phone: string;
+  company?: string;
+  phone?: string;
   street: string;
   city: string;
   state: string;
@@ -24,7 +25,7 @@ export interface IShippingAddress {
 
 export interface IOrder extends Document {
   orderNumber: string;
-  user: Types.ObjectId;
+  user?: Types.ObjectId;
   customerName: string;
   email: string;
   phone: string;
@@ -43,7 +44,7 @@ const orderItemSchema = new Schema<IOrderItem>(
   {
     product: {
       type: Schema.Types.ObjectId,
-      ref: 'Product',
+      ref: "Product",
       required: true,
     },
     name: { type: String, required: true },
@@ -53,29 +54,30 @@ const orderItemSchema = new Schema<IOrderItem>(
     color: { type: String, required: true },
     image: { type: String },
   },
-  { _id: false }
+  { _id: false },
 );
 
 const shippingAddressSchema = new Schema<IShippingAddress>(
   {
     firstName: { type: String, required: true },
     lastName: { type: String, required: true },
-    phone: { type: String, required: true },
+    company: { type: String, default: "" },
+    phone: { type: String },
     street: { type: String, required: true },
     city: { type: String, required: true },
     state: { type: String, required: true },
     country: { type: String, required: true },
     postalCode: { type: String, required: true },
   },
-  { _id: false }
+  { _id: false },
 );
 
 const ORDER_STATUSES: OrderStatus[] = [
-  'Pending',
-  'Processing',
-  'Shipped',
-  'Delivered',
-  'Cancelled',
+  "Pending",
+  "Processing",
+  "Shipped",
+  "Delivered",
+  "Cancelled",
 ];
 
 const orderSchema = new Schema<IOrder>(
@@ -87,8 +89,8 @@ const orderSchema = new Schema<IOrder>(
     },
     user: {
       type: Schema.Types.ObjectId,
-      ref: 'User',
-      required: true,
+      ref: "User",
+      required: false,
       index: true,
     },
     customerName: { type: String, required: true },
@@ -96,21 +98,21 @@ const orderSchema = new Schema<IOrder>(
     phone: { type: String, required: true },
     items: {
       type: [orderItemSchema],
-      validate: [(v: IOrderItem[]) => v.length > 0, 'Order must have items'],
+      validate: [(v: IOrderItem[]) => v.length > 0, "Order must have items"],
     },
     itemCount: { type: Number, required: true, min: 1 },
     total: { type: Number, required: true, min: 0 },
     status: {
       type: String,
       enum: ORDER_STATUSES,
-      default: 'Pending',
+      default: "Pending",
     },
     shippingAddress: {
       type: shippingAddressSchema,
       required: true,
     },
     paymentMethod: { type: String, required: true },
-    orderNote: { type: String, default: '' },
+    orderNote: { type: String, default: "" },
   },
   {
     timestamps: true,
@@ -125,9 +127,12 @@ const orderSchema = new Schema<IOrder>(
         return ret;
       },
     },
-  }
+  },
 );
 
 orderSchema.index({ status: 1, createdAt: -1 });
+orderSchema.index({ email: 1, createdAt: -1 });
+orderSchema.index({ phone: 1, createdAt: -1 });
+orderSchema.index({ orderNumber: 1 });
 
-export const Order = mongoose.model<IOrder>('Order', orderSchema);
+export const Order = mongoose.model<IOrder>("Order", orderSchema);

@@ -10,9 +10,14 @@ class ContactController {
         const message = await contact_service_1.ContactService.create(req.body);
         ApiResponse_1.ApiResponse.created(res, message, 'Message sent successfully');
     });
-    static getAll = (0, asyncHandler_1.asyncHandler)(async (_req, res) => {
-        const messages = await contact_service_1.ContactService.getAll();
-        ApiResponse_1.ApiResponse.success(res, messages);
+    static getAll = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
+        const { page, limit, search } = req.query;
+        const result = await contact_service_1.ContactService.getAllAdmin({
+            page: page ? Number(page) : undefined,
+            limit: limit ? Number(limit) : undefined,
+            search: search,
+        });
+        ApiResponse_1.ApiResponse.success(res, result.items, 'Messages fetched', 200, result.pagination);
     });
     static getById = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
         const message = await contact_service_1.ContactService.getById((0, params_1.getParamId)(req));

@@ -6,9 +6,15 @@ const asyncHandler_1 = require("../utils/asyncHandler");
 const params_1 = require("../utils/params");
 const ApiResponse_1 = require("../views/ApiResponse");
 class PaymentController {
-    static getAll = (0, asyncHandler_1.asyncHandler)(async (_req, res) => {
-        const payments = await payment_service_1.PaymentService.getAll();
-        ApiResponse_1.ApiResponse.success(res, payments);
+    static getAll = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
+        const { page, limit, search, status } = req.query;
+        const result = await payment_service_1.PaymentService.getAllAdmin({
+            page: page ? Number(page) : undefined,
+            limit: limit ? Number(limit) : undefined,
+            search: search,
+            status: status,
+        });
+        ApiResponse_1.ApiResponse.success(res, result.items, 'Payments fetched', 200, result.pagination);
     });
     static getMyPayments = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
         const payments = await payment_service_1.PaymentService.getMyPayments(req.user.userId);
