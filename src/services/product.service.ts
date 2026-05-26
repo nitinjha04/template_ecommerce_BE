@@ -5,6 +5,7 @@ import { slugify } from "../utils/slug";
 import { CategoryService } from "./category.service";
 import { applySearchOr } from "../utils/pagination";
 import { normalizeProductImages } from "../utils/productImages";
+import { serializeProducts } from "../utils/serializeProduct";
 
 const ensureUniqueSlug = async (
   base: string,
@@ -278,7 +279,7 @@ export class ProductService {
     ]);
 
     return {
-      products,
+      products: serializeProducts(products),
       pagination: {
         page,
         limit,

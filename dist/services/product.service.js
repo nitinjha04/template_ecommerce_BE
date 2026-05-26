@@ -8,6 +8,7 @@ const slug_1 = require("../utils/slug");
 const category_service_1 = require("./category.service");
 const pagination_1 = require("../utils/pagination");
 const productImages_1 = require("../utils/productImages");
+const serializeProduct_1 = require("../utils/serializeProduct");
 const ensureUniqueSlug = async (base, excludeId) => {
     const root = (0, slug_1.slugify)(base) || "product";
     let attempt = 0;
@@ -190,7 +191,7 @@ class ProductService {
             ProductService.getFacets(query),
         ]);
         return {
-            products,
+            products: (0, serializeProduct_1.serializeProducts)(products),
             pagination: {
                 page,
                 limit,
