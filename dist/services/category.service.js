@@ -4,14 +4,6 @@ exports.CategoryService = void 0;
 const models_1 = require("../models");
 const ApiError_1 = require("../utils/ApiError");
 const slug_1 = require("../utils/slug");
-const DEFAULT_CATEGORY_NAMES = ['Men', 'Lehenga', 'Saree', 'Accessories'];
-const DEFAULT_SLUGS = {
-    Men: 'men',
-    Lehenga: 'lehenga',
-    Saree: 'saree',
-    Accessories: 'accessories',
-};
-let defaultsEnsured = false;
 const ensureUniqueSlug = async (base, excludeId) => {
     const root = (0, slug_1.slugify)(base) || 'category';
     let attempt = 0;
@@ -28,26 +20,6 @@ const ensureUniqueSlug = async (base, excludeId) => {
     return `${root}-${Date.now()}`;
 };
 class CategoryService {
-    /** Run once at startup — not on every list request. */
-    static async ensureDefaults() {
-        if (defaultsEnsured)
-            return;
-        await models_1.Category.bulkWrite(DEFAULT_CATEGORY_NAMES.map((name, index) => ({
-            updateOne: {
-                filter: { name },
-                update: {
-                    $setOnInsert: {
-                        name,
-                        slug: DEFAULT_SLUGS[name],
-                        sortOrder: index,
-                        isActive: true,
-                    },
-                },
-                upsert: true,
-            },
-        })));
-        defaultsEnsured = true;
-    }
     static async listActive() {
         return models_1.Category.find({ isActive: { $ne: false } })
             .select('name slug sortOrder isActive')

@@ -43,9 +43,6 @@ export const importManifest = async (
   const cleanCategoryName = replaceNykaaWithCasaq(categoryName.trim());
   let resolvedCategory = cleanCategoryName;
   if (!dryRun) {
-    if (options.skipConnect) {
-      await CategoryService.ensureDefaults();
-    }
     resolvedCategory = await CategoryService.resolveProductCategory(cleanCategoryName);
     console.log(`Category "${resolvedCategory}" is ready (created if it was missing).`);
   } else {

@@ -2,7 +2,7 @@ import crypto from 'crypto';
 import { User } from '../models';
 import { ApiError } from '../utils/ApiError';
 import { signToken } from '../utils/jwt';
-import { env } from '../config/env';
+import { env, isEmailEnabled } from '../config/env';
 import { EmailService } from './email.service';
 import type { AuthResponsePayload } from '../types/auth';
 
@@ -16,6 +16,9 @@ interface LoginInput {
   email: string;
   password: string;
 }
+
+const OTP_TTL_MS = 10 * 60 * 1000;
+const RESET_VERIFIED_TTL_MS = 15 * 60 * 1000;
 
 const formatAuthResponse = (
   user: InstanceType<typeof User>,
@@ -33,19 +36,103 @@ const formatAuthResponse = (
 const hashToken = (token: string) =>
   crypto.createHash('sha256').update(token).digest('hex');
 
+const generateOtp = () => String(crypto.randomInt(100000, 1000000));
+
+const normalizeEmail = (email: string) => email.toLowerCase().trim();
+
+const isEmailVerified = (user: InstanceType<typeof User>) =>
+  user.role === 'admin' || user.emailVerified !== false;
+
+const assignSignupOtp = async (user: InstanceType<typeof User>) => {
+  const otp = generateOtp();
+  user.signupOtpHash = hashToken(otp);
+  user.signupOtpExpires = new Date(Date.now() + OTP_TTL_MS);
+  await user.save({ validateBeforeSave: false });
+  await EmailService.sendSignupOtp(user.email, user.name, otp);
+
+  if (!isEmailEnabled() && env.nodeEnv === 'development') {
+    console.log(`[dev] Signup OTP for ${user.email}:`, otp);
+  }
+};
+
+const assignResetOtp = async (user: InstanceType<typeof User>) => {
+  const otp = generateOtp();
+  user.resetOtpHash = hashToken(otp);
+  user.resetOtpExpires = new Date(Date.now() + OTP_TTL_MS);
+  user.resetOtpVerifiedAt = undefined;
+  await user.save({ validateBeforeSave: false });
+  await EmailService.sendPasswordResetOtp(user.email, user.name, otp);
+
+  if (!isEmailEnabled() && env.nodeEnv === 'development') {
+    console.log(`[dev] Password reset OTP for ${user.email}:`, otp);
+  }
+};
+
 export class AuthService {
   static async signup(input: SignupInput) {
-    const existing = await User.findOne({ email: input.email });
-    if (existing) {
+    const email = normalizeEmail(input.email);
+    const existing = await User.findOne({ email }).select(
+      '+signupOtpHash +signupOtpExpires'
+    );
+
+    if (existing?.emailVerified) {
       throw new ApiError(409, 'Email is already registered');
     }
 
-    const user = await User.create({
-      name: input.name,
-      email: input.email,
-      password: input.password,
-      role: 'customer',
-    });
+    let user = existing;
+
+    if (user) {
+      user.name = input.name.trim();
+      user.password = input.password;
+      user.emailVerified = false;
+    } else {
+      user = await User.create({
+        name: input.name.trim(),
+        email,
+        password: input.password,
+        role: 'customer',
+        emailVerified: false,
+      });
+    }
+
+    await assignSignupOtp(user);
+
+    return {
+      message: 'Verification code sent to your email.',
+      email: user.email,
+    };
+  }
+
+  static async verifySignupOtp(email: string, otp: string) {
+    const normalizedEmail = normalizeEmail(email);
+    const user = await User.findOne({ email: normalizedEmail }).select(
+      '+signupOtpHash +signupOtpExpires'
+    );
+
+    if (!user) {
+      throw new ApiError(400, 'Invalid or expired verification code');
+    }
+
+    if (user.emailVerified) {
+      throw new ApiError(400, 'Email is already verified. Please sign in.');
+    }
+
+    if (!user.signupOtpHash || !user.signupOtpExpires) {
+      throw new ApiError(400, 'Invalid or expired verification code');
+    }
+
+    if (user.signupOtpExpires.getTime() < Date.now()) {
+      throw new ApiError(400, 'Verification code has expired');
+    }
+
+    if (hashToken(otp.trim()) !== user.signupOtpHash) {
+      throw new ApiError(400, 'Invalid verification code');
+    }
+
+    user.emailVerified = true;
+    user.signupOtpHash = undefined;
+    user.signupOtpExpires = undefined;
+    await user.save({ validateBeforeSave: false });
 
     const token = signToken({
       userId: user._id.toString(),
@@ -56,8 +143,24 @@ export class AuthService {
     return formatAuthResponse(user, token);
   }
 
+  static async resendSignupOtp(email: string) {
+    const normalizedEmail = normalizeEmail(email);
+    const user = await User.findOne({ email: normalizedEmail });
+
+    const message = 'If an account exists, a verification code has been sent.';
+
+    if (!user || user.emailVerified) {
+      return { message };
+    }
+
+    await assignSignupOtp(user);
+    return { message, email: user.email };
+  }
+
   static async login(input: LoginInput) {
-    const user = await User.findOne({ email: input.email }).select('+password');
+    const user = await User.findOne({ email: normalizeEmail(input.email) }).select(
+      '+password'
+    );
     if (!user) {
       throw new ApiError(401, 'Invalid email or password');
     }
@@ -65,6 +168,13 @@ export class AuthService {
     const isMatch = await user.comparePassword(input.password);
     if (!isMatch) {
       throw new ApiError(401, 'Invalid email or password');
+    }
+
+    if (!isEmailVerified(user)) {
+      throw new ApiError(
+        403,
+        'Please verify your email before signing in. Check your inbox for the code.'
+      );
     }
 
     const token = signToken({
@@ -99,7 +209,7 @@ export class AuthService {
   }
 
   static async forgotPassword(email: string) {
-    const user = await User.findOne({ email: email.toLowerCase() });
+    const user = await User.findOne({ email: normalizeEmail(email) });
     const message =
       'If that email exists, a verification code has been sent.';
 
@@ -107,28 +217,14 @@ export class AuthService {
       return { message };
     }
 
-    const otp = String(crypto.randomInt(100000, 1000000));
-    user.resetOtpHash = hashToken(otp);
-    user.resetOtpExpires = new Date(Date.now() + 10 * 60 * 1000);
-    await user.save({ validateBeforeSave: false });
-
-    await EmailService.sendPasswordResetOtp(user.email, user.name, otp);
-
-    if (env.nodeEnv === 'development') {
-      console.log(`[dev] Password reset OTP for ${user.email}:`, otp);
-    }
-
-    return { message };
+    await assignResetOtp(user);
+    return { message, email: user.email };
   }
 
-  static async resetPassword(
-    email: string,
-    otp: string,
-    password: string
-  ) {
-    const normalizedEmail = email.toLowerCase().trim();
+  static async verifyForgotPasswordOtp(email: string, otp: string) {
+    const normalizedEmail = normalizeEmail(email);
     const user = await User.findOne({ email: normalizedEmail }).select(
-      '+password +resetOtpHash +resetOtpExpires'
+      '+resetOtpHash +resetOtpExpires'
     );
 
     if (!user?.resetOtpHash || !user.resetOtpExpires) {
@@ -143,9 +239,30 @@ export class AuthService {
       throw new ApiError(400, 'Invalid verification code');
     }
 
-    user.password = password;
     user.resetOtpHash = undefined;
     user.resetOtpExpires = undefined;
+    user.resetOtpVerifiedAt = new Date();
+    await user.save({ validateBeforeSave: false });
+
+    return { message: 'Code verified. You can set a new password.', email: user.email };
+  }
+
+  static async resetPassword(email: string, password: string) {
+    const normalizedEmail = normalizeEmail(email);
+    const user = await User.findOne({ email: normalizedEmail }).select(
+      '+password +resetOtpVerifiedAt'
+    );
+
+    if (!user?.resetOtpVerifiedAt) {
+      throw new ApiError(400, 'Please verify your email code first');
+    }
+
+    if (user.resetOtpVerifiedAt.getTime() < Date.now() - RESET_VERIFIED_TTL_MS) {
+      throw new ApiError(400, 'Verification expired. Please request a new code.');
+    }
+
+    user.password = password;
+    user.resetOtpVerifiedAt = undefined;
     user.resetPasswordToken = undefined;
     user.resetPasswordExpires = undefined;
     await user.save();

@@ -26,6 +26,7 @@ const seed = async () => {
             email: env_1.env.seedAdmin.email,
             password: env_1.env.seedAdmin.password,
             role: 'admin',
+            emailVerified: true,
         });
         console.log(`Admin created: ${env_1.env.seedAdmin.email}`);
     }
@@ -44,6 +45,7 @@ const seed = async () => {
                 email: customer.email,
                 password: customer.password,
                 role: 'customer',
+                emailVerified: true,
             });
             console.log(`Customer created: ${customer.email}`);
         }

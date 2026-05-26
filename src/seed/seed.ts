@@ -35,6 +35,7 @@ const seed = async (): Promise<void> => {
       email: env.seedAdmin.email,
       password: env.seedAdmin.password,
       role: 'admin',
+      emailVerified: true,
     });
     console.log(`Admin created: ${env.seedAdmin.email}`);
   } else {
@@ -53,6 +54,7 @@ const seed = async (): Promise<void> => {
         email: customer.email,
         password: customer.password,
         role: 'customer',
+        emailVerified: true,
       });
       console.log(`Customer created: ${customer.email}`);
     }

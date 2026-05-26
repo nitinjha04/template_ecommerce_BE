@@ -64,10 +64,17 @@ const userSchema = new mongoose_1.Schema({
         enum: ['customer', 'admin'],
         default: 'customer',
     },
+    emailVerified: {
+        type: Boolean,
+        default: true,
+    },
+    signupOtpHash: { type: String, select: false },
+    signupOtpExpires: { type: Date, select: false },
     resetPasswordToken: { type: String, select: false },
     resetPasswordExpires: { type: Date, select: false },
     resetOtpHash: { type: String, select: false },
     resetOtpExpires: { type: Date, select: false },
+    resetOtpVerifiedAt: { type: Date, select: false },
     wishlist: [{ type: mongoose_1.Schema.Types.ObjectId, ref: 'Product' }],
 }, {
     timestamps: true,

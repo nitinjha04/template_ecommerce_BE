@@ -2,17 +2,6 @@ import { Category, ICategory, Product } from '../models';
 import { ApiError } from '../utils/ApiError';
 import { slugify } from '../utils/slug';
 
-const DEFAULT_CATEGORY_NAMES = ['Men', 'Lehenga', 'Saree', 'Accessories'] as const;
-
-const DEFAULT_SLUGS: Record<(typeof DEFAULT_CATEGORY_NAMES)[number], string> = {
-  Men: 'men',
-  Lehenga: 'lehenga',
-  Saree: 'saree',
-  Accessories: 'accessories',
-};
-
-let defaultsEnsured = false;
-
 const ensureUniqueSlug = async (
   base: string,
   excludeId?: string
@@ -31,30 +20,6 @@ const ensureUniqueSlug = async (
 };
 
 export class CategoryService {
-  /** Run once at startup — not on every list request. */
-  static async ensureDefaults(): Promise<void> {
-    if (defaultsEnsured) return;
-
-    await Category.bulkWrite(
-      DEFAULT_CATEGORY_NAMES.map((name, index) => ({
-        updateOne: {
-          filter: { name },
-          update: {
-            $setOnInsert: {
-              name,
-              slug: DEFAULT_SLUGS[name],
-              sortOrder: index,
-              isActive: true,
-            },
-          },
-          upsert: true,
-        },
-      }))
-    );
-
-    defaultsEnsured = true;
-  }
-
   static async listActive(): Promise<ICategory[]> {
     return Category.find({ isActive: { $ne: false } })
       .select('name slug sortOrder isActive')

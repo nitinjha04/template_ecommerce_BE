@@ -7,10 +7,14 @@ export interface IUser extends Document {
   email: string;
   password: string;
   role: UserRole;
+  emailVerified: boolean;
+  signupOtpHash?: string;
+  signupOtpExpires?: Date;
   resetPasswordToken?: string;
   resetPasswordExpires?: Date;
   resetOtpHash?: string;
   resetOtpExpires?: Date;
+  resetOtpVerifiedAt?: Date;
   wishlist: Types.ObjectId[];
   createdAt: Date;
   updatedAt: Date;
@@ -43,10 +47,17 @@ const userSchema = new Schema<IUser>(
       enum: ['customer', 'admin'],
       default: 'customer',
     },
+    emailVerified: {
+      type: Boolean,
+      default: true,
+    },
+    signupOtpHash: { type: String, select: false },
+    signupOtpExpires: { type: Date, select: false },
     resetPasswordToken: { type: String, select: false },
     resetPasswordExpires: { type: Date, select: false },
     resetOtpHash: { type: String, select: false },
     resetOtpExpires: { type: Date, select: false },
+    resetOtpVerifiedAt: { type: Date, select: false },
     wishlist: [{ type: Schema.Types.ObjectId, ref: 'Product' }],
   },
   {

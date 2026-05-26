@@ -7,7 +7,15 @@ const ApiResponse_1 = require("../views/ApiResponse");
 class AuthController {
     static signup = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
         const result = await auth_service_1.AuthService.signup(req.body);
-        ApiResponse_1.ApiResponse.created(res, result, 'Account created successfully');
+        ApiResponse_1.ApiResponse.created(res, result, result.message);
+    });
+    static verifySignupOtp = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
+        const result = await auth_service_1.AuthService.verifySignupOtp(req.body.email, req.body.otp);
+        ApiResponse_1.ApiResponse.success(res, result, 'Email verified successfully');
+    });
+    static resendSignupOtp = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
+        const result = await auth_service_1.AuthService.resendSignupOtp(req.body.email);
+        ApiResponse_1.ApiResponse.success(res, result, result.message);
     });
     static login = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
         const result = await auth_service_1.AuthService.login(req.body);
@@ -25,8 +33,12 @@ class AuthController {
         const result = await auth_service_1.AuthService.forgotPassword(req.body.email);
         ApiResponse_1.ApiResponse.success(res, result, result.message);
     });
+    static verifyForgotPasswordOtp = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
+        const result = await auth_service_1.AuthService.verifyForgotPasswordOtp(req.body.email, req.body.otp);
+        ApiResponse_1.ApiResponse.success(res, result, result.message);
+    });
     static resetPassword = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
-        const result = await auth_service_1.AuthService.resetPassword(req.body.email, req.body.otp, req.body.password);
+        const result = await auth_service_1.AuthService.resetPassword(req.body.email, req.body.password);
         ApiResponse_1.ApiResponse.success(res, result, result.message);
     });
 }
