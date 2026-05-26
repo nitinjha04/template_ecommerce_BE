@@ -1,8 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.OrderService = void 0;
+const mongoose_1 = require("mongoose");
 const models_1 = require("../models");
 const ApiError_1 = require("../utils/ApiError");
+const displayPricing_1 = require("../utils/displayPricing");
 const pagination_1 = require("../utils/pagination");
 const PAYMENT_METHOD_LABEL = 'Cash on Delivery';
 const generateOrderNumber = async () => {
@@ -34,13 +36,14 @@ class OrderService {
             if (!product.inStock) {
                 throw new ApiError_1.ApiError(400, `${product.name} is out of stock`);
             }
-            const lineTotal = product.price * item.quantity;
+            const catalogPrice = product.price;
+            const { unitSalePrice, lineTotal } = (0, displayPricing_1.getLineSaleTotal)(catalogPrice, item.quantity);
             total += lineTotal;
             itemCount += item.quantity;
             orderItems.push({
                 product: product._id,
                 name: product.name,
-                price: product.price,
+                price: unitSalePrice,
                 quantity: item.quantity,
                 size: item.size,
                 color: item.color,
@@ -83,11 +86,21 @@ class OrderService {
         // );
         return { order, payment };
     }
-    static async getMyOrders(userId) {
-        return models_1.Order.find({ user: userId }).sort({ createdAt: -1 });
+    static async getMyOrders(userId, email) {
+        const userObjectId = new mongoose_1.Types.ObjectId(userId);
+        const filter = {
+            $or: [{ user: userObjectId }],
+        };
+        if (email?.trim()) {
+            const normalizedEmail = email.toLowerCase().trim();
+            filter.$or.push({ user: { $exists: false }, email: normalizedEmail }, { user: null, email: normalizedEmail });
+        }
+        return models_1.Order.find(filter)
+            .sort({ createdAt: -1, _id: -1 })
+            .lean();
     }
     static async getAllOrders() {
-        return models_1.Order.find().sort({ createdAt: -1 });
+        return models_1.Order.find().sort({ createdAt: -1, _id: -1 });
     }
     static async getAllAdmin(query) {
         const { page, limit, skip } = (0, pagination_1.parsePagination)(query);

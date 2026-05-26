@@ -32,7 +32,10 @@ export class OrderController {
   });
 
   static getMyOrders = asyncHandler(async (req: AuthRequest, res: Response) => {
-    const orders = await OrderService.getMyOrders(req.user!.userId);
+    const orders = await OrderService.getMyOrders(
+      req.user!.userId,
+      req.user!.email
+    );
     ApiResponse.success(res, orders);
   });
 

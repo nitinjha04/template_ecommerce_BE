@@ -25,7 +25,7 @@ class OrderController {
         ApiResponse_1.ApiResponse.created(res, result, 'Order placed successfully');
     });
     static getMyOrders = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
-        const orders = await order_service_1.OrderService.getMyOrders(req.user.userId);
+        const orders = await order_service_1.OrderService.getMyOrders(req.user.userId, req.user.email);
         ApiResponse_1.ApiResponse.success(res, orders);
     });
     static getAll = (0, asyncHandler_1.asyncHandler)(async (req, res) => {

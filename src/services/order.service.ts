@@ -2,6 +2,7 @@ import { FilterQuery, Types } from 'mongoose';
 import { Order, Payment, Product } from '../models';
 import { IOrder, IOrderItem, IShippingAddress } from '../models/Order.model';
 import { ApiError } from '../utils/ApiError';
+import { getLineSaleTotal } from '../utils/displayPricing';
 import {
   buildPaginationMeta,
   PaginatedResult,
@@ -65,14 +66,15 @@ export class OrderService {
         throw new ApiError(400, `${product.name} is out of stock`);
       }
 
-      const lineTotal = product.price * item.quantity;
+      const catalogPrice = product.price;
+      const { unitSalePrice, lineTotal } = getLineSaleTotal(catalogPrice, item.quantity);
       total += lineTotal;
       itemCount += item.quantity;
 
       orderItems.push({
         product: product._id as Types.ObjectId,
         name: product.name,
-        price: product.price,
+        price: unitSalePrice,
         quantity: item.quantity,
         size: item.size,
         color: item.color,
@@ -121,12 +123,27 @@ export class OrderService {
     return { order, payment };
   }
 
-  static async getMyOrders(userId: string) {
-    return Order.find({ user: userId }).sort({ createdAt: -1 });
+  static async getMyOrders(userId: string, email?: string) {
+    const userObjectId = new Types.ObjectId(userId);
+    const filter: FilterQuery<IOrder> = {
+      $or: [{ user: userObjectId }],
+    };
+
+    if (email?.trim()) {
+      const normalizedEmail = email.toLowerCase().trim();
+      filter.$or!.push(
+        { user: { $exists: false }, email: normalizedEmail },
+        { user: null, email: normalizedEmail }
+      );
+    }
+
+    return Order.find(filter)
+      .sort({ createdAt: -1, _id: -1 })
+      .lean<IOrder[]>();
   }
 
   static async getAllOrders() {
-    return Order.find().sort({ createdAt: -1 });
+    return Order.find().sort({ createdAt: -1, _id: -1 });
   }
 
   static async getAllAdmin(
