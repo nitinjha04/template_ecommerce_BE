@@ -5,6 +5,7 @@ const mail_1 = require("../config/mail");
 const env_1 = require("../config/env");
 const orderEmailTemplates_1 = require("../emails/orderEmailTemplates");
 const passwordResetEmail_1 = require("../emails/passwordResetEmail");
+const passwordResetOtpEmail_1 = require("../emails/passwordResetOtpEmail");
 /**
  * Order email notifications via SMTP (Nodemailer).
  *
@@ -38,6 +39,10 @@ class EmailService {
     }
     static async sendPasswordResetEmail(to, name, resetUrl) {
         const { subject, html } = (0, passwordResetEmail_1.passwordResetEmail)(resetUrl, name);
+        await this.send(to, subject, html);
+    }
+    static async sendPasswordResetOtp(to, name, otp) {
+        const { subject, html } = (0, passwordResetOtpEmail_1.passwordResetOtpEmail)(otp, name);
         await this.send(to, subject, html);
     }
 }

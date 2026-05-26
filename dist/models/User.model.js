@@ -66,6 +66,9 @@ const userSchema = new mongoose_1.Schema({
     },
     resetPasswordToken: { type: String, select: false },
     resetPasswordExpires: { type: Date, select: false },
+    resetOtpHash: { type: String, select: false },
+    resetOtpExpires: { type: Date, select: false },
+    wishlist: [{ type: mongoose_1.Schema.Types.ObjectId, ref: 'Product' }],
 }, {
     timestamps: true,
     toJSON: {

@@ -17,7 +17,11 @@ exports.forgotPasswordValidator = [
     (0, express_validator_1.body)('email').trim().isEmail().withMessage('Valid email is required').normalizeEmail(),
 ];
 exports.resetPasswordValidator = [
-    (0, express_validator_1.body)('token').trim().notEmpty().withMessage('Reset token is required'),
+    (0, express_validator_1.body)('email').trim().isEmail().withMessage('Valid email is required').normalizeEmail(),
+    (0, express_validator_1.body)('otp')
+        .trim()
+        .matches(/^\d{6}$/)
+        .withMessage('OTP must be a 6-digit code'),
     (0, express_validator_1.body)('password')
         .isLength({ min: 6 })
         .withMessage('Password must be at least 6 characters'),

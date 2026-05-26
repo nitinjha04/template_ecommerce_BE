@@ -26,7 +26,7 @@ class AuthController {
         ApiResponse_1.ApiResponse.success(res, result, result.message);
     });
     static resetPassword = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
-        const result = await auth_service_1.AuthService.resetPassword(req.body.token, req.body.password);
+        const result = await auth_service_1.AuthService.resetPassword(req.body.email, req.body.otp, req.body.password);
         ApiResponse_1.ApiResponse.success(res, result, result.message);
     });
 }

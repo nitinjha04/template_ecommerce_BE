@@ -76,30 +76,35 @@ class AuthService {
     }
     static async forgotPassword(email) {
         const user = await models_1.User.findOne({ email: email.toLowerCase() });
+        const message = 'If that email exists, a verification code has been sent.';
         if (!user) {
-            return { message: 'If that email exists, a reset link has been sent.' };
+            return { message };
         }
-        const resetToken = crypto_1.default.randomBytes(32).toString('hex');
-        user.resetPasswordToken = hashToken(resetToken);
-        user.resetPasswordExpires = new Date(Date.now() + 60 * 60 * 1000);
+        const otp = String(crypto_1.default.randomInt(100000, 1000000));
+        user.resetOtpHash = hashToken(otp);
+        user.resetOtpExpires = new Date(Date.now() + 10 * 60 * 1000);
         await user.save({ validateBeforeSave: false });
-        const resetUrl = `${env_1.env.frontendUrl}/reset-password?token=${resetToken}`;
-        await email_service_1.EmailService.sendPasswordResetEmail(user.email, user.name, resetUrl);
+        await email_service_1.EmailService.sendPasswordResetOtp(user.email, user.name, otp);
         if (env_1.env.nodeEnv === 'development') {
-            console.log('[dev] Password reset link:', resetUrl);
+            console.log(`[dev] Password reset OTP for ${user.email}:`, otp);
         }
-        return { message: 'If that email exists, a reset link has been sent.' };
+        return { message };
     }
-    static async resetPassword(token, password) {
-        const hashed = hashToken(token);
-        const user = await models_1.User.findOne({
-            resetPasswordToken: hashed,
-            resetPasswordExpires: { $gt: new Date() },
-        }).select('+password +resetPasswordToken +resetPasswordExpires');
-        if (!user) {
-            throw new ApiError_1.ApiError(400, 'Invalid or expired reset token');
+    static async resetPassword(email, otp, password) {
+        const normalizedEmail = email.toLowerCase().trim();
+        const user = await models_1.User.findOne({ email: normalizedEmail }).select('+password +resetOtpHash +resetOtpExpires');
+        if (!user?.resetOtpHash || !user.resetOtpExpires) {
+            throw new ApiError_1.ApiError(400, 'Invalid or expired verification code');
+        }
+        if (user.resetOtpExpires.getTime() < Date.now()) {
+            throw new ApiError_1.ApiError(400, 'Verification code has expired');
+        }
+        if (hashToken(otp.trim()) !== user.resetOtpHash) {
+            throw new ApiError_1.ApiError(400, 'Invalid verification code');
         }
         user.password = password;
+        user.resetOtpHash = undefined;
+        user.resetOtpExpires = undefined;
         user.resetPasswordToken = undefined;
         user.resetPasswordExpires = undefined;
         await user.save();

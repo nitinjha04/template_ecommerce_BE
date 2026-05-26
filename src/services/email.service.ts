@@ -7,6 +7,7 @@ import {
   orderStatusUpdatedEmail,
 } from '../emails/orderEmailTemplates';
 import { passwordResetEmail } from '../emails/passwordResetEmail';
+import { passwordResetOtpEmail } from '../emails/passwordResetOtpEmail';
 
 /**
  * Order email notifications via SMTP (Nodemailer).
@@ -57,6 +58,15 @@ export class EmailService {
     resetUrl: string
   ): Promise<void> {
     const { subject, html } = passwordResetEmail(resetUrl, name);
+    await this.send(to, subject, html);
+  }
+
+  static async sendPasswordResetOtp(
+    to: string,
+    name: string,
+    otp: string
+  ): Promise<void> {
+    const { subject, html } = passwordResetOtpEmail(otp, name);
     await this.send(to, subject, html);
   }
 }

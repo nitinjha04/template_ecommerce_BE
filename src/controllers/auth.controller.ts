@@ -32,7 +32,8 @@ export class AuthController {
 
   static resetPassword = asyncHandler(async (req: AuthRequest, res: Response) => {
     const result = await AuthService.resetPassword(
-      req.body.token,
+      req.body.email,
+      req.body.otp,
       req.body.password
     );
     ApiResponse.success(res, result, result.message);

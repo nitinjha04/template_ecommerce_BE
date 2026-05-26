@@ -100,38 +100,52 @@ export class AuthService {
 
   static async forgotPassword(email: string) {
     const user = await User.findOne({ email: email.toLowerCase() });
+    const message =
+      'If that email exists, a verification code has been sent.';
+
     if (!user) {
-      return { message: 'If that email exists, a reset link has been sent.' };
+      return { message };
     }
 
-    const resetToken = crypto.randomBytes(32).toString('hex');
-    user.resetPasswordToken = hashToken(resetToken);
-    user.resetPasswordExpires = new Date(Date.now() + 60 * 60 * 1000);
+    const otp = String(crypto.randomInt(100000, 1000000));
+    user.resetOtpHash = hashToken(otp);
+    user.resetOtpExpires = new Date(Date.now() + 10 * 60 * 1000);
     await user.save({ validateBeforeSave: false });
 
-    const resetUrl = `${env.frontendUrl}/reset-password?token=${resetToken}`;
-
-    await EmailService.sendPasswordResetEmail(user.email, user.name, resetUrl);
+    await EmailService.sendPasswordResetOtp(user.email, user.name, otp);
 
     if (env.nodeEnv === 'development') {
-      console.log('[dev] Password reset link:', resetUrl);
+      console.log(`[dev] Password reset OTP for ${user.email}:`, otp);
     }
 
-    return { message: 'If that email exists, a reset link has been sent.' };
+    return { message };
   }
 
-  static async resetPassword(token: string, password: string) {
-    const hashed = hashToken(token);
-    const user = await User.findOne({
-      resetPasswordToken: hashed,
-      resetPasswordExpires: { $gt: new Date() },
-    }).select('+password +resetPasswordToken +resetPasswordExpires');
+  static async resetPassword(
+    email: string,
+    otp: string,
+    password: string
+  ) {
+    const normalizedEmail = email.toLowerCase().trim();
+    const user = await User.findOne({ email: normalizedEmail }).select(
+      '+password +resetOtpHash +resetOtpExpires'
+    );
 
-    if (!user) {
-      throw new ApiError(400, 'Invalid or expired reset token');
+    if (!user?.resetOtpHash || !user.resetOtpExpires) {
+      throw new ApiError(400, 'Invalid or expired verification code');
+    }
+
+    if (user.resetOtpExpires.getTime() < Date.now()) {
+      throw new ApiError(400, 'Verification code has expired');
+    }
+
+    if (hashToken(otp.trim()) !== user.resetOtpHash) {
+      throw new ApiError(400, 'Invalid verification code');
     }
 
     user.password = password;
+    user.resetOtpHash = undefined;
+    user.resetOtpExpires = undefined;
     user.resetPasswordToken = undefined;
     user.resetPasswordExpires = undefined;
     await user.save();
