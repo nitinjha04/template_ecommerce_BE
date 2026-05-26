@@ -7,6 +7,7 @@ import paymentRoutes from './payment.routes';
 import contactRoutes from './contact.routes';
 import uploadRoutes from './upload.routes';
 import dashboardRoutes from './dashboard.routes';
+import pincodeRoutes from './pincode.routes';
 
 const router = Router();
 
@@ -22,5 +23,6 @@ router.use('/payments', paymentRoutes);
 router.use('/contact', contactRoutes);
 router.use('/upload', uploadRoutes);
 router.use('/dashboard', dashboardRoutes);
+router.use('/pincode', pincodeRoutes);
 
 export default router;

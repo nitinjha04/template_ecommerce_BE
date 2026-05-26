@@ -1,6 +1,11 @@
 import { Request } from 'express';
 
-export const getParamId = (req: Request): string => {
-  const id = req.params.id;
-  return Array.isArray(id) ? id[0] : id;
+const getParam = (req: Request, key: string): string => {
+  const value = req.params[key];
+  return Array.isArray(value) ? value[0] : (value ?? '');
 };
+
+export const getParamId = (req: Request): string => getParam(req, 'id');
+
+export const getRouteParam = (req: Request, key: string): string =>
+  getParam(req, key);

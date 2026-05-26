@@ -12,6 +12,7 @@ const payment_routes_1 = __importDefault(require("./payment.routes"));
 const contact_routes_1 = __importDefault(require("./contact.routes"));
 const upload_routes_1 = __importDefault(require("./upload.routes"));
 const dashboard_routes_1 = __importDefault(require("./dashboard.routes"));
+const pincode_routes_1 = __importDefault(require("./pincode.routes"));
 const router = (0, express_1.Router)();
 router.get('/health', (_req, res) => {
     res.json({ success: true, message: 'Casaq API is running' });
@@ -24,4 +25,5 @@ router.use('/payments', payment_routes_1.default);
 router.use('/contact', contact_routes_1.default);
 router.use('/upload', upload_routes_1.default);
 router.use('/dashboard', dashboard_routes_1.default);
+router.use('/pincode', pincode_routes_1.default);
 exports.default = router;
