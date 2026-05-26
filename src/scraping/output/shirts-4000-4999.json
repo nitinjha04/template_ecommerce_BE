@@ -1,0 +1,816 @@
+{
+  "scrapedAt": "2026-05-26T10:59:57.551Z",
+  "categoryFilter": "7623",
+  "categoryName": "shirts",
+  "priceMin": 4000,
+  "priceMax": 4999,
+  "categoryId": "6557",
+  "priceMode": "random",
+  "sort": "high-to-low",
+  "totalProducts": 15,
+  "pagesFetched": 1,
+  "products": [
+    {
+      "name": "Jil Sander — Short Sleeve Shirt",
+      "slug": "jil-sander-short-sleeve-shirt",
+      "price": 4736,
+      "originalPrice": 428899,
+      "category": "shirts",
+      "description": "Short Sleeve Shirt. Premium shirts from our curated collection.",
+      "metaTitle": "Jil Sander — Short Sleeve Shirt",
+      "metaDescription": "Short Sleeve Shirt. Premium shirts from our curated collection.",
+      "metaKeywords": [
+        "shirts",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "34",
+        "36",
+        "38"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/0/401c826JILS-WS76_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/0/401c826JILS-WS76_2.jpg"
+      ],
+      "tags": [
+        "shirts"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.4 kg",
+      "dimensions": "10 x 13 x 8 cm",
+      "stockQuantity": 49,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "26436034",
+        "sku": "JILSA00000439",
+        "categoryFilter": "7623",
+        "assignedPriceTier": 4736
+      }
+    },
+    {
+      "name": "Gabriela Hearst — John Austin Shirt",
+      "slug": "gabriela-hearst-john-austin-shirt",
+      "price": 4826,
+      "originalPrice": 322499,
+      "category": "shirts",
+      "description": "John Austin Shirt. Premium shirts from our curated collection.",
+      "metaTitle": "Gabriela Hearst — John Austin Shirt",
+      "metaDescription": "John Austin Shirt. Premium shirts from our curated collection.",
+      "metaKeywords": [
+        "shirts",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "36",
+        "40",
+        "42"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/0/401c826GABF-WS105_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/0/401c826GABF-WS105_2.jpg"
+      ],
+      "tags": [
+        "shirts"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "10 x 16 x 6 cm",
+      "stockQuantity": 47,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-10T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "26382904",
+        "sku": "GABRI00000429",
+        "categoryFilter": "7623",
+        "assignedPriceTier": 4826
+      }
+    },
+    {
+      "name": "J. Logan Home — Vintage Maison Shirt",
+      "slug": "j-logan-home-vintage-maison-shirt",
+      "price": 4209,
+      "originalPrice": 311899,
+      "category": "shirts",
+      "description": "Vintage Maison Shirt. Premium shirts from our curated collection.",
+      "metaTitle": "J. Logan Home — Vintage Maison Shirt",
+      "metaDescription": "Vintage Maison Shirt. Premium shirts from our curated collection.",
+      "metaKeywords": [
+        "shirts",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/8/28b6724JOMF-MS5_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/8/28b6724JOMF-MS5_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/8/28b6724JOMF-MS5_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/8/28b6724JOMF-MS5_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/8/28b6724JOMF-MS5_5.jpg"
+      ],
+      "tags": [
+        "shirts"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Trouser",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 15 x 4 cm",
+      "stockQuantity": 99,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "shirts",
+      "_source": {
+        "nykaaId": "26448567",
+        "sku": "JLOGA00000005",
+        "categoryFilter": "7623",
+        "assignedPriceTier": 4209
+      }
+    },
+    {
+      "name": "Valentino — Cady Couture Shirt",
+      "slug": "valentino-cady-couture-shirt",
+      "price": 4683,
+      "originalPrice": 306599,
+      "category": "shirts",
+      "description": "Cady Couture Shirt. Premium shirts from our curated collection.",
+      "metaTitle": "Valentino — Cady Couture Shirt",
+      "metaDescription": "Cady Couture Shirt. Premium shirts from our curated collection.",
+      "metaKeywords": [
+        "shirts",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "38",
+        "42"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/5/e5e6fadVTIF-WS88_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/5/e5e6fadVTIF-WS88_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/6/c6a731aFinal-HG-Infographic_last.jpg"
+      ],
+      "tags": [
+        "shirts"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Jacket",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 10 x 2 cm",
+      "stockQuantity": 59,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "shirts",
+      "_source": {
+        "nykaaId": "26449011",
+        "sku": "VALAC00005821",
+        "categoryFilter": "7623",
+        "assignedPriceTier": 4683
+      }
+    },
+    {
+      "name": "Valentino — La Cour De Coeur Cuori Shirt",
+      "slug": "valentino-la-cour-de-coeur-cuori-shirt",
+      "price": 4345,
+      "originalPrice": 295999,
+      "category": "shirts",
+      "description": "La Cour De Coeur Cuori Shirt. Premium shirts from our curated collection.",
+      "metaTitle": "Valentino — La Cour De Coeur Cuori Shirt",
+      "metaDescription": "La Cour De Coeur Cuori Shirt. Premium shirts from our curated collection.",
+      "metaKeywords": [
+        "shirts",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "42"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/5/e5e6fadVTIF-WS82_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/5/e5e6fadVTIF-WS82_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/c/6c5ef00Final-HG-Infographic_last.jpg"
+      ],
+      "tags": [
+        "shirts"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.5 kg",
+      "dimensions": "14 x 10 x 5 cm",
+      "stockQuantity": 15,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "26446304",
+        "sku": "VALAC00005783",
+        "categoryFilter": "7623",
+        "assignedPriceTier": 4345
+      }
+    },
+    {
+      "name": "Valentino — Plusdepois Pois Medio Shirt",
+      "slug": "valentino-plusdepois-pois-medio-shirt",
+      "price": 4167,
+      "originalPrice": 285399,
+      "category": "shirts",
+      "description": "Plusdepois Pois Medio Shirt. Premium shirts from our curated collection.",
+      "metaTitle": "Valentino — Plusdepois Pois Medio Shirt",
+      "metaDescription": "Plusdepois Pois Medio Shirt. Premium shirts from our curated collection.",
+      "metaKeywords": [
+        "shirts",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/5/e5e6fadVTIF-WS93_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/5/e5e6fadVTIF-WS93_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/c/6c5ef00Final-HG-Infographic_last.jpg"
+      ],
+      "tags": [
+        "shirts"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.4 kg",
+      "dimensions": "13 x 15 x 5 cm",
+      "stockQuantity": 111,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "26446331",
+        "sku": "VALAC00005786",
+        "categoryFilter": "7623",
+        "assignedPriceTier": 4167
+      }
+    },
+    {
+      "name": "Valentino — Crepe De Chine Shirt",
+      "slug": "valentino-crepe-de-chine-shirt",
+      "price": 4660,
+      "originalPrice": 253599,
+      "category": "shirts",
+      "description": "Crepe De Chine Shirt. Premium shirts from our curated collection.",
+      "metaTitle": "Valentino — Crepe De Chine Shirt",
+      "metaDescription": "Crepe De Chine Shirt. Premium shirts from our curated collection.",
+      "metaKeywords": [
+        "shirts",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "40",
+        "42"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/5/e5e6fadVTIF-WS92_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/5/e5e6fadVTIF-WS92_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/6/c6a731aFinal-HG-Infographic_last.jpg"
+      ],
+      "tags": [
+        "shirts"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.4 kg",
+      "dimensions": "12 x 15 x 6 cm",
+      "stockQuantity": 118,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "shirts",
+      "_source": {
+        "nykaaId": "26449012",
+        "sku": "VALAC00005822",
+        "categoryFilter": "7623",
+        "assignedPriceTier": 4660
+      }
+    },
+    {
+      "name": "POLO RALPH LAUREN — Landry Lamb-Suede Shirt",
+      "slug": "polo-ralph-lauren-landry-lamb-suede-shirt",
+      "price": 4775,
+      "originalPrice": 231699,
+      "category": "shirts",
+      "description": "Landry Lamb-Suede Shirt. Premium shirts from our curated collection.",
+      "metaTitle": "POLO RALPH LAUREN — Landry Lamb-Suede Shirt",
+      "metaDescription": "Landry Lamb-Suede Shirt. Premium shirts from our curated collection.",
+      "metaKeywords": [
+        "shirts",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "0",
+        "2",
+        "4",
+        "6"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/5/e5e6fadRALF-WS10_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/5/e5e6fadRALF-WS10_2.jpg"
+      ],
+      "tags": [
+        "shirts"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.4 kg",
+      "dimensions": "14 x 15 x 3 cm",
+      "stockQuantity": 12,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "26436349",
+        "sku": "POLAH00003763",
+        "categoryFilter": "7623",
+        "assignedPriceTier": 4775
+      }
+    },
+    {
+      "name": "ALAIA — ALA A Trimmed Shirt",
+      "slug": "alaia-ala-a-trimmed-shirt",
+      "price": 4786,
+      "originalPrice": 211299,
+      "category": "shirts",
+      "description": "ALA A Trimmed Shirt. Premium shirts from our curated collection.",
+      "metaTitle": "ALAIA — ALA A Trimmed Shirt",
+      "metaDescription": "ALA A Trimmed Shirt. Premium shirts from our curated collection.",
+      "metaKeywords": [
+        "shirts",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "34",
+        "36",
+        "40"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/d/0de9dc0ALIA-WS292_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/d/0de9dc0ALIA-WS292_2.jpg"
+      ],
+      "tags": [
+        "shirts"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.8 kg",
+      "dimensions": "10 x 16 x 8 cm",
+      "stockQuantity": 115,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "shirts",
+      "_source": {
+        "nykaaId": "26382202",
+        "sku": "ALAAA00000733",
+        "categoryFilter": "7623",
+        "assignedPriceTier": 4786
+      }
+    },
+    {
+      "name": "ALAIA — ALA A Curved Denim Shirt",
+      "slug": "alaia-ala-a-curved-denim-shirt",
+      "price": 4985,
+      "originalPrice": 195399,
+      "category": "shirts",
+      "description": "ALA A Curved Denim Shirt. Premium shirts from our curated collection.",
+      "metaTitle": "ALAIA — ALA A Curved Denim Shirt",
+      "metaDescription": "ALA A Curved Denim Shirt. Premium shirts from our curated collection.",
+      "metaKeywords": [
+        "shirts",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "34",
+        "36",
+        "40"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/d/0de9dc0ALIA-WS289_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/d/0de9dc0ALIA-WS289_2.jpg"
+      ],
+      "tags": [
+        "shirts"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "14 x 13 x 6 cm",
+      "stockQuantity": 47,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "26382186",
+        "sku": "ALAAA00000731",
+        "categoryFilter": "7623",
+        "assignedPriceTier": 4985
+      }
+    },
+    {
+      "name": "The Row — Luka Shirt",
+      "slug": "the-row-luka-shirt",
+      "price": 4557,
+      "originalPrice": 174199,
+      "category": "shirts",
+      "description": "Luka Shirt. Premium shirts from our curated collection.",
+      "metaTitle": "The Row — Luka Shirt",
+      "metaDescription": "Luka Shirt. Premium shirts from our curated collection.",
+      "metaKeywords": [
+        "shirts",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "2",
+        "4",
+        "6"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/5/e5e6fadTERX-WS276_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/5/e5e6fadTERX-WS276_2.jpg"
+      ],
+      "tags": [
+        "shirts"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Hand wash separately",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Regular fit",
+      "weight": "0.4 kg",
+      "dimensions": "14 x 13 x 7 cm",
+      "stockQuantity": 81,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-02T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "26445409",
+        "sku": "THEGS00001580",
+        "categoryFilter": "7623",
+        "assignedPriceTier": 4557
+      }
+    },
+    {
+      "name": "THE ATTICO — Feather Print Shirt",
+      "slug": "the-attico-feather-print-shirt",
+      "price": 4000,
+      "originalPrice": 168799,
+      "category": "shirts",
+      "description": "Feather Print Shirt. Premium shirts from our curated collection.",
+      "metaTitle": "THE ATTICO — Feather Print Shirt",
+      "metaDescription": "Feather Print Shirt. Premium shirts from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "38",
+        "40",
+        "42",
+        "44"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/5/451ab1eTHEDL00001165_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/5/451ab1eTHEDL00001165_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/5/451ab1eRevolve_Infographic_Fashion.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/5/451ab1eTHEDL00001165_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/5/451ab1eTHEDL00001165_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/5/451ab1eTHEDL00001165_5.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.7 kg",
+      "dimensions": "10 x 14 x 3 cm",
+      "stockQuantity": 107,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "shirts",
+      "_source": {
+        "nykaaId": "25179711",
+        "sku": "THEDL00001165",
+        "categoryFilter": "7623",
+        "assignedPriceTier": 4000
+      }
+    },
+    {
+      "name": "Maison Margiela — Long Sleeve Shirt",
+      "slug": "maison-margiela-long-sleeve-shirt",
+      "price": 4815,
+      "originalPrice": 168499,
+      "category": "shirts",
+      "description": "Long Sleeve Shirt. Premium shirts from our curated collection.",
+      "metaTitle": "Maison Margiela — Long Sleeve Shirt",
+      "metaDescription": "Long Sleeve Shirt. Premium shirts from our curated collection.",
+      "metaKeywords": [
+        "shirts",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/0/401c826MMAR-WS77_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/0/401c826MMAR-WS77_2.jpg"
+      ],
+      "tags": [
+        "shirts"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.7 kg",
+      "dimensions": "10 x 10 x 2 cm",
+      "stockQuantity": 98,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "26444563",
+        "sku": "MAIAJ00000256",
+        "categoryFilter": "7623",
+        "assignedPriceTier": 4815
+      }
+    },
+    {
+      "name": "Nili Lotan — Ronay Parka",
+      "slug": "nili-lotan-ronay-parka",
+      "price": 4158,
+      "originalPrice": 167899,
+      "category": "shirts",
+      "description": "Ronay Parka. Premium shirts from our curated collection.",
+      "metaTitle": "Nili Lotan — Ronay Parka",
+      "metaDescription": "Ronay Parka. Premium shirts from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/0/401c826NILF-WO167_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/0/401c826NILF-WO167_2.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Comfort fit",
+      "weight": "0.6 kg",
+      "dimensions": "12 x 11 x 5 cm",
+      "stockQuantity": 111,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "shirts",
+      "_source": {
+        "nykaaId": "26445933",
+        "sku": "NILIL00003015",
+        "categoryFilter": "7623",
+        "assignedPriceTier": 4158
+      }
+    },
+    {
+      "name": "Givenchy — Pajama Shirt",
+      "slug": "givenchy-pajama-shirt",
+      "price": 4298,
+      "originalPrice": 165699,
+      "category": "shirts",
+      "description": "Pajama Shirt. Premium shirts from our curated collection.",
+      "metaTitle": "Givenchy — Pajama Shirt",
+      "metaDescription": "Pajama Shirt. Premium shirts from our curated collection.",
+      "metaKeywords": [
+        "shirts",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/0/401c826GIVE-WS314_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/0/401c826GIVE-WS314_2.jpg"
+      ],
+      "tags": [
+        "shirts"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Long",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Band collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.8 kg",
+      "dimensions": "14 x 15 x 5 cm",
+      "stockQuantity": 95,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "26383213",
+        "sku": "GIVEN00001558",
+        "categoryFilter": "7623",
+        "assignedPriceTier": 4298
+      }
+    }
+  ]
+}

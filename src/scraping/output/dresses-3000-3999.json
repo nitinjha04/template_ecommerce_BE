@@ -1,0 +1,828 @@
+{
+  "scrapedAt": "2026-05-26T10:59:49.219Z",
+  "categoryFilter": "5",
+  "categoryName": "dresses",
+  "priceMin": 3000,
+  "priceMax": 3999,
+  "categoryId": "6557",
+  "priceMode": "random",
+  "sort": "high-to-low",
+  "totalProducts": 15,
+  "pagesFetched": 1,
+  "products": [
+    {
+      "name": "Valentino — Cady Couture Gown",
+      "slug": "valentino-cady-couture-gown",
+      "price": 3595,
+      "originalPrice": 1386900,
+      "category": "dresses",
+      "description": "Cady Couture Gown. Premium dresses from our curated collection.",
+      "metaTitle": "Valentino — Cady Couture Gown",
+      "metaDescription": "Cady Couture Gown. Premium dresses from our curated collection.",
+      "metaKeywords": [
+        "dresses",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "36",
+        "40"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/5/e5e6fadVTIF-WD97_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/5/e5e6fadVTIF-WD97_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/6/c6a731aFinal-HG-Infographic_last.jpg"
+      ],
+      "tags": [
+        "dresses"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "12 x 10 x 4 cm",
+      "stockQuantity": 59,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "dresses",
+      "_source": {
+        "nykaaId": "26447540",
+        "sku": "VALAC00005797",
+        "categoryFilter": "5",
+        "assignedPriceTier": 3595
+      }
+    },
+    {
+      "name": "Oscar de la Renta — Embroidered Cocktail Dress",
+      "slug": "oscar-de-la-renta-embroidered-cocktail-dress",
+      "price": 3815,
+      "originalPrice": 962199,
+      "category": "dresses",
+      "description": "Embroidered Cocktail Dress. Premium dresses from our curated collection.",
+      "metaTitle": "Oscar de la Renta — Embroidered Cocktail Dress",
+      "metaDescription": "Embroidered Cocktail Dress. Premium dresses from our curated collection.",
+      "metaKeywords": [
+        "dresses",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "0",
+        "2"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/0/401c826OSCF-WD108_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/0/401c826OSCF-WD108_2.jpg"
+      ],
+      "tags": [
+        "dresses"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 12 x 7 cm",
+      "stockQuantity": 92,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "dresses",
+      "_source": {
+        "nykaaId": "26446337",
+        "sku": "OSCAB00000099",
+        "categoryFilter": "5",
+        "assignedPriceTier": 3815
+      }
+    },
+    {
+      "name": "KHAITE — Hilda Dress",
+      "slug": "khaite-hilda-dress",
+      "price": 3455,
+      "originalPrice": 836099,
+      "category": "dresses",
+      "description": "Hilda Dress. Premium dresses from our curated collection.",
+      "metaTitle": "KHAITE — Hilda Dress",
+      "metaDescription": "Hilda Dress. Premium dresses from our curated collection.",
+      "metaKeywords": [
+        "dresses",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "0",
+        "2"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/0/401c826KTAH-WD226_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/0/401c826KTAH-WD226_2.jpg"
+      ],
+      "tags": [
+        "dresses"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.8 kg",
+      "dimensions": "11 x 16 x 4 cm",
+      "stockQuantity": 87,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "26446648",
+        "sku": "KHAIT00001216",
+        "categoryFilter": "5",
+        "assignedPriceTier": 3455
+      }
+    },
+    {
+      "name": "Valentino — Light Gown",
+      "slug": "valentino-light-gown",
+      "price": 3601,
+      "originalPrice": 818099,
+      "category": "dresses",
+      "description": "Light Gown. Premium dresses from our curated collection.",
+      "metaTitle": "Valentino — Light Gown",
+      "metaDescription": "Light Gown. Premium dresses from our curated collection.",
+      "metaKeywords": [
+        "dresses",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "36",
+        "38"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/5/e5e6fadVTIF-WD89_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/5/e5e6fadVTIF-WD89_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/c/6c5ef00Final-HG-Infographic_last.jpg"
+      ],
+      "tags": [
+        "dresses"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 16 x 4 cm",
+      "stockQuantity": 76,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "26447530",
+        "sku": "VALAC00005795",
+        "categoryFilter": "5",
+        "assignedPriceTier": 3601
+      }
+    },
+    {
+      "name": "Chloe — Flowy Tiered Dress",
+      "slug": "chloe-flowy-tiered-dress",
+      "price": 3740,
+      "originalPrice": 665599,
+      "category": "dresses",
+      "description": "Flowy Tiered Dress. Premium dresses from our curated collection.",
+      "metaTitle": "Chloe — Flowy Tiered Dress",
+      "metaDescription": "Flowy Tiered Dress. Premium dresses from our curated collection.",
+      "metaKeywords": [
+        "dresses",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "36",
+        "38"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/c/5c30cabCLOE-WD161_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/c/5c30cabCLOE-WD161_2.jpg"
+      ],
+      "tags": [
+        "dresses"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.3 kg",
+      "dimensions": "10 x 10 x 7 cm",
+      "stockQuantity": 41,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-02T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "26384620",
+        "sku": "CHLAA00000377",
+        "categoryFilter": "5",
+        "assignedPriceTier": 3740
+      }
+    },
+    {
+      "name": "Chloe — Lace Shoulder Dress",
+      "slug": "chloe-lace-shoulder-dress",
+      "price": 3159,
+      "originalPrice": 644499,
+      "category": "dresses",
+      "description": "Lace Shoulder Dress. Premium dresses from our curated collection.",
+      "metaTitle": "Chloe — Lace Shoulder Dress",
+      "metaDescription": "Lace Shoulder Dress. Premium dresses from our curated collection.",
+      "metaKeywords": [
+        "dresses",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "34",
+        "38",
+        "40"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/c/5c30cabCLOE-WD168_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/c/5c30cabCLOE-WD168_2.jpg"
+      ],
+      "tags": [
+        "dresses"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.4 kg",
+      "dimensions": "8 x 16 x 5 cm",
+      "stockQuantity": 18,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-02T18:30:00.000Z",
+      "breadcrumbCategory": "dresses",
+      "_source": {
+        "nykaaId": "26382027",
+        "sku": "CHLAA00000338",
+        "categoryFilter": "5",
+        "assignedPriceTier": 3159
+      }
+    },
+    {
+      "name": "Gabriela Hearst — Glenn Dress",
+      "slug": "gabriela-hearst-glenn-dress",
+      "price": 3792,
+      "originalPrice": 621016,
+      "category": "dresses",
+      "description": "Glenn Dress. Premium dresses from our curated collection.",
+      "metaTitle": "Gabriela Hearst — Glenn Dress",
+      "metaDescription": "Glenn Dress. Premium dresses from our curated collection.",
+      "metaKeywords": [
+        "dresses",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/e/4ee880cGABRI00000130_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/e/4ee880cGABRI00000130_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/e/4ee880cGABRI00000130_3.jpg"
+      ],
+      "tags": [
+        "dresses"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.4 kg",
+      "dimensions": "12 x 16 x 6 cm",
+      "stockQuantity": 60,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "20697750",
+        "sku": "GABRI00000130",
+        "categoryFilter": "5",
+        "assignedPriceTier": 3792
+      }
+    },
+    {
+      "name": "ALAIA — Mesh Dress",
+      "slug": "alaia-mesh-dress",
+      "price": 3396,
+      "originalPrice": 600041,
+      "category": "dresses",
+      "description": "Mesh Dress. Premium dresses from our curated collection.",
+      "metaTitle": "ALAIA — Mesh Dress",
+      "metaDescription": "Mesh Dress. Premium dresses from our curated collection.",
+      "metaKeywords": [
+        "dresses",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/e/4ee880cALAAA00000253_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/e/4ee880cALAAA00000253_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/e/4ee880cALAAA00000253_3.jpg"
+      ],
+      "tags": [
+        "dresses"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "13 x 15 x 2 cm",
+      "stockQuantity": 40,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "dresses",
+      "_source": {
+        "nykaaId": "20690646",
+        "sku": "ALAAA00000253",
+        "categoryFilter": "5",
+        "assignedPriceTier": 3396
+      }
+    },
+    {
+      "name": "ALAIA — Pleated Dress",
+      "slug": "alaia-pleated-dress",
+      "price": 3287,
+      "originalPrice": 570299,
+      "category": "dresses",
+      "description": "Pleated Dress. Premium dresses from our curated collection.",
+      "metaTitle": "ALAIA — Pleated Dress",
+      "metaDescription": "Pleated Dress. Premium dresses from our curated collection.",
+      "metaKeywords": [
+        "dresses",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/d/0de9dc0ALIA-WD246_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/d/0de9dc0ALIA-WD246_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/d/0de9dc0ALIA-WD246_3.jpg"
+      ],
+      "tags": [
+        "dresses"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.7 kg",
+      "dimensions": "14 x 12 x 5 cm",
+      "stockQuantity": 117,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "dresses",
+      "_source": {
+        "nykaaId": "26383987",
+        "sku": "ALAAA00000757",
+        "categoryFilter": "5",
+        "assignedPriceTier": 3287
+      }
+    },
+    {
+      "name": "ALAIA — Heart Dress",
+      "slug": "alaia-heart-dress",
+      "price": 3194,
+      "originalPrice": 534299,
+      "category": "dresses",
+      "description": "Heart Dress. Premium dresses from our curated collection.",
+      "metaTitle": "ALAIA — Heart Dress",
+      "metaDescription": "Heart Dress. Premium dresses from our curated collection.",
+      "metaKeywords": [
+        "dresses",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "38",
+        "40"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/d/0de9dc0ALIA-WD251_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/d/0de9dc0ALIA-WD251_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/d/0de9dc0ALIA-WD251_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/d/0de9dc0ALIA-WD251_4.jpg"
+      ],
+      "tags": [
+        "dresses"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Jacket",
+      "washCare": "Dry clean recommended",
+      "neckline": "Round",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 16 x 2 cm",
+      "stockQuantity": 106,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-11T18:30:00.000Z",
+      "breadcrumbCategory": "dresses",
+      "_source": {
+        "nykaaId": "26383969",
+        "sku": "ALAAA00000755",
+        "categoryFilter": "5",
+        "assignedPriceTier": 3194
+      }
+    },
+    {
+      "name": "Prabal Gurung — Linda Gown",
+      "slug": "prabal-gurung-linda-gown",
+      "price": 3433,
+      "originalPrice": 648799,
+      "category": "dresses",
+      "description": "Linda Gown. Premium dresses from our curated collection.",
+      "metaTitle": "Prabal Gurung — Linda Gown",
+      "metaDescription": "Linda Gown. Premium dresses from our curated collection.",
+      "metaKeywords": [
+        "dresses",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "2",
+        "4",
+        "6"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/a/3af25f0PRAB-WD15_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/a/3af25f0PRAB-WD15_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/a/3af25f0Revolve_Infographic_Fashion.jpg"
+      ],
+      "tags": [
+        "dresses"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "9 x 15 x 3 cm",
+      "stockQuantity": 30,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-02T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "25917790",
+        "sku": "PRABA00000150",
+        "categoryFilter": "5",
+        "assignedPriceTier": 3433
+      }
+    },
+    {
+      "name": "Gabriela Hearst — Florian Dress",
+      "slug": "gabriela-hearst-florian-dress",
+      "price": 3814,
+      "originalPrice": 502499,
+      "category": "dresses",
+      "description": "Florian Dress. Premium dresses from our curated collection.",
+      "metaTitle": "Gabriela Hearst — Florian Dress",
+      "metaDescription": "Florian Dress. Premium dresses from our curated collection.",
+      "metaKeywords": [
+        "dresses",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/0/401c826GABF-WD75_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/0/401c826GABF-WD75_2.jpg"
+      ],
+      "tags": [
+        "dresses"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 13 x 4 cm",
+      "stockQuantity": 115,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "26382823",
+        "sku": "GABRI00000420",
+        "categoryFilter": "5",
+        "assignedPriceTier": 3814
+      }
+    },
+    {
+      "name": "Maria Lucia Hohan — Jolie X Dress",
+      "slug": "maria-lucia-hohan-jolie-x-dress",
+      "price": 3454,
+      "originalPrice": 482299,
+      "category": "dresses",
+      "description": "Jolie X Dress. Premium dresses from our curated collection.",
+      "metaTitle": "Maria Lucia Hohan — Jolie X Dress",
+      "metaDescription": "Jolie X Dress. Premium dresses from our curated collection.",
+      "metaKeywords": [
+        "dresses",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "34/2",
+        "36/4",
+        "38/6",
+        "40/8"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/5/a5d2d73MLUC-WD144_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/5/a5d2d73MLUC-WD144_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/5/a5d2d73Revolve_Infographic_Fashion.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/5/a5d2d73MLUC-WD144_3.jpg"
+      ],
+      "tags": [
+        "dresses"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Band collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 13 x 7 cm",
+      "stockQuantity": 84,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "25179698",
+        "sku": "MARIA00000464",
+        "categoryFilter": "5",
+        "assignedPriceTier": 3454
+      }
+    },
+    {
+      "name": "AKHL — Pink Satin Angular Fall Dress",
+      "slug": "akhl-pink-satin-angular-fall-dress",
+      "price": 3816,
+      "originalPrice": 476890,
+      "category": "dresses",
+      "description": "Pink Satin Angular Fall Dress. Premium dresses from our curated collection.",
+      "metaTitle": "AKHL — Pink Satin Angular Fall Dress",
+      "metaDescription": "Pink Satin Angular Fall Dress. Premium dresses from our curated collection.",
+      "metaKeywords": [
+        "dresses",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Custom",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/e/2eee5d0AKSS22DR3_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/e/2eee5d0AKSS22DR3_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/e/2eee5d0AKSS22DR3_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/e/2eee5d0AKSS22DR3_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/e/2eee5d0AKSS22DR3_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/3/737c7e6designedit_image.jpg"
+      ],
+      "tags": [
+        "dresses"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Jacket",
+      "washCare": "Dry clean recommended",
+      "neckline": "Round",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Comfort fit",
+      "weight": "0.6 kg",
+      "dimensions": "11 x 10 x 7 cm",
+      "stockQuantity": 33,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "16464567",
+        "sku": "AKHLX00001173",
+        "categoryFilter": "5",
+        "assignedPriceTier": 3816
+      }
+    },
+    {
+      "name": "Maria Lucia Hohan — Julieta Dress",
+      "slug": "maria-lucia-hohan-julieta-dress",
+      "price": 3489,
+      "originalPrice": 468499,
+      "category": "dresses",
+      "description": "Julieta Dress. Premium dresses from our curated collection.",
+      "metaTitle": "Maria Lucia Hohan — Julieta Dress",
+      "metaDescription": "Julieta Dress. Premium dresses from our curated collection.",
+      "metaKeywords": [
+        "dresses",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "34/2",
+        "38/6",
+        "40/8"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba51a74MLUC-WD143_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba51a74MLUC-WD143_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba51a74Revolve_Infographic_Fashion.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba51a74MLUC-WD143_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba51a74MLUC-WD143_4.jpg"
+      ],
+      "tags": [
+        "dresses"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Kurta",
+      "washCare": "Dry clean recommended",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.4 kg",
+      "dimensions": "12 x 13 x 3 cm",
+      "stockQuantity": 80,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "dresses",
+      "_source": {
+        "nykaaId": "25554691",
+        "sku": "MARIA00000471",
+        "categoryFilter": "5",
+        "assignedPriceTier": 3489
+      }
+    }
+  ]
+}

@@ -1,0 +1,888 @@
+{
+  "scrapedAt": "2026-05-26T10:59:32.579Z",
+  "categoryFilter": "3908",
+  "categoryName": "kaftans",
+  "priceMin": 1499,
+  "priceMax": 1999,
+  "categoryId": "6557",
+  "priceMode": "random",
+  "sort": "low-to-high",
+  "totalProducts": 15,
+  "pagesFetched": 1,
+  "products": [
+    {
+      "name": "Suti — Women Mul Cotton Beautiful Printed Kaftan with Drawstring Green",
+      "slug": "suti-women-mul-cotton-beautiful-printed-kaftan-with-drawstring-at-waist-green",
+      "price": 1723,
+      "originalPrice": 2223,
+      "category": "kaftans",
+      "description": "Women Mul Cotton Beautiful Printed Kaftan with Drawstring Green. Premium kaftans from our curated collection.",
+      "metaTitle": "Suti — Women Mul Cotton Beautiful Printed Kaftan with Drawstring Green",
+      "metaDescription": "Women Mul Cotton Beautiful Printed Kaftan with Drawstring Green. Premium kaftans from our curated collection.",
+      "metaKeywords": [
+        "kaftans",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/9/b99204eKF16364LIMEGREEN_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/9/b99204eKF16364LIMEGREEN_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/9/b99204eKF16364LIMEGREEN_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/9/b99204eKF16364LIMEGREEN_4.jpg"
+      ],
+      "tags": [
+        "kaftans"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 11 x 2 cm",
+      "stockQuantity": 92,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "14053255",
+        "sku": "SUTIX00006040",
+        "categoryFilter": "3908",
+        "assignedPriceTier": 1723
+      }
+    },
+    {
+      "name": "Ahalyaa — Green Pink Printed Flared Sleeves Gota Patti Floral Crepe Kaftan Kurta",
+      "slug": "ahalyaa-green-pink-printed-flared-sleeves-gota-patti-floral-crepe-kaftan-kurta",
+      "price": 1657,
+      "originalPrice": 3150,
+      "category": "kaftans",
+      "description": "Green Pink Printed Flared Sleeves Gota Patti Floral Crepe Kaftan Kurta. Premium kaftans from our curated collection.",
+      "metaTitle": "Ahalyaa — Green Pink Printed Flared Sleeves Gota Patti Floral Crepe Ka",
+      "metaDescription": "Green Pink Printed Flared Sleeves Gota Patti Floral Crepe Kaftan Kurta. Premium kaftans from our curated collection.",
+      "metaKeywords": [
+        "kaftans",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/2/f25dd3cAHKFCRDP-6033-FF_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/2/f25dd3cAHKFCRDP-6033-FF_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/2/f25dd3cAHKFCRDP-6033-FF_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/2/f25dd3cAHKFCRDP-6033-FF_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/2/f25dd3cAHKFCRDP-6033-FF_5.jpg"
+      ],
+      "tags": [
+        "kaftans"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "13 x 14 x 3 cm",
+      "stockQuantity": 30,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "kaftans",
+      "_source": {
+        "nykaaId": "12546110",
+        "sku": "AHALY00004575",
+        "categoryFilter": "3908",
+        "assignedPriceTier": 1657
+      }
+    },
+    {
+      "name": "SAVI — Pink Printed Embellished Kaftan",
+      "slug": "savi-pink-printed-embellished-kaftan",
+      "price": 1662,
+      "originalPrice": 1999,
+      "category": "kaftans",
+      "description": "Pink Printed Embellished Kaftan. Premium kaftans from our curated collection.",
+      "metaTitle": "SAVI — Pink Printed Embellished Kaftan",
+      "metaDescription": "Pink Printed Embellished Kaftan. Premium kaftans from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/d/9d08ecfSYPRKF-A699_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/d/9d08ecfSYPRKF-A699_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/d/9d08ecfSYPRKF-A699_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/d/9d08ecfSYPRKF-A699_4.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Short",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.4 kg",
+      "dimensions": "13 x 11 x 8 cm",
+      "stockQuantity": 79,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "13933342",
+        "sku": "SAVIX00001245",
+        "categoryFilter": "3908",
+        "assignedPriceTier": 1662
+      }
+    },
+    {
+      "name": "Indibelle — Blue Tie and Dye Print Cotton Kaftan Kurta",
+      "slug": "indibelle-blue-tie-and-dye-print-cotton-kaftan-kurta",
+      "price": 1538,
+      "originalPrice": 2299,
+      "category": "kaftans",
+      "description": "Blue Tie and Dye Print Cotton Kaftan Kurta. Premium kaftans from our curated collection.",
+      "metaTitle": "Indibelle — Blue Tie and Dye Print Cotton Kaftan Kurta",
+      "metaDescription": "Blue Tie and Dye Print Cotton Kaftan Kurta. Premium kaftans from our curated collection.",
+      "metaKeywords": [
+        "kaftans",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/f/6f54656IBK412BL_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/f/6f54656IBK412BL_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/f/6f54656IBK412BL_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/f/6f54656IBK412BL_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/f/6f54656IBK412BL_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/f/6f54656IBK412BL_6.jpg"
+      ],
+      "tags": [
+        "kaftans"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.8 kg",
+      "dimensions": "12 x 12 x 4 cm",
+      "stockQuantity": 51,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "kaftans",
+      "_source": {
+        "nykaaId": "13611423",
+        "sku": "INDAR00003547",
+        "categoryFilter": "3908",
+        "assignedPriceTier": 1538
+      }
+    },
+    {
+      "name": "Ahalyaa — Womens Summer Blue Rayon Printed Kaftan",
+      "slug": "ahalyaa-womens-summer-blue-rayon-printed-kaftan",
+      "price": 1830,
+      "originalPrice": 3500,
+      "category": "kaftans",
+      "description": "Womens Summer Blue Rayon Printed Kaftan. Premium kaftans from our curated collection.",
+      "metaTitle": "Ahalyaa — Womens Summer Blue Rayon Printed Kaftan",
+      "metaDescription": "Womens Summer Blue Rayon Printed Kaftan. Premium kaftans from our curated collection.",
+      "metaKeywords": [
+        "kaftans",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/c/ac13c9bAHKFRYDP-6049_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/c/ac13c9bAHKFRYDP-6049_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/c/ac13c9bAHKFRYDP-6049_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/c/ac13c9bAHKFRYDP-6049_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/c/ac13c9bAHKFRYDP-6049_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/c/ac13c9bAHKFRYDP-6049_6.jpg"
+      ],
+      "tags": [
+        "kaftans"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "12 x 14 x 8 cm",
+      "stockQuantity": 52,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-02T18:30:00.000Z",
+      "breadcrumbCategory": "kaftans",
+      "_source": {
+        "nykaaId": "7293492",
+        "sku": "AHALY00002228",
+        "categoryFilter": "3908",
+        "assignedPriceTier": 1830
+      }
+    },
+    {
+      "name": "Meeranshi — Womens Blue Ethnic Motifs Printed Kaftan",
+      "slug": "meeranshi-womens-blue-ethnic-motifs-printed-kaftan",
+      "price": 1694,
+      "originalPrice": 2499,
+      "category": "kaftans",
+      "description": "Womens Blue Ethnic Motifs Printed Kaftan. Premium kaftans from our curated collection.",
+      "metaTitle": "Meeranshi — Womens Blue Ethnic Motifs Printed Kaftan",
+      "metaDescription": "Womens Blue Ethnic Motifs Printed Kaftan. Premium kaftans from our curated collection.",
+      "metaKeywords": [
+        "kaftans",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/f/1f01f2bMER645_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/f/1f01f2bMER645_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/f/1f01f2bMER645_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/f/1f01f2bMER645_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/f/1f01f2bMER645_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/f/1f01f2bMER645_7.jpg"
+      ],
+      "tags": [
+        "kaftans"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Trouser",
+      "washCare": "Dry clean recommended",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.7 kg",
+      "dimensions": "9 x 10 x 8 cm",
+      "stockQuantity": 116,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "kaftans",
+      "_source": {
+        "nykaaId": "12586538",
+        "sku": "MEEAA00002952",
+        "categoryFilter": "3908",
+        "assignedPriceTier": 1694
+      }
+    },
+    {
+      "name": "Juniper — Brown Cotton Printed Kaftan with Front Zipper Closure & Lace Detailing",
+      "slug": "juniper-multi-color-cotton-printed-kaftan-with-inner-set-of-2",
+      "price": 1553,
+      "originalPrice": 1899,
+      "category": "kaftans",
+      "description": "Brown Cotton Printed Kaftan with Front Zipper Closure & Lace Detailing. Premium kaftans from our curated collection.",
+      "metaTitle": "Juniper — Brown Cotton Printed Kaftan with Front Zipper Closure & Lace",
+      "metaDescription": "Brown Cotton Printed Kaftan with Front Zipper Closure & Lace Detailing. Premium kaftans from our curated collection.",
+      "metaKeywords": [
+        "kaftans",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/b/6b60e8aS4304BROWNOF_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/b/6b60e8aS4304BROWNOF_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/b/6b60e8aS4304BROWNOF_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/b/6b60e8aS4304BROWNOF_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/b/6b60e8aS4304BROWNOF_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/b/6b60e8aS4304BROWNOF_6.jpg"
+      ],
+      "tags": [
+        "kaftans"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Henley",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.6 kg",
+      "dimensions": "12 x 16 x 8 cm",
+      "stockQuantity": 85,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "kaftans",
+      "_source": {
+        "nykaaId": "15797022",
+        "sku": "JUNIP00012633",
+        "categoryFilter": "3908",
+        "assignedPriceTier": 1553
+      }
+    },
+    {
+      "name": "Juniper — Yellow Geometric Printed Cotton Dobby Kaftan with Thread Work Embroidery",
+      "slug": "juniper-yellow-cotton-dobby-embroidered-straight-kaftan",
+      "price": 1501,
+      "originalPrice": 2699,
+      "category": "kaftans",
+      "description": "Yellow Geometric Printed Cotton Dobby Kaftan with Thread Work Embroidery. Premium kaftans from our curated collection.",
+      "metaTitle": "Juniper — Yellow Geometric Printed Cotton Dobby Kaftan with Thread Wor",
+      "metaDescription": "Yellow Geometric Printed Cotton Dobby Kaftan with Thread Work Embroidery. Premium kaftans from our curated collection.",
+      "metaKeywords": [
+        "kaftans",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/b/7b5fc1eJUN_2870YELLOW-1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/b/7b5fc1eJUN_2870YELLOW-2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/b/7b5fc1eJUN_2870YELLOW-3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/b/7b5fc1eJUN_2870YELLOW-4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/b/7b5fc1eJUN_2870YELLOW-5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/b/7b5fc1eJUN_2870YELLOW-6.jpg"
+      ],
+      "tags": [
+        "kaftans"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Trouser",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.3 kg",
+      "dimensions": "11 x 13 x 5 cm",
+      "stockQuantity": 46,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "4397791",
+        "sku": "JUNIP00000799",
+        "categoryFilter": "3908",
+        "assignedPriceTier": 1501
+      }
+    },
+    {
+      "name": "Juniper — Women Blue Embroidered Kaftan",
+      "slug": "juniper-women-blue-embroidered-kaftan",
+      "price": 1747,
+      "originalPrice": 2799,
+      "category": "kaftans",
+      "description": "Women Blue Embroidered Kaftan. Premium kaftans from our curated collection.",
+      "metaTitle": "Juniper — Women Blue Embroidered Kaftan",
+      "metaDescription": "Women Blue Embroidered Kaftan. Premium kaftans from our curated collection.",
+      "metaKeywords": [
+        "kaftans",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/3/63bd54e2871SKYBLUERN_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/3/63bd54e2871SKYBLUERN_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/3/63bd54e2871SKYBLUERN_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/3/63bd54e2871SKYBLUERN_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/3/63bd54e2871SKYBLUERN_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/3/63bd54e2871SKYBLUERN_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/3/63bd54e2871SKYBLUERN_7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/3/63bd54e2871SKYBLUERN_8.jpg"
+      ],
+      "tags": [
+        "kaftans"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.3 kg",
+      "dimensions": "11 x 10 x 2 cm",
+      "stockQuantity": 26,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "19247031",
+        "sku": "JUNIP00015729",
+        "categoryFilter": "3908",
+        "assignedPriceTier": 1747
+      }
+    },
+    {
+      "name": "Juniper — Sky Blue Geometric Printed Rayon Dobby Kaftan with Thread Work Embroidery",
+      "slug": "juniper-skyblue-rayon-dobby-embroidered-straight-kaftan",
+      "price": 1698,
+      "originalPrice": 2799,
+      "category": "kaftans",
+      "description": "Sky Blue Geometric Printed Rayon Dobby Kaftan with Thread Work Embroidery. Premium kaftans from our curated collection.",
+      "metaTitle": "Juniper — Sky Blue Geometric Printed Rayon Dobby Kaftan with Thread Wo",
+      "metaDescription": "Sky Blue Geometric Printed Rayon Dobby Kaftan with Thread Work Embroidery. Premium kaftans from our curated collection.",
+      "metaKeywords": [
+        "kaftans",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/137bc1eJUN_2871SKYBLUE-1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/137bc1eJUN_2871SKYBLUE-2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/137bc1eJUN_2871SKYBLUE-3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/137bc1eJUN_2871SKYBLUE-4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/137bc1eJUN_2871SKYBLUE-5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/137bc1eJUN_2871SKYBLUE-6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/137bc1eJUN_2871SKYBLUE-7.jpg"
+      ],
+      "tags": [
+        "kaftans"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.4 kg",
+      "dimensions": "14 x 13 x 2 cm",
+      "stockQuantity": 59,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "kaftans",
+      "_source": {
+        "nykaaId": "4397792",
+        "sku": "JUNIP00000800",
+        "categoryFilter": "3908",
+        "assignedPriceTier": 1698
+      }
+    },
+    {
+      "name": "SAVI — White Printed Kaftan",
+      "slug": "savi-white-printed-printed-kaftan",
+      "price": 1629,
+      "originalPrice": 1999,
+      "category": "kaftans",
+      "description": "White Printed Kaftan. Premium kaftans from our curated collection.",
+      "metaTitle": "SAVI — White Printed Kaftan",
+      "metaDescription": "White Printed Kaftan. Premium kaftans from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/d/9d08ecfSYPRKF-A698_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/d/9d08ecfSYPRKF-A698_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/d/9d08ecfSYPRKF-A698_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/d/9d08ecfSYPRKF-A698_4.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 13 x 2 cm",
+      "stockQuantity": 102,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-11T18:30:00.000Z",
+      "breadcrumbCategory": "kaftans",
+      "_source": {
+        "nykaaId": "13933341",
+        "sku": "SAVIX00001244",
+        "categoryFilter": "3908",
+        "assignedPriceTier": 1629
+      }
+    },
+    {
+      "name": "Maaesa — Navy Blue & White Hand Dyed Kaftan Kurta",
+      "slug": "maaesa-navy-blue-white-hand-dyed-kaftan-kurta",
+      "price": 1938,
+      "originalPrice": 2497,
+      "category": "kaftans",
+      "description": "Navy Blue & White Hand Dyed Kaftan Kurta. Premium kaftans from our curated collection.",
+      "metaTitle": "Maaesa — Navy Blue & White Hand Dyed Kaftan Kurta",
+      "metaDescription": "Navy Blue & White Hand Dyed Kaftan Kurta. Premium kaftans from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL",
+        "4XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/5/a544ab6MYK1125_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/5/a544ab6MYK1125_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/5/a544ab6MYK1125_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/5/a544ab6MYK1125_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/5/a544ab6MYK1125_5.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Dry clean recommended",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.8 kg",
+      "dimensions": "13 x 14 x 6 cm",
+      "stockQuantity": 55,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-11T18:30:00.000Z",
+      "breadcrumbCategory": "kaftans",
+      "_source": {
+        "nykaaId": "5337684",
+        "sku": "MAAES00000174",
+        "categoryFilter": "3908",
+        "assignedPriceTier": 1938
+      }
+    },
+    {
+      "name": "Maaesa — Khaki Women Hand Dyed Crepe Rayon Kaftan Kurta",
+      "slug": "maaesa-khaki-women-hand-dyed-crepe-rayon-kaftan-kurta",
+      "price": 1669,
+      "originalPrice": 2497,
+      "category": "kaftans",
+      "description": "Khaki Women Hand Dyed Crepe Rayon Kaftan Kurta. Premium kaftans from our curated collection.",
+      "metaTitle": "Maaesa — Khaki Women Hand Dyed Crepe Rayon Kaftan Kurta",
+      "metaDescription": "Khaki Women Hand Dyed Crepe Rayon Kaftan Kurta. Premium kaftans from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/2/f2cbf01MYKK1432-KAFOrange_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/2/f2cbf01MYKK1432-KAFOrange_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/2/f2cbf01MYKK1432-KAFOrange_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/2/f2cbf01MYKK1432-KAFOrange_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/2/f2cbf01MYKK1432-KAFOrange_5.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.7 kg",
+      "dimensions": "8 x 11 x 2 cm",
+      "stockQuantity": 57,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "kaftans",
+      "_source": {
+        "nykaaId": "19994379",
+        "sku": "MAAES00005376",
+        "categoryFilter": "3908",
+        "assignedPriceTier": 1669
+      }
+    },
+    {
+      "name": "Maaesa — Pink Women Hand Dyed Crepe Rayon Kaftan Kurta",
+      "slug": "maaesa-pink-women-hand-dyed-crepe-rayon-kaftan-kurta",
+      "price": 1807,
+      "originalPrice": 2497,
+      "category": "kaftans",
+      "description": "Pink Women Hand Dyed Crepe Rayon Kaftan Kurta. Premium kaftans from our curated collection.",
+      "metaTitle": "Maaesa — Pink Women Hand Dyed Crepe Rayon Kaftan Kurta",
+      "metaDescription": "Pink Women Hand Dyed Crepe Rayon Kaftan Kurta. Premium kaftans from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/2/f2cbf01MYKK1441-KAFBlue_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/2/f2cbf01MYKK1441-KAFBlue_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/2/f2cbf01MYKK1441-KAFBlue_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/2/f2cbf01MYKK1441-KAFBlue_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/2/f2cbf01MYKK1441-KAFBlue_5.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "13 x 12 x 4 cm",
+      "stockQuantity": 36,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "19994382",
+        "sku": "MAAES00005379",
+        "categoryFilter": "3908",
+        "assignedPriceTier": 1807
+      }
+    },
+    {
+      "name": "Maaesa — Blue Hand Dyed Kaftan Dress",
+      "slug": "maaesa-blue-hand-dyed-kaftan-dress",
+      "price": 1918,
+      "originalPrice": 2497,
+      "category": "kaftans",
+      "description": "Blue Hand Dyed Kaftan Dress. Premium kaftans from our curated collection.",
+      "metaTitle": "Maaesa — Blue Hand Dyed Kaftan Dress",
+      "metaDescription": "Blue Hand Dyed Kaftan Dress. Premium kaftans from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/3/e38ede5MYK1209_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/3/e38ede5MYK1209_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/3/e38ede5MYK1209_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/3/e38ede5MYK1209_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/3/e38ede5MYK1209_5.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Relaxed fit",
+      "weight": "0.7 kg",
+      "dimensions": "11 x 16 x 7 cm",
+      "stockQuantity": 31,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "5837576",
+        "sku": "MAAES00000441",
+        "categoryFilter": "3908",
+        "assignedPriceTier": 1918
+      }
+    }
+  ]
+}

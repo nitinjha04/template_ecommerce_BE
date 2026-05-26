@@ -1,0 +1,822 @@
+{
+  "scrapedAt": "2026-05-26T10:59:24.265Z",
+  "categoryFilter": "10",
+  "categoryName": "sarees",
+  "priceMin": 1000,
+  "priceMax": 1499,
+  "categoryId": "6557",
+  "priceMode": "random",
+  "sort": "low-to-high",
+  "totalProducts": 15,
+  "pagesFetched": 1,
+  "products": [
+    {
+      "name": "Ruuprekha — Women Pink Cotton Silk Embroidered Saree with Unstitched Blouse",
+      "slug": "ruuprekha-women-pink-cotton-silk-embroidered-saree-with-unstitched-blouse",
+      "price": 1494,
+      "originalPrice": 1994,
+      "category": "sarees",
+      "description": "Women Pink Cotton Silk Embroidered Saree with Unstitched Blouse. Premium sarees from our curated collection.",
+      "metaTitle": "Ruuprekha — Women Pink Cotton Silk Embroidered Saree with Unstitched B",
+      "metaDescription": "Women Pink Cotton Silk Embroidered Saree with Unstitched Blouse. Premium sarees from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomPink_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomPink_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomPink_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomPink_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomPink_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomPink_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomPink_7.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "12 x 11 x 7 cm",
+      "stockQuantity": 113,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "sarees",
+      "_source": {
+        "nykaaId": "25558517",
+        "sku": "RUUPR00000025",
+        "categoryFilter": "10",
+        "assignedPriceTier": 1494
+      }
+    },
+    {
+      "name": "Ruuprekha — Women Black Cotton Silk Embroidered Saree with Unstitched Blouse",
+      "slug": "ruuprekha-women-black-cotton-silk-embroidered-saree-with-unstitched-blouse",
+      "price": 1498,
+      "originalPrice": 1998,
+      "category": "sarees",
+      "description": "Women Black Cotton Silk Embroidered Saree with Unstitched Blouse. Premium sarees from our curated collection.",
+      "metaTitle": "Ruuprekha — Women Black Cotton Silk Embroidered Saree with Unstitched ",
+      "metaDescription": "Women Black Cotton Silk Embroidered Saree with Unstitched Blouse. Premium sarees from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomBlack_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomBlack_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomBlack_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomBlack_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomBlack_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomBlack_6.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.6 kg",
+      "dimensions": "9 x 14 x 3 cm",
+      "stockQuantity": 15,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "sarees",
+      "_source": {
+        "nykaaId": "25558514",
+        "sku": "RUUPR00000022",
+        "categoryFilter": "10",
+        "assignedPriceTier": 1498
+      }
+    },
+    {
+      "name": "Ruuprekha — Women Yellow Cotton Silk Embroidered Saree with Unstitched Blouse",
+      "slug": "ruuprekha-women-yellow-cotton-silk-embroidered-saree-with-unstitched-blouse",
+      "price": 1277,
+      "originalPrice": 1777,
+      "category": "sarees",
+      "description": "Women Yellow Cotton Silk Embroidered Saree with Unstitched Blouse. Premium sarees from our curated collection.",
+      "metaTitle": "Ruuprekha — Women Yellow Cotton Silk Embroidered Saree with Unstitched",
+      "metaDescription": "Women Yellow Cotton Silk Embroidered Saree with Unstitched Blouse. Premium sarees from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomYellow_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomYellow_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomYellow_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomYellow_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomYellow_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomYellow_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomYellow_7.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "12 x 13 x 4 cm",
+      "stockQuantity": 98,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "25558519",
+        "sku": "RUUPR00000027",
+        "categoryFilter": "10",
+        "assignedPriceTier": 1277
+      }
+    },
+    {
+      "name": "Ruuprekha — Women White Cotton Silk Embroidered Saree with Unstitched Blouse",
+      "slug": "ruuprekha-women-white-cotton-silk-embroidered-saree-with-unstitched-blouse",
+      "price": 1499,
+      "originalPrice": 1999,
+      "category": "sarees",
+      "description": "Women White Cotton Silk Embroidered Saree with Unstitched Blouse. Premium sarees from our curated collection.",
+      "metaTitle": "Ruuprekha — Women White Cotton Silk Embroidered Saree with Unstitched ",
+      "metaDescription": "Women White Cotton Silk Embroidered Saree with Unstitched Blouse. Premium sarees from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomWhite_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomWhite_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomWhite_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomWhite_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomWhite_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomWhite_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomWhite_7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomWhite_8.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "11 x 13 x 7 cm",
+      "stockQuantity": 47,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "sarees",
+      "_source": {
+        "nykaaId": "25558518",
+        "sku": "RUUPR00000026",
+        "categoryFilter": "10",
+        "assignedPriceTier": 1499
+      }
+    },
+    {
+      "name": "Ruuprekha — Women Grey Cotton Silk Embroidered Saree with Unstitched Blouse",
+      "slug": "ruuprekha-women-grey-cotton-silk-embroidered-saree-with-unstitched-blouse",
+      "price": 1191,
+      "originalPrice": 1691,
+      "category": "sarees",
+      "description": "Women Grey Cotton Silk Embroidered Saree with Unstitched Blouse. Premium sarees from our curated collection.",
+      "metaTitle": "Ruuprekha — Women Grey Cotton Silk Embroidered Saree with Unstitched B",
+      "metaDescription": "Women Grey Cotton Silk Embroidered Saree with Unstitched Blouse. Premium sarees from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloom_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloom_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloom_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloom_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloom_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloom_6.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.7 kg",
+      "dimensions": "9 x 14 x 2 cm",
+      "stockQuantity": 87,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "sarees",
+      "_source": {
+        "nykaaId": "25558513",
+        "sku": "RUUPR00000021",
+        "categoryFilter": "10",
+        "assignedPriceTier": 1191
+      }
+    },
+    {
+      "name": "Ruuprekha — Women Cream Cotton Silk Embroidered Saree with Unstitched Blouse",
+      "slug": "ruuprekha-women-cream-cotton-silk-embroidered-saree-with-unstitched-blouse",
+      "price": 1369,
+      "originalPrice": 1869,
+      "category": "sarees",
+      "description": "Women Cream Cotton Silk Embroidered Saree with Unstitched Blouse. Premium sarees from our curated collection.",
+      "metaTitle": "Ruuprekha — Women Cream Cotton Silk Embroidered Saree with Unstitched ",
+      "metaDescription": "Women Cream Cotton Silk Embroidered Saree with Unstitched Blouse. Premium sarees from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomCream_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomCream_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomCream_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomCream_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomCream_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomCream_6.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 11 x 3 cm",
+      "stockQuantity": 32,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-02T18:30:00.000Z",
+      "breadcrumbCategory": "sarees",
+      "_source": {
+        "nykaaId": "25558516",
+        "sku": "RUUPR00000024",
+        "categoryFilter": "10",
+        "assignedPriceTier": 1369
+      }
+    },
+    {
+      "name": "Ruuprekha — Women Blue Cotton Silk Embroidered Saree with Unstitched Blouse",
+      "slug": "ruuprekha-women-blue-cotton-silk-embroidered-saree-with-unstitched-blouse",
+      "price": 1213,
+      "originalPrice": 1713,
+      "category": "sarees",
+      "description": "Women Blue Cotton Silk Embroidered Saree with Unstitched Blouse. Premium sarees from our curated collection.",
+      "metaTitle": "Ruuprekha — Women Blue Cotton Silk Embroidered Saree with Unstitched B",
+      "metaDescription": "Women Blue Cotton Silk Embroidered Saree with Unstitched Blouse. Premium sarees from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomBlue_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomBlue_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomBlue_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomBlue_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomBlue_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomBlue_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/7/871f30eHandloomBlue_7.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Jacket",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.4 kg",
+      "dimensions": "10 x 16 x 4 cm",
+      "stockQuantity": 49,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "sarees",
+      "_source": {
+        "nykaaId": "25558515",
+        "sku": "RUUPR00000023",
+        "categoryFilter": "10",
+        "assignedPriceTier": 1213
+      }
+    },
+    {
+      "name": "Ruuprekha — Printed Pure Cotton Saree with Unstitched",
+      "slug": "ruuprekha-printed-pure-cotton-saree-with-unstitched",
+      "price": 1194,
+      "originalPrice": 1694,
+      "category": "sarees",
+      "description": "Printed Pure Cotton Saree with Unstitched. Premium sarees from our curated collection.",
+      "metaTitle": "Ruuprekha — Printed Pure Cotton Saree with Unstitched",
+      "metaDescription": "Printed Pure Cotton Saree with Unstitched. Premium sarees from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/1/51d01e8KHADISAREE6_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/1/51d01e8KHADISAREE6_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/1/51d01e8KHADISAREE6_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/1/51d01e8KHADISAREE6_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/1/51d01e8KHADISAREE6_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/1/51d01e8KHADISAREE6_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/1/51d01e8KHADISAREE6_7.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.5 kg",
+      "dimensions": "11 x 13 x 6 cm",
+      "stockQuantity": 33,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "25224269",
+        "sku": "RUUPR00000006",
+        "categoryFilter": "10",
+        "assignedPriceTier": 1194
+      }
+    },
+    {
+      "name": "Ruuprekha — Embroidered Cotton Blend Saree with Unstitched",
+      "slug": "ruuprekha-embroidered-cotton-blend-saree-with-unstitched",
+      "price": 1477,
+      "originalPrice": 1977,
+      "category": "sarees",
+      "description": "Embroidered Cotton Blend Saree with Unstitched. Premium sarees from our curated collection.",
+      "metaTitle": "Ruuprekha — Embroidered Cotton Blend Saree with Unstitched",
+      "metaDescription": "Embroidered Cotton Blend Saree with Unstitched. Premium sarees from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/1/51d01e8PUJA4_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/1/51d01e8PUJA4_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/1/51d01e8PUJA4_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/1/51d01e8PUJA4_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/1/51d01e8PUJA4_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/1/51d01e8PUJA4_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/1/51d01e8PUJA4_7.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Regular fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 16 x 2 cm",
+      "stockQuantity": 99,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "sarees",
+      "_source": {
+        "nykaaId": "25224267",
+        "sku": "RUUPR00000004",
+        "categoryFilter": "10",
+        "assignedPriceTier": 1477
+      }
+    },
+    {
+      "name": "SALWAR STUDIO — Blue Solid Cotton Solid Saree Without Blouse",
+      "slug": "salwar-studio-blue-solid-cotton-solid-saree-without-blouse",
+      "price": 1056,
+      "originalPrice": 2925,
+      "category": "sarees",
+      "description": "Blue Solid Cotton Solid Saree Without Blouse. Premium sarees from our curated collection.",
+      "metaTitle": "SALWAR STUDIO — Blue Solid Cotton Solid Saree Without Blouse",
+      "metaDescription": "Blue Solid Cotton Solid Saree Without Blouse. Premium sarees from our curated collection.",
+      "metaKeywords": [
+        "sarees",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/4/7440a1aRS-0010-BLUE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/4/7440a1aRS-0010-BLUE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/4/7440a1aRS-0010-BLUE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/4/7440a1aRS-0010-BLUE_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/4/7440a1aRS-0010-BLUE_5.jpg"
+      ],
+      "tags": [
+        "sarees"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.7 kg",
+      "dimensions": "8 x 14 x 4 cm",
+      "stockQuantity": 49,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "14350538",
+        "sku": "SALWA00008705",
+        "categoryFilter": "10",
+        "assignedPriceTier": 1056
+      }
+    },
+    {
+      "name": "Rajnandini — Pink and Purple Kota Doria Cotton Printed Traditional Saree with Unstitched Blouse",
+      "slug": "rajnandini-pink-and-purple-kota-doria-cotton-printed-traditional-saree-with-unstitched",
+      "price": 1051,
+      "originalPrice": 1996,
+      "category": "sarees",
+      "description": "Pink and Purple Kota Doria Cotton Printed Traditional Saree with Unstitched Blouse. Premium sarees from our curated collection.",
+      "metaTitle": "Rajnandini — Pink and Purple Kota Doria Cotton Printed Traditional Sar",
+      "metaDescription": "Pink and Purple Kota Doria Cotton Printed Traditional Saree with Unstitched Blouse. Premium sarees from our curated collection.",
+      "metaKeywords": [
+        "sarees",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/6/36e0367JOPLNS4029C_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/6/36e0367JOPLNS4029C_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/6/36e0367JOPLNS4029C_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/6/36e0367JOPLNS4029C_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/6/36e0367JOPLNS4029C_6.jpg"
+      ],
+      "tags": [
+        "sarees"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "9 x 15 x 7 cm",
+      "stockQuantity": 50,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "sarees",
+      "_source": {
+        "nykaaId": "10128177",
+        "sku": "RAJNA00002090",
+        "categoryFilter": "10",
+        "assignedPriceTier": 1051
+      }
+    },
+    {
+      "name": "DESH BIDESH — Women Black Organza Floral Printed Saree Without Blouse",
+      "slug": "desh-bidesh-women-black-organza-floral-printed-saree-without-blouse",
+      "price": 1428,
+      "originalPrice": 1999,
+      "category": "sarees",
+      "description": "Women Black Organza Floral Printed Saree Without Blouse. Premium sarees from our curated collection.",
+      "metaTitle": "DESH BIDESH — Women Black Organza Floral Printed Saree Without Blouse",
+      "metaDescription": "Women Black Organza Floral Printed Saree Without Blouse. Premium sarees from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZABLACKFLORAL_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZABLACKFLORAL_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZABLACKFLORAL_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZABLACKFLORAL_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZABLACKFLORAL_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZABLACKFLORAL_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZABLACKFLORAL_7.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 10 x 2 cm",
+      "stockQuantity": 84,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "sarees",
+      "_source": {
+        "nykaaId": "25628656",
+        "sku": "DESHB00001262",
+        "categoryFilter": "10",
+        "assignedPriceTier": 1428
+      }
+    },
+    {
+      "name": "DESH BIDESH — Women Lavender Organza Printed Saree Without Blouse",
+      "slug": "desh-bidesh-women-lavender-organza-printed-saree-without-blouse",
+      "price": 1360,
+      "originalPrice": 1999,
+      "category": "sarees",
+      "description": "Women Lavender Organza Printed Saree Without Blouse. Premium sarees from our curated collection.",
+      "metaTitle": "DESH BIDESH — Women Lavender Organza Printed Saree Without Blouse",
+      "metaDescription": "Women Lavender Organza Printed Saree Without Blouse. Premium sarees from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZALAVENDER_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZALAVENDER_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZALAVENDER_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZALAVENDER_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZALAVENDER_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZALAVENDER_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZALAVENDER_7.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.4 kg",
+      "dimensions": "12 x 15 x 7 cm",
+      "stockQuantity": 86,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "sarees",
+      "_source": {
+        "nykaaId": "25628651",
+        "sku": "DESHB00001257",
+        "categoryFilter": "10",
+        "assignedPriceTier": 1360
+      }
+    },
+    {
+      "name": "DESH BIDESH — Women Pink Partywear Organza Printed Saree Without Blouse",
+      "slug": "desh-bidesh-women-pink-partywear-organza-printed-saree-without-blouse",
+      "price": 1315,
+      "originalPrice": 1999,
+      "category": "sarees",
+      "description": "Women Pink Partywear Organza Printed Saree Without Blouse. Premium sarees from our curated collection.",
+      "metaTitle": "DESH BIDESH — Women Pink Partywear Organza Printed Saree Without Blous",
+      "metaDescription": "Women Pink Partywear Organza Printed Saree Without Blouse. Premium sarees from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZAPINKWHITEFLOWER_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZAPINKWHITEFLOWER_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZAPINKWHITEFLOWER_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZAPINKWHITEFLOWER_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZAPINKWHITEFLOWER_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZAPINKWHITEFLOWER_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZAPINKWHITEFLOWER_7.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 15 x 5 cm",
+      "stockQuantity": 117,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "sarees",
+      "_source": {
+        "nykaaId": "25628643",
+        "sku": "DESHB00001249",
+        "categoryFilter": "10",
+        "assignedPriceTier": 1315
+      }
+    },
+    {
+      "name": "DESH BIDESH — Women Beige Organza Printed Saree Without Blouse",
+      "slug": "desh-bidesh-women-beige-organza-printed-saree-without-blouse",
+      "price": 1166,
+      "originalPrice": 1999,
+      "category": "sarees",
+      "description": "Women Beige Organza Printed Saree Without Blouse. Premium sarees from our curated collection.",
+      "metaTitle": "DESH BIDESH — Women Beige Organza Printed Saree Without Blouse",
+      "metaDescription": "Women Beige Organza Printed Saree Without Blouse. Premium sarees from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZANUDEROSE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZANUDEROSE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZANUDEROSE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZANUDEROSE_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZANUDEROSE_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZANUDEROSE_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/6/e608f09MD02febDBORGANZANUDEROSE_7.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "10 x 10 x 6 cm",
+      "stockQuantity": 103,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "sarees",
+      "_source": {
+        "nykaaId": "25628649",
+        "sku": "DESHB00001255",
+        "categoryFilter": "10",
+        "assignedPriceTier": 1166
+      }
+    }
+  ]
+}
