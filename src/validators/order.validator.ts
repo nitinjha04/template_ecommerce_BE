@@ -1,4 +1,5 @@
 import { body, param } from 'express-validator';
+import { emailField } from './email';
 
 const orderStatuses = ['Pending', 'Processing', 'Shipped', 'Delivered', 'Cancelled'];
 
@@ -19,13 +20,7 @@ const phoneDigitsRule = (path: string, label: string) =>
     });
 
 export const createOrderValidator = [
-  body('email')
-    .trim()
-    .notEmpty()
-    .withMessage('Email is required')
-    .isEmail()
-    .withMessage('Valid email is required')
-    .normalizeEmail(),
+  emailField('email'),
   phoneDigitsRule('phone', 'Phone'),
   requiredField('shippingAddress.firstName', 'First name'),
   requiredField('shippingAddress.lastName', 'Last name'),

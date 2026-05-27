@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.trackOrderValidator = exports.orderIdValidator = exports.updateOrderStatusValidator = exports.createOrderValidator = void 0;
 const express_validator_1 = require("express-validator");
+const email_1 = require("./email");
 const orderStatuses = ['Pending', 'Processing', 'Shipped', 'Delivered', 'Cancelled'];
 const requiredField = (path, label) => (0, express_validator_1.body)(path).trim().notEmpty().withMessage(`${label} is required`);
 const phoneDigitsRule = (path, label) => (0, express_validator_1.body)(path)
@@ -16,13 +17,7 @@ const phoneDigitsRule = (path, label) => (0, express_validator_1.body)(path)
     return true;
 });
 exports.createOrderValidator = [
-    (0, express_validator_1.body)('email')
-        .trim()
-        .notEmpty()
-        .withMessage('Email is required')
-        .isEmail()
-        .withMessage('Valid email is required')
-        .normalizeEmail(),
+    (0, email_1.emailField)('email'),
     phoneDigitsRule('phone', 'Phone'),
     requiredField('shippingAddress.firstName', 'First name'),
     requiredField('shippingAddress.lastName', 'Last name'),
