@@ -8,6 +8,8 @@ export interface IUser extends Document {
   password: string;
   role: UserRole;
   emailVerified: boolean;
+  /** 0 = started signup (OTP pending), 1 = verified/onboarded */
+  onBoardState: number;
   signupOtpHash?: string;
   signupOtpExpires?: Date;
   resetPasswordToken?: string;
@@ -49,7 +51,12 @@ const userSchema = new Schema<IUser>(
     },
     emailVerified: {
       type: Boolean,
-      default: true,
+      default: false,
+    },
+    onBoardState: {
+      type: Number,
+      default: 0,
+      min: 0,
     },
     signupOtpHash: { type: String, select: false },
     signupOtpExpires: { type: Date, select: false },

@@ -75,7 +75,9 @@ export class AuthService {
       '+signupOtpHash +signupOtpExpires'
     );
 
-    if (existing?.emailVerified) {
+    // If user is already onboarded/verified, block re-signup.
+    // If onboarding is incomplete (state 0), allow updating password + resending OTP.
+    if (existing && (existing.onBoardState ?? 0) > 0) {
       throw new ApiError(409, 'Email is already registered');
     }
 
@@ -85,6 +87,9 @@ export class AuthService {
       user.name = input.name.trim();
       user.password = input.password;
       user.emailVerified = false;
+      user.onBoardState = 0;
+      user.role = user.role || 'customer';
+      await user.save();
     } else {
       user = await User.create({
         name: input.name.trim(),
@@ -92,6 +97,7 @@ export class AuthService {
         password: input.password,
         role: 'customer',
         emailVerified: false,
+        onBoardState: 0,
       });
     }
 
@@ -130,6 +136,7 @@ export class AuthService {
     }
 
     user.emailVerified = true;
+    user.onBoardState = 1;
     user.signupOtpHash = undefined;
     user.signupOtpExpires = undefined;
     await user.save({ validateBeforeSave: false });
@@ -149,7 +156,7 @@ export class AuthService {
 
     const message = 'If an account exists, a verification code has been sent.';
 
-    if (!user || user.emailVerified) {
+    if (!user || user.emailVerified || (user.onBoardState ?? 0) > 0) {
       return { message };
     }
 

@@ -50,7 +50,9 @@ class AuthService {
     static async signup(input) {
         const email = normalizeEmail(input.email);
         const existing = await models_1.User.findOne({ email }).select('+signupOtpHash +signupOtpExpires');
-        if (existing?.emailVerified) {
+        // If user is already onboarded/verified, block re-signup.
+        // If onboarding is incomplete (state 0), allow updating password + resending OTP.
+        if (existing && (existing.onBoardState ?? 0) > 0) {
             throw new ApiError_1.ApiError(409, 'Email is already registered');
         }
         let user = existing;
@@ -58,6 +60,9 @@ class AuthService {
             user.name = input.name.trim();
             user.password = input.password;
             user.emailVerified = false;
+            user.onBoardState = 0;
+            user.role = user.role || 'customer';
+            await user.save();
         }
         else {
             user = await models_1.User.create({
@@ -66,6 +71,7 @@ class AuthService {
                 password: input.password,
                 role: 'customer',
                 emailVerified: false,
+                onBoardState: 0,
             });
         }
         await assignSignupOtp(user);
@@ -93,6 +99,7 @@ class AuthService {
             throw new ApiError_1.ApiError(400, 'Invalid verification code');
         }
         user.emailVerified = true;
+        user.onBoardState = 1;
         user.signupOtpHash = undefined;
         user.signupOtpExpires = undefined;
         await user.save({ validateBeforeSave: false });
@@ -107,7 +114,7 @@ class AuthService {
         const normalizedEmail = normalizeEmail(email);
         const user = await models_1.User.findOne({ email: normalizedEmail });
         const message = 'If an account exists, a verification code has been sent.';
-        if (!user || user.emailVerified) {
+        if (!user || user.emailVerified || (user.onBoardState ?? 0) > 0) {
             return { message };
         }
         await assignSignupOtp(user);

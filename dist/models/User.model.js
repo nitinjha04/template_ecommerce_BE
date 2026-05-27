@@ -66,7 +66,12 @@ const userSchema = new mongoose_1.Schema({
     },
     emailVerified: {
         type: Boolean,
-        default: true,
+        default: false,
+    },
+    onBoardState: {
+        type: Number,
+        default: 0,
+        min: 0,
     },
     signupOtpHash: { type: String, select: false },
     signupOtpExpires: { type: Date, select: false },

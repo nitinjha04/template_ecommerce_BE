@@ -27,6 +27,7 @@ const seed = async () => {
             password: env_1.env.seedAdmin.password,
             role: 'admin',
             emailVerified: true,
+            onBoardState: 1,
         });
         console.log(`Admin created: ${env_1.env.seedAdmin.email}`);
     }
@@ -46,6 +47,7 @@ const seed = async () => {
                 password: customer.password,
                 role: 'customer',
                 emailVerified: true,
+                onBoardState: 1,
             });
             console.log(`Customer created: ${customer.email}`);
         }
