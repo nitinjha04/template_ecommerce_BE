@@ -70,15 +70,16 @@ export const resolveOrderPayment = (
   order: Pick<IOrder, 'paymentInfo'>,
   latestPayment?: IPayment | null
 ): SerializedOrderPayment | undefined => {
-  const fromDoc = latestPayment ? paymentFromDocument(latestPayment) : undefined;
   const fromSnap = order.paymentInfo
     ? paymentFromSnapshot(order.paymentInfo)
     : undefined;
+  const fromDoc = latestPayment ? paymentFromDocument(latestPayment) : undefined;
 
-  if (fromDoc?.isPaid) return fromDoc;
+  // Order.paymentInfo is written once when payment succeeds — prefer it in the UI.
   if (fromSnap?.isPaid) return fromSnap;
-  if (fromDoc) return fromDoc;
+  if (fromDoc?.isPaid) return fromDoc;
   if (fromSnap) return fromSnap;
+  if (fromDoc) return fromDoc;
   return undefined;
 };
 
