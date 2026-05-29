@@ -33,8 +33,8 @@ export const createOrderValidator = [
   requiredField('shippingAddress.postalCode', 'Postal code'),
   body('orderNote').optional({ values: 'falsy' }).isString().trim(),
   body('paymentMethod')
-    .equals('cod')
-    .withMessage('Only Cash on Delivery is accepted'),
+    .isIn(['cod', 'online'])
+    .withMessage('paymentMethod must be cod or online'),
   body('items')
     .isArray({ min: 1 })
     .withMessage('Order must contain at least one item'),

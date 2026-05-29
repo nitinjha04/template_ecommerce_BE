@@ -62,6 +62,16 @@ const paymentSchema = new mongoose_1.Schema({
         enum: PAYMENT_STATUSES,
         default: 'Pending',
     },
+    gateway: {
+        provider: { type: String, enum: ['dsa-gateway'], required: false },
+        merchantId: { type: String, required: false },
+        merchantOrderNo: { type: String, required: false, index: true },
+        gatewayOrderNo: { type: String, required: false },
+        payUrlH5: { type: String, required: false },
+        createResponse: { type: mongoose_1.Schema.Types.Mixed, required: false },
+        callbackData: { type: mongoose_1.Schema.Types.Mixed, required: false },
+        verifyResponse: { type: mongoose_1.Schema.Types.Mixed, required: false },
+    },
 }, {
     timestamps: true,
     toJSON: {

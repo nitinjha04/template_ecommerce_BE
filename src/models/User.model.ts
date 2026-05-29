@@ -10,6 +10,12 @@ export interface IUser extends Document {
   emailVerified: boolean;
   /** 0 = started signup (OTP pending), 1 = verified/onboarded */
   onBoardState: number;
+  cart: {
+    product: Types.ObjectId;
+    quantity: number;
+    size: string;
+    color: string;
+  }[];
   signupOtpHash?: string;
   signupOtpExpires?: Date;
   resetPasswordToken?: string;
@@ -66,6 +72,14 @@ const userSchema = new Schema<IUser>(
     resetOtpExpires: { type: Date, select: false },
     resetOtpVerifiedAt: { type: Date, select: false },
     wishlist: [{ type: Schema.Types.ObjectId, ref: 'Product' }],
+    cart: [
+      {
+        product: { type: Schema.Types.ObjectId, ref: 'Product', required: true },
+        quantity: { type: Number, required: true, min: 1 },
+        size: { type: String, required: true, trim: true, default: 'One Size' },
+        color: { type: String, required: true, trim: true, default: 'Default' },
+      },
+    ],
   },
   {
     timestamps: true,

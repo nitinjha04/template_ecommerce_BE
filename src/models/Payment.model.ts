@@ -9,6 +9,16 @@ export interface IPayment extends Document {
   method: string;
   amount: number;
   status: PaymentStatus;
+  gateway?: {
+    provider: 'dsa-gateway';
+    merchantId?: string;
+    merchantOrderNo?: string;
+    gatewayOrderNo?: string;
+    payUrlH5?: string;
+    createResponse?: unknown;
+    callbackData?: unknown;
+    verifyResponse?: unknown;
+  };
   createdAt: Date;
   updatedAt: Date;
 }
@@ -40,6 +50,16 @@ const paymentSchema = new Schema<IPayment>(
       type: String,
       enum: PAYMENT_STATUSES,
       default: 'Pending',
+    },
+    gateway: {
+      provider: { type: String, enum: ['dsa-gateway'], required: false },
+      merchantId: { type: String, required: false },
+      merchantOrderNo: { type: String, required: false, index: true },
+      gatewayOrderNo: { type: String, required: false },
+      payUrlH5: { type: String, required: false },
+      createResponse: { type: Schema.Types.Mixed, required: false },
+      callbackData: { type: Schema.Types.Mixed, required: false },
+      verifyResponse: { type: Schema.Types.Mixed, required: false },
     },
   },
   {

@@ -30,8 +30,8 @@ exports.createOrderValidator = [
     requiredField('shippingAddress.postalCode', 'Postal code'),
     (0, express_validator_1.body)('orderNote').optional({ values: 'falsy' }).isString().trim(),
     (0, express_validator_1.body)('paymentMethod')
-        .equals('cod')
-        .withMessage('Only Cash on Delivery is accepted'),
+        .isIn(['cod', 'online'])
+        .withMessage('paymentMethod must be cod or online'),
     (0, express_validator_1.body)('items')
         .isArray({ min: 1 })
         .withMessage('Order must contain at least one item'),

@@ -10,7 +10,6 @@ import routes from "./routes";
 const app = express();
 const uploadsDir = path.join(process.cwd(), "uploads");
 const allowedOrigins = env.corsOrigin ?? [];
-console.info("🚀 ~ allowedOrigins:", allowedOrigins)
 app.use(
   helmet({
     crossOriginResourcePolicy: { policy: "cross-origin" },

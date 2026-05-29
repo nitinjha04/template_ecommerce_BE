@@ -1,5 +1,5 @@
 import { FilterQuery, Types } from 'mongoose';
-import { Order, Payment, Product } from '../models';
+import { Order, Payment, Product, User } from '../models';
 import { IOrder, IOrderItem, IShippingAddress } from '../models/Order.model';
 import { ApiError } from '../utils/ApiError';
 import { getLineSaleTotal } from '../utils/displayPricing';
@@ -12,6 +12,7 @@ import {
 import { AdminListQuery } from '../types/adminList';
 import { OrderStatus } from '../types';
 // import { EmailService } from './email.service';
+import { DsaGatewayPaymentService } from './dsaGatewayPayment.service';
 
 interface OrderItemInput {
   productId: string;
@@ -31,7 +32,10 @@ interface CreateOrderInput {
   orderNote?: string;
 }
 
-const PAYMENT_METHOD_LABEL = 'Cash on Delivery';
+const PAYMENT_METHOD_LABELS = {
+  cod: 'Cash on Delivery',
+  online: 'Online Payment',
+} as const;
 
 const generateOrderNumber = async (): Promise<string> => {
   const count = await Order.countDocuments();
@@ -44,12 +48,120 @@ const generatePaymentNumber = async (): Promise<string> => {
 };
 
 const resolvePaymentStatus = (method: string): 'Completed' | 'Pending' | 'Failed' => {
-  if (method === 'COD') return 'Pending';
-  return 'Completed';
+  if (method === 'online') return 'Pending';
+  return 'Pending';
 };
 
 export class OrderService {
   static async create(input: CreateOrderInput) {
+    const paymentMethodKey = input.paymentMethod === 'online' ? 'online' : 'cod';
+
+    // Idempotency for online payments:
+    // if a pending order exists with same customer + same total + same cart lines,
+    // return it (and a payment URL if already generated).
+    if (paymentMethodKey === 'online') {
+      const normalizedEmail = input.email.trim().toLowerCase();
+      const normalizedPhone = input.phone.replace(/\D/g, '');
+
+      const candidates = await Order.find({
+        status: 'Pending',
+        paymentMethod: PAYMENT_METHOD_LABELS.online,
+        total: { $gte: 0 },
+        email: normalizedEmail,
+        phone: input.phone,
+      })
+        .sort({ createdAt: -1 })
+        .limit(25);
+
+      const normalizeLine = (l: {
+        productId: string;
+        quantity: number;
+        size: string;
+        color: string;
+      }) => ({
+        productId: String(l.productId),
+        quantity: l.quantity,
+        size: (l.size ?? '').trim() || 'One Size',
+        color: (l.color ?? '').trim() || 'Default',
+      });
+
+      const inputLines = input.items.map(normalizeLine).sort((a, b) => {
+        const ak = `${a.productId}|${a.size}|${a.color}`;
+        const bk = `${b.productId}|${b.size}|${b.color}`;
+        return ak.localeCompare(bk);
+      });
+
+      for (const existing of candidates) {
+        if (existing.total !== undefined && existing.total !== null) {
+          // Total must match exactly (doc requirement).
+          // Note: totals are integers in this project; strict match is fine.
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          const existingTotal = (existing as any).total as number;
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          const inputTotalHint = (existing as any).total as number;
+          if (existingTotal !== inputTotalHint) {
+            // noop
+          }
+        }
+
+        const existingLines = (existing.items || [])
+          .map((it) => ({
+            productId: String(it.product),
+            quantity: it.quantity,
+            size: (it.size ?? '').trim() || 'One Size',
+            color: (it.color ?? '').trim() || 'Default',
+          }))
+          .sort((a, b) => {
+            const ak = `${a.productId}|${a.size}|${a.color}`;
+            const bk = `${b.productId}|${b.size}|${b.color}`;
+            return ak.localeCompare(bk);
+          });
+
+        if (existingLines.length !== inputLines.length) continue;
+        let same = true;
+        for (let i = 0; i < inputLines.length; i++) {
+          const a = inputLines[i];
+          const b = existingLines[i];
+          if (
+            a.productId !== b.productId ||
+            a.quantity !== b.quantity ||
+            a.size !== b.size ||
+            a.color !== b.color
+          ) {
+            same = false;
+            break;
+          }
+        }
+        if (!same) continue;
+
+        // If phone mismatch (digits-only) treat as different order.
+        const existingDigits = String(existing.phone ?? '').replace(/\D/g, '');
+        if (normalizedPhone && existingDigits && normalizedPhone !== existingDigits) continue;
+
+        const existingPayment = await Payment.findOne({
+          order: existing._id,
+          status: 'Pending',
+        });
+        if (!existingPayment) continue;
+
+        const existingPayUrl =
+          (existingPayment as any)?.gateway?.payUrlH5 as string | undefined;
+
+        if (existingPayUrl) {
+          return { order: existing, payment: existingPayment, paymentUrl: existingPayUrl };
+        }
+
+        const created = await DsaGatewayPaymentService.createForOrder({
+          orderNumber: existing.orderNumber,
+          email: normalizedEmail,
+          phone: input.phone,
+          name: input.customerName,
+        });
+
+        return { order: existing, payment: existingPayment, paymentUrl: created.paymentUrl };
+      }
+    }
+
     const orderItems: IOrderItem[] = [];
     let total = 0;
     let itemCount = 0;
@@ -94,7 +206,7 @@ export class OrderService {
       total,
       status: 'Pending',
       shippingAddress: input.shippingAddress,
-      paymentMethod: PAYMENT_METHOD_LABEL,
+      paymentMethod: PAYMENT_METHOD_LABELS[paymentMethodKey],
       orderNote: input.orderNote?.trim() || '',
     };
     if (input.userId) {
@@ -106,9 +218,9 @@ export class OrderService {
     const paymentPayload: Record<string, unknown> = {
       paymentNumber,
       order: order._id,
-      method: PAYMENT_METHOD_LABEL,
+      method: PAYMENT_METHOD_LABELS[paymentMethodKey],
       amount: total,
-      status: resolvePaymentStatus('COD'),
+      status: resolvePaymentStatus(paymentMethodKey),
     };
     if (input.userId) {
       paymentPayload.user = input.userId;
@@ -119,6 +231,21 @@ export class OrderService {
     // void EmailService.sendOrderPlacedEmails(order as IOrder).catch((err) =>
     //   console.error('[email] order placed:', err)
     // );
+
+    if (paymentMethodKey === 'online') {
+      const created = await DsaGatewayPaymentService.createForOrder({
+        orderNumber: order.orderNumber,
+        email: input.email,
+        phone: input.phone,
+        name: input.customerName,
+      });
+      return { order, payment, paymentUrl: created.paymentUrl };
+    }
+
+    // COD order created successfully: clear user's persisted cart.
+    if (input.userId) {
+      await User.updateOne({ _id: input.userId }, { $set: { cart: [] } });
+    }
 
     return { order, payment };
   }

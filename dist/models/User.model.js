@@ -81,6 +81,14 @@ const userSchema = new mongoose_1.Schema({
     resetOtpExpires: { type: Date, select: false },
     resetOtpVerifiedAt: { type: Date, select: false },
     wishlist: [{ type: mongoose_1.Schema.Types.ObjectId, ref: 'Product' }],
+    cart: [
+        {
+            product: { type: mongoose_1.Schema.Types.ObjectId, ref: 'Product', required: true },
+            quantity: { type: Number, required: true, min: 1 },
+            size: { type: String, required: true, trim: true, default: 'One Size' },
+            color: { type: String, required: true, trim: true, default: 'Default' },
+        },
+    ],
 }, {
     timestamps: true,
     toJSON: {

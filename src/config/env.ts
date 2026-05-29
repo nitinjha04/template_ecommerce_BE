@@ -17,6 +17,12 @@ export const env = {
   jwtSecret: process.env.JWT_SECRET!,
   jwtExpiresIn: process.env.JWT_EXPIRES_IN ?? "7d",
   corsOrigin: process.env.CORS_ORIGIN?.split(",").map((o) => o.trim()),
+  dsaGateway: {
+    merchantId: process.env.MERCHANT_ID ?? "",
+    privateKey: process.env.PRIVATE_KEY ?? "",
+    publicKey: process.env.PUBLIC_KEY ?? "",
+    baseUrl: (process.env.PAYMENT_BASE_URL ?? "").replace(/\/$/, ""),
+  },
   imagekit: {
     publicKey: process.env.IMAGEKIT_PUBLIC_KEY ?? "",
     privateKey: process.env.IMAGEKIT_PRIVATE_KEY ?? "",
@@ -65,6 +71,11 @@ export const getApiPublicOrigin = (): string => {
   const fromEnv = process.env.API_PUBLIC_URL?.trim();
   if (fromEnv) return fromEnv.replace(/\/$/, "");
   return `http://localhost:${env.port}`;
+};
+
+export const isDsaGatewayConfigured = (): boolean => {
+  const { merchantId, privateKey, publicKey, baseUrl } = env.dsaGateway;
+  return Boolean(merchantId && privateKey && publicKey && baseUrl);
 };
 
 export const isEmailConfigured = (): boolean =>

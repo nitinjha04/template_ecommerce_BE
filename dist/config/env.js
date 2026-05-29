@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.isEmailEnabled = exports.isEmailConfigured = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
+exports.isEmailEnabled = exports.isEmailConfigured = exports.isDsaGatewayConfigured = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
 const dotenv_1 = __importDefault(require("dotenv"));
 dotenv_1.default.config();
 const required = ["MONGODB_URI", "JWT_SECRET"];
@@ -19,6 +19,12 @@ exports.env = {
     jwtSecret: process.env.JWT_SECRET,
     jwtExpiresIn: process.env.JWT_EXPIRES_IN ?? "7d",
     corsOrigin: process.env.CORS_ORIGIN?.split(",").map((o) => o.trim()),
+    dsaGateway: {
+        merchantId: process.env.MERCHANT_ID ?? "",
+        privateKey: process.env.PRIVATE_KEY ?? "",
+        publicKey: process.env.PUBLIC_KEY ?? "",
+        baseUrl: (process.env.PAYMENT_BASE_URL ?? "").replace(/\/$/, ""),
+    },
     imagekit: {
         publicKey: process.env.IMAGEKIT_PUBLIC_KEY ?? "",
         privateKey: process.env.IMAGEKIT_PRIVATE_KEY ?? "",
@@ -64,6 +70,11 @@ const getApiPublicOrigin = () => {
     return `http://localhost:${exports.env.port}`;
 };
 exports.getApiPublicOrigin = getApiPublicOrigin;
+const isDsaGatewayConfigured = () => {
+    const { merchantId, privateKey, publicKey, baseUrl } = exports.env.dsaGateway;
+    return Boolean(merchantId && privateKey && publicKey && baseUrl);
+};
+exports.isDsaGatewayConfigured = isDsaGatewayConfigured;
 const isEmailConfigured = () => Boolean(exports.env.smtp.host && exports.env.smtp.user && exports.env.smtp.pass);
 exports.isEmailConfigured = isEmailConfigured;
 /** Emails are off until EMAIL_ENABLED=true and SMTP vars are set. */

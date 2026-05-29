@@ -4,11 +4,13 @@ import productRoutes from './product.routes';
 import categoryRoutes from './category.routes';
 import orderRoutes from './order.routes';
 import paymentRoutes from './payment.routes';
+import gatewayPaymentRoutes from './gatewayPayment.routes';
 import contactRoutes from './contact.routes';
 import uploadRoutes from './upload.routes';
 import dashboardRoutes from './dashboard.routes';
 import pincodeRoutes from './pincode.routes';
 import wishlistRoutes from './wishlist.routes';
+import cartRoutes from './cart.routes';
 
 const router = Router();
 
@@ -21,10 +23,12 @@ router.use('/products', productRoutes);
 router.use('/categories', categoryRoutes);
 router.use('/orders', orderRoutes);
 router.use('/payments', paymentRoutes);
+router.use('/gateway-payments', gatewayPaymentRoutes);
 router.use('/contact', contactRoutes);
 router.use('/upload', uploadRoutes);
 router.use('/dashboard', dashboardRoutes);
 router.use('/pincode', pincodeRoutes);
 router.use('/wishlist', wishlistRoutes);
+router.use('/cart', cartRoutes);
 
 export default router;

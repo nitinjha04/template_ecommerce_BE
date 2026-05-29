@@ -14,7 +14,6 @@ const routes_1 = __importDefault(require("./routes"));
 const app = (0, express_1.default)();
 const uploadsDir = path_1.default.join(process.cwd(), "uploads");
 const allowedOrigins = env_1.env.corsOrigin ?? [];
-console.info("🚀 ~ allowedOrigins:", allowedOrigins);
 app.use((0, helmet_1.default)({
     crossOriginResourcePolicy: { policy: "cross-origin" },
 }));
