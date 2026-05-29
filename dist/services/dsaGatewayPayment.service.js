@@ -15,6 +15,7 @@ const devOrderAmount_1 = require("../utils/devOrderAmount");
 const paymentFinalization_service_1 = require("./paymentFinalization.service");
 const serializeOrder_1 = require("../utils/serializeOrder");
 const orderPaymentPersistence_1 = require("./orderPaymentPersistence");
+const paymentSideEffects_1 = require("./paymentSideEffects");
 class DsaGatewayPaymentService {
     static log(step, details) {
         // Intentionally avoid logging sensitive values like keys/signatures.
@@ -242,10 +243,11 @@ class DsaGatewayPaymentService {
                     utr: gatewayOrderNo,
                 },
             });
-            await paymentFinalization_service_1.PaymentFinalizationService.sendPaymentConfirmationEmailOnce(payment._id, order._id);
-            if (order.user) {
-                await models_1.User.updateOne({ _id: order.user }, { $set: { cart: [] } });
-            }
+            (0, paymentSideEffects_1.runPaymentSuccessSideEffects)({
+                paymentId: payment._id,
+                orderId: order._id,
+                userId: order.user,
+            });
         }
         return "success";
     }
@@ -304,10 +306,11 @@ class DsaGatewayPaymentService {
                 payment,
                 gateway: gatewayPayload,
             });
-            await paymentFinalization_service_1.PaymentFinalizationService.sendPaymentConfirmationEmailOnce(payment._id, order._id);
-            if (order.user) {
-                await models_1.User.updateOne({ _id: order.user }, { $set: { cart: [] } });
-            }
+            (0, paymentSideEffects_1.runPaymentSuccessSideEffects)({
+                paymentId: payment._id,
+                orderId: order._id,
+                userId: order.user,
+            });
         }
         else if (payment.status === 'Completed') {
             await paymentFinalization_service_1.PaymentFinalizationService.ensureOrderPaymentSnapshot(order._id, payment, { gatewayOrderNo: gatewayOrderNoFromApi });

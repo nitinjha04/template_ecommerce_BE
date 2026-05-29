@@ -6,7 +6,7 @@ import {
   getPaymentReturnUrl,
   isDsaGatewayConfigured,
 } from "../config/env";
-import { Order, Payment, User } from "../models";
+import { Order, Payment } from "../models";
 import type { IPayment } from "../models/Payment.model";
 import { ApiError } from "../utils/ApiError";
 import { randomNonceStr } from "../utils/dsaGateway/noncestr";
@@ -19,6 +19,7 @@ import {
   parseGatewayVerifyData,
   saveOrderPaymentOnGatewaySuccess,
 } from "./orderPaymentPersistence";
+import { runPaymentSuccessSideEffects } from "./paymentSideEffects";
 
 type GatewayCreateResult = {
   paymentUrl: string;
@@ -309,13 +310,11 @@ export class DsaGatewayPaymentService {
           utr: gatewayOrderNo,
         },
       });
-      await PaymentFinalizationService.sendPaymentConfirmationEmailOnce(
-        payment._id as Types.ObjectId,
-        order._id as Types.ObjectId
-      );
-      if (order.user) {
-        await User.updateOne({ _id: order.user }, { $set: { cart: [] } });
-      }
+      runPaymentSuccessSideEffects({
+        paymentId: payment._id as Types.ObjectId,
+        orderId: order._id as Types.ObjectId,
+        userId: order.user,
+      });
     }
 
     return "success";
@@ -394,13 +393,11 @@ export class DsaGatewayPaymentService {
         payment,
         gateway: gatewayPayload,
       });
-      await PaymentFinalizationService.sendPaymentConfirmationEmailOnce(
-        payment._id as Types.ObjectId,
-        order._id as Types.ObjectId
-      );
-      if (order.user) {
-        await User.updateOne({ _id: order.user }, { $set: { cart: [] } });
-      }
+      runPaymentSuccessSideEffects({
+        paymentId: payment._id as Types.ObjectId,
+        orderId: order._id as Types.ObjectId,
+        userId: order.user,
+      });
     } else if (payment.status === 'Completed') {
       await PaymentFinalizationService.ensureOrderPaymentSnapshot(
         order._id as Types.ObjectId,

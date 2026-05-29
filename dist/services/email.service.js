@@ -25,12 +25,17 @@ class EmailService {
         }
         try {
             const transporter = (0, mail_1.getMailTransporter)();
-            const result = await transporter.sendMail({
+            const sendPromise = transporter.sendMail({
                 from: env_1.env.smtp.from,
                 to,
                 subject,
                 html,
             });
+            const timeoutMs = 15_000;
+            const result = await Promise.race([
+                sendPromise,
+                new Promise((_, reject) => setTimeout(() => reject(new Error('SMTP send timed out')), timeoutMs)),
+            ]);
             console.log(`[email] Sent successfully: "${subject}" → ${to}${result.messageId ? ` (id: ${result.messageId})` : ''}`);
         }
         catch (err) {

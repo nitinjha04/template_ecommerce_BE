@@ -29,6 +29,9 @@ export const getMailTransporter = (): Transporter => {
         user: env.smtp.user,
         pass: env.smtp.pass,
       },
+      connectionTimeout: 10_000,
+      greetingTimeout: 10_000,
+      socketTimeout: 15_000,
       ...(port === 587 && {
         requireTLS: true,
         tls: { minVersion: 'TLSv1.2' },
