@@ -22,6 +22,14 @@ export const env = {
     privateKey: process.env.PRIVATE_KEY ?? "",
     publicKey: process.env.PUBLIC_KEY ?? "",
     baseUrl: (process.env.PAYMENT_BASE_URL ?? "").replace(/\/$/, ""),
+    gatewayId: process.env.GATEWAY_ID ? Number(process.env.GATEWAY_ID) : undefined,
+    gatewayIds: (process.env.DSA_GATEWAY_IDS ?? "")
+      .split(",")
+      .map((v) => Number(String(v).trim()))
+      .filter((n) => Number.isFinite(n) && n > 0),
+  },
+  directUpi: {
+    vpa: (process.env.DIRECT_UPI_VPA ?? "").trim(),
   },
   imagekit: {
     publicKey: process.env.IMAGEKIT_PUBLIC_KEY ?? "",

@@ -5,6 +5,7 @@ import { ApiError } from "../utils/ApiError";
 import { randomNonceStr } from "../utils/dsaGateway/noncestr";
 import { signDsaBase64 } from "../utils/dsaGateway/sign";
 import { verifyDsaBase64 } from "../utils/dsaGateway/verify";
+import { applyDevTestOrderTotal } from "../utils/devOrderAmount";
 
 type GatewayCreateResult = {
   paymentUrl: string;
@@ -38,6 +39,7 @@ export class DsaGatewayPaymentService {
     email?: string;
     phone?: string;
     name?: string;
+    gatewayId?: number;
   }): Promise<GatewayCreateResult> {
     if (!isDsaGatewayConfigured()) {
       throw new ApiError(500, "Payment gateway is not configured");
@@ -76,8 +78,10 @@ export class DsaGatewayPaymentService {
     const timestamp = Date.now().toString();
 
     const merchantId = env.dsaGateway.merchantId;
-    const merchantOrderNo = order.orderNumber;
-    const orderAmount = String(order.total);
+    // PHP flow uses a unique merchant_order_no per attempt.
+    const merchantOrderNo = `T${String(order._id).slice(-6)}${Date.now()}`;
+    const chargeTotal = applyDevTestOrderTotal(order.total);
+    const orderAmount = String(Math.round(chargeTotal));
     const action = "payin";
     const notifyUrl = `${getApiPublicOrigin()}/api/v1/gateway-payments/webhook`;
 
@@ -97,16 +101,7 @@ export class DsaGatewayPaymentService {
           ? "pem"
           : "env-string",
       });
-
-      console.info(
-        "🚀 ~ DsaGatewayPaymentService ~ createForOrder ~ signText:",
-        signText,
-      );
       sign = signDsaBase64(signText, env.dsaGateway.privateKey);
-      console.info(
-        "🚀 ~ DsaGatewayPaymentService ~ createForOrder ~ sign:",
-        sign,
-      );
     } catch (err) {
       this.log("createForOrder:signing_failed", {
         error: err instanceof Error ? err.message : String(err),
@@ -116,7 +111,21 @@ export class DsaGatewayPaymentService {
       throw err;
     }
 
+    const configuredIds = [
+      ...(env.dsaGateway.gatewayIds ?? []),
+      ...(env.dsaGateway.gatewayId ? [env.dsaGateway.gatewayId] : []),
+    ].filter((n, i, a) => a.indexOf(n) === i);
+
+    const chosenGatewayId =
+      (Number.isFinite(input.gatewayId) && (input.gatewayId as number) > 0
+        ? (input.gatewayId as number)
+        : undefined) ??
+      configuredIds[0] ??
+      489783;
+
     const payload = {
+      // DT PayPro byGateway variant requires gateway_id.
+      gateway_id: chosenGatewayId,
       merchant_id: Number(merchantId),
       merchant_order_no: merchantOrderNo,
       order_amount: orderAmount,
@@ -133,21 +142,25 @@ export class DsaGatewayPaymentService {
 
     const url = `${env.dsaGateway.baseUrl}/open/nax/payin/byGateway`;
     this.log("createForOrder:gateway_request", { url, merchantOrderNo });
-    this.log("createForOrder:gateway_request", payload);
-
-    const response = await axios.post(
-      url,
-      { ...payload, gateway_id: 489783 },
-      { timeout: 20_000 },
-    );
+    const response = await axios.post(url, payload, { timeout: 20_000 });
 
     this.log("createForOrder:gateway_response", { response: response.data });
 
-    const payUrlH5 =
-      response?.data?.data?.pay_url_H5 ??
-      response?.data?.data?.payUrlH5 ??
-      response?.data?.pay_url_H5;
-    if (!payUrlH5 || typeof payUrlH5 !== "string") {
+    // PHP flow: prefer pay_url, then deeplink/upi, and also check nested data.*
+    const data = response?.data;
+    const nested = data?.data;
+    const payUrl =
+      data?.pay_url ??
+      nested?.pay_url ??
+      data?.deeplink ??
+      nested?.deeplink ??
+      data?.upi ??
+      nested?.upi ??
+      nested?.pay_url_H5 ??
+      nested?.payUrlH5 ??
+      data?.pay_url_H5;
+
+    if (!payUrl || typeof payUrl !== "string") {
       throw new ApiError(502, "Gateway did not return a payment URL");
     }
 
@@ -155,19 +168,21 @@ export class DsaGatewayPaymentService {
       { _id: payment._id },
       {
         $set: {
+          provider: "dsa_deeplink",
           method: "DSA Gateway",
           status: "Pending",
           "gateway.provider": "dsa-gateway",
+          "gateway.gatewayId": chosenGatewayId,
           "gateway.merchantId": merchantId,
           "gateway.merchantOrderNo": merchantOrderNo,
-          "gateway.payUrlH5": payUrlH5,
+          "gateway.payUrlH5": payUrl,
           "gateway.createResponse": response?.data,
         },
       },
     );
 
     this.log("createForOrder:done", { merchantOrderNo });
-    return { paymentUrl: payUrlH5, merchantOrderNo };
+    return { paymentUrl: payUrl, merchantOrderNo };
   }
 
   static verifyWebhookSignature(body: GatewayWebhookBody): boolean {
@@ -181,25 +196,40 @@ export class DsaGatewayPaymentService {
       sign,
     } = body;
 
-    if (
-      !order_no ||
-      !merchant_order_no ||
-      !order_amount ||
-      !noncestr ||
-      !timestamp ||
-      !sign
-    ) {
+    // Support both known schemes:
+    // - payment-flow.md callback: merchant_order_no + order_no + order_amount + noncestr + timestamp
+    // - PHP plugin scheme (when those fields exist): merchant_id + merchant_order_no + order_amount + noncestr + timestamp + action
+    if (!merchant_order_no || !order_amount || !noncestr || !timestamp || !sign) {
       return false;
     }
 
-    const verifyText =
-      String(merchant_order_no) +
-      String(order_no) +
-      String(order_amount) +
-      String(noncestr) +
-      String(timestamp);
+    const signStr = String(sign);
+    const pub = env.dsaGateway.publicKey;
 
-    return verifyDsaBase64(verifyText, String(sign), env.dsaGateway.publicKey);
+    if (order_no) {
+      const verifyText1 =
+        String(merchant_order_no) +
+        String(order_no) +
+        String(order_amount) +
+        String(noncestr) +
+        String(timestamp);
+      if (verifyDsaBase64(verifyText1, signStr, pub)) return true;
+    }
+
+    const merchant_id = (body as any)?.merchant_id;
+    const action = (body as any)?.action;
+    if (merchant_id != null && action != null) {
+      const verifyText2 =
+        String(merchant_id) +
+        String(merchant_order_no) +
+        String(order_amount) +
+        String(noncestr) +
+        String(timestamp) +
+        String(action);
+      if (verifyDsaBase64(verifyText2, signStr, pub)) return true;
+    }
+
+    return false;
   }
 
   static async handleWebhook(body: GatewayWebhookBody): Promise<"success"> {
@@ -213,11 +243,11 @@ export class DsaGatewayPaymentService {
       throw new ApiError(400, "Invalid signature");
     }
 
-    const order = await Order.findOne({ orderNumber: merchantOrderNo });
-    if (!order) throw new ApiError(404, "Order not found");
-
-    const payment = await Payment.findOne({ order: order._id });
+    const payment = await Payment.findOne({ "gateway.merchantOrderNo": merchantOrderNo });
     if (!payment) throw new ApiError(404, "Payment record not found");
+
+    const order = await Order.findById(payment.order);
+    if (!order) throw new ApiError(404, "Order not found");
 
     const status = String(body.status ?? "");
     const gatewayOrderNo = body.order_no ? String(body.order_no) : undefined;
@@ -259,14 +289,14 @@ export class DsaGatewayPaymentService {
       throw new ApiError(500, "Payment gateway is not configured");
     }
 
-    const orderNumber = merchantOrderNo.trim();
-    const order = await Order.findOne({ orderNumber });
-    if (!order) throw new ApiError(404, "Order not found");
-
-    const payment = await Payment.findOne({ order: order._id });
+    const mo = merchantOrderNo.trim();
+    const payment = await Payment.findOne({ "gateway.merchantOrderNo": mo });
     if (!payment) throw new ApiError(404, "Payment record not found");
 
-    const signText = env.dsaGateway.merchantId + orderNumber;
+    const order = await Order.findById(payment.order);
+    if (!order) throw new ApiError(404, "Order not found");
+
+    const signText = env.dsaGateway.merchantId + mo;
     const sign = signDsaBase64(signText, env.dsaGateway.privateKey);
 
     const url = `${env.dsaGateway.baseUrl}/open/nax/payin/findByNo`;
@@ -274,7 +304,7 @@ export class DsaGatewayPaymentService {
       url,
       {
         merchant_id: Number(env.dsaGateway.merchantId),
-        merchant_order_no: orderNumber,
+        merchant_order_no: mo,
         sign,
       },
       { timeout: 20_000 },
@@ -286,7 +316,7 @@ export class DsaGatewayPaymentService {
         $set: {
           "gateway.provider": "dsa-gateway",
           "gateway.merchantId": env.dsaGateway.merchantId,
-          "gateway.merchantOrderNo": orderNumber,
+          "gateway.merchantOrderNo": mo,
           "gateway.verifyResponse": response?.data,
         },
       },
@@ -316,6 +346,15 @@ export class DsaGatewayPaymentService {
       }
     }
 
-    return response?.data;
+    return {
+      merchantOrderNo: mo,
+      gatewayStatus: String(gatewayStatus ?? ''),
+      paymentStatus: String(gatewayStatus) === '2' ? 'Completed' : payment.status,
+      orderNumber: order.orderNumber,
+      orderStatus: (String(gatewayStatus) === '2' && order.status === 'Pending')
+        ? 'Processing'
+        : order.status,
+      raw: response?.data,
+    };
   }
 }

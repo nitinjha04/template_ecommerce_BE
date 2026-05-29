@@ -4,11 +4,19 @@ import { authenticate, authorize } from '../middleware/auth.middleware';
 import { validate } from '../middleware/validate.middleware';
 import { adminListQueryValidator } from '../validators/adminList.validator';
 import {
+  createProviderPaymentValidator,
   paymentIdValidator,
   updatePaymentStatusValidator,
 } from '../validators/payment.validator';
 
 const router = Router();
+
+// Public provider-aware payment creation (used by checkout/payment pages)
+router.post(
+  '/create',
+  validate(createProviderPaymentValidator),
+  PaymentController.createProviderPayment
+);
 
 router.use(authenticate);
 

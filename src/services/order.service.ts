@@ -13,6 +13,7 @@ import { AdminListQuery } from '../types/adminList';
 import { OrderStatus } from '../types';
 // import { EmailService } from './email.service';
 import { DsaGatewayPaymentService } from './dsaGatewayPayment.service';
+import { applyDevTestOrderTotal, shouldApplyDevTestOrderAmount } from '../utils/devOrderAmount';
 
 interface OrderItemInput {
   productId: string;
@@ -146,19 +147,18 @@ export class OrderService {
 
         const existingPayUrl =
           (existingPayment as any)?.gateway?.payUrlH5 as string | undefined;
+        const existingMerchantOrderNo =
+          (existingPayment as any)?.gateway?.merchantOrderNo as string | undefined;
 
         if (existingPayUrl) {
-          return { order: existing, payment: existingPayment, paymentUrl: existingPayUrl };
+          return {
+            order: existing,
+            payment: existingPayment,
+            paymentUrl: existingPayUrl,
+            merchantOrderNo: existingMerchantOrderNo,
+          };
         }
-
-        const created = await DsaGatewayPaymentService.createForOrder({
-          orderNumber: existing.orderNumber,
-          email: normalizedEmail,
-          phone: input.phone,
-          name: input.customerName,
-        });
-
-        return { order: existing, payment: existingPayment, paymentUrl: created.paymentUrl };
+        return { order: existing, payment: existingPayment };
       }
     }
 
@@ -192,6 +192,14 @@ export class OrderService {
         color: item.color,
         image: product.images[0],
       });
+    }
+
+    const catalogTotal = total;
+    total = applyDevTestOrderTotal(total);
+    if (shouldApplyDevTestOrderAmount() && total !== catalogTotal) {
+      console.info(
+        `[dev] Order total overridden for testing: ${catalogTotal} → ${total} (rupees)`
+      );
     }
 
     const orderNumber = await generateOrderNumber();
@@ -232,15 +240,7 @@ export class OrderService {
     //   console.error('[email] order placed:', err)
     // );
 
-    if (paymentMethodKey === 'online') {
-      const created = await DsaGatewayPaymentService.createForOrder({
-        orderNumber: order.orderNumber,
-        email: input.email,
-        phone: input.phone,
-        name: input.customerName,
-      });
-      return { order, payment, paymentUrl: created.paymentUrl };
-    }
+    if (paymentMethodKey === 'online') return { order, payment };
 
     // COD order created successfully: clear user's persisted cart.
     if (input.userId) {

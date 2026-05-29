@@ -25,9 +25,13 @@ const serializePayment = (payment) => {
         orderId,
         ...(orderSummary ? { order: orderSummary } : {}),
         ...(userId ? { userId } : {}),
+        ...(raw.provider ? { provider: raw.provider } : {}),
         method: raw.method,
         amount: raw.amount,
         status: raw.status,
+        ...(typeof raw?.gateway?.gatewayId === 'number'
+            ? { gatewayId: raw.gateway.gatewayId }
+            : {}),
         createdAt: raw.createdAt,
         updatedAt: raw.updatedAt,
     };

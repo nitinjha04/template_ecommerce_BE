@@ -6,8 +6,7 @@ const models_1 = require("../models");
 const ApiError_1 = require("../utils/ApiError");
 const displayPricing_1 = require("../utils/displayPricing");
 const pagination_1 = require("../utils/pagination");
-// import { EmailService } from './email.service';
-const dsaGatewayPayment_service_1 = require("./dsaGatewayPayment.service");
+const devOrderAmount_1 = require("../utils/devOrderAmount");
 const PAYMENT_METHOD_LABELS = {
     cod: 'Cash on Delivery',
     online: 'Online Payment',
@@ -105,16 +104,16 @@ class OrderService {
                 if (!existingPayment)
                     continue;
                 const existingPayUrl = existingPayment?.gateway?.payUrlH5;
+                const existingMerchantOrderNo = existingPayment?.gateway?.merchantOrderNo;
                 if (existingPayUrl) {
-                    return { order: existing, payment: existingPayment, paymentUrl: existingPayUrl };
+                    return {
+                        order: existing,
+                        payment: existingPayment,
+                        paymentUrl: existingPayUrl,
+                        merchantOrderNo: existingMerchantOrderNo,
+                    };
                 }
-                const created = await dsaGatewayPayment_service_1.DsaGatewayPaymentService.createForOrder({
-                    orderNumber: existing.orderNumber,
-                    email: normalizedEmail,
-                    phone: input.phone,
-                    name: input.customerName,
-                });
-                return { order: existing, payment: existingPayment, paymentUrl: created.paymentUrl };
+                return { order: existing, payment: existingPayment };
             }
         }
         const orderItems = [];
@@ -144,6 +143,11 @@ class OrderService {
                 color: item.color,
                 image: product.images[0],
             });
+        }
+        const catalogTotal = total;
+        total = (0, devOrderAmount_1.applyDevTestOrderTotal)(total);
+        if ((0, devOrderAmount_1.shouldApplyDevTestOrderAmount)() && total !== catalogTotal) {
+            console.info(`[dev] Order total overridden for testing: ${catalogTotal} → ${total} (rupees)`);
         }
         const orderNumber = await generateOrderNumber();
         const orderPayload = {
@@ -179,15 +183,8 @@ class OrderService {
         // void EmailService.sendOrderPlacedEmails(order as IOrder).catch((err) =>
         //   console.error('[email] order placed:', err)
         // );
-        if (paymentMethodKey === 'online') {
-            const created = await dsaGatewayPayment_service_1.DsaGatewayPaymentService.createForOrder({
-                orderNumber: order.orderNumber,
-                email: input.email,
-                phone: input.phone,
-                name: input.customerName,
-            });
-            return { order, payment, paymentUrl: created.paymentUrl };
-        }
+        if (paymentMethodKey === 'online')
+            return { order, payment };
         // COD order created successfully: clear user's persisted cart.
         if (input.userId) {
             await models_1.User.updateOne({ _id: input.userId }, { $set: { cart: [] } });

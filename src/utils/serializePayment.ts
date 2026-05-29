@@ -11,9 +11,11 @@ export type SerializedPayment = {
     status?: string;
   };
   userId?: string;
+  provider?: string;
   method: string;
   amount: number;
   status: string;
+  gatewayId?: number;
   createdAt: Date;
   updatedAt: Date;
 };
@@ -46,9 +48,13 @@ export const serializePayment = (payment: IPayment): SerializedPayment => {
     orderId,
     ...(orderSummary ? { order: orderSummary } : {}),
     ...(userId ? { userId } : {}),
+    ...(raw.provider ? { provider: raw.provider } : {}),
     method: raw.method,
     amount: raw.amount,
     status: raw.status,
+    ...(typeof (raw as any)?.gateway?.gatewayId === 'number'
+      ? { gatewayId: (raw as any).gateway.gatewayId as number }
+      : {}),
     createdAt: raw.createdAt,
     updatedAt: raw.updatedAt,
   };

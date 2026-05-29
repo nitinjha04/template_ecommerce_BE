@@ -6,11 +6,17 @@ export interface IPayment extends Document {
   paymentNumber: string;
   order: Types.ObjectId;
   user?: Types.ObjectId;
+  provider?: 'dsa_deeplink' | 'payu' | 'phonepe' | 'direct_upi';
   method: string;
   amount: number;
   status: PaymentStatus;
+  directUpi?: {
+    vpa: string;
+    upiLink: string;
+  };
   gateway?: {
     provider: 'dsa-gateway';
+    gatewayId?: number;
     merchantId?: string;
     merchantOrderNo?: string;
     gatewayOrderNo?: string;
@@ -24,6 +30,12 @@ export interface IPayment extends Document {
 }
 
 const PAYMENT_STATUSES: PaymentStatus[] = ['Completed', 'Pending', 'Failed'];
+const PAYMENT_PROVIDERS: NonNullable<IPayment['provider']>[] = [
+  'dsa_deeplink',
+  'payu',
+  'phonepe',
+  'direct_upi',
+];
 
 const paymentSchema = new Schema<IPayment>(
   {
@@ -44,6 +56,12 @@ const paymentSchema = new Schema<IPayment>(
       required: false,
       index: true,
     },
+    provider: {
+      type: String,
+      enum: PAYMENT_PROVIDERS,
+      required: false,
+      index: true,
+    },
     method: { type: String, required: true },
     amount: { type: Number, required: true, min: 0 },
     status: {
@@ -51,8 +69,13 @@ const paymentSchema = new Schema<IPayment>(
       enum: PAYMENT_STATUSES,
       default: 'Pending',
     },
+    directUpi: {
+      vpa: { type: String, required: false },
+      upiLink: { type: String, required: false },
+    },
     gateway: {
       provider: { type: String, enum: ['dsa-gateway'], required: false },
+      gatewayId: { type: Number, required: false },
       merchantId: { type: String, required: false },
       merchantOrderNo: { type: String, required: false, index: true },
       gatewayOrderNo: { type: String, required: false },

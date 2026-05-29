@@ -1,5 +1,5 @@
 import crypto from 'crypto';
-import { normalizePemFromEnv } from './pem';
+import { normalizePemFromEnv, wrapSpkiPublicKeyBase64ToPem } from './pem';
 
 export const verifyDsaBase64 = (
   data: string,
@@ -7,13 +7,8 @@ export const verifyDsaBase64 = (
   publicKeyPem: string
 ): boolean => {
   const raw = normalizePemFromEnv(publicKeyPem);
-  const keyObj = raw.includes('BEGIN')
-    ? crypto.createPublicKey({ key: raw, format: 'pem' })
-    : crypto.createPublicKey({
-        key: Buffer.from(raw, 'base64'),
-        format: 'der',
-        type: 'spki',
-      });
+  const pem = raw.includes('BEGIN') ? raw : wrapSpkiPublicKeyBase64ToPem(raw);
+  const keyObj = crypto.createPublicKey({ key: pem, format: 'pem' });
   const verifier = crypto.createVerify('SHA1');
   verifier.update(data);
   verifier.end();

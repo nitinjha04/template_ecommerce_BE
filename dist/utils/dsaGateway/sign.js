@@ -8,13 +8,8 @@ const crypto_1 = __importDefault(require("crypto"));
 const pem_1 = require("./pem");
 const signDsaBase64 = (data, privateKeyPem) => {
     const raw = (0, pem_1.normalizePemFromEnv)(privateKeyPem);
-    const keyObj = raw.includes('BEGIN')
-        ? crypto_1.default.createPrivateKey({ key: raw, format: 'pem' })
-        : crypto_1.default.createPrivateKey({
-            key: Buffer.from(raw, 'base64'),
-            format: 'der',
-            type: 'pkcs8',
-        });
+    const pem = raw.includes('BEGIN') ? raw : (0, pem_1.wrapPkcs8PrivateKeyBase64ToPem)(raw);
+    const keyObj = crypto_1.default.createPrivateKey({ key: pem, format: 'pem' });
     const signer = crypto_1.default.createSign('SHA1');
     signer.update(data);
     signer.end();
