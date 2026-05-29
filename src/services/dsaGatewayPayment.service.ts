@@ -7,12 +7,14 @@ import {
   isDsaGatewayConfigured,
 } from "../config/env";
 import { Order, Payment } from "../models";
+import type { IPayment } from "../models/Payment.model";
 import { ApiError } from "../utils/ApiError";
 import { randomNonceStr } from "../utils/dsaGateway/noncestr";
 import { signDsaBase64 } from "../utils/dsaGateway/sign";
 import { verifyDsaBase64 } from "../utils/dsaGateway/verify";
 import { applyDevTestOrderTotal } from "../utils/devOrderAmount";
 import { PaymentFinalizationService } from "./paymentFinalization.service";
+import { resolveOrderPayment } from "../utils/serializeOrder";
 
 type GatewayCreateResult = {
   paymentUrl: string;
@@ -375,17 +377,28 @@ export class DsaGatewayPaymentService {
     const refreshedOrder = await Order.findById(order._id).lean();
     const refreshedPayment = await Payment.findById(payment._id).lean();
 
+    const paymentStatus =
+      refreshedPayment?.status ??
+      (gatewayPaid ? 'Completed' : payment.status);
+
+    const paymentSummary = refreshedOrder
+      ? resolveOrderPayment(
+          { paymentInfo: refreshedOrder.paymentInfo },
+          (refreshedPayment as IPayment | null) ?? undefined
+        )
+      : undefined;
+
     return {
       merchantOrderNo: mo,
       gatewayStatus: String(gatewayStatus ?? ''),
-      paymentStatus:
-        refreshedPayment?.status ??
-        (String(gatewayStatus) === '2' ? 'Completed' : payment.status),
+      paymentStatus,
       orderNumber: order.orderNumber,
       orderStatus: refreshedOrder?.status ?? order.status,
       paidAt: refreshedPayment?.paidAt?.toISOString(),
       gatewayOrderNo:
         refreshedPayment?.gateway?.gatewayOrderNo ?? gatewayOrderNoFromApi,
+      payment: paymentSummary,
+      isPaid: gatewayPaid || paymentStatus === 'Completed',
       raw: response?.data,
     };
   }

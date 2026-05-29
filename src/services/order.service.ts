@@ -17,6 +17,10 @@ import { applyDevTestOrderTotal, shouldApplyDevTestOrderAmount } from '../utils/
 import { serializeLeanOrder } from '../utils/serializeOrder';
 import type { IPayment } from '../models/Payment.model';
 import { PaymentFinalizationService } from './paymentFinalization.service';
+import {
+  groupPaymentsByOrder,
+  pickBestPaymentForOrder,
+} from '../utils/pickOrderPayment';
 
 const ONLINE_PAYMENT_LABEL = 'Online Payment';
 
@@ -280,12 +284,12 @@ export class OrderService {
       .sort({ createdAt: -1 })
       .exec();
 
+    const paymentsByOrder = groupPaymentsByOrder(payments);
+
     const latestPaymentByOrder = new Map<string, IPayment>();
-    for (const p of payments) {
-      const key = String(p.order);
-      if (!latestPaymentByOrder.has(key)) {
-        latestPaymentByOrder.set(key, p);
-      }
+    for (const [orderId, list] of paymentsByOrder) {
+      const best = pickBestPaymentForOrder(list);
+      if (best) latestPaymentByOrder.set(orderId, best);
     }
 
     // Repair online orders: sync paymentInfo when payment is complete but order snapshot is missing.
