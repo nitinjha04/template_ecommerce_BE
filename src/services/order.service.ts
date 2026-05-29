@@ -16,6 +16,9 @@ import { DsaGatewayPaymentService } from './dsaGatewayPayment.service';
 import { applyDevTestOrderTotal, shouldApplyDevTestOrderAmount } from '../utils/devOrderAmount';
 import { serializeLeanOrder } from '../utils/serializeOrder';
 import type { IPayment } from '../models/Payment.model';
+import { PaymentFinalizationService } from './paymentFinalization.service';
+
+const ONLINE_PAYMENT_LABEL = 'Online Payment';
 
 interface OrderItemInput {
   productId: string;
@@ -282,6 +285,37 @@ export class OrderService {
       const key = String(p.order);
       if (!latestPaymentByOrder.has(key)) {
         latestPaymentByOrder.set(key, p);
+      }
+    }
+
+    // Repair online orders: sync paymentInfo when payment is complete but order snapshot is missing.
+    for (const o of orders) {
+      if (o.paymentMethod !== ONLINE_PAYMENT_LABEL) continue;
+      const payment = latestPaymentByOrder.get(String(o._id));
+      if (!payment) continue;
+
+      if (o.paymentInfo?.status === 'Completed' && payment.status === 'Completed') {
+        continue;
+      }
+
+      try {
+        const repaired = await PaymentFinalizationService.repairFromStoredVerifyResponse(
+          o as IOrder,
+          payment
+        );
+        if (repaired) {
+          const refreshed = await Order.findById(o._id).lean<IOrder>();
+          if (refreshed) Object.assign(o, refreshed);
+          const refreshedPayment = await Payment.findById(payment._id).exec();
+          if (refreshedPayment) {
+            latestPaymentByOrder.set(String(o._id), refreshedPayment);
+          }
+        }
+      } catch (err) {
+        console.warn(
+          `[orders] payment repair skipped for ${o.orderNumber}:`,
+          err instanceof Error ? err.message : err
+        );
       }
     }
 

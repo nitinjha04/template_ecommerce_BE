@@ -1,4 +1,5 @@
 import axios from "axios";
+import { Types } from "mongoose";
 import {
   env,
   getApiPublicOrigin,
@@ -351,14 +352,24 @@ export class DsaGatewayPaymentService {
         ? String(response.data.data.order_no)
         : response?.data?.order_no != null
           ? String(response.data.order_no)
-          : undefined;
+          : response?.data?.data?.utr != null
+            ? String(response.data.data.utr)
+            : undefined;
 
-    if (String(gatewayStatus) === "2") {
+    const gatewayPaid = String(gatewayStatus) === '2';
+
+    if (gatewayPaid) {
       await PaymentFinalizationService.finalizeSuccessfulPayment({
         payment,
         order,
         gatewayOrderNo: gatewayOrderNoFromApi,
       });
+    } else if (payment.status === 'Completed') {
+      await PaymentFinalizationService.ensureOrderPaymentSnapshot(
+        order._id as Types.ObjectId,
+        payment,
+        { gatewayOrderNo: gatewayOrderNoFromApi }
+      );
     }
 
     const refreshedOrder = await Order.findById(order._id).lean();

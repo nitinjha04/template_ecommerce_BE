@@ -11,6 +11,8 @@ export type SerializedOrderPayment = {
   paidAt?: string;
   merchantOrderNo?: string;
   gatewayOrderNo?: string;
+  /** Present while payment is still pending (resume pay). */
+  paymentUrl?: string;
   isPaid: boolean;
 };
 
@@ -59,6 +61,8 @@ const paymentFromDocument = (payment: IPayment): SerializedOrderPayment => ({
   paidAt: payment.paidAt?.toISOString(),
   merchantOrderNo: payment.gateway?.merchantOrderNo,
   gatewayOrderNo: payment.gateway?.gatewayOrderNo,
+  paymentUrl:
+    payment.status !== 'Completed' ? payment.gateway?.payUrlH5 : undefined,
   isPaid: payment.status === 'Completed',
 });
 
@@ -66,8 +70,15 @@ export const resolveOrderPayment = (
   order: Pick<IOrder, 'paymentInfo'>,
   latestPayment?: IPayment | null
 ): SerializedOrderPayment | undefined => {
-  if (order.paymentInfo) return paymentFromSnapshot(order.paymentInfo);
-  if (latestPayment) return paymentFromDocument(latestPayment);
+  const fromDoc = latestPayment ? paymentFromDocument(latestPayment) : undefined;
+  const fromSnap = order.paymentInfo
+    ? paymentFromSnapshot(order.paymentInfo)
+    : undefined;
+
+  if (fromDoc?.isPaid) return fromDoc;
+  if (fromSnap?.isPaid) return fromSnap;
+  if (fromDoc) return fromDoc;
+  if (fromSnap) return fromSnap;
   return undefined;
 };
 
