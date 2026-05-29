@@ -2,7 +2,7 @@ import crypto from "crypto";
 import { User } from "../models";
 import { ApiError } from "../utils/ApiError";
 import { signToken } from "../utils/jwt";
-import { env, isEmailEnabled } from "../config/env";
+import { env, isEmailEnabled, logEmailEnvDiagnostics } from "../config/env";
 import { EmailService } from "./email.service";
 import type { AuthResponsePayload } from "../types/auth";
 
@@ -61,10 +61,27 @@ const assignResetOtp = async (user: InstanceType<typeof User>) => {
   user.resetOtpExpires = new Date(Date.now() + OTP_TTL_MS);
   user.resetOtpVerifiedAt = undefined;
   await user.save({ validateBeforeSave: false });
-  await EmailService.sendPasswordResetOtp(user.email, user.name, otp);
+
+  console.log("[forgot-password] Sending reset OTP email:", {
+    to: user.email,
+    emailEnabled: isEmailEnabled(),
+  });
+  logEmailEnvDiagnostics("assignResetOtp");
+
+  try {
+    await EmailService.sendPasswordResetOtp(user.email, user.name, otp);
+    console.log("[forgot-password] Reset OTP email dispatched:", user.email);
+  } catch (err) {
+    console.error("[forgot-password] Reset OTP email failed:", {
+      to: user.email,
+      error: err instanceof Error ? err.message : String(err),
+      stack: err instanceof Error ? err.stack : undefined,
+    });
+    throw err;
+  }
 
   if (!isEmailEnabled()) {
-    console.log(`[dev] Password reset OTP for ${user.email}:`, otp);
+    console.log(`[forgot-password][dev] Password reset OTP for ${user.email}:`, otp);
   }
 };
 
@@ -216,13 +233,23 @@ export class AuthService {
   }
 
   static async forgotPassword(email: string) {
-    const user = await User.findOne({ email: normalizeEmail(email) });
+    const normalizedEmail = normalizeEmail(email);
+    console.log("[forgot-password] Looking up user:", { normalizedEmail });
+
+    const user = await User.findOne({ email: normalizedEmail });
     const message = "If that email exists, a verification code has been sent.";
 
     if (!user) {
+      console.log("[forgot-password] No user for email (generic response):", {
+        normalizedEmail,
+      });
       return { message };
     }
 
+    console.log("[forgot-password] User found, assigning OTP:", {
+      userId: user._id.toString(),
+      email: user.email,
+    });
     await assignResetOtp(user);
     return { message, email: user.email };
   }

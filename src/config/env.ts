@@ -104,3 +104,22 @@ export const isEmailConfigured = (): boolean =>
 /** Emails are off until EMAIL_ENABLED=true and SMTP vars are set. */
 export const isEmailEnabled = (): boolean =>
   env.emailEnabled && isEmailConfigured();
+
+/** Startup / forgot-password diagnostics — never logs SMTP_PASS. */
+export const logEmailEnvDiagnostics = (context: string): void => {
+  console.log(`[email-env][${context}]`, {
+    NODE_ENV: env.nodeEnv,
+    EMAIL_ENABLED_RAW: process.env.EMAIL_ENABLED ?? "(unset)",
+    emailEnabledParsed: env.emailEnabled,
+    isEmailConfigured: isEmailConfigured(),
+    isEmailEnabled: isEmailEnabled(),
+    SMTP_HOST: env.smtp.host || "(empty)",
+    SMTP_PORT: env.smtp.port,
+    SMTP_SECURE: env.smtp.secure,
+    SMTP_USER: env.smtp.user || "(empty)",
+    SMTP_PASS_SET: Boolean(env.smtp.pass),
+    SMTP_PASS_LENGTH: env.smtp.pass.length,
+    SMTP_FROM: env.smtp.from,
+    ADMIN_EMAIL: env.smtp.adminEmail,
+  });
+};

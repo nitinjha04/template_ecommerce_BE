@@ -1,6 +1,11 @@
 import { IOrder } from '../models/Order.model';
 import { getMailTransporter } from '../config/mail';
-import { env, isEmailConfigured, isEmailEnabled } from '../config/env';
+import {
+  env,
+  isEmailConfigured,
+  isEmailEnabled,
+  logEmailEnvDiagnostics,
+} from '../config/env';
 import type { IPayment } from '../models/Payment.model';
 import {
   orderPaymentConfirmedAdminEmail,
@@ -35,6 +40,16 @@ export class EmailService {
     const canSend = isEmailEnabled() && isEmailConfigured();
 
     if (!canSend) {
+      console.warn('[email] Send skipped — mail not ready:', {
+        to,
+        subject,
+        mustDeliver,
+        isEmailEnabled: isEmailEnabled(),
+        isEmailConfigured: isEmailConfigured(),
+        EMAIL_ENABLED_RAW: process.env.EMAIL_ENABLED ?? '(unset)',
+      });
+      logEmailEnvDiagnostics(`send-skipped:${subject}`);
+
       if (mustDeliver) {
         throw new ApiError(
           503,
@@ -43,6 +58,8 @@ export class EmailService {
       }
       return;
     }
+
+    console.log('[email] Attempting send:', { to, subject, from: env.smtp.from });
 
     try {
       const transporter = getMailTransporter();
@@ -127,6 +144,10 @@ export class EmailService {
     name: string,
     otp: string
   ): Promise<void> {
+    console.log('[email] sendPasswordResetOtp called:', {
+      to,
+      mustDeliver: isEmailEnabled(),
+    });
     const { subject, html } = passwordResetOtpEmail(otp, name);
     await this.send(to, subject, html, { mustDeliver: isEmailEnabled() });
   }

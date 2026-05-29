@@ -1,4 +1,5 @@
 import { Response } from 'express';
+import { logEmailEnvDiagnostics } from '../config/env';
 import { AuthService } from '../services/auth.service';
 import { asyncHandler } from '../utils/asyncHandler';
 import { ApiResponse } from '../views/ApiResponse';
@@ -36,8 +37,24 @@ export class AuthController {
   });
 
   static forgotPassword = asyncHandler(async (req: AuthRequest, res: Response) => {
-    const result = await AuthService.forgotPassword(req.body.email);
-    ApiResponse.success(res, result, result.message);
+    const email = req.body.email as string;
+    console.log('[forgot-password] Request received:', { email });
+    logEmailEnvDiagnostics('forgot-password');
+    try {
+      const result = await AuthService.forgotPassword(email);
+      console.log('[forgot-password] Completed:', {
+        email,
+        userFound: Boolean(result.email),
+      });
+      ApiResponse.success(res, result, result.message);
+    } catch (err) {
+      console.error('[forgot-password] Failed:', {
+        email,
+        error: err instanceof Error ? err.message : String(err),
+        stack: err instanceof Error ? err.stack : undefined,
+      });
+      throw err;
+    }
   });
 
   static verifyForgotPasswordOtp = asyncHandler(
