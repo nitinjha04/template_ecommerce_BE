@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.logEmailEnvDiagnostics = exports.isEmailEnabled = exports.isEmailConfigured = exports.isDsaGatewayConfigured = exports.getPaymentReturnUrl = exports.getFrontendOrigin = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
+exports.logEmailEnvDiagnostics = exports.isEmailEnabled = exports.getEmailFrom = exports.isEmailConfigured = exports.isSmtpConfigured = exports.isResendConfigured = exports.isBrevoConfigured = exports.isDsaGatewayConfigured = exports.getPaymentReturnUrl = exports.getFrontendOrigin = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
 const dotenv_1 = __importDefault(require("dotenv"));
 dotenv_1.default.config();
 const required = ["MONGODB_URI", "JWT_SECRET"];
@@ -56,6 +56,14 @@ exports.env = {
             "casaqte@gmail.com",
     },
     emailEnabled: process.env.EMAIL_ENABLED === "true",
+    /** HTTPS email — use on Render when Gmail SMTP is blocked (free tier). */
+    brevo: {
+        apiKey: (process.env.BREVO_API_KEY ?? "").trim(),
+    },
+    resend: {
+        apiKey: (process.env.RESEND_API_KEY ?? "").trim(),
+        from: (process.env.RESEND_FROM ?? process.env.SMTP_FROM ?? "").trim(),
+    },
     frontendUrl: process.env.FRONTEND_URL?.split(",")[0]?.trim() || "http://localhost:5173",
 };
 const isPlaceholder = (value) => /your_|changeme|example|placeholder/i.test(value);
@@ -88,9 +96,21 @@ const isDsaGatewayConfigured = () => {
     return Boolean(merchantId && privateKey && publicKey && baseUrl);
 };
 exports.isDsaGatewayConfigured = isDsaGatewayConfigured;
-const isEmailConfigured = () => Boolean(exports.env.smtp.host && exports.env.smtp.user && exports.env.smtp.pass);
+const isBrevoConfigured = () => Boolean(exports.env.brevo.apiKey);
+exports.isBrevoConfigured = isBrevoConfigured;
+const isResendConfigured = () => Boolean(exports.env.resend.apiKey);
+exports.isResendConfigured = isResendConfigured;
+const isSmtpConfigured = () => Boolean(exports.env.smtp.host && exports.env.smtp.user && exports.env.smtp.pass);
+exports.isSmtpConfigured = isSmtpConfigured;
+const isEmailConfigured = () => (0, exports.isSmtpConfigured)() || (0, exports.isBrevoConfigured)() || (0, exports.isResendConfigured)();
 exports.isEmailConfigured = isEmailConfigured;
-/** Emails are off until EMAIL_ENABLED=true and SMTP vars are set. */
+const getEmailFrom = () => {
+    if ((0, exports.isResendConfigured)() && exports.env.resend.from)
+        return exports.env.resend.from;
+    return exports.env.smtp.from;
+};
+exports.getEmailFrom = getEmailFrom;
+/** Emails are off until EMAIL_ENABLED=true and Resend or SMTP is configured. */
 const isEmailEnabled = () => exports.env.emailEnabled && (0, exports.isEmailConfigured)();
 exports.isEmailEnabled = isEmailEnabled;
 /** Startup / forgot-password diagnostics — never logs SMTP_PASS. */
@@ -99,8 +119,19 @@ const logEmailEnvDiagnostics = (context) => {
         NODE_ENV: exports.env.nodeEnv,
         EMAIL_ENABLED_RAW: process.env.EMAIL_ENABLED ?? "(unset)",
         emailEnabledParsed: exports.env.emailEnabled,
+        isRenderHost: process.env.RENDER === "true",
+        emailTransport: (0, exports.isResendConfigured)()
+            ? "resend"
+            : (0, exports.isBrevoConfigured)()
+                ? "brevo"
+                : (0, exports.isSmtpConfigured)()
+                    ? "smtp"
+                    : "none",
         isEmailConfigured: (0, exports.isEmailConfigured)(),
         isEmailEnabled: (0, exports.isEmailEnabled)(),
+        BREVO_API_KEY_SET: Boolean(exports.env.brevo.apiKey),
+        RESEND_API_KEY_SET: Boolean(exports.env.resend.apiKey),
+        RESEND_FROM: exports.env.resend.from || "(uses SMTP_FROM)",
         SMTP_HOST: exports.env.smtp.host || "(empty)",
         SMTP_PORT: exports.env.smtp.port,
         SMTP_SECURE: exports.env.smtp.secure,

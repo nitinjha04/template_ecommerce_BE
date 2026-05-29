@@ -55,6 +55,14 @@ export const env = {
       "casaqte@gmail.com",
   },
   emailEnabled: process.env.EMAIL_ENABLED === "true",
+  /** HTTPS email — use on Render when Gmail SMTP is blocked (free tier). */
+  brevo: {
+    apiKey: (process.env.BREVO_API_KEY ?? "").trim(),
+  },
+  resend: {
+    apiKey: (process.env.RESEND_API_KEY ?? "").trim(),
+    from: (process.env.RESEND_FROM ?? process.env.SMTP_FROM ?? "").trim(),
+  },
   frontendUrl:
     process.env.FRONTEND_URL?.split(",")[0]?.trim() || "http://localhost:5173",
 };
@@ -98,10 +106,22 @@ export const isDsaGatewayConfigured = (): boolean => {
   return Boolean(merchantId && privateKey && publicKey && baseUrl);
 };
 
-export const isEmailConfigured = (): boolean =>
+export const isBrevoConfigured = (): boolean => Boolean(env.brevo.apiKey);
+
+export const isResendConfigured = (): boolean => Boolean(env.resend.apiKey);
+
+export const isSmtpConfigured = (): boolean =>
   Boolean(env.smtp.host && env.smtp.user && env.smtp.pass);
 
-/** Emails are off until EMAIL_ENABLED=true and SMTP vars are set. */
+export const isEmailConfigured = (): boolean =>
+  isSmtpConfigured() || isBrevoConfigured() || isResendConfigured();
+
+export const getEmailFrom = (): string => {
+  if (isResendConfigured() && env.resend.from) return env.resend.from;
+  return env.smtp.from;
+};
+
+/** Emails are off until EMAIL_ENABLED=true and Resend or SMTP is configured. */
 export const isEmailEnabled = (): boolean =>
   env.emailEnabled && isEmailConfigured();
 
@@ -111,8 +131,19 @@ export const logEmailEnvDiagnostics = (context: string): void => {
     NODE_ENV: env.nodeEnv,
     EMAIL_ENABLED_RAW: process.env.EMAIL_ENABLED ?? "(unset)",
     emailEnabledParsed: env.emailEnabled,
+    isRenderHost: process.env.RENDER === "true",
+    emailTransport: isResendConfigured()
+      ? "resend"
+      : isBrevoConfigured()
+        ? "brevo"
+        : isSmtpConfigured()
+          ? "smtp"
+          : "none",
     isEmailConfigured: isEmailConfigured(),
     isEmailEnabled: isEmailEnabled(),
+    BREVO_API_KEY_SET: Boolean(env.brevo.apiKey),
+    RESEND_API_KEY_SET: Boolean(env.resend.apiKey),
+    RESEND_FROM: env.resend.from || "(uses SMTP_FROM)",
     SMTP_HOST: env.smtp.host || "(empty)",
     SMTP_PORT: env.smtp.port,
     SMTP_SECURE: env.smtp.secure,

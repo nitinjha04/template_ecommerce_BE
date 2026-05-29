@@ -1,7 +1,7 @@
 import dns from 'node:dns';
 import nodemailer, { Transporter } from 'nodemailer';
 import type SMTPTransport from 'nodemailer/lib/smtp-transport';
-import { env, isEmailConfigured } from './env';
+import { env, isSmtpConfigured } from './env';
 
 /** Resolve SMTP host over IPv4 only (avoids ENETUNREACH on hosts without IPv6 egress). */
 const smtpIpv4Lookup = (
@@ -22,7 +22,7 @@ export const resolveSmtpSecure = (port: number): boolean => {
 };
 
 export const getMailTransporter = (): Transporter => {
-  if (!isEmailConfigured()) {
+  if (!isSmtpConfigured()) {
     throw new Error(
       'SMTP is not configured. Set SMTP_HOST, SMTP_USER, SMTP_PASS, and related vars in .env'
     );

@@ -22,7 +22,7 @@ const resolveSmtpSecure = (port) => {
 };
 exports.resolveSmtpSecure = resolveSmtpSecure;
 const getMailTransporter = () => {
-    if (!(0, env_1.isEmailConfigured)()) {
+    if (!(0, env_1.isSmtpConfigured)()) {
         throw new Error('SMTP is not configured. Set SMTP_HOST, SMTP_USER, SMTP_PASS, and related vars in .env');
     }
     if (!transporter) {

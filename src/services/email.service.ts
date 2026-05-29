@@ -1,9 +1,20 @@
 import { IOrder } from '../models/Order.model';
+import { sendViaBrevo } from '../config/brevo';
+import {
+  getEmailTransport,
+  isRenderHost,
+  logEmailStartup,
+} from '../config/emailTransport';
 import { getMailTransporter } from '../config/mail';
+import { sendViaResend } from '../config/resend';
 import {
   env,
+  getEmailFrom,
+  isBrevoConfigured,
   isEmailConfigured,
   isEmailEnabled,
+  isResendConfigured,
+  isSmtpConfigured,
   logEmailEnvDiagnostics,
 } from '../config/env';
 import type { IPayment } from '../models/Payment.model';
@@ -25,11 +36,33 @@ type SendEmailOptions = {
 };
 
 /**
- * Order email notifications via SMTP (Nodemailer).
- *
- * Set EMAIL_ENABLED=true and configure SMTP in .env to send mail.
+ * Transactional email: Gmail SMTP (.env) locally; Brevo/Resend HTTPS on Render.
  */
 export class EmailService {
+  private static async sendViaSmtp(
+    to: string,
+    subject: string,
+    html: string
+  ): Promise<string | undefined> {
+    const transporter = getMailTransporter();
+    const sendPromise = transporter.sendMail({
+      from: env.smtp.from,
+      to,
+      subject,
+      html,
+    });
+
+    const timeoutMs = 15_000;
+    const result = await Promise.race([
+      sendPromise,
+      new Promise<never>((_, reject) =>
+        setTimeout(() => reject(new Error('SMTP send timed out')), timeoutMs)
+      ),
+    ]);
+
+    return result.messageId;
+  }
+
   private static async send(
     to: string,
     subject: string,
@@ -59,39 +92,88 @@ export class EmailService {
       return;
     }
 
-    console.log('[email] Attempting send:', { to, subject, from: env.smtp.from });
+    const transport = getEmailTransport();
+    const from = getEmailFrom();
+    console.log('[email] Attempting send:', { to, subject, transport, from });
+
+    if (
+      isRenderHost() &&
+      transport === 'smtp' &&
+      !isBrevoConfigured() &&
+      !isResendConfigured()
+    ) {
+      logEmailStartup();
+      throw new ApiError(
+        503,
+        'Email cannot be sent from this server: Gmail SMTP is blocked. Add RESEND_API_KEY and RESEND_FROM to Render environment variables.'
+      );
+    }
 
     try {
-      const transporter = getMailTransporter();
-      const sendPromise = transporter.sendMail({
-        from: env.smtp.from,
-        to,
-        subject,
-        html,
-      });
+      if (transport === 'brevo') {
+        const result = await sendViaBrevo({ to, subject, html });
+        console.log(
+          `[email] Sent via Brevo: "${subject}" → ${to} (id: ${result.messageId})`
+        );
+        return;
+      }
 
-      const timeoutMs = 15_000;
-      const result = await Promise.race([
-        sendPromise,
-        new Promise<never>((_, reject) =>
-          setTimeout(() => reject(new Error('SMTP send timed out')), timeoutMs)
-        ),
-      ]);
+      if (transport === 'resend') {
+        const result = await sendViaResend({ to, subject, html });
+        console.log(
+          `[email] Sent via Resend: "${subject}" → ${to} (id: ${result.id})`
+        );
+        return;
+      }
 
-      console.log(
-        `[email] Sent successfully: "${subject}" → ${to}${
-          result.messageId ? ` (id: ${result.messageId})` : ''
-        }`
-      );
+      if (isSmtpConfigured()) {
+        const messageId = await this.sendViaSmtp(to, subject, html);
+        console.log(
+          `[email] Sent via SMTP: "${subject}" → ${to}${
+            messageId ? ` (id: ${messageId})` : ''
+          }`
+        );
+        return;
+      }
+
+      throw new Error('No email transport configured');
     } catch (err) {
       const detail = err instanceof Error ? err.message : String(err);
       console.error(`[email] Failed to send "${subject}" → ${to}:`, detail);
-      if (/ENETUNREACH|2607:f8b0/i.test(detail)) {
+
+      if (
+        isRenderHost() &&
+        isSmtpConfigured() &&
+        /timeout|ETIMEDOUT/i.test(detail)
+      ) {
+        if (isResendConfigured()) {
+          try {
+            const result = await sendViaResend({ to, subject, html });
+            console.log(
+              `[email] Sent via Resend (SMTP fallback): "${subject}" → ${to} (id: ${result.id})`
+            );
+            return;
+          } catch (resendErr) {
+            console.error('[email] Resend fallback failed:', resendErr);
+          }
+        }
+        if (isBrevoConfigured()) {
+          try {
+            await sendViaBrevo({ to, subject, html });
+            console.log(
+              `[email] Sent via Brevo (SMTP fallback): "${subject}" → ${to}`
+            );
+            return;
+          } catch (brevoErr) {
+            console.error('[email] Brevo fallback failed:', brevoErr);
+          }
+        }
         console.error(
-          '[email] Hint: server tried IPv6 for Gmail SMTP but has no IPv6 network. ' +
-            'Redeploy with latest mail.ts (family: 4) or set DNS to prefer IPv4.'
+          '[email] Hint: Render blocks Gmail SMTP. Set RESEND_API_KEY + RESEND_FROM on Render.'
         );
       }
+
+      if (err instanceof ApiError) throw err;
 
       throw new ApiError(
         502,
