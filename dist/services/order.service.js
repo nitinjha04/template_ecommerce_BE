@@ -7,6 +7,10 @@ const ApiError_1 = require("../utils/ApiError");
 const displayPricing_1 = require("../utils/displayPricing");
 const pagination_1 = require("../utils/pagination");
 const devOrderAmount_1 = require("../utils/devOrderAmount");
+const serializeOrder_1 = require("../utils/serializeOrder");
+const paymentFinalization_service_1 = require("./paymentFinalization.service");
+const pickOrderPayment_1 = require("../utils/pickOrderPayment");
+const ONLINE_PAYMENT_LABEL = 'Online Payment';
 const PAYMENT_METHOD_LABELS = {
     cod: 'Cash on Delivery',
     online: 'Online Payment',
@@ -200,9 +204,49 @@ class OrderService {
             const normalizedEmail = email.toLowerCase().trim();
             filter.$or.push({ user: { $exists: false }, email: normalizedEmail }, { user: null, email: normalizedEmail });
         }
-        return models_1.Order.find(filter)
+        const orders = await models_1.Order.find(filter)
             .sort({ createdAt: -1, _id: -1 })
             .lean();
+        if (orders.length === 0)
+            return [];
+        const orderIds = orders.map((o) => o._id);
+        const payments = await models_1.Payment.find({ order: { $in: orderIds } })
+            .sort({ createdAt: -1 })
+            .exec();
+        const paymentsByOrder = (0, pickOrderPayment_1.groupPaymentsByOrder)(payments);
+        const latestPaymentByOrder = new Map();
+        for (const [orderId, list] of paymentsByOrder) {
+            const best = (0, pickOrderPayment_1.pickBestPaymentForOrder)(list);
+            if (best)
+                latestPaymentByOrder.set(orderId, best);
+        }
+        // Repair online orders: sync paymentInfo when payment is complete but order snapshot is missing.
+        for (const o of orders) {
+            if (o.paymentMethod !== ONLINE_PAYMENT_LABEL)
+                continue;
+            const payment = latestPaymentByOrder.get(String(o._id));
+            if (!payment)
+                continue;
+            if (o.paymentInfo?.status === 'Completed' && payment.status === 'Completed') {
+                continue;
+            }
+            try {
+                const repaired = await paymentFinalization_service_1.PaymentFinalizationService.repairFromStoredVerifyResponse(o, payment);
+                if (repaired) {
+                    const refreshed = await models_1.Order.findById(o._id).lean();
+                    if (refreshed)
+                        Object.assign(o, refreshed);
+                    const refreshedPayment = await models_1.Payment.findById(payment._id).exec();
+                    if (refreshedPayment) {
+                        latestPaymentByOrder.set(String(o._id), refreshedPayment);
+                    }
+                }
+            }
+            catch (err) {
+                console.warn(`[orders] payment repair skipped for ${o.orderNumber}:`, err instanceof Error ? err.message : err);
+            }
+        }
+        return orders.map((o) => (0, serializeOrder_1.serializeLeanOrder)(o, latestPaymentByOrder.get(String(o._id))));
     }
     static async getAllOrders() {
         return models_1.Order.find().sort({ createdAt: -1, _id: -1 });

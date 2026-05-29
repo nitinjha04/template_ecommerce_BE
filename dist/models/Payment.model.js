@@ -74,6 +74,7 @@ const paymentSchema = new mongoose_1.Schema({
         enum: PAYMENT_STATUSES,
         default: 'Pending',
     },
+    paidAt: { type: Date, required: false },
     directUpi: {
         vpa: { type: String, required: false },
         upiLink: { type: String, required: false },

@@ -11,8 +11,23 @@ export type SerializedOrderPayment = {
   paidAt?: string;
   merchantOrderNo?: string;
   gatewayOrderNo?: string;
-  /** Present while payment is still pending (resume pay). */
   paymentUrl?: string;
+  isPaid: boolean;
+};
+
+export type SerializedOrderPaymentInfo = {
+  paymentId: string;
+  paymentNumber: string;
+  status: string;
+  amount: number;
+  method: string;
+  provider?: string;
+  paidAt?: string;
+  merchantOrderNo?: string;
+  gatewayOrderNo?: string;
+  utr?: string;
+  gatewayStatus?: string;
+  paidAmount?: number;
   isPaid: boolean;
 };
 
@@ -30,10 +45,36 @@ export type SerializedOrder = {
   shippingAddress: IOrder['shippingAddress'];
   paymentMethod: string;
   orderNote?: string;
-  paymentInfo?: IOrderPaymentInfo;
+  paymentInfo?: SerializedOrderPaymentInfo;
   payment?: SerializedOrderPayment;
   createdAt: Date;
   updatedAt: Date;
+};
+
+const serializePaymentInfoForClient = (
+  info?: IOrderPaymentInfo
+): SerializedOrderPaymentInfo | undefined => {
+  if (!info) return undefined;
+  return {
+    paymentId: String(info.paymentId),
+    paymentNumber: info.paymentNumber,
+    status: info.status,
+    amount: info.amount,
+    method: info.method,
+    provider: info.provider,
+    paidAt:
+      info.paidAt instanceof Date
+        ? info.paidAt.toISOString()
+        : info.paidAt
+          ? String(info.paidAt)
+          : undefined,
+    merchantOrderNo: info.merchantOrderNo,
+    gatewayOrderNo: info.gatewayOrderNo ?? info.utr,
+    utr: info.utr,
+    gatewayStatus: info.gatewayStatus,
+    paidAmount: info.paidAmount,
+    isPaid: info.status === 'Completed',
+  };
 };
 
 const paymentFromSnapshot = (
@@ -45,9 +86,14 @@ const paymentFromSnapshot = (
   amount: info.amount,
   method: info.method,
   provider: info.provider,
-  paidAt: info.paidAt instanceof Date ? info.paidAt.toISOString() : String(info.paidAt),
+  paidAt:
+    info.paidAt instanceof Date
+      ? info.paidAt.toISOString()
+      : info.paidAt
+        ? String(info.paidAt)
+        : undefined,
   merchantOrderNo: info.merchantOrderNo,
-  gatewayOrderNo: info.gatewayOrderNo,
+  gatewayOrderNo: info.gatewayOrderNo ?? info.utr,
   isPaid: info.status === 'Completed',
 });
 
@@ -75,7 +121,6 @@ export const resolveOrderPayment = (
     : undefined;
   const fromDoc = latestPayment ? paymentFromDocument(latestPayment) : undefined;
 
-  // Order.paymentInfo is written once when payment succeeds — prefer it in the UI.
   if (fromSnap?.isPaid) return fromSnap;
   if (fromDoc?.isPaid) return fromDoc;
   if (fromSnap) return fromSnap;
@@ -89,6 +134,7 @@ export const serializeOrder = (
 ): SerializedOrder => {
   const raw = order.toObject ? order.toObject({ virtuals: true }) : order;
   const doc = raw as Record<string, unknown>;
+  const paymentInfo = doc.paymentInfo as IOrderPaymentInfo | undefined;
 
   return {
     id: String(doc._id ?? doc.id),
@@ -104,11 +150,8 @@ export const serializeOrder = (
     shippingAddress: doc.shippingAddress as IOrder['shippingAddress'],
     paymentMethod: String(doc.paymentMethod),
     orderNote: doc.orderNote ? String(doc.orderNote) : undefined,
-    paymentInfo: doc.paymentInfo as IOrderPaymentInfo | undefined,
-    payment: resolveOrderPayment(
-      { paymentInfo: doc.paymentInfo as IOrderPaymentInfo | undefined },
-      latestPayment
-    ),
+    paymentInfo: serializePaymentInfoForClient(paymentInfo),
+    payment: resolveOrderPayment({ paymentInfo }, latestPayment),
     createdAt: doc.createdAt as Date,
     updatedAt: doc.updatedAt as Date,
   };
@@ -134,7 +177,7 @@ export const serializeLeanOrder = (
     shippingAddress: doc.shippingAddress as IOrder['shippingAddress'],
     paymentMethod: String(doc.paymentMethod),
     orderNote: doc.orderNote ? String(doc.orderNote) : undefined,
-    paymentInfo,
+    paymentInfo: serializePaymentInfoForClient(paymentInfo),
     payment: resolveOrderPayment({ paymentInfo }, latestPayment ?? undefined),
     createdAt: doc.createdAt as Date,
     updatedAt: doc.updatedAt as Date,

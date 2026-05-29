@@ -6,7 +6,7 @@ import {
   getPaymentReturnUrl,
   isDsaGatewayConfigured,
 } from "../config/env";
-import { Order, Payment } from "../models";
+import { Order, Payment, User } from "../models";
 import type { IPayment } from "../models/Payment.model";
 import { ApiError } from "../utils/ApiError";
 import { randomNonceStr } from "../utils/dsaGateway/noncestr";
@@ -15,6 +15,10 @@ import { verifyDsaBase64 } from "../utils/dsaGateway/verify";
 import { applyDevTestOrderTotal } from "../utils/devOrderAmount";
 import { PaymentFinalizationService } from "./paymentFinalization.service";
 import { resolveOrderPayment } from "../utils/serializeOrder";
+import {
+  parseGatewayVerifyData,
+  saveOrderPaymentOnGatewaySuccess,
+} from "./orderPaymentPersistence";
 
 type GatewayCreateResult = {
   paymentUrl: string;
@@ -296,11 +300,22 @@ export class DsaGatewayPaymentService {
     await Payment.updateOne({ _id: payment._id }, { $set: update });
 
     if (status === "2") {
-      await PaymentFinalizationService.finalizeSuccessfulPayment({
-        payment,
+      await saveOrderPaymentOnGatewaySuccess({
         order,
-        gatewayOrderNo,
+        payment,
+        gateway: {
+          status: "2",
+          merchantOrderNo,
+          utr: gatewayOrderNo,
+        },
       });
+      await PaymentFinalizationService.sendPaymentConfirmationEmailOnce(
+        payment._id as Types.ObjectId,
+        order._id as Types.ObjectId
+      );
+      if (order.user) {
+        await User.updateOne({ _id: order.user }, { $set: { cart: [] } });
+      }
     }
 
     return "success";
@@ -359,13 +374,33 @@ export class DsaGatewayPaymentService {
             : undefined;
 
     const gatewayPaid = String(gatewayStatus) === '2';
+    const gatewayPayload = parseGatewayVerifyData(response?.data) ?? {
+      status: String(gatewayStatus ?? ''),
+      merchantOrderNo: mo,
+      utr: gatewayOrderNoFromApi,
+      orderAmount:
+        response?.data?.data?.order_amount != null
+          ? Number(response.data.data.order_amount)
+          : undefined,
+      paymentAmount:
+        response?.data?.data?.payment_amount != null
+          ? Number(response.data.data.payment_amount)
+          : undefined,
+    };
 
     if (gatewayPaid) {
-      await PaymentFinalizationService.finalizeSuccessfulPayment({
-        payment,
+      await saveOrderPaymentOnGatewaySuccess({
         order,
-        gatewayOrderNo: gatewayOrderNoFromApi,
+        payment,
+        gateway: gatewayPayload,
       });
+      await PaymentFinalizationService.sendPaymentConfirmationEmailOnce(
+        payment._id as Types.ObjectId,
+        order._id as Types.ObjectId
+      );
+      if (order.user) {
+        await User.updateOne({ _id: order.user }, { $set: { cart: [] } });
+      }
     } else if (payment.status === 'Completed') {
       await PaymentFinalizationService.ensureOrderPaymentSnapshot(
         order._id as Types.ObjectId,

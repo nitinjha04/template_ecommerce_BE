@@ -101,5 +101,45 @@ class CartService {
         await models_1.User.findByIdAndUpdate(userId, { $set: { cart: [] } });
         return [];
     }
+    /** Merge guest/local cart lines into the user's persisted cart (adds quantities for matching lines). */
+    static async mergeLines(userId, incoming) {
+        if (!incoming.length)
+            return this.get(userId);
+        const user = await models_1.User.findById(userId).select('cart');
+        if (!user)
+            throw new ApiError_1.ApiError(404, 'User not found');
+        user.cart = user.cart ?? [];
+        for (const line of incoming) {
+            const { productId } = line;
+            if (!mongoose_1.Types.ObjectId.isValid(productId))
+                continue;
+            const product = await models_1.Product.findById(productId);
+            if (!product || product.isPublished === false)
+                continue;
+            const size = normalizeSize(line.size);
+            const color = normalizeColor(line.color);
+            const addQty = Math.max(1, Math.floor(Number(line.quantity || 1)));
+            const key = cartKey(productId, size, color);
+            const idx = user.cart.findIndex((l) => {
+                const pid = l.product?.toString?.() ?? String(l.product);
+                return cartKey(pid, l.size, l.color) === key;
+            });
+            if (idx >= 0) {
+                user.cart[idx].quantity += addQty;
+                user.cart[idx].size = size;
+                user.cart[idx].color = color;
+            }
+            else {
+                user.cart.push({
+                    product: new mongoose_1.Types.ObjectId(productId),
+                    quantity: addQty,
+                    size,
+                    color,
+                });
+            }
+        }
+        await user.save();
+        return this.get(userId);
+    }
 }
 exports.CartService = CartService;

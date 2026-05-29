@@ -5,12 +5,11 @@ const order_service_1 = require("../services/order.service");
 const asyncHandler_1 = require("../utils/asyncHandler");
 const params_1 = require("../utils/params");
 const orderPayload_1 = require("../utils/orderPayload");
+const ApiError_1 = require("../utils/ApiError");
 const ApiResponse_1 = require("../views/ApiResponse");
 class OrderController {
-    static createGuest = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
-        const normalized = (0, orderPayload_1.normalizeGuestOrderBody)(req.body);
-        const result = await order_service_1.OrderService.create(normalized);
-        ApiResponse_1.ApiResponse.created(res, result, 'Order placed successfully');
+    static createGuest = (0, asyncHandler_1.asyncHandler)(async (_req, _res) => {
+        throw new ApiError_1.ApiError(403, 'Please sign in or create an account to place an order');
     });
     static track = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
         const orders = await order_service_1.OrderService.track(req.body.query);

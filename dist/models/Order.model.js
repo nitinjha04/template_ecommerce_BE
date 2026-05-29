@@ -98,6 +98,23 @@ const orderSchema = new mongoose_1.Schema({
     },
     paymentMethod: { type: String, required: true },
     orderNote: { type: String, default: "" },
+    paymentInfo: {
+        type: {
+            paymentId: { type: mongoose_1.Schema.Types.ObjectId, ref: "Payment" },
+            paymentNumber: { type: String },
+            status: { type: String, enum: ["Completed", "Pending", "Failed"] },
+            amount: { type: Number, min: 0 },
+            method: { type: String },
+            provider: { type: String },
+            paidAt: { type: Date },
+            merchantOrderNo: { type: String },
+            gatewayOrderNo: { type: String },
+            utr: { type: String },
+            gatewayStatus: { type: String },
+            paidAmount: { type: Number, min: 0 },
+        },
+        _id: false,
+    },
 }, {
     timestamps: true,
     toJSON: {

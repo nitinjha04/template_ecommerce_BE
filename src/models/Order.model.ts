@@ -12,6 +12,10 @@ export interface IOrderPaymentInfo {
   paidAt: Date;
   merchantOrderNo?: string;
   gatewayOrderNo?: string;
+  /** Bank/gateway UTR from verify response. */
+  utr?: string;
+  gatewayStatus?: string;
+  paidAmount?: number;
 }
 
 export interface IOrderItem {
@@ -128,15 +132,21 @@ const orderSchema = new Schema<IOrder>(
     paymentMethod: { type: String, required: true },
     orderNote: { type: String, default: "" },
     paymentInfo: {
-      paymentId: { type: Schema.Types.ObjectId, ref: "Payment" },
-      paymentNumber: { type: String },
-      status: { type: String, enum: ["Completed", "Pending", "Failed"] },
-      amount: { type: Number, min: 0 },
-      method: { type: String },
-      provider: { type: String },
-      paidAt: { type: Date },
-      merchantOrderNo: { type: String },
-      gatewayOrderNo: { type: String },
+      type: {
+        paymentId: { type: Schema.Types.ObjectId, ref: "Payment" },
+        paymentNumber: { type: String },
+        status: { type: String, enum: ["Completed", "Pending", "Failed"] },
+        amount: { type: Number, min: 0 },
+        method: { type: String },
+        provider: { type: String },
+        paidAt: { type: Date },
+        merchantOrderNo: { type: String },
+        gatewayOrderNo: { type: String },
+        utr: { type: String },
+        gatewayStatus: { type: String },
+        paidAmount: { type: Number, min: 0 },
+      },
+      _id: false,
     },
   },
   {

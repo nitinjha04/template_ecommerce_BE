@@ -106,7 +106,7 @@ export class PaymentFinalizationService {
     return true;
   }
 
-  private static async sendPaymentConfirmationEmailOnce(
+  static async sendPaymentConfirmationEmailOnce(
     paymentId: Types.ObjectId,
     orderId: Types.ObjectId
   ): Promise<void> {

@@ -39,6 +39,17 @@ class EmailService {
             throw new ApiError_1.ApiError(502, 'Failed to send email. Please check your email address and try again.');
         }
     }
+    /** Buyer + admin notification after online payment is confirmed. */
+    static async sendOrderPaymentConfirmedEmails(order, payment) {
+        const buyer = (0, orderEmailTemplates_1.orderPaymentConfirmedBuyerEmail)(order, payment);
+        await this.send(order.email, buyer.subject, buyer.html, {
+            mustDeliver: (0, env_1.isEmailEnabled)(),
+        });
+        const admin = (0, orderEmailTemplates_1.orderPaymentConfirmedAdminEmail)(order, payment);
+        await this.send(env_1.env.smtp.adminEmail, admin.subject, admin.html, {
+            mustDeliver: (0, env_1.isEmailEnabled)(),
+        });
+    }
     /** Buyer + admin notification when an order is placed. */
     static async sendOrderPlacedEmails(order) {
         const buyer = (0, orderEmailTemplates_1.orderPlacedBuyerEmail)(order);
