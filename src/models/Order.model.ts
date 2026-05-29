@@ -1,5 +1,18 @@
 import mongoose, { Document, Schema, Types } from "mongoose";
-import { OrderStatus } from "../types";
+import { OrderStatus, PaymentStatus } from "../types";
+
+/** Snapshot written when online payment succeeds (gateway status 2). */
+export interface IOrderPaymentInfo {
+  paymentId: Types.ObjectId;
+  paymentNumber: string;
+  status: PaymentStatus;
+  amount: number;
+  method: string;
+  provider?: string;
+  paidAt: Date;
+  merchantOrderNo?: string;
+  gatewayOrderNo?: string;
+}
 
 export interface IOrderItem {
   product: Types.ObjectId;
@@ -36,6 +49,7 @@ export interface IOrder extends Document {
   shippingAddress: IShippingAddress;
   paymentMethod: string;
   orderNote?: string;
+  paymentInfo?: IOrderPaymentInfo;
   createdAt: Date;
   updatedAt: Date;
 }
@@ -113,6 +127,17 @@ const orderSchema = new Schema<IOrder>(
     },
     paymentMethod: { type: String, required: true },
     orderNote: { type: String, default: "" },
+    paymentInfo: {
+      paymentId: { type: Schema.Types.ObjectId, ref: "Payment" },
+      paymentNumber: { type: String },
+      status: { type: String, enum: ["Completed", "Pending", "Failed"] },
+      amount: { type: Number, min: 0 },
+      method: { type: String },
+      provider: { type: String },
+      paidAt: { type: Date },
+      merchantOrderNo: { type: String },
+      gatewayOrderNo: { type: String },
+    },
   },
   {
     timestamps: true,

@@ -10,6 +10,8 @@ export interface IPayment extends Document {
   method: string;
   amount: number;
   status: PaymentStatus;
+  /** Set when gateway reports successful payment (status 2). */
+  paidAt?: Date;
   directUpi?: {
     vpa: string;
     upiLink: string;
@@ -70,6 +72,7 @@ const paymentSchema = new Schema<IPayment>(
       enum: PAYMENT_STATUSES,
       default: 'Pending',
     },
+    paidAt: { type: Date, required: false },
     directUpi: {
       vpa: { type: String, required: false },
       upiLink: { type: String, required: false },

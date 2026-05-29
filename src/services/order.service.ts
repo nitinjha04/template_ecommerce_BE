@@ -14,6 +14,8 @@ import { OrderStatus } from '../types';
 // import { EmailService } from './email.service';
 import { DsaGatewayPaymentService } from './dsaGatewayPayment.service';
 import { applyDevTestOrderTotal, shouldApplyDevTestOrderAmount } from '../utils/devOrderAmount';
+import { serializeLeanOrder } from '../utils/serializeOrder';
+import type { IPayment } from '../models/Payment.model';
 
 interface OrderItemInput {
   productId: string;
@@ -264,9 +266,31 @@ export class OrderService {
       );
     }
 
-    return Order.find(filter)
+    const orders = await Order.find(filter)
       .sort({ createdAt: -1, _id: -1 })
       .lean<IOrder[]>();
+
+    if (orders.length === 0) return [];
+
+    const orderIds = orders.map((o) => o._id);
+    const payments = await Payment.find({ order: { $in: orderIds } })
+      .sort({ createdAt: -1 })
+      .exec();
+
+    const latestPaymentByOrder = new Map<string, IPayment>();
+    for (const p of payments) {
+      const key = String(p.order);
+      if (!latestPaymentByOrder.has(key)) {
+        latestPaymentByOrder.set(key, p);
+      }
+    }
+
+    return orders.map((o) =>
+      serializeLeanOrder(
+        o as unknown as Record<string, unknown>,
+        latestPaymentByOrder.get(String(o._id))
+      )
+    );
   }
 
   static async getAllOrders() {

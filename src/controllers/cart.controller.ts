@@ -35,5 +35,20 @@ export class CartController {
     const items = await CartService.clear(req.user!.userId);
     ApiResponse.success(res, items, 'Cart cleared');
   });
+
+  static merge = asyncHandler(async (req: AuthRequest, res: Response) => {
+    const raw = req.body.items;
+    const items = Array.isArray(raw) ? raw : [];
+    const merged = await CartService.mergeLines(
+      req.user!.userId,
+      items.map((line: Record<string, unknown>) => ({
+        productId: String(line.productId ?? ''),
+        quantity: Number(line.quantity ?? 1),
+        size: typeof line.size === 'string' ? line.size : undefined,
+        color: typeof line.color === 'string' ? line.color : undefined,
+      }))
+    );
+    ApiResponse.success(res, merged, 'Cart merged');
+  });
 }
 

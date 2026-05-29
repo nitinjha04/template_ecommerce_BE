@@ -1,4 +1,23 @@
 import { IOrder } from '../models/Order.model';
+import type { IPayment } from '../models/Payment.model';
+
+const formatInr = (amount: number) => `₹${amount.toFixed(2)}`;
+
+const formatPaymentMeta = (payment: IPayment): string => {
+  const lines = [
+    `<strong>Payment ID:</strong> ${payment.paymentNumber}`,
+    payment.gateway?.merchantOrderNo
+      ? `<strong>Merchant ref:</strong> ${payment.gateway.merchantOrderNo}`
+      : '',
+    payment.gateway?.gatewayOrderNo
+      ? `<strong>Gateway ref:</strong> ${payment.gateway.gatewayOrderNo}`
+      : '',
+    payment.paidAt
+      ? `<strong>Paid at:</strong> ${payment.paidAt.toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })} IST`
+      : '',
+  ].filter(Boolean);
+  return lines.map((l) => `<p style="margin:0 0 6px;">${l}</p>`).join('');
+};
 
 const formatAddress = (order: IOrder): string => {
   const a = order.shippingAddress;
@@ -113,6 +132,52 @@ export const orderPlacedAdminEmail = (order: IOrder) => {
   return {
     subject: `[Admin] New order ${order.orderNumber}`,
     html: baseLayout('New Order', body),
+  };
+};
+
+export const orderPaymentConfirmedBuyerEmail = (
+  order: IOrder,
+  payment: IPayment
+) => {
+  const body = `
+    <h2 style="margin:0 0 16px;font-family:Georgia,serif;font-weight:normal;">Payment received — thank you!</h2>
+    <p>Hi ${order.customerName},</p>
+    <p>We have received your payment for order <strong>${order.orderNumber}</strong>. Your order is now being processed.</p>
+    <p style="margin:24px 0 8px;padding:16px;background:#ecfdf5;border-left:3px solid #059669;">
+      <strong style="color:#059669;">Payment successful</strong><br/>
+      Amount: ${formatInr(payment.amount)}
+    </p>
+    ${formatPaymentMeta(payment)}
+    <p style="margin:24px 0 8px;"><strong>Order total:</strong> ${formatInr(order.total)}</p>
+    <p style="margin:0 0 24px;"><strong>Order status:</strong> ${order.status === 'Pending' ? 'Processing' : order.status}</p>
+    ${formatItemsTable(order)}
+    <h3 style="margin:32px 0 12px;font-size:16px;">Shipping address</h3>
+    <p style="margin:0;">${formatAddress(order)}</p>
+  `;
+
+  return {
+    subject: `Payment confirmed — ${order.orderNumber}`,
+    html: baseLayout('Payment Confirmed', body),
+  };
+};
+
+export const orderPaymentConfirmedAdminEmail = (
+  order: IOrder,
+  payment: IPayment
+) => {
+  const body = `
+    <h2 style="margin:0 0 16px;font-family:Georgia,serif;font-weight:normal;">Online payment received</h2>
+    <p>Order <strong>${order.orderNumber}</strong> was paid by ${order.customerName} (${order.email}).</p>
+    <p style="margin:16px 0 8px;padding:16px;background:#ecfdf5;border-left:3px solid #059669;">
+      <strong>Amount:</strong> ${formatInr(payment.amount)}
+    </p>
+    ${formatPaymentMeta(payment)}
+    ${formatItemsTable(order)}
+  `;
+
+  return {
+    subject: `[Admin] Payment received — ${order.orderNumber}`,
+    html: baseLayout('Payment Received', body),
   };
 };
 

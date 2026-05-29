@@ -1,7 +1,10 @@
 import { IOrder } from '../models/Order.model';
 import { getMailTransporter } from '../config/mail';
 import { env, isEmailConfigured, isEmailEnabled } from '../config/env';
+import type { IPayment } from '../models/Payment.model';
 import {
+  orderPaymentConfirmedAdminEmail,
+  orderPaymentConfirmedBuyerEmail,
   orderPlacedAdminEmail,
   orderPlacedBuyerEmail,
   orderStatusUpdatedEmail,
@@ -64,6 +67,22 @@ export class EmailService {
         'Failed to send email. Please check your email address and try again.'
       );
     }
+  }
+
+  /** Buyer + admin notification after online payment is confirmed. */
+  static async sendOrderPaymentConfirmedEmails(
+    order: IOrder,
+    payment: IPayment
+  ): Promise<void> {
+    const buyer = orderPaymentConfirmedBuyerEmail(order, payment);
+    await this.send(order.email, buyer.subject, buyer.html, {
+      mustDeliver: isEmailEnabled(),
+    });
+
+    const admin = orderPaymentConfirmedAdminEmail(order, payment);
+    await this.send(env.smtp.adminEmail, admin.subject, admin.html, {
+      mustDeliver: isEmailEnabled(),
+    });
   }
 
   /** Buyer + admin notification when an order is placed. */

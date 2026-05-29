@@ -3,16 +3,13 @@ import { OrderService } from '../services/order.service';
 import { asyncHandler } from '../utils/asyncHandler';
 import { getParamId } from '../utils/params';
 import { normalizeGuestOrderBody } from '../utils/orderPayload';
+import { ApiError } from '../utils/ApiError';
 import { ApiResponse } from '../views/ApiResponse';
 import { AuthRequest, OrderStatus } from '../types';
 
 export class OrderController {
-  static createGuest = asyncHandler(async (req, res: Response) => {
-    const normalized = normalizeGuestOrderBody(req.body);
-
-    const result = await OrderService.create(normalized);
-
-    ApiResponse.created(res, result, 'Order placed successfully');
+  static createGuest = asyncHandler(async (_req, _res: Response) => {
+    throw new ApiError(403, 'Please sign in or create an account to place an order');
   });
 
   static track = asyncHandler(async (req, res: Response) => {

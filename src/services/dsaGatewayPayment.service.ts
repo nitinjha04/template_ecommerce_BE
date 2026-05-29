@@ -5,13 +5,13 @@ import {
   getPaymentReturnUrl,
   isDsaGatewayConfigured,
 } from "../config/env";
-import { Order, Payment, User } from "../models";
+import { Order, Payment } from "../models";
 import { ApiError } from "../utils/ApiError";
 import { randomNonceStr } from "../utils/dsaGateway/noncestr";
 import { signDsaBase64 } from "../utils/dsaGateway/sign";
 import { verifyDsaBase64 } from "../utils/dsaGateway/verify";
 import { applyDevTestOrderTotal } from "../utils/devOrderAmount";
-import { EmailService } from "./email.service";
+import { PaymentFinalizationService } from "./paymentFinalization.service";
 
 type GatewayCreateResult = {
   paymentUrl: string;
@@ -292,33 +292,12 @@ export class DsaGatewayPaymentService {
 
     await Payment.updateOne({ _id: payment._id }, { $set: update });
 
-    if (status === "2" && order.status === "Pending") {
-      await Order.updateOne(
-        { _id: order._id },
-        { $set: { status: "Processing" } },
-      );
-    }
-
-    // Online payment success: clear persisted cart for logged-in users.
-    if (status === "2" && order.user) {
-      await User.updateOne({ _id: order.user }, { $set: { cart: [] } });
-    }
-
-    // Send buyer/admin email after confirmed payment (deduped).
-    if (status === "2" && !payment.gateway?.successEmailSentAt) {
-      void EmailService.sendOrderPlacedEmails(order as any)
-        .then(async () => {
-          await Payment.updateOne(
-            { _id: payment._id },
-            { $set: { "gateway.successEmailSentAt": new Date() } }
-          );
-        })
-        .catch((err) => {
-          console.error(
-            "[email] order paid notification failed:",
-            err instanceof Error ? err.message : err
-          );
-        });
+    if (status === "2") {
+      await PaymentFinalizationService.finalizeSuccessfulPayment({
+        payment,
+        order,
+        gatewayOrderNo,
+      });
     }
 
     return "success";
@@ -367,49 +346,35 @@ export class DsaGatewayPaymentService {
       response?.data?.status ??
       response?.data?.data?.pay_status;
 
+    const gatewayOrderNoFromApi =
+      response?.data?.data?.order_no != null
+        ? String(response.data.data.order_no)
+        : response?.data?.order_no != null
+          ? String(response.data.order_no)
+          : undefined;
+
     if (String(gatewayStatus) === "2") {
-      if (payment.status !== "Completed") {
-        await Payment.updateOne(
-          { _id: payment._id },
-          { $set: { status: "Completed" } },
-        );
-      }
-      if (order.status === "Pending") {
-        await Order.updateOne(
-          { _id: order._id },
-          { $set: { status: "Processing" } },
-        );
-      }
-
-      if (order.user) {
-        await User.updateOne({ _id: order.user }, { $set: { cart: [] } });
-      }
-
-      if (!payment.gateway?.successEmailSentAt) {
-        void EmailService.sendOrderPlacedEmails(order as any)
-          .then(async () => {
-            await Payment.updateOne(
-              { _id: payment._id },
-              { $set: { "gateway.successEmailSentAt": new Date() } }
-            );
-          })
-          .catch((err) => {
-            console.error(
-              "[email] order paid notification failed:",
-              err instanceof Error ? err.message : err
-            );
-          });
-      }
+      await PaymentFinalizationService.finalizeSuccessfulPayment({
+        payment,
+        order,
+        gatewayOrderNo: gatewayOrderNoFromApi,
+      });
     }
+
+    const refreshedOrder = await Order.findById(order._id).lean();
+    const refreshedPayment = await Payment.findById(payment._id).lean();
 
     return {
       merchantOrderNo: mo,
       gatewayStatus: String(gatewayStatus ?? ''),
-      paymentStatus: String(gatewayStatus) === '2' ? 'Completed' : payment.status,
+      paymentStatus:
+        refreshedPayment?.status ??
+        (String(gatewayStatus) === '2' ? 'Completed' : payment.status),
       orderNumber: order.orderNumber,
-      orderStatus: (String(gatewayStatus) === '2' && order.status === 'Pending')
-        ? 'Processing'
-        : order.status,
+      orderStatus: refreshedOrder?.status ?? order.status,
+      paidAt: refreshedPayment?.paidAt?.toISOString(),
+      gatewayOrderNo:
+        refreshedPayment?.gateway?.gatewayOrderNo ?? gatewayOrderNoFromApi,
       raw: response?.data,
     };
   }
