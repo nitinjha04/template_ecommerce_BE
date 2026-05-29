@@ -3,6 +3,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+const node_dns_1 = __importDefault(require("node:dns"));
+// Many hosts (Railway, Render, etc.) have no IPv6 egress; prefer IPv4 for SMTP and APIs.
+node_dns_1.default.setDefaultResultOrder('ipv4first');
 const app_1 = __importDefault(require("./app"));
 const db_1 = require("./config/db");
 const env_1 = require("./config/env");

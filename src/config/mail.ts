@@ -1,5 +1,16 @@
+import dns from 'node:dns';
 import nodemailer, { Transporter } from 'nodemailer';
+import type SMTPTransport from 'nodemailer/lib/smtp-transport';
 import { env, isEmailConfigured } from './env';
+
+/** Resolve SMTP host over IPv4 only (avoids ENETUNREACH on hosts without IPv6 egress). */
+const smtpIpv4Lookup = (
+  hostname: string,
+  _options: unknown,
+  callback: (err: NodeJS.ErrnoException | null, address: string, family: number) => void
+) => {
+  dns.lookup(hostname, { family: 4 }, callback);
+};
 
 let transporter: Transporter | null = null;
 
@@ -21,10 +32,11 @@ export const getMailTransporter = (): Transporter => {
     const port = env.smtp.port;
     const secure = resolveSmtpSecure(port);
 
-    transporter = nodemailer.createTransport({
+    const transportOptions = {
       host: env.smtp.host,
       port,
       secure,
+      lookup: smtpIpv4Lookup,
       auth: {
         user: env.smtp.user,
         pass: env.smtp.pass,
@@ -34,12 +46,14 @@ export const getMailTransporter = (): Transporter => {
       socketTimeout: 15_000,
       ...(port === 587 && {
         requireTLS: true,
-        tls: { minVersion: 'TLSv1.2' },
+        tls: { minVersion: 'TLSv1.2' as const },
       }),
-    });
+    } as SMTPTransport.Options;
+
+    transporter = nodemailer.createTransport(transportOptions);
 
     console.log(
-      `[email] SMTP ready: ${env.smtp.host}:${port} (secure=${secure}, user=${env.smtp.user})`
+      `[email] SMTP ready: ${env.smtp.host}:${port} (secure=${secure}, ipv4=true, user=${env.smtp.user})`
     );
   }
 

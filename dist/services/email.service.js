@@ -18,11 +18,21 @@ class EmailService {
         const { mustDeliver = false } = options;
         const canSend = (0, env_1.isEmailEnabled)() && (0, env_1.isEmailConfigured)();
         if (!canSend) {
+            console.warn('[email] Send skipped — mail not ready:', {
+                to,
+                subject,
+                mustDeliver,
+                isEmailEnabled: (0, env_1.isEmailEnabled)(),
+                isEmailConfigured: (0, env_1.isEmailConfigured)(),
+                EMAIL_ENABLED_RAW: process.env.EMAIL_ENABLED ?? '(unset)',
+            });
+            (0, env_1.logEmailEnvDiagnostics)(`send-skipped:${subject}`);
             if (mustDeliver) {
                 throw new ApiError_1.ApiError(503, 'Email service is not configured. Please contact support or try again later.');
             }
             return;
         }
+        console.log('[email] Attempting send:', { to, subject, from: env_1.env.smtp.from });
         try {
             const transporter = (0, mail_1.getMailTransporter)();
             const sendPromise = transporter.sendMail({
@@ -41,6 +51,10 @@ class EmailService {
         catch (err) {
             const detail = err instanceof Error ? err.message : String(err);
             console.error(`[email] Failed to send "${subject}" → ${to}:`, detail);
+            if (/ENETUNREACH|2607:f8b0/i.test(detail)) {
+                console.error('[email] Hint: server tried IPv6 for Gmail SMTP but has no IPv6 network. ' +
+                    'Redeploy with latest mail.ts (family: 4) or set DNS to prefer IPv4.');
+            }
             throw new ApiError_1.ApiError(502, 'Failed to send email. Please check your email address and try again.');
         }
     }
@@ -74,6 +88,10 @@ class EmailService {
         await this.send(to, subject, html, { mustDeliver: (0, env_1.isEmailEnabled)() });
     }
     static async sendPasswordResetOtp(to, name, otp) {
+        console.log('[email] sendPasswordResetOtp called:', {
+            to,
+            mustDeliver: (0, env_1.isEmailEnabled)(),
+        });
         const { subject, html } = (0, passwordResetOtpEmail_1.passwordResetOtpEmail)(otp, name);
         await this.send(to, subject, html, { mustDeliver: (0, env_1.isEmailEnabled)() });
     }

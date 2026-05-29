@@ -1,3 +1,8 @@
+import dns from 'node:dns';
+
+// Many hosts (Railway, Render, etc.) have no IPv6 egress; prefer IPv4 for SMTP and APIs.
+dns.setDefaultResultOrder('ipv4first');
+
 import app from './app';
 import { connectDB } from './config/db';
 import { env } from './config/env';

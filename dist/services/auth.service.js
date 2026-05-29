@@ -41,9 +41,25 @@ const assignResetOtp = async (user) => {
     user.resetOtpExpires = new Date(Date.now() + OTP_TTL_MS);
     user.resetOtpVerifiedAt = undefined;
     await user.save({ validateBeforeSave: false });
-    await email_service_1.EmailService.sendPasswordResetOtp(user.email, user.name, otp);
+    console.log("[forgot-password] Sending reset OTP email:", {
+        to: user.email,
+        emailEnabled: (0, env_1.isEmailEnabled)(),
+    });
+    (0, env_1.logEmailEnvDiagnostics)("assignResetOtp");
+    try {
+        await email_service_1.EmailService.sendPasswordResetOtp(user.email, user.name, otp);
+        console.log("[forgot-password] Reset OTP email dispatched:", user.email);
+    }
+    catch (err) {
+        console.error("[forgot-password] Reset OTP email failed:", {
+            to: user.email,
+            error: err instanceof Error ? err.message : String(err),
+            stack: err instanceof Error ? err.stack : undefined,
+        });
+        throw err;
+    }
     if (!(0, env_1.isEmailEnabled)()) {
-        console.log(`[dev] Password reset OTP for ${user.email}:`, otp);
+        console.log(`[forgot-password][dev] Password reset OTP for ${user.email}:`, otp);
     }
 };
 class AuthService {
@@ -161,11 +177,20 @@ class AuthService {
         };
     }
     static async forgotPassword(email) {
-        const user = await models_1.User.findOne({ email: normalizeEmail(email) });
+        const normalizedEmail = normalizeEmail(email);
+        console.log("[forgot-password] Looking up user:", { normalizedEmail });
+        const user = await models_1.User.findOne({ email: normalizedEmail });
         const message = "If that email exists, a verification code has been sent.";
         if (!user) {
+            console.log("[forgot-password] No user for email (generic response):", {
+                normalizedEmail,
+            });
             return { message };
         }
+        console.log("[forgot-password] User found, assigning OTP:", {
+            userId: user._id.toString(),
+            email: user.email,
+        });
         await assignResetOtp(user);
         return { message, email: user.email };
     }

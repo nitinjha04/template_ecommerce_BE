@@ -86,6 +86,12 @@ export class EmailService {
     } catch (err) {
       const detail = err instanceof Error ? err.message : String(err);
       console.error(`[email] Failed to send "${subject}" → ${to}:`, detail);
+      if (/ENETUNREACH|2607:f8b0/i.test(detail)) {
+        console.error(
+          '[email] Hint: server tried IPv6 for Gmail SMTP but has no IPv6 network. ' +
+            'Redeploy with latest mail.ts (family: 4) or set DNS to prefer IPv4.'
+        );
+      }
 
       throw new ApiError(
         502,

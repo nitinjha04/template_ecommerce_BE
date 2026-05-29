@@ -4,8 +4,13 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.resetMailTransporter = exports.getMailTransporter = exports.resolveSmtpSecure = void 0;
+const node_dns_1 = __importDefault(require("node:dns"));
 const nodemailer_1 = __importDefault(require("nodemailer"));
 const env_1 = require("./env");
+/** Resolve SMTP host over IPv4 only (avoids ENETUNREACH on hosts without IPv6 egress). */
+const smtpIpv4Lookup = (hostname, _options, callback) => {
+    node_dns_1.default.lookup(hostname, { family: 4 }, callback);
+};
 let transporter = null;
 /** Port 465 = implicit TLS; 587 = STARTTLS (must not use secure: true). */
 const resolveSmtpSecure = (port) => {
@@ -23,10 +28,11 @@ const getMailTransporter = () => {
     if (!transporter) {
         const port = env_1.env.smtp.port;
         const secure = (0, exports.resolveSmtpSecure)(port);
-        transporter = nodemailer_1.default.createTransport({
+        const transportOptions = {
             host: env_1.env.smtp.host,
             port,
             secure,
+            lookup: smtpIpv4Lookup,
             auth: {
                 user: env_1.env.smtp.user,
                 pass: env_1.env.smtp.pass,
@@ -38,8 +44,9 @@ const getMailTransporter = () => {
                 requireTLS: true,
                 tls: { minVersion: 'TLSv1.2' },
             }),
-        });
-        console.log(`[email] SMTP ready: ${env_1.env.smtp.host}:${port} (secure=${secure}, user=${env_1.env.smtp.user})`);
+        };
+        transporter = nodemailer_1.default.createTransport(transportOptions);
+        console.log(`[email] SMTP ready: ${env_1.env.smtp.host}:${port} (secure=${secure}, ipv4=true, user=${env_1.env.smtp.user})`);
     }
     return transporter;
 };

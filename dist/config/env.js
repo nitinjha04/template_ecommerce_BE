@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.isEmailEnabled = exports.isEmailConfigured = exports.isDsaGatewayConfigured = exports.getPaymentReturnUrl = exports.getFrontendOrigin = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
+exports.logEmailEnvDiagnostics = exports.isEmailEnabled = exports.isEmailConfigured = exports.isDsaGatewayConfigured = exports.getPaymentReturnUrl = exports.getFrontendOrigin = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
 const dotenv_1 = __importDefault(require("dotenv"));
 dotenv_1.default.config();
 const required = ["MONGODB_URI", "JWT_SECRET"];
@@ -93,3 +93,22 @@ exports.isEmailConfigured = isEmailConfigured;
 /** Emails are off until EMAIL_ENABLED=true and SMTP vars are set. */
 const isEmailEnabled = () => exports.env.emailEnabled && (0, exports.isEmailConfigured)();
 exports.isEmailEnabled = isEmailEnabled;
+/** Startup / forgot-password diagnostics — never logs SMTP_PASS. */
+const logEmailEnvDiagnostics = (context) => {
+    console.log(`[email-env][${context}]`, {
+        NODE_ENV: exports.env.nodeEnv,
+        EMAIL_ENABLED_RAW: process.env.EMAIL_ENABLED ?? "(unset)",
+        emailEnabledParsed: exports.env.emailEnabled,
+        isEmailConfigured: (0, exports.isEmailConfigured)(),
+        isEmailEnabled: (0, exports.isEmailEnabled)(),
+        SMTP_HOST: exports.env.smtp.host || "(empty)",
+        SMTP_PORT: exports.env.smtp.port,
+        SMTP_SECURE: exports.env.smtp.secure,
+        SMTP_USER: exports.env.smtp.user || "(empty)",
+        SMTP_PASS_SET: Boolean(exports.env.smtp.pass),
+        SMTP_PASS_LENGTH: exports.env.smtp.pass.length,
+        SMTP_FROM: exports.env.smtp.from,
+        ADMIN_EMAIL: exports.env.smtp.adminEmail,
+    });
+};
+exports.logEmailEnvDiagnostics = logEmailEnvDiagnostics;
