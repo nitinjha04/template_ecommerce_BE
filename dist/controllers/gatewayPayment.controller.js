@@ -31,5 +31,12 @@ class GatewayPaymentController {
         const result = await dsaGatewayPayment_service_1.DsaGatewayPaymentService.verifyPayment(merchantOrderNo);
         ApiResponse_1.ApiResponse.success(res, result, 'Payment verified');
     });
+    static verifyByOrder = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
+        const orderNumber = String(req.params.orderNumber ?? '').trim();
+        if (!orderNumber)
+            throw new ApiError_1.ApiError(400, 'orderNumber is required');
+        const result = await dsaGatewayPayment_service_1.DsaGatewayPaymentService.verifyPaymentByOrderNumber(orderNumber);
+        ApiResponse_1.ApiResponse.success(res, result, 'Payment verified');
+    });
 }
 exports.GatewayPaymentController = GatewayPaymentController;

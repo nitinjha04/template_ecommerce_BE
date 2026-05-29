@@ -88,6 +88,7 @@ const paymentSchema = new mongoose_1.Schema({
         createResponse: { type: mongoose_1.Schema.Types.Mixed, required: false },
         callbackData: { type: mongoose_1.Schema.Types.Mixed, required: false },
         verifyResponse: { type: mongoose_1.Schema.Types.Mixed, required: false },
+        successEmailSentAt: { type: Date, required: false },
     },
 }, {
     timestamps: true,

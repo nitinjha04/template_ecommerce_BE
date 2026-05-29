@@ -10,4 +10,5 @@ const router = (0, express_1.Router)();
 router.post('/create', gatewayPayment_controller_1.GatewayPaymentController.create);
 router.post('/webhook', gatewayPayment_controller_1.GatewayPaymentController.webhook);
 router.get('/verify/:merchantOrderNo', gatewayPayment_controller_1.GatewayPaymentController.verify);
+router.get('/verify-order/:orderNumber', gatewayPayment_controller_1.GatewayPaymentController.verifyByOrder);
 exports.default = router;

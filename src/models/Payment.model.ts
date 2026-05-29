@@ -24,6 +24,7 @@ export interface IPayment extends Document {
     createResponse?: unknown;
     callbackData?: unknown;
     verifyResponse?: unknown;
+    successEmailSentAt?: Date;
   };
   createdAt: Date;
   updatedAt: Date;
@@ -83,6 +84,7 @@ const paymentSchema = new Schema<IPayment>(
       createResponse: { type: Schema.Types.Mixed, required: false },
       callbackData: { type: Schema.Types.Mixed, required: false },
       verifyResponse: { type: Schema.Types.Mixed, required: false },
+      successEmailSentAt: { type: Date, required: false },
     },
   },
   {

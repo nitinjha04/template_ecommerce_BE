@@ -10,6 +10,7 @@ const router = Router();
 router.post('/create', GatewayPaymentController.create);
 router.post('/webhook', GatewayPaymentController.webhook);
 router.get('/verify/:merchantOrderNo', GatewayPaymentController.verify);
+router.get('/verify-order/:orderNumber', GatewayPaymentController.verifyByOrder);
 
 export default router;
 

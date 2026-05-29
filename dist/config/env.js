@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.isEmailEnabled = exports.isEmailConfigured = exports.isDsaGatewayConfigured = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
+exports.isEmailEnabled = exports.isEmailConfigured = exports.isDsaGatewayConfigured = exports.getPaymentReturnUrl = exports.getFrontendOrigin = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
 const dotenv_1 = __importDefault(require("dotenv"));
 dotenv_1.default.config();
 const required = ["MONGODB_URI", "JWT_SECRET"];
@@ -78,6 +78,11 @@ const getApiPublicOrigin = () => {
     return `http://localhost:${exports.env.port}`;
 };
 exports.getApiPublicOrigin = getApiPublicOrigin;
+/** Public storefront URL used for PayPro return / success redirects. */
+const getFrontendOrigin = () => (process.env.PAYMENT_RETURN_URL?.trim() || exports.env.frontendUrl).replace(/\/$/, "");
+exports.getFrontendOrigin = getFrontendOrigin;
+const getPaymentReturnUrl = (orderNumber, merchantOrderNo) => `${(0, exports.getFrontendOrigin)()}/payment-return?order=${encodeURIComponent(orderNumber)}&mo=${encodeURIComponent(merchantOrderNo)}`;
+exports.getPaymentReturnUrl = getPaymentReturnUrl;
 const isDsaGatewayConfigured = () => {
     const { merchantId, privateKey, publicKey, baseUrl } = exports.env.dsaGateway;
     return Boolean(merchantId && privateKey && publicKey && baseUrl);

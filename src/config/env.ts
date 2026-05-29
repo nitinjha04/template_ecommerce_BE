@@ -81,6 +81,18 @@ export const getApiPublicOrigin = (): string => {
   return `http://localhost:${env.port}`;
 };
 
+/** Public storefront URL used for PayPro return / success redirects. */
+export const getFrontendOrigin = (): string =>
+  (process.env.PAYMENT_RETURN_URL?.trim() || env.frontendUrl).replace(/\/$/, "");
+
+export const getPaymentReturnUrl = (
+  orderNumber: string,
+  merchantOrderNo: string
+): string =>
+  `${getFrontendOrigin()}/payment-return?order=${encodeURIComponent(
+    orderNumber
+  )}&mo=${encodeURIComponent(merchantOrderNo)}`;
+
 export const isDsaGatewayConfigured = (): boolean => {
   const { merchantId, privateKey, publicKey, baseUrl } = env.dsaGateway;
   return Boolean(merchantId && privateKey && publicKey && baseUrl);

@@ -12,6 +12,7 @@ const noncestr_1 = require("../utils/dsaGateway/noncestr");
 const sign_1 = require("../utils/dsaGateway/sign");
 const verify_1 = require("../utils/dsaGateway/verify");
 const devOrderAmount_1 = require("../utils/devOrderAmount");
+const email_service_1 = require("./email.service");
 class DsaGatewayPaymentService {
     static log(step, details) {
         // Intentionally avoid logging sensitive values like keys/signatures.
@@ -95,6 +96,8 @@ class DsaGatewayPaymentService {
             : undefined) ??
             configuredIds[0] ??
             489783;
+        const returnUrl = (0, env_1.getPaymentReturnUrl)(order.orderNumber, merchantOrderNo);
+        this.log("createForOrder:return_url_for_merchant_panel", { returnUrl });
         const payload = {
             // DT PayPro byGateway variant requires gateway_id.
             gateway_id: chosenGatewayId,
@@ -106,6 +109,14 @@ class DsaGatewayPaymentService {
             phone: order.phone,
             deeplink_switch: "1",
             notify_url: notifyUrl,
+            // Common return-url field names (provider may use one of these in dashboard/API).
+            return_url: returnUrl,
+            returnUrl,
+            success_url: `${returnUrl}&s=1`,
+            fail_url: `${returnUrl}&s=0`,
+            back_url: returnUrl,
+            page_url: returnUrl,
+            redirect_url: returnUrl,
             noncestr,
             action,
             timestamp,
@@ -115,18 +126,23 @@ class DsaGatewayPaymentService {
         this.log("createForOrder:gateway_request", { url, merchantOrderNo });
         const response = await axios_1.default.post(url, payload, { timeout: 20_000 });
         this.log("createForOrder:gateway_response", { response: response.data });
-        // PHP flow: prefer pay_url, then deeplink/upi, and also check nested data.*
+        // Prefer hosted HTTPS checkout (Easebuzz / H5). Fall back to UPI deeplink if needed.
         const data = response?.data;
         const nested = data?.data;
-        const payUrl = data?.pay_url ??
-            nested?.pay_url ??
-            data?.deeplink ??
-            nested?.deeplink ??
-            data?.upi ??
-            nested?.upi ??
-            nested?.pay_url_H5 ??
-            nested?.payUrlH5 ??
-            data?.pay_url_H5;
+        const candidates = [
+            nested?.pay_url_H5,
+            data?.pay_url_H5,
+            nested?.pay_url,
+            data?.pay_url,
+            nested?.payUrlH5,
+            nested?.deeplink,
+            data?.deeplink,
+            nested?.upi,
+            data?.upi,
+        ].filter((u) => typeof u === "string" && u.length > 0);
+        const payUrl = candidates.find((u) => /^https?:\/\//i.test(u)) ??
+            candidates.find((u) => /^upi:/i.test(u)) ??
+            candidates[0];
         if (!payUrl || typeof payUrl !== "string") {
             throw new ApiError_1.ApiError(502, "Gateway did not return a payment URL");
         }
@@ -221,6 +237,16 @@ class DsaGatewayPaymentService {
         if (status === "2" && order.user) {
             await models_1.User.updateOne({ _id: order.user }, { $set: { cart: [] } });
         }
+        // Send buyer/admin email after confirmed payment (deduped).
+        if (status === "2" && !payment.gateway?.successEmailSentAt) {
+            void email_service_1.EmailService.sendOrderPlacedEmails(order)
+                .then(async () => {
+                await models_1.Payment.updateOne({ _id: payment._id }, { $set: { "gateway.successEmailSentAt": new Date() } });
+            })
+                .catch((err) => {
+                console.error("[email] order paid notification failed:", err instanceof Error ? err.message : err);
+            });
+        }
         return "success";
     }
     static async verifyPayment(merchantOrderNo) {
@@ -263,6 +289,15 @@ class DsaGatewayPaymentService {
             if (order.user) {
                 await models_1.User.updateOne({ _id: order.user }, { $set: { cart: [] } });
             }
+            if (!payment.gateway?.successEmailSentAt) {
+                void email_service_1.EmailService.sendOrderPlacedEmails(order)
+                    .then(async () => {
+                    await models_1.Payment.updateOne({ _id: payment._id }, { $set: { "gateway.successEmailSentAt": new Date() } });
+                })
+                    .catch((err) => {
+                    console.error("[email] order paid notification failed:", err instanceof Error ? err.message : err);
+                });
+            }
         }
         return {
             merchantOrderNo: mo,
@@ -274,6 +309,19 @@ class DsaGatewayPaymentService {
                 : order.status,
             raw: response?.data,
         };
+    }
+    /** Verify latest PayPro attempt for a storefront order number. */
+    static async verifyPaymentByOrderNumber(orderNumber) {
+        const order = await models_1.Order.findOne({ orderNumber: orderNumber.trim() });
+        if (!order)
+            throw new ApiError_1.ApiError(404, 'Order not found');
+        const payment = await models_1.Payment.findOne({ order: order._id })
+            .sort({ createdAt: -1 })
+            .exec();
+        if (!payment?.gateway?.merchantOrderNo) {
+            throw new ApiError_1.ApiError(404, 'No PayPro payment attempt found for this order');
+        }
+        return this.verifyPayment(payment.gateway.merchantOrderNo);
     }
 }
 exports.DsaGatewayPaymentService = DsaGatewayPaymentService;
