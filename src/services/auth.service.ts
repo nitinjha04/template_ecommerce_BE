@@ -5,6 +5,7 @@ import { signToken } from "../utils/jwt";
 import { env, isEmailEnabled, logEmailEnvDiagnostics } from "../config/env";
 import { EmailService } from "./email.service";
 import type { AuthResponsePayload } from "../types/auth";
+import { mergeStoreFilter, withStoreId } from "../utils/storeScope";
 
 interface SignupInput {
   name: string;
@@ -88,7 +89,7 @@ const assignResetOtp = async (user: InstanceType<typeof User>) => {
 export class AuthService {
   static async signup(input: SignupInput) {
     const email = normalizeEmail(input.email);
-    const existing = await User.findOne({ email }).select(
+    const existing = await User.findOne(mergeStoreFilter({ email })).select(
       "+signupOtpHash +signupOtpExpires",
     );
 
@@ -108,14 +109,16 @@ export class AuthService {
       user.role = user.role || "customer";
       await user.save();
     } else {
-      user = await User.create({
-        name: input.name.trim(),
-        email,
-        password: input.password,
-        role: "customer",
-        emailVerified: false,
-        onBoardState: 0,
-      });
+      user = await User.create(
+        withStoreId({
+          name: input.name.trim(),
+          email,
+          password: input.password,
+          role: "customer",
+          emailVerified: false,
+          onBoardState: 0,
+        })
+      );
     }
 
     await assignSignupOtp(user);
@@ -128,7 +131,7 @@ export class AuthService {
 
   static async verifySignupOtp(email: string, otp: string) {
     const normalizedEmail = normalizeEmail(email);
-    const user = await User.findOne({ email: normalizedEmail }).select(
+    const user = await User.findOne(mergeStoreFilter({ email: normalizedEmail })).select(
       "+signupOtpHash +signupOtpExpires",
     );
 
@@ -173,7 +176,7 @@ export class AuthService {
 
   static async resendSignupOtp(email: string) {
     const normalizedEmail = normalizeEmail(email);
-    const user = await User.findOne({ email: normalizedEmail });
+    const user = await User.findOne(mergeStoreFilter({ email: normalizedEmail }));
 
     const message = "If an account exists, a verification code has been sent.";
 
@@ -186,9 +189,9 @@ export class AuthService {
   }
 
   static async login(input: LoginInput) {
-    const user = await User.findOne({
-      email: normalizeEmail(input.email),
-    }).select("+password");
+    const user = await User.findOne(
+      mergeStoreFilter({ email: normalizeEmail(input.email) })
+    ).select("+password");
     if (!user) {
       throw new ApiError(401, "Invalid email or password");
     }
@@ -240,7 +243,7 @@ export class AuthService {
     const normalizedEmail = normalizeEmail(email);
     console.log("[forgot-password] Looking up user:", { normalizedEmail });
 
-    const user = await User.findOne({ email: normalizedEmail });
+    const user = await User.findOne(mergeStoreFilter({ email: normalizedEmail }));
     const message = "If that email exists, a verification code has been sent.";
 
     if (!user) {
@@ -260,7 +263,7 @@ export class AuthService {
 
   static async verifyForgotPasswordOtp(email: string, otp: string) {
     const normalizedEmail = normalizeEmail(email);
-    const user = await User.findOne({ email: normalizedEmail }).select(
+    const user = await User.findOne(mergeStoreFilter({ email: normalizedEmail })).select(
       "+resetOtpHash +resetOtpExpires",
     );
 
@@ -289,7 +292,7 @@ export class AuthService {
 
   static async resetPassword(email: string, password: string) {
     const normalizedEmail = normalizeEmail(email);
-    const user = await User.findOne({ email: normalizedEmail }).select(
+    const user = await User.findOne(mergeStoreFilter({ email: normalizedEmail })).select(
       "+password +resetOtpVerifiedAt",
     );
 

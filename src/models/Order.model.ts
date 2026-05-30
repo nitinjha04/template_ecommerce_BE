@@ -41,6 +41,7 @@ export interface IShippingAddress {
 }
 
 export interface IOrder extends Document {
+  store: Types.ObjectId;
   orderNumber: string;
   user?: Types.ObjectId;
   customerName: string;
@@ -100,6 +101,12 @@ const ORDER_STATUSES: OrderStatus[] = [
 
 const orderSchema = new Schema<IOrder>(
   {
+    store: {
+      type: Schema.Types.ObjectId,
+      ref: 'Store',
+      required: true,
+      index: true,
+    },
     orderNumber: {
       type: String,
       unique: true,

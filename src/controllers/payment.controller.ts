@@ -8,6 +8,8 @@ import { DsaGatewayPaymentService } from '../services/dsaGatewayPayment.service'
 import { env } from '../config/env';
 import { ApiError } from '../utils/ApiError';
 import { Order, Payment } from '../models';
+import { mergeStoreFilter } from '../utils/storeScope';
+import { pickStoreIdFromQuery } from '../utils/adminStoreQuery';
 
 export class PaymentController {
   static getAll = asyncHandler(async (req: AuthRequest, res: Response) => {
@@ -17,6 +19,7 @@ export class PaymentController {
       limit: limit ? Number(limit) : undefined,
       search: search as string | undefined,
       status: status as string | undefined,
+      storeId: pickStoreIdFromQuery(req.query.storeId),
     });
     ApiResponse.success(res, result.items, 'Payments fetched', 200, result.pagination);
   });
@@ -79,7 +82,9 @@ export class PaymentController {
         throw new ApiError(500, 'Direct UPI is not configured');
       }
 
-      const order = await Order.findOne({ orderNumber: orderNumber.trim() });
+      const order = await Order.findOne(
+        mergeStoreFilter({ orderNumber: orderNumber.trim() })
+      );
       if (!order) throw new ApiError(404, 'Order not found');
 
       // Optional guest safety check (match on email/phone if provided)

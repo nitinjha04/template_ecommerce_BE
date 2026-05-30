@@ -7,6 +7,7 @@ const params_1 = require("../utils/params");
 const orderPayload_1 = require("../utils/orderPayload");
 const ApiError_1 = require("../utils/ApiError");
 const ApiResponse_1 = require("../views/ApiResponse");
+const adminStoreQuery_1 = require("../utils/adminStoreQuery");
 class OrderController {
     static createGuest = (0, asyncHandler_1.asyncHandler)(async (_req, _res) => {
         throw new ApiError_1.ApiError(403, 'Please sign in or create an account to place an order');
@@ -34,6 +35,7 @@ class OrderController {
             limit: limit ? Number(limit) : undefined,
             search: search,
             status: status,
+            storeId: (0, adminStoreQuery_1.pickStoreIdFromQuery)(req.query.storeId),
         });
         ApiResponse_1.ApiResponse.success(res, result.items, 'Orders fetched', 200, result.pagination);
     });

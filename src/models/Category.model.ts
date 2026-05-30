@@ -1,6 +1,7 @@
-import mongoose, { Document, Schema } from 'mongoose';
+import mongoose, { Document, Schema, Types } from 'mongoose';
 
 export interface ICategory extends Document {
+  store: Types.ObjectId;
   name: string;
   slug: string;
   sortOrder: number;
@@ -11,16 +12,20 @@ export interface ICategory extends Document {
 
 const categorySchema = new Schema<ICategory>(
   {
+    store: {
+      type: Schema.Types.ObjectId,
+      ref: 'Store',
+      required: true,
+      index: true,
+    },
     name: {
       type: String,
       required: [true, 'Category name is required'],
       trim: true,
-      unique: true,
     },
     slug: {
       type: String,
       required: true,
-      unique: true,
       lowercase: true,
       trim: true,
       index: true,
@@ -41,5 +46,8 @@ const categorySchema = new Schema<ICategory>(
     },
   }
 );
+
+categorySchema.index({ store: 1, slug: 1 }, { unique: true });
+categorySchema.index({ store: 1, name: 1 }, { unique: true });
 
 export const Category = mongoose.model<ICategory>('Category', categorySchema);

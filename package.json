@@ -29,7 +29,8 @@
     "seed:backfill-pdp": "tsx src/scripts/backfill-product-details.ts",
     "scrape:nykaa": "tsx src/scraping/nykaa/scrape.ts",
     "scrape:nykaa:all": "tsx src/scraping/nykaa/scrape.ts -- --config src/scraping/nykaa/categories.example.json",
-    "scrape:nykaa:import": "tsx src/scraping/nykaa/import-products.ts"
+    "scrape:nykaa:import": "tsx src/scraping/nykaa/import-products.ts",
+    "migrate:assign-store": "tsx src/scripts/migrate-assign-store.ts"
   },
   "keywords": [
     "ecommerce",

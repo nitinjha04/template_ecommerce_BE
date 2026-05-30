@@ -3,6 +3,7 @@ import { PaymentStatus } from '../types';
 import { isPopulatedSubdoc, refToIdString } from '../utils/mongooseRefs';
 
 export interface IPayment extends Document {
+  store: Types.ObjectId;
   paymentNumber: string;
   order: Types.ObjectId;
   user?: Types.ObjectId;
@@ -42,6 +43,12 @@ const PAYMENT_PROVIDERS: NonNullable<IPayment['provider']>[] = [
 
 const paymentSchema = new Schema<IPayment>(
   {
+    store: {
+      type: Schema.Types.ObjectId,
+      ref: 'Store',
+      required: true,
+      index: true,
+    },
     paymentNumber: {
       type: String,
       unique: true,

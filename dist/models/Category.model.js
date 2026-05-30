@@ -36,16 +36,20 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.Category = void 0;
 const mongoose_1 = __importStar(require("mongoose"));
 const categorySchema = new mongoose_1.Schema({
+    store: {
+        type: mongoose_1.Schema.Types.ObjectId,
+        ref: 'Store',
+        required: true,
+        index: true,
+    },
     name: {
         type: String,
         required: [true, 'Category name is required'],
         trim: true,
-        unique: true,
     },
     slug: {
         type: String,
         required: true,
-        unique: true,
         lowercase: true,
         trim: true,
         index: true,
@@ -64,4 +68,6 @@ const categorySchema = new mongoose_1.Schema({
         },
     },
 });
+categorySchema.index({ store: 1, slug: 1 }, { unique: true });
+categorySchema.index({ store: 1, name: 1 }, { unique: true });
 exports.Category = mongoose_1.default.model('Category', categorySchema);

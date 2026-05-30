@@ -67,6 +67,12 @@ const ORDER_STATUSES = [
     "Cancelled",
 ];
 const orderSchema = new mongoose_1.Schema({
+    store: {
+        type: mongoose_1.Schema.Types.ObjectId,
+        ref: 'Store',
+        required: true,
+        index: true,
+    },
     orderNumber: {
         type: String,
         unique: true,

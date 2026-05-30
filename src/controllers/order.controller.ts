@@ -6,6 +6,7 @@ import { normalizeGuestOrderBody } from '../utils/orderPayload';
 import { ApiError } from '../utils/ApiError';
 import { ApiResponse } from '../views/ApiResponse';
 import { AuthRequest, OrderStatus } from '../types';
+import { pickStoreIdFromQuery } from '../utils/adminStoreQuery';
 
 export class OrderController {
   static createGuest = asyncHandler(async (_req, _res: Response) => {
@@ -43,6 +44,7 @@ export class OrderController {
       limit: limit ? Number(limit) : undefined,
       search: search as string | undefined,
       status: status as string | undefined,
+      storeId: pickStoreIdFromQuery(req.query.storeId),
     });
     ApiResponse.success(res, result.items, 'Orders fetched', 200, result.pagination);
   });

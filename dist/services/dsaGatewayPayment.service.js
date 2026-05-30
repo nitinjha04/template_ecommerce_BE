@@ -16,6 +16,7 @@ const paymentFinalization_service_1 = require("./paymentFinalization.service");
 const serializeOrder_1 = require("../utils/serializeOrder");
 const orderPaymentPersistence_1 = require("./orderPaymentPersistence");
 const paymentSideEffects_1 = require("./paymentSideEffects");
+const storeScope_1 = require("../utils/storeScope");
 class DsaGatewayPaymentService {
     static log(step, details) {
         // Intentionally avoid logging sensitive values like keys/signatures.
@@ -30,7 +31,7 @@ class DsaGatewayPaymentService {
             throw new ApiError_1.ApiError(500, "Payment gateway is not configured");
         }
         this.log("createForOrder:start", { orderNumber: input.orderNumber });
-        const order = await models_1.Order.findOne({ orderNumber: input.orderNumber });
+        const order = await models_1.Order.findOne((0, storeScope_1.mergeStoreFilter)({ orderNumber: input.orderNumber }));
         if (!order)
             throw new ApiError_1.ApiError(404, "Order not found");
         // Basic guest safety check: if caller sends email/phone, require match.

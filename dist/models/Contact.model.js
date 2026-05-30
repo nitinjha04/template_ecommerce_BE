@@ -36,6 +36,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.Contact = void 0;
 const mongoose_1 = __importStar(require("mongoose"));
 const contactSchema = new mongoose_1.Schema({
+    store: {
+        type: mongoose_1.Schema.Types.ObjectId,
+        ref: 'Store',
+        required: true,
+        index: true,
+    },
     name: {
         type: String,
         required: [true, 'Name is required'],

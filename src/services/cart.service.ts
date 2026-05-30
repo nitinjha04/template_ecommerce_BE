@@ -2,6 +2,7 @@ import { Types } from 'mongoose';
 import { Product, User } from '../models';
 import { ApiError } from '../utils/ApiError';
 import { serializeProduct } from '../utils/serializeProduct';
+import { mergeStoreFilter } from '../utils/storeScope';
 
 export type CartLineDto = {
   product: Record<string, unknown>;
@@ -32,10 +33,12 @@ export class CartService {
     if (!lines.length) return [];
 
     const productIds = lines.map((l) => l.product);
-    const products = await Product.find({
-      _id: { $in: productIds },
-      isPublished: { $ne: false },
-    });
+    const products = await Product.find(
+      mergeStoreFilter({
+        _id: { $in: productIds },
+        isPublished: { $ne: false },
+      })
+    );
 
     const byId = new Map(products.map((p) => [p._id.toString(), p]));
 
@@ -65,7 +68,7 @@ export class CartService {
       throw new ApiError(400, 'Invalid product id');
     }
 
-    const product = await Product.findById(productId);
+    const product = await Product.findOne(mergeStoreFilter({ _id: productId }));
     if (!product || product.isPublished === false) {
       throw new ApiError(404, 'Product not found');
     }
@@ -155,7 +158,7 @@ export class CartService {
       const { productId } = line;
       if (!Types.ObjectId.isValid(productId)) continue;
 
-      const product = await Product.findById(productId);
+      const product = await Product.findOne(mergeStoreFilter({ _id: productId }));
       if (!product || product.isPublished === false) continue;
 
       const size = normalizeSize(line.size);

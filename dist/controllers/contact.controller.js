@@ -5,6 +5,7 @@ const contact_service_1 = require("../services/contact.service");
 const asyncHandler_1 = require("../utils/asyncHandler");
 const params_1 = require("../utils/params");
 const ApiResponse_1 = require("../views/ApiResponse");
+const adminStoreQuery_1 = require("../utils/adminStoreQuery");
 class ContactController {
     static create = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
         const message = await contact_service_1.ContactService.create(req.body);
@@ -16,6 +17,7 @@ class ContactController {
             page: page ? Number(page) : undefined,
             limit: limit ? Number(limit) : undefined,
             search: search,
+            storeId: (0, adminStoreQuery_1.pickStoreIdFromQuery)(req.query.storeId),
         });
         ApiResponse_1.ApiResponse.success(res, result.items, 'Messages fetched', 200, result.pagination);
     });

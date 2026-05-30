@@ -5,6 +5,7 @@ const mongoose_1 = require("mongoose");
 const models_1 = require("../models");
 const ApiError_1 = require("../utils/ApiError");
 const serializeProduct_1 = require("../utils/serializeProduct");
+const storeScope_1 = require("../utils/storeScope");
 const normalizeSize = (value) => {
     const s = typeof value === 'string' ? value.trim() : '';
     return s || 'One Size';
@@ -23,10 +24,10 @@ class CartService {
         if (!lines.length)
             return [];
         const productIds = lines.map((l) => l.product);
-        const products = await models_1.Product.find({
+        const products = await models_1.Product.find((0, storeScope_1.mergeStoreFilter)({
             _id: { $in: productIds },
             isPublished: { $ne: false },
-        });
+        }));
         const byId = new Map(products.map((p) => [p._id.toString(), p]));
         return lines
             .map((line) => {
@@ -47,7 +48,7 @@ class CartService {
         if (!mongoose_1.Types.ObjectId.isValid(productId)) {
             throw new ApiError_1.ApiError(400, 'Invalid product id');
         }
-        const product = await models_1.Product.findById(productId);
+        const product = await models_1.Product.findOne((0, storeScope_1.mergeStoreFilter)({ _id: productId }));
         if (!product || product.isPublished === false) {
             throw new ApiError_1.ApiError(404, 'Product not found');
         }
@@ -113,7 +114,7 @@ class CartService {
             const { productId } = line;
             if (!mongoose_1.Types.ObjectId.isValid(productId))
                 continue;
-            const product = await models_1.Product.findById(productId);
+            const product = await models_1.Product.findOne((0, storeScope_1.mergeStoreFilter)({ _id: productId }));
             if (!product || product.isPublished === false)
                 continue;
             const size = normalizeSize(line.size);

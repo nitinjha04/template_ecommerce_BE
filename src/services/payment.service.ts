@@ -12,13 +12,14 @@ import { AdminListQuery } from '../types/adminList';
 import { IPayment } from '../models/Payment.model';
 import { PaymentStatus } from '../types';
 import type { SerializedPayment } from '../utils/serializePayment';
+import { mergeStoreFilter } from '../utils/storeScope';
 
 export class PaymentService {
   static async getAllAdmin(
     query: AdminListQuery
   ): Promise<PaginatedResult<SerializedPayment>> {
     const { page, limit, skip } = parsePagination(query);
-    const filter: FilterQuery<IPayment> = {};
+    const filter: FilterQuery<IPayment> = mergeStoreFilter({}, query.storeId);
 
     if (query.status && query.status !== 'All') {
       filter.status = query.status as PaymentStatus;
@@ -26,7 +27,9 @@ export class PaymentService {
 
     const regex = searchRegex(query.search ?? '');
     if (regex) {
-      const matchingOrders = await Order.find({ orderNumber: regex })
+      const matchingOrders = await Order.find(
+        mergeStoreFilter({ orderNumber: regex }, query.storeId)
+      )
         .select('_id')
         .lean();
       const orderIds = matchingOrders.map((o) => o._id);
@@ -52,14 +55,14 @@ export class PaymentService {
   }
 
   static async getMyPayments(userId: string) {
-    const payments = await Payment.find({ user: userId })
+    const payments = await Payment.find(mergeStoreFilter({ user: userId }))
       .sort({ createdAt: -1 })
       .populate('order', 'orderNumber total');
     return serializePayments(payments);
   }
 
   static async getById(id: string, userId?: string, isAdmin = false) {
-    const payment = await Payment.findById(id).populate(
+    const payment = await Payment.findOne(mergeStoreFilter({ _id: id })).populate(
       'order',
       'orderNumber total status'
     );
@@ -80,8 +83,8 @@ export class PaymentService {
   }
 
   static async updateStatus(id: string, status: PaymentStatus) {
-    const payment = await Payment.findByIdAndUpdate(
-      id,
+    const payment = await Payment.findOneAndUpdate(
+      mergeStoreFilter({ _id: id }),
       { status },
       { new: true, runValidators: true }
     ).populate('order', 'orderNumber total status');

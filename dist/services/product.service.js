@@ -9,12 +9,14 @@ const category_service_1 = require("./category.service");
 const pagination_1 = require("../utils/pagination");
 const productImages_1 = require("../utils/productImages");
 const serializeProduct_1 = require("../utils/serializeProduct");
+const store_context_1 = require("../context/store.context");
+const storeScope_1 = require("../utils/storeScope");
 const ensureUniqueSlug = async (base, excludeId) => {
     const root = (0, slug_1.slugify)(base) || "product";
     let attempt = 0;
     while (attempt < 100) {
         const candidate = attempt === 0 ? root : `${root}-${attempt}`;
-        const filter = { slug: candidate };
+        const filter = (0, storeScope_1.mergeStoreFilter)({ slug: candidate });
         if (excludeId)
             filter._id = { $ne: excludeId };
         const exists = await models_1.Product.findOne(filter).select("_id");
@@ -25,7 +27,7 @@ const ensureUniqueSlug = async (base, excludeId) => {
     return `${root}-${Date.now()}`;
 };
 const buildProductFilter = (query, omit = []) => {
-    const filter = {};
+    const filter = (0, storeScope_1.mergeStoreFilter)({}, query.storeId);
     if (!query.includeUnpublished) {
         filter.isPublished = { $ne: false };
     }
@@ -83,10 +85,10 @@ const prepareProductData = async (data, excludeId) => {
     }
     else if (next.slug) {
         next.slug = (0, slug_1.slugify)(String(next.slug));
-        const existing = await models_1.Product.findOne({
+        const existing = await models_1.Product.findOne((0, storeScope_1.mergeStoreFilter)({
             slug: next.slug,
             ...(excludeId ? { _id: { $ne: excludeId } } : {}),
-        });
+        }));
         if (existing) {
             next.slug = await ensureUniqueSlug(next.slug, excludeId);
         }
@@ -201,11 +203,14 @@ class ProductService {
             facets,
         };
     }
-    static async getByIdentifier(identifier, includeUnpublished = false) {
+    static async getByIdentifier(identifier, includeUnpublished = false, storeId) {
         const isObjectId = mongoose_1.Types.ObjectId.isValid(identifier);
-        const product = isObjectId
-            ? await models_1.Product.findById(identifier)
-            : await models_1.Product.findOne({ slug: identifier.toLowerCase() });
+        const baseFilter = isObjectId
+            ? { _id: identifier }
+            : { slug: identifier.toLowerCase() };
+        const product = await models_1.Product.findOne(includeUnpublished && !storeId
+            ? baseFilter
+            : (0, storeScope_1.mergeStoreFilter)(baseFilter, storeId));
         if (!product) {
             throw new ApiError_1.ApiError(404, "Product not found");
         }
@@ -219,11 +224,18 @@ class ProductService {
         if (!prepared.slug) {
             throw new ApiError_1.ApiError(400, "Slug is required");
         }
-        return models_1.Product.create(prepared);
+        const storeId = data.storeId ?? (0, store_context_1.getStoreId)();
+        if (!storeId) {
+            throw new ApiError_1.ApiError(400, "storeId is required when creating a product");
+        }
+        return models_1.Product.create((0, storeScope_1.withStoreId)(prepared, storeId));
     }
-    static async update(id, data) {
+    static async update(id, data, storeId) {
         const prepared = await prepareProductData(data, id);
-        const product = await models_1.Product.findByIdAndUpdate(id, prepared, {
+        const filter = storeId !== undefined
+            ? (0, storeScope_1.mergeStoreFilter)({ _id: id }, storeId)
+            : { _id: id };
+        const product = await models_1.Product.findOneAndUpdate(filter, prepared, {
             new: true,
             runValidators: true,
         });
@@ -232,8 +244,11 @@ class ProductService {
         }
         return product;
     }
-    static async remove(id) {
-        const product = await models_1.Product.findByIdAndDelete(id);
+    static async remove(id, storeId) {
+        const filter = storeId !== undefined
+            ? (0, storeScope_1.mergeStoreFilter)({ _id: id }, storeId)
+            : { _id: id };
+        const product = await models_1.Product.findOneAndDelete(filter);
         if (!product) {
             throw new ApiError_1.ApiError(404, "Product not found");
         }

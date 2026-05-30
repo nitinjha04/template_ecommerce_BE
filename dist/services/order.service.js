@@ -12,6 +12,7 @@ const devOrderAmount_1 = require("../utils/devOrderAmount");
 const serializeOrder_1 = require("../utils/serializeOrder");
 const paymentFinalization_service_1 = require("./paymentFinalization.service");
 const pickOrderPayment_1 = require("../utils/pickOrderPayment");
+const storeScope_1 = require("../utils/storeScope");
 const ONLINE_PAYMENT_LABEL = 'Online Payment';
 const PAYMENT_METHOD_LABELS = {
     cod: 'Cash on Delivery',
@@ -39,13 +40,13 @@ class OrderService {
         if (paymentMethodKey === 'online') {
             const normalizedEmail = input.email.trim().toLowerCase();
             const normalizedPhone = input.phone.replace(/\D/g, '');
-            const candidates = await models_1.Order.find({
+            const candidates = await models_1.Order.find((0, storeScope_1.mergeStoreFilter)({
                 status: 'Pending',
                 paymentMethod: PAYMENT_METHOD_LABELS.online,
                 total: { $gte: 0 },
                 email: normalizedEmail,
                 phone: input.phone,
-            })
+            }))
                 .sort({ createdAt: -1 })
                 .limit(25);
             const normalizeLine = (l) => ({
@@ -126,7 +127,7 @@ class OrderService {
         let total = 0;
         let itemCount = 0;
         for (const item of input.items) {
-            const product = await models_1.Product.findById(item.productId);
+            const product = await models_1.Product.findOne((0, storeScope_1.mergeStoreFilter)({ _id: item.productId }));
             if (!product) {
                 throw new ApiError_1.ApiError(404, `Product not found: ${item.productId}`);
             }
@@ -172,7 +173,7 @@ class OrderService {
         if (input.userId) {
             orderPayload.user = input.userId;
         }
-        const order = await models_1.Order.create(orderPayload);
+        const order = await models_1.Order.create((0, storeScope_1.withStoreId)(orderPayload));
         const paymentNumber = await generatePaymentNumber();
         const paymentPayload = {
             paymentNumber,
@@ -184,7 +185,7 @@ class OrderService {
         if (input.userId) {
             paymentPayload.user = input.userId;
         }
-        const payment = await models_1.Payment.create(paymentPayload);
+        const payment = await models_1.Payment.create((0, storeScope_1.withStoreId)(paymentPayload));
         if (paymentMethodKey !== 'online' && (0, env_1.isEmailEnabled)()) {
             void email_service_1.EmailService.sendOrderPlacedEmails(order).catch((err) => console.error('[email] order placed:', err));
         }
@@ -198,9 +199,9 @@ class OrderService {
     }
     static async getMyOrders(userId, email) {
         const userObjectId = new mongoose_1.Types.ObjectId(userId);
-        const filter = {
+        const filter = (0, storeScope_1.mergeStoreFilter)({
             $or: [{ user: userObjectId }],
-        };
+        });
         if (email?.trim()) {
             const normalizedEmail = email.toLowerCase().trim();
             filter.$or.push({ user: { $exists: false }, email: normalizedEmail }, { user: null, email: normalizedEmail });
@@ -250,11 +251,11 @@ class OrderService {
         return orders.map((o) => (0, serializeOrder_1.serializeLeanOrder)(o, latestPaymentByOrder.get(String(o._id))));
     }
     static async getAllOrders() {
-        return models_1.Order.find().sort({ createdAt: -1, _id: -1 });
+        return models_1.Order.find((0, storeScope_1.mergeStoreFilter)()).sort({ createdAt: -1, _id: -1 });
     }
     static async getAllAdmin(query) {
         const { page, limit, skip } = (0, pagination_1.parsePagination)(query);
-        const filter = {};
+        const filter = (0, storeScope_1.mergeStoreFilter)({}, query.storeId);
         if (query.status && query.status !== 'All') {
             filter.status = query.status;
         }
@@ -277,7 +278,7 @@ class OrderService {
         };
     }
     static async getById(id, userId, isAdmin = false) {
-        const order = await models_1.Order.findById(id);
+        const order = await models_1.Order.findOne((0, storeScope_1.mergeStoreFilter)({ _id: id }));
         if (!order) {
             throw new ApiError_1.ApiError(404, 'Order not found');
         }
@@ -308,7 +309,7 @@ class OrderService {
         else if (!q.includes('@')) {
             orConditions.push({ phone: { $regex: q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') } });
         }
-        const orders = await models_1.Order.find({ $or: orConditions })
+        const orders = await models_1.Order.find((0, storeScope_1.mergeStoreFilter)({ $or: orConditions }))
             .sort({ createdAt: -1, _id: -1 })
             .limit(20)
             .lean();
@@ -336,12 +337,12 @@ class OrderService {
         return serialized;
     }
     static async updateStatus(id, status) {
-        const existing = await models_1.Order.findById(id);
+        const existing = await models_1.Order.findOne((0, storeScope_1.mergeStoreFilter)({ _id: id }));
         if (!existing) {
             throw new ApiError_1.ApiError(404, 'Order not found');
         }
         const previousStatus = existing.status;
-        const order = await models_1.Order.findByIdAndUpdate(id, { status }, { new: true, runValidators: true });
+        const order = await models_1.Order.findOneAndUpdate((0, storeScope_1.mergeStoreFilter)({ _id: id }), { status }, { new: true, runValidators: true });
         if (!order) {
             throw new ApiError_1.ApiError(404, 'Order not found');
         }
@@ -357,7 +358,7 @@ class OrderService {
         return order;
     }
     static async exportCsv() {
-        const orders = await models_1.Order.find().sort({ createdAt: -1 }).lean();
+        const orders = await models_1.Order.find((0, storeScope_1.mergeStoreFilter)()).sort({ createdAt: -1 }).lean();
         const escape = (val) => {
             const str = String(val ?? '');
             if (str.includes(',') || str.includes('"') || str.includes('\n')) {

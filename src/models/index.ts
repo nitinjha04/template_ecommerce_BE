@@ -1,3 +1,4 @@
+export { Store, IStore } from './Store.model';
 export { User, IUser } from './User.model';
 export { Product, IProduct } from './Product.model';
 export { Category, ICategory } from './Category.model';

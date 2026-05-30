@@ -27,8 +27,16 @@ export interface JwtPayload {
   role: UserRole;
 }
 
+export interface StoreRequestContext {
+  id: string;
+  slug: string;
+  domain: string;
+  name: string;
+}
+
 export interface AuthRequest extends Request {
   user?: JwtPayload;
+  store?: StoreRequestContext;
 }
 
 export interface PaginationQuery {

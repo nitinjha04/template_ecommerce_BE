@@ -11,12 +11,18 @@ import dashboardRoutes from './dashboard.routes';
 import pincodeRoutes from './pincode.routes';
 import wishlistRoutes from './wishlist.routes';
 import cartRoutes from './cart.routes';
+import storeRoutes from './store.routes';
+import { resolveStore } from '../middleware/store.middleware';
 
 const router = Router();
 
 router.get('/health', (_req, res) => {
   res.json({ success: true, message: 'Casaq API is running' });
 });
+
+router.use('/stores', storeRoutes);
+
+router.use(resolveStore);
 
 router.use('/auth', authRoutes);
 router.use('/products', productRoutes);

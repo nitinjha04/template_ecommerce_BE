@@ -22,6 +22,7 @@ import {
   groupPaymentsByOrder,
   pickBestPaymentForOrder,
 } from '../utils/pickOrderPayment';
+import { mergeStoreFilter, withStoreId } from '../utils/storeScope';
 
 const ONLINE_PAYMENT_LABEL = 'Online Payment';
 
@@ -74,13 +75,15 @@ export class OrderService {
       const normalizedEmail = input.email.trim().toLowerCase();
       const normalizedPhone = input.phone.replace(/\D/g, '');
 
-      const candidates = await Order.find({
-        status: 'Pending',
-        paymentMethod: PAYMENT_METHOD_LABELS.online,
-        total: { $gte: 0 },
-        email: normalizedEmail,
-        phone: input.phone,
-      })
+      const candidates = await Order.find(
+        mergeStoreFilter({
+          status: 'Pending',
+          paymentMethod: PAYMENT_METHOD_LABELS.online,
+          total: { $gte: 0 },
+          email: normalizedEmail,
+          phone: input.phone,
+        })
+      )
         .sort({ createdAt: -1 })
         .limit(25);
 
@@ -177,7 +180,9 @@ export class OrderService {
     let itemCount = 0;
 
     for (const item of input.items) {
-      const product = await Product.findById(item.productId);
+      const product = await Product.findOne(
+        mergeStoreFilter({ _id: item.productId })
+      );
       if (!product) {
         throw new ApiError(404, `Product not found: ${item.productId}`);
       }
@@ -230,7 +235,7 @@ export class OrderService {
     if (input.userId) {
       orderPayload.user = input.userId;
     }
-    const order = await Order.create(orderPayload);
+    const order = await Order.create(withStoreId(orderPayload));
 
     const paymentNumber = await generatePaymentNumber();
     const paymentPayload: Record<string, unknown> = {
@@ -243,7 +248,7 @@ export class OrderService {
     if (input.userId) {
       paymentPayload.user = input.userId;
     }
-    const payment = await Payment.create(paymentPayload);
+    const payment = await Payment.create(withStoreId(paymentPayload));
 
     if (paymentMethodKey !== 'online' && isEmailEnabled()) {
       void EmailService.sendOrderPlacedEmails(order as IOrder).catch((err) =>
@@ -263,9 +268,9 @@ export class OrderService {
 
   static async getMyOrders(userId: string, email?: string) {
     const userObjectId = new Types.ObjectId(userId);
-    const filter: FilterQuery<IOrder> = {
+    const filter: FilterQuery<IOrder> = mergeStoreFilter({
       $or: [{ user: userObjectId }],
-    };
+    });
 
     if (email?.trim()) {
       const normalizedEmail = email.toLowerCase().trim();
@@ -334,14 +339,14 @@ export class OrderService {
   }
 
   static async getAllOrders() {
-    return Order.find().sort({ createdAt: -1, _id: -1 });
+    return Order.find(mergeStoreFilter()).sort({ createdAt: -1, _id: -1 });
   }
 
   static async getAllAdmin(
     query: AdminListQuery
   ): Promise<PaginatedResult<IOrder>> {
     const { page, limit, skip } = parsePagination(query);
-    const filter: FilterQuery<IOrder> = {};
+    const filter: FilterQuery<IOrder> = mergeStoreFilter({}, query.storeId);
 
     if (query.status && query.status !== 'All') {
       filter.status = query.status as OrderStatus;
@@ -369,7 +374,7 @@ export class OrderService {
   }
 
   static async getById(id: string, userId?: string, isAdmin = false) {
-    const order = await Order.findById(id);
+    const order = await Order.findOne(mergeStoreFilter({ _id: id }));
     if (!order) {
       throw new ApiError(404, 'Order not found');
     }
@@ -406,7 +411,7 @@ export class OrderService {
       orConditions.push({ phone: { $regex: q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') } });
     }
 
-    const orders = await Order.find({ $or: orConditions })
+    const orders = await Order.find(mergeStoreFilter({ $or: orConditions }))
       .sort({ createdAt: -1, _id: -1 })
       .limit(20)
       .lean<IOrder[]>();
@@ -445,15 +450,15 @@ export class OrderService {
   }
 
   static async updateStatus(id: string, status: OrderStatus) {
-    const existing = await Order.findById(id);
+    const existing = await Order.findOne(mergeStoreFilter({ _id: id }));
     if (!existing) {
       throw new ApiError(404, 'Order not found');
     }
 
     const previousStatus = existing.status;
 
-    const order = await Order.findByIdAndUpdate(
-      id,
+    const order = await Order.findOneAndUpdate(
+      mergeStoreFilter({ _id: id }),
       { status },
       { new: true, runValidators: true }
     );
@@ -479,7 +484,7 @@ export class OrderService {
   }
 
   static async exportCsv(): Promise<string> {
-    const orders = await Order.find().sort({ createdAt: -1 }).lean();
+    const orders = await Order.find(mergeStoreFilter()).sort({ createdAt: -1 }).lean();
 
     const escape = (val: unknown) => {
       const str = String(val ?? '');

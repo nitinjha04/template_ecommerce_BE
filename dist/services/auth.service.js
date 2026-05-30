@@ -10,6 +10,7 @@ const ApiError_1 = require("../utils/ApiError");
 const jwt_1 = require("../utils/jwt");
 const env_1 = require("../config/env");
 const email_service_1 = require("./email.service");
+const storeScope_1 = require("../utils/storeScope");
 const OTP_TTL_MS = 10 * 60 * 1000;
 const RESET_VERIFIED_TTL_MS = 15 * 60 * 1000;
 const formatAuthResponse = (user, token) => ({
@@ -65,7 +66,7 @@ const assignResetOtp = async (user) => {
 class AuthService {
     static async signup(input) {
         const email = normalizeEmail(input.email);
-        const existing = await models_1.User.findOne({ email }).select("+signupOtpHash +signupOtpExpires");
+        const existing = await models_1.User.findOne((0, storeScope_1.mergeStoreFilter)({ email })).select("+signupOtpHash +signupOtpExpires");
         // If user is already onboarded/verified, block re-signup.
         // If onboarding is incomplete (state 0), allow updating password + resending OTP.
         if (existing && (existing.onBoardState ?? 0) > 0) {
@@ -81,14 +82,14 @@ class AuthService {
             await user.save();
         }
         else {
-            user = await models_1.User.create({
+            user = await models_1.User.create((0, storeScope_1.withStoreId)({
                 name: input.name.trim(),
                 email,
                 password: input.password,
                 role: "customer",
                 emailVerified: false,
                 onBoardState: 0,
-            });
+            }));
         }
         await assignSignupOtp(user);
         return {
@@ -98,7 +99,7 @@ class AuthService {
     }
     static async verifySignupOtp(email, otp) {
         const normalizedEmail = normalizeEmail(email);
-        const user = await models_1.User.findOne({ email: normalizedEmail }).select("+signupOtpHash +signupOtpExpires");
+        const user = await models_1.User.findOne((0, storeScope_1.mergeStoreFilter)({ email: normalizedEmail })).select("+signupOtpHash +signupOtpExpires");
         if (!user) {
             throw new ApiError_1.ApiError(400, "Invalid or expired verification code");
         }
@@ -129,7 +130,7 @@ class AuthService {
     }
     static async resendSignupOtp(email) {
         const normalizedEmail = normalizeEmail(email);
-        const user = await models_1.User.findOne({ email: normalizedEmail });
+        const user = await models_1.User.findOne((0, storeScope_1.mergeStoreFilter)({ email: normalizedEmail }));
         const message = "If an account exists, a verification code has been sent.";
         if (!user || user.emailVerified || (user.onBoardState ?? 0) > 0) {
             return { message };
@@ -138,9 +139,7 @@ class AuthService {
         return { message, email: user.email };
     }
     static async login(input) {
-        const user = await models_1.User.findOne({
-            email: normalizeEmail(input.email),
-        }).select("+password");
+        const user = await models_1.User.findOne((0, storeScope_1.mergeStoreFilter)({ email: normalizeEmail(input.email) })).select("+password");
         if (!user) {
             throw new ApiError_1.ApiError(401, "Invalid email or password");
         }
@@ -180,7 +179,7 @@ class AuthService {
     static async forgotPassword(email) {
         const normalizedEmail = normalizeEmail(email);
         console.log("[forgot-password] Looking up user:", { normalizedEmail });
-        const user = await models_1.User.findOne({ email: normalizedEmail });
+        const user = await models_1.User.findOne((0, storeScope_1.mergeStoreFilter)({ email: normalizedEmail }));
         const message = "If that email exists, a verification code has been sent.";
         if (!user) {
             console.log("[forgot-password] No user for email (generic response):", {
@@ -197,7 +196,7 @@ class AuthService {
     }
     static async verifyForgotPasswordOtp(email, otp) {
         const normalizedEmail = normalizeEmail(email);
-        const user = await models_1.User.findOne({ email: normalizedEmail }).select("+resetOtpHash +resetOtpExpires");
+        const user = await models_1.User.findOne((0, storeScope_1.mergeStoreFilter)({ email: normalizedEmail })).select("+resetOtpHash +resetOtpExpires");
         if (!user?.resetOtpHash || !user.resetOtpExpires) {
             throw new ApiError_1.ApiError(400, "Invalid or expired verification code");
         }
@@ -218,7 +217,7 @@ class AuthService {
     }
     static async resetPassword(email, password) {
         const normalizedEmail = normalizeEmail(email);
-        const user = await models_1.User.findOne({ email: normalizedEmail }).select("+password +resetOtpVerifiedAt");
+        const user = await models_1.User.findOne((0, storeScope_1.mergeStoreFilter)({ email: normalizedEmail })).select("+password +resetOtpVerifiedAt");
         if (!user?.resetOtpVerifiedAt) {
             throw new ApiError_1.ApiError(400, "Please verify your email code first");
         }

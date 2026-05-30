@@ -6,6 +6,8 @@ import { CategoryService } from "./category.service";
 import { applySearchOr } from "../utils/pagination";
 import { normalizeProductImages } from "../utils/productImages";
 import { serializeProducts } from "../utils/serializeProduct";
+import { getStoreId } from "../context/store.context";
+import { mergeStoreFilter, withStoreId } from "../utils/storeScope";
 
 const ensureUniqueSlug = async (
   base: string,
@@ -15,7 +17,7 @@ const ensureUniqueSlug = async (
   let attempt = 0;
   while (attempt < 100) {
     const candidate = attempt === 0 ? root : `${root}-${attempt}`;
-    const filter: FilterQuery<IProduct> = { slug: candidate };
+    const filter: FilterQuery<IProduct> = mergeStoreFilter({ slug: candidate });
     if (excludeId) filter._id = { $ne: excludeId };
     const exists = await Product.findOne(filter).select("_id");
     if (!exists) return candidate;
@@ -38,6 +40,8 @@ export interface ProductQuery {
   subcategories?: string[];
   /** When true, draft/unpublished products are included (admin only). */
   includeUnpublished?: boolean;
+  /** Admin: filter by store; omit for all stores. */
+  storeId?: string;
 }
 
 export interface ProductFacets {
@@ -52,7 +56,7 @@ const buildProductFilter = (
   query: ProductQuery,
   omit: FacetOmit[] = [],
 ): FilterQuery<IProduct> => {
-  const filter: FilterQuery<IProduct> = {};
+  const filter: FilterQuery<IProduct> = mergeStoreFilter({}, query.storeId);
 
   if (!query.includeUnpublished) {
     filter.isPublished = { $ne: false };
@@ -157,10 +161,12 @@ const prepareProductData = async (
     next.slug = await ensureUniqueSlug(next.name, excludeId);
   } else if (next.slug) {
     next.slug = slugify(String(next.slug));
-    const existing = await Product.findOne({
-      slug: next.slug,
-      ...(excludeId ? { _id: { $ne: excludeId } } : {}),
-    });
+    const existing = await Product.findOne(
+      mergeStoreFilter({
+        slug: next.slug,
+        ...(excludeId ? { _id: { $ne: excludeId } } : {}),
+      })
+    );
     if (existing) {
       next.slug = await ensureUniqueSlug(next.slug, excludeId);
     }
@@ -293,11 +299,17 @@ export class ProductService {
   static async getByIdentifier(
     identifier: string,
     includeUnpublished = false,
+    storeId?: string
   ) {
     const isObjectId = Types.ObjectId.isValid(identifier);
-    const product = isObjectId
-      ? await Product.findById(identifier)
-      : await Product.findOne({ slug: identifier.toLowerCase() });
+    const baseFilter = isObjectId
+      ? { _id: identifier }
+      : { slug: identifier.toLowerCase() };
+    const product = await Product.findOne(
+      includeUnpublished && !storeId
+        ? baseFilter
+        : mergeStoreFilter(baseFilter, storeId)
+    );
 
     if (!product) {
       throw new ApiError(404, "Product not found");
@@ -310,17 +322,27 @@ export class ProductService {
     return product;
   }
 
-  static async create(data: ProductInput) {
+  static async create(data: ProductInput & { storeId?: string }) {
     const prepared = await prepareProductData(data);
     if (!prepared.slug) {
       throw new ApiError(400, "Slug is required");
     }
-    return Product.create(prepared);
+    const storeId = data.storeId ?? getStoreId();
+    if (!storeId) {
+      throw new ApiError(400, "storeId is required when creating a product");
+    }
+    return Product.create(
+      withStoreId(prepared as Record<string, unknown>, storeId)
+    );
   }
 
-  static async update(id: string, data: ProductInput) {
+  static async update(id: string, data: ProductInput, storeId?: string) {
     const prepared = await prepareProductData(data, id);
-    const product = await Product.findByIdAndUpdate(id, prepared, {
+    const filter =
+      storeId !== undefined
+        ? mergeStoreFilter({ _id: id }, storeId)
+        : { _id: id };
+    const product = await Product.findOneAndUpdate(filter, prepared, {
       new: true,
       runValidators: true,
     });
@@ -330,8 +352,12 @@ export class ProductService {
     return product;
   }
 
-  static async remove(id: string) {
-    const product = await Product.findByIdAndDelete(id);
+  static async remove(id: string, storeId?: string) {
+    const filter =
+      storeId !== undefined
+        ? mergeStoreFilter({ _id: id }, storeId)
+        : { _id: id };
+    const product = await Product.findOneAndDelete(filter);
     if (!product) {
       throw new ApiError(404, "Product not found");
     }

@@ -9,6 +9,8 @@ const dsaGatewayPayment_service_1 = require("../services/dsaGatewayPayment.servi
 const env_1 = require("../config/env");
 const ApiError_1 = require("../utils/ApiError");
 const models_1 = require("../models");
+const storeScope_1 = require("../utils/storeScope");
+const adminStoreQuery_1 = require("../utils/adminStoreQuery");
 class PaymentController {
     static getAll = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
         const { page, limit, search, status } = req.query;
@@ -17,6 +19,7 @@ class PaymentController {
             limit: limit ? Number(limit) : undefined,
             search: search,
             status: status,
+            storeId: (0, adminStoreQuery_1.pickStoreIdFromQuery)(req.query.storeId),
         });
         ApiResponse_1.ApiResponse.success(res, result.items, 'Payments fetched', 200, result.pagination);
     });
@@ -51,7 +54,7 @@ class PaymentController {
             if (!vpa) {
                 throw new ApiError_1.ApiError(500, 'Direct UPI is not configured');
             }
-            const order = await models_1.Order.findOne({ orderNumber: orderNumber.trim() });
+            const order = await models_1.Order.findOne((0, storeScope_1.mergeStoreFilter)({ orderNumber: orderNumber.trim() }));
             if (!order)
                 throw new ApiError_1.ApiError(404, 'Order not found');
             // Optional guest safety check (match on email/phone if provided)

@@ -2,6 +2,7 @@ import { Types } from 'mongoose';
 import { Product, User } from '../models';
 import { ApiError } from '../utils/ApiError';
 import { serializeProducts } from '../utils/serializeProduct';
+import { mergeStoreFilter } from '../utils/storeScope';
 
 export class WishlistService {
   static async list(userId: string) {
@@ -14,10 +15,12 @@ export class WishlistService {
       return [];
     }
 
-    const products = await Product.find({
-      _id: { $in: user.wishlist },
-      isPublished: { $ne: false },
-    });
+    const products = await Product.find(
+      mergeStoreFilter({
+        _id: { $in: user.wishlist },
+        isPublished: { $ne: false },
+      })
+    );
 
     const order = new Map(
       user.wishlist.map((id, index) => [id.toString(), index])
@@ -36,7 +39,7 @@ export class WishlistService {
       throw new ApiError(400, 'Invalid product id');
     }
 
-    const product = await Product.findById(productId);
+    const product = await Product.findOne(mergeStoreFilter({ _id: productId }));
     if (!product || product.isPublished === false) {
       throw new ApiError(404, 'Product not found');
     }

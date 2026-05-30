@@ -20,6 +20,7 @@ import {
   saveOrderPaymentOnGatewaySuccess,
 } from "./orderPaymentPersistence";
 import { runPaymentSuccessSideEffects } from "./paymentSideEffects";
+import { mergeStoreFilter } from "../utils/storeScope";
 
 type GatewayCreateResult = {
   paymentUrl: string;
@@ -60,7 +61,9 @@ export class DsaGatewayPaymentService {
     }
 
     this.log("createForOrder:start", { orderNumber: input.orderNumber });
-    const order = await Order.findOne({ orderNumber: input.orderNumber });
+    const order = await Order.findOne(
+      mergeStoreFilter({ orderNumber: input.orderNumber })
+    );
     if (!order) throw new ApiError(404, "Order not found");
 
     // Basic guest safety check: if caller sends email/phone, require match.

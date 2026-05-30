@@ -65,6 +65,9 @@ export const env = {
   },
   frontendUrl:
     process.env.FRONTEND_URL?.split(",")[0]?.trim() || "http://localhost:5173",
+  /** Hostname used when Origin is localhost or missing (multi-store). */
+  defaultStoreDomain:
+    (process.env.DEFAULT_STORE_DOMAIN ?? "dulhaniya.vercel.app").trim().toLowerCase(),
 };
 
 const isPlaceholder = (value: string): boolean =>

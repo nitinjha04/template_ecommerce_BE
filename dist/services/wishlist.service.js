@@ -5,6 +5,7 @@ const mongoose_1 = require("mongoose");
 const models_1 = require("../models");
 const ApiError_1 = require("../utils/ApiError");
 const serializeProduct_1 = require("../utils/serializeProduct");
+const storeScope_1 = require("../utils/storeScope");
 class WishlistService {
     static async list(userId) {
         const user = await models_1.User.findById(userId).select('wishlist');
@@ -14,10 +15,10 @@ class WishlistService {
         if (!user.wishlist.length) {
             return [];
         }
-        const products = await models_1.Product.find({
+        const products = await models_1.Product.find((0, storeScope_1.mergeStoreFilter)({
             _id: { $in: user.wishlist },
             isPublished: { $ne: false },
-        });
+        }));
         const order = new Map(user.wishlist.map((id, index) => [id.toString(), index]));
         products.sort((a, b) => (order.get(a._id.toString()) ?? 0) - (order.get(b._id.toString()) ?? 0));
         return (0, serializeProduct_1.serializeProducts)(products);
@@ -26,7 +27,7 @@ class WishlistService {
         if (!mongoose_1.Types.ObjectId.isValid(productId)) {
             throw new ApiError_1.ApiError(400, 'Invalid product id');
         }
-        const product = await models_1.Product.findById(productId);
+        const product = await models_1.Product.findOne((0, storeScope_1.mergeStoreFilter)({ _id: productId }));
         if (!product || product.isPublished === false) {
             throw new ApiError_1.ApiError(404, 'Product not found');
         }

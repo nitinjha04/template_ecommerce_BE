@@ -1,5 +1,6 @@
-import mongoose, { Document, Schema } from 'mongoose';
+import mongoose, { Document, Schema, Types } from 'mongoose';
 export interface IProduct extends Document {
+  store: Types.ObjectId;
   name: string;
   slug: string;
   price: number;
@@ -36,6 +37,12 @@ export interface IProduct extends Document {
 
 const productSchema = new Schema<IProduct>(
   {
+    store: {
+      type: Schema.Types.ObjectId,
+      ref: 'Store',
+      required: true,
+      index: true,
+    },
     name: {
       type: String,
       required: [true, 'Product name is required'],
@@ -44,7 +51,6 @@ const productSchema = new Schema<IProduct>(
     slug: {
       type: String,
       required: true,
-      unique: true,
       lowercase: true,
       trim: true,
       index: true,
@@ -143,7 +149,8 @@ const productSchema = new Schema<IProduct>(
   }
 );
 
-productSchema.index({ category: 1, featured: 1 });
+productSchema.index({ store: 1, slug: 1 }, { unique: true });
+productSchema.index({ store: 1, category: 1, featured: 1 });
 productSchema.index({ name: 'text', description: 'text', tags: 'text', slug: 'text' });
 
 export const Product = mongoose.model<IProduct>('Product', productSchema);

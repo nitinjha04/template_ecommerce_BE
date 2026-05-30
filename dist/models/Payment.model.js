@@ -44,6 +44,12 @@ const PAYMENT_PROVIDERS = [
     'direct_upi',
 ];
 const paymentSchema = new mongoose_1.Schema({
+    store: {
+        type: mongoose_1.Schema.Types.ObjectId,
+        ref: 'Store',
+        required: true,
+        index: true,
+    },
     paymentNumber: {
         type: String,
         unique: true,

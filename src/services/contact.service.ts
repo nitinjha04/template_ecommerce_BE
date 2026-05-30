@@ -9,6 +9,7 @@ import {
   searchRegex,
 } from '../utils/pagination';
 import { AdminListQuery } from '../types/adminList';
+import { mergeStoreFilter, withStoreId } from '../utils/storeScope';
 
 interface CreateContactInput {
   name: string;
@@ -19,14 +20,14 @@ interface CreateContactInput {
 
 export class ContactService {
   static async create(input: CreateContactInput) {
-    return Contact.create(input);
+    return Contact.create(withStoreId({ ...input }));
   }
 
   static async getAllAdmin(
     query: AdminListQuery
   ): Promise<PaginatedResult<IContact>> {
     const { page, limit, skip } = parsePagination(query);
-    const filter: FilterQuery<IContact> = {};
+    const filter: FilterQuery<IContact> = mergeStoreFilter({}, query.storeId);
     const regex = searchRegex(query.search ?? '');
     if (regex) {
       filter.$or = [
@@ -49,7 +50,7 @@ export class ContactService {
   }
 
   static async getById(id: string) {
-    const message = await Contact.findById(id);
+    const message = await Contact.findOne(mergeStoreFilter({ _id: id }));
     if (!message) {
       throw new ApiError(404, 'Message not found');
     }
@@ -57,8 +58,8 @@ export class ContactService {
   }
 
   static async markAsRead(id: string, read = true) {
-    const message = await Contact.findByIdAndUpdate(
-      id,
+    const message = await Contact.findOneAndUpdate(
+      mergeStoreFilter({ _id: id }),
       { read },
       { new: true }
     );
@@ -69,7 +70,7 @@ export class ContactService {
   }
 
   static async remove(id: string) {
-    const message = await Contact.findByIdAndDelete(id);
+    const message = await Contact.findOneAndDelete(mergeStoreFilter({ _id: id }));
     if (!message) {
       throw new ApiError(404, 'Message not found');
     }

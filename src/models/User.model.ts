@@ -3,6 +3,7 @@ import bcrypt from 'bcryptjs';
 import { UserRole } from '../types';
 
 export interface IUser extends Document {
+  store: Types.ObjectId;
   name: string;
   email: string;
   password: string;
@@ -31,6 +32,12 @@ export interface IUser extends Document {
 
 const userSchema = new Schema<IUser>(
   {
+    store: {
+      type: Schema.Types.ObjectId,
+      ref: 'Store',
+      required: true,
+      index: true,
+    },
     name: {
       type: String,
       required: [true, 'Name is required'],
@@ -40,7 +47,6 @@ const userSchema = new Schema<IUser>(
     email: {
       type: String,
       required: [true, 'Email is required'],
-      unique: true,
       lowercase: true,
       trim: true,
     },
@@ -95,6 +101,8 @@ const userSchema = new Schema<IUser>(
     },
   }
 );
+
+userSchema.index({ store: 1, email: 1 }, { unique: true });
 
 userSchema.pre('save', async function (next) {
   if (!this.isModified('password')) return next();

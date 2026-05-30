@@ -5,6 +5,7 @@ import { asyncHandler } from '../utils/asyncHandler';
 import { getParamId } from '../utils/params';
 import { ApiResponse } from '../views/ApiResponse';
 import { shouldIncludeUnpublished } from '../utils/optionalAdmin';
+import { pickStoreIdFromQuery } from '../utils/adminStoreQuery';
 
 const parseCsvQuery = (value: unknown): string[] | undefined => {
   if (typeof value !== 'string' || !value.trim()) return undefined;
@@ -29,11 +30,15 @@ export class ProductController {
     } = req.query;
 
     const includeUnpublished = shouldIncludeUnpublished(req);
+    const storeId = includeUnpublished
+      ? pickStoreIdFromQuery(req.query.storeId)
+      : undefined;
 
     const result = await ProductService.getAll({
       page: page ? Number(page) : undefined,
       limit: limit ? Number(limit) : undefined,
       includeUnpublished,
+      storeId,
       featured: featured === 'true' ? true : featured === 'false' ? false : undefined,
       inStock: inStock === 'true' ? true : inStock === 'false' ? false : undefined,
       search: search as string | undefined,
@@ -58,9 +63,14 @@ export class ProductController {
   });
 
   static getById = asyncHandler(async (req: Request, res: Response) => {
+    const includeUnpublished = shouldIncludeUnpublished(req);
+    const storeId = includeUnpublished
+      ? pickStoreIdFromQuery(req.query.storeId)
+      : undefined;
     const product = await ProductService.getByIdentifier(
       getParamId(req),
-      shouldIncludeUnpublished(req),
+      includeUnpublished,
+      storeId
     );
     ApiResponse.success(res, product);
   });
@@ -71,12 +81,24 @@ export class ProductController {
   });
 
   static update = asyncHandler(async (req: Request, res: Response) => {
-    const product = await ProductService.update(getParamId(req), req.body);
+    const includeUnpublished = shouldIncludeUnpublished(req);
+    const storeId = includeUnpublished
+      ? pickStoreIdFromQuery(req.query.storeId)
+      : undefined;
+    const product = await ProductService.update(
+      getParamId(req),
+      req.body,
+      storeId
+    );
     ApiResponse.success(res, product, 'Product updated');
   });
 
   static remove = asyncHandler(async (req: Request, res: Response) => {
-    await ProductService.remove(getParamId(req));
+    const includeUnpublished = shouldIncludeUnpublished(req);
+    const storeId = includeUnpublished
+      ? pickStoreIdFromQuery(req.query.storeId)
+      : undefined;
+    await ProductService.remove(getParamId(req), storeId);
     ApiResponse.success(res, null, 'Product deleted');
   });
 }

@@ -16,10 +16,14 @@ const dashboard_routes_1 = __importDefault(require("./dashboard.routes"));
 const pincode_routes_1 = __importDefault(require("./pincode.routes"));
 const wishlist_routes_1 = __importDefault(require("./wishlist.routes"));
 const cart_routes_1 = __importDefault(require("./cart.routes"));
+const store_routes_1 = __importDefault(require("./store.routes"));
+const store_middleware_1 = require("../middleware/store.middleware");
 const router = (0, express_1.Router)();
 router.get('/health', (_req, res) => {
     res.json({ success: true, message: 'Casaq API is running' });
 });
+router.use('/stores', store_routes_1.default);
+router.use(store_middleware_1.resolveStore);
 router.use('/auth', auth_routes_1.default);
 router.use('/products', product_routes_1.default);
 router.use('/categories', category_routes_1.default);

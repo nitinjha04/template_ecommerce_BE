@@ -1,6 +1,7 @@
 import { Category, ICategory, Product } from '../models';
 import { ApiError } from '../utils/ApiError';
 import { slugify } from '../utils/slug';
+import { mergeStoreFilter, withStoreId } from '../utils/storeScope';
 
 const ensureUniqueSlug = async (
   base: string,
@@ -10,7 +11,7 @@ const ensureUniqueSlug = async (
   let attempt = 0;
   while (attempt < 100) {
     const candidate = attempt === 0 ? root : `${root}-${attempt}`;
-    const filter: Record<string, unknown> = { slug: candidate };
+    const filter = mergeStoreFilter({ slug: candidate });
     if (excludeId) filter._id = { $ne: excludeId };
     const exists = await Category.findOne(filter).select('_id').lean();
     if (!exists) return candidate;
@@ -21,14 +22,14 @@ const ensureUniqueSlug = async (
 
 export class CategoryService {
   static async listActive(): Promise<ICategory[]> {
-    return Category.find({ isActive: { $ne: false } })
+    return Category.find(mergeStoreFilter({ isActive: { $ne: false } }))
       .select('name slug sortOrder isActive')
       .sort({ sortOrder: 1, name: 1 })
       .lean<ICategory[]>();
   }
 
   static async listAll(): Promise<ICategory[]> {
-    return Category.find()
+    return Category.find(mergeStoreFilter())
       .select('name slug sortOrder isActive')
       .sort({ sortOrder: 1, name: 1 })
       .lean<ICategory[]>();
@@ -44,27 +45,36 @@ export class CategoryService {
       throw new ApiError(400, 'Category name is required');
     }
 
-    const existing = await Category.findOne({
-      name: { $regex: new RegExp(`^${name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`, 'i') },
-    });
+    const existing = await Category.findOne(
+      mergeStoreFilter({
+        name: {
+          $regex: new RegExp(
+            `^${name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`,
+            'i'
+          ),
+        },
+      })
+    );
     if (existing) {
       throw new ApiError(409, 'Category already exists');
     }
 
     const slug = await ensureUniqueSlug(name);
-    return Category.create({
-      name,
-      slug,
-      sortOrder: data.sortOrder ?? 0,
-      isActive: data.isActive ?? true,
-    });
+    return Category.create(
+      withStoreId({
+        name,
+        slug,
+        sortOrder: data.sortOrder ?? 0,
+        isActive: data.isActive ?? true,
+      })
+    );
   }
 
   static async update(
     id: string,
     data: Partial<{ name: string; sortOrder: number; isActive: boolean }>
   ): Promise<ICategory> {
-    const category = await Category.findById(id);
+    const category = await Category.findOne(mergeStoreFilter({ _id: id }));
     if (!category) {
       throw new ApiError(404, 'Category not found');
     }
@@ -74,10 +84,17 @@ export class CategoryService {
       if (!name) {
         throw new ApiError(400, 'Category name is required');
       }
-      const duplicate = await Category.findOne({
-        _id: { $ne: id },
-        name: { $regex: new RegExp(`^${name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`, 'i') },
-      });
+      const duplicate = await Category.findOne(
+        mergeStoreFilter({
+          _id: { $ne: id },
+          name: {
+            $regex: new RegExp(
+              `^${name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`,
+              'i'
+            ),
+          },
+        })
+      );
       if (duplicate) {
         throw new ApiError(409, 'Category name already in use');
       }
@@ -87,7 +104,10 @@ export class CategoryService {
       category.slug = await ensureUniqueSlug(name, id);
 
       if (oldName !== name) {
-        await Product.updateMany({ category: oldName }, { $set: { category: name } });
+        await Product.updateMany(
+          mergeStoreFilter({ category: oldName }),
+          { $set: { category: name } }
+        );
       }
     }
 
@@ -99,12 +119,14 @@ export class CategoryService {
   }
 
   static async remove(id: string): Promise<void> {
-    const category = await Category.findById(id);
+    const category = await Category.findOne(mergeStoreFilter({ _id: id }));
     if (!category) {
       throw new ApiError(404, 'Category not found');
     }
 
-    const productCount = await Product.countDocuments({ category: category.name });
+    const productCount = await Product.countDocuments(
+      mergeStoreFilter({ category: category.name })
+    );
     if (productCount > 0) {
       throw new ApiError(
         400,
@@ -112,7 +134,7 @@ export class CategoryService {
       );
     }
 
-    await Category.findByIdAndDelete(id);
+    await Category.findOneAndDelete(mergeStoreFilter({ _id: id }));
   }
 
   /** Ensures category exists when saving a product (by display name). */
@@ -122,9 +144,16 @@ export class CategoryService {
       throw new ApiError(400, 'Category is required');
     }
 
-    const existing = await Category.findOne({
-      name: { $regex: new RegExp(`^${trimmed.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`, 'i') },
-    }).lean();
+    const existing = await Category.findOne(
+      mergeStoreFilter({
+        name: {
+          $regex: new RegExp(
+            `^${trimmed.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`,
+            'i'
+          ),
+        },
+      })
+    ).lean();
 
     if (!existing) {
       const created = await CategoryService.create({ name: trimmed });

@@ -36,6 +36,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.Product = void 0;
 const mongoose_1 = __importStar(require("mongoose"));
 const productSchema = new mongoose_1.Schema({
+    store: {
+        type: mongoose_1.Schema.Types.ObjectId,
+        ref: 'Store',
+        required: true,
+        index: true,
+    },
     name: {
         type: String,
         required: [true, 'Product name is required'],
@@ -44,7 +50,6 @@ const productSchema = new mongoose_1.Schema({
     slug: {
         type: String,
         required: true,
-        unique: true,
         lowercase: true,
         trim: true,
         index: true,
@@ -140,6 +145,7 @@ const productSchema = new mongoose_1.Schema({
         },
     },
 });
-productSchema.index({ category: 1, featured: 1 });
+productSchema.index({ store: 1, slug: 1 }, { unique: true });
+productSchema.index({ store: 1, category: 1, featured: 1 });
 productSchema.index({ name: 'text', description: 'text', tags: 'text', slug: 'text' });
 exports.Product = mongoose_1.default.model('Product', productSchema);

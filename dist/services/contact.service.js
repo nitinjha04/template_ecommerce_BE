@@ -4,13 +4,14 @@ exports.ContactService = void 0;
 const models_1 = require("../models");
 const ApiError_1 = require("../utils/ApiError");
 const pagination_1 = require("../utils/pagination");
+const storeScope_1 = require("../utils/storeScope");
 class ContactService {
     static async create(input) {
-        return models_1.Contact.create(input);
+        return models_1.Contact.create((0, storeScope_1.withStoreId)({ ...input }));
     }
     static async getAllAdmin(query) {
         const { page, limit, skip } = (0, pagination_1.parsePagination)(query);
-        const filter = {};
+        const filter = (0, storeScope_1.mergeStoreFilter)({}, query.storeId);
         const regex = (0, pagination_1.searchRegex)(query.search ?? '');
         if (regex) {
             filter.$or = [
@@ -30,21 +31,21 @@ class ContactService {
         };
     }
     static async getById(id) {
-        const message = await models_1.Contact.findById(id);
+        const message = await models_1.Contact.findOne((0, storeScope_1.mergeStoreFilter)({ _id: id }));
         if (!message) {
             throw new ApiError_1.ApiError(404, 'Message not found');
         }
         return message;
     }
     static async markAsRead(id, read = true) {
-        const message = await models_1.Contact.findByIdAndUpdate(id, { read }, { new: true });
+        const message = await models_1.Contact.findOneAndUpdate((0, storeScope_1.mergeStoreFilter)({ _id: id }), { read }, { new: true });
         if (!message) {
             throw new ApiError_1.ApiError(404, 'Message not found');
         }
         return message;
     }
     static async remove(id) {
-        const message = await models_1.Contact.findByIdAndDelete(id);
+        const message = await models_1.Contact.findOneAndDelete((0, storeScope_1.mergeStoreFilter)({ _id: id }));
         if (!message) {
             throw new ApiError_1.ApiError(404, 'Message not found');
         }

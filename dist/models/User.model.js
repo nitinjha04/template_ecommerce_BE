@@ -40,6 +40,12 @@ exports.User = void 0;
 const mongoose_1 = __importStar(require("mongoose"));
 const bcryptjs_1 = __importDefault(require("bcryptjs"));
 const userSchema = new mongoose_1.Schema({
+    store: {
+        type: mongoose_1.Schema.Types.ObjectId,
+        ref: 'Store',
+        required: true,
+        index: true,
+    },
     name: {
         type: String,
         required: [true, 'Name is required'],
@@ -49,7 +55,6 @@ const userSchema = new mongoose_1.Schema({
     email: {
         type: String,
         required: [true, 'Email is required'],
-        unique: true,
         lowercase: true,
         trim: true,
     },
@@ -102,6 +107,7 @@ const userSchema = new mongoose_1.Schema({
         },
     },
 });
+userSchema.index({ store: 1, email: 1 }, { unique: true });
 userSchema.pre('save', async function (next) {
     if (!this.isModified('password'))
         return next();
