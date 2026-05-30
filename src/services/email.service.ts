@@ -19,15 +19,18 @@ import {
 } from '../config/env';
 import type { IPayment } from '../models/Payment.model';
 import {
+  orderCancelledEmail,
   orderPaymentConfirmedAdminEmail,
   orderPaymentConfirmedBuyerEmail,
   orderPlacedAdminEmail,
   orderPlacedBuyerEmail,
   orderStatusUpdatedEmail,
 } from '../emails/orderEmailTemplates';
+import { passwordChangedEmail } from '../emails/passwordChangedEmail';
 import { passwordResetEmail } from '../emails/passwordResetEmail';
 import { passwordResetOtpEmail } from '../emails/passwordResetOtpEmail';
 import { signupOtpEmail } from '../emails/signupOtpEmail';
+import { signupWelcomeEmail } from '../emails/signupWelcomeEmail';
 import { ApiError } from '../utils/ApiError';
 
 type SendEmailOptions = {
@@ -198,14 +201,16 @@ export class EmailService {
     });
   }
 
-  /** Buyer + admin notification when an order is placed. */
+  /** Buyer + admin notification when an order is placed (e.g. COD). */
   static async sendOrderPlacedEmails(order: IOrder): Promise<void> {
     const buyer = orderPlacedBuyerEmail(order);
-    await this.send(order.email, buyer.subject, buyer.html, { mustDeliver: true });
+    await this.send(order.email, buyer.subject, buyer.html, {
+      mustDeliver: isEmailEnabled(),
+    });
 
     const admin = orderPlacedAdminEmail(order);
     await this.send(env.smtp.adminEmail, admin.subject, admin.html, {
-      mustDeliver: true,
+      mustDeliver: isEmailEnabled(),
     });
   }
 
@@ -215,7 +220,27 @@ export class EmailService {
     previousStatus: string
   ): Promise<void> {
     const { subject, html } = orderStatusUpdatedEmail(order, previousStatus);
-    await this.send(order.email, subject, html, { mustDeliver: true });
+    await this.send(order.email, subject, html, {
+      mustDeliver: isEmailEnabled(),
+    });
+  }
+
+  /** Buyer notification when an order is cancelled. */
+  static async sendOrderCancelledEmail(order: IOrder): Promise<void> {
+    const { subject, html } = orderCancelledEmail(order);
+    await this.send(order.email, subject, html, {
+      mustDeliver: isEmailEnabled(),
+    });
+  }
+
+  static async sendWelcomeEmail(to: string, name: string): Promise<void> {
+    const { subject, html } = signupWelcomeEmail(name, env.frontendUrl);
+    await this.send(to, subject, html, { mustDeliver: isEmailEnabled() });
+  }
+
+  static async sendPasswordChangedEmail(to: string, name: string): Promise<void> {
+    const { subject, html } = passwordChangedEmail(name);
+    await this.send(to, subject, html, { mustDeliver: isEmailEnabled() });
   }
 
   static async sendPasswordResetEmail(

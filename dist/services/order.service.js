@@ -6,6 +6,8 @@ const models_1 = require("../models");
 const ApiError_1 = require("../utils/ApiError");
 const displayPricing_1 = require("../utils/displayPricing");
 const pagination_1 = require("../utils/pagination");
+const email_service_1 = require("./email.service");
+const env_1 = require("../config/env");
 const devOrderAmount_1 = require("../utils/devOrderAmount");
 const serializeOrder_1 = require("../utils/serializeOrder");
 const paymentFinalization_service_1 = require("./paymentFinalization.service");
@@ -183,10 +185,9 @@ class OrderService {
             paymentPayload.user = input.userId;
         }
         const payment = await models_1.Payment.create(paymentPayload);
-        // SMTP: order placed → buyer + admin (set EMAIL_ENABLED=true, configure SMTP, uncomment)
-        // void EmailService.sendOrderPlacedEmails(order as IOrder).catch((err) =>
-        //   console.error('[email] order placed:', err)
-        // );
+        if (paymentMethodKey !== 'online' && (0, env_1.isEmailEnabled)()) {
+            void email_service_1.EmailService.sendOrderPlacedEmails(order).catch((err) => console.error('[email] order placed:', err));
+        }
         if (paymentMethodKey === 'online')
             return { order, payment };
         // COD order created successfully: clear user's persisted cart.
@@ -308,12 +309,31 @@ class OrderService {
             orConditions.push({ phone: { $regex: q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') } });
         }
         const orders = await models_1.Order.find({ $or: orConditions })
-            .sort({ createdAt: -1 })
-            .limit(20);
+            .sort({ createdAt: -1, _id: -1 })
+            .limit(20)
+            .lean();
         if (orders.length === 0) {
             throw new ApiError_1.ApiError(404, 'No orders found for this search');
         }
-        return orders;
+        const orderIds = orders.map((o) => o._id);
+        const payments = await models_1.Payment.find({ order: { $in: orderIds } })
+            .sort({ createdAt: -1 })
+            .exec();
+        const paymentsByOrder = (0, pickOrderPayment_1.groupPaymentsByOrder)(payments);
+        const latestPaymentByOrder = new Map();
+        for (const [orderId, list] of paymentsByOrder) {
+            const best = (0, pickOrderPayment_1.pickBestPaymentForOrder)(list);
+            if (best)
+                latestPaymentByOrder.set(orderId, best);
+        }
+        const serialized = orders.map((o) => (0, serializeOrder_1.serializeLeanOrder)(o, latestPaymentByOrder.get(String(o._id))));
+        serialized.sort((a, b) => {
+            const byDate = new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime();
+            if (byDate !== 0)
+                return byDate;
+            return b.id.localeCompare(a.id);
+        });
+        return serialized;
     }
     static async updateStatus(id, status) {
         const existing = await models_1.Order.findById(id);
@@ -325,13 +345,15 @@ class OrderService {
         if (!order) {
             throw new ApiError_1.ApiError(404, 'Order not found');
         }
-        // SMTP: status updated → buyer (set EMAIL_ENABLED=true, configure SMTP, uncomment)
-        // if (previousStatus !== status) {
-        //   void EmailService.sendOrderStatusUpdatedEmail(
-        //     order as IOrder,
-        //     previousStatus
-        //   ).catch((err) => console.error('[email] status update:', err));
-        // }
+        if (previousStatus !== status && (0, env_1.isEmailEnabled)()) {
+            const orderDoc = order;
+            if (status === 'Cancelled') {
+                void email_service_1.EmailService.sendOrderCancelledEmail(orderDoc).catch((err) => console.error('[email] order cancelled:', err));
+            }
+            else {
+                void email_service_1.EmailService.sendOrderStatusUpdatedEmail(orderDoc, previousStatus).catch((err) => console.error('[email] status update:', err));
+            }
+        }
         return order;
     }
     static async exportCsv() {

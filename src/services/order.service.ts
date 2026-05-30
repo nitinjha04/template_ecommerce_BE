@@ -11,7 +11,8 @@ import {
 } from '../utils/pagination';
 import { AdminListQuery } from '../types/adminList';
 import { OrderStatus } from '../types';
-// import { EmailService } from './email.service';
+import { EmailService } from './email.service';
+import { isEmailEnabled } from '../config/env';
 import { DsaGatewayPaymentService } from './dsaGatewayPayment.service';
 import { applyDevTestOrderTotal, shouldApplyDevTestOrderAmount } from '../utils/devOrderAmount';
 import { serializeLeanOrder } from '../utils/serializeOrder';
@@ -244,10 +245,11 @@ export class OrderService {
     }
     const payment = await Payment.create(paymentPayload);
 
-    // SMTP: order placed → buyer + admin (set EMAIL_ENABLED=true, configure SMTP, uncomment)
-    // void EmailService.sendOrderPlacedEmails(order as IOrder).catch((err) =>
-    //   console.error('[email] order placed:', err)
-    // );
+    if (paymentMethodKey !== 'online' && isEmailEnabled()) {
+      void EmailService.sendOrderPlacedEmails(order as IOrder).catch((err) =>
+        console.error('[email] order placed:', err)
+      );
+    }
 
     if (paymentMethodKey === 'online') return { order, payment };
 
@@ -405,14 +407,41 @@ export class OrderService {
     }
 
     const orders = await Order.find({ $or: orConditions })
-      .sort({ createdAt: -1 })
-      .limit(20);
+      .sort({ createdAt: -1, _id: -1 })
+      .limit(20)
+      .lean<IOrder[]>();
 
     if (orders.length === 0) {
       throw new ApiError(404, 'No orders found for this search');
     }
 
-    return orders;
+    const orderIds = orders.map((o) => o._id);
+    const payments = await Payment.find({ order: { $in: orderIds } })
+      .sort({ createdAt: -1 })
+      .exec();
+
+    const paymentsByOrder = groupPaymentsByOrder(payments);
+    const latestPaymentByOrder = new Map<string, IPayment>();
+    for (const [orderId, list] of paymentsByOrder) {
+      const best = pickBestPaymentForOrder(list);
+      if (best) latestPaymentByOrder.set(orderId, best);
+    }
+
+    const serialized = orders.map((o) =>
+      serializeLeanOrder(
+        o as unknown as Record<string, unknown>,
+        latestPaymentByOrder.get(String(o._id))
+      )
+    );
+
+    serialized.sort((a, b) => {
+      const byDate =
+        new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime();
+      if (byDate !== 0) return byDate;
+      return b.id.localeCompare(a.id);
+    });
+
+    return serialized;
   }
 
   static async updateStatus(id: string, status: OrderStatus) {
@@ -432,13 +461,19 @@ export class OrderService {
       throw new ApiError(404, 'Order not found');
     }
 
-    // SMTP: status updated → buyer (set EMAIL_ENABLED=true, configure SMTP, uncomment)
-    // if (previousStatus !== status) {
-    //   void EmailService.sendOrderStatusUpdatedEmail(
-    //     order as IOrder,
-    //     previousStatus
-    //   ).catch((err) => console.error('[email] status update:', err));
-    // }
+    if (previousStatus !== status && isEmailEnabled()) {
+      const orderDoc = order as IOrder;
+      if (status === 'Cancelled') {
+        void EmailService.sendOrderCancelledEmail(orderDoc).catch((err) =>
+          console.error('[email] order cancelled:', err)
+        );
+      } else {
+        void EmailService.sendOrderStatusUpdatedEmail(
+          orderDoc,
+          previousStatus
+        ).catch((err) => console.error('[email] status update:', err));
+      }
+    }
 
     return order;
   }

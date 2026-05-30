@@ -158,6 +158,10 @@ export class AuthService {
     user.signupOtpExpires = undefined;
     await user.save({ validateBeforeSave: false });
 
+    void EmailService.sendWelcomeEmail(user.email, user.name).catch((err) =>
+      console.error('[email] welcome:', err)
+    );
+
     const token = signToken({
       userId: user._id.toString(),
       email: user.email,
@@ -308,6 +312,10 @@ export class AuthService {
     user.resetPasswordToken = undefined;
     user.resetPasswordExpires = undefined;
     await user.save();
+
+    void EmailService.sendPasswordChangedEmail(user.email, user.name).catch(
+      (err) => console.error("[email] password changed:", err)
+    );
 
     return { message: "Password updated successfully" };
   }

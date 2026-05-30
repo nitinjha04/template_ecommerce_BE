@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.orderStatusUpdatedEmail = exports.orderPaymentConfirmedAdminEmail = exports.orderPaymentConfirmedBuyerEmail = exports.orderPlacedAdminEmail = exports.orderPlacedBuyerEmail = void 0;
+exports.orderCancelledEmail = exports.orderStatusUpdatedEmail = exports.orderPaymentConfirmedAdminEmail = exports.orderPaymentConfirmedBuyerEmail = exports.orderPlacedAdminEmail = exports.orderPlacedBuyerEmail = void 0;
 const formatInr = (amount) => `₹${amount.toFixed(2)}`;
 const formatPaymentMeta = (payment) => {
     const lines = [
@@ -34,7 +34,7 @@ const formatItemsTable = (order) => {
         <td style="padding:8px;border-bottom:1px solid #eee;">${item.name}</td>
         <td style="padding:8px;border-bottom:1px solid #eee;">${item.color} / ${item.size}</td>
         <td style="padding:8px;border-bottom:1px solid #eee;text-align:center;">${item.quantity}</td>
-        <td style="padding:8px;border-bottom:1px solid #eee;text-align:right;">$${(item.price * item.quantity).toFixed(2)}</td>
+        <td style="padding:8px;border-bottom:1px solid #eee;text-align:right;">${formatInr(item.price * item.quantity)}</td>
       </tr>`)
         .join('');
     return `
@@ -88,7 +88,7 @@ const orderPlacedBuyerEmail = (order) => {
     <h2 style="margin:0 0 16px;font-family:Georgia,serif;font-weight:normal;">Thank you for your order</h2>
     <p>Hi ${order.customerName},</p>
     <p>We have received your order <strong>${order.orderNumber}</strong>. We will notify you when the status changes.</p>
-    <p style="margin:24px 0 8px;"><strong>Order total:</strong> $${order.total.toFixed(2)}</p>
+    <p style="margin:24px 0 8px;"><strong>Order total:</strong> ${formatInr(order.total)}</p>
     <p style="margin:0 0 8px;"><strong>Payment:</strong> ${order.paymentMethod}</p>
     <p style="margin:0 0 24px;"><strong>Status:</strong> ${order.status}</p>
     ${formatItemsTable(order)}
@@ -110,7 +110,7 @@ const orderPlacedAdminEmail = (order) => {
     <h2 style="margin:0 0 16px;font-family:Georgia,serif;font-weight:normal;">New order received</h2>
     <p><strong>${order.orderNumber}</strong> was placed by ${order.customerName} (${order.email}).</p>
     <p style="margin:16px 0 8px;"><strong>Phone:</strong> ${order.phone}</p>
-    <p style="margin:0 0 8px;"><strong>Total:</strong> $${order.total.toFixed(2)}</p>
+    <p style="margin:0 0 8px;"><strong>Total:</strong> ${formatInr(order.total)}</p>
     <p style="margin:0 0 24px;"><strong>Payment:</strong> ${order.paymentMethod}</p>
     ${formatItemsTable(order)}
     <h3 style="margin:32px 0 12px;font-size:16px;">Shipping address</h3>
@@ -127,7 +127,7 @@ const orderPaymentConfirmedBuyerEmail = (order, payment) => {
     const body = `
     <h2 style="margin:0 0 16px;font-family:Georgia,serif;font-weight:normal;">Payment received — thank you!</h2>
     <p>Hi ${order.customerName},</p>
-    <p>We have received your payment for order <strong>${order.orderNumber}</strong>. Your order is now being processed.</p>
+    <p>We have received your payment for order <strong>${order.orderNumber}</strong>. Your order is now being processed. Below is your order summary and invoice details.</p>
     <p style="margin:24px 0 8px;padding:16px;background:#ecfdf5;border-left:3px solid #059669;">
       <strong style="color:#059669;">Payment successful</strong><br/>
       Amount: ${formatInr(payment.amount)}
@@ -140,8 +140,8 @@ const orderPaymentConfirmedBuyerEmail = (order, payment) => {
     <p style="margin:0;">${formatAddress(order)}</p>
   `;
     return {
-        subject: `Payment confirmed — ${order.orderNumber}`,
-        html: baseLayout('Payment Confirmed', body),
+        subject: `Invoice & payment confirmed — ${order.orderNumber}`,
+        html: baseLayout('Invoice & Payment Confirmed', body),
     };
 };
 exports.orderPaymentConfirmedBuyerEmail = orderPaymentConfirmedBuyerEmail;
@@ -169,7 +169,7 @@ const orderStatusUpdatedEmail = (order, previousStatus) => {
     <p style="margin:24px 0;padding:16px;background:#f5f5f5;border-left:3px solid #111;">
       <strong>${previousStatus}</strong> → <strong>${order.status}</strong>
     </p>
-    <p style="margin:0 0 8px;"><strong>Order total:</strong> $${order.total.toFixed(2)}</p>
+    <p style="margin:0 0 8px;"><strong>Order total:</strong> ${formatInr(order.total)}</p>
     <p style="margin:0;">If you have questions, contact our support team.</p>
   `;
     return {
@@ -178,3 +178,21 @@ const orderStatusUpdatedEmail = (order, previousStatus) => {
     };
 };
 exports.orderStatusUpdatedEmail = orderStatusUpdatedEmail;
+const orderCancelledEmail = (order) => {
+    const body = `
+    <h2 style="margin:0 0 16px;font-family:Georgia,serif;font-weight:normal;">Order cancelled</h2>
+    <p>Hi ${order.customerName},</p>
+    <p>Your order <strong>${order.orderNumber}</strong> has been cancelled.</p>
+    <p style="margin:24px 0;padding:16px;background:#fef2f2;border-left:3px solid #dc2626;">
+      <strong style="color:#dc2626;">Status: Cancelled</strong><br/>
+      Order total: ${formatInr(order.total)}
+    </p>
+    ${formatItemsTable(order)}
+    <p style="margin:24px 0 0;">If you did not request this cancellation or have questions, please contact our support team.</p>
+  `;
+    return {
+        subject: `Order cancelled — ${order.orderNumber}`,
+        html: baseLayout('Order Cancelled', body),
+    };
+};
+exports.orderCancelledEmail = orderCancelledEmail;

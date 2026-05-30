@@ -119,6 +119,7 @@ class AuthService {
         user.signupOtpHash = undefined;
         user.signupOtpExpires = undefined;
         await user.save({ validateBeforeSave: false });
+        void email_service_1.EmailService.sendWelcomeEmail(user.email, user.name).catch((err) => console.error('[email] welcome:', err));
         const token = (0, jwt_1.signToken)({
             userId: user._id.toString(),
             email: user.email,
@@ -230,6 +231,7 @@ class AuthService {
         user.resetPasswordToken = undefined;
         user.resetPasswordExpires = undefined;
         await user.save();
+        void email_service_1.EmailService.sendPasswordChangedEmail(user.email, user.name).catch((err) => console.error("[email] password changed:", err));
         return { message: "Password updated successfully" };
     }
 }

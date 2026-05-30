@@ -7,9 +7,11 @@ const mail_1 = require("../config/mail");
 const resend_1 = require("../config/resend");
 const env_1 = require("../config/env");
 const orderEmailTemplates_1 = require("../emails/orderEmailTemplates");
+const passwordChangedEmail_1 = require("../emails/passwordChangedEmail");
 const passwordResetEmail_1 = require("../emails/passwordResetEmail");
 const passwordResetOtpEmail_1 = require("../emails/passwordResetOtpEmail");
 const signupOtpEmail_1 = require("../emails/signupOtpEmail");
+const signupWelcomeEmail_1 = require("../emails/signupWelcomeEmail");
 const ApiError_1 = require("../utils/ApiError");
 /**
  * Transactional email: Gmail SMTP (.env) locally; Brevo/Resend HTTPS on Render.
@@ -120,19 +122,38 @@ class EmailService {
             mustDeliver: (0, env_1.isEmailEnabled)(),
         });
     }
-    /** Buyer + admin notification when an order is placed. */
+    /** Buyer + admin notification when an order is placed (e.g. COD). */
     static async sendOrderPlacedEmails(order) {
         const buyer = (0, orderEmailTemplates_1.orderPlacedBuyerEmail)(order);
-        await this.send(order.email, buyer.subject, buyer.html, { mustDeliver: true });
+        await this.send(order.email, buyer.subject, buyer.html, {
+            mustDeliver: (0, env_1.isEmailEnabled)(),
+        });
         const admin = (0, orderEmailTemplates_1.orderPlacedAdminEmail)(order);
         await this.send(env_1.env.smtp.adminEmail, admin.subject, admin.html, {
-            mustDeliver: true,
+            mustDeliver: (0, env_1.isEmailEnabled)(),
         });
     }
     /** Buyer notification when order status changes. */
     static async sendOrderStatusUpdatedEmail(order, previousStatus) {
         const { subject, html } = (0, orderEmailTemplates_1.orderStatusUpdatedEmail)(order, previousStatus);
-        await this.send(order.email, subject, html, { mustDeliver: true });
+        await this.send(order.email, subject, html, {
+            mustDeliver: (0, env_1.isEmailEnabled)(),
+        });
+    }
+    /** Buyer notification when an order is cancelled. */
+    static async sendOrderCancelledEmail(order) {
+        const { subject, html } = (0, orderEmailTemplates_1.orderCancelledEmail)(order);
+        await this.send(order.email, subject, html, {
+            mustDeliver: (0, env_1.isEmailEnabled)(),
+        });
+    }
+    static async sendWelcomeEmail(to, name) {
+        const { subject, html } = (0, signupWelcomeEmail_1.signupWelcomeEmail)(name, env_1.env.frontendUrl);
+        await this.send(to, subject, html, { mustDeliver: (0, env_1.isEmailEnabled)() });
+    }
+    static async sendPasswordChangedEmail(to, name) {
+        const { subject, html } = (0, passwordChangedEmail_1.passwordChangedEmail)(name);
+        await this.send(to, subject, html, { mustDeliver: (0, env_1.isEmailEnabled)() });
     }
     static async sendPasswordResetEmail(to, name, resetUrl) {
         const { subject, html } = (0, passwordResetEmail_1.passwordResetEmail)(resetUrl, name);
