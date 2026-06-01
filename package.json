@@ -30,6 +30,12 @@
     "scrape:nykaa": "tsx src/scraping/nykaa/scrape.ts",
     "scrape:nykaa:all": "tsx src/scraping/nykaa/scrape.ts -- --config src/scraping/nykaa/categories.example.json",
     "scrape:nykaa:import": "tsx src/scraping/nykaa/import-products.ts",
+    "scrape:empress": "tsx src/scraping/empress/scrape.ts",
+    "scrape:empress:all": "tsx src/scraping/empress/scrape.ts -- --config src/scraping/empress/categories.example.json",
+    "scrape:empress:import": "tsx src/scraping/empress/import-products.ts",
+    "scrape:argen:pool": "tsx src/scraping/argen-style/scrape.ts",
+    "remove:duplicate-products": "tsx src/scripts/remove-duplicate-products.ts",
+    "remove:duplicate-products:dry": "tsx src/scripts/remove-duplicate-products.ts --dry-run",
     "migrate:assign-store": "tsx src/scripts/migrate-assign-store.ts"
   },
   "keywords": [
