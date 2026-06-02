@@ -1,4 +1,5 @@
 import dotenv from "dotenv";
+import { normalizeStoreDomain } from "../utils/storeDomain";
 
 dotenv.config();
 
@@ -51,6 +52,10 @@ export const env = {
       process.env.EMAIL_FROM ??
       process.env.SMTP_FROM ??
       "Casaq <casaqte@gmail.com>",
+    fromCasaq:
+      (process.env.EMAIL_FROM_CASAQ ?? process.env.SMTP_FROM_CASAQ ?? "").trim(),
+    fromArgen:
+      (process.env.EMAIL_FROM_ARGEN ?? process.env.SMTP_FROM_ARGEN ?? "").trim(),
     adminEmail:
       process.env.ADMIN_EMAIL ??
       process.env.SEED_ADMIN_EMAIL ??
@@ -117,6 +122,15 @@ export const isEmailConfigured = (): boolean =>
   isBrevoConfigured();
 
 export const getEmailFrom = (): string => {
+  return env.smtp.from;
+};
+
+export const getEmailFromForDomain = (domain?: string): string => {
+  const normalized = domain ? normalizeStoreDomain(domain) : "";
+
+  if (normalized === "casaq.in" && env.smtp.fromCasaq) return env.smtp.fromCasaq;
+  if (normalized === "argenstyle.in" && env.smtp.fromArgen) return env.smtp.fromArgen;
+
   return env.smtp.from;
 };
 

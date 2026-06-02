@@ -6,6 +6,7 @@ type BrevoSendParams = {
   to: string;
   subject: string;
   html: string;
+  from: string;
 };
 
 /**
@@ -16,8 +17,9 @@ export const sendViaBrevo = async ({
   to,
   subject,
   html,
+  from: fromRaw,
 }: BrevoSendParams): Promise<{ messageId: string }> => {
-  const from = parseEmailFrom(env.smtp.from);
+  const from = parseEmailFrom(fromRaw);
   const senderEmail = from.email;
   if (!senderEmail) {
     throw new Error('EMAIL_FROM must include an email address');

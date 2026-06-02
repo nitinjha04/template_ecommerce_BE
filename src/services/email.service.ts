@@ -3,13 +3,14 @@ import { sendViaBrevo } from '../config/brevo';
 import { getEmailTransport } from '../config/emailTransport';
 import {
   env,
-  getEmailFrom,
+  getEmailFromForDomain,
   isBrevoConfigured,
   isEmailConfigured,
   isEmailEnabled,
   logEmailEnvDiagnostics,
 } from '../config/env';
 import type { IPayment } from '../models/Payment.model';
+import { getStoreContext } from '../context/store.context';
 import {
   orderCancelledEmail,
   orderPaymentConfirmedAdminEmail,
@@ -64,12 +65,13 @@ export class EmailService {
     }
 
     const transport = getEmailTransport();
-    const from = getEmailFrom();
-    console.log('[email] Attempting send:', { to, subject, transport, from });
+    const storeDomain = getStoreContext()?.storeDomain;
+    const from = getEmailFromForDomain(storeDomain);
+    console.log('[email] Attempting send:', { to, subject, transport, from, storeDomain });
 
     try {
       if (transport === 'brevo') {
-        const result = await sendViaBrevo({ to, subject, html });
+        const result = await sendViaBrevo({ to, subject, html, from });
         console.log(
           `[email] Sent via Brevo: "${subject}" → ${to} (id: ${result.messageId})`
         );
