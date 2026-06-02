@@ -1,5 +1,5 @@
-export const passwordResetOtpEmail = (otp: string, name: string) => ({
-  subject: 'Your Casaq password reset code',
+export const passwordResetOtpEmail = (otp: string, name: string, brandName: string) => ({
+  subject: `Your ${brandName} password reset code`,
   html: `
     <div style="font-family: Arial, sans-serif; max-width: 480px; margin: 0 auto;">
       <h2 style="color: #1a5e5e;">Password reset</h2>

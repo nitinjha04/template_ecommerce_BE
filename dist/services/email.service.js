@@ -16,6 +16,10 @@ const ApiError_1 = require("../utils/ApiError");
  * Transactional email via Brevo/Sendinblue (HTTPS API).
  */
 class EmailService {
+    static getBrandName() {
+        const store = (0, store_context_1.getStoreContext)();
+        return store?.storeName?.trim() || 'Casaq';
+    }
     static async send(to, subject, html, options = {}) {
         const { mustDeliver = false } = options;
         const canSend = (0, env_1.isEmailEnabled)() && (0, env_1.isEmailConfigured)();
@@ -91,15 +95,18 @@ class EmailService {
         });
     }
     static async sendWelcomeEmail(to, name) {
-        const { subject, html } = (0, signupWelcomeEmail_1.signupWelcomeEmail)(name, env_1.env.frontendUrl);
+        const brandName = this.getBrandName();
+        const { subject, html } = (0, signupWelcomeEmail_1.signupWelcomeEmail)(name, env_1.env.frontendUrl, brandName);
         await this.send(to, subject, html, { mustDeliver: (0, env_1.isEmailEnabled)() });
     }
     static async sendPasswordChangedEmail(to, name) {
-        const { subject, html } = (0, passwordChangedEmail_1.passwordChangedEmail)(name);
+        const brandName = this.getBrandName();
+        const { subject, html } = (0, passwordChangedEmail_1.passwordChangedEmail)(name, brandName);
         await this.send(to, subject, html, { mustDeliver: (0, env_1.isEmailEnabled)() });
     }
     static async sendPasswordResetEmail(to, name, resetUrl) {
-        const { subject, html } = (0, passwordResetEmail_1.passwordResetEmail)(resetUrl, name);
+        const brandName = this.getBrandName();
+        const { subject, html } = (0, passwordResetEmail_1.passwordResetEmail)(resetUrl, name, brandName);
         await this.send(to, subject, html, { mustDeliver: (0, env_1.isEmailEnabled)() });
     }
     static async sendPasswordResetOtp(to, name, otp) {
@@ -107,11 +114,13 @@ class EmailService {
             to,
             mustDeliver: (0, env_1.isEmailEnabled)(),
         });
-        const { subject, html } = (0, passwordResetOtpEmail_1.passwordResetOtpEmail)(otp, name);
+        const brandName = this.getBrandName();
+        const { subject, html } = (0, passwordResetOtpEmail_1.passwordResetOtpEmail)(otp, name, brandName);
         await this.send(to, subject, html, { mustDeliver: (0, env_1.isEmailEnabled)() });
     }
     static async sendSignupOtp(to, name, otp) {
-        const { subject, html } = (0, signupOtpEmail_1.signupOtpEmail)(otp, name);
+        const brandName = this.getBrandName();
+        const { subject, html } = (0, signupOtpEmail_1.signupOtpEmail)(otp, name, brandName);
         await this.send(to, subject, html, { mustDeliver: (0, env_1.isEmailEnabled)() });
     }
 }

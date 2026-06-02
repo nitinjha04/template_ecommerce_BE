@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.passwordResetOtpEmail = void 0;
-const passwordResetOtpEmail = (otp, name) => ({
-    subject: 'Your Casaq password reset code',
+const passwordResetOtpEmail = (otp, name, brandName) => ({
+    subject: `Your ${brandName} password reset code`,
     html: `
     <div style="font-family: Arial, sans-serif; max-width: 480px; margin: 0 auto;">
       <h2 style="color: #1a5e5e;">Password reset</h2>

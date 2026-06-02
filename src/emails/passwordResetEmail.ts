@@ -1,11 +1,15 @@
-export const passwordResetEmail = (resetUrl: string, name: string) => ({
-  subject: 'Reset your Casaq password',
+export const passwordResetEmail = (
+  resetUrl: string,
+  name: string,
+  brandName: string
+) => ({
+  subject: `Reset your ${brandName} password`,
   html: `
 <!DOCTYPE html>
 <html>
 <body style="font-family:Georgia,serif;background:#f9f9f9;padding:32px;">
   <div style="max-width:560px;margin:0 auto;background:#fff;border:1px solid #e5e5e5;padding:40px;">
-    <h1 style="font-weight:normal;letter-spacing:2px;margin:0 0 24px;">Casaq</h1>
+    <h1 style="font-weight:normal;letter-spacing:2px;margin:0 0 24px;">${brandName}</h1>
     <p>Hi ${name},</p>
     <p>We received a request to reset your password. Click the button below to choose a new one. This link expires in 1 hour.</p>
     <p style="margin:32px 0;">

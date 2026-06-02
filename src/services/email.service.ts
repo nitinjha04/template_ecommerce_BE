@@ -35,6 +35,11 @@ type SendEmailOptions = {
  * Transactional email via Brevo/Sendinblue (HTTPS API).
  */
 export class EmailService {
+  private static getBrandName(): string {
+    const store = getStoreContext();
+    return store?.storeName?.trim() || 'Casaq';
+  }
+
   private static async send(
     to: string,
     subject: string,
@@ -141,12 +146,14 @@ export class EmailService {
   }
 
   static async sendWelcomeEmail(to: string, name: string): Promise<void> {
-    const { subject, html } = signupWelcomeEmail(name, env.frontendUrl);
+    const brandName = this.getBrandName();
+    const { subject, html } = signupWelcomeEmail(name, env.frontendUrl, brandName);
     await this.send(to, subject, html, { mustDeliver: isEmailEnabled() });
   }
 
   static async sendPasswordChangedEmail(to: string, name: string): Promise<void> {
-    const { subject, html } = passwordChangedEmail(name);
+    const brandName = this.getBrandName();
+    const { subject, html } = passwordChangedEmail(name, brandName);
     await this.send(to, subject, html, { mustDeliver: isEmailEnabled() });
   }
 
@@ -155,7 +162,8 @@ export class EmailService {
     name: string,
     resetUrl: string
   ): Promise<void> {
-    const { subject, html } = passwordResetEmail(resetUrl, name);
+    const brandName = this.getBrandName();
+    const { subject, html } = passwordResetEmail(resetUrl, name, brandName);
     await this.send(to, subject, html, { mustDeliver: isEmailEnabled() });
   }
 
@@ -168,7 +176,8 @@ export class EmailService {
       to,
       mustDeliver: isEmailEnabled(),
     });
-    const { subject, html } = passwordResetOtpEmail(otp, name);
+    const brandName = this.getBrandName();
+    const { subject, html } = passwordResetOtpEmail(otp, name, brandName);
     await this.send(to, subject, html, { mustDeliver: isEmailEnabled() });
   }
 
@@ -177,7 +186,8 @@ export class EmailService {
     name: string,
     otp: string
   ): Promise<void> {
-    const { subject, html } = signupOtpEmail(otp, name);
+    const brandName = this.getBrandName();
+    const { subject, html } = signupOtpEmail(otp, name, brandName);
     await this.send(to, subject, html, { mustDeliver: isEmailEnabled() });
   }
 }
