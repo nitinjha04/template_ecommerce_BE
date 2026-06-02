@@ -9,6 +9,7 @@ const orderEmailTemplates_1 = require("../emails/orderEmailTemplates");
 const passwordChangedEmail_1 = require("../emails/passwordChangedEmail");
 const passwordResetEmail_1 = require("../emails/passwordResetEmail");
 const passwordResetOtpEmail_1 = require("../emails/passwordResetOtpEmail");
+const passwordResetSuccessEmail_1 = require("../emails/passwordResetSuccessEmail");
 const signupOtpEmail_1 = require("../emails/signupOtpEmail");
 const signupWelcomeEmail_1 = require("../emails/signupWelcomeEmail");
 const ApiError_1 = require("../utils/ApiError");
@@ -107,6 +108,11 @@ class EmailService {
     static async sendPasswordResetEmail(to, name, resetUrl) {
         const brandName = this.getBrandName();
         const { subject, html } = (0, passwordResetEmail_1.passwordResetEmail)(resetUrl, name, brandName);
+        await this.send(to, subject, html, { mustDeliver: (0, env_1.isEmailEnabled)() });
+    }
+    static async sendPasswordResetSuccessEmail(to, name) {
+        const brandName = this.getBrandName();
+        const { subject, html } = (0, passwordResetSuccessEmail_1.passwordResetSuccessEmail)(name, brandName);
         await this.send(to, subject, html, { mustDeliver: (0, env_1.isEmailEnabled)() });
     }
     static async sendPasswordResetOtp(to, name, otp) {

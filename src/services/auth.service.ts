@@ -316,8 +316,8 @@ export class AuthService {
     user.resetPasswordExpires = undefined;
     await user.save();
 
-    void EmailService.sendPasswordChangedEmail(user.email, user.name).catch(
-      (err) => console.error("[email] password changed:", err)
+    void EmailService.sendPasswordResetSuccessEmail(user.email, user.name).catch(
+      (err) => console.error("[email] password reset success:", err)
     );
 
     return { message: "Password updated successfully" };

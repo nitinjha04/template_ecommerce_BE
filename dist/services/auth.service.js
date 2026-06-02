@@ -230,7 +230,7 @@ class AuthService {
         user.resetPasswordToken = undefined;
         user.resetPasswordExpires = undefined;
         await user.save();
-        void email_service_1.EmailService.sendPasswordChangedEmail(user.email, user.name).catch((err) => console.error("[email] password changed:", err));
+        void email_service_1.EmailService.sendPasswordResetSuccessEmail(user.email, user.name).catch((err) => console.error("[email] password reset success:", err));
         return { message: "Password updated successfully" };
     }
 }

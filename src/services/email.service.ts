@@ -22,6 +22,7 @@ import {
 import { passwordChangedEmail } from '../emails/passwordChangedEmail';
 import { passwordResetEmail } from '../emails/passwordResetEmail';
 import { passwordResetOtpEmail } from '../emails/passwordResetOtpEmail';
+import { passwordResetSuccessEmail } from '../emails/passwordResetSuccessEmail';
 import { signupOtpEmail } from '../emails/signupOtpEmail';
 import { signupWelcomeEmail } from '../emails/signupWelcomeEmail';
 import { ApiError } from '../utils/ApiError';
@@ -164,6 +165,15 @@ export class EmailService {
   ): Promise<void> {
     const brandName = this.getBrandName();
     const { subject, html } = passwordResetEmail(resetUrl, name, brandName);
+    await this.send(to, subject, html, { mustDeliver: isEmailEnabled() });
+  }
+
+  static async sendPasswordResetSuccessEmail(
+    to: string,
+    name: string
+  ): Promise<void> {
+    const brandName = this.getBrandName();
+    const { subject, html } = passwordResetSuccessEmail(name, brandName);
     await this.send(to, subject, html, { mustDeliver: isEmailEnabled() });
   }
 
