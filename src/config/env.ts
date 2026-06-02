@@ -151,6 +151,8 @@ export const logEmailEnvDiagnostics = (context: string): void => {
     BREVO_API_KEY_SET: Boolean(env.brevo.apiKey),
     SENDINBLUE_API_KEY_SET: Boolean(env.brevo.apiKey),
     EMAIL_FROM: env.smtp.from,
+    EMAIL_FROM_CASAQ: env.smtp.fromCasaq,
+    EMAIL_FROM_ARGEN: env.smtp.fromArgen,
     ADMIN_EMAIL: env.smtp.adminEmail,
   });
 };

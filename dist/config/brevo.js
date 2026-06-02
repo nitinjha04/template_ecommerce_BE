@@ -41,8 +41,8 @@ const SibApiV3Sdk = __importStar(require("@sendinblue/client"));
  * Brevo/Sendinblue transactional API over HTTPS.
  * Ensure the sender address (EMAIL_FROM) is verified in Brevo → Senders.
  */
-const sendViaBrevo = async ({ to, subject, html, }) => {
-    const from = (0, parseEmailFrom_1.parseEmailFrom)(env_1.env.smtp.from);
+const sendViaBrevo = async ({ to, subject, html, from: fromRaw, }) => {
+    const from = (0, parseEmailFrom_1.parseEmailFrom)(fromRaw);
     const senderEmail = from.email;
     if (!senderEmail) {
         throw new Error('EMAIL_FROM must include an email address');

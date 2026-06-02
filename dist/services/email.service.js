@@ -4,6 +4,7 @@ exports.EmailService = void 0;
 const brevo_1 = require("../config/brevo");
 const emailTransport_1 = require("../config/emailTransport");
 const env_1 = require("../config/env");
+const store_context_1 = require("../context/store.context");
 const orderEmailTemplates_1 = require("../emails/orderEmailTemplates");
 const passwordChangedEmail_1 = require("../emails/passwordChangedEmail");
 const passwordResetEmail_1 = require("../emails/passwordResetEmail");
@@ -34,11 +35,12 @@ class EmailService {
             return;
         }
         const transport = (0, emailTransport_1.getEmailTransport)();
-        const from = (0, env_1.getEmailFrom)();
-        console.log('[email] Attempting send:', { to, subject, transport, from });
+        const storeDomain = (0, store_context_1.getStoreContext)()?.storeDomain;
+        const from = (0, env_1.getEmailFromForDomain)(storeDomain);
+        console.log('[email] Attempting send:', { to, subject, transport, from, storeDomain });
         try {
             if (transport === 'brevo') {
-                const result = await (0, brevo_1.sendViaBrevo)({ to, subject, html });
+                const result = await (0, brevo_1.sendViaBrevo)({ to, subject, html, from });
                 console.log(`[email] Sent via Brevo: "${subject}" → ${to} (id: ${result.messageId})`);
                 return;
             }

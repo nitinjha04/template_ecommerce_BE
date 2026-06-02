@@ -3,8 +3,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.logEmailEnvDiagnostics = exports.isEmailEnabled = exports.getEmailFrom = exports.isEmailConfigured = exports.isBrevoConfigured = exports.isDsaGatewayConfigured = exports.getPaymentReturnUrl = exports.getFrontendOrigin = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
+exports.logEmailEnvDiagnostics = exports.isEmailEnabled = exports.getEmailFromForDomain = exports.getEmailFrom = exports.isEmailConfigured = exports.isBrevoConfigured = exports.isDsaGatewayConfigured = exports.getPaymentReturnUrl = exports.getFrontendOrigin = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
 const dotenv_1 = __importDefault(require("dotenv"));
+const storeDomain_1 = require("../utils/storeDomain");
 dotenv_1.default.config();
 const required = ["MONGODB_URI", "JWT_SECRET"];
 for (const key of required) {
@@ -52,6 +53,8 @@ exports.env = {
         from: process.env.EMAIL_FROM ??
             process.env.SMTP_FROM ??
             "Casaq <casaqte@gmail.com>",
+        fromCasaq: (process.env.EMAIL_FROM_CASAQ ?? process.env.SMTP_FROM_CASAQ ?? "").trim(),
+        fromArgen: (process.env.EMAIL_FROM_ARGEN ?? process.env.SMTP_FROM_ARGEN ?? "").trim(),
         adminEmail: process.env.ADMIN_EMAIL ??
             process.env.SEED_ADMIN_EMAIL ??
             "casaqte@gmail.com",
@@ -105,6 +108,15 @@ const getEmailFrom = () => {
     return exports.env.smtp.from;
 };
 exports.getEmailFrom = getEmailFrom;
+const getEmailFromForDomain = (domain) => {
+    const normalized = domain ? (0, storeDomain_1.normalizeStoreDomain)(domain) : "";
+    if (normalized === "casaq.in" && exports.env.smtp.fromCasaq)
+        return exports.env.smtp.fromCasaq;
+    if (normalized === "argenstyle.in" && exports.env.smtp.fromArgen)
+        return exports.env.smtp.fromArgen;
+    return exports.env.smtp.from;
+};
+exports.getEmailFromForDomain = getEmailFromForDomain;
 /** Emails are off until EMAIL_ENABLED=true and Brevo is configured. */
 const isEmailEnabled = () => exports.env.emailEnabled && (0, exports.isEmailConfigured)();
 exports.isEmailEnabled = isEmailEnabled;
@@ -121,6 +133,8 @@ const logEmailEnvDiagnostics = (context) => {
         BREVO_API_KEY_SET: Boolean(exports.env.brevo.apiKey),
         SENDINBLUE_API_KEY_SET: Boolean(exports.env.brevo.apiKey),
         EMAIL_FROM: exports.env.smtp.from,
+        EMAIL_FROM_CASAQ: exports.env.smtp.fromCasaq,
+        EMAIL_FROM_ARGEN: exports.env.smtp.fromArgen,
         ADMIN_EMAIL: exports.env.smtp.adminEmail,
     });
 };
