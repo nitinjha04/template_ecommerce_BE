@@ -68,6 +68,7 @@ const fetchProductPool = async (options) => {
             categoryFilter: options.categoryFilter,
             categoryId: options.categoryId,
             currentPage: page,
+            pageSize: options.pageSize,
             sort: options.sort,
         });
         pagesFetched = page;
@@ -83,7 +84,8 @@ const fetchProductPool = async (options) => {
         options.onPage?.(page, batch.length, pool.length);
         if (pool.length >= options.needed)
             break;
-        if (batch.length < 50)
+        const pageSize = options.pageSize ?? 50;
+        if (batch.length < pageSize)
             break;
         if (page < options.maxPages)
             await sleep(delay);

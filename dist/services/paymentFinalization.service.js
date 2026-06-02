@@ -77,7 +77,7 @@ class PaymentFinalizationService {
             return;
         }
         if (!(0, env_1.isEmailEnabled)()) {
-            console.warn('[email] Payment confirmation not sent — set EMAIL_ENABLED=true and configure SMTP_HOST, SMTP_USER, SMTP_PASS');
+            console.warn('[email] Payment confirmation not sent — set EMAIL_ENABLED=true and configure SENDINBLUE_API_KEY (or BREVO_API_KEY) + EMAIL_FROM');
             return;
         }
         const freshOrder = await models_1.Order.findById(orderId).exec();

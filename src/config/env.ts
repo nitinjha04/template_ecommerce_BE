@@ -41,27 +41,29 @@ export const env = {
     password: process.env.SEED_ADMIN_PASSWORD ?? "Admin@123",
     name: process.env.SEED_ADMIN_NAME ?? "Casaq Admin",
   },
+  /**
+   * Email sender + admin notification inbox.
+   * Kept under `smtp` for backwards compatibility with existing templates/usages,
+   * but SMTP delivery is intentionally not supported anymore.
+   */
   smtp: {
-    host: process.env.SMTP_HOST ?? "",
-    port: Number(process.env.SMTP_PORT) || 587,
-    secure: process.env.SMTP_SECURE === "true",
-    user: (process.env.SMTP_USER ?? "").trim(),
-    /** Gmail app passwords are 16 chars; strip spaces if copied with gaps. */
-    pass: (process.env.SMTP_PASS ?? "").replace(/\s/g, ""),
-    from: process.env.SMTP_FROM ?? "Casaq <casaqte@gmail.com>",
+    from:
+      process.env.EMAIL_FROM ??
+      process.env.SMTP_FROM ??
+      "Casaq <casaqte@gmail.com>",
     adminEmail:
       process.env.ADMIN_EMAIL ??
       process.env.SEED_ADMIN_EMAIL ??
       "casaqte@gmail.com",
   },
   emailEnabled: process.env.EMAIL_ENABLED === "true",
-  /** HTTPS email — use on Render when Gmail SMTP is blocked (free tier). */
+  /** Sendinblue/Brevo transactional email over HTTPS (port 443). */
   brevo: {
-    apiKey: (process.env.BREVO_API_KEY ?? "").trim(),
-  },
-  resend: {
-    apiKey: (process.env.RESEND_API_KEY ?? "").trim(),
-    from: (process.env.RESEND_FROM ?? process.env.SMTP_FROM ?? "").trim(),
+    apiKey: (
+      process.env.SENDINBLUE_API_KEY ??
+      process.env.BREVO_API_KEY ??
+      ""
+    ).trim(),
   },
   frontendUrl:
     process.env.FRONTEND_URL?.split(",")[0]?.trim() || "http://localhost:5173",
@@ -111,20 +113,14 @@ export const isDsaGatewayConfigured = (): boolean => {
 
 export const isBrevoConfigured = (): boolean => Boolean(env.brevo.apiKey);
 
-export const isResendConfigured = (): boolean => Boolean(env.resend.apiKey);
-
-export const isSmtpConfigured = (): boolean =>
-  Boolean(env.smtp.host && env.smtp.user && env.smtp.pass);
-
 export const isEmailConfigured = (): boolean =>
-  isSmtpConfigured() || isBrevoConfigured() || isResendConfigured();
+  isBrevoConfigured();
 
 export const getEmailFrom = (): string => {
-  if (isResendConfigured() && env.resend.from) return env.resend.from;
   return env.smtp.from;
 };
 
-/** Emails are off until EMAIL_ENABLED=true and Resend or SMTP is configured. */
+/** Emails are off until EMAIL_ENABLED=true and Brevo is configured. */
 export const isEmailEnabled = (): boolean =>
   env.emailEnabled && isEmailConfigured();
 
@@ -135,25 +131,12 @@ export const logEmailEnvDiagnostics = (context: string): void => {
     EMAIL_ENABLED_RAW: process.env.EMAIL_ENABLED ?? "(unset)",
     emailEnabledParsed: env.emailEnabled,
     isRenderHost: process.env.RENDER === "true",
-    emailTransport: isResendConfigured()
-      ? "resend"
-      : isBrevoConfigured()
-        ? "brevo"
-        : isSmtpConfigured()
-          ? "smtp"
-          : "none",
+    emailTransport: isBrevoConfigured() ? "brevo" : "none",
     isEmailConfigured: isEmailConfigured(),
     isEmailEnabled: isEmailEnabled(),
     BREVO_API_KEY_SET: Boolean(env.brevo.apiKey),
-    RESEND_API_KEY_SET: Boolean(env.resend.apiKey),
-    RESEND_FROM: env.resend.from || "(uses SMTP_FROM)",
-    SMTP_HOST: env.smtp.host || "(empty)",
-    SMTP_PORT: env.smtp.port,
-    SMTP_SECURE: env.smtp.secure,
-    SMTP_USER: env.smtp.user || "(empty)",
-    SMTP_PASS_SET: Boolean(env.smtp.pass),
-    SMTP_PASS_LENGTH: env.smtp.pass.length,
-    SMTP_FROM: env.smtp.from,
+    SENDINBLUE_API_KEY_SET: Boolean(env.brevo.apiKey),
+    EMAIL_FROM: env.smtp.from,
     ADMIN_EMAIL: env.smtp.adminEmail,
   });
 };

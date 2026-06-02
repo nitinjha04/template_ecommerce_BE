@@ -1,5 +1,6 @@
 import { env } from './env';
 import { parseEmailFrom } from '../utils/parseEmailFrom';
+import * as SibApiV3Sdk from '@sendinblue/client';
 
 type BrevoSendParams = {
   to: string;
@@ -8,8 +9,8 @@ type BrevoSendParams = {
 };
 
 /**
- * Brevo transactional API over HTTPS (works on Render free tier).
- * Verify SMTP_USER (or sender in SMTP_FROM) under Brevo → Senders.
+ * Brevo/Sendinblue transactional API over HTTPS.
+ * Ensure the sender address (EMAIL_FROM) is verified in Brevo → Senders.
  */
 export const sendViaBrevo = async ({
   to,
@@ -17,33 +18,36 @@ export const sendViaBrevo = async ({
   html,
 }: BrevoSendParams): Promise<{ messageId: string }> => {
   const from = parseEmailFrom(env.smtp.from);
-  const senderEmail = from.email || env.smtp.user;
+  const senderEmail = from.email;
+  if (!senderEmail) {
+    throw new Error('EMAIL_FROM must include an email address');
+  }
   const senderName = from.name || 'Casaq';
 
-  const response = await fetch('https://api.brevo.com/v3/smtp/email', {
-    method: 'POST',
-    headers: {
-      'api-key': env.brevo.apiKey,
-      'content-type': 'application/json',
-    },
-    body: JSON.stringify({
-      sender: { name: senderName, email: senderEmail },
-      to: [{ email: to }],
-      subject,
-      htmlContent: html,
-    }),
-  });
+  const client = new SibApiV3Sdk.TransactionalEmailsApi();
+  client.setApiKey(SibApiV3Sdk.TransactionalEmailsApiApiKeys.apiKey, env.brevo.apiKey);
 
-  const body = (await response.json().catch(() => ({}))) as {
-    messageId?: string;
-    message?: string;
-    code?: string;
-  };
+  const payload = new SibApiV3Sdk.SendSmtpEmail();
+  payload.sender = { name: senderName, email: senderEmail };
+  payload.to = [{ email: to }];
+  payload.subject = subject;
+  payload.htmlContent = html;
 
-  if (!response.ok) {
-    const detail = body.message ?? body.code ?? response.statusText;
-    throw new Error(`Brevo API ${response.status}: ${detail}`);
+  try {
+    // SDK response shape varies by version; keep it defensive.
+    const result = (await client.sendTransacEmail(payload)) as unknown as {
+      messageId?: string;
+      body?: { messageId?: string };
+    };
+
+    const messageId =
+      result?.messageId ??
+      result?.body?.messageId ??
+      'ok';
+
+    return { messageId };
+  } catch (err) {
+    const detail = err instanceof Error ? err.message : String(err);
+    throw new Error(`Brevo API error: ${detail}`);
   }
-
-  return { messageId: body.messageId ?? 'ok' };
 };
