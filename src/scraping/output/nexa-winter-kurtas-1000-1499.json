@@ -1,0 +1,972 @@
+{
+  "scrapedAt": "2026-06-24T18:36:55.399Z",
+  "categoryFilter": "maxwomen-ethnicwear-winterkurtas",
+  "categoryName": "winter kurtas",
+  "categorySlug": "maxwomen-ethnicwear-winterkurtas",
+  "storeId": "6a3bf2e10b0f40e291c26f6f",
+  "storeDomain": "nexa-skyline.com",
+  "priceMin": 1000,
+  "priceMax": 1499,
+  "categoryId": "maxwomen-ethnicwear-winterkurtas",
+  "priceMode": "random",
+  "sort": "low-to-high",
+  "totalProducts": 15,
+  "pagesFetched": 1,
+  "products": [
+    {
+      "name": "Women Knit Straight Winter Kurta",
+      "slug": "1000015948798-blue-aqua",
+      "price": 1192,
+      "originalPrice": 1342,
+      "category": "winter kurtas",
+      "description": "Women Knit Straight Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaTitle": "Women Knit Straight Winter Kurta",
+      "metaDescription": "Women Knit Straight Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaKeywords": [
+        "winter kurtas",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015948798-Blue-AQUA-1000015948798_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015948798-Blue-AQUA-1000015948798_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015948798-Blue-AQUA-1000015948798_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015948798-Blue-AQUA-1000015948798_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015948798-Blue-AQUA-1000015948798_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015948798-Blue-AQUA-1000015948798_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015948798-Blue-AQUA-1000015948798_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015948798-Blue-AQUA-1000015948798_08-2100.jpg"
+      ],
+      "tags": [
+        "winter kurtas",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Long",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.5 kg",
+      "dimensions": "10 x 16 x 3 cm",
+      "stockQuantity": 45,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "1000015948798BlueAQUA",
+        "sku": "1000015948798-Blue-AQUA",
+        "categoryFilter": "maxwomen-ethnicwear-winterkurtas",
+        "assignedPriceTier": 1192
+      }
+    },
+    {
+      "name": "Women Jacquard Winter Kurta",
+      "slug": "1000015888867-green-green",
+      "price": 1020,
+      "originalPrice": 1170,
+      "category": "winter kurtas",
+      "description": "Women Jacquard Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaTitle": "Women Jacquard Winter Kurta",
+      "metaDescription": "Women Jacquard Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaKeywords": [
+        "winter kurtas",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015888867-Green-GREEN-1000015888867_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888867-Green-GREEN-1000015888867_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888867-Green-GREEN-1000015888867_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888867-Green-GREEN-1000015888867_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888867-Green-GREEN-1000015888867_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888867-Green-GREEN-1000015888867_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888867-Green-GREEN-1000015888867_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888867-Green-GREEN-1000015888867_08-2100.jpg"
+      ],
+      "tags": [
+        "winter kurtas",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.6 kg",
+      "dimensions": "14 x 12 x 2 cm",
+      "stockQuantity": 13,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "winter kurtas",
+      "_source": {
+        "nykaaId": "1000015888867GreenGREEN",
+        "sku": "1000015888867-Green-GREEN",
+        "categoryFilter": "maxwomen-ethnicwear-winterkurtas",
+        "assignedPriceTier": 1020
+      }
+    },
+    {
+      "name": "Women Knit Straight Winter Kurta",
+      "slug": "1000015888854-blue-navy",
+      "price": 1131,
+      "originalPrice": 1281,
+      "category": "winter kurtas",
+      "description": "Women Knit Straight Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaTitle": "Women Knit Straight Winter Kurta",
+      "metaDescription": "Women Knit Straight Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaKeywords": [
+        "winter kurtas",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015888854-Blue-NAVY-1000015888854_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888854-Blue-NAVY-1000015888854_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888854-Blue-NAVY-1000015888854_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888854-Blue-NAVY-1000015888854_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888854-Blue-NAVY-1000015888854_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888854-Blue-NAVY-1000015888854_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888854-Blue-NAVY-1000015888854_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888854-Blue-NAVY-1000015888854_08-2100.jpg"
+      ],
+      "tags": [
+        "winter kurtas",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.4 kg",
+      "dimensions": "10 x 11 x 2 cm",
+      "stockQuantity": 115,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-03T18:30:00.000Z",
+      "breadcrumbCategory": "winter kurtas",
+      "_source": {
+        "nykaaId": "1000015888854BlueNAVY",
+        "sku": "1000015888854-Blue-NAVY",
+        "categoryFilter": "maxwomen-ethnicwear-winterkurtas",
+        "assignedPriceTier": 1131
+      }
+    },
+    {
+      "name": "Women Embroidered Straight Winter Kurta",
+      "slug": "1000015888841-green-olive",
+      "price": 1402,
+      "originalPrice": 1552,
+      "category": "winter kurtas",
+      "description": "Women Embroidered Straight Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaTitle": "Women Embroidered Straight Winter Kurta",
+      "metaDescription": "Women Embroidered Straight Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaKeywords": [
+        "winter kurtas",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015888841-Green-OLIVE-1000015888841_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888841-Green-OLIVE-1000015888841_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888841-Green-OLIVE-1000015888841_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888841-Green-OLIVE-1000015888841_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888841-Green-OLIVE-1000015888841_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888841-Green-OLIVE-1000015888841_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888841-Green-OLIVE-1000015888841_07-2100.jpg"
+      ],
+      "tags": [
+        "winter kurtas",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.4 kg",
+      "dimensions": "12 x 14 x 6 cm",
+      "stockQuantity": 85,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-02T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1000015888841GreenOLIVE",
+        "sku": "1000015888841-Green-OLIVE",
+        "categoryFilter": "maxwomen-ethnicwear-winterkurtas",
+        "assignedPriceTier": 1402
+      }
+    },
+    {
+      "name": "Women Embroidered Straight Winter Kurta",
+      "slug": "1000015888815-orange-rust",
+      "price": 1425,
+      "originalPrice": 1575,
+      "category": "winter kurtas",
+      "description": "Women Embroidered Straight Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaTitle": "Women Embroidered Straight Winter Kurta",
+      "metaDescription": "Women Embroidered Straight Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaKeywords": [
+        "winter kurtas",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Orange"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015888815-Orange-RUST-1000015888815_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888815-Orange-RUST-1000015888815_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888815-Orange-RUST-1000015888815_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888815-Orange-RUST-1000015888815_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888815-Orange-RUST-1000015888815_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888815-Orange-RUST-1000015888815_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888815-Orange-RUST-1000015888815_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888815-Orange-RUST-1000015888815_08-2100.jpg"
+      ],
+      "tags": [
+        "winter kurtas",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.6 kg",
+      "dimensions": "13 x 15 x 2 cm",
+      "stockQuantity": 96,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "winter kurtas",
+      "_source": {
+        "nykaaId": "1000015888815OrangeRUST",
+        "sku": "1000015888815-Orange-RUST",
+        "categoryFilter": "maxwomen-ethnicwear-winterkurtas",
+        "assignedPriceTier": 1425
+      }
+    },
+    {
+      "name": "Women Knit Straight Winter Kurta",
+      "slug": "1000015888790-purple-wine",
+      "price": 1487,
+      "originalPrice": 1637,
+      "category": "winter kurtas",
+      "description": "Women Knit Straight Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaTitle": "Women Knit Straight Winter Kurta",
+      "metaDescription": "Women Knit Straight Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaKeywords": [
+        "winter kurtas",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Purple"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015888790-Purple-WINE-1000015888790_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888790-Purple-WINE-1000015888790_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888790-Purple-WINE-1000015888790_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888790-Purple-WINE-1000015888790_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888790-Purple-WINE-1000015888790_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888790-Purple-WINE-1000015888790_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888790-Purple-WINE-1000015888790_07-2100.jpg"
+      ],
+      "tags": [
+        "winter kurtas",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.3 kg",
+      "dimensions": "8 x 13 x 7 cm",
+      "stockQuantity": 47,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-03T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000015888790PurpleWINE",
+        "sku": "1000015888790-Purple-WINE",
+        "categoryFilter": "maxwomen-ethnicwear-winterkurtas",
+        "assignedPriceTier": 1487
+      }
+    },
+    {
+      "name": "Women Knit Straight Winter Kurta",
+      "slug": "1000015888790-grey-charcoal",
+      "price": 1490,
+      "originalPrice": 1640,
+      "category": "winter kurtas",
+      "description": "Women Knit Straight Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaTitle": "Women Knit Straight Winter Kurta",
+      "metaDescription": "Women Knit Straight Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaKeywords": [
+        "winter kurtas",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Grey"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015888790-Grey-CHARCOAL-1000015888790_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888790-Grey-CHARCOAL-1000015888790_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888790-Grey-CHARCOAL-1000015888790_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888790-Grey-CHARCOAL-1000015888790_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888790-Grey-CHARCOAL-1000015888790_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888790-Grey-CHARCOAL-1000015888790_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888790-Grey-CHARCOAL-1000015888790_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888790-Grey-CHARCOAL-1000015888790_08-2100.jpg"
+      ],
+      "tags": [
+        "winter kurtas",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.6 kg",
+      "dimensions": "11 x 13 x 8 cm",
+      "stockQuantity": 117,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "winter kurtas",
+      "_source": {
+        "nykaaId": "1000015888790GreyCHARCOAL",
+        "sku": "1000015888790-Grey-CHARCOAL",
+        "categoryFilter": "maxwomen-ethnicwear-winterkurtas",
+        "assignedPriceTier": 1490
+      }
+    },
+    {
+      "name": "Women Knit Straight Winter Kurta",
+      "slug": "1000015888777-grey-darkgrey",
+      "price": 1194,
+      "originalPrice": 1344,
+      "category": "winter kurtas",
+      "description": "Women Knit Straight Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaTitle": "Women Knit Straight Winter Kurta",
+      "metaDescription": "Women Knit Straight Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaKeywords": [
+        "winter kurtas",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Grey"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015888777-Grey-DARKGREY-1000015888777_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888777-Grey-DARKGREY-1000015888777_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888777-Grey-DARKGREY-1000015888777_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888777-Grey-DARKGREY-1000015888777_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888777-Grey-DARKGREY-1000015888777_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888777-Grey-DARKGREY-1000015888777_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888777-Grey-DARKGREY-1000015888777_07-2100.jpg"
+      ],
+      "tags": [
+        "winter kurtas",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Dry clean recommended",
+      "neckline": "Band collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.4 kg",
+      "dimensions": "11 x 14 x 5 cm",
+      "stockQuantity": 13,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-10T18:30:00.000Z",
+      "breadcrumbCategory": "winter kurtas",
+      "_source": {
+        "nykaaId": "1000015888777GreyDARKGREY",
+        "sku": "1000015888777-Grey-DARKGREY",
+        "categoryFilter": "maxwomen-ethnicwear-winterkurtas",
+        "assignedPriceTier": 1194
+      }
+    },
+    {
+      "name": "Women Knit Straight Winter Kurta",
+      "slug": "1000015888752-pink-fuchsia",
+      "price": 1235,
+      "originalPrice": 1385,
+      "category": "winter kurtas",
+      "description": "Women Knit Straight Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaTitle": "Women Knit Straight Winter Kurta",
+      "metaDescription": "Women Knit Straight Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaKeywords": [
+        "winter kurtas",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Pink"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015888752-Pink-FUCHSIA-1000015888752_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888752-Pink-FUCHSIA-1000015888752_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888752-Pink-FUCHSIA-1000015888752_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888752-Pink-FUCHSIA-1000015888752_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888752-Pink-FUCHSIA-1000015888752_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888752-Pink-FUCHSIA-1000015888752_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888752-Pink-FUCHSIA-1000015888752_07-2100.jpg"
+      ],
+      "tags": [
+        "winter kurtas",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Kurta",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 15 x 2 cm",
+      "stockQuantity": 27,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-10T18:30:00.000Z",
+      "breadcrumbCategory": "winter kurtas",
+      "_source": {
+        "nykaaId": "1000015888752PinkFUCHSIA",
+        "sku": "1000015888752-Pink-FUCHSIA",
+        "categoryFilter": "maxwomen-ethnicwear-winterkurtas",
+        "assignedPriceTier": 1235
+      }
+    },
+    {
+      "name": "Women Knit Straight Winter Kurta",
+      "slug": "1000015888752-blue-royalblue",
+      "price": 1445,
+      "originalPrice": 1595,
+      "category": "winter kurtas",
+      "description": "Women Knit Straight Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaTitle": "Women Knit Straight Winter Kurta",
+      "metaDescription": "Women Knit Straight Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaKeywords": [
+        "winter kurtas",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015888752-Blue-ROYALBLUE-1000015888752_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888752-Blue-ROYALBLUE-1000015888752_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888752-Blue-ROYALBLUE-1000015888752_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888752-Blue-ROYALBLUE-1000015888752_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888752-Blue-ROYALBLUE-1000015888752_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888752-Blue-ROYALBLUE-1000015888752_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888752-Blue-ROYALBLUE-1000015888752_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888752-Blue-ROYALBLUE-1000015888752_08-2100.jpg"
+      ],
+      "tags": [
+        "winter kurtas",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.6 kg",
+      "dimensions": "10 x 14 x 6 cm",
+      "stockQuantity": 86,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1000015888752BlueROYALBLUE",
+        "sku": "1000015888752-Blue-ROYALBLUE",
+        "categoryFilter": "maxwomen-ethnicwear-winterkurtas",
+        "assignedPriceTier": 1445
+      }
+    },
+    {
+      "name": "Women Knit Straight Winter Kurta",
+      "slug": "1000015888727-purple-violet",
+      "price": 1141,
+      "originalPrice": 1291,
+      "category": "winter kurtas",
+      "description": "Women Knit Straight Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaTitle": "Women Knit Straight Winter Kurta",
+      "metaDescription": "Women Knit Straight Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaKeywords": [
+        "winter kurtas",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Purple"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015888727-Purple-VIOLET-1000015888727_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888727-Purple-VIOLET-1000015888727_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888727-Purple-VIOLET-1000015888727_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888727-Purple-VIOLET-1000015888727_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888727-Purple-VIOLET-1000015888727_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888727-Purple-VIOLET-1000015888727_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888727-Purple-VIOLET-1000015888727_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888727-Purple-VIOLET-1000015888727_08-2100.jpg"
+      ],
+      "tags": [
+        "winter kurtas",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.6 kg",
+      "dimensions": "14 x 11 x 7 cm",
+      "stockQuantity": 111,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-02T18:30:00.000Z",
+      "breadcrumbCategory": "winter kurtas",
+      "_source": {
+        "nykaaId": "1000015888727PurpleVIOLET",
+        "sku": "1000015888727-Purple-VIOLET",
+        "categoryFilter": "maxwomen-ethnicwear-winterkurtas",
+        "assignedPriceTier": 1141
+      }
+    },
+    {
+      "name": "Women Knit Layered A-line Winter Kurta",
+      "slug": "1000015888714-purple-mauve",
+      "price": 1352,
+      "originalPrice": 1502,
+      "category": "winter kurtas",
+      "description": "Women Knit Layered A-line Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaTitle": "Women Knit Layered A-line Winter Kurta",
+      "metaDescription": "Women Knit Layered A-line Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaKeywords": [
+        "winter kurtas",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Purple"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015888714-Purple-MAUVE-1000015888714_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888714-Purple-MAUVE-1000015888714_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888714-Purple-MAUVE-1000015888714_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888714-Purple-MAUVE-1000015888714_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888714-Purple-MAUVE-1000015888714_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888714-Purple-MAUVE-1000015888714_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888714-Purple-MAUVE-1000015888714_07-2100.jpg"
+      ],
+      "tags": [
+        "winter kurtas",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.7 kg",
+      "dimensions": "13 x 11 x 5 cm",
+      "stockQuantity": 42,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "winter kurtas",
+      "_source": {
+        "nykaaId": "1000015888714PurpleMAUVE",
+        "sku": "1000015888714-Purple-MAUVE",
+        "categoryFilter": "maxwomen-ethnicwear-winterkurtas",
+        "assignedPriceTier": 1352
+      }
+    },
+    {
+      "name": "Women Knit Straight Winter Kurta",
+      "slug": "1000015888701-purple-wine",
+      "price": 1143,
+      "originalPrice": 1293,
+      "category": "winter kurtas",
+      "description": "Women Knit Straight Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaTitle": "Women Knit Straight Winter Kurta",
+      "metaDescription": "Women Knit Straight Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaKeywords": [
+        "winter kurtas",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Purple"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015888701-Purple-WINE-1000015888701_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888701-Purple-WINE-1000015888701_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888701-Purple-WINE-1000015888701_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888701-Purple-WINE-1000015888701_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888701-Purple-WINE-1000015888701_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888701-Purple-WINE-1000015888701_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888701-Purple-WINE-1000015888701_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888701-Purple-WINE-1000015888701_08-2100.jpg"
+      ],
+      "tags": [
+        "winter kurtas",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.3 kg",
+      "dimensions": "10 x 11 x 8 cm",
+      "stockQuantity": 22,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "winter kurtas",
+      "_source": {
+        "nykaaId": "1000015888701PurpleWINE",
+        "sku": "1000015888701-Purple-WINE",
+        "categoryFilter": "maxwomen-ethnicwear-winterkurtas",
+        "assignedPriceTier": 1143
+      }
+    },
+    {
+      "name": "Women Knit Straight Winter Kurta",
+      "slug": "1000015888675-green-teal",
+      "price": 1440,
+      "originalPrice": 1590,
+      "category": "winter kurtas",
+      "description": "Women Knit Straight Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaTitle": "Women Knit Straight Winter Kurta",
+      "metaDescription": "Women Knit Straight Winter Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaKeywords": [
+        "winter kurtas",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015888675-Green-TEAL-1000015888675_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888675-Green-TEAL-1000015888675_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888675-Green-TEAL-1000015888675_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888675-Green-TEAL-1000015888675_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888675-Green-TEAL-1000015888675_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888675-Green-TEAL-1000015888675_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888675-Green-TEAL-1000015888675_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888675-Green-TEAL-1000015888675_08-2100.jpg"
+      ],
+      "tags": [
+        "winter kurtas",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.3 kg",
+      "dimensions": "9 x 14 x 2 cm",
+      "stockQuantity": 101,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-03T18:30:00.000Z",
+      "breadcrumbCategory": "winter kurtas",
+      "_source": {
+        "nykaaId": "1000015888675GreenTEAL",
+        "sku": "1000015888675-Green-TEAL",
+        "categoryFilter": "maxwomen-ethnicwear-winterkurtas",
+        "assignedPriceTier": 1440
+      }
+    },
+    {
+      "name": "Women Knit Straight Kurta",
+      "slug": "1000015888649-red-red",
+      "price": 1010,
+      "originalPrice": 1160,
+      "category": "winter kurtas",
+      "description": "Women Knit Straight Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaTitle": "Women Knit Straight Kurta",
+      "metaDescription": "Women Knit Straight Kurta. Premium winter kurtas from our curated ethnic collection.",
+      "metaKeywords": [
+        "winter kurtas",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Red"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015888649-Red-RED-1000015888649_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888649-Red-RED-1000015888649_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888649-Red-RED-1000015888649_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888649-Red-RED-1000015888649_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888649-Red-RED-1000015888649_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888649-Red-RED-1000015888649_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888649-Red-RED-1000015888649_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015888649-Red-RED-1000015888649_08-2100.jpg"
+      ],
+      "tags": [
+        "winter kurtas",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.3 kg",
+      "dimensions": "9 x 15 x 3 cm",
+      "stockQuantity": 100,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "winter kurtas",
+      "_source": {
+        "nykaaId": "1000015888649RedRED",
+        "sku": "1000015888649-Red-RED",
+        "categoryFilter": "maxwomen-ethnicwear-winterkurtas",
+        "assignedPriceTier": 1010
+      }
+    }
+  ]
+}
