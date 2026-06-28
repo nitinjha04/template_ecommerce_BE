@@ -37,6 +37,8 @@
     "scrape:nexa": "tsx src/scraping/nexa-skyline/scrape.ts",
     "scrape:nexa:all": "tsx src/scraping/nexa-skyline/scrape.ts -- --config src/scraping/nexa-skyline/categories.example.json",
     "scrape:nexa:fix-partial": "tsx src/scraping/nexa-skyline/fix-partial.ts",
+    "scrape:protico": "tsx src/scraping/protico/scrape.ts",
+    "scrape:protico:all": "tsx src/scraping/protico/scrape.ts -- --config src/scraping/protico/categories.example.json",
     "remove:duplicate-products": "tsx src/scripts/remove-duplicate-products.ts",
     "remove:duplicate-products:dry": "tsx src/scripts/remove-duplicate-products.ts --dry-run",
     "migrate:assign-store": "tsx src/scripts/migrate-assign-store.ts"
