@@ -4,12 +4,14 @@ import { getEmailTransport } from '../config/emailTransport';
 import {
   env,
   getEmailFromForDomain,
+  getOrderAdminNotificationRecipients,
   isBrevoConfigured,
   isEmailConfigured,
   isEmailEnabled,
   logEmailEnvDiagnostics,
 } from '../config/env';
 import type { IPayment } from '../models/Payment.model';
+import { Store } from '../models/Store.model';
 import { getStoreContext } from '../context/store.context';
 import {
   orderCancelledEmail,
@@ -39,6 +41,32 @@ export class EmailService {
   private static getBrandName(): string {
     const store = getStoreContext();
     return store?.storeName?.trim() || 'Casaq';
+  }
+
+  private static async resolveOrderStoreDomain(
+    order: IOrder
+  ): Promise<string | undefined> {
+    const fromContext = getStoreContext()?.storeDomain;
+    if (fromContext) return fromContext;
+
+    if (!order.store) return undefined;
+    const store = await Store.findById(order.store).select('domain').lean();
+    return store?.domain ?? undefined;
+  }
+
+  private static async sendToOrderAdmins(
+    order: IOrder,
+    email: { subject: string; html: string }
+  ): Promise<void> {
+    const domain = await this.resolveOrderStoreDomain(order);
+    const recipients = getOrderAdminNotificationRecipients(domain);
+    await Promise.all(
+      recipients.map((to) =>
+        this.send(to, email.subject, email.html, {
+          mustDeliver: isEmailEnabled(),
+        })
+      )
+    );
   }
 
   private static async send(
@@ -109,9 +137,7 @@ export class EmailService {
     });
 
     const admin = orderPaymentConfirmedAdminEmail(order, payment);
-    await this.send(env.smtp.adminEmail, admin.subject, admin.html, {
-      mustDeliver: isEmailEnabled(),
-    });
+    await this.sendToOrderAdmins(order, admin);
   }
 
   /** Buyer + admin notification when an order is placed (e.g. COD). */
@@ -122,9 +148,7 @@ export class EmailService {
     });
 
     const admin = orderPlacedAdminEmail(order);
-    await this.send(env.smtp.adminEmail, admin.subject, admin.html, {
-      mustDeliver: isEmailEnabled(),
-    });
+    await this.sendToOrderAdmins(order, admin);
   }
 
   /** Buyer notification when order status changes. */

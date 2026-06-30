@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.logEmailEnvDiagnostics = exports.isEmailEnabled = exports.getEmailFromForDomain = exports.getEmailFrom = exports.isEmailConfigured = exports.isBrevoConfigured = exports.isDsaGatewayConfigured = exports.getPaymentReturnUrl = exports.getFrontendOrigin = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
+exports.logEmailEnvDiagnostics = exports.isEmailEnabled = exports.getOrderAdminNotificationRecipients = exports.getStoreOrderAdminEmails = exports.getEmailFromForDomain = exports.getEmailFrom = exports.isEmailConfigured = exports.isBrevoConfigured = exports.isDsaGatewayConfigured = exports.getPaymentReturnUrl = exports.getFrontendOrigin = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
 const dotenv_1 = __importDefault(require("dotenv"));
 const storeDomain_1 = require("../utils/storeDomain");
 dotenv_1.default.config();
@@ -117,6 +117,52 @@ const getEmailFromForDomain = (domain) => {
     return exports.env.smtp.from;
 };
 exports.getEmailFromForDomain = getEmailFromForDomain;
+/**
+ * Per-store "new order" notification inboxes (in addition to ADMIN_EMAIL).
+ * Format: domain=email1,email2;domain2=email3
+ * Example: casaq.in=casaqte@gmail.com;argenstyle.in=a@x.com,b@y.com
+ */
+const parseStoreOrderAdminEmails = () => {
+    const raw = (process.env.STORE_ORDER_ADMIN_EMAILS ?? "").trim();
+    const map = new Map();
+    if (!raw)
+        return map;
+    for (const entry of raw.split(";")) {
+        const eqIdx = entry.indexOf("=");
+        if (eqIdx <= 0)
+            continue;
+        const domain = (0, storeDomain_1.normalizeStoreDomain)(entry.slice(0, eqIdx));
+        const emails = entry
+            .slice(eqIdx + 1)
+            .split(",")
+            .map((e) => e.trim().toLowerCase())
+            .filter(Boolean);
+        if (domain && emails.length) {
+            map.set(domain, emails);
+        }
+    }
+    return map;
+};
+const storeOrderAdminEmails = parseStoreOrderAdminEmails();
+const getStoreOrderAdminEmails = (domain) => {
+    if (!domain)
+        return [];
+    const normalized = (0, storeDomain_1.normalizeStoreDomain)(domain);
+    return [...(storeOrderAdminEmails.get(normalized) ?? [])];
+};
+exports.getStoreOrderAdminEmails = getStoreOrderAdminEmails;
+/** Global admin + any store-specific order notification emails (deduped). */
+const getOrderAdminNotificationRecipients = (domain) => {
+    const recipients = new Set();
+    const globalAdmin = exports.env.smtp.adminEmail.trim().toLowerCase();
+    if (globalAdmin)
+        recipients.add(globalAdmin);
+    for (const email of (0, exports.getStoreOrderAdminEmails)(domain)) {
+        recipients.add(email);
+    }
+    return [...recipients];
+};
+exports.getOrderAdminNotificationRecipients = getOrderAdminNotificationRecipients;
 /** Emails are off until EMAIL_ENABLED=true and Brevo is configured. */
 const isEmailEnabled = () => exports.env.emailEnabled && (0, exports.isEmailConfigured)();
 exports.isEmailEnabled = isEmailEnabled;
@@ -136,6 +182,8 @@ const logEmailEnvDiagnostics = (context) => {
         EMAIL_FROM_CASAQ: exports.env.smtp.fromCasaq,
         EMAIL_FROM_ARGEN: exports.env.smtp.fromArgen,
         ADMIN_EMAIL: exports.env.smtp.adminEmail,
+        STORE_ORDER_ADMIN_EMAILS: process.env.STORE_ORDER_ADMIN_EMAILS ?? "(unset)",
+        storeOrderAdminDomains: [...storeOrderAdminEmails.keys()],
     });
 };
 exports.logEmailEnvDiagnostics = logEmailEnvDiagnostics;

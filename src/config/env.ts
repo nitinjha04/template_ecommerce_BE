@@ -134,6 +134,51 @@ export const getEmailFromForDomain = (domain?: string): string => {
   return env.smtp.from;
 };
 
+/**
+ * Per-store "new order" notification inboxes (in addition to ADMIN_EMAIL).
+ * Format: domain=email1,email2;domain2=email3
+ * Example: casaq.in=casaqte@gmail.com;argenstyle.in=a@x.com,b@y.com
+ */
+const parseStoreOrderAdminEmails = (): ReadonlyMap<string, readonly string[]> => {
+  const raw = (process.env.STORE_ORDER_ADMIN_EMAILS ?? "").trim();
+  const map = new Map<string, string[]>();
+  if (!raw) return map;
+
+  for (const entry of raw.split(";")) {
+    const eqIdx = entry.indexOf("=");
+    if (eqIdx <= 0) continue;
+    const domain = normalizeStoreDomain(entry.slice(0, eqIdx));
+    const emails = entry
+      .slice(eqIdx + 1)
+      .split(",")
+      .map((e) => e.trim().toLowerCase())
+      .filter(Boolean);
+    if (domain && emails.length) {
+      map.set(domain, emails);
+    }
+  }
+  return map;
+};
+
+const storeOrderAdminEmails = parseStoreOrderAdminEmails();
+
+export const getStoreOrderAdminEmails = (domain?: string): string[] => {
+  if (!domain) return [];
+  const normalized = normalizeStoreDomain(domain);
+  return [...(storeOrderAdminEmails.get(normalized) ?? [])];
+};
+
+/** Global admin + any store-specific order notification emails (deduped). */
+export const getOrderAdminNotificationRecipients = (domain?: string): string[] => {
+  const recipients = new Set<string>();
+  const globalAdmin = env.smtp.adminEmail.trim().toLowerCase();
+  if (globalAdmin) recipients.add(globalAdmin);
+  for (const email of getStoreOrderAdminEmails(domain)) {
+    recipients.add(email);
+  }
+  return [...recipients];
+};
+
 /** Emails are off until EMAIL_ENABLED=true and Brevo is configured. */
 export const isEmailEnabled = (): boolean =>
   env.emailEnabled && isEmailConfigured();
@@ -154,5 +199,7 @@ export const logEmailEnvDiagnostics = (context: string): void => {
     EMAIL_FROM_CASAQ: env.smtp.fromCasaq,
     EMAIL_FROM_ARGEN: env.smtp.fromArgen,
     ADMIN_EMAIL: env.smtp.adminEmail,
+    STORE_ORDER_ADMIN_EMAILS: process.env.STORE_ORDER_ADMIN_EMAILS ?? "(unset)",
+    storeOrderAdminDomains: [...storeOrderAdminEmails.keys()],
   });
 };

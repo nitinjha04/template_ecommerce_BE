@@ -4,6 +4,7 @@ exports.EmailService = void 0;
 const brevo_1 = require("../config/brevo");
 const emailTransport_1 = require("../config/emailTransport");
 const env_1 = require("../config/env");
+const Store_model_1 = require("../models/Store.model");
 const store_context_1 = require("../context/store.context");
 const orderEmailTemplates_1 = require("../emails/orderEmailTemplates");
 const passwordChangedEmail_1 = require("../emails/passwordChangedEmail");
@@ -20,6 +21,22 @@ class EmailService {
     static getBrandName() {
         const store = (0, store_context_1.getStoreContext)();
         return store?.storeName?.trim() || 'Casaq';
+    }
+    static async resolveOrderStoreDomain(order) {
+        const fromContext = (0, store_context_1.getStoreContext)()?.storeDomain;
+        if (fromContext)
+            return fromContext;
+        if (!order.store)
+            return undefined;
+        const store = await Store_model_1.Store.findById(order.store).select('domain').lean();
+        return store?.domain ?? undefined;
+    }
+    static async sendToOrderAdmins(order, email) {
+        const domain = await this.resolveOrderStoreDomain(order);
+        const recipients = (0, env_1.getOrderAdminNotificationRecipients)(domain);
+        await Promise.all(recipients.map((to) => this.send(to, email.subject, email.html, {
+            mustDeliver: (0, env_1.isEmailEnabled)(),
+        })));
     }
     static async send(to, subject, html, options = {}) {
         const { mustDeliver = false } = options;
@@ -66,9 +83,7 @@ class EmailService {
             mustDeliver: (0, env_1.isEmailEnabled)(),
         });
         const admin = (0, orderEmailTemplates_1.orderPaymentConfirmedAdminEmail)(order, payment);
-        await this.send(env_1.env.smtp.adminEmail, admin.subject, admin.html, {
-            mustDeliver: (0, env_1.isEmailEnabled)(),
-        });
+        await this.sendToOrderAdmins(order, admin);
     }
     /** Buyer + admin notification when an order is placed (e.g. COD). */
     static async sendOrderPlacedEmails(order) {
@@ -77,9 +92,7 @@ class EmailService {
             mustDeliver: (0, env_1.isEmailEnabled)(),
         });
         const admin = (0, orderEmailTemplates_1.orderPlacedAdminEmail)(order);
-        await this.send(env_1.env.smtp.adminEmail, admin.subject, admin.html, {
-            mustDeliver: (0, env_1.isEmailEnabled)(),
-        });
+        await this.sendToOrderAdmins(order, admin);
     }
     /** Buyer notification when order status changes. */
     static async sendOrderStatusUpdatedEmail(order, previousStatus) {
