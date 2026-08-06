@@ -13,12 +13,16 @@ import wishlistRoutes from './wishlist.routes';
 import cartRoutes from './cart.routes';
 import storeRoutes from './store.routes';
 import { resolveStore } from '../middleware/store.middleware';
+import { PaymentController } from '../controllers/payment.controller';
 
 const router = Router();
 
 router.get('/health', (_req, res) => {
   res.json({ success: true, message: 'Casaq API is running' });
 });
+
+/** Fully public — no store domain, no auth (deploy / config probe). */
+router.get('/payments/methods', PaymentController.getAvailableMethods);
 
 router.use('/stores', storeRoutes);
 

@@ -11,6 +11,8 @@ const SKIP_PREFIXES = [
   '/stores',
   '/gateway-payments/webhook',
   '/payments/razorpay/webhook',
+  /** Public config probe — no store domain or auth required. */
+  '/payments/methods',
 ];
 
 export const resolveStore = asyncHandler(

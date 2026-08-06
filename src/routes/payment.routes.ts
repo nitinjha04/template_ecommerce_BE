@@ -12,9 +12,11 @@ import {
 
 const router = Router();
 
-// Public provider-aware payment creation (used by checkout/payment pages)
+// GET /methods is registered on the root router (before store/auth).
+// Keep a fallback here as well for reverse-proxies that only mount /payments.
 router.get('/methods', PaymentController.getAvailableMethods);
 
+// Public provider-aware payment creation (used by checkout/payment pages)
 router.post(
   '/create',
   validate(createProviderPaymentValidator),
