@@ -3,7 +3,7 @@ import express from "express";
 import helmet from "helmet";
 import morgan from "morgan";
 import path from "path";
-import { env } from "./config/env";
+import { env, isRazorpayConfigured } from "./config/env";
 import { errorHandler, notFound } from "./middleware/error.middleware";
 import routes from "./routes";
 
@@ -48,6 +48,23 @@ app.use(
     maxAge: env.nodeEnv === "production" ? "7d" : 0,
   }),
 );
+
+/**
+ * Fully public probe — registered on the app (not the API router) so it never
+ * hits store resolution or auth. No headers required.
+ * GET /api/v1/payments/methods
+ */
+app.get("/api/v1/payments/methods", (_req, res) => {
+  const razorpay = isRazorpayConfigured();
+  res.status(200).json({
+    success: true,
+    message: "Payment methods",
+    data: {
+      razorpay,
+      ...(razorpay ? { keyId: env.razorpay.keyId } : {}),
+    },
+  });
+});
 
 app.use("/api/v1", routes);
 
