@@ -18,10 +18,13 @@ const wishlist_routes_1 = __importDefault(require("./wishlist.routes"));
 const cart_routes_1 = __importDefault(require("./cart.routes"));
 const store_routes_1 = __importDefault(require("./store.routes"));
 const store_middleware_1 = require("../middleware/store.middleware");
+const payment_controller_1 = require("../controllers/payment.controller");
 const router = (0, express_1.Router)();
 router.get('/health', (_req, res) => {
     res.json({ success: true, message: 'Casaq API is running' });
 });
+/** Fully public — no store domain, no auth (deploy / config probe). */
+router.get('/payments/methods', payment_controller_1.PaymentController.getAvailableMethods);
 router.use('/stores', store_routes_1.default);
 router.use(store_middleware_1.resolveStore);
 router.use('/auth', auth_routes_1.default);

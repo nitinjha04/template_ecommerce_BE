@@ -42,6 +42,7 @@ const PAYMENT_PROVIDERS = [
     'payu',
     'phonepe',
     'direct_upi',
+    'razorpay',
 ];
 const paymentSchema = new mongoose_1.Schema({
     store: {
@@ -84,6 +85,16 @@ const paymentSchema = new mongoose_1.Schema({
     directUpi: {
         vpa: { type: String, required: false },
         upiLink: { type: String, required: false },
+    },
+    razorpay: {
+        orderId: { type: String, required: false, index: true },
+        paymentId: { type: String, required: false, index: true },
+        signature: { type: String, required: false },
+        amount: { type: Number, required: false },
+        currency: { type: String, required: false },
+        createResponse: { type: mongoose_1.Schema.Types.Mixed, required: false },
+        webhookData: { type: mongoose_1.Schema.Types.Mixed, required: false },
+        successEmailSentAt: { type: Date, required: false },
     },
     gateway: {
         provider: { type: String, enum: ['dsa-gateway'], required: false },

@@ -6,7 +6,14 @@ const store_service_1 = require("../services/store.service");
 const storeDomain_1 = require("../utils/storeDomain");
 const ApiError_1 = require("../utils/ApiError");
 const asyncHandler_1 = require("../utils/asyncHandler");
-const SKIP_PREFIXES = ['/health', '/stores', '/gateway-payments/webhook'];
+const SKIP_PREFIXES = [
+    '/health',
+    '/stores',
+    '/gateway-payments/webhook',
+    '/payments/razorpay/webhook',
+    /** Public config probe — no store domain or auth required. */
+    '/payments/methods',
+];
 exports.resolveStore = (0, asyncHandler_1.asyncHandler)(async (req, res, next) => {
     const path = req.path;
     if (SKIP_PREFIXES.some((prefix) => path === prefix || path.startsWith(`${prefix}/`))) {

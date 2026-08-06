@@ -6,6 +6,7 @@ const asyncHandler_1 = require("../utils/asyncHandler");
 const params_1 = require("../utils/params");
 const ApiResponse_1 = require("../views/ApiResponse");
 const dsaGatewayPayment_service_1 = require("../services/dsaGatewayPayment.service");
+const razorpayPayment_service_1 = require("../services/razorpayPayment.service");
 const env_1 = require("../config/env");
 const ApiError_1 = require("../utils/ApiError");
 const models_1 = require("../models");
@@ -38,6 +39,16 @@ class PaymentController {
     });
     static createProviderPayment = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
         const { orderNumber, provider, gatewayId, email, phone, name, } = req.body;
+        if (provider === 'razorpay') {
+            const result = await razorpayPayment_service_1.RazorpayPaymentService.createForOrder({
+                orderNumber,
+                email,
+                phone,
+                name,
+            });
+            ApiResponse_1.ApiResponse.success(res, result, 'Razorpay order created');
+            return;
+        }
         if (provider === 'dsa_deeplink') {
             const result = await dsaGatewayPayment_service_1.DsaGatewayPaymentService.createForOrder({
                 orderNumber,
@@ -101,6 +112,32 @@ class PaymentController {
             throw new ApiError_1.ApiError(501, 'PhonePe integration is not configured yet. Please choose another method.');
         }
         throw new ApiError_1.ApiError(400, 'Invalid provider');
+    });
+    /** Public: which checkout providers are enabled on this API. */
+    static getAvailableMethods = (0, asyncHandler_1.asyncHandler)(async (_req, res) => {
+        ApiResponse_1.ApiResponse.success(res, {
+            razorpay: (0, env_1.isRazorpayConfigured)(),
+            keyId: (0, env_1.isRazorpayConfigured)() ? env_1.env.razorpay.keyId : undefined,
+        }, 'Payment methods');
+    });
+    static verifyRazorpay = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
+        const { orderNumber, razorpay_order_id, razorpay_payment_id, razorpay_signature, email, phone, } = req.body;
+        const result = await razorpayPayment_service_1.RazorpayPaymentService.verifyAndCapture({
+            orderNumber,
+            razorpay_order_id,
+            razorpay_payment_id,
+            razorpay_signature,
+            email,
+            phone,
+        });
+        ApiResponse_1.ApiResponse.success(res, result, 'Payment verified');
+    });
+    static razorpayWebhook = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
+        const signature = req.header('x-razorpay-signature') ?? undefined;
+        const rawBody = req.rawBody ??
+            Buffer.from(JSON.stringify(req.body ?? {}));
+        await razorpayPayment_service_1.RazorpayPaymentService.handleWebhook(rawBody, signature, req.body);
+        res.status(200).json({ status: 'ok' });
     });
 }
 exports.PaymentController = PaymentController;

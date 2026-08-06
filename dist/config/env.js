@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.logEmailEnvDiagnostics = exports.isEmailEnabled = exports.getOrderAdminNotificationRecipients = exports.getStoreOrderAdminEmails = exports.getEmailFromForDomain = exports.getEmailFrom = exports.isEmailConfigured = exports.isBrevoConfigured = exports.isDsaGatewayConfigured = exports.getPaymentReturnUrl = exports.getFrontendOrigin = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
+exports.logEmailEnvDiagnostics = exports.isEmailEnabled = exports.getOrderAdminNotificationRecipients = exports.getStoreOrderAdminEmails = exports.getEmailFromForDomain = exports.getEmailFrom = exports.isEmailConfigured = exports.isBrevoConfigured = exports.isRazorpayConfigured = exports.isDsaGatewayConfigured = exports.getPaymentReturnUrl = exports.getFrontendOrigin = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
 const dotenv_1 = __importDefault(require("dotenv"));
 const storeDomain_1 = require("../utils/storeDomain");
 dotenv_1.default.config();
@@ -33,6 +33,12 @@ exports.env = {
     },
     directUpi: {
         vpa: (process.env.DIRECT_UPI_VPA ?? "").trim(),
+    },
+    razorpay: {
+        keyId: (process.env.RAZORPAY_KEY_ID ?? "").trim(),
+        keySecret: (process.env.RAZORPAY_KEY_SECRET ?? "").trim(),
+        /** Optional — set from Razorpay Dashboard → Webhooks for payment.captured. */
+        webhookSecret: (process.env.RAZORPAY_WEBHOOK_SECRET ?? "").trim(),
     },
     imagekit: {
         publicKey: process.env.IMAGEKIT_PUBLIC_KEY ?? "",
@@ -100,6 +106,11 @@ const isDsaGatewayConfigured = () => {
     return Boolean(merchantId && privateKey && publicKey && baseUrl);
 };
 exports.isDsaGatewayConfigured = isDsaGatewayConfigured;
+const isRazorpayConfigured = () => {
+    const { keyId, keySecret } = exports.env.razorpay;
+    return Boolean(keyId && keySecret && !isPlaceholder(keyId) && !isPlaceholder(keySecret));
+};
+exports.isRazorpayConfigured = isRazorpayConfigured;
 const isBrevoConfigured = () => Boolean(exports.env.brevo.apiKey);
 exports.isBrevoConfigured = isBrevoConfigured;
 const isEmailConfigured = () => (0, exports.isBrevoConfigured)();
