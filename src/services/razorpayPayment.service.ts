@@ -157,13 +157,12 @@ export class RazorpayPaymentService {
       throw new ApiError(400, 'Order is already paid');
     }
 
-    // Development: always charge ₹1 on Razorpay (keep real order.total on the order record).
-    // Override: DEV_FORCE_ORDER_AMOUNT=false uses full order total even in development.
-    // DEV_TEST_ORDER_AMOUNT can change the test charge (default 1).
+    // Charge override (₹1 default): development, or DEV_TEST_ORDER_AMOUNT / DEV_FORCE_ORDER_AMOUNT set.
+    // Amount sent to Razorpay can be ₹1 while order.total stays the real cart total.
     const orderTotal = Number(order.total) || 0;
     const chargeTotal = applyDevTestOrderTotal(orderTotal);
     const amountPaise = Math.max(100, Math.round(chargeTotal * 100)); // Razorpay min = 100 paise
-    const isDevCharge = chargeTotal !== orderTotal || shouldApplyDevTestOrderAmount();
+    const isDevCharge = shouldApplyDevTestOrderAmount();
 
     this.log('createForOrder:amount', {
       orderNumber: order.orderNumber,
