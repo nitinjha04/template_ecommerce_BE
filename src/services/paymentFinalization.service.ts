@@ -18,7 +18,9 @@ export class PaymentFinalizationService {
   ): Promise<void> {
     const paidAt = extras?.paidAt ?? payment.paidAt ?? new Date();
     const gatewayOrderNo =
-      extras?.gatewayOrderNo ?? payment.gateway?.gatewayOrderNo;
+      extras?.gatewayOrderNo ??
+      payment.gateway?.gatewayOrderNo ??
+      payment.razorpay?.paymentId;
 
     const paymentInfo = {
       paymentId: payment._id as Types.ObjectId,
@@ -28,7 +30,8 @@ export class PaymentFinalizationService {
       method: payment.method,
       provider: payment.provider,
       paidAt,
-      merchantOrderNo: payment.gateway?.merchantOrderNo,
+      merchantOrderNo:
+        payment.gateway?.merchantOrderNo ?? payment.razorpay?.orderId,
       gatewayOrderNo,
     };
 
@@ -111,7 +114,11 @@ export class PaymentFinalizationService {
     orderId: Types.ObjectId
   ): Promise<void> {
     const freshPayment = await Payment.findById(paymentId).exec();
-    if (!freshPayment || freshPayment.gateway?.successEmailSentAt) {
+    if (
+      !freshPayment ||
+      freshPayment.gateway?.successEmailSentAt ||
+      freshPayment.razorpay?.successEmailSentAt
+    ) {
       return;
     }
 
@@ -130,9 +137,13 @@ export class PaymentFinalizationService {
         freshOrder,
         freshPayment
       );
+      const emailSentAtPath =
+        freshPayment.provider === 'razorpay'
+          ? 'razorpay.successEmailSentAt'
+          : 'gateway.successEmailSentAt';
       await Payment.updateOne(
         { _id: paymentId },
-        { $set: { 'gateway.successEmailSentAt': new Date() } }
+        { $set: { [emailSentAtPath]: new Date() } }
       );
       console.info(
         `[email] Payment confirmation sent for order ${freshOrder.orderNumber}`

@@ -32,6 +32,12 @@ export const env = {
   directUpi: {
     vpa: (process.env.DIRECT_UPI_VPA ?? "").trim(),
   },
+  razorpay: {
+    keyId: (process.env.RAZORPAY_KEY_ID ?? "").trim(),
+    keySecret: (process.env.RAZORPAY_KEY_SECRET ?? "").trim(),
+    /** Optional — set from Razorpay Dashboard → Webhooks for payment.captured. */
+    webhookSecret: (process.env.RAZORPAY_WEBHOOK_SECRET ?? "").trim(),
+  },
   imagekit: {
     publicKey: process.env.IMAGEKIT_PUBLIC_KEY ?? "",
     privateKey: process.env.IMAGEKIT_PRIVATE_KEY ?? "",
@@ -114,6 +120,11 @@ export const getPaymentReturnUrl = (
 export const isDsaGatewayConfigured = (): boolean => {
   const { merchantId, privateKey, publicKey, baseUrl } = env.dsaGateway;
   return Boolean(merchantId && privateKey && publicKey && baseUrl);
+};
+
+export const isRazorpayConfigured = (): boolean => {
+  const { keyId, keySecret } = env.razorpay;
+  return Boolean(keyId && keySecret && !isPlaceholder(keyId) && !isPlaceholder(keySecret));
 };
 
 export const isBrevoConfigured = (): boolean => Boolean(env.brevo.apiKey);

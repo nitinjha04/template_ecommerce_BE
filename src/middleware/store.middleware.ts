@@ -6,7 +6,12 @@ import { extractDomainFromRequest } from '../utils/storeDomain';
 import { ApiError } from '../utils/ApiError';
 import { asyncHandler } from '../utils/asyncHandler';
 
-const SKIP_PREFIXES = ['/health', '/stores', '/gateway-payments/webhook'];
+const SKIP_PREFIXES = [
+  '/health',
+  '/stores',
+  '/gateway-payments/webhook',
+  '/payments/razorpay/webhook',
+];
 
 export const resolveStore = asyncHandler(
   async (req: AuthRequest, res: Response, next: NextFunction) => {

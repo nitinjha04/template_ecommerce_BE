@@ -5,7 +5,8 @@ import { getParamId } from '../utils/params';
 import { ApiResponse } from '../views/ApiResponse';
 import { AuthRequest, PaymentStatus } from '../types';
 import { DsaGatewayPaymentService } from '../services/dsaGatewayPayment.service';
-import { env } from '../config/env';
+import { RazorpayPaymentService } from '../services/razorpayPayment.service';
+import { env, isRazorpayConfigured } from '../config/env';
 import { ApiError } from '../utils/ApiError';
 import { Order, Payment } from '../models';
 import { mergeStoreFilter } from '../utils/storeScope';
@@ -57,12 +58,23 @@ export class PaymentController {
       name,
     } = req.body as {
       orderNumber: string;
-      provider: 'dsa_deeplink' | 'payu' | 'phonepe' | 'direct_upi';
+      provider: 'dsa_deeplink' | 'payu' | 'phonepe' | 'direct_upi' | 'razorpay';
       gatewayId?: number;
       email?: string;
       phone?: string;
       name?: string;
     };
+
+    if (provider === 'razorpay') {
+      const result = await RazorpayPaymentService.createForOrder({
+        orderNumber,
+        email,
+        phone,
+        name,
+      });
+      ApiResponse.success(res, result, 'Razorpay order created');
+      return;
+    }
 
     if (provider === 'dsa_deeplink') {
       const result = await DsaGatewayPaymentService.createForOrder({
@@ -150,5 +162,55 @@ export class PaymentController {
     }
 
     throw new ApiError(400, 'Invalid provider');
+  });
+
+  /** Public: which checkout providers are enabled on this API. */
+  static getAvailableMethods = asyncHandler(async (_req: Request, res: Response) => {
+    ApiResponse.success(
+      res,
+      {
+        razorpay: isRazorpayConfigured(),
+        keyId: isRazorpayConfigured() ? env.razorpay.keyId : undefined,
+      },
+      'Payment methods'
+    );
+  });
+
+  static verifyRazorpay = asyncHandler(async (req: Request, res: Response) => {
+    const {
+      orderNumber,
+      razorpay_order_id,
+      razorpay_payment_id,
+      razorpay_signature,
+      email,
+      phone,
+    } = req.body as {
+      orderNumber: string;
+      razorpay_order_id: string;
+      razorpay_payment_id: string;
+      razorpay_signature: string;
+      email?: string;
+      phone?: string;
+    };
+
+    const result = await RazorpayPaymentService.verifyAndCapture({
+      orderNumber,
+      razorpay_order_id,
+      razorpay_payment_id,
+      razorpay_signature,
+      email,
+      phone,
+    });
+    ApiResponse.success(res, result, 'Payment verified');
+  });
+
+  static razorpayWebhook = asyncHandler(async (req: Request, res: Response) => {
+    const signature = req.header('x-razorpay-signature') ?? undefined;
+    const rawBody =
+      (req as Request & { rawBody?: Buffer }).rawBody ??
+      Buffer.from(JSON.stringify(req.body ?? {}));
+
+    await RazorpayPaymentService.handleWebhook(rawBody, signature, req.body);
+    res.status(200).json({ status: 'ok' });
   });
 }

@@ -30,7 +30,17 @@ app.use(
   }),
 );
 app.use(morgan(env.nodeEnv === "development" ? "dev" : "combined"));
-app.use(express.json({ limit: "10mb" }));
+app.use(
+  express.json({
+    limit: "10mb",
+    verify: (req, _res, buf) => {
+      // Razorpay webhook signature must be verified against the raw body.
+      if (req.url?.includes("/payments/razorpay/webhook")) {
+        (req as express.Request & { rawBody?: Buffer }).rawBody = buf;
+      }
+    },
+  }),
+);
 app.use(express.urlencoded({ extended: true }));
 app.use(
   "/uploads",

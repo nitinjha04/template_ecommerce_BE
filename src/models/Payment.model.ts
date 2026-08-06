@@ -7,7 +7,7 @@ export interface IPayment extends Document {
   paymentNumber: string;
   order: Types.ObjectId;
   user?: Types.ObjectId;
-  provider?: 'dsa_deeplink' | 'payu' | 'phonepe' | 'direct_upi';
+  provider?: 'dsa_deeplink' | 'payu' | 'phonepe' | 'direct_upi' | 'razorpay';
   method: string;
   amount: number;
   status: PaymentStatus;
@@ -16,6 +16,16 @@ export interface IPayment extends Document {
   directUpi?: {
     vpa: string;
     upiLink: string;
+  };
+  razorpay?: {
+    orderId?: string;
+    paymentId?: string;
+    signature?: string;
+    amount?: number;
+    currency?: string;
+    createResponse?: unknown;
+    webhookData?: unknown;
+    successEmailSentAt?: Date;
   };
   gateway?: {
     provider: 'dsa-gateway';
@@ -39,6 +49,7 @@ const PAYMENT_PROVIDERS: NonNullable<IPayment['provider']>[] = [
   'payu',
   'phonepe',
   'direct_upi',
+  'razorpay',
 ];
 
 const paymentSchema = new Schema<IPayment>(
@@ -83,6 +94,16 @@ const paymentSchema = new Schema<IPayment>(
     directUpi: {
       vpa: { type: String, required: false },
       upiLink: { type: String, required: false },
+    },
+    razorpay: {
+      orderId: { type: String, required: false, index: true },
+      paymentId: { type: String, required: false, index: true },
+      signature: { type: String, required: false },
+      amount: { type: Number, required: false },
+      currency: { type: String, required: false },
+      createResponse: { type: Schema.Types.Mixed, required: false },
+      webhookData: { type: Schema.Types.Mixed, required: false },
+      successEmailSentAt: { type: Date, required: false },
     },
     gateway: {
       provider: { type: String, enum: ['dsa-gateway'], required: false },
