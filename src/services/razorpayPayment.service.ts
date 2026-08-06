@@ -6,7 +6,7 @@ import { Order, Payment } from '../models';
 import type { IOrder } from '../models/Order.model';
 import type { IPayment } from '../models/Payment.model';
 import { ApiError } from '../utils/ApiError';
-import { applyDevTestOrderTotal } from '../utils/devOrderAmount';
+import { applyDevTestOrderTotal, shouldApplyDevTestOrderAmount } from '../utils/devOrderAmount';
 import { mergeStoreFilter } from '../utils/storeScope';
 import { PaymentFinalizationService } from './paymentFinalization.service';
 import { runPaymentSuccessSideEffects } from './paymentSideEffects';
@@ -157,11 +157,22 @@ export class RazorpayPaymentService {
       throw new ApiError(400, 'Order is already paid');
     }
 
-    const chargeTotal = applyDevTestOrderTotal(order.total);
-    const amountPaise = Math.round(chargeTotal * 100);
-    if (amountPaise < 100) {
-      throw new ApiError(400, 'Order amount is too low for Razorpay');
-    }
+    // Development: always charge ₹1 on Razorpay (keep real order.total on the order record).
+    // Override: DEV_FORCE_ORDER_AMOUNT=false uses full order total even in development.
+    // DEV_TEST_ORDER_AMOUNT can change the test charge (default 1).
+    const orderTotal = Number(order.total) || 0;
+    const chargeTotal = applyDevTestOrderTotal(orderTotal);
+    const amountPaise = Math.max(100, Math.round(chargeTotal * 100)); // Razorpay min = 100 paise
+    const isDevCharge = chargeTotal !== orderTotal || shouldApplyDevTestOrderAmount();
+
+    this.log('createForOrder:amount', {
+      orderNumber: order.orderNumber,
+      orderTotal,
+      chargeTotal,
+      amountPaise,
+      nodeEnv: env.nodeEnv,
+      devTestCharge: isDevCharge,
+    });
 
     const receipt = order.orderNumber.slice(0, 40);
     const rzpOrder = await this.getClient().orders.create({
@@ -171,6 +182,12 @@ export class RazorpayPaymentService {
       notes: {
         orderNumber: order.orderNumber,
         storeOrderId: String(order._id),
+        ...(isDevCharge
+          ? {
+              devTestCharge: 'true',
+              originalOrderTotal: String(orderTotal),
+            }
+          : {}),
       },
     });
 

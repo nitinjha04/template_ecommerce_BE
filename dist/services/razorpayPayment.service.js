@@ -93,11 +93,21 @@ class RazorpayPaymentService {
         if (payment.status === 'Completed') {
             throw new ApiError_1.ApiError(400, 'Order is already paid');
         }
-        const chargeTotal = (0, devOrderAmount_1.applyDevTestOrderTotal)(order.total);
-        const amountPaise = Math.round(chargeTotal * 100);
-        if (amountPaise < 100) {
-            throw new ApiError_1.ApiError(400, 'Order amount is too low for Razorpay');
-        }
+        // Development: always charge ₹1 on Razorpay (keep real order.total on the order record).
+        // Override: DEV_FORCE_ORDER_AMOUNT=false uses full order total even in development.
+        // DEV_TEST_ORDER_AMOUNT can change the test charge (default 1).
+        const orderTotal = Number(order.total) || 0;
+        const chargeTotal = (0, devOrderAmount_1.applyDevTestOrderTotal)(orderTotal);
+        const amountPaise = Math.max(100, Math.round(chargeTotal * 100)); // Razorpay min = 100 paise
+        const isDevCharge = chargeTotal !== orderTotal || (0, devOrderAmount_1.shouldApplyDevTestOrderAmount)();
+        this.log('createForOrder:amount', {
+            orderNumber: order.orderNumber,
+            orderTotal,
+            chargeTotal,
+            amountPaise,
+            nodeEnv: env_1.env.nodeEnv,
+            devTestCharge: isDevCharge,
+        });
         const receipt = order.orderNumber.slice(0, 40);
         const rzpOrder = await this.getClient().orders.create({
             amount: amountPaise,
@@ -106,6 +116,12 @@ class RazorpayPaymentService {
             notes: {
                 orderNumber: order.orderNumber,
                 storeOrderId: String(order._id),
+                ...(isDevCharge
+                    ? {
+                        devTestCharge: 'true',
+                        originalOrderTotal: String(orderTotal),
+                    }
+                    : {}),
             },
         });
         await models_1.Payment.updateOne({ _id: payment._id }, {
