@@ -4,6 +4,7 @@ import { authenticate, authorize } from '../middleware/auth.middleware';
 import { validate } from '../middleware/validate.middleware';
 import { adminListQueryValidator } from '../validators/adminList.validator';
 import {
+  abandonUnpaidOrderValidator,
   createOrderValidator,
   orderIdValidator,
   trackOrderValidator,
@@ -19,6 +20,11 @@ router.use(authenticate);
 
 router.post('/', validate(createOrderValidator), OrderController.create);
 router.get('/my', OrderController.getMyOrders);
+router.post(
+  '/abandon-unpaid',
+  validate(abandonUnpaidOrderValidator),
+  OrderController.abandonUnpaidOnline
+);
 router.get('/export/csv', authorize('admin'), OrderController.exportCsv);
 router.get(
   '/',

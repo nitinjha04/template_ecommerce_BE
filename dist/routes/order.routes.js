@@ -12,6 +12,7 @@ router.post('/guest', (0, validate_middleware_1.validate)(order_validator_1.crea
 router.use(auth_middleware_1.authenticate);
 router.post('/', (0, validate_middleware_1.validate)(order_validator_1.createOrderValidator), order_controller_1.OrderController.create);
 router.get('/my', order_controller_1.OrderController.getMyOrders);
+router.post('/abandon-unpaid', (0, validate_middleware_1.validate)(order_validator_1.abandonUnpaidOrderValidator), order_controller_1.OrderController.abandonUnpaidOnline);
 router.get('/export/csv', (0, auth_middleware_1.authorize)('admin'), order_controller_1.OrderController.exportCsv);
 router.get('/', (0, auth_middleware_1.authorize)('admin'), (0, validate_middleware_1.validate)(adminList_validator_1.adminListQueryValidator), order_controller_1.OrderController.getAll);
 router.get('/:id', (0, validate_middleware_1.validate)(order_validator_1.orderIdValidator), order_controller_1.OrderController.getById);

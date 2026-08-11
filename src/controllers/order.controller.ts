@@ -67,6 +67,20 @@ export class OrderController {
     ApiResponse.success(res, order, 'Order status updated');
   });
 
+  static abandonUnpaidOnline = asyncHandler(async (req: AuthRequest, res: Response) => {
+    const orderNumber =
+      typeof req.body?.orderNumber === 'string'
+        ? req.body.orderNumber
+        : typeof req.params.orderNumber === 'string'
+          ? req.params.orderNumber
+          : '';
+    const result = await OrderService.abandonUnpaidOnlineOrder(
+      req.user!.userId,
+      orderNumber
+    );
+    ApiResponse.success(res, result, 'Unpaid order cancelled');
+  });
+
   static exportCsv = asyncHandler(async (_req: AuthRequest, res: Response) => {
     const csv = await OrderService.exportCsv();
     res.setHeader('Content-Type', 'text/csv; charset=utf-8');

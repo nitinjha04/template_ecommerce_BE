@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.trackOrderValidator = exports.orderIdValidator = exports.updateOrderStatusValidator = exports.createOrderValidator = void 0;
+exports.abandonUnpaidOrderValidator = exports.trackOrderValidator = exports.orderIdValidator = exports.updateOrderStatusValidator = exports.createOrderValidator = void 0;
 const express_validator_1 = require("express-validator");
 const email_1 = require("./email");
 const orderStatuses = ['Pending', 'Processing', 'Shipped', 'Delivered', 'Cancelled'];
@@ -61,4 +61,7 @@ exports.updateOrderStatusValidator = [
 exports.orderIdValidator = [(0, express_validator_1.param)('id').isMongoId()];
 exports.trackOrderValidator = [
     (0, express_validator_1.body)('query').trim().notEmpty().withMessage('Enter order ID, email, or phone'),
+];
+exports.abandonUnpaidOrderValidator = [
+    (0, express_validator_1.body)('orderNumber').trim().notEmpty().withMessage('orderNumber is required'),
 ];

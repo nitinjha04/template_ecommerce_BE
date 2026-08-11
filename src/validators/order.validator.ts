@@ -68,3 +68,7 @@ export const orderIdValidator = [param('id').isMongoId()];
 export const trackOrderValidator = [
   body('query').trim().notEmpty().withMessage('Enter order ID, email, or phone'),
 ];
+
+export const abandonUnpaidOrderValidator = [
+  body('orderNumber').trim().notEmpty().withMessage('orderNumber is required'),
+];

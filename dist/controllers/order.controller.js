@@ -48,6 +48,15 @@ class OrderController {
         const order = await order_service_1.OrderService.updateStatus((0, params_1.getParamId)(req), req.body.status);
         ApiResponse_1.ApiResponse.success(res, order, 'Order status updated');
     });
+    static abandonUnpaidOnline = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
+        const orderNumber = typeof req.body?.orderNumber === 'string'
+            ? req.body.orderNumber
+            : typeof req.params.orderNumber === 'string'
+                ? req.params.orderNumber
+                : '';
+        const result = await order_service_1.OrderService.abandonUnpaidOnlineOrder(req.user.userId, orderNumber);
+        ApiResponse_1.ApiResponse.success(res, result, 'Unpaid order cancelled');
+    });
     static exportCsv = (0, asyncHandler_1.asyncHandler)(async (_req, res) => {
         const csv = await order_service_1.OrderService.exportCsv();
         res.setHeader('Content-Type', 'text/csv; charset=utf-8');

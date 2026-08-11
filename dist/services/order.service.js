@@ -248,7 +248,24 @@ class OrderService {
                 console.warn(`[orders] payment repair skipped for ${o.orderNumber}:`, err instanceof Error ? err.message : err);
             }
         }
-        return orders.map((o) => (0, serializeOrder_1.serializeLeanOrder)(o, latestPaymentByOrder.get(String(o._id))));
+        return orders
+            .map((o) => (0, serializeOrder_1.serializeLeanOrder)(o, latestPaymentByOrder.get(String(o._id))))
+            // Hide abandoned / unpaid online attempts so "Pay now" never lists drafts from checkout cancel.
+            .filter((serialized) => {
+            const method = String(serialized.paymentMethod ?? '').toLowerCase();
+            const isOnline = method === 'online payment' ||
+                method.includes('razorpay') ||
+                method.includes('upi');
+            if (!isOnline)
+                return true;
+            const payment = serialized.payment;
+            const info = serialized.paymentInfo;
+            const paid = payment?.isPaid === true ||
+                payment?.status === 'Completed' ||
+                info?.isPaid === true ||
+                info?.status === 'Completed';
+            return paid;
+        });
     }
     static async getAllOrders() {
         return models_1.Order.find((0, storeScope_1.mergeStoreFilter)()).sort({ createdAt: -1, _id: -1 });
@@ -356,6 +373,44 @@ class OrderService {
             }
         }
         return order;
+    }
+    /**
+     * Customer abandoned Razorpay/online checkout before paying.
+     * Marks order Cancelled + payment Failed (no cancellation email — order was never paid).
+     */
+    static async abandonUnpaidOnlineOrder(userId, orderNumber) {
+        const order = await models_1.Order.findOne((0, storeScope_1.mergeStoreFilter)({
+            orderNumber: orderNumber.trim(),
+            user: new mongoose_1.Types.ObjectId(userId),
+        }));
+        if (!order) {
+            throw new ApiError_1.ApiError(404, 'Order not found');
+        }
+        const method = String(order.paymentMethod ?? '').toLowerCase();
+        const isOnline = method.includes('online') ||
+            method.includes('razorpay') ||
+            method.includes('upi');
+        if (!isOnline) {
+            throw new ApiError_1.ApiError(400, 'Only unpaid online orders can be abandoned');
+        }
+        if (order.paymentInfo?.status === 'Completed') {
+            throw new ApiError_1.ApiError(400, 'Order is already paid');
+        }
+        const payment = await models_1.Payment.findOne({ order: order._id });
+        if (payment?.status === 'Completed') {
+            throw new ApiError_1.ApiError(400, 'Order is already paid');
+        }
+        if (order.status === 'Shipped' || order.status === 'Delivered') {
+            throw new ApiError_1.ApiError(400, 'Order can no longer be cancelled from checkout');
+        }
+        if (order.status !== 'Cancelled') {
+            await models_1.Order.updateOne({ _id: order._id }, { $set: { status: 'Cancelled' } });
+        }
+        if (payment && payment.status !== 'Failed') {
+            await models_1.Payment.updateOne({ _id: payment._id }, { $set: { status: 'Failed', method: payment.method || 'Razorpay' } });
+        }
+        console.info(`[orders] Abandoned unpaid online order ${order.orderNumber} for user ${userId}`);
+        return { orderNumber: order.orderNumber, status: 'Cancelled' };
     }
     static async exportCsv() {
         const orders = await models_1.Order.find((0, storeScope_1.mergeStoreFilter)()).sort({ createdAt: -1 }).lean();
