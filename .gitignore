@@ -6,3 +6,4 @@ uploads/
 
 src/scraping/*
 !src/scraping/scrape-config.json
+
