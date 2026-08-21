@@ -1,12 +1,30 @@
-import mongoose, { Document, Schema } from 'mongoose';
+import mongoose, { Document, Schema, Types } from 'mongoose';
 import bcrypt from 'bcryptjs';
 import { UserRole } from '../types';
 
 export interface IUser extends Document {
+  store: Types.ObjectId;
   name: string;
   email: string;
   password: string;
   role: UserRole;
+  emailVerified: boolean;
+  /** 0 = started signup (OTP pending), 1 = verified/onboarded */
+  onBoardState: number;
+  cart: {
+    product: Types.ObjectId;
+    quantity: number;
+    size: string;
+    color: string;
+  }[];
+  signupOtpHash?: string;
+  signupOtpExpires?: Date;
+  resetPasswordToken?: string;
+  resetPasswordExpires?: Date;
+  resetOtpHash?: string;
+  resetOtpExpires?: Date;
+  resetOtpVerifiedAt?: Date;
+  wishlist: Types.ObjectId[];
   createdAt: Date;
   updatedAt: Date;
   comparePassword(candidate: string): Promise<boolean>;
@@ -14,6 +32,12 @@ export interface IUser extends Document {
 
 const userSchema = new Schema<IUser>(
   {
+    store: {
+      type: Schema.Types.ObjectId,
+      ref: 'Store',
+      required: true,
+      index: true,
+    },
     name: {
       type: String,
       required: [true, 'Name is required'],
@@ -23,7 +47,6 @@ const userSchema = new Schema<IUser>(
     email: {
       type: String,
       required: [true, 'Email is required'],
-      unique: true,
       lowercase: true,
       trim: true,
     },
@@ -38,6 +61,31 @@ const userSchema = new Schema<IUser>(
       enum: ['customer', 'admin'],
       default: 'customer',
     },
+    emailVerified: {
+      type: Boolean,
+      default: false,
+    },
+    onBoardState: {
+      type: Number,
+      default: 0,
+      min: 0,
+    },
+    signupOtpHash: { type: String, select: false },
+    signupOtpExpires: { type: Date, select: false },
+    resetPasswordToken: { type: String, select: false },
+    resetPasswordExpires: { type: Date, select: false },
+    resetOtpHash: { type: String, select: false },
+    resetOtpExpires: { type: Date, select: false },
+    resetOtpVerifiedAt: { type: Date, select: false },
+    wishlist: [{ type: Schema.Types.ObjectId, ref: 'Product' }],
+    cart: [
+      {
+        product: { type: Schema.Types.ObjectId, ref: 'Product', required: true },
+        quantity: { type: Number, required: true, min: 1 },
+        size: { type: String, required: true, trim: true, default: 'One Size' },
+        color: { type: String, required: true, trim: true, default: 'Default' },
+      },
+    ],
   },
   {
     timestamps: true,
@@ -53,6 +101,8 @@ const userSchema = new Schema<IUser>(
     },
   }
 );
+
+userSchema.index({ store: 1, email: 1 }, { unique: true });
 
 userSchema.pre('save', async function (next) {
   if (!this.isModified('password')) return next();

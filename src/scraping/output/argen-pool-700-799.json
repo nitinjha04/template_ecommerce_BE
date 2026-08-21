@@ -1,0 +1,2866 @@
+{
+  "scrapedAt": "2026-06-01T19:50:40.769Z",
+  "storeId": "6a1b3810c266f7503a001765",
+  "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+  "categoryName": "pool-mixed",
+  "priceMin": 700,
+  "priceMax": 799,
+  "categoryId": "6557",
+  "priceMode": "random",
+  "sort": "low-to-high",
+  "totalProducts": 50,
+  "pagesFetched": 13,
+  "products": [
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Olive",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-olive",
+      "price": 790,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Olive. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Olive",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Olive. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530058_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530058_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530058_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530058_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.4 kg",
+      "dimensions": "11 x 14 x 7 cm",
+      "stockQuantity": 80,
+      "deliveryStartDate": "2026-06-04T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24579409",
+        "sku": "GAHAN00057974",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 790
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Green",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-green",
+      "price": 787,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Green. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Green",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Green. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530343_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530343_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530343_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530343_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Long",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.6 kg",
+      "dimensions": "11 x 14 x 4 cm",
+      "stockQuantity": 91,
+      "deliveryStartDate": "2026-06-06T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-12T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "24579487",
+        "sku": "GAHAN00058052",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 787
+      }
+    },
+    {
+      "name": "Gahan — Womens Maroon Printed Cotton Blend Short Kurti",
+      "slug": "gahan-womens-maroon-printed-cotton-blend-short-kurti",
+      "price": 768,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Womens Maroon Printed Cotton Blend Short Kurti. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Womens Maroon Printed Cotton Blend Short Kurti",
+      "metaDescription": "Womens Maroon Printed Cotton Blend Short Kurti. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548A970Multi_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548A970Multi_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548A970Multi_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548A970Multi_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.8 kg",
+      "dimensions": "10 x 12 x 6 cm",
+      "stockQuantity": 92,
+      "deliveryStartDate": "2026-06-09T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-14T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25079477",
+        "sku": "GAHAN00064335",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 768
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Grey",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-grey",
+      "price": 790,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Grey. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Grey",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Grey. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530402_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530402_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530402_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530402_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.5 kg",
+      "dimensions": "14 x 10 x 2 cm",
+      "stockQuantity": 67,
+      "deliveryStartDate": "2026-06-08T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-12T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24579636",
+        "sku": "GAHAN00058201",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 790
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Green",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-green",
+      "price": 757,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Green. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Green",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Green. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530302_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530302_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530302_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530302_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.3 kg",
+      "dimensions": "10 x 12 x 3 cm",
+      "stockQuantity": 57,
+      "deliveryStartDate": "2026-06-05T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-14T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "24579440",
+        "sku": "GAHAN00058005",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 757
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Mauve",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-mauve",
+      "price": 798,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Mauve. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Mauve",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Mauve. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530018_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530018_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530018_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530018_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.5 kg",
+      "dimensions": "10 x 15 x 5 cm",
+      "stockQuantity": 78,
+      "deliveryStartDate": "2026-06-09T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-13T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24579394",
+        "sku": "GAHAN00057959",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 798
+      }
+    },
+    {
+      "name": "Gahan — Womens Navy Blue Floral Printed Cotton Blend Short Kurti",
+      "slug": "gahan-womens-navy-blue-floral-printed-cotton-blend-short-kurti",
+      "price": 781,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Womens Navy Blue Floral Printed Cotton Blend Short Kurti. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Womens Navy Blue Floral Printed Cotton Blend Short Kurti",
+      "metaDescription": "Womens Navy Blue Floral Printed Cotton Blend Short Kurti. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548C968Multi_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548C968Multi_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548C968Multi_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548C968Multi_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.7 kg",
+      "dimensions": "8 x 16 x 4 cm",
+      "stockQuantity": 98,
+      "deliveryStartDate": "2026-06-05T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-11T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25079489",
+        "sku": "GAHAN00064347",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 781
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Grey",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-grey",
+      "price": 757,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Grey. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Grey",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Grey. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530336_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530336_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530336_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530336_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Band collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.3 kg",
+      "dimensions": "10 x 15 x 8 cm",
+      "stockQuantity": 111,
+      "deliveryStartDate": "2026-06-09T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-16T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24579467",
+        "sku": "GAHAN00058032",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 757
+      }
+    },
+    {
+      "name": "Gahan — Womens Maroon Printed Cotton Blend Short Kurti",
+      "slug": "gahan-womens-maroon-printed-cotton-blend-short-kurti",
+      "price": 778,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Womens Maroon Printed Cotton Blend Short Kurti. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Womens Maroon Printed Cotton Blend Short Kurti",
+      "metaDescription": "Womens Maroon Printed Cotton Blend Short Kurti. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548C970Multi_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548C970Multi_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548C970Multi_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548C970Multi_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Henley",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "9 x 12 x 5 cm",
+      "stockQuantity": 49,
+      "deliveryStartDate": "2026-06-04T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25079491",
+        "sku": "GAHAN00064349",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 778
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Black",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-black",
+      "price": 717,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Black. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Black",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Black. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530016_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530016_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530016_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530016_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Medium",
+      "packageContains": "1 Trouser",
+      "washCare": "Dry clean recommended",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "10 x 10 x 2 cm",
+      "stockQuantity": 45,
+      "deliveryStartDate": "2026-06-04T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-11T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24579388",
+        "sku": "GAHAN00057953",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 717
+      }
+    },
+    {
+      "name": "Gahan — Womens Green Printed Cotton Blend Short Kurti",
+      "slug": "gahan-womens-green-printed-cotton-blend-short-kurti",
+      "price": 775,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Womens Green Printed Cotton Blend Short Kurti. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Womens Green Printed Cotton Blend Short Kurti",
+      "metaDescription": "Womens Green Printed Cotton Blend Short Kurti. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548B967Multi_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548B967Multi_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548B967Multi_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548B967Multi_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.3 kg",
+      "dimensions": "8 x 12 x 8 cm",
+      "stockQuantity": 44,
+      "deliveryStartDate": "2026-06-08T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-16T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "25079481",
+        "sku": "GAHAN00064339",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 775
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Navy Blue",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-navy-blue",
+      "price": 722,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Navy Blue. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Navy Blue",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Navy Blue. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530364_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530364_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530364_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530364_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Dry clean recommended",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.7 kg",
+      "dimensions": "9 x 10 x 7 cm",
+      "stockQuantity": 12,
+      "deliveryStartDate": "2026-06-07T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-13T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24579544",
+        "sku": "GAHAN00058109",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 722
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Navy Blue",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-navy-blue",
+      "price": 796,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Navy Blue. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Navy Blue",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Navy Blue. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530341_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530341_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530341_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530341_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Jacket",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.7 kg",
+      "dimensions": "14 x 12 x 7 cm",
+      "stockQuantity": 70,
+      "deliveryStartDate": "2026-06-09T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-18T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24579481",
+        "sku": "GAHAN00058046",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 796
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Navy Blue",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-navy-blue",
+      "price": 740,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Navy Blue. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Navy Blue",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Navy Blue. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530069_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530069_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530069_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530069_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Dry clean recommended",
+      "neckline": "Band collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.4 kg",
+      "dimensions": "10 x 13 x 5 cm",
+      "stockQuantity": 26,
+      "deliveryStartDate": "2026-06-05T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-10T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24579415",
+        "sku": "GAHAN00057981",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 740
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Pink",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-pink",
+      "price": 717,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Pink. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Pink",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Pink. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLZG-530459_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLZG-530459_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLZG-530459_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLZG-530459_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Dry clean recommended",
+      "neckline": "Henley",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.8 kg",
+      "dimensions": "11 x 10 x 5 cm",
+      "stockQuantity": 96,
+      "deliveryStartDate": "2026-06-06T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-14T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "24576399",
+        "sku": "GAHAN00054964",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 717
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Red",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-red",
+      "price": 787,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Red. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Red",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Red. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530057_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530057_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530057_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530057_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Henley",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.3 kg",
+      "dimensions": "10 x 12 x 4 cm",
+      "stockQuantity": 83,
+      "deliveryStartDate": "2026-06-09T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-18T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "24579406",
+        "sku": "GAHAN00057971",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 787
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Red",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-red",
+      "price": 703,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Red. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Red",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Red. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530337_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530337_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530337_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530337_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "14 x 16 x 7 cm",
+      "stockQuantity": 58,
+      "deliveryStartDate": "2026-06-09T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-18T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "24579470",
+        "sku": "GAHAN00058035",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 703
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Blue",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-blue",
+      "price": 713,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Blue. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Blue",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Blue. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530335_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530335_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530335_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530335_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Short",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.6 kg",
+      "dimensions": "11 x 10 x 3 cm",
+      "stockQuantity": 49,
+      "deliveryStartDate": "2026-06-07T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-12T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24579464",
+        "sku": "GAHAN00058029",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 713
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - White",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-white",
+      "price": 747,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - White. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - White",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - White. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLZG-530466_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLZG-530466_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLZG-530466_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLZG-530466_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Collared",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.7 kg",
+      "dimensions": "11 x 11 x 7 cm",
+      "stockQuantity": 96,
+      "deliveryStartDate": "2026-06-09T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-15T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24576406",
+        "sku": "GAHAN00054971",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 747
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Yellow",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-yellow",
+      "price": 721,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Yellow. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Yellow",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Yellow. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530329_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530329_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530329_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530329_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "11 x 13 x 4 cm",
+      "stockQuantity": 27,
+      "deliveryStartDate": "2026-06-05T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-10T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "24579446",
+        "sku": "GAHAN00058011",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 721
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Blue",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-blue",
+      "price": 702,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Blue. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Blue",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Blue. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530366_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530366_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530366_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530366_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 11 x 4 cm",
+      "stockQuantity": 56,
+      "deliveryStartDate": "2026-06-04T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "24579548",
+        "sku": "GAHAN00058113",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 702
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - White",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-white",
+      "price": 769,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - White. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - White",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - White. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530386_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530386_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530386_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530386_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.5 kg",
+      "dimensions": "9 x 11 x 3 cm",
+      "stockQuantity": 42,
+      "deliveryStartDate": "2026-06-08T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-13T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24579586",
+        "sku": "GAHAN00058151",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 769
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Blue",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-blue",
+      "price": 734,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Blue. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Blue",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Blue. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530353_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530353_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530353_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530353_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Short",
+      "packageContains": "1 Kurta",
+      "washCare": "Dry clean recommended",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.6 kg",
+      "dimensions": "14 x 14 x 6 cm",
+      "stockQuantity": 14,
+      "deliveryStartDate": "2026-06-04T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-13T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "24579516",
+        "sku": "GAHAN00058081",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 734
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Pink",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-pink",
+      "price": 779,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Pink. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Pink",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Pink. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530050_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530050_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530050_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530050_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Medium",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.4 kg",
+      "dimensions": "11 x 16 x 8 cm",
+      "stockQuantity": 120,
+      "deliveryStartDate": "2026-06-04T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-12T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "24579397",
+        "sku": "GAHAN00057962",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 779
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Red",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-red",
+      "price": 748,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Red. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Red",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Red. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLLG-530337_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLLG-530337_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLLG-530337_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLLG-530337_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.8 kg",
+      "dimensions": "10 x 10 x 2 cm",
+      "stockQuantity": 32,
+      "deliveryStartDate": "2026-06-05T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-13T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "24579848",
+        "sku": "GAHAN00058413",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 748
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Green",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-green",
+      "price": 741,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Green. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Green",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Green. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLQG-530464_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLQG-530464_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLQG-530464_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLQG-530464_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Short",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "13 x 16 x 2 cm",
+      "stockQuantity": 17,
+      "deliveryStartDate": "2026-06-08T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-15T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24579835",
+        "sku": "GAHAN00058400",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 741
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Black",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-black",
+      "price": 753,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Black. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Black",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Black. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLNG-530016_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLNG-530016_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLNG-530016_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLNG-530016_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.3 kg",
+      "dimensions": "11 x 15 x 3 cm",
+      "stockQuantity": 107,
+      "deliveryStartDate": "2026-06-07T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-15T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24579954",
+        "sku": "GAHAN00058519",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 753
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Grey",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-grey",
+      "price": 743,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Grey. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Grey",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Grey. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530340_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530340_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530340_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530340_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.4 kg",
+      "dimensions": "9 x 12 x 2 cm",
+      "stockQuantity": 110,
+      "deliveryStartDate": "2026-06-08T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-16T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24579478",
+        "sku": "GAHAN00058043",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 743
+      }
+    },
+    {
+      "name": "Gahan — Womens Pink Floral Printed Cotton Blend Short Kurti",
+      "slug": "gahan-womens-pink-floral-printed-cotton-blend-short-kurti",
+      "price": 730,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Womens Pink Floral Printed Cotton Blend Short Kurti. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Womens Pink Floral Printed Cotton Blend Short Kurti",
+      "metaDescription": "Womens Pink Floral Printed Cotton Blend Short Kurti. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548B969Multi_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548B969Multi_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548B969Multi_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548B969Multi_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Short",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.7 kg",
+      "dimensions": "12 x 13 x 8 cm",
+      "stockQuantity": 74,
+      "deliveryStartDate": "2026-06-08T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-17T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25079483",
+        "sku": "GAHAN00064341",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 730
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Green",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-green",
+      "price": 786,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Green. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Green",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Green. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLZG-530464_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLZG-530464_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLZG-530464_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLZG-530464_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "11 x 14 x 3 cm",
+      "stockQuantity": 79,
+      "deliveryStartDate": "2026-06-07T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-16T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "24576404",
+        "sku": "GAHAN00054969",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 786
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Pink",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-pink",
+      "price": 740,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Pink. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Pink",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Pink. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530459_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530459_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530459_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530459_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Trouser",
+      "washCare": "Dry clean recommended",
+      "neckline": "Band collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "11 x 10 x 8 cm",
+      "stockQuantity": 35,
+      "deliveryStartDate": "2026-06-07T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-15T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "24579704",
+        "sku": "GAHAN00058270",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 740
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Green",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-green",
+      "price": 772,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Green. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Green",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Green. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLAG-530302_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLAG-530302_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLAG-530302_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLAG-530302_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Full length",
+      "packageContains": "1 Trouser",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "12 x 10 x 3 cm",
+      "stockQuantity": 119,
+      "deliveryStartDate": "2026-06-04T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24579217",
+        "sku": "GAHAN00057782",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 772
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Pink",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-pink",
+      "price": 760,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Pink. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Pink",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Pink. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530328_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530328_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530328_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530328_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.8 kg",
+      "dimensions": "10 x 14 x 5 cm",
+      "stockQuantity": 59,
+      "deliveryStartDate": "2026-06-05T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-12T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24579443",
+        "sku": "GAHAN00058008",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 760
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Beige",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-beige",
+      "price": 716,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Beige. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Beige",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Beige. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLQG-530402_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLQG-530402_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLQG-530402_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLQG-530402_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Hand wash separately",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.4 kg",
+      "dimensions": "10 x 16 x 7 cm",
+      "stockQuantity": 106,
+      "deliveryStartDate": "2026-06-09T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-18T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24579726",
+        "sku": "GAHAN00058291",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 716
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Blue",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-blue",
+      "price": 796,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Blue. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Blue",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Blue. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530054_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530054_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530054_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530054_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Medium",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Band collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.4 kg",
+      "dimensions": "10 x 14 x 7 cm",
+      "stockQuantity": 48,
+      "deliveryStartDate": "2026-06-04T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-10T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24579400",
+        "sku": "GAHAN00057965",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 796
+      }
+    },
+    {
+      "name": "Gahan — Womens Multi-Color Printed Cotton Blend Short Kurti",
+      "slug": "gahan-womens-multi-color-printed-cotton-blend-short-kurti",
+      "price": 721,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Womens Multi-Color Printed Cotton Blend Short Kurti. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Womens Multi-Color Printed Cotton Blend Short Kurti",
+      "metaDescription": "Womens Multi-Color Printed Cotton Blend Short Kurti. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548B972Multi_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548B972Multi_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548B972Multi_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548B972Multi_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.5 kg",
+      "dimensions": "10 x 14 x 2 cm",
+      "stockQuantity": 118,
+      "deliveryStartDate": "2026-06-09T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-16T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "25079486",
+        "sku": "GAHAN00064344",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 721
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Yellow",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-yellow",
+      "price": 704,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Yellow. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Yellow",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Yellow. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530093_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530093_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530093_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530093_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "14 x 12 x 2 cm",
+      "stockQuantity": 62,
+      "deliveryStartDate": "2026-06-08T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-13T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24579422",
+        "sku": "GAHAN00057987",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 704
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Maroon",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-maroon",
+      "price": 760,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Maroon. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Maroon",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Maroon. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530374_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530374_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530374_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530374_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Regular fit",
+      "weight": "0.4 kg",
+      "dimensions": "13 x 10 x 8 cm",
+      "stockQuantity": 109,
+      "deliveryStartDate": "2026-06-06T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-15T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24579564",
+        "sku": "GAHAN00058129",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 760
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Blue",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-blue",
+      "price": 781,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Blue. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Blue",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Blue. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLQG-530458_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLQG-530458_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLQG-530458_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLQG-530458_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 14 x 7 cm",
+      "stockQuantity": 83,
+      "deliveryStartDate": "2026-06-05T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-13T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "24579822",
+        "sku": "GAHAN00058387",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 781
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Red",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-red",
+      "price": 712,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Red. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Red",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Red. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530370_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530370_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530370_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530370_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Short",
+      "packageContains": "1 Kurta",
+      "washCare": "Dry clean recommended",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 10 x 4 cm",
+      "stockQuantity": 37,
+      "deliveryStartDate": "2026-06-04T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-11T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24579556",
+        "sku": "GAHAN00058121",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 712
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Beige",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-beige",
+      "price": 784,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Beige. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Beige",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Beige. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530392_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530392_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530392_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530392_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.5 kg",
+      "dimensions": "14 x 14 x 8 cm",
+      "stockQuantity": 31,
+      "deliveryStartDate": "2026-06-07T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-13T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "24579627",
+        "sku": "GAHAN00058192",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 784
+      }
+    },
+    {
+      "name": "Gahan — Womens Pink Floral Printed Cotton Blend Short Kurti",
+      "slug": "gahan-womens-pink-floral-printed-cotton-blend-short-kurti",
+      "price": 717,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Womens Pink Floral Printed Cotton Blend Short Kurti. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Womens Pink Floral Printed Cotton Blend Short Kurti",
+      "metaDescription": "Womens Pink Floral Printed Cotton Blend Short Kurti. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548C969Multi_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548C969Multi_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548C969Multi_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548C969Multi_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/21f8548C969Multi_5.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Band collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.5 kg",
+      "dimensions": "11 x 16 x 7 cm",
+      "stockQuantity": 21,
+      "deliveryStartDate": "2026-06-06T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-11T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25079490",
+        "sku": "GAHAN00064348",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 717
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Black",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-black",
+      "price": 778,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Black. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Black",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Black. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530398_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530398_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530398_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530398_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.5 kg",
+      "dimensions": "13 x 10 x 5 cm",
+      "stockQuantity": 64,
+      "deliveryStartDate": "2026-06-04T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-12T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24579632",
+        "sku": "GAHAN00058197",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 778
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - White",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-white",
+      "price": 724,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - White. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - White",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - White. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530409_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530409_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530409_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530409_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "12 x 12 x 2 cm",
+      "stockQuantity": 80,
+      "deliveryStartDate": "2026-06-09T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-14T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "24579643",
+        "sku": "GAHAN00058208",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 724
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Blue",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-blue",
+      "price": 767,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Blue. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Blue",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Blue. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530403_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530403_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530403_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530403_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "12 x 15 x 3 cm",
+      "stockQuantity": 77,
+      "deliveryStartDate": "2026-06-07T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-13T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24579637",
+        "sku": "GAHAN00058202",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 767
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Grey",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-grey",
+      "price": 727,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Grey. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Grey",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Grey. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLNG-530340_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLNG-530340_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLNG-530340_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLNG-530340_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.5 kg",
+      "dimensions": "12 x 16 x 5 cm",
+      "stockQuantity": 51,
+      "deliveryStartDate": "2026-06-04T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-12T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "24579692",
+        "sku": "GAHAN00058257",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 727
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Pink",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-pink",
+      "price": 790,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Pink. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Pink",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Pink. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530376_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530376_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530376_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530376_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.7 kg",
+      "dimensions": "10 x 11 x 5 cm",
+      "stockQuantity": 38,
+      "deliveryStartDate": "2026-06-07T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-12T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "24579568",
+        "sku": "GAHAN00058133",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 790
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Multi-Color",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-multi-color",
+      "price": 746,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Multi-Color. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Multi-Color",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Multi-Color. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530356_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530356_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530356_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530356_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.6 kg",
+      "dimensions": "12 x 14 x 2 cm",
+      "stockQuantity": 87,
+      "deliveryStartDate": "2026-06-09T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-14T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "24579525",
+        "sku": "GAHAN00058090",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 746
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Pink",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-pink",
+      "price": 739,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Pink. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Pink",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Pink. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530138_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530138_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530138_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLHG-530138_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.6 kg",
+      "dimensions": "14 x 12 x 7 cm",
+      "stockQuantity": 61,
+      "deliveryStartDate": "2026-06-09T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-18T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24579431",
+        "sku": "GAHAN00057996",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 739
+      }
+    },
+    {
+      "name": "Gahan — Women Stylish Crepe Printed Straight Kurta - Navy Blue",
+      "slug": "gahan-women-stylish-crepe-printed-straight-kurta-navy-blue",
+      "price": 787,
+      "originalPrice": 1197,
+      "category": "kurtis",
+      "description": "Women Stylish Crepe Printed Straight Kurta - Navy Blue. Premium kurtis from our curated collection.",
+      "metaTitle": "Gahan — Women Stylish Crepe Printed Straight Kurta - Navy Blue",
+      "metaDescription": "Women Stylish Crepe Printed Straight Kurta - Navy Blue. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLNG-530341_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLNG-530341_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLNG-530341_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/8/3894ce1OSALLNG-530341_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 14 x 2 cm",
+      "stockQuantity": 50,
+      "deliveryStartDate": "2026-06-05T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "24579694",
+        "sku": "GAHAN00058259",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 787
+      }
+    }
+  ]
+}

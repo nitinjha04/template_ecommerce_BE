@@ -1,0 +1,2940 @@
+{
+  "scrapedAt": "2026-05-26T10:57:16.792Z",
+  "categoryFilter": "662",
+  "categoryName": "kurtis",
+  "priceMin": 500,
+  "priceMax": 599,
+  "categoryId": "6557",
+  "priceMode": "random",
+  "sort": "low-to-high",
+  "totalProducts": 50,
+  "pagesFetched": 2,
+  "products": [
+    {
+      "name": "R&B — Mustard Floral Printed Regular Kurta",
+      "slug": "r-b-mustard-floral-printed-regular-kurta",
+      "price": 594,
+      "originalPrice": 1010,
+      "category": "kurtis",
+      "description": "Mustard Floral Printed Regular Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Mustard Floral Printed Regular Kurta",
+      "metaDescription": "Mustard Floral Printed Regular Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/f/9ffe2185230411WY0012MUSTARD_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/f/9ffe2185230411WY0012MUSTARD_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/f/9ffe2185230411WY0012MUSTARD_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/f/9ffe2185230411WY0012MUSTARD_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/f/9ffe2185230411WY0012MUSTARD_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/f/9ffe2185230411WY0012MUSTARD_6.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.8 kg",
+      "dimensions": "10 x 10 x 8 cm",
+      "stockQuantity": 90,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25470616",
+        "sku": "RBXXX00040075",
+        "categoryFilter": "662",
+        "assignedPriceTier": 594
+      }
+    },
+    {
+      "name": "R&B — Blue Women Rayon Regular Fit Keyhole Neck Printed Kurta",
+      "slug": "r-b-blue-women-rayon-regular-fit-keyhole-neck-printed-kurta",
+      "price": 515,
+      "originalPrice": 917,
+      "category": "kurtis",
+      "description": "Blue Women Rayon Regular Fit Keyhole Neck Printed Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Blue Women Rayon Regular Fit Keyhole Neck Printed Kurta",
+      "metaDescription": "Blue Women Rayon Regular Fit Keyhole Neck Printed Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0451WY009-2_BLUE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0451WY009-2_BLUE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0451WY009-2_BLUE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0451WY009-2_BLUE_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0451WY009-2_BLUE_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0451WY009-2_BLUE_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0451WY009-2_BLUE_7.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Medium",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Band collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.5 kg",
+      "dimensions": "8 x 16 x 2 cm",
+      "stockQuantity": 74,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25011143",
+        "sku": "RBXXX00031807",
+        "categoryFilter": "662",
+        "assignedPriceTier": 515
+      }
+    },
+    {
+      "name": "R&B — Women Red Rayon Keyhole Neck Kurta",
+      "slug": "r-b-women-red-rayon-keyhole-neck-kurta",
+      "price": 571,
+      "originalPrice": 834,
+      "category": "kurtis",
+      "description": "Women Red Rayon Keyhole Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Red Rayon Keyhole Neck Kurta",
+      "metaDescription": "Women Red Rayon Keyhole Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240411WY0122REDRed_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240411WY0122REDRed_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240411WY0122REDRed_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240411WY0122REDRed_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240411WY0122REDRed_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240411WY0122REDRed_6.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.7 kg",
+      "dimensions": "11 x 14 x 6 cm",
+      "stockQuantity": 73,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-10T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25020410",
+        "sku": "RBXXX00033371",
+        "categoryFilter": "662",
+        "assignedPriceTier": 571
+      }
+    },
+    {
+      "name": "R&B — Women Coral Rayon Keyhole Neck Kurta",
+      "slug": "r-b-women-coral-rayon-keyhole-neck-kurta",
+      "price": 551,
+      "originalPrice": 1041,
+      "category": "kurtis",
+      "description": "Women Coral Rayon Keyhole Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Coral Rayon Keyhole Neck Kurta",
+      "metaDescription": "Women Coral Rayon Keyhole Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0062CORALCoral_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0062CORALCoral_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0062CORALCoral_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0062CORALCoral_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0062CORALCoral_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0062CORALCoral_6.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.6 kg",
+      "dimensions": "10 x 16 x 3 cm",
+      "stockQuantity": 67,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25020370",
+        "sku": "RBXXX00033331",
+        "categoryFilter": "662",
+        "assignedPriceTier": 551
+      }
+    },
+    {
+      "name": "R&B — Red Women Rayon Regular Fit Keyhole Neck Printed Kurta",
+      "slug": "r-b-red-women-rayon-regular-fit-keyhole-neck-printed-kurta",
+      "price": 512,
+      "originalPrice": 712,
+      "category": "kurtis",
+      "description": "Red Women Rayon Regular Fit Keyhole Neck Printed Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Red Women Rayon Regular Fit Keyhole Neck Printed Kurta",
+      "metaDescription": "Red Women Rayon Regular Fit Keyhole Neck Printed Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0451WY009-2_RED_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0451WY009-2_RED_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0451WY009-2_RED_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0451WY009-2_RED_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0451WY009-2_RED_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0451WY009-2_RED_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0451WY009-2_RED_7.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 14 x 5 cm",
+      "stockQuantity": 101,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25011142",
+        "sku": "RBXXX00031806",
+        "categoryFilter": "662",
+        "assignedPriceTier": 512
+      }
+    },
+    {
+      "name": "R&B — Women Blue Rayon Keyhole Neck Kurta",
+      "slug": "r-b-women-blue-rayon-keyhole-neck-kurta",
+      "price": 527,
+      "originalPrice": 896,
+      "category": "kurtis",
+      "description": "Women Blue Rayon Keyhole Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Blue Rayon Keyhole Neck Kurta",
+      "metaDescription": "Women Blue Rayon Keyhole Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0062BLUEBlue_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0062BLUEBlue_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0062BLUEBlue_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0062BLUEBlue_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0062BLUEBlue_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0062BLUEBlue_6.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "10 x 13 x 3 cm",
+      "stockQuantity": 46,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25020369",
+        "sku": "RBXXX00033330",
+        "categoryFilter": "662",
+        "assignedPriceTier": 527
+      }
+    },
+    {
+      "name": "R&B — Women White Rayon Round Neck Kurta",
+      "slug": "r-b-women-white-rayon-round-neck-kurta",
+      "price": 524,
+      "originalPrice": 1011,
+      "category": "kurtis",
+      "description": "Women White Rayon Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women White Rayon Round Neck Kurta",
+      "metaDescription": "Women White Rayon Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0132BLUEWhite_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0132BLUEWhite_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0132BLUEWhite_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0132BLUEWhite_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0132BLUEWhite_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0132BLUEWhite_6.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Trouser",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.3 kg",
+      "dimensions": "12 x 11 x 8 cm",
+      "stockQuantity": 42,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "25020333",
+        "sku": "RBXXX00033294",
+        "categoryFilter": "662",
+        "assignedPriceTier": 524
+      }
+    },
+    {
+      "name": "R&B — Brown Geometric Regular Kurta",
+      "slug": "r-b-brown-geometric-regular-kurta",
+      "price": 509,
+      "originalPrice": 1009,
+      "category": "kurtis",
+      "description": "Brown Geometric Regular Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Brown Geometric Regular Kurta",
+      "metaDescription": "Brown Geometric Regular Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e95230451WY0032GREY_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e95230451WY0032GREY_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e95230451WY0032GREY_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e95230451WY0032GREY_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e95230451WY0032GREY_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e95230451WY0032GREY_6.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.4 kg",
+      "dimensions": "12 x 10 x 3 cm",
+      "stockQuantity": 108,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-02T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25022993",
+        "sku": "RBXXX00033783",
+        "categoryFilter": "662",
+        "assignedPriceTier": 509
+      }
+    },
+    {
+      "name": "R&B — Women Pink Rayon Round Neck Kurta",
+      "slug": "r-b-women-pink-rayon-round-neck-kurta",
+      "price": 531,
+      "originalPrice": 1025,
+      "category": "kurtis",
+      "description": "Women Pink Rayon Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Pink Rayon Round Neck Kurta",
+      "metaDescription": "Women Pink Rayon Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0091PINKPink_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0091PINKPink_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0091PINKPink_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0091PINKPink_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0091PINKPink_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0091PINKPink_6.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "8 x 12 x 3 cm",
+      "stockQuantity": 60,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-02T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "25020375",
+        "sku": "RBXXX00033336",
+        "categoryFilter": "662",
+        "assignedPriceTier": 531
+      }
+    },
+    {
+      "name": "R&B — Mustard Floral Printed Regular Kurta",
+      "slug": "r-b-mustard-floral-printed-regular-kurta",
+      "price": 594,
+      "originalPrice": 909,
+      "category": "kurtis",
+      "description": "Mustard Floral Printed Regular Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Mustard Floral Printed Regular Kurta",
+      "metaDescription": "Mustard Floral Printed Regular Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/f/9ffe2185230411WY0052MUSTARD_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/f/9ffe2185230411WY0052MUSTARD_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/f/9ffe2185230411WY0052MUSTARD_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/f/9ffe2185230411WY0052MUSTARD_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/f/9ffe2185230411WY0052MUSTARD_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/f/9ffe2185230411WY0052MUSTARD_6.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.3 kg",
+      "dimensions": "9 x 16 x 6 cm",
+      "stockQuantity": 39,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25470626",
+        "sku": "RBXXX00040085",
+        "categoryFilter": "662",
+        "assignedPriceTier": 594
+      }
+    },
+    {
+      "name": "R&B — Women Grey Rayon V-Neck Kurta",
+      "slug": "r-b-women-grey-rayon-v-neck-kurta",
+      "price": 566,
+      "originalPrice": 900,
+      "category": "kurtis",
+      "description": "Women Grey Rayon V-Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Grey Rayon V-Neck Kurta",
+      "metaDescription": "Women Grey Rayon V-Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240119WY0102GREYGrey_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240119WY0102GREYGrey_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240119WY0102GREYGrey_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240119WY0102GREYGrey_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240119WY0102GREYGrey_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240119WY0102GREYGrey_6.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Trouser",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "9 x 10 x 7 cm",
+      "stockQuantity": 74,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25020429",
+        "sku": "RBXXX00033390",
+        "categoryFilter": "662",
+        "assignedPriceTier": 566
+      }
+    },
+    {
+      "name": "Nejo — Maternity Kurta - Orange",
+      "slug": "nejo-maternity-kurta-orange1",
+      "price": 515,
+      "originalPrice": 1299,
+      "category": "kurtis",
+      "description": "Maternity Kurta - Orange. Premium kurtis from our curated collection.",
+      "metaTitle": "Nejo — Maternity Kurta - Orange",
+      "metaDescription": "Maternity Kurta - Orange. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/n/j/njk001-orange_001_3bbd509a.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/n/j/njk001-orange_002_cea198f7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/n/j/njk001-orange_003_944a2036.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/n/j/njk001-orange_004_617a8123.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/n/j/njk001-orange_005_eca22324.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 14 x 3 cm",
+      "stockQuantity": 56,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "1845411",
+        "sku": "NEJOX00000290",
+        "categoryFilter": "662",
+        "assignedPriceTier": 515
+      }
+    },
+    {
+      "name": "Nejo — Feeding/Nursing Maternity Kurta - White",
+      "slug": "njk003-whitediamond",
+      "price": 547,
+      "originalPrice": 1299,
+      "category": "kurtis",
+      "description": "Feeding/Nursing Maternity Kurta - White. Premium kurtis from our curated collection.",
+      "metaTitle": "Nejo — Feeding/Nursing Maternity Kurta - White",
+      "metaDescription": "Feeding/Nursing Maternity Kurta - White. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/n/j/njk003-whitediamond-1_eadae77b.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/n/j/njk003-whitediamond-2_602355f1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/n/j/njk003-whitediamond-3_caf4bc03.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/n/j/njk003-whitediamond-4_df8ac161.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "9 x 15 x 6 cm",
+      "stockQuantity": 64,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "3099774",
+        "sku": "NEJOX00000815",
+        "categoryFilter": "662",
+        "assignedPriceTier": 547
+      }
+    },
+    {
+      "name": "Nejo — Feeding/Nursing Maternity Kurta - White",
+      "slug": "njk003-whitefloral",
+      "price": 545,
+      "originalPrice": 1299,
+      "category": "kurtis",
+      "description": "Feeding/Nursing Maternity Kurta - White. Premium kurtis from our curated collection.",
+      "metaTitle": "Nejo — Feeding/Nursing Maternity Kurta - White",
+      "metaDescription": "Feeding/Nursing Maternity Kurta - White. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/n/j/njk003-whitefloral-1_3f722cf0.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/n/j/njk003-whitefloral-2_7f242c41.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/n/j/njk003-whitefloral-3_e63777e7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/n/j/njk003-whitefloral-4_e09957b8.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Medium",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 16 x 5 cm",
+      "stockQuantity": 31,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "3099780",
+        "sku": "NEJOX00000813",
+        "categoryFilter": "662",
+        "assignedPriceTier": 545
+      }
+    },
+    {
+      "name": "R&B — Beige Printed Regular Kurta",
+      "slug": "r-b-beige-printed-regular-kurta",
+      "price": 577,
+      "originalPrice": 779,
+      "category": "kurtis",
+      "description": "Beige Printed Regular Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Beige Printed Regular Kurta",
+      "metaDescription": "Beige Printed Regular Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e95230451WY0012BEIGE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e95230451WY0012BEIGE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e95230451WY0012BEIGE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e95230451WY0012BEIGE_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e95230451WY0012BEIGE_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e95230451WY0012BEIGE_6.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Regular fit",
+      "weight": "0.4 kg",
+      "dimensions": "13 x 10 x 5 cm",
+      "stockQuantity": 20,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25022991",
+        "sku": "RBXXX00033781",
+        "categoryFilter": "662",
+        "assignedPriceTier": 577
+      }
+    },
+    {
+      "name": "R&B — Women Black Cotton Round Neck Kurta",
+      "slug": "r-b-women-black-cotton-round-neck-kurta",
+      "price": 572,
+      "originalPrice": 950,
+      "category": "kurtis",
+      "description": "Women Black Cotton Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Black Cotton Round Neck Kurta",
+      "metaDescription": "Women Black Cotton Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240119WY0112BLACKBlack_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240119WY0112BLACKBlack_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240119WY0112BLACKBlack_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240119WY0112BLACKBlack_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240119WY0112BLACKBlack_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240119WY0112BLACKBlack_6.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Kurta",
+      "washCare": "Dry clean recommended",
+      "neckline": "Round",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.7 kg",
+      "dimensions": "13 x 10 x 8 cm",
+      "stockQuantity": 114,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25020403",
+        "sku": "RBXXX00033364",
+        "categoryFilter": "662",
+        "assignedPriceTier": 572
+      }
+    },
+    {
+      "name": "R&B — Women Off White Cotton Round Neck Kurta",
+      "slug": "r-b-women-off-white-cotton-v-neck-kurta",
+      "price": 593,
+      "originalPrice": 913,
+      "category": "kurtis",
+      "description": "Women Off White Cotton Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Off White Cotton Round Neck Kurta",
+      "metaDescription": "Women Off White Cotton Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240147WY0062PINKOffWhite_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240147WY0062PINKOffWhite_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240147WY0062PINKOffWhite_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240147WY0062PINKOffWhite_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240147WY0062PINKOffWhite_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240147WY0062PINKOffWhite_6.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Collared",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 12 x 3 cm",
+      "stockQuantity": 99,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-01T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25020418",
+        "sku": "RBXXX00033379",
+        "categoryFilter": "662",
+        "assignedPriceTier": 593
+      }
+    },
+    {
+      "name": "R&B — Beige Floral Printed Regular Kurta",
+      "slug": "r-b-beige-floral-printed-regular-kurta",
+      "price": 576,
+      "originalPrice": 927,
+      "category": "kurtis",
+      "description": "Beige Floral Printed Regular Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Beige Floral Printed Regular Kurta",
+      "metaDescription": "Beige Floral Printed Regular Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/f/9ffe2185230691WY0071IVORY_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/f/9ffe2185230691WY0071IVORY_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/f/9ffe2185230691WY0071IVORY_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/f/9ffe2185230691WY0071IVORY_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/f/9ffe2185230691WY0071IVORY_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/f/9ffe2185230691WY0071IVORY_6.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 Kurta",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.7 kg",
+      "dimensions": "13 x 10 x 6 cm",
+      "stockQuantity": 83,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "25470617",
+        "sku": "RBXXX00040076",
+        "categoryFilter": "662",
+        "assignedPriceTier": 576
+      }
+    },
+    {
+      "name": "Meeranshi — Maroon and Navy Blue Printed Straight Kurta",
+      "slug": "meeranshi-maroon-and-navy-blue-printed-straight-kurta",
+      "price": 587,
+      "originalPrice": 1499,
+      "category": "kurtis",
+      "description": "Maroon and Navy Blue Printed Straight Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "Meeranshi — Maroon and Navy Blue Printed Straight Kurta",
+      "metaDescription": "Maroon and Navy Blue Printed Straight Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/d/6dcacc3MER478_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/d/6dcacc3MER478_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/d/6dcacc3MER478_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/d/6dcacc3MER478_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/d/6dcacc3MER478_5.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Jacket",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.3 kg",
+      "dimensions": "10 x 13 x 3 cm",
+      "stockQuantity": 35,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "19072703",
+        "sku": "MEEAA00004525",
+        "categoryFilter": "662",
+        "assignedPriceTier": 587
+      }
+    },
+    {
+      "name": "R&B — Women Pink Rayon Keyhole Neck Kurta",
+      "slug": "r-b-women-pink-rayon-keyhole-neck-kurta",
+      "price": 515,
+      "originalPrice": 736,
+      "category": "kurtis",
+      "description": "Women Pink Rayon Keyhole Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Pink Rayon Keyhole Neck Kurta",
+      "metaDescription": "Women Pink Rayon Keyhole Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0082PINKPink_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0082PINKPink_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0082PINKPink_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0082PINKPink_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0082PINKPink_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0082PINKPink_6.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 16 x 5 cm",
+      "stockQuantity": 59,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-02T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "25020409",
+        "sku": "RBXXX00033370",
+        "categoryFilter": "662",
+        "assignedPriceTier": 515
+      }
+    },
+    {
+      "name": "R&B — Women Green Rayon Round Neck Kurta",
+      "slug": "r-b-women-green-rayon-round-neck-kurta",
+      "price": 515,
+      "originalPrice": 845,
+      "category": "kurtis",
+      "description": "Women Green Rayon Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Green Rayon Round Neck Kurta",
+      "metaDescription": "Women Green Rayon Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0112GREENGreen_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0112GREENGreen_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0112GREENGreen_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0112GREENGreen_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0112GREENGreen_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240365WY0112GREENGreen_6.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "9 x 14 x 2 cm",
+      "stockQuantity": 44,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25020347",
+        "sku": "RBXXX00033308",
+        "categoryFilter": "662",
+        "assignedPriceTier": 515
+      }
+    },
+    {
+      "name": "R&B — Women Teal Rayon Round Neck Kurta",
+      "slug": "r-b-women-teal-rayon-round-neck-kurta",
+      "price": 547,
+      "originalPrice": 1047,
+      "category": "kurtis",
+      "description": "Women Teal Rayon Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Teal Rayon Round Neck Kurta",
+      "metaDescription": "Women Teal Rayon Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240411WY0042SEAGREENTeal_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240411WY0042SEAGREENTeal_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240411WY0042SEAGREENTeal_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240411WY0042SEAGREENTeal_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240411WY0042SEAGREENTeal_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240411WY0042SEAGREENTeal_6.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "13 x 14 x 3 cm",
+      "stockQuantity": 91,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-02T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25020363",
+        "sku": "RBXXX00033324",
+        "categoryFilter": "662",
+        "assignedPriceTier": 547
+      }
+    },
+    {
+      "name": "R&B — Multi Color Women Rayon Regular Fit Mandarin Collar Printed Kurta",
+      "slug": "r-b-multi-color-women-rayon-regular-fit-mandarin-collar-printed-kurta",
+      "price": 514,
+      "originalPrice": 797,
+      "category": "kurtis",
+      "description": "Multi Color Women Rayon Regular Fit Mandarin Collar Printed Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Multi Color Women Rayon Regular Fit Mandarin Collar Printed Kurt",
+      "metaDescription": "Multi Color Women Rayon Regular Fit Mandarin Collar Printed Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0618WY013-2_OFFWHITE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0618WY013-2_OFFWHITE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0618WY013-2_OFFWHITE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0618WY013-2_OFFWHITE_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0618WY013-2_OFFWHITE_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0618WY013-2_OFFWHITE_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0618WY013-2_OFFWHITE_7.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Dry clean recommended",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.4 kg",
+      "dimensions": "10 x 13 x 8 cm",
+      "stockQuantity": 50,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25011128",
+        "sku": "RBXXX00031792",
+        "categoryFilter": "662",
+        "assignedPriceTier": 514
+      }
+    },
+    {
+      "name": "R&B — Women Pink Cotton Round Neck Kurta",
+      "slug": "r-b-women-pink-cotton-round-neck-kurta",
+      "price": 515,
+      "originalPrice": 695,
+      "category": "kurtis",
+      "description": "Women Pink Cotton Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Pink Cotton Round Neck Kurta",
+      "metaDescription": "Women Pink Cotton Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240147WY0032PINKPink_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240147WY0032PINKPink_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240147WY0032PINKPink_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240147WY0032PINKPink_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240147WY0032PINKPink_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240147WY0032PINKPink_6.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Hand wash separately",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 15 x 2 cm",
+      "stockQuantity": 85,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25020355",
+        "sku": "RBXXX00033316",
+        "categoryFilter": "662",
+        "assignedPriceTier": 515
+      }
+    },
+    {
+      "name": "R&B — Women Blue Cotton V-Neck Kurta",
+      "slug": "r-b-women-blue-cotton-v-neck-kurta",
+      "price": 529,
+      "originalPrice": 815,
+      "category": "kurtis",
+      "description": "Women Blue Cotton V-Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Blue Cotton V-Neck Kurta",
+      "metaDescription": "Women Blue Cotton V-Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240147WY0062BLUEBlue_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240147WY0062BLUEBlue_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240147WY0062BLUEBlue_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240147WY0062BLUEBlue_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240147WY0062BLUEBlue_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240147WY0062BLUEBlue_6.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.6 kg",
+      "dimensions": "12 x 14 x 4 cm",
+      "stockQuantity": 113,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25020417",
+        "sku": "RBXXX00033378",
+        "categoryFilter": "662",
+        "assignedPriceTier": 529
+      }
+    },
+    {
+      "name": "R&B — Multi Color Women Rayon Regular Fit Mandarin Collar Printed Kurta",
+      "slug": "r-b-multi-color-women-rayon-regular-fit-mandarin-collar-printed-kurta",
+      "price": 576,
+      "originalPrice": 870,
+      "category": "kurtis",
+      "description": "Multi Color Women Rayon Regular Fit Mandarin Collar Printed Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Multi Color Women Rayon Regular Fit Mandarin Collar Printed Kurt",
+      "metaDescription": "Multi Color Women Rayon Regular Fit Mandarin Collar Printed Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0618WY013-2_BLUE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0618WY013-2_BLUE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0618WY013-2_BLUE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0618WY013-2_BLUE_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0618WY013-2_BLUE_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0618WY013-2_BLUE_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d124-0618WY013-2_BLUE_7.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Short",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "14 x 15 x 8 cm",
+      "stockQuantity": 95,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25011127",
+        "sku": "RBXXX00031791",
+        "categoryFilter": "662",
+        "assignedPriceTier": 576
+      }
+    },
+    {
+      "name": "R&B — Women Pink Rayon Round Neck Kurta",
+      "slug": "r-b-women-pink-rayon-v-neck-kurta",
+      "price": 500,
+      "originalPrice": 715,
+      "category": "kurtis",
+      "description": "Women Pink Rayon Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Pink Rayon Round Neck Kurta",
+      "metaDescription": "Women Pink Rayon Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240618WY0122PINKPink_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240618WY0122PINKPink_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240618WY0122PINKPink_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240618WY0122PINKPink_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240618WY0122PINKPink_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240618WY0122PINKPink_6.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Regular fit",
+      "weight": "0.6 kg",
+      "dimensions": "11 x 16 x 6 cm",
+      "stockQuantity": 64,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25020454",
+        "sku": "RBXXX00033415",
+        "categoryFilter": "662",
+        "assignedPriceTier": 500
+      }
+    },
+    {
+      "name": "R&B — Women Coral Rayon Scoop Neck Kurta",
+      "slug": "r-b-women-coral-rayon-scoop-neck-kurta",
+      "price": 546,
+      "originalPrice": 1021,
+      "category": "kurtis",
+      "description": "Women Coral Rayon Scoop Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Coral Rayon Scoop Neck Kurta",
+      "metaDescription": "Women Coral Rayon Scoop Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240451WY0072CORALCoral_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240451WY0072CORALCoral_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240451WY0072CORALCoral_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240451WY0072CORALCoral_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240451WY0072CORALCoral_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240451WY0072CORALCoral_6.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.8 kg",
+      "dimensions": "11 x 13 x 6 cm",
+      "stockQuantity": 46,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25020461",
+        "sku": "RBXXX00033422",
+        "categoryFilter": "662",
+        "assignedPriceTier": 546
+      }
+    },
+    {
+      "name": "R&B — Women Green Rayon Scoop Neck Kurta",
+      "slug": "r-b-women-green-rayon-scoop-neck-kurta",
+      "price": 551,
+      "originalPrice": 788,
+      "category": "kurtis",
+      "description": "Women Green Rayon Scoop Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Green Rayon Scoop Neck Kurta",
+      "metaDescription": "Women Green Rayon Scoop Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240451WY0072GREENGreen_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240451WY0072GREENGreen_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240451WY0072GREENGreen_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240451WY0072GREENGreen_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240451WY0072GREENGreen_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240451WY0072GREENGreen_6.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Dry clean recommended",
+      "neckline": "Henley",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "14 x 11 x 2 cm",
+      "stockQuantity": 17,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "25020460",
+        "sku": "RBXXX00033421",
+        "categoryFilter": "662",
+        "assignedPriceTier": 551
+      }
+    },
+    {
+      "name": "R&B — Women Green Rayon Tie Up Neck Kurta",
+      "slug": "r-b-women-green-rayon-tie-up-neck-kurta",
+      "price": 564,
+      "originalPrice": 1049,
+      "category": "kurtis",
+      "description": "Women Green Rayon Tie Up Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Green Rayon Tie Up Neck Kurta",
+      "metaDescription": "Women Green Rayon Tie Up Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240618WY0142SPRINGGREENGreen_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240618WY0142SPRINGGREENGreen_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240618WY0142SPRINGGREENGreen_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240618WY0142SPRINGGREENGreen_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240618WY0142SPRINGGREENGreen_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240618WY0142SPRINGGREENGreen_6.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Henley",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.6 kg",
+      "dimensions": "12 x 12 x 3 cm",
+      "stockQuantity": 63,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "25020379",
+        "sku": "RBXXX00033340",
+        "categoryFilter": "662",
+        "assignedPriceTier": 564
+      }
+    },
+    {
+      "name": "R&B — Women Green Cotton Round Neck Kurta",
+      "slug": "r-b-women-green-cotton-round-neck-kurta",
+      "price": 587,
+      "originalPrice": 857,
+      "category": "kurtis",
+      "description": "Women Green Cotton Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Green Cotton Round Neck Kurta",
+      "metaDescription": "Women Green Cotton Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240147WY0032GREENGreen_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240147WY0032GREENGreen_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240147WY0032GREENGreen_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240147WY0032GREENGreen_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240147WY0032GREENGreen_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111240147WY0032GREENGreen_6.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "V-neck",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.7 kg",
+      "dimensions": "8 x 15 x 7 cm",
+      "stockQuantity": 17,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "25020354",
+        "sku": "RBXXX00033315",
+        "categoryFilter": "662",
+        "assignedPriceTier": 587
+      }
+    },
+    {
+      "name": "R&B — Women Peach Rayon V-Neck Kurta",
+      "slug": "r-b-women-peach-rayon-v-neck-kurta",
+      "price": 570,
+      "originalPrice": 1070,
+      "category": "kurtis",
+      "description": "Women Peach Rayon V-Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Peach Rayon V-Neck Kurta",
+      "metaDescription": "Women Peach Rayon V-Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a115240755WY0792PEACHPeach_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a115240755WY0792PEACHPeach_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a115240755WY0792PEACHPeach_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a115240755WY0792PEACHPeach_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a115240755WY0792PEACHPeach_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a115240755WY0792PEACHPeach_6.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "13 x 10 x 7 cm",
+      "stockQuantity": 73,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "25020316",
+        "sku": "RBXXX00033277",
+        "categoryFilter": "662",
+        "assignedPriceTier": 570
+      }
+    },
+    {
+      "name": "R&B — Women Blue Rayon Round Neck Kurta",
+      "slug": "r-b-women-blue-rayon-round-neck-kurta",
+      "price": 573,
+      "originalPrice": 808,
+      "category": "kurtis",
+      "description": "Women Blue Rayon Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Blue Rayon Round Neck Kurta",
+      "metaDescription": "Women Blue Rayon Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a115240755WY0802BLUEBlue_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a115240755WY0802BLUEBlue_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a115240755WY0802BLUEBlue_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a115240755WY0802BLUEBlue_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a115240755WY0802BLUEBlue_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a115240755WY0802BLUEBlue_6.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.4 kg",
+      "dimensions": "10 x 13 x 8 cm",
+      "stockQuantity": 83,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25020399",
+        "sku": "RBXXX00033360",
+        "categoryFilter": "662",
+        "assignedPriceTier": 573
+      }
+    },
+    {
+      "name": "R&B — Women Aqua Rayon V-Neck Kurta",
+      "slug": "r-b-women-aqua-rayon-v-neck-kurta",
+      "price": 596,
+      "originalPrice": 954,
+      "category": "kurtis",
+      "description": "Women Aqua Rayon V-Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Aqua Rayon V-Neck Kurta",
+      "metaDescription": "Women Aqua Rayon V-Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a115240755WY0792AQUAAqua_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a115240755WY0792AQUAAqua_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a115240755WY0792AQUAAqua_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a115240755WY0792AQUAAqua_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a115240755WY0792AQUAAqua_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a115240755WY0792AQUAAqua_6.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "14 x 10 x 2 cm",
+      "stockQuantity": 25,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "25020317",
+        "sku": "RBXXX00033278",
+        "categoryFilter": "662",
+        "assignedPriceTier": 596
+      }
+    },
+    {
+      "name": "R&B — Women Brown Rayon Round Neck Kurta",
+      "slug": "r-b-women-brown-rayon-round-neck-kurta",
+      "price": 568,
+      "originalPrice": 1051,
+      "category": "kurtis",
+      "description": "Women Brown Rayon Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Brown Rayon Round Neck Kurta",
+      "metaDescription": "Women Brown Rayon Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a115240755WY0802BROWNBrown_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a115240755WY0802BROWNBrown_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a115240755WY0802BROWNBrown_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a115240755WY0802BROWNBrown_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a115240755WY0802BROWNBrown_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a115240755WY0802BROWNBrown_6.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Long",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.6 kg",
+      "dimensions": "8 x 13 x 2 cm",
+      "stockQuantity": 101,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25020400",
+        "sku": "RBXXX00033361",
+        "categoryFilter": "662",
+        "assignedPriceTier": 568
+      }
+    },
+    {
+      "name": "Odette — Multi-Color Silk Blend Geometric Kurti",
+      "slug": "odette-multi-color-silk-blend-geometric-kurti",
+      "price": 575,
+      "originalPrice": 1194,
+      "category": "kurtis",
+      "description": "Multi-Color Silk Blend Geometric Kurti. Premium kurtis from our curated collection.",
+      "metaTitle": "Odette — Multi-Color Silk Blend Geometric Kurti",
+      "metaDescription": "Multi-Color Silk Blend Geometric Kurti. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ24_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ24_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ24_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ24_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ24_5.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.5 kg",
+      "dimensions": "12 x 14 x 7 cm",
+      "stockQuantity": 16,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "26304690",
+        "sku": "ODETT00039912",
+        "categoryFilter": "662",
+        "assignedPriceTier": 575
+      }
+    },
+    {
+      "name": "Odette — Women Black Silk Blend Floral Kurti",
+      "slug": "odette-women-black-silk-blend-floral-kurti",
+      "price": 556,
+      "originalPrice": 1194,
+      "category": "kurtis",
+      "description": "Women Black Silk Blend Floral Kurti. Premium kurtis from our curated collection.",
+      "metaTitle": "Odette — Women Black Silk Blend Floral Kurti",
+      "metaDescription": "Women Black Silk Blend Floral Kurti. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ4_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ4_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ4_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ4_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ4_5.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Band collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 14 x 5 cm",
+      "stockQuantity": 15,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "26304672",
+        "sku": "ODETT00039894",
+        "categoryFilter": "662",
+        "assignedPriceTier": 556
+      }
+    },
+    {
+      "name": "Odette — Pink Silk Blend Geometric Kurti",
+      "slug": "odette-pink-silk-blend-geometric-kurti",
+      "price": 593,
+      "originalPrice": 1194,
+      "category": "kurtis",
+      "description": "Pink Silk Blend Geometric Kurti. Premium kurtis from our curated collection.",
+      "metaTitle": "Odette — Pink Silk Blend Geometric Kurti",
+      "metaDescription": "Pink Silk Blend Geometric Kurti. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ3_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ3_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ3_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ3_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ3_5.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.6 kg",
+      "dimensions": "11 x 10 x 2 cm",
+      "stockQuantity": 91,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "26304671",
+        "sku": "ODETT00039893",
+        "categoryFilter": "662",
+        "assignedPriceTier": 593
+      }
+    },
+    {
+      "name": "Odette — Women Maroon Silk Blend Floral Kurti",
+      "slug": "odette-women-maroon-silk-blend-floral-kurti",
+      "price": 561,
+      "originalPrice": 1194,
+      "category": "kurtis",
+      "description": "Women Maroon Silk Blend Floral Kurti. Premium kurtis from our curated collection.",
+      "metaTitle": "Odette — Women Maroon Silk Blend Floral Kurti",
+      "metaDescription": "Women Maroon Silk Blend Floral Kurti. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ7_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ7_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ7_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ7_4.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.4 kg",
+      "dimensions": "13 x 15 x 3 cm",
+      "stockQuantity": 25,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "26304675",
+        "sku": "ODETT00039897",
+        "categoryFilter": "662",
+        "assignedPriceTier": 561
+      }
+    },
+    {
+      "name": "Odette — Women Brown Silk Blend Floral Kurti",
+      "slug": "odette-women-brown-silk-blend-floral-kurti",
+      "price": 541,
+      "originalPrice": 1194,
+      "category": "kurtis",
+      "description": "Women Brown Silk Blend Floral Kurti. Premium kurtis from our curated collection.",
+      "metaTitle": "Odette — Women Brown Silk Blend Floral Kurti",
+      "metaDescription": "Women Brown Silk Blend Floral Kurti. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ2_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ2_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ2_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ2_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ2_5.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Long",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.5 kg",
+      "dimensions": "12 x 10 x 6 cm",
+      "stockQuantity": 66,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-11T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "26304670",
+        "sku": "ODETT00039892",
+        "categoryFilter": "662",
+        "assignedPriceTier": 541
+      }
+    },
+    {
+      "name": "Odette — Green Silk Blend Geometric Kurti",
+      "slug": "odette-green-silk-blend-geometric-kurti",
+      "price": 503,
+      "originalPrice": 1194,
+      "category": "kurtis",
+      "description": "Green Silk Blend Geometric Kurti. Premium kurtis from our curated collection.",
+      "metaTitle": "Odette — Green Silk Blend Geometric Kurti",
+      "metaDescription": "Green Silk Blend Geometric Kurti. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ21_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ21_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ21_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ21_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ21_5.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Jacket",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.5 kg",
+      "dimensions": "10 x 13 x 7 cm",
+      "stockQuantity": 109,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "26304688",
+        "sku": "ODETT00039910",
+        "categoryFilter": "662",
+        "assignedPriceTier": 503
+      }
+    },
+    {
+      "name": "Odette — Brown Silk Blend Floral Kurti",
+      "slug": "odette-brown-silk-blend-floral-kurti",
+      "price": 535,
+      "originalPrice": 1194,
+      "category": "kurtis",
+      "description": "Brown Silk Blend Floral Kurti. Premium kurtis from our curated collection.",
+      "metaTitle": "Odette — Brown Silk Blend Floral Kurti",
+      "metaDescription": "Brown Silk Blend Floral Kurti. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ33_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ33_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ33_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ33_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ33_5.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "11 x 12 x 4 cm",
+      "stockQuantity": 38,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "26304699",
+        "sku": "ODETT00039921",
+        "categoryFilter": "662",
+        "assignedPriceTier": 535
+      }
+    },
+    {
+      "name": "Odette — Pink Silk Blend Floral Kurti",
+      "slug": "odette-pink-silk-blend-floral-kurti",
+      "price": 512,
+      "originalPrice": 1194,
+      "category": "kurtis",
+      "description": "Pink Silk Blend Floral Kurti. Premium kurtis from our curated collection.",
+      "metaTitle": "Odette — Pink Silk Blend Floral Kurti",
+      "metaDescription": "Pink Silk Blend Floral Kurti. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ19_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ19_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ19_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ19_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ19_5.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "9 x 15 x 5 cm",
+      "stockQuantity": 32,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "26304686",
+        "sku": "ODETT00039908",
+        "categoryFilter": "662",
+        "assignedPriceTier": 512
+      }
+    },
+    {
+      "name": "Odette — Women Black Silk Blend Floral Kurti",
+      "slug": "odette-women-black-silk-blend-floral-kurti",
+      "price": 513,
+      "originalPrice": 1194,
+      "category": "kurtis",
+      "description": "Women Black Silk Blend Floral Kurti. Premium kurtis from our curated collection.",
+      "metaTitle": "Odette — Women Black Silk Blend Floral Kurti",
+      "metaDescription": "Women Black Silk Blend Floral Kurti. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ5_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ5_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ5_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ5_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ5_5.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.6 kg",
+      "dimensions": "8 x 12 x 6 cm",
+      "stockQuantity": 16,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "26304673",
+        "sku": "ODETT00039895",
+        "categoryFilter": "662",
+        "assignedPriceTier": 513
+      }
+    },
+    {
+      "name": "Odette — Multi-Color Silk Blend Floral Kurti",
+      "slug": "odette-multi-color-silk-blend-floral-kurti",
+      "price": 529,
+      "originalPrice": 1194,
+      "category": "kurtis",
+      "description": "Multi-Color Silk Blend Floral Kurti. Premium kurtis from our curated collection.",
+      "metaTitle": "Odette — Multi-Color Silk Blend Floral Kurti",
+      "metaDescription": "Multi-Color Silk Blend Floral Kurti. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ1_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ1_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ1_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ1_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ1_5.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Short",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 14 x 8 cm",
+      "stockQuantity": 77,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "26304669",
+        "sku": "ODETT00039891",
+        "categoryFilter": "662",
+        "assignedPriceTier": 529
+      }
+    },
+    {
+      "name": "Odette — Women Pink Silk Blend Floral Kurti",
+      "slug": "odette-women-pink-silk-blend-floral-kurti",
+      "price": 523,
+      "originalPrice": 1194,
+      "category": "kurtis",
+      "description": "Women Pink Silk Blend Floral Kurti. Premium kurtis from our curated collection.",
+      "metaTitle": "Odette — Women Pink Silk Blend Floral Kurti",
+      "metaDescription": "Women Pink Silk Blend Floral Kurti. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ14_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ14_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ14_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ14_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ14_5.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "10 x 10 x 5 cm",
+      "stockQuantity": 41,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "26304682",
+        "sku": "ODETT00039904",
+        "categoryFilter": "662",
+        "assignedPriceTier": 523
+      }
+    },
+    {
+      "name": "Odette — Women Multi-Color Silk Blend Floral Kurti",
+      "slug": "odette-women-multi-color-silk-blend-floral-kurti",
+      "price": 549,
+      "originalPrice": 1194,
+      "category": "kurtis",
+      "description": "Women Multi-Color Silk Blend Floral Kurti. Premium kurtis from our curated collection.",
+      "metaTitle": "Odette — Women Multi-Color Silk Blend Floral Kurti",
+      "metaDescription": "Women Multi-Color Silk Blend Floral Kurti. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ12_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ12_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ12_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ12_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ12_5.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 14 x 6 cm",
+      "stockQuantity": 46,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "26304680",
+        "sku": "ODETT00039902",
+        "categoryFilter": "662",
+        "assignedPriceTier": 549
+      }
+    },
+    {
+      "name": "Odette — Black Silk Blend Floral Kurti",
+      "slug": "odette-black-silk-blend-floral-kurti",
+      "price": 591,
+      "originalPrice": 1194,
+      "category": "kurtis",
+      "description": "Black Silk Blend Floral Kurti. Premium kurtis from our curated collection.",
+      "metaTitle": "Odette — Black Silk Blend Floral Kurti",
+      "metaDescription": "Black Silk Blend Floral Kurti. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ32_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ32_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ32_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ32_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ32_5.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "9 x 12 x 8 cm",
+      "stockQuantity": 49,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "26304698",
+        "sku": "ODETT00039920",
+        "categoryFilter": "662",
+        "assignedPriceTier": 591
+      }
+    },
+    {
+      "name": "Odette — Women Multi-Color Silk Blend Floral Kurti",
+      "slug": "odette-women-multi-color-silk-blend-floral-kurti",
+      "price": 535,
+      "originalPrice": 1194,
+      "category": "kurtis",
+      "description": "Women Multi-Color Silk Blend Floral Kurti. Premium kurtis from our curated collection.",
+      "metaTitle": "Odette — Women Multi-Color Silk Blend Floral Kurti",
+      "metaDescription": "Women Multi-Color Silk Blend Floral Kurti. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ16_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ16_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ16_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ16_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ16_5.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Trouser",
+      "washCare": "Dry clean recommended",
+      "neckline": "Band collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.5 kg",
+      "dimensions": "11 x 12 x 8 cm",
+      "stockQuantity": 84,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "26304684",
+        "sku": "ODETT00039906",
+        "categoryFilter": "662",
+        "assignedPriceTier": 535
+      }
+    },
+    {
+      "name": "Odette — Navy Blue Silk Blend Floral Kurti",
+      "slug": "odette-navy-blue-silk-blend-floral-kurti",
+      "price": 598,
+      "originalPrice": 1194,
+      "category": "kurtis",
+      "description": "Navy Blue Silk Blend Floral Kurti. Premium kurtis from our curated collection.",
+      "metaTitle": "Odette — Navy Blue Silk Blend Floral Kurti",
+      "metaDescription": "Navy Blue Silk Blend Floral Kurti. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ25_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ25_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ25_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ25_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/e/3ec688eMDAWIARJ25_5.jpg"
+      ],
+      "tags": [
+        "kurtis"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Kurta",
+      "washCare": "Hand wash separately",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "13 x 13 x 3 cm",
+      "stockQuantity": 104,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "26304691",
+        "sku": "ODETT00039913",
+        "categoryFilter": "662",
+        "assignedPriceTier": 598
+      }
+    }
+  ]
+}

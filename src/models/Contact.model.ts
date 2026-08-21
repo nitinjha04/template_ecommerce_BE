@@ -1,6 +1,7 @@
-import mongoose, { Document, Schema } from 'mongoose';
+import mongoose, { Document, Schema, Types } from 'mongoose';
 
 export interface IContact extends Document {
+  store: Types.ObjectId;
   name: string;
   email: string;
   subject: string;
@@ -12,6 +13,12 @@ export interface IContact extends Document {
 
 const contactSchema = new Schema<IContact>(
   {
+    store: {
+      type: Schema.Types.ObjectId,
+      ref: 'Store',
+      required: true,
+      index: true,
+    },
     name: {
       type: String,
       required: [true, 'Name is required'],
