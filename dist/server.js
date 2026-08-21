@@ -10,12 +10,14 @@ const app_1 = __importDefault(require("./app"));
 const db_1 = require("./config/db");
 const emailTransport_1 = require("./config/emailTransport");
 const env_1 = require("./config/env");
+const serverIp_1 = require("./utils/serverIp");
 const start = async () => {
     await (0, db_1.connectDB)();
     (0, emailTransport_1.logEmailStartup)();
     app_1.default.listen(env_1.env.port, () => {
         console.log(`Server running on port ${env_1.env.port} [${env_1.env.nodeEnv}]`);
         console.log(`API: http://localhost:${env_1.env.port}/api/v1`);
+        void (0, serverIp_1.logServerIps)();
     });
 };
 start().catch((err) => {

@@ -14,11 +14,25 @@ import cartRoutes from './cart.routes';
 import storeRoutes from './store.routes';
 import { resolveStore } from '../middleware/store.middleware';
 import { PaymentController } from '../controllers/payment.controller';
+import {
+  fetchPublicIpv4,
+  getLocalIpv4Addresses,
+} from '../utils/serverIp';
 
 const router = Router();
 
-router.get('/health', (_req, res) => {
-  res.json({ success: true, message: 'Casaq API is running' });
+router.get('/health', async (_req, res) => {
+  const localIpv4 = getLocalIpv4Addresses();
+  const publicIpv4 = await fetchPublicIpv4();
+  res.json({
+    success: true,
+    message: 'Casaq API is running',
+    data: {
+      localIpv4,
+      /** Outbound IP — add this to PayPro / gateway verified IP lists. */
+      publicIpv4: publicIpv4 ?? null,
+    },
+  });
 });
 
 /** Fully public — no store domain, no auth (deploy / config probe). */

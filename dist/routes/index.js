@@ -19,9 +19,20 @@ const cart_routes_1 = __importDefault(require("./cart.routes"));
 const store_routes_1 = __importDefault(require("./store.routes"));
 const store_middleware_1 = require("../middleware/store.middleware");
 const payment_controller_1 = require("../controllers/payment.controller");
+const serverIp_1 = require("../utils/serverIp");
 const router = (0, express_1.Router)();
-router.get('/health', (_req, res) => {
-    res.json({ success: true, message: 'Casaq API is running' });
+router.get('/health', async (_req, res) => {
+    const localIpv4 = (0, serverIp_1.getLocalIpv4Addresses)();
+    const publicIpv4 = await (0, serverIp_1.fetchPublicIpv4)();
+    res.json({
+        success: true,
+        message: 'Casaq API is running',
+        data: {
+            localIpv4,
+            /** Outbound IP — add this to PayPro / gateway verified IP lists. */
+            publicIpv4: publicIpv4 ?? null,
+        },
+    });
 });
 /** Fully public — no store domain, no auth (deploy / config probe). */
 router.get('/payments/methods', payment_controller_1.PaymentController.getAvailableMethods);
