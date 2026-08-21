@@ -106,14 +106,59 @@ export const getApiPublicOrigin = (): string => {
 };
 
 /** Public storefront URL used for PayPro return / success redirects. */
-export const getFrontendOrigin = (): string =>
-  (process.env.PAYMENT_RETURN_URL?.trim() || env.frontendUrl).replace(/\/$/, "");
+const parseStoreFrontendUrls = (): ReadonlyMap<string, string> => {
+  const raw = (process.env.STORE_FRONTEND_URLS ?? "").trim();
+  const map = new Map<string, string>();
+  if (!raw) return map;
+
+  for (const entry of raw.split(";")) {
+    const eqIdx = entry.indexOf("=");
+    if (eqIdx <= 0) continue;
+    const domain = normalizeStoreDomain(entry.slice(0, eqIdx));
+    let origin = entry.slice(eqIdx + 1).trim().replace(/\/$/, "");
+    if (!domain || !origin) continue;
+    if (!/^https?:\/\//i.test(origin)) {
+      origin = `https://${origin}`;
+    }
+    map.set(domain, origin.replace(/\/$/, ""));
+  }
+  return map;
+};
+
+const storeFrontendUrls = parseStoreFrontendUrls();
+
+/**
+ * Storefront origin for redirects.
+ * Priority: STORE_FRONTEND_URLS[domain] → https://{domain} → PAYMENT_RETURN_URL → FRONTEND_URL
+ */
+export const getFrontendOrigin = (storeDomain?: string): string => {
+  const normalized = storeDomain ? normalizeStoreDomain(storeDomain) : "";
+
+  if (normalized) {
+    const mapped = storeFrontendUrls.get(normalized);
+    if (mapped) return mapped;
+
+    // Real store domains → build https://domain (skip localhost / bare IPs)
+    if (
+      !normalized.includes("localhost") &&
+      !/^\d{1,3}(\.\d{1,3}){3}$/.test(normalized)
+    ) {
+      return `https://${normalized}`;
+    }
+  }
+
+  return (process.env.PAYMENT_RETURN_URL?.trim() || env.frontendUrl).replace(
+    /\/$/,
+    ""
+  );
+};
 
 export const getPaymentReturnUrl = (
   orderNumber: string,
-  merchantOrderNo: string
+  merchantOrderNo: string,
+  storeDomain?: string
 ): string =>
-  `${getFrontendOrigin()}/payment-return?order=${encodeURIComponent(
+  `${getFrontendOrigin(storeDomain)}/payment-return?order=${encodeURIComponent(
     orderNumber
   )}&mo=${encodeURIComponent(merchantOrderNo)}`;
 

@@ -97,9 +97,47 @@ const getApiPublicOrigin = () => {
 };
 exports.getApiPublicOrigin = getApiPublicOrigin;
 /** Public storefront URL used for PayPro return / success redirects. */
-const getFrontendOrigin = () => (process.env.PAYMENT_RETURN_URL?.trim() || exports.env.frontendUrl).replace(/\/$/, "");
+const parseStoreFrontendUrls = () => {
+    const raw = (process.env.STORE_FRONTEND_URLS ?? "").trim();
+    const map = new Map();
+    if (!raw)
+        return map;
+    for (const entry of raw.split(";")) {
+        const eqIdx = entry.indexOf("=");
+        if (eqIdx <= 0)
+            continue;
+        const domain = (0, storeDomain_1.normalizeStoreDomain)(entry.slice(0, eqIdx));
+        let origin = entry.slice(eqIdx + 1).trim().replace(/\/$/, "");
+        if (!domain || !origin)
+            continue;
+        if (!/^https?:\/\//i.test(origin)) {
+            origin = `https://${origin}`;
+        }
+        map.set(domain, origin.replace(/\/$/, ""));
+    }
+    return map;
+};
+const storeFrontendUrls = parseStoreFrontendUrls();
+/**
+ * Storefront origin for redirects.
+ * Priority: STORE_FRONTEND_URLS[domain] → https://{domain} → PAYMENT_RETURN_URL → FRONTEND_URL
+ */
+const getFrontendOrigin = (storeDomain) => {
+    const normalized = storeDomain ? (0, storeDomain_1.normalizeStoreDomain)(storeDomain) : "";
+    if (normalized) {
+        const mapped = storeFrontendUrls.get(normalized);
+        if (mapped)
+            return mapped;
+        // Real store domains → build https://domain (skip localhost / bare IPs)
+        if (!normalized.includes("localhost") &&
+            !/^\d{1,3}(\.\d{1,3}){3}$/.test(normalized)) {
+            return `https://${normalized}`;
+        }
+    }
+    return (process.env.PAYMENT_RETURN_URL?.trim() || exports.env.frontendUrl).replace(/\/$/, "");
+};
 exports.getFrontendOrigin = getFrontendOrigin;
-const getPaymentReturnUrl = (orderNumber, merchantOrderNo) => `${(0, exports.getFrontendOrigin)()}/payment-return?order=${encodeURIComponent(orderNumber)}&mo=${encodeURIComponent(merchantOrderNo)}`;
+const getPaymentReturnUrl = (orderNumber, merchantOrderNo, storeDomain) => `${(0, exports.getFrontendOrigin)(storeDomain)}/payment-return?order=${encodeURIComponent(orderNumber)}&mo=${encodeURIComponent(merchantOrderNo)}`;
 exports.getPaymentReturnUrl = getPaymentReturnUrl;
 const isDsaGatewayConfigured = () => {
     const { merchantId, privateKey, publicKey, baseUrl } = exports.env.dsaGateway;

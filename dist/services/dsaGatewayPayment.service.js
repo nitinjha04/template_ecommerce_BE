@@ -102,8 +102,11 @@ class DsaGatewayPaymentService {
             storeDomain: storeDomain ?? "(none)",
             fromRequest: input.gatewayId ?? null,
         });
-        const returnUrl = (0, env_1.getPaymentReturnUrl)(order.orderNumber, merchantOrderNo);
-        this.log("createForOrder:return_url_for_merchant_panel", { returnUrl });
+        const returnUrl = (0, env_1.getPaymentReturnUrl)(order.orderNumber, merchantOrderNo, storeDomain);
+        this.log("createForOrder:return_url_for_merchant_panel", {
+            returnUrl,
+            storeDomain: storeDomain ?? "(none)",
+        });
         const payload = {
             // DT PayPro byGateway variant requires gateway_id.
             gateway_id: chosenGatewayId,
