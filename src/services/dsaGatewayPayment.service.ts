@@ -5,7 +5,9 @@ import {
   getApiPublicOrigin,
   getPaymentReturnUrl,
   isDsaGatewayConfigured,
+  resolveDsaGatewayId,
 } from "../config/env";
+import { getStoreContext } from "../context/store.context";
 import { Order, Payment } from "../models";
 import type { IPayment } from "../models/Payment.model";
 import { ApiError } from "../utils/ApiError";
@@ -128,17 +130,17 @@ export class DsaGatewayPaymentService {
       throw err;
     }
 
-    const configuredIds = [
-      ...(env.dsaGateway.gatewayIds ?? []),
-      ...(env.dsaGateway.gatewayId ? [env.dsaGateway.gatewayId] : []),
-    ].filter((n, i, a) => a.indexOf(n) === i);
+    const storeDomain = getStoreContext()?.storeDomain;
+    const chosenGatewayId = resolveDsaGatewayId({
+      gatewayId: input.gatewayId,
+      storeDomain,
+    });
 
-    const chosenGatewayId =
-      (Number.isFinite(input.gatewayId) && (input.gatewayId as number) > 0
-        ? (input.gatewayId as number)
-        : undefined) ??
-      configuredIds[0] ??
-      489783;
+    this.log("createForOrder:gateway_id", {
+      chosenGatewayId,
+      storeDomain: storeDomain ?? "(none)",
+      fromRequest: input.gatewayId ?? null,
+    });
 
     const returnUrl = getPaymentReturnUrl(order.orderNumber, merchantOrderNo);
     this.log("createForOrder:return_url_for_merchant_panel", { returnUrl });

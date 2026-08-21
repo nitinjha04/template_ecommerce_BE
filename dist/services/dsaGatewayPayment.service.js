@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.DsaGatewayPaymentService = void 0;
 const axios_1 = __importDefault(require("axios"));
 const env_1 = require("../config/env");
+const store_context_1 = require("../context/store.context");
 const models_1 = require("../models");
 const ApiError_1 = require("../utils/ApiError");
 const noncestr_1 = require("../utils/dsaGateway/noncestr");
@@ -91,15 +92,16 @@ class DsaGatewayPaymentService {
             });
             throw err;
         }
-        const configuredIds = [
-            ...(env_1.env.dsaGateway.gatewayIds ?? []),
-            ...(env_1.env.dsaGateway.gatewayId ? [env_1.env.dsaGateway.gatewayId] : []),
-        ].filter((n, i, a) => a.indexOf(n) === i);
-        const chosenGatewayId = (Number.isFinite(input.gatewayId) && input.gatewayId > 0
-            ? input.gatewayId
-            : undefined) ??
-            configuredIds[0] ??
-            489783;
+        const storeDomain = (0, store_context_1.getStoreContext)()?.storeDomain;
+        const chosenGatewayId = (0, env_1.resolveDsaGatewayId)({
+            gatewayId: input.gatewayId,
+            storeDomain,
+        });
+        this.log("createForOrder:gateway_id", {
+            chosenGatewayId,
+            storeDomain: storeDomain ?? "(none)",
+            fromRequest: input.gatewayId ?? null,
+        });
         const returnUrl = (0, env_1.getPaymentReturnUrl)(order.orderNumber, merchantOrderNo);
         this.log("createForOrder:return_url_for_merchant_panel", { returnUrl });
         const payload = {

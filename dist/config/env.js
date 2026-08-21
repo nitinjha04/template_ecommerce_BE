@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.logEmailEnvDiagnostics = exports.isEmailEnabled = exports.getOrderAdminNotificationRecipients = exports.getStoreOrderAdminEmails = exports.getEmailFromForDomain = exports.getEmailFrom = exports.isEmailConfigured = exports.isBrevoConfigured = exports.isRazorpayConfigured = exports.isDsaGatewayConfigured = exports.getPaymentReturnUrl = exports.getFrontendOrigin = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
+exports.logEmailEnvDiagnostics = exports.isEmailEnabled = exports.getOrderAdminNotificationRecipients = exports.getStoreOrderAdminEmails = exports.resolveDsaGatewayId = exports.getDsaGatewayIdForDomain = exports.getEmailFromForDomain = exports.getEmailFrom = exports.isEmailConfigured = exports.isBrevoConfigured = exports.isRazorpayConfigured = exports.isDsaGatewayConfigured = exports.getPaymentReturnUrl = exports.getFrontendOrigin = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
 const dotenv_1 = __importDefault(require("dotenv"));
 const storeDomain_1 = require("../utils/storeDomain");
 dotenv_1.default.config();
@@ -129,9 +129,59 @@ const getEmailFromForDomain = (domain) => {
 };
 exports.getEmailFromForDomain = getEmailFromForDomain;
 /**
+ * Per-store DSA/PayPro gateway IDs.
+ * Format: domain=gatewayId;domain2=gatewayId2
+ * Example: casaq.in=489819;protico.in=490009
+ */
+const parseStoreDsaGatewayIds = () => {
+    const raw = (process.env.STORE_DSA_GATEWAY_IDS ?? "").trim();
+    const map = new Map();
+    if (!raw)
+        return map;
+    for (const entry of raw.split(";")) {
+        const eqIdx = entry.indexOf("=");
+        if (eqIdx <= 0)
+            continue;
+        const domain = (0, storeDomain_1.normalizeStoreDomain)(entry.slice(0, eqIdx));
+        const id = Number(String(entry.slice(eqIdx + 1)).trim());
+        if (domain && Number.isFinite(id) && id > 0) {
+            map.set(domain, id);
+        }
+    }
+    return map;
+};
+const storeDsaGatewayIds = parseStoreDsaGatewayIds();
+/** PayPro gateway_id for a store domain (from STORE_DSA_GATEWAY_IDS). */
+const getDsaGatewayIdForDomain = (domain) => {
+    if (!domain)
+        return undefined;
+    return storeDsaGatewayIds.get((0, storeDomain_1.normalizeStoreDomain)(domain));
+};
+exports.getDsaGatewayIdForDomain = getDsaGatewayIdForDomain;
+/**
+ * Resolve which PayPro gateway_id to use for a payment create.
+ * Priority: explicit request id → store domain map → GATEWAY_ID → DSA_GATEWAY_IDS[0] → legacy default.
+ */
+const resolveDsaGatewayId = (input) => {
+    if (Number.isFinite(input?.gatewayId) &&
+        input.gatewayId > 0) {
+        return input.gatewayId;
+    }
+    const fromDomain = (0, exports.getDsaGatewayIdForDomain)(input?.storeDomain);
+    if (fromDomain)
+        return fromDomain;
+    if (exports.env.dsaGateway.gatewayId && exports.env.dsaGateway.gatewayId > 0) {
+        return exports.env.dsaGateway.gatewayId;
+    }
+    const list = exports.env.dsaGateway.gatewayIds ?? [];
+    if (list[0] && list[0] > 0)
+        return list[0];
+    return 489783;
+};
+exports.resolveDsaGatewayId = resolveDsaGatewayId;
+/**
  * Per-store "new order" notification inboxes (in addition to ADMIN_EMAIL).
  * Format: domain=email1,email2;domain2=email3
- * Example: casaq.in=casaqte@gmail.com;argenstyle.in=a@x.com,b@y.com
  */
 const parseStoreOrderAdminEmails = () => {
     const raw = (process.env.STORE_ORDER_ADMIN_EMAILS ?? "").trim();

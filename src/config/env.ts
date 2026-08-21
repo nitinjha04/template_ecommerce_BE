@@ -146,9 +146,66 @@ export const getEmailFromForDomain = (domain?: string): string => {
 };
 
 /**
+ * Per-store DSA/PayPro gateway IDs.
+ * Format: domain=gatewayId;domain2=gatewayId2
+ * Example: casaq.in=489819;protico.in=490009
+ */
+const parseStoreDsaGatewayIds = (): ReadonlyMap<string, number> => {
+  const raw = (process.env.STORE_DSA_GATEWAY_IDS ?? "").trim();
+  const map = new Map<string, number>();
+  if (!raw) return map;
+
+  for (const entry of raw.split(";")) {
+    const eqIdx = entry.indexOf("=");
+    if (eqIdx <= 0) continue;
+    const domain = normalizeStoreDomain(entry.slice(0, eqIdx));
+    const id = Number(String(entry.slice(eqIdx + 1)).trim());
+    if (domain && Number.isFinite(id) && id > 0) {
+      map.set(domain, id);
+    }
+  }
+  return map;
+};
+
+const storeDsaGatewayIds = parseStoreDsaGatewayIds();
+
+/** PayPro gateway_id for a store domain (from STORE_DSA_GATEWAY_IDS). */
+export const getDsaGatewayIdForDomain = (domain?: string): number | undefined => {
+  if (!domain) return undefined;
+  return storeDsaGatewayIds.get(normalizeStoreDomain(domain));
+};
+
+/**
+ * Resolve which PayPro gateway_id to use for a payment create.
+ * Priority: explicit request id → store domain map → GATEWAY_ID → DSA_GATEWAY_IDS[0] → legacy default.
+ */
+export const resolveDsaGatewayId = (input?: {
+  gatewayId?: number;
+  storeDomain?: string;
+}): number => {
+  if (
+    Number.isFinite(input?.gatewayId) &&
+    (input!.gatewayId as number) > 0
+  ) {
+    return input!.gatewayId as number;
+  }
+
+  const fromDomain = getDsaGatewayIdForDomain(input?.storeDomain);
+  if (fromDomain) return fromDomain;
+
+  if (env.dsaGateway.gatewayId && env.dsaGateway.gatewayId > 0) {
+    return env.dsaGateway.gatewayId;
+  }
+
+  const list = env.dsaGateway.gatewayIds ?? [];
+  if (list[0] && list[0] > 0) return list[0];
+
+  return 489783;
+};
+
+/**
  * Per-store "new order" notification inboxes (in addition to ADMIN_EMAIL).
  * Format: domain=email1,email2;domain2=email3
- * Example: casaq.in=casaqte@gmail.com;argenstyle.in=a@x.com,b@y.com
  */
 const parseStoreOrderAdminEmails = (): ReadonlyMap<string, readonly string[]> => {
   const raw = (process.env.STORE_ORDER_ADMIN_EMAILS ?? "").trim();
