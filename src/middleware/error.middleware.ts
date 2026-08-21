@@ -14,7 +14,7 @@ export const errorHandler = (
   _next: NextFunction
 ): void => {
   if (err instanceof ApiError) {
-    ApiResponse.error(res, err.message, err.statusCode, err.errors);
+    ApiResponse.error(res, err.message, err.statusCode, err.errors, err.data);
     return;
   }
 

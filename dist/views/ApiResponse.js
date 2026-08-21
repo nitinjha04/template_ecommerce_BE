@@ -15,13 +15,15 @@ class ApiResponse {
     static created(res, data, message = 'Created successfully') {
         return ApiResponse.success(res, data, message, 201);
     }
-    static error(res, message, statusCode = 500, errors) {
+    static error(res, message, statusCode = 500, errors, data) {
         const body = {
             success: false,
             message,
         };
         if (errors)
             body.errors = errors;
+        if (data !== undefined)
+            body.data = data;
         return res.status(statusCode).json(body);
     }
 }

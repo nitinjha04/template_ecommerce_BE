@@ -132,9 +132,49 @@ class DsaGatewayPaymentService {
             sign,
         };
         const url = `${env_1.env.dsaGateway.baseUrl}/open/nax/payin/byGateway`;
-        this.log("createForOrder:gateway_request", { url, merchantOrderNo });
-        const response = await axios_1.default.post(url, payload, { timeout: 20_000 });
-        this.log("createForOrder:gateway_response", { response: response.data });
+        // Log a short request summary — never dump full AxiosError / huge config.
+        const loggablePayload = {
+            ...payload,
+            sign: typeof payload.sign === "string"
+                ? `${payload.sign.slice(0, 12)}…(${payload.sign.length})`
+                : payload.sign,
+        };
+        this.log("createForOrder:gateway_request", {
+            url,
+            merchantOrderNo,
+            payload: loggablePayload,
+        });
+        let response;
+        try {
+            response = await axios_1.default.post(url, payload, { timeout: 20_000 });
+        }
+        catch (err) {
+            const ax = err;
+            const gatewayStatus = ax.response?.status ?? null;
+            const gatewayResponse = ax.response?.data ?? null;
+            this.log("createForOrder:gateway_error", {
+                url,
+                merchantOrderNo,
+                gatewayStatus,
+                gatewayResponse,
+                payload: loggablePayload,
+                axiosMessage: ax.message ?? String(err),
+            });
+            const statusCode = 502;
+            throw new ApiError_1.ApiError(statusCode, gatewayStatus
+                ? `Payment gateway rejected the request (${gatewayStatus})`
+                : "Payment gateway request failed", undefined, {
+                gatewayStatus,
+                gatewayResponse,
+                requestPayload: loggablePayload,
+                gatewayUrl: url,
+            });
+        }
+        this.log("createForOrder:gateway_response", {
+            merchantOrderNo,
+            gatewayStatus: response.status,
+            response: response.data,
+        });
         // Prefer hosted HTTPS checkout (Easebuzz / H5). Fall back to UPI deeplink if needed.
         const data = response?.data;
         const nested = data?.data;

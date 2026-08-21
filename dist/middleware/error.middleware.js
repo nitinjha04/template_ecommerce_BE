@@ -10,7 +10,7 @@ const notFound = (req, _res, next) => {
 exports.notFound = notFound;
 const errorHandler = (err, _req, res, _next) => {
     if (err instanceof ApiError_1.ApiError) {
-        ApiResponse_1.ApiResponse.error(res, err.message, err.statusCode, err.errors);
+        ApiResponse_1.ApiResponse.error(res, err.message, err.statusCode, err.errors, err.data);
         return;
     }
     if (err.name === 'ValidationError') {
