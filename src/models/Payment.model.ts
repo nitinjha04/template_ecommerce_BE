@@ -18,6 +18,8 @@ export interface IPayment extends Document {
     upiLink: string;
   };
   razorpay?: {
+    /** Public key_id used when this Razorpay order was created (multi-merchant). */
+    keyId?: string;
     orderId?: string;
     paymentId?: string;
     signature?: string;
@@ -96,6 +98,7 @@ const paymentSchema = new Schema<IPayment>(
       upiLink: { type: String, required: false },
     },
     razorpay: {
+      keyId: { type: String, required: false },
       orderId: { type: String, required: false, index: true },
       paymentId: { type: String, required: false, index: true },
       signature: { type: String, required: false },

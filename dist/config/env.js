@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.logEmailEnvDiagnostics = exports.isEmailEnabled = exports.getOrderAdminNotificationRecipients = exports.getStoreOrderAdminEmails = exports.resolveDsaGatewayId = exports.getDsaGatewayIdForDomain = exports.getEmailFromForDomain = exports.getEmailFrom = exports.isEmailConfigured = exports.isBrevoConfigured = exports.isRazorpayConfiguredForDomain = exports.resolveRazorpayCredentialsByKeyId = exports.resolveRazorpayCredentials = exports.isRazorpayConfigured = exports.isDsaGatewayConfigured = exports.getPaymentReturnUrl = exports.getFrontendOrigin = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
+exports.logEmailEnvDiagnostics = exports.isEmailEnabled = exports.getOrderAdminNotificationRecipients = exports.getStoreOrderAdminEmails = exports.resolveDsaGatewayId = exports.getDsaGatewayIdForDomain = exports.getEmailFromForDomain = exports.getEmailFrom = exports.isEmailConfigured = exports.isBrevoConfigured = exports.isRazorpayConfiguredForDomain = exports.resolveRazorpayCredentialsByKeyId = exports.listStoreRazorpayDomains = exports.hasStoreRazorpayMapping = exports.resolveRazorpayCredentials = exports.isRazorpayConfigured = exports.isDsaGatewayConfigured = exports.getPaymentReturnUrl = exports.getFrontendOrigin = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
 const dotenv_1 = __importDefault(require("dotenv"));
 const storeDomain_1 = require("../utils/storeDomain");
 dotenv_1.default.config();
@@ -206,6 +206,16 @@ const resolveRazorpayCredentials = (storeDomain) => {
     return getGlobalRazorpayCredentials();
 };
 exports.resolveRazorpayCredentials = resolveRazorpayCredentials;
+/** Whether STORE_RAZORPAY_KEYS has an explicit entry for this domain. */
+const hasStoreRazorpayMapping = (storeDomain) => {
+    if (!storeDomain)
+        return false;
+    return storeRazorpayKeys.has((0, storeDomain_1.normalizeStoreDomain)(storeDomain));
+};
+exports.hasStoreRazorpayMapping = hasStoreRazorpayMapping;
+/** Domains configured in STORE_RAZORPAY_KEYS (for diagnostics). */
+const listStoreRazorpayDomains = () => [...storeRazorpayKeys.keys()];
+exports.listStoreRazorpayDomains = listStoreRazorpayDomains;
 /** Look up credentials by public key_id (e.g. from a saved payment session). */
 const resolveRazorpayCredentialsByKeyId = (keyId) => {
     const id = (keyId ?? "").trim();

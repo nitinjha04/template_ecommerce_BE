@@ -3,7 +3,8 @@ import express from "express";
 import helmet from "helmet";
 import morgan from "morgan";
 import path from "path";
-import { env, isRazorpayConfigured } from "./config/env";
+import { env, isRazorpayConfigured, resolveRazorpayCredentials } from "./config/env";
+import { getStoreContext } from "./context/store.context";
 import { errorHandler, notFound } from "./middleware/error.middleware";
 import routes from "./routes";
 
@@ -55,13 +56,20 @@ app.use(
  * GET /api/v1/payments/methods
  */
 app.get("/api/v1/payments/methods", (_req, res) => {
-  const razorpay = isRazorpayConfigured();
+  const storeDomain = getStoreContext()?.storeDomain;
+  const creds = resolveRazorpayCredentials(storeDomain);
+  const razorpay = Boolean(creds) || isRazorpayConfigured();
+  const keyId = creds?.keyId ?? (isRazorpayConfigured() ? env.razorpay.keyId : undefined);
   res.status(200).json({
     success: true,
     message: "Payment methods",
     data: {
       razorpay,
-      ...(razorpay ? { keyId: env.razorpay.keyId } : {}),
+      ...(keyId ? { keyId } : {}),
+      ...(keyId
+        ? { keyIdPrefix: `${String(keyId).slice(0, 6)}…` }
+        : {}),
+      ...(storeDomain ? { storeDomain } : {}),
     },
   });
 });

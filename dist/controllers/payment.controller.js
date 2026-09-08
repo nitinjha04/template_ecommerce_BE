@@ -8,6 +8,7 @@ const ApiResponse_1 = require("../views/ApiResponse");
 const dsaGatewayPayment_service_1 = require("../services/dsaGatewayPayment.service");
 const razorpayPayment_service_1 = require("../services/razorpayPayment.service");
 const env_1 = require("../config/env");
+const store_context_1 = require("../context/store.context");
 const ApiError_1 = require("../utils/ApiError");
 const models_1 = require("../models");
 const storeScope_1 = require("../utils/storeScope");
@@ -115,9 +116,15 @@ class PaymentController {
     });
     /** Public: which checkout providers are enabled on this API. */
     static getAvailableMethods = (0, asyncHandler_1.asyncHandler)(async (_req, res) => {
+        const storeDomain = (0, store_context_1.getStoreContext)()?.storeDomain;
+        const creds = (0, env_1.resolveRazorpayCredentials)(storeDomain);
+        const razorpay = Boolean(creds) || (0, env_1.isRazorpayConfigured)();
+        const keyId = creds?.keyId ?? ((0, env_1.isRazorpayConfigured)() ? env_1.env.razorpay.keyId : undefined);
         ApiResponse_1.ApiResponse.success(res, {
-            razorpay: (0, env_1.isRazorpayConfigured)(),
-            keyId: (0, env_1.isRazorpayConfigured)() ? env_1.env.razorpay.keyId : undefined,
+            razorpay,
+            keyId: razorpay ? keyId : undefined,
+            keyIdPrefix: keyId ? `${keyId.slice(0, 6)}…` : undefined,
+            storeDomain: storeDomain || undefined,
         }, 'Payment methods');
     });
     static verifyRazorpay = (0, asyncHandler_1.asyncHandler)(async (req, res) => {

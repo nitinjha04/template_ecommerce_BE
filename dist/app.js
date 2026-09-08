@@ -9,6 +9,7 @@ const helmet_1 = __importDefault(require("helmet"));
 const morgan_1 = __importDefault(require("morgan"));
 const path_1 = __importDefault(require("path"));
 const env_1 = require("./config/env");
+const store_context_1 = require("./context/store.context");
 const error_middleware_1 = require("./middleware/error.middleware");
 const routes_1 = __importDefault(require("./routes"));
 const app = (0, express_1.default)();
@@ -48,13 +49,20 @@ app.use("/uploads", express_1.default.static(uploadsDir, {
  * GET /api/v1/payments/methods
  */
 app.get("/api/v1/payments/methods", (_req, res) => {
-    const razorpay = (0, env_1.isRazorpayConfigured)();
+    const storeDomain = (0, store_context_1.getStoreContext)()?.storeDomain;
+    const creds = (0, env_1.resolveRazorpayCredentials)(storeDomain);
+    const razorpay = Boolean(creds) || (0, env_1.isRazorpayConfigured)();
+    const keyId = creds?.keyId ?? ((0, env_1.isRazorpayConfigured)() ? env_1.env.razorpay.keyId : undefined);
     res.status(200).json({
         success: true,
         message: "Payment methods",
         data: {
             razorpay,
-            ...(razorpay ? { keyId: env_1.env.razorpay.keyId } : {}),
+            ...(keyId ? { keyId } : {}),
+            ...(keyId
+                ? { keyIdPrefix: `${String(keyId).slice(0, 6)}…` }
+                : {}),
+            ...(storeDomain ? { storeDomain } : {}),
         },
     });
 });

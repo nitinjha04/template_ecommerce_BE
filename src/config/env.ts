@@ -241,6 +241,16 @@ export const resolveRazorpayCredentials = (
   return getGlobalRazorpayCredentials();
 };
 
+/** Whether STORE_RAZORPAY_KEYS has an explicit entry for this domain. */
+export const hasStoreRazorpayMapping = (storeDomain?: string): boolean => {
+  if (!storeDomain) return false;
+  return storeRazorpayKeys.has(normalizeStoreDomain(storeDomain));
+};
+
+/** Domains configured in STORE_RAZORPAY_KEYS (for diagnostics). */
+export const listStoreRazorpayDomains = (): string[] =>
+  [...storeRazorpayKeys.keys()];
+
 /** Look up credentials by public key_id (e.g. from a saved payment session). */
 export const resolveRazorpayCredentialsByKeyId = (
   keyId?: string

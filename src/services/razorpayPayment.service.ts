@@ -1,8 +1,17 @@
 import crypto from 'crypto';
 import Razorpay from 'razorpay';
 import { Types } from 'mongoose';
-import { env, isRazorpayConfigured } from '../config/env';
-import { Order, Payment } from '../models';
+import {
+  env,
+  hasStoreRazorpayMapping,
+  isRazorpayConfigured,
+  listStoreRazorpayDomains,
+  resolveRazorpayCredentials,
+  resolveRazorpayCredentialsByKeyId,
+  type RazorpayCredentials,
+} from '../config/env';
+import { getStoreContext } from '../context/store.context';
+import { Order, Payment, Store } from '../models';
 import type { IOrder } from '../models/Order.model';
 import type { IPayment } from '../models/Payment.model';
 import { ApiError } from '../utils/ApiError';
@@ -46,8 +55,16 @@ type RazorpayWebhookEvent = {
   };
 };
 
+const maskPrefix = (value: string, len = 6): string => {
+  const v = String(value ?? '');
+  if (!v) return '(empty)';
+  if (v.length <= len) return `${v}…`;
+  return `${v.slice(0, len)}…`;
+};
+
 export class RazorpayPaymentService {
-  private static client: Razorpay | null = null;
+  /** One Razorpay SDK client per key_id (multi-merchant). */
+  private static clients = new Map<string, Razorpay>();
 
   private static log(step: string, details?: Record<string, unknown>) {
     if (details) {
@@ -57,27 +74,78 @@ export class RazorpayPaymentService {
     console.info(`[razorpay] ${step}`);
   }
 
-  private static getClient(): Razorpay {
-    if (!isRazorpayConfigured()) {
-      throw new ApiError(500, 'Razorpay is not configured');
+  private static credsLogFields(
+    creds: RazorpayCredentials,
+    extra?: Record<string, unknown>
+  ): Record<string, unknown> {
+    return {
+      keyIdPrefix: maskPrefix(creds.keyId, 6),
+      keySecretPrefix: maskPrefix(creds.keySecret, 6),
+      keyIdLen: creds.keyId.length,
+      keySecretLen: creds.keySecret.length,
+      ...extra,
+    };
+  }
+
+  private static getClient(creds: RazorpayCredentials): Razorpay {
+    const existing = this.clients.get(creds.keyId);
+    if (existing) return existing;
+    const client = new Razorpay({
+      key_id: creds.keyId,
+      key_secret: creds.keySecret,
+    });
+    this.clients.set(creds.keyId, client);
+    return client;
+  }
+
+  private static async resolveStoreDomainForOrder(
+    order: IOrder
+  ): Promise<string | undefined> {
+    const fromCtx = getStoreContext()?.storeDomain?.trim();
+    if (fromCtx) return fromCtx;
+
+    if (order.store) {
+      const store = await Store.findById(order.store).select('domain').lean();
+      const domain = store?.domain?.trim();
+      if (domain) return domain;
     }
-    if (!this.client) {
-      this.client = new Razorpay({
-        key_id: env.razorpay.keyId,
-        key_secret: env.razorpay.keySecret,
-      });
+    return undefined;
+  }
+
+  private static async resolveCredsForOrder(
+    order: IOrder,
+    savedKeyId?: string
+  ): Promise<{ creds: RazorpayCredentials; storeDomain?: string; source: string }> {
+    if (savedKeyId) {
+      const byKey = resolveRazorpayCredentialsByKeyId(savedKeyId);
+      if (byKey) {
+        const storeDomain = await this.resolveStoreDomainForOrder(order);
+        return { creds: byKey, storeDomain, source: 'payment.keyId' };
+      }
     }
-    return this.client;
+
+    const storeDomain = await this.resolveStoreDomainForOrder(order);
+    const creds = resolveRazorpayCredentials(storeDomain);
+    if (!creds) {
+      throw new ApiError(500, 'Razorpay is not configured for this store');
+    }
+
+    const source = hasStoreRazorpayMapping(storeDomain)
+      ? 'STORE_RAZORPAY_KEYS'
+      : 'RAZORPAY_KEY_ID (global fallback)';
+
+    return { creds, storeDomain, source };
   }
 
   static verifyCheckoutSignature(
     orderId: string,
     paymentId: string,
-    signature: string
+    signature: string,
+    keySecret: string
   ): boolean {
     const body = `${orderId}|${paymentId}`;
     const expected = crypto
-      .createHmac('sha256', env.razorpay.keySecret)
+      .createHmac('sha256', keySecret)
       .update(body)
       .digest('hex');
     try {
@@ -90,11 +158,14 @@ export class RazorpayPaymentService {
     }
   }
 
-  static verifyWebhookSignature(rawBody: Buffer | string, signature: string): boolean {
-    const secret = env.razorpay.webhookSecret;
-    if (!secret) return false;
+  static verifyWebhookSignature(
+    rawBody: Buffer | string,
+    signature: string,
+    webhookSecret: string
+  ): boolean {
+    if (!webhookSecret) return false;
     const expected = crypto
-      .createHmac('sha256', secret)
+      .createHmac('sha256', webhookSecret)
       .update(rawBody)
       .digest('hex');
     try {
@@ -146,7 +217,12 @@ export class RazorpayPaymentService {
       throw new ApiError(500, 'Razorpay is not configured');
     }
 
-    this.log('createForOrder:start', { orderNumber: input.orderNumber });
+    this.log('createForOrder:start', {
+      orderNumber: input.orderNumber,
+      storeContext: getStoreContext()?.storeDomain ?? '(none)',
+      storeRazorpayDomains: listStoreRazorpayDomains(),
+    });
+
     const { order, payment } = await this.assertOrderAccess(
       input.orderNumber,
       input.email,
@@ -157,11 +233,22 @@ export class RazorpayPaymentService {
       throw new ApiError(400, 'Order is already paid');
     }
 
+    const { creds, storeDomain, source } = await this.resolveCredsForOrder(order);
+
+    this.log(
+      'createForOrder:using_keys',
+      this.credsLogFields(creds, {
+        orderNumber: order.orderNumber,
+        storeDomain: storeDomain ?? '(none)',
+        source,
+        route: 'POST /payments/create (provider=razorpay)',
+      })
+    );
+
     // Charge override (₹1 default): development, or DEV_TEST_ORDER_AMOUNT / DEV_FORCE_ORDER_AMOUNT set.
-    // Amount sent to Razorpay can be ₹1 while order.total stays the real cart total.
     const orderTotal = Number(order.total) || 0;
     const chargeTotal = applyDevTestOrderTotal(orderTotal);
-    const amountPaise = Math.max(100, Math.round(chargeTotal * 100)); // Razorpay min = 100 paise
+    const amountPaise = Math.max(100, Math.round(chargeTotal * 100));
     const isDevCharge = shouldApplyDevTestOrderAmount();
 
     this.log('createForOrder:amount', {
@@ -174,21 +261,35 @@ export class RazorpayPaymentService {
     });
 
     const receipt = order.orderNumber.slice(0, 40);
-    const rzpOrder = await this.getClient().orders.create({
-      amount: amountPaise,
-      currency: 'INR',
-      receipt,
-      notes: {
-        orderNumber: order.orderNumber,
-        storeOrderId: String(order._id),
-        ...(isDevCharge
-          ? {
-              devTestCharge: 'true',
-              originalOrderTotal: String(orderTotal),
-            }
-          : {}),
-      },
-    });
+    let rzpOrder: { id: string };
+    try {
+      rzpOrder = (await this.getClient(creds).orders.create({
+        amount: amountPaise,
+        currency: 'INR',
+        receipt,
+        notes: {
+          orderNumber: order.orderNumber,
+          storeOrderId: String(order._id),
+          storeDomain: storeDomain ?? '',
+          ...(isDevCharge
+            ? {
+                devTestCharge: 'true',
+                originalOrderTotal: String(orderTotal),
+              }
+            : {}),
+        },
+      })) as { id: string };
+    } catch (err) {
+      this.log(
+        'createForOrder:razorpay_api_error',
+        this.credsLogFields(creds, {
+          orderNumber: order.orderNumber,
+          storeDomain: storeDomain ?? '(none)',
+          error: err instanceof Error ? err.message : String(err),
+        })
+      );
+      throw err;
+    }
 
     await Payment.updateOne(
       { _id: payment._id },
@@ -198,6 +299,7 @@ export class RazorpayPaymentService {
           method: 'Razorpay',
           status: 'Pending',
           razorpay: {
+            keyId: creds.keyId,
             orderId: rzpOrder.id,
             amount: amountPaise,
             currency: 'INR',
@@ -207,14 +309,18 @@ export class RazorpayPaymentService {
       }
     );
 
-    this.log('createForOrder:created', {
-      orderNumber: order.orderNumber,
-      razorpayOrderId: rzpOrder.id,
-      amountPaise,
-    });
+    this.log(
+      'createForOrder:created',
+      this.credsLogFields(creds, {
+        orderNumber: order.orderNumber,
+        razorpayOrderId: rzpOrder.id,
+        amountPaise,
+        storeDomain: storeDomain ?? '(none)',
+      })
+    );
 
     return {
-      keyId: env.razorpay.keyId,
+      keyId: creds.keyId,
       razorpayOrderId: rzpOrder.id,
       amount: amountPaise,
       currency: 'INR',
@@ -297,20 +403,44 @@ export class RazorpayPaymentService {
       throw new ApiError(500, 'Razorpay is not configured');
     }
 
-    const valid = this.verifyCheckoutSignature(
-      input.razorpay_order_id,
-      input.razorpay_payment_id,
-      input.razorpay_signature
-    );
-    if (!valid) {
-      throw new ApiError(400, 'Invalid Razorpay payment signature');
-    }
-
     const { order, payment } = await this.assertOrderAccess(
       input.orderNumber,
       input.email,
       input.phone
     );
+
+    const { creds, storeDomain, source } = await this.resolveCredsForOrder(
+      order,
+      payment.razorpay?.keyId
+    );
+
+    this.log(
+      'verifyAndCapture:using_keys',
+      this.credsLogFields(creds, {
+        orderNumber: order.orderNumber,
+        storeDomain: storeDomain ?? '(none)',
+        source,
+        route: 'POST /payments/razorpay/verify',
+        savedKeyIdPrefix: maskPrefix(payment.razorpay?.keyId ?? '', 6),
+      })
+    );
+
+    const valid = this.verifyCheckoutSignature(
+      input.razorpay_order_id,
+      input.razorpay_payment_id,
+      input.razorpay_signature,
+      creds.keySecret
+    );
+    if (!valid) {
+      this.log(
+        'verifyAndCapture:invalid_signature',
+        this.credsLogFields(creds, {
+          orderNumber: order.orderNumber,
+          storeDomain: storeDomain ?? '(none)',
+        })
+      );
+      throw new ApiError(400, 'Invalid Razorpay payment signature');
+    }
 
     if (
       payment.razorpay?.orderId &&
@@ -330,6 +460,7 @@ export class RazorpayPaymentService {
     this.log('verifyAndCapture:ok', {
       orderNumber: order.orderNumber,
       paymentId: input.razorpay_payment_id,
+      keyIdPrefix: maskPrefix(creds.keyId, 6),
     });
 
     return {
@@ -354,7 +485,10 @@ export class RazorpayPaymentService {
       return;
     }
 
-    if (!signature || !this.verifyWebhookSignature(rawBody, signature)) {
+    if (
+      !signature ||
+      !this.verifyWebhookSignature(rawBody, signature, env.razorpay.webhookSecret)
+    ) {
       throw new ApiError(400, 'Invalid Razorpay webhook signature');
     }
 
@@ -396,6 +530,7 @@ export class RazorpayPaymentService {
       orderNumber: order.orderNumber,
       razorpayPaymentId,
       eventName,
+      keyIdPrefix: maskPrefix(payment.razorpay?.keyId ?? '', 6),
     });
   }
 }

@@ -6,7 +6,8 @@ import { ApiResponse } from '../views/ApiResponse';
 import { AuthRequest, PaymentStatus } from '../types';
 import { DsaGatewayPaymentService } from '../services/dsaGatewayPayment.service';
 import { RazorpayPaymentService } from '../services/razorpayPayment.service';
-import { env, isRazorpayConfigured } from '../config/env';
+import { env, isRazorpayConfigured, resolveRazorpayCredentials } from '../config/env';
+import { getStoreContext } from '../context/store.context';
 import { ApiError } from '../utils/ApiError';
 import { Order, Payment } from '../models';
 import { mergeStoreFilter } from '../utils/storeScope';
@@ -166,11 +167,17 @@ export class PaymentController {
 
   /** Public: which checkout providers are enabled on this API. */
   static getAvailableMethods = asyncHandler(async (_req: Request, res: Response) => {
+    const storeDomain = getStoreContext()?.storeDomain;
+    const creds = resolveRazorpayCredentials(storeDomain);
+    const razorpay = Boolean(creds) || isRazorpayConfigured();
+    const keyId = creds?.keyId ?? (isRazorpayConfigured() ? env.razorpay.keyId : undefined);
     ApiResponse.success(
       res,
       {
-        razorpay: isRazorpayConfigured(),
-        keyId: isRazorpayConfigured() ? env.razorpay.keyId : undefined,
+        razorpay,
+        keyId: razorpay ? keyId : undefined,
+        keyIdPrefix: keyId ? `${keyId.slice(0, 6)}…` : undefined,
+        storeDomain: storeDomain || undefined,
       },
       'Payment methods'
     );

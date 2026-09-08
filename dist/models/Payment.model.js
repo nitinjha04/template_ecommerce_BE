@@ -87,6 +87,7 @@ const paymentSchema = new mongoose_1.Schema({
         upiLink: { type: String, required: false },
     },
     razorpay: {
+        keyId: { type: String, required: false },
         orderId: { type: String, required: false, index: true },
         paymentId: { type: String, required: false, index: true },
         signature: { type: String, required: false },
