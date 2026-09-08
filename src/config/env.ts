@@ -33,6 +33,7 @@ export const env = {
     vpa: (process.env.DIRECT_UPI_VPA ?? "").trim(),
   },
   razorpay: {
+    /** Global / fallback credentials (used when store has no STORE_RAZORPAY_KEYS entry). */
     keyId: (process.env.RAZORPAY_KEY_ID ?? "").trim(),
     keySecret: (process.env.RAZORPAY_KEY_SECRET ?? "").trim(),
     /** Optional — set from Razorpay Dashboard → Webhooks for payment.captured. */
@@ -167,10 +168,100 @@ export const isDsaGatewayConfigured = (): boolean => {
   return Boolean(merchantId && privateKey && publicKey && baseUrl);
 };
 
-export const isRazorpayConfigured = (): boolean => {
-  const { keyId, keySecret } = env.razorpay;
-  return Boolean(keyId && keySecret && !isPlaceholder(keyId) && !isPlaceholder(keySecret));
+export type RazorpayCredentials = {
+  keyId: string;
+  keySecret: string;
+  webhookSecret: string;
 };
+
+const isValidRazorpayPair = (keyId: string, keySecret: string): boolean =>
+  Boolean(
+    keyId &&
+      keySecret &&
+      !isPlaceholder(keyId) &&
+      !isPlaceholder(keySecret)
+  );
+
+/**
+ * Per-store Razorpay merchant accounts.
+ * Format: domain=keyId|keySecret;domain2=keyId2|keySecret2
+ * Example: argenstyle.in=rzp_live_xxx|secretA;clauneck.in=rzp_live_yyy|secretB
+ */
+const parseStoreRazorpayKeys = (): ReadonlyMap<string, RazorpayCredentials> => {
+  const raw = (process.env.STORE_RAZORPAY_KEYS ?? "").trim();
+  const map = new Map<string, RazorpayCredentials>();
+  if (!raw) return map;
+
+  for (const entry of raw.split(";")) {
+    const eqIdx = entry.indexOf("=");
+    if (eqIdx <= 0) continue;
+    const domain = normalizeStoreDomain(entry.slice(0, eqIdx));
+    const rest = entry.slice(eqIdx + 1).trim();
+    const pipeIdx = rest.indexOf("|");
+    if (!domain || pipeIdx <= 0) continue;
+    const keyId = rest.slice(0, pipeIdx).trim();
+    const keySecret = rest.slice(pipeIdx + 1).trim();
+    if (!isValidRazorpayPair(keyId, keySecret)) continue;
+    map.set(domain, {
+      keyId,
+      keySecret,
+      webhookSecret: "",
+    });
+  }
+  return map;
+};
+
+const storeRazorpayKeys = parseStoreRazorpayKeys();
+
+const getGlobalRazorpayCredentials = (): RazorpayCredentials | null => {
+  const { keyId, keySecret, webhookSecret } = env.razorpay;
+  if (!isValidRazorpayPair(keyId, keySecret)) return null;
+  return { keyId, keySecret, webhookSecret };
+};
+
+/** True if global keys or at least one per-store Razorpay account is configured. */
+export const isRazorpayConfigured = (): boolean =>
+  Boolean(getGlobalRazorpayCredentials()) || storeRazorpayKeys.size > 0;
+
+/** Credentials for a store domain, falling back to global RAZORPAY_* keys. */
+export const resolveRazorpayCredentials = (
+  storeDomain?: string
+): RazorpayCredentials | null => {
+  const normalized = storeDomain ? normalizeStoreDomain(storeDomain) : "";
+  if (normalized) {
+    const mapped = storeRazorpayKeys.get(normalized);
+    if (mapped) {
+      return {
+        ...mapped,
+        // Prefer store-specific webhook secret later; fall back to global for now.
+        webhookSecret: mapped.webhookSecret || env.razorpay.webhookSecret,
+      };
+    }
+  }
+  return getGlobalRazorpayCredentials();
+};
+
+/** Look up credentials by public key_id (e.g. from a saved payment session). */
+export const resolveRazorpayCredentialsByKeyId = (
+  keyId?: string
+): RazorpayCredentials | null => {
+  const id = (keyId ?? "").trim();
+  if (!id) return null;
+  for (const creds of storeRazorpayKeys.values()) {
+    if (creds.keyId === id) {
+      return {
+        ...creds,
+        webhookSecret: creds.webhookSecret || env.razorpay.webhookSecret,
+      };
+    }
+  }
+  const global = getGlobalRazorpayCredentials();
+  if (global?.keyId === id) return global;
+  return null;
+};
+
+export const isRazorpayConfiguredForDomain = (storeDomain?: string): boolean =>
+  Boolean(resolveRazorpayCredentials(storeDomain));
 
 export const isBrevoConfigured = (): boolean => Boolean(env.brevo.apiKey);
 

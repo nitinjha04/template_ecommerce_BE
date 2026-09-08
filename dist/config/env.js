@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.logEmailEnvDiagnostics = exports.isEmailEnabled = exports.getOrderAdminNotificationRecipients = exports.getStoreOrderAdminEmails = exports.resolveDsaGatewayId = exports.getDsaGatewayIdForDomain = exports.getEmailFromForDomain = exports.getEmailFrom = exports.isEmailConfigured = exports.isBrevoConfigured = exports.isRazorpayConfigured = exports.isDsaGatewayConfigured = exports.getPaymentReturnUrl = exports.getFrontendOrigin = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
+exports.logEmailEnvDiagnostics = exports.isEmailEnabled = exports.getOrderAdminNotificationRecipients = exports.getStoreOrderAdminEmails = exports.resolveDsaGatewayId = exports.getDsaGatewayIdForDomain = exports.getEmailFromForDomain = exports.getEmailFrom = exports.isEmailConfigured = exports.isBrevoConfigured = exports.isRazorpayConfiguredForDomain = exports.resolveRazorpayCredentialsByKeyId = exports.resolveRazorpayCredentials = exports.isRazorpayConfigured = exports.isDsaGatewayConfigured = exports.getPaymentReturnUrl = exports.getFrontendOrigin = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
 const dotenv_1 = __importDefault(require("dotenv"));
 const storeDomain_1 = require("../utils/storeDomain");
 dotenv_1.default.config();
@@ -35,6 +35,7 @@ exports.env = {
         vpa: (process.env.DIRECT_UPI_VPA ?? "").trim(),
     },
     razorpay: {
+        /** Global / fallback credentials (used when store has no STORE_RAZORPAY_KEYS entry). */
         keyId: (process.env.RAZORPAY_KEY_ID ?? "").trim(),
         keySecret: (process.env.RAZORPAY_KEY_SECRET ?? "").trim(),
         /** Optional — set from Razorpay Dashboard → Webhooks for payment.captured. */
@@ -144,11 +145,88 @@ const isDsaGatewayConfigured = () => {
     return Boolean(merchantId && privateKey && publicKey && baseUrl);
 };
 exports.isDsaGatewayConfigured = isDsaGatewayConfigured;
-const isRazorpayConfigured = () => {
-    const { keyId, keySecret } = exports.env.razorpay;
-    return Boolean(keyId && keySecret && !isPlaceholder(keyId) && !isPlaceholder(keySecret));
+const isValidRazorpayPair = (keyId, keySecret) => Boolean(keyId &&
+    keySecret &&
+    !isPlaceholder(keyId) &&
+    !isPlaceholder(keySecret));
+/**
+ * Per-store Razorpay merchant accounts.
+ * Format: domain=keyId|keySecret;domain2=keyId2|keySecret2
+ * Example: argenstyle.in=rzp_live_xxx|secretA;clauneck.in=rzp_live_yyy|secretB
+ */
+const parseStoreRazorpayKeys = () => {
+    const raw = (process.env.STORE_RAZORPAY_KEYS ?? "").trim();
+    const map = new Map();
+    if (!raw)
+        return map;
+    for (const entry of raw.split(";")) {
+        const eqIdx = entry.indexOf("=");
+        if (eqIdx <= 0)
+            continue;
+        const domain = (0, storeDomain_1.normalizeStoreDomain)(entry.slice(0, eqIdx));
+        const rest = entry.slice(eqIdx + 1).trim();
+        const pipeIdx = rest.indexOf("|");
+        if (!domain || pipeIdx <= 0)
+            continue;
+        const keyId = rest.slice(0, pipeIdx).trim();
+        const keySecret = rest.slice(pipeIdx + 1).trim();
+        if (!isValidRazorpayPair(keyId, keySecret))
+            continue;
+        map.set(domain, {
+            keyId,
+            keySecret,
+            webhookSecret: "",
+        });
+    }
+    return map;
 };
+const storeRazorpayKeys = parseStoreRazorpayKeys();
+const getGlobalRazorpayCredentials = () => {
+    const { keyId, keySecret, webhookSecret } = exports.env.razorpay;
+    if (!isValidRazorpayPair(keyId, keySecret))
+        return null;
+    return { keyId, keySecret, webhookSecret };
+};
+/** True if global keys or at least one per-store Razorpay account is configured. */
+const isRazorpayConfigured = () => Boolean(getGlobalRazorpayCredentials()) || storeRazorpayKeys.size > 0;
 exports.isRazorpayConfigured = isRazorpayConfigured;
+/** Credentials for a store domain, falling back to global RAZORPAY_* keys. */
+const resolveRazorpayCredentials = (storeDomain) => {
+    const normalized = storeDomain ? (0, storeDomain_1.normalizeStoreDomain)(storeDomain) : "";
+    if (normalized) {
+        const mapped = storeRazorpayKeys.get(normalized);
+        if (mapped) {
+            return {
+                ...mapped,
+                // Prefer store-specific webhook secret later; fall back to global for now.
+                webhookSecret: mapped.webhookSecret || exports.env.razorpay.webhookSecret,
+            };
+        }
+    }
+    return getGlobalRazorpayCredentials();
+};
+exports.resolveRazorpayCredentials = resolveRazorpayCredentials;
+/** Look up credentials by public key_id (e.g. from a saved payment session). */
+const resolveRazorpayCredentialsByKeyId = (keyId) => {
+    const id = (keyId ?? "").trim();
+    if (!id)
+        return null;
+    for (const creds of storeRazorpayKeys.values()) {
+        if (creds.keyId === id) {
+            return {
+                ...creds,
+                webhookSecret: creds.webhookSecret || exports.env.razorpay.webhookSecret,
+            };
+        }
+    }
+    const global = getGlobalRazorpayCredentials();
+    if (global?.keyId === id)
+        return global;
+    return null;
+};
+exports.resolveRazorpayCredentialsByKeyId = resolveRazorpayCredentialsByKeyId;
+const isRazorpayConfiguredForDomain = (storeDomain) => Boolean((0, exports.resolveRazorpayCredentials)(storeDomain));
+exports.isRazorpayConfiguredForDomain = isRazorpayConfiguredForDomain;
 const isBrevoConfigured = () => Boolean(exports.env.brevo.apiKey);
 exports.isBrevoConfigured = isBrevoConfigured;
 const isEmailConfigured = () => (0, exports.isBrevoConfigured)();

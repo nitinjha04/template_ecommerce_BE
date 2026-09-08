@@ -48,6 +48,8 @@
     "scrape:plt": "tsx src/scraping/prettylittlething/scrape.ts",
     "scrape:plt:all": "tsx src/scraping/prettylittlething/scrape.ts -- --config src/scraping/prettylittlething/categories.example.json",
     "scrape:plt:clear": "tsx src/scripts/clear-clauneck-products.ts",
+    "scrape:plt:v2": "tsx src/scraping/prettylittlething/import-v2.ts",
+    "scrape:plt:v2:dry": "tsx src/scraping/prettylittlething/import-v2.ts -- --dry-run",
     "remove:duplicate-products": "tsx src/scripts/remove-duplicate-products.ts",
     "remove:duplicate-products:dry": "tsx src/scripts/remove-duplicate-products.ts --dry-run",
     "fix:catalog": "tsx src/scripts/fix-catalog.ts",

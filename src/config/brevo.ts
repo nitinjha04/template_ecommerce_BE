@@ -50,6 +50,7 @@ export const sendViaBrevo = async ({
     return { messageId };
   } catch (err) {
     const detail = err instanceof Error ? err.message : String(err);
+    console.error("Brevo API error: ", JSON.stringify(err, null, 2));
     throw new Error(`Brevo API error: ${detail}`);
   }
 };
