@@ -1,0 +1,328 @@
+{
+  "scrapedAt": "2026-06-24T18:37:07.876Z",
+  "categoryFilter": "maxwomen-ethnicwear-skirts",
+  "categoryName": "skirts",
+  "categorySlug": "maxwomen-ethnicwear-skirts",
+  "storeId": "6a3bf2e10b0f40e291c26f6f",
+  "storeDomain": "nexa-skyline.com",
+  "priceMin": 2000,
+  "priceMax": 2999,
+  "categoryId": "maxwomen-ethnicwear-skirts",
+  "priceMode": "random",
+  "sort": "high-to-low",
+  "totalProducts": 5,
+  "pagesFetched": 1,
+  "products": [
+    {
+      "name": "Women Printed A-line Midi Skirt",
+      "slug": "1000016314417-green-green",
+      "price": 2957,
+      "originalPrice": 3107,
+      "category": "skirts",
+      "description": "Women Printed A-line Midi Skirt. Premium skirts from our curated ethnic collection.",
+      "metaTitle": "Women Printed A-line Midi Skirt",
+      "metaDescription": "Women Printed A-line Midi Skirt. Premium skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016314417-Green-GREEN-1000016314417_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016314417-Green-GREEN-1000016314417_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016314417-Green-GREEN-1000016314417_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016314417-Green-GREEN-1000016314417_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016314417-Green-GREEN-1000016314417_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016314417-Green-GREEN-1000016314417_06-2100.jpg"
+      ],
+      "tags": [
+        "skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Short",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.6 kg",
+      "dimensions": "12 x 13 x 8 cm",
+      "stockQuantity": 35,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-02T18:30:00.000Z",
+      "breadcrumbCategory": "skirts",
+      "_source": {
+        "nykaaId": "1000016314417GreenGREEN",
+        "sku": "1000016314417-Green-GREEN",
+        "categoryFilter": "maxwomen-ethnicwear-skirts",
+        "assignedPriceTier": 2957
+      }
+    },
+    {
+      "name": "Kalki x Nexa Skyline Women Printed Wrap Skirt",
+      "slug": "1000014825177-beige-offwhite",
+      "price": 2659,
+      "originalPrice": 2809,
+      "category": "skirts",
+      "description": "Kalki x Nexa Skyline Women Printed Wrap Skirt. Premium skirts from our curated ethnic collection.",
+      "metaTitle": "Kalki x Nexa Skyline Women Printed Wrap Skirt",
+      "metaDescription": "Kalki x Nexa Skyline Women Printed Wrap Skirt. Premium skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014825177-Beige-OFFWHITE-1000014825177_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014825177-Beige-OFFWHITE-1000014825177_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014825177-Beige-OFFWHITE-1000014825177_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014825177-Beige-OFFWHITE-1000014825177_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014825177-Beige-OFFWHITE-1000014825177_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014825177-Beige-OFFWHITE-1000014825177_06-2100.jpg"
+      ],
+      "tags": [
+        "skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "9 x 11 x 4 cm",
+      "stockQuantity": 82,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "skirts",
+      "_source": {
+        "nykaaId": "1000014825177BeigeOFFWHITE",
+        "sku": "1000014825177-Beige-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-skirts",
+        "assignedPriceTier": 2659
+      }
+    },
+    {
+      "name": "Women Printed Long Skirt",
+      "slug": "1000016362390-white-offwhite",
+      "price": 2590,
+      "originalPrice": 2740,
+      "category": "skirts",
+      "description": "Women Printed Long Skirt. Premium skirts from our curated ethnic collection.",
+      "metaTitle": "Women Printed Long Skirt",
+      "metaDescription": "Women Printed Long Skirt. Premium skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "White"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016362390-White-OFFWHITE-1000016362390_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016362390-White-OFFWHITE-1000016362390_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016362390-White-OFFWHITE-1000016362390_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016362390-White-OFFWHITE-1000016362390_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016362390-White-OFFWHITE-1000016362390_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016362390-White-OFFWHITE-1000016362390_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016362390-White-OFFWHITE-1000016362390_07-2100.jpg"
+      ],
+      "tags": [
+        "skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Kurta",
+      "washCare": "Hand wash separately",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.6 kg",
+      "dimensions": "13 x 13 x 7 cm",
+      "stockQuantity": 45,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-10T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "1000016362390WhiteOFFWHITE",
+        "sku": "1000016362390-White-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-skirts",
+        "assignedPriceTier": 2590
+      }
+    },
+    {
+      "name": "Kalki x Nexa Skyline Women Printed Wrap Skort",
+      "slug": "1000015224013-orange-orange",
+      "price": 2157,
+      "originalPrice": 2307,
+      "category": "skirts",
+      "description": "Kalki x Nexa Skyline Women Printed Wrap Skort. Premium skirts from our curated ethnic collection.",
+      "metaTitle": "Kalki x Nexa Skyline Women Printed Wrap Skort",
+      "metaDescription": "Kalki x Nexa Skyline Women Printed Wrap Skort. Premium skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Orange"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015224013-Orange-ORANGE-1000015224013_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015224013-Orange-ORANGE-1000015224013_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015224013-Orange-ORANGE-1000015224013_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015224013-Orange-ORANGE-1000015224013_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015224013-Orange-ORANGE-1000015224013_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015224013-Orange-ORANGE-1000015224013_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015224013-Orange-ORANGE-1000015224013_06-2100.jpg"
+      ],
+      "tags": [
+        "skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Hand wash separately",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 10 x 2 cm",
+      "stockQuantity": 70,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "1000015224013OrangeORANGE",
+        "sku": "1000015224013-Orange-ORANGE",
+        "categoryFilter": "maxwomen-ethnicwear-skirts",
+        "assignedPriceTier": 2157
+      }
+    },
+    {
+      "name": "Kalki x Nexa Skyline Women Solid Pleated Skirt",
+      "slug": "1000014719603-blue-blue",
+      "price": 2623,
+      "originalPrice": 2773,
+      "category": "skirts",
+      "description": "Kalki x Nexa Skyline Women Solid Pleated Skirt. Premium skirts from our curated ethnic collection.",
+      "metaTitle": "Kalki x Nexa Skyline Women Solid Pleated Skirt",
+      "metaDescription": "Kalki x Nexa Skyline Women Solid Pleated Skirt. Premium skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014719603-Blue-BLUE-1000014719603_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014719603-Blue-BLUE-1000014719603_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014719603-Blue-BLUE-1000014719603_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014719603-Blue-BLUE-1000014719603_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014719603-Blue-BLUE-1000014719603_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014719603-Blue-BLUE-1000014719603_06-2100.jpg"
+      ],
+      "tags": [
+        "skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Jacket",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.6 kg",
+      "dimensions": "9 x 10 x 8 cm",
+      "stockQuantity": 90,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "skirts",
+      "_source": {
+        "nykaaId": "1000014719603BlueBLUE",
+        "sku": "1000014719603-Blue-BLUE",
+        "categoryFilter": "maxwomen-ethnicwear-skirts",
+        "assignedPriceTier": 2623
+      }
+    }
+  ]
+}

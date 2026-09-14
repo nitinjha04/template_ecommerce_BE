@@ -1,21 +1,80 @@
 import mongoose, { Document, Schema, Types } from 'mongoose';
 import { PaymentStatus } from '../types';
+import { isPopulatedSubdoc, refToIdString } from '../utils/mongooseRefs';
 
 export interface IPayment extends Document {
+  store: Types.ObjectId;
   paymentNumber: string;
   order: Types.ObjectId;
-  user: Types.ObjectId;
+  user?: Types.ObjectId;
+  provider?: 'dsa_deeplink' | 'payu' | 'phonepe' | 'direct_upi' | 'razorpay' | 'cashfree';
   method: string;
   amount: number;
   status: PaymentStatus;
+  /** Set when gateway reports successful payment (status 2). */
+  paidAt?: Date;
+  directUpi?: {
+    vpa: string;
+    upiLink: string;
+  };
+  razorpay?: {
+    /** Public key_id used when this Razorpay order was created (multi-merchant). */
+    keyId?: string;
+    orderId?: string;
+    paymentId?: string;
+    signature?: string;
+    amount?: number;
+    currency?: string;
+    createResponse?: unknown;
+    webhookData?: unknown;
+    successEmailSentAt?: Date;
+  };
+  cashfree?: {
+    appId?: string;
+    orderId?: string;
+    paymentSessionId?: string;
+    paymentId?: string;
+    amount?: number;
+    currency?: string;
+    env?: 'sandbox' | 'production';
+    createResponse?: unknown;
+    webhookData?: unknown;
+    successEmailSentAt?: Date;
+  };
+  gateway?: {
+    provider: 'dsa-gateway';
+    gatewayId?: number;
+    merchantId?: string;
+    merchantOrderNo?: string;
+    gatewayOrderNo?: string;
+    payUrlH5?: string;
+    createResponse?: unknown;
+    callbackData?: unknown;
+    verifyResponse?: unknown;
+    successEmailSentAt?: Date;
+  };
   createdAt: Date;
   updatedAt: Date;
 }
 
 const PAYMENT_STATUSES: PaymentStatus[] = ['Completed', 'Pending', 'Failed'];
+const PAYMENT_PROVIDERS: NonNullable<IPayment['provider']>[] = [
+  'dsa_deeplink',
+  'payu',
+  'phonepe',
+  'direct_upi',
+  'razorpay',
+  'cashfree',
+];
 
 const paymentSchema = new Schema<IPayment>(
   {
+    store: {
+      type: Schema.Types.ObjectId,
+      ref: 'Store',
+      required: true,
+      index: true,
+    },
     paymentNumber: {
       type: String,
       unique: true,
@@ -30,7 +89,13 @@ const paymentSchema = new Schema<IPayment>(
     user: {
       type: Schema.Types.ObjectId,
       ref: 'User',
-      required: true,
+      required: false,
+      index: true,
+    },
+    provider: {
+      type: String,
+      enum: PAYMENT_PROVIDERS,
+      required: false,
       index: true,
     },
     method: { type: String, required: true },
@@ -40,6 +105,46 @@ const paymentSchema = new Schema<IPayment>(
       enum: PAYMENT_STATUSES,
       default: 'Pending',
     },
+    paidAt: { type: Date, required: false },
+    directUpi: {
+      vpa: { type: String, required: false },
+      upiLink: { type: String, required: false },
+    },
+    razorpay: {
+      keyId: { type: String, required: false },
+      orderId: { type: String, required: false, index: true },
+      paymentId: { type: String, required: false, index: true },
+      signature: { type: String, required: false },
+      amount: { type: Number, required: false },
+      currency: { type: String, required: false },
+      createResponse: { type: Schema.Types.Mixed, required: false },
+      webhookData: { type: Schema.Types.Mixed, required: false },
+      successEmailSentAt: { type: Date, required: false },
+    },
+    cashfree: {
+      appId: { type: String, required: false },
+      orderId: { type: String, required: false, index: true },
+      paymentSessionId: { type: String, required: false },
+      paymentId: { type: String, required: false, index: true },
+      amount: { type: Number, required: false },
+      currency: { type: String, required: false },
+      env: { type: String, enum: ['sandbox', 'production'], required: false },
+      createResponse: { type: Schema.Types.Mixed, required: false },
+      webhookData: { type: Schema.Types.Mixed, required: false },
+      successEmailSentAt: { type: Date, required: false },
+    },
+    gateway: {
+      provider: { type: String, enum: ['dsa-gateway'], required: false },
+      gatewayId: { type: Number, required: false },
+      merchantId: { type: String, required: false },
+      merchantOrderNo: { type: String, required: false, index: true },
+      gatewayOrderNo: { type: String, required: false },
+      payUrlH5: { type: String, required: false },
+      createResponse: { type: Schema.Types.Mixed, required: false },
+      callbackData: { type: Schema.Types.Mixed, required: false },
+      verifyResponse: { type: Schema.Types.Mixed, required: false },
+      successEmailSentAt: { type: Date, required: false },
+    },
   },
   {
     timestamps: true,
@@ -47,10 +152,31 @@ const paymentSchema = new Schema<IPayment>(
       virtuals: true,
       transform(_doc, ret: Record<string, unknown>) {
         ret.id = String(ret._id);
-        ret.orderId = ret.order != null ? String(ret.order) : ret.order;
+
+        const orderRef = ret.order;
+        if (orderRef != null) {
+          if (isPopulatedSubdoc(orderRef)) {
+            ret.orderId = refToIdString(
+              orderRef._id ?? orderRef.id ?? orderRef
+            );
+            ret.order = {
+              orderNumber: orderRef.orderNumber as string | undefined,
+              total: orderRef.total as number | undefined,
+              status: orderRef.status as string | undefined,
+            };
+          } else {
+            ret.orderId = refToIdString(orderRef);
+            delete ret.order;
+          }
+        }
+
+        if (ret.user != null) {
+          ret.userId = refToIdString(ret.user);
+          delete ret.user;
+        }
+
         delete ret._id;
         delete ret.__v;
-        delete ret.order;
         return ret;
       },
     },

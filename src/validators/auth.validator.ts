@@ -1,14 +1,34 @@
 import { body } from 'express-validator';
+import { emailField } from './email';
 
 export const signupValidator = [
   body('name').trim().notEmpty().withMessage('Name is required').isLength({ max: 120 }),
-  body('email').trim().isEmail().withMessage('Valid email is required').normalizeEmail(),
+  emailField(),
   body('password')
     .isLength({ min: 6 })
     .withMessage('Password must be at least 6 characters'),
 ];
 
 export const loginValidator = [
-  body('email').trim().isEmail().withMessage('Valid email is required').normalizeEmail(),
+  emailField(),
   body('password').notEmpty().withMessage('Password is required'),
 ];
+
+export const forgotPasswordValidator = [emailField()];
+
+export const verifyOtpValidator = [
+  emailField(),
+  body('otp')
+    .trim()
+    .matches(/^\d{6}$/)
+    .withMessage('OTP must be a 6-digit code'),
+];
+
+export const resetPasswordValidator = [
+  emailField(),
+  body('password')
+    .isLength({ min: 6 })
+    .withMessage('Password must be at least 6 characters'),
+];
+
+export const resendSignupOtpValidator = [emailField()];
