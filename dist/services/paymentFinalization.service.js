@@ -14,7 +14,9 @@ class PaymentFinalizationService {
         const paidAt = extras?.paidAt ?? payment.paidAt ?? new Date();
         const gatewayOrderNo = extras?.gatewayOrderNo ??
             payment.gateway?.gatewayOrderNo ??
-            payment.razorpay?.paymentId;
+            payment.razorpay?.paymentId ??
+            payment.cashfree?.paymentId ??
+            payment.cashfree?.orderId;
         const paymentInfo = {
             paymentId: payment._id,
             paymentNumber: payment.paymentNumber,
@@ -23,7 +25,9 @@ class PaymentFinalizationService {
             method: payment.method,
             provider: payment.provider,
             paidAt,
-            merchantOrderNo: payment.gateway?.merchantOrderNo ?? payment.razorpay?.orderId,
+            merchantOrderNo: payment.gateway?.merchantOrderNo ??
+                payment.razorpay?.orderId ??
+                payment.cashfree?.orderId,
             gatewayOrderNo,
         };
         const order = await models_1.Order.findById(orderId).select('status paymentInfo').exec();
@@ -77,7 +81,8 @@ class PaymentFinalizationService {
         const freshPayment = await models_1.Payment.findById(paymentId).exec();
         if (!freshPayment ||
             freshPayment.gateway?.successEmailSentAt ||
-            freshPayment.razorpay?.successEmailSentAt) {
+            freshPayment.razorpay?.successEmailSentAt ||
+            freshPayment.cashfree?.successEmailSentAt) {
             return;
         }
         if (!(0, env_1.isEmailEnabled)()) {
@@ -91,7 +96,9 @@ class PaymentFinalizationService {
             await email_service_1.EmailService.sendOrderPaymentConfirmedEmails(freshOrder, freshPayment);
             const emailSentAtPath = freshPayment.provider === 'razorpay'
                 ? 'razorpay.successEmailSentAt'
-                : 'gateway.successEmailSentAt';
+                : freshPayment.provider === 'cashfree'
+                    ? 'cashfree.successEmailSentAt'
+                    : 'gateway.successEmailSentAt';
             await models_1.Payment.updateOne({ _id: paymentId }, { $set: { [emailSentAtPath]: new Date() } });
             console.info(`[email] Payment confirmation sent for order ${freshOrder.orderNumber}`);
         }

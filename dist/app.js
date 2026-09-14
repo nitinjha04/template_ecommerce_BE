@@ -33,8 +33,9 @@ app.use((0, morgan_1.default)(env_1.env.nodeEnv === "development" ? "dev" : "com
 app.use(express_1.default.json({
     limit: "10mb",
     verify: (req, _res, buf) => {
-        // Razorpay webhook signature must be verified against the raw body.
-        if (req.url?.includes("/payments/razorpay/webhook")) {
+        // Webhook signatures must be verified against the raw body.
+        if (req.url?.includes("/payments/razorpay/webhook") ||
+            req.url?.includes("/payments/cashfree/webhook")) {
             req.rawBody = buf;
         }
     },
@@ -50,17 +51,24 @@ app.use("/uploads", express_1.default.static(uploadsDir, {
  */
 app.get("/api/v1/payments/methods", (_req, res) => {
     const storeDomain = (0, store_context_1.getStoreContext)()?.storeDomain;
-    const creds = (0, env_1.resolveRazorpayCredentials)(storeDomain);
-    const razorpay = Boolean(creds) || (0, env_1.isRazorpayConfigured)();
-    const keyId = creds?.keyId ?? ((0, env_1.isRazorpayConfigured)() ? env_1.env.razorpay.keyId : undefined);
+    const rzpCreds = (0, env_1.resolveRazorpayCredentials)(storeDomain);
+    const cfCreds = (0, env_1.resolveCashfreeCredentials)(storeDomain);
+    const razorpay = Boolean(rzpCreds) || (0, env_1.isRazorpayConfigured)();
+    const cashfree = Boolean(cfCreds) || (0, env_1.isCashfreeConfigured)();
+    const keyId = rzpCreds?.keyId ?? ((0, env_1.isRazorpayConfigured)() ? env_1.env.razorpay.keyId : undefined);
+    const appId = cfCreds?.appId ?? ((0, env_1.isCashfreeConfigured)() ? env_1.env.cashfree.appId : undefined);
     res.status(200).json({
         success: true,
         message: "Payment methods",
         data: {
             razorpay,
             ...(keyId ? { keyId } : {}),
-            ...(keyId
-                ? { keyIdPrefix: `${String(keyId).slice(0, 6)}…` }
+            ...(keyId ? { keyIdPrefix: `${String(keyId).slice(0, 6)}…` } : {}),
+            cashfree,
+            ...(appId ? { appId } : {}),
+            ...(appId ? { appIdPrefix: `${String(appId).slice(0, 6)}…` } : {}),
+            ...(cashfree
+                ? { cashfreeEnv: cfCreds?.env ?? env_1.env.cashfree.env }
                 : {}),
             ...(storeDomain ? { storeDomain } : {}),
         },

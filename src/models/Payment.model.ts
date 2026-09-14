@@ -7,7 +7,7 @@ export interface IPayment extends Document {
   paymentNumber: string;
   order: Types.ObjectId;
   user?: Types.ObjectId;
-  provider?: 'dsa_deeplink' | 'payu' | 'phonepe' | 'direct_upi' | 'razorpay';
+  provider?: 'dsa_deeplink' | 'payu' | 'phonepe' | 'direct_upi' | 'razorpay' | 'cashfree';
   method: string;
   amount: number;
   status: PaymentStatus;
@@ -25,6 +25,18 @@ export interface IPayment extends Document {
     signature?: string;
     amount?: number;
     currency?: string;
+    createResponse?: unknown;
+    webhookData?: unknown;
+    successEmailSentAt?: Date;
+  };
+  cashfree?: {
+    appId?: string;
+    orderId?: string;
+    paymentSessionId?: string;
+    paymentId?: string;
+    amount?: number;
+    currency?: string;
+    env?: 'sandbox' | 'production';
     createResponse?: unknown;
     webhookData?: unknown;
     successEmailSentAt?: Date;
@@ -52,6 +64,7 @@ const PAYMENT_PROVIDERS: NonNullable<IPayment['provider']>[] = [
   'phonepe',
   'direct_upi',
   'razorpay',
+  'cashfree',
 ];
 
 const paymentSchema = new Schema<IPayment>(
@@ -104,6 +117,18 @@ const paymentSchema = new Schema<IPayment>(
       signature: { type: String, required: false },
       amount: { type: Number, required: false },
       currency: { type: String, required: false },
+      createResponse: { type: Schema.Types.Mixed, required: false },
+      webhookData: { type: Schema.Types.Mixed, required: false },
+      successEmailSentAt: { type: Date, required: false },
+    },
+    cashfree: {
+      appId: { type: String, required: false },
+      orderId: { type: String, required: false, index: true },
+      paymentSessionId: { type: String, required: false },
+      paymentId: { type: String, required: false, index: true },
+      amount: { type: Number, required: false },
+      currency: { type: String, required: false },
+      env: { type: String, enum: ['sandbox', 'production'], required: false },
       createResponse: { type: Schema.Types.Mixed, required: false },
       webhookData: { type: Schema.Types.Mixed, required: false },
       successEmailSentAt: { type: Date, required: false },

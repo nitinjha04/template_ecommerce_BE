@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.logEmailEnvDiagnostics = exports.isEmailEnabled = exports.getOrderAdminNotificationRecipients = exports.getStoreOrderAdminEmails = exports.resolveDsaGatewayId = exports.getDsaGatewayIdForDomain = exports.getEmailFromForDomain = exports.getEmailFrom = exports.isEmailConfigured = exports.isBrevoConfigured = exports.isRazorpayConfiguredForDomain = exports.resolveRazorpayCredentialsByKeyId = exports.listStoreRazorpayDomains = exports.hasStoreRazorpayMapping = exports.resolveRazorpayCredentials = exports.isRazorpayConfigured = exports.isDsaGatewayConfigured = exports.getPaymentReturnUrl = exports.getFrontendOrigin = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
+exports.logEmailEnvDiagnostics = exports.isEmailEnabled = exports.getOrderAdminNotificationRecipients = exports.getStoreOrderAdminEmails = exports.resolveDsaGatewayId = exports.getDsaGatewayIdForDomain = exports.getEmailFromForDomain = exports.getEmailFrom = exports.isEmailConfigured = exports.isBrevoConfigured = exports.isCashfreeConfiguredForDomain = exports.resolveCashfreeCredentialsByAppId = exports.listStoreCashfreeDomains = exports.hasStoreCashfreeMapping = exports.resolveCashfreeCredentials = exports.isCashfreeConfigured = exports.isRazorpayConfiguredForDomain = exports.resolveRazorpayCredentialsByKeyId = exports.listStoreRazorpayDomains = exports.hasStoreRazorpayMapping = exports.resolveRazorpayCredentials = exports.isRazorpayConfigured = exports.isDsaGatewayConfigured = exports.getPaymentReturnUrl = exports.getFrontendOrigin = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
 const dotenv_1 = __importDefault(require("dotenv"));
 const storeDomain_1 = require("../utils/storeDomain");
 dotenv_1.default.config();
@@ -40,6 +40,16 @@ exports.env = {
         keySecret: (process.env.RAZORPAY_KEY_SECRET ?? "").trim(),
         /** Optional — set from Razorpay Dashboard → Webhooks for payment.captured. */
         webhookSecret: (process.env.RAZORPAY_WEBHOOK_SECRET ?? "").trim(),
+    },
+    cashfree: {
+        /** Global / fallback (optional). Prefer STORE_CASHFREE_KEYS per store. */
+        appId: (process.env.CASHFREE_APP_ID ?? "").trim(),
+        secretKey: (process.env.CASHFREE_SECRET_KEY ?? "").trim(),
+        /** sandbox | production */
+        env: ((process.env.CASHFREE_ENV ?? "production").trim().toLowerCase() ===
+            "sandbox"
+            ? "sandbox"
+            : "production"),
     },
     imagekit: {
         publicKey: process.env.IMAGEKIT_PUBLIC_KEY ?? "",
@@ -237,6 +247,84 @@ const resolveRazorpayCredentialsByKeyId = (keyId) => {
 exports.resolveRazorpayCredentialsByKeyId = resolveRazorpayCredentialsByKeyId;
 const isRazorpayConfiguredForDomain = (storeDomain) => Boolean((0, exports.resolveRazorpayCredentials)(storeDomain));
 exports.isRazorpayConfiguredForDomain = isRazorpayConfiguredForDomain;
+const isValidCashfreePair = (appId, secretKey) => Boolean(appId &&
+    secretKey &&
+    !isPlaceholder(appId) &&
+    !isPlaceholder(secretKey));
+/**
+ * Per-store Cashfree merchant accounts (not universal).
+ * Format: domain=appId|secretKey;domain2=appId2|secretKey2
+ * Example: mineview.in=13987…|cfsk_ma_prod_…
+ */
+const parseStoreCashfreeKeys = () => {
+    const raw = (process.env.STORE_CASHFREE_KEYS ?? "").trim();
+    const map = new Map();
+    if (!raw)
+        return map;
+    for (const entry of raw.split(";")) {
+        const eqIdx = entry.indexOf("=");
+        if (eqIdx <= 0)
+            continue;
+        const domain = (0, storeDomain_1.normalizeStoreDomain)(entry.slice(0, eqIdx));
+        const rest = entry.slice(eqIdx + 1).trim();
+        const pipeIdx = rest.indexOf("|");
+        if (!domain || pipeIdx <= 0)
+            continue;
+        const appId = rest.slice(0, pipeIdx).trim();
+        const secretKey = rest.slice(pipeIdx + 1).trim();
+        if (!isValidCashfreePair(appId, secretKey))
+            continue;
+        map.set(domain, {
+            appId,
+            secretKey,
+            env: exports.env.cashfree.env,
+        });
+    }
+    return map;
+};
+const storeCashfreeKeys = parseStoreCashfreeKeys();
+const getGlobalCashfreeCredentials = () => {
+    const { appId, secretKey, env: cfEnv } = exports.env.cashfree;
+    if (!isValidCashfreePair(appId, secretKey))
+        return null;
+    return { appId, secretKey, env: cfEnv };
+};
+const isCashfreeConfigured = () => Boolean(getGlobalCashfreeCredentials()) || storeCashfreeKeys.size > 0;
+exports.isCashfreeConfigured = isCashfreeConfigured;
+const resolveCashfreeCredentials = (storeDomain) => {
+    const normalized = storeDomain ? (0, storeDomain_1.normalizeStoreDomain)(storeDomain) : "";
+    if (normalized) {
+        const mapped = storeCashfreeKeys.get(normalized);
+        if (mapped)
+            return mapped;
+    }
+    return getGlobalCashfreeCredentials();
+};
+exports.resolveCashfreeCredentials = resolveCashfreeCredentials;
+const hasStoreCashfreeMapping = (storeDomain) => {
+    if (!storeDomain)
+        return false;
+    return storeCashfreeKeys.has((0, storeDomain_1.normalizeStoreDomain)(storeDomain));
+};
+exports.hasStoreCashfreeMapping = hasStoreCashfreeMapping;
+const listStoreCashfreeDomains = () => [...storeCashfreeKeys.keys()];
+exports.listStoreCashfreeDomains = listStoreCashfreeDomains;
+const resolveCashfreeCredentialsByAppId = (appId) => {
+    const id = (appId ?? "").trim();
+    if (!id)
+        return null;
+    for (const creds of storeCashfreeKeys.values()) {
+        if (creds.appId === id)
+            return creds;
+    }
+    const global = getGlobalCashfreeCredentials();
+    if (global?.appId === id)
+        return global;
+    return null;
+};
+exports.resolveCashfreeCredentialsByAppId = resolveCashfreeCredentialsByAppId;
+const isCashfreeConfiguredForDomain = (storeDomain) => Boolean((0, exports.resolveCashfreeCredentials)(storeDomain));
+exports.isCashfreeConfiguredForDomain = isCashfreeConfiguredForDomain;
 const isBrevoConfigured = () => Boolean(exports.env.brevo.apiKey);
 exports.isBrevoConfigured = isBrevoConfigured;
 const isEmailConfigured = () => (0, exports.isBrevoConfigured)();

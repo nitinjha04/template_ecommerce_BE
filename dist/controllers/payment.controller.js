@@ -1,18 +1,19 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PaymentController = void 0;
-const payment_service_1 = require("../services/payment.service");
-const asyncHandler_1 = require("../utils/asyncHandler");
-const params_1 = require("../utils/params");
-const ApiResponse_1 = require("../views/ApiResponse");
-const dsaGatewayPayment_service_1 = require("../services/dsaGatewayPayment.service");
-const razorpayPayment_service_1 = require("../services/razorpayPayment.service");
 const env_1 = require("../config/env");
 const store_context_1 = require("../context/store.context");
+const dsaGatewayPayment_service_1 = require("../services/dsaGatewayPayment.service");
+const cashfreePayment_service_1 = require("../services/cashfreePayment.service");
+const razorpayPayment_service_1 = require("../services/razorpayPayment.service");
 const ApiError_1 = require("../utils/ApiError");
 const models_1 = require("../models");
 const storeScope_1 = require("../utils/storeScope");
 const adminStoreQuery_1 = require("../utils/adminStoreQuery");
+const payment_service_1 = require("../services/payment.service");
+const asyncHandler_1 = require("../utils/asyncHandler");
+const params_1 = require("../utils/params");
+const ApiResponse_1 = require("../views/ApiResponse");
 class PaymentController {
     static getAll = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
         const { page, limit, search, status } = req.query;
@@ -40,6 +41,16 @@ class PaymentController {
     });
     static createProviderPayment = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
         const { orderNumber, provider, gatewayId, email, phone, name, } = req.body;
+        if (provider === 'cashfree') {
+            const result = await cashfreePayment_service_1.CashfreePaymentService.createForOrder({
+                orderNumber,
+                email,
+                phone,
+                name,
+            });
+            ApiResponse_1.ApiResponse.success(res, result, 'Cashfree order created');
+            return;
+        }
         if (provider === 'razorpay') {
             const result = await razorpayPayment_service_1.RazorpayPaymentService.createForOrder({
                 orderNumber,
@@ -117,13 +128,20 @@ class PaymentController {
     /** Public: which checkout providers are enabled on this API. */
     static getAvailableMethods = (0, asyncHandler_1.asyncHandler)(async (_req, res) => {
         const storeDomain = (0, store_context_1.getStoreContext)()?.storeDomain;
-        const creds = (0, env_1.resolveRazorpayCredentials)(storeDomain);
-        const razorpay = Boolean(creds) || (0, env_1.isRazorpayConfigured)();
-        const keyId = creds?.keyId ?? ((0, env_1.isRazorpayConfigured)() ? env_1.env.razorpay.keyId : undefined);
+        const rzpCreds = (0, env_1.resolveRazorpayCredentials)(storeDomain);
+        const cfCreds = (0, env_1.resolveCashfreeCredentials)(storeDomain);
+        const razorpay = Boolean(rzpCreds) || (0, env_1.isRazorpayConfigured)();
+        const cashfree = Boolean(cfCreds) || (0, env_1.isCashfreeConfigured)();
+        const keyId = rzpCreds?.keyId ?? ((0, env_1.isRazorpayConfigured)() ? env_1.env.razorpay.keyId : undefined);
+        const appId = cfCreds?.appId ?? ((0, env_1.isCashfreeConfigured)() ? env_1.env.cashfree.appId : undefined);
         ApiResponse_1.ApiResponse.success(res, {
             razorpay,
             keyId: razorpay ? keyId : undefined,
             keyIdPrefix: keyId ? `${keyId.slice(0, 6)}…` : undefined,
+            cashfree,
+            appId: cashfree ? appId : undefined,
+            appIdPrefix: appId ? `${appId.slice(0, 6)}…` : undefined,
+            cashfreeEnv: cashfree ? (cfCreds?.env ?? env_1.env.cashfree.env) : undefined,
             storeDomain: storeDomain || undefined,
         }, 'Payment methods');
     });
@@ -144,6 +162,24 @@ class PaymentController {
         const rawBody = req.rawBody ??
             Buffer.from(JSON.stringify(req.body ?? {}));
         await razorpayPayment_service_1.RazorpayPaymentService.handleWebhook(rawBody, signature, req.body);
+        res.status(200).json({ status: 'ok' });
+    });
+    static verifyCashfree = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
+        const { orderNumber, cashfree_order_id, email, phone } = req.body;
+        const result = await cashfreePayment_service_1.CashfreePaymentService.verifyAndCapture({
+            orderNumber,
+            cashfree_order_id,
+            email,
+            phone,
+        });
+        ApiResponse_1.ApiResponse.success(res, result, 'Payment verified');
+    });
+    static cashfreeWebhook = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
+        const signature = req.header('x-webhook-signature') ?? undefined;
+        const timestamp = req.header('x-webhook-timestamp') ?? undefined;
+        const rawBody = req.rawBody ??
+            Buffer.from(JSON.stringify(req.body ?? {}));
+        await cashfreePayment_service_1.CashfreePaymentService.handleWebhook(rawBody, signature, timestamp, req.body);
         res.status(200).json({ status: 'ok' });
     });
 }

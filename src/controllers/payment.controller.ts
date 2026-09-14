@@ -1,17 +1,18 @@
-import { Request, Response } from 'express';
+import { env, isCashfreeConfigured, isRazorpayConfigured, resolveCashfreeCredentials, resolveRazorpayCredentials } from '../config/env';
+import { getStoreContext } from '../context/store.context';
+import { DsaGatewayPaymentService } from '../services/dsaGatewayPayment.service';
+import { CashfreePaymentService } from '../services/cashfreePayment.service';
+import { RazorpayPaymentService } from '../services/razorpayPayment.service';
+import { ApiError } from '../utils/ApiError';
+import { Order, Payment } from '../models';
+import { mergeStoreFilter } from '../utils/storeScope';
+import { pickStoreIdFromQuery } from '../utils/adminStoreQuery';
 import { PaymentService } from '../services/payment.service';
 import { asyncHandler } from '../utils/asyncHandler';
 import { getParamId } from '../utils/params';
 import { ApiResponse } from '../views/ApiResponse';
 import { AuthRequest, PaymentStatus } from '../types';
-import { DsaGatewayPaymentService } from '../services/dsaGatewayPayment.service';
-import { RazorpayPaymentService } from '../services/razorpayPayment.service';
-import { env, isRazorpayConfigured, resolveRazorpayCredentials } from '../config/env';
-import { getStoreContext } from '../context/store.context';
-import { ApiError } from '../utils/ApiError';
-import { Order, Payment } from '../models';
-import { mergeStoreFilter } from '../utils/storeScope';
-import { pickStoreIdFromQuery } from '../utils/adminStoreQuery';
+import { Request, Response } from 'express';
 
 export class PaymentController {
   static getAll = asyncHandler(async (req: AuthRequest, res: Response) => {
@@ -59,12 +60,23 @@ export class PaymentController {
       name,
     } = req.body as {
       orderNumber: string;
-      provider: 'dsa_deeplink' | 'payu' | 'phonepe' | 'direct_upi' | 'razorpay';
+      provider: 'dsa_deeplink' | 'payu' | 'phonepe' | 'direct_upi' | 'razorpay' | 'cashfree';
       gatewayId?: number;
       email?: string;
       phone?: string;
       name?: string;
     };
+
+    if (provider === 'cashfree') {
+      const result = await CashfreePaymentService.createForOrder({
+        orderNumber,
+        email,
+        phone,
+        name,
+      });
+      ApiResponse.success(res, result, 'Cashfree order created');
+      return;
+    }
 
     if (provider === 'razorpay') {
       const result = await RazorpayPaymentService.createForOrder({
@@ -168,15 +180,22 @@ export class PaymentController {
   /** Public: which checkout providers are enabled on this API. */
   static getAvailableMethods = asyncHandler(async (_req: Request, res: Response) => {
     const storeDomain = getStoreContext()?.storeDomain;
-    const creds = resolveRazorpayCredentials(storeDomain);
-    const razorpay = Boolean(creds) || isRazorpayConfigured();
-    const keyId = creds?.keyId ?? (isRazorpayConfigured() ? env.razorpay.keyId : undefined);
+    const rzpCreds = resolveRazorpayCredentials(storeDomain);
+    const cfCreds = resolveCashfreeCredentials(storeDomain);
+    const razorpay = Boolean(rzpCreds) || isRazorpayConfigured();
+    const cashfree = Boolean(cfCreds) || isCashfreeConfigured();
+    const keyId = rzpCreds?.keyId ?? (isRazorpayConfigured() ? env.razorpay.keyId : undefined);
+    const appId = cfCreds?.appId ?? (isCashfreeConfigured() ? env.cashfree.appId : undefined);
     ApiResponse.success(
       res,
       {
         razorpay,
         keyId: razorpay ? keyId : undefined,
         keyIdPrefix: keyId ? `${keyId.slice(0, 6)}…` : undefined,
+        cashfree,
+        appId: cashfree ? appId : undefined,
+        appIdPrefix: appId ? `${appId.slice(0, 6)}…` : undefined,
+        cashfreeEnv: cashfree ? (cfCreds?.env ?? env.cashfree.env) : undefined,
         storeDomain: storeDomain || undefined,
       },
       'Payment methods'
@@ -218,6 +237,39 @@ export class PaymentController {
       Buffer.from(JSON.stringify(req.body ?? {}));
 
     await RazorpayPaymentService.handleWebhook(rawBody, signature, req.body);
+    res.status(200).json({ status: 'ok' });
+  });
+
+  static verifyCashfree = asyncHandler(async (req: Request, res: Response) => {
+    const { orderNumber, cashfree_order_id, email, phone } = req.body as {
+      orderNumber: string;
+      cashfree_order_id?: string;
+      email?: string;
+      phone?: string;
+    };
+
+    const result = await CashfreePaymentService.verifyAndCapture({
+      orderNumber,
+      cashfree_order_id,
+      email,
+      phone,
+    });
+    ApiResponse.success(res, result, 'Payment verified');
+  });
+
+  static cashfreeWebhook = asyncHandler(async (req: Request, res: Response) => {
+    const signature = req.header('x-webhook-signature') ?? undefined;
+    const timestamp = req.header('x-webhook-timestamp') ?? undefined;
+    const rawBody =
+      (req as Request & { rawBody?: Buffer }).rawBody ??
+      Buffer.from(JSON.stringify(req.body ?? {}));
+
+    await CashfreePaymentService.handleWebhook(
+      rawBody,
+      signature,
+      timestamp,
+      req.body
+    );
     res.status(200).json({ status: 'ok' });
   });
 }

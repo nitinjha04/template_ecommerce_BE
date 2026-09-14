@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.verifyRazorpayValidator = exports.createProviderPaymentValidator = exports.paymentIdValidator = exports.updatePaymentStatusValidator = void 0;
+exports.verifyCashfreeValidator = exports.verifyRazorpayValidator = exports.createProviderPaymentValidator = exports.paymentIdValidator = exports.updatePaymentStatusValidator = void 0;
 const express_validator_1 = require("express-validator");
 const paymentStatuses = ['Completed', 'Pending', 'Failed'];
 const paymentProviders = [
@@ -9,6 +9,7 @@ const paymentProviders = [
     'phonepe',
     'direct_upi',
     'razorpay',
+    'cashfree',
 ];
 exports.updatePaymentStatusValidator = [
     (0, express_validator_1.param)('id').isMongoId(),
@@ -47,6 +48,20 @@ exports.verifyRazorpayValidator = [
         .trim()
         .notEmpty()
         .withMessage('razorpay_signature is required'),
+    (0, express_validator_1.body)('email').optional().trim().isEmail().withMessage('Valid email is required'),
+    (0, express_validator_1.body)('phone')
+        .optional()
+        .trim()
+        .isLength({ min: 8, max: 18 })
+        .withMessage('Valid phone is required'),
+];
+exports.verifyCashfreeValidator = [
+    (0, express_validator_1.body)('orderNumber').trim().notEmpty().withMessage('orderNumber is required'),
+    (0, express_validator_1.body)('cashfree_order_id')
+        .optional()
+        .trim()
+        .isLength({ min: 3, max: 50 })
+        .withMessage('cashfree_order_id is invalid'),
     (0, express_validator_1.body)('email').optional().trim().isEmail().withMessage('Valid email is required'),
     (0, express_validator_1.body)('phone')
         .optional()

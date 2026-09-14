@@ -39,6 +39,16 @@ export const env = {
     /** Optional — set from Razorpay Dashboard → Webhooks for payment.captured. */
     webhookSecret: (process.env.RAZORPAY_WEBHOOK_SECRET ?? "").trim(),
   },
+  cashfree: {
+    /** Global / fallback (optional). Prefer STORE_CASHFREE_KEYS per store. */
+    appId: (process.env.CASHFREE_APP_ID ?? "").trim(),
+    secretKey: (process.env.CASHFREE_SECRET_KEY ?? "").trim(),
+    /** sandbox | production */
+    env: ((process.env.CASHFREE_ENV ?? "production").trim().toLowerCase() ===
+    "sandbox"
+      ? "sandbox"
+      : "production") as "sandbox" | "production",
+  },
   imagekit: {
     publicKey: process.env.IMAGEKIT_PUBLIC_KEY ?? "",
     privateKey: process.env.IMAGEKIT_PRIVATE_KEY ?? "",
@@ -272,6 +282,95 @@ export const resolveRazorpayCredentialsByKeyId = (
 
 export const isRazorpayConfiguredForDomain = (storeDomain?: string): boolean =>
   Boolean(resolveRazorpayCredentials(storeDomain));
+
+export type CashfreeCredentials = {
+  appId: string;
+  secretKey: string;
+  env: "sandbox" | "production";
+};
+
+const isValidCashfreePair = (appId: string, secretKey: string): boolean =>
+  Boolean(
+    appId &&
+      secretKey &&
+      !isPlaceholder(appId) &&
+      !isPlaceholder(secretKey)
+  );
+
+/**
+ * Per-store Cashfree merchant accounts (not universal).
+ * Format: domain=appId|secretKey;domain2=appId2|secretKey2
+ * Example: mineview.in=13987…|cfsk_ma_prod_…
+ */
+const parseStoreCashfreeKeys = (): ReadonlyMap<string, CashfreeCredentials> => {
+  const raw = (process.env.STORE_CASHFREE_KEYS ?? "").trim();
+  const map = new Map<string, CashfreeCredentials>();
+  if (!raw) return map;
+
+  for (const entry of raw.split(";")) {
+    const eqIdx = entry.indexOf("=");
+    if (eqIdx <= 0) continue;
+    const domain = normalizeStoreDomain(entry.slice(0, eqIdx));
+    const rest = entry.slice(eqIdx + 1).trim();
+    const pipeIdx = rest.indexOf("|");
+    if (!domain || pipeIdx <= 0) continue;
+    const appId = rest.slice(0, pipeIdx).trim();
+    const secretKey = rest.slice(pipeIdx + 1).trim();
+    if (!isValidCashfreePair(appId, secretKey)) continue;
+    map.set(domain, {
+      appId,
+      secretKey,
+      env: env.cashfree.env,
+    });
+  }
+  return map;
+};
+
+const storeCashfreeKeys = parseStoreCashfreeKeys();
+
+const getGlobalCashfreeCredentials = (): CashfreeCredentials | null => {
+  const { appId, secretKey, env: cfEnv } = env.cashfree;
+  if (!isValidCashfreePair(appId, secretKey)) return null;
+  return { appId, secretKey, env: cfEnv };
+};
+
+export const isCashfreeConfigured = (): boolean =>
+  Boolean(getGlobalCashfreeCredentials()) || storeCashfreeKeys.size > 0;
+
+export const resolveCashfreeCredentials = (
+  storeDomain?: string
+): CashfreeCredentials | null => {
+  const normalized = storeDomain ? normalizeStoreDomain(storeDomain) : "";
+  if (normalized) {
+    const mapped = storeCashfreeKeys.get(normalized);
+    if (mapped) return mapped;
+  }
+  return getGlobalCashfreeCredentials();
+};
+
+export const hasStoreCashfreeMapping = (storeDomain?: string): boolean => {
+  if (!storeDomain) return false;
+  return storeCashfreeKeys.has(normalizeStoreDomain(storeDomain));
+};
+
+export const listStoreCashfreeDomains = (): string[] =>
+  [...storeCashfreeKeys.keys()];
+
+export const resolveCashfreeCredentialsByAppId = (
+  appId?: string
+): CashfreeCredentials | null => {
+  const id = (appId ?? "").trim();
+  if (!id) return null;
+  for (const creds of storeCashfreeKeys.values()) {
+    if (creds.appId === id) return creds;
+  }
+  const global = getGlobalCashfreeCredentials();
+  if (global?.appId === id) return global;
+  return null;
+};
+
+export const isCashfreeConfiguredForDomain = (storeDomain?: string): boolean =>
+  Boolean(resolveCashfreeCredentials(storeDomain));
 
 export const isBrevoConfigured = (): boolean => Boolean(env.brevo.apiKey);
 

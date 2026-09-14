@@ -3,7 +3,7 @@ import express from "express";
 import helmet from "helmet";
 import morgan from "morgan";
 import path from "path";
-import { env, isRazorpayConfigured, resolveRazorpayCredentials } from "./config/env";
+import { env, isCashfreeConfigured, isRazorpayConfigured, resolveCashfreeCredentials, resolveRazorpayCredentials } from "./config/env";
 import { getStoreContext } from "./context/store.context";
 import { errorHandler, notFound } from "./middleware/error.middleware";
 import routes from "./routes";
@@ -35,8 +35,11 @@ app.use(
   express.json({
     limit: "10mb",
     verify: (req, _res, buf) => {
-      // Razorpay webhook signature must be verified against the raw body.
-      if (req.url?.includes("/payments/razorpay/webhook")) {
+      // Webhook signatures must be verified against the raw body.
+      if (
+        req.url?.includes("/payments/razorpay/webhook") ||
+        req.url?.includes("/payments/cashfree/webhook")
+      ) {
         (req as express.Request & { rawBody?: Buffer }).rawBody = buf;
       }
     },
@@ -57,17 +60,24 @@ app.use(
  */
 app.get("/api/v1/payments/methods", (_req, res) => {
   const storeDomain = getStoreContext()?.storeDomain;
-  const creds = resolveRazorpayCredentials(storeDomain);
-  const razorpay = Boolean(creds) || isRazorpayConfigured();
-  const keyId = creds?.keyId ?? (isRazorpayConfigured() ? env.razorpay.keyId : undefined);
+  const rzpCreds = resolveRazorpayCredentials(storeDomain);
+  const cfCreds = resolveCashfreeCredentials(storeDomain);
+  const razorpay = Boolean(rzpCreds) || isRazorpayConfigured();
+  const cashfree = Boolean(cfCreds) || isCashfreeConfigured();
+  const keyId = rzpCreds?.keyId ?? (isRazorpayConfigured() ? env.razorpay.keyId : undefined);
+  const appId = cfCreds?.appId ?? (isCashfreeConfigured() ? env.cashfree.appId : undefined);
   res.status(200).json({
     success: true,
     message: "Payment methods",
     data: {
       razorpay,
       ...(keyId ? { keyId } : {}),
-      ...(keyId
-        ? { keyIdPrefix: `${String(keyId).slice(0, 6)}…` }
+      ...(keyId ? { keyIdPrefix: `${String(keyId).slice(0, 6)}…` } : {}),
+      cashfree,
+      ...(appId ? { appId } : {}),
+      ...(appId ? { appIdPrefix: `${String(appId).slice(0, 6)}…` } : {}),
+      ...(cashfree
+        ? { cashfreeEnv: cfCreds?.env ?? env.cashfree.env }
         : {}),
       ...(storeDomain ? { storeDomain } : {}),
     },

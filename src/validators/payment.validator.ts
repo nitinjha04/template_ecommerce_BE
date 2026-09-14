@@ -7,6 +7,7 @@ const paymentProviders = [
   'phonepe',
   'direct_upi',
   'razorpay',
+  'cashfree',
 ];
 
 export const updatePaymentStatusValidator = [
@@ -49,6 +50,20 @@ export const verifyRazorpayValidator = [
     .trim()
     .notEmpty()
     .withMessage('razorpay_signature is required'),
+  body('email').optional().trim().isEmail().withMessage('Valid email is required'),
+  body('phone')
+    .optional()
+    .trim()
+    .isLength({ min: 8, max: 18 })
+    .withMessage('Valid phone is required'),
+];
+export const verifyCashfreeValidator = [
+  body('orderNumber').trim().notEmpty().withMessage('orderNumber is required'),
+  body('cashfree_order_id')
+    .optional()
+    .trim()
+    .isLength({ min: 3, max: 50 })
+    .withMessage('cashfree_order_id is invalid'),
   body('email').optional().trim().isEmail().withMessage('Valid email is required'),
   body('phone')
     .optional()

@@ -43,6 +43,7 @@ const PAYMENT_PROVIDERS = [
     'phonepe',
     'direct_upi',
     'razorpay',
+    'cashfree',
 ];
 const paymentSchema = new mongoose_1.Schema({
     store: {
@@ -93,6 +94,18 @@ const paymentSchema = new mongoose_1.Schema({
         signature: { type: String, required: false },
         amount: { type: Number, required: false },
         currency: { type: String, required: false },
+        createResponse: { type: mongoose_1.Schema.Types.Mixed, required: false },
+        webhookData: { type: mongoose_1.Schema.Types.Mixed, required: false },
+        successEmailSentAt: { type: Date, required: false },
+    },
+    cashfree: {
+        appId: { type: String, required: false },
+        orderId: { type: String, required: false, index: true },
+        paymentSessionId: { type: String, required: false },
+        paymentId: { type: String, required: false, index: true },
+        amount: { type: Number, required: false },
+        currency: { type: String, required: false },
+        env: { type: String, enum: ['sandbox', 'production'], required: false },
         createResponse: { type: mongoose_1.Schema.Types.Mixed, required: false },
         webhookData: { type: mongoose_1.Schema.Types.Mixed, required: false },
         successEmailSentAt: { type: Date, required: false },

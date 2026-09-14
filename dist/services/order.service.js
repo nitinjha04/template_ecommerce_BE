@@ -255,6 +255,7 @@ class OrderService {
             const method = String(serialized.paymentMethod ?? '').toLowerCase();
             const isOnline = method === 'online payment' ||
                 method.includes('razorpay') ||
+                method.includes('cashfree') ||
                 method.includes('upi');
             if (!isOnline)
                 return true;
@@ -389,6 +390,7 @@ class OrderService {
         const method = String(order.paymentMethod ?? '').toLowerCase();
         const isOnline = method.includes('online') ||
             method.includes('razorpay') ||
+            method.includes('cashfree') ||
             method.includes('upi');
         if (!isOnline) {
             throw new ApiError_1.ApiError(400, 'Only unpaid online orders can be abandoned');

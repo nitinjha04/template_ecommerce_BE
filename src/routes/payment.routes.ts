@@ -7,6 +7,7 @@ import {
   createProviderPaymentValidator,
   paymentIdValidator,
   updatePaymentStatusValidator,
+  verifyCashfreeValidator,
   verifyRazorpayValidator,
 } from '../validators/payment.validator';
 
@@ -30,6 +31,14 @@ router.post(
 );
 
 router.post('/razorpay/webhook', PaymentController.razorpayWebhook);
+
+router.post(
+  '/cashfree/verify',
+  validate(verifyCashfreeValidator),
+  PaymentController.verifyCashfree
+);
+
+router.post('/cashfree/webhook', PaymentController.cashfreeWebhook);
 
 router.use(authenticate);
 
