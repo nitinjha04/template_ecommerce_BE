@@ -25,7 +25,11 @@ const payuActionUrl = (payuEnv) => payuEnv === 'test'
     ? 'https://test.payu.in/_payment'
     : 'https://secure.payu.in/_payment';
 const sha512 = (value) => crypto_1.default.createHash('sha512').update(value).digest('hex');
-/** Payment request hash: key|txnid|amount|productinfo|firstname|email|udf1|udf2|udf3|udf4|udf5||||||SALT */
+/**
+ * Payment request hash (PayU India hosted checkout):
+ * sha512(key|txnid|amount|productinfo|firstname|email|udf1|udf2|udf3|udf4|udf5||||||SALT)
+ * Exactly 5 empty slots after udf5 (six `|` before SALT) — not 6.
+ */
 const buildPayuPaymentHash = (input) => {
     const sequence = [
         input.key,
@@ -39,28 +43,30 @@ const buildPayuPaymentHash = (input) => {
         input.udf3 ?? '',
         input.udf4 ?? '',
         input.udf5 ?? '',
-        '',
-        '',
-        '',
-        '',
-        '',
-        '',
+        '', // empty after udf5 (1/5)
+        '', // 2/5
+        '', // 3/5
+        '', // 4/5
+        '', // 5/5
         input.salt,
     ].join('|');
     return sha512(sequence);
 };
 exports.buildPayuPaymentHash = buildPayuPaymentHash;
-/** Reverse hash from PayU callback: SALT|status||||||udf5|udf4|udf3|udf2|udf1|email|firstname|productinfo|amount|txnid|key */
+/**
+ * Reverse hash from PayU callback:
+ * sha512(SALT|status||||||udf5|udf4|udf3|udf2|udf1|email|firstname|productinfo|amount|txnid|key)
+ * Exactly 5 empty slots after status.
+ */
 const buildPayuReverseHash = (input) => {
     const sequence = [
         input.salt,
         input.status,
-        '',
-        '',
-        '',
-        '',
-        '',
-        '',
+        '', // empty after status (1/5)
+        '', // 2/5
+        '', // 3/5
+        '', // 4/5
+        '', // 5/5
         input.udf5 ?? '',
         input.udf4 ?? '',
         input.udf3 ?? '',
