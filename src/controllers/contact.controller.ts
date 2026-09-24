@@ -3,6 +3,7 @@ import { ContactService } from '../services/contact.service';
 import { asyncHandler } from '../utils/asyncHandler';
 import { getParamId } from '../utils/params';
 import { ApiResponse } from '../views/ApiResponse';
+import { pickStoreIdFromQuery } from '../utils/adminStoreQuery';
 
 export class ContactController {
   static create = asyncHandler(async (req: Request, res: Response) => {
@@ -10,9 +11,15 @@ export class ContactController {
     ApiResponse.created(res, message, 'Message sent successfully');
   });
 
-  static getAll = asyncHandler(async (_req: Request, res: Response) => {
-    const messages = await ContactService.getAll();
-    ApiResponse.success(res, messages);
+  static getAll = asyncHandler(async (req: Request, res: Response) => {
+    const { page, limit, search } = req.query;
+    const result = await ContactService.getAllAdmin({
+      page: page ? Number(page) : undefined,
+      limit: limit ? Number(limit) : undefined,
+      search: search as string | undefined,
+      storeId: pickStoreIdFromQuery(req.query.storeId),
+    });
+    ApiResponse.success(res, result.items, 'Messages fetched', 200, result.pagination);
   });
 
   static getById = asyncHandler(async (req: Request, res: Response) => {

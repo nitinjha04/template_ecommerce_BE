@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const contact_controller_1 = require("../controllers/contact.controller");
+const auth_middleware_1 = require("../middleware/auth.middleware");
+const validate_middleware_1 = require("../middleware/validate.middleware");
+const adminList_validator_1 = require("../validators/adminList.validator");
+const contact_validator_1 = require("../validators/contact.validator");
+const router = (0, express_1.Router)();
+router.post('/', (0, validate_middleware_1.validate)(contact_validator_1.createContactValidator), contact_controller_1.ContactController.create);
+router.use(auth_middleware_1.authenticate, (0, auth_middleware_1.authorize)('admin'));
+router.get('/', (0, validate_middleware_1.validate)(adminList_validator_1.adminListQueryValidator), contact_controller_1.ContactController.getAll);
+router.get('/:id', (0, validate_middleware_1.validate)(contact_validator_1.contactIdValidator), contact_controller_1.ContactController.getById);
+router.patch('/:id/read', (0, validate_middleware_1.validate)(contact_validator_1.contactIdValidator), contact_controller_1.ContactController.markAsRead);
+router.delete('/:id', (0, validate_middleware_1.validate)(contact_validator_1.contactIdValidator), contact_controller_1.ContactController.remove);
+exports.default = router;

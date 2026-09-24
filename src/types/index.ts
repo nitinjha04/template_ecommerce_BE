@@ -3,14 +3,8 @@ import { Types } from 'mongoose';
 
 export type UserRole = 'customer' | 'admin';
 
-export type ProductCategory =
-  | 'Men'
-  | 'Women'
-  | 'Outerwear'
-  | 'Knitwear'
-  | 'Shirts'
-  | 'Trousers'
-  | 'Accessories';
+/** @deprecated Use string; kept for gradual migration in scripts */
+export type ProductCategory = string;
 
 export type OrderStatus =
   | 'Pending'
@@ -33,8 +27,16 @@ export interface JwtPayload {
   role: UserRole;
 }
 
+export interface StoreRequestContext {
+  id: string;
+  slug: string;
+  domain: string;
+  name: string;
+}
+
 export interface AuthRequest extends Request {
   user?: JwtPayload;
+  store?: StoreRequestContext;
 }
 
 export interface PaginationQuery {

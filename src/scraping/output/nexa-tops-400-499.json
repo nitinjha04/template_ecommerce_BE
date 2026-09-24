@@ -1,0 +1,3144 @@
+{
+  "scrapedAt": "2026-06-24T18:35:00.292Z",
+  "categoryFilter": "maxwomen-ethnicwear-tops",
+  "categoryName": "tops",
+  "categorySlug": "maxwomen-ethnicwear-tops",
+  "storeId": "6a3bf2e10b0f40e291c26f6f",
+  "storeDomain": "nexa-skyline.com",
+  "priceMin": 400,
+  "priceMax": 499,
+  "categoryId": "maxwomen-ethnicwear-tops",
+  "priceMode": "random",
+  "sort": "low-to-high",
+  "totalProducts": 50,
+  "pagesFetched": 2,
+  "products": [
+    {
+      "name": "Women Embroidered A-line Tunic",
+      "slug": "1000015696400-black-black",
+      "price": 460,
+      "originalPrice": 499,
+      "category": "tops",
+      "description": "Women Embroidered A-line Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Embroidered A-line Tunic",
+      "metaDescription": "Women Embroidered A-line Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000015696400-Black-BLACK-1000015696400_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015696400-Black-BLACK-1000015696400_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015696400-Black-BLACK-1000015696400_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015696400-Black-BLACK-1000015696400_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015696400-Black-BLACK-1000015696400_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015696400-Black-BLACK-1000015696400_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015696400-Black-BLACK-1000015696400_07-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Relaxed fit",
+      "weight": "0.6 kg",
+      "dimensions": "12 x 12 x 7 cm",
+      "stockQuantity": 20,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000015696400BlackBLACK",
+        "sku": "1000015696400-Black-BLACK",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 460
+      }
+    },
+    {
+      "name": "Women Printed Shirt",
+      "slug": "1000016719402-green-green",
+      "price": 487,
+      "originalPrice": 499,
+      "category": "tops",
+      "description": "Women Printed Shirt. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Printed Shirt",
+      "metaDescription": "Women Printed Shirt. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016719402-Green-GREEN-1000016719402_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016719402-Green-GREEN-1000016719402_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016719402-Green-GREEN-1000016719402_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016719402-Green-GREEN-1000016719402_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016719402-Green-GREEN-1000016719402_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016719402-Green-GREEN-1000016719402_06-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.4 kg",
+      "dimensions": "13 x 16 x 5 cm",
+      "stockQuantity": 114,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "1000016719402GreenGREEN",
+        "sku": "1000016719402-Green-GREEN",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 487
+      }
+    },
+    {
+      "name": "Women Leaf Printed Tunic",
+      "slug": "1000016677585-green-green",
+      "price": 444,
+      "originalPrice": 499,
+      "category": "tops",
+      "description": "Women Leaf Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Leaf Printed Tunic",
+      "metaDescription": "Women Leaf Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016677585-Green-GREEN-1000016677585_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016677585-Green-GREEN-1000016677585_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016677585-Green-GREEN-1000016677585_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016677585-Green-GREEN-1000016677585_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016677585-Green-GREEN-1000016677585_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016677585-Green-GREEN-1000016677585_06-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Short",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.5 kg",
+      "dimensions": "13 x 10 x 7 cm",
+      "stockQuantity": 117,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000016677585GreenGREEN",
+        "sku": "1000016677585-Green-GREEN",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 444
+      }
+    },
+    {
+      "name": "Women Printed Shirt",
+      "slug": "1000016555644-multi-multi",
+      "price": 487,
+      "originalPrice": 499,
+      "category": "tops",
+      "description": "Women Printed Shirt. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Printed Shirt",
+      "metaDescription": "Women Printed Shirt. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Multicolour"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016555644-Multi-MULTI-1000016555644_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016555644-Multi-MULTI-1000016555644_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016555644-Multi-MULTI-1000016555644_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016555644-Multi-MULTI-1000016555644_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016555644-Multi-MULTI-1000016555644_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016555644-Multi-MULTI-1000016555644_06-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.3 kg",
+      "dimensions": "11 x 15 x 8 cm",
+      "stockQuantity": 68,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016555644MultiMULTI",
+        "sku": "1000016555644-Multi-MULTI",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 487
+      }
+    },
+    {
+      "name": "Women Printed Crop Shirt",
+      "slug": "1000016314040-green-green",
+      "price": 463,
+      "originalPrice": 499,
+      "category": "tops",
+      "description": "Women Printed Crop Shirt. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Printed Crop Shirt",
+      "metaDescription": "Women Printed Crop Shirt. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016314040-Green-GREEN-1000016314040_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016314040-Green-GREEN-1000016314040_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016314040-Green-GREEN-1000016314040_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016314040-Green-GREEN-1000016314040_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016314040-Green-GREEN-1000016314040_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016314040-Green-GREEN-1000016314040_06-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.5 kg",
+      "dimensions": "9 x 11 x 8 cm",
+      "stockQuantity": 36,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016314040GreenGREEN",
+        "sku": "1000016314040-Green-GREEN",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 463
+      }
+    },
+    {
+      "name": "Women Solid Tunic",
+      "slug": "1000016202610-brown-brown",
+      "price": 473,
+      "originalPrice": 499,
+      "category": "tops",
+      "description": "Women Solid Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Solid Tunic",
+      "metaDescription": "Women Solid Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016202610-Brown-BROWN-1000016202610_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016202610-Brown-BROWN-1000016202610_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016202610-Brown-BROWN-1000016202610_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016202610-Brown-BROWN-1000016202610_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016202610-Brown-BROWN-1000016202610_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016202610-Brown-BROWN-1000016202610_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016202610-Brown-BROWN-1000016202610_07-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Collared",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 12 x 5 cm",
+      "stockQuantity": 108,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016202610BrownBROWN",
+        "sku": "1000016202610-Brown-BROWN",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 473
+      }
+    },
+    {
+      "name": "Kalki x Nexa Skyline Women Floral Print Tunic",
+      "slug": "1000016148895-pink-pink",
+      "price": 447,
+      "originalPrice": 499,
+      "category": "tops",
+      "description": "Kalki x Nexa Skyline Women Floral Print Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Kalki x Nexa Skyline Women Floral Print Tunic",
+      "metaDescription": "Kalki x Nexa Skyline Women Floral Print Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Pink"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016148895-Pink-PINK-1000016148895_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016148895-Pink-PINK-1000016148895_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016148895-Pink-PINK-1000016148895_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016148895-Pink-PINK-1000016148895_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016148895-Pink-PINK-1000016148895_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016148895-Pink-PINK-1000016148895_06-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "12 x 15 x 6 cm",
+      "stockQuantity": 26,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-03T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016148895PinkPINK",
+        "sku": "1000016148895-Pink-PINK",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 447
+      }
+    },
+    {
+      "name": "Kalki x Nexa Skyline Women Floral Print Tunic",
+      "slug": "1000016148895-grey-darkgrey",
+      "price": 419,
+      "originalPrice": 499,
+      "category": "tops",
+      "description": "Kalki x Nexa Skyline Women Floral Print Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Kalki x Nexa Skyline Women Floral Print Tunic",
+      "metaDescription": "Kalki x Nexa Skyline Women Floral Print Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Grey"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016148895-Grey-DARKGREY-1000016148895_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016148895-Grey-DARKGREY-1000016148895_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016148895-Grey-DARKGREY-1000016148895_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016148895-Grey-DARKGREY-1000016148895_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016148895-Grey-DARKGREY-1000016148895_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016148895-Grey-DARKGREY-1000016148895_06-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.7 kg",
+      "dimensions": "14 x 14 x 3 cm",
+      "stockQuantity": 57,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016148895GreyDARKGREY",
+        "sku": "1000016148895-Grey-DARKGREY",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 419
+      }
+    },
+    {
+      "name": "Women Printed Tunic",
+      "slug": "1000016052172-yellow-mustard",
+      "price": 476,
+      "originalPrice": 499,
+      "category": "tops",
+      "description": "Women Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Printed Tunic",
+      "metaDescription": "Women Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Yellow"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016052172-Yellow-MUSTARD-1000016052172_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016052172-Yellow-MUSTARD-1000016052172_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016052172-Yellow-MUSTARD-1000016052172_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016052172-Yellow-MUSTARD-1000016052172_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016052172-Yellow-MUSTARD-1000016052172_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016052172-Yellow-MUSTARD-1000016052172_06-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.8 kg",
+      "dimensions": "14 x 12 x 4 cm",
+      "stockQuantity": 93,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "1000016052172YellowMUSTARD",
+        "sku": "1000016052172-Yellow-MUSTARD",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 476
+      }
+    },
+    {
+      "name": "Women Printed Tunic",
+      "slug": "1000016052172-green-green",
+      "price": 472,
+      "originalPrice": 499,
+      "category": "tops",
+      "description": "Women Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Printed Tunic",
+      "metaDescription": "Women Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016052172-Green-GREEN-1000016052172_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016052172-Green-GREEN-1000016052172_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016052172-Green-GREEN-1000016052172_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016052172-Green-GREEN-1000016052172_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016052172-Green-GREEN-1000016052172_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016052172-Green-GREEN-1000016052172_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016052172-Green-GREEN-1000016052172_07-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Short",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.5 kg",
+      "dimensions": "14 x 12 x 7 cm",
+      "stockQuantity": 64,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016052172GreenGREEN",
+        "sku": "1000016052172-Green-GREEN",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 472
+      }
+    },
+    {
+      "name": "Women Printed Tunic",
+      "slug": "1000015937695-brown-brown",
+      "price": 491,
+      "originalPrice": 499,
+      "category": "tops",
+      "description": "Women Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Printed Tunic",
+      "metaDescription": "Women Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015937695-Brown-BROWN-1000015937695_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015937695-Brown-BROWN-1000015937695_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015937695-Brown-BROWN-1000015937695_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015937695-Brown-BROWN-1000015937695_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015937695-Brown-BROWN-1000015937695_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015937695-Brown-BROWN-1000015937695_06-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Trouser",
+      "washCare": "Dry clean recommended",
+      "neckline": "Henley",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.4 kg",
+      "dimensions": "14 x 10 x 8 cm",
+      "stockQuantity": 50,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "1000015937695BrownBROWN",
+        "sku": "1000015937695-Brown-BROWN",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 491
+      }
+    },
+    {
+      "name": "Women Embroidered A-line Tunic",
+      "slug": "1000015696400-green-teal",
+      "price": 466,
+      "originalPrice": 499,
+      "category": "tops",
+      "description": "Women Embroidered A-line Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Embroidered A-line Tunic",
+      "metaDescription": "Women Embroidered A-line Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015696400-Green-TEAL-1000015696400_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015696400-Green-TEAL-1000015696400_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015696400-Green-TEAL-1000015696400_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015696400-Green-TEAL-1000015696400_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015696400-Green-TEAL-1000015696400_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015696400-Green-TEAL-1000015696400_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015696400-Green-TEAL-1000015696400_07-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "9 x 16 x 8 cm",
+      "stockQuantity": 89,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-10T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1000015696400GreenTEAL",
+        "sku": "1000015696400-Green-TEAL",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 466
+      }
+    },
+    {
+      "name": "Women All Over Print Tunic",
+      "slug": "1000015677659-green-olive",
+      "price": 400,
+      "originalPrice": 499,
+      "category": "tops",
+      "description": "Women All Over Print Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women All Over Print Tunic",
+      "metaDescription": "Women All Over Print Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015677659-Green-OLIVE-1000015677659_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015677659-Green-OLIVE-1000015677659_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015677659-Green-OLIVE-1000015677659_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015677659-Green-OLIVE-1000015677659_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015677659-Green-OLIVE-1000015677659_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015677659-Green-OLIVE-1000015677659_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015677659-Green-OLIVE-1000015677659_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015677659-Green-OLIVE-1000015677659_08-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Dry clean recommended",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.7 kg",
+      "dimensions": "11 x 11 x 4 cm",
+      "stockQuantity": 36,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-03T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "1000015677659GreenOLIVE",
+        "sku": "1000015677659-Green-OLIVE",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 400
+      }
+    },
+    {
+      "name": "Women Floral Print Tunic",
+      "slug": "1000015585315-multi-multi",
+      "price": 462,
+      "originalPrice": 499,
+      "category": "tops",
+      "description": "Women Floral Print Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Tunic",
+      "metaDescription": "Women Floral Print Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Multicolour"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015585315-Multi-MULTI-1000015585315_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015585315-Multi-MULTI-1000015585315_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015585315-Multi-MULTI-1000015585315_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015585315-Multi-MULTI-1000015585315_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015585315-Multi-MULTI-1000015585315_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015585315-Multi-MULTI-1000015585315_06-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 14 x 7 cm",
+      "stockQuantity": 30,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "1000015585315MultiMULTI",
+        "sku": "1000015585315-Multi-MULTI",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 462
+      }
+    },
+    {
+      "name": "Kalki x Nexa Skyline Women Printed Flared Tunic",
+      "slug": "1000015300713-white-offwhite",
+      "price": 400,
+      "originalPrice": 499,
+      "category": "tops",
+      "description": "Kalki x Nexa Skyline Women Printed Flared Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Kalki x Nexa Skyline Women Printed Flared Tunic",
+      "metaDescription": "Kalki x Nexa Skyline Women Printed Flared Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Off white"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015300713-White-OFFWHITE-1000015300713_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015300713-White-OFFWHITE-1000015300713_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015300713-White-OFFWHITE-1000015300713_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015300713-White-OFFWHITE-1000015300713_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015300713-White-OFFWHITE-1000015300713_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015300713-White-OFFWHITE-1000015300713_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015300713-White-OFFWHITE-1000015300713_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015300713-White-OFFWHITE-1000015300713_08-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.5 kg",
+      "dimensions": "12 x 13 x 5 cm",
+      "stockQuantity": 119,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000015300713WhiteOFFWHITE",
+        "sku": "1000015300713-White-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 400
+      }
+    },
+    {
+      "name": "Women Printed Tunic",
+      "slug": "1000016756238-white-offwhite",
+      "price": 457,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Printed Tunic",
+      "metaDescription": "Women Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "White"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016756238-White-OFFWHITE-1000016756238_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016756238-White-OFFWHITE-1000016756238_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016756238-White-OFFWHITE-1000016756238_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016756238-White-OFFWHITE-1000016756238_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016756238-White-OFFWHITE-1000016756238_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016756238-White-OFFWHITE-1000016756238_06-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.7 kg",
+      "dimensions": "12 x 10 x 6 cm",
+      "stockQuantity": 111,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016756238WhiteOFFWHITE",
+        "sku": "1000016756238-White-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 457
+      }
+    },
+    {
+      "name": "Women Printed Shirt",
+      "slug": "1000016677624-multi-multi",
+      "price": 492,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Printed Shirt. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Printed Shirt",
+      "metaDescription": "Women Printed Shirt. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Multicolour"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016677624-Multi-MULTI-1000016677624_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016677624-Multi-MULTI-1000016677624_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016677624-Multi-MULTI-1000016677624_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016677624-Multi-MULTI-1000016677624_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016677624-Multi-MULTI-1000016677624_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016677624-Multi-MULTI-1000016677624_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016677624-Multi-MULTI-1000016677624_07-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Round",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.5 kg",
+      "dimensions": "9 x 14 x 7 cm",
+      "stockQuantity": 62,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "1000016677624MultiMULTI",
+        "sku": "1000016677624-Multi-MULTI",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 492
+      }
+    },
+    {
+      "name": "Women Embroidered Tunic",
+      "slug": "1000016677598-white-offwhite",
+      "price": 415,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Embroidered Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Embroidered Tunic",
+      "metaDescription": "Women Embroidered Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Off white"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016677598-White-OFFWHITE-1000016677598_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016677598-White-OFFWHITE-1000016677598_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016677598-White-OFFWHITE-1000016677598_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016677598-White-OFFWHITE-1000016677598_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016677598-White-OFFWHITE-1000016677598_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016677598-White-OFFWHITE-1000016677598_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016677598-White-OFFWHITE-1000016677598_07-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.6 kg",
+      "dimensions": "12 x 12 x 8 cm",
+      "stockQuantity": 21,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1000016677598WhiteOFFWHITE",
+        "sku": "1000016677598-White-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 415
+      }
+    },
+    {
+      "name": "Women Printed Shirt",
+      "slug": "1000016677546-white-offwhite",
+      "price": 401,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Printed Shirt. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Printed Shirt",
+      "metaDescription": "Women Printed Shirt. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "White"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016677546-White-OFFWHITE-1000016677546_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016677546-White-OFFWHITE-1000016677546_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016677546-White-OFFWHITE-1000016677546_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016677546-White-OFFWHITE-1000016677546_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016677546-White-OFFWHITE-1000016677546_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016677546-White-OFFWHITE-1000016677546_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016677546-White-OFFWHITE-1000016677546_07-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.5 kg",
+      "dimensions": "8 x 12 x 3 cm",
+      "stockQuantity": 87,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016677546WhiteOFFWHITE",
+        "sku": "1000016677546-White-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 401
+      }
+    },
+    {
+      "name": "Women Printed Shirt",
+      "slug": "1000016624921-multi-multi",
+      "price": 427,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Printed Shirt. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Printed Shirt",
+      "metaDescription": "Women Printed Shirt. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Multicolour"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016624921-Multi-MULTI-1000016624921_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016624921-Multi-MULTI-1000016624921_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016624921-Multi-MULTI-1000016624921_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016624921-Multi-MULTI-1000016624921_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016624921-Multi-MULTI-1000016624921_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016624921-Multi-MULTI-1000016624921_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016624921-Multi-MULTI-1000016624921_07-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Dry clean recommended",
+      "neckline": "Henley",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.4 kg",
+      "dimensions": "8 x 16 x 8 cm",
+      "stockQuantity": 77,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016624921MultiMULTI",
+        "sku": "1000016624921-Multi-MULTI",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 427
+      }
+    },
+    {
+      "name": "Women Printed Shirt",
+      "slug": "1000016624908-green-green",
+      "price": 481,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Printed Shirt. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Printed Shirt",
+      "metaDescription": "Women Printed Shirt. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016624908-Green-GREEN-1000016624908_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016624908-Green-GREEN-1000016624908_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016624908-Green-GREEN-1000016624908_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016624908-Green-GREEN-1000016624908_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016624908-Green-GREEN-1000016624908_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016624908-Green-GREEN-1000016624908_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016624908-Green-GREEN-1000016624908_07-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.7 kg",
+      "dimensions": "13 x 12 x 5 cm",
+      "stockQuantity": 52,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016624908GreenGREEN",
+        "sku": "1000016624908-Green-GREEN",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 481
+      }
+    },
+    {
+      "name": "Women Pleated Tunic",
+      "slug": "1000016602059-green-green",
+      "price": 495,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Pleated Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Pleated Tunic",
+      "metaDescription": "Women Pleated Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016602059-Green-GREEN-1000016602059_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016602059-Green-GREEN-1000016602059_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016602059-Green-GREEN-1000016602059_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016602059-Green-GREEN-1000016602059_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016602059-Green-GREEN-1000016602059_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016602059-Green-GREEN-1000016602059_06-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 12 x 7 cm",
+      "stockQuantity": 50,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016602059GreenGREEN",
+        "sku": "1000016602059-Green-GREEN",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 495
+      }
+    },
+    {
+      "name": "Women Embroidered Tunic",
+      "slug": "1000016602046-beige-beige",
+      "price": 477,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Embroidered Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Embroidered Tunic",
+      "metaDescription": "Women Embroidered Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016602046-Beige-BEIGE-1000016602046_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016602046-Beige-BEIGE-1000016602046_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016602046-Beige-BEIGE-1000016602046_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016602046-Beige-BEIGE-1000016602046_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016602046-Beige-BEIGE-1000016602046_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016602046-Beige-BEIGE-1000016602046_06-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 11 x 6 cm",
+      "stockQuantity": 97,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "1000016602046BeigeBEIGE",
+        "sku": "1000016602046-Beige-BEIGE",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 477
+      }
+    },
+    {
+      "name": "Women Floral Print Shirt",
+      "slug": "1000016601396-multi-multi",
+      "price": 416,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Floral Print Shirt. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Shirt",
+      "metaDescription": "Women Floral Print Shirt. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Multicolour"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016601396-Multi-MULTI-1000016601396_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016601396-Multi-MULTI-1000016601396_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016601396-Multi-MULTI-1000016601396_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016601396-Multi-MULTI-1000016601396_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016601396-Multi-MULTI-1000016601396_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016601396-Multi-MULTI-1000016601396_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016601396-Multi-MULTI-1000016601396_07-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Trouser",
+      "washCare": "Dry clean recommended",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.4 kg",
+      "dimensions": "8 x 13 x 4 cm",
+      "stockQuantity": 53,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016601396MultiMULTI",
+        "sku": "1000016601396-Multi-MULTI",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 416
+      }
+    },
+    {
+      "name": "Women Embroidered Yoke Tunic",
+      "slug": "1000016595124-white-offwhite",
+      "price": 450,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Embroidered Yoke Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Embroidered Yoke Tunic",
+      "metaDescription": "Women Embroidered Yoke Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Off white"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016595124-White-OFFWHITE-1000016595124_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016595124-White-OFFWHITE-1000016595124_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016595124-White-OFFWHITE-1000016595124_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016595124-White-OFFWHITE-1000016595124_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016595124-White-OFFWHITE-1000016595124_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016595124-White-OFFWHITE-1000016595124_06-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Comfort fit",
+      "weight": "0.6 kg",
+      "dimensions": "13 x 10 x 3 cm",
+      "stockQuantity": 66,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016595124WhiteOFFWHITE",
+        "sku": "1000016595124-White-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 450
+      }
+    },
+    {
+      "name": "Women Embroidered Tunic",
+      "slug": "1000016595111-red-red",
+      "price": 413,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Embroidered Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Embroidered Tunic",
+      "metaDescription": "Women Embroidered Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Red"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016595111-Red-RED-1000016595111_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016595111-Red-RED-1000016595111_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016595111-Red-RED-1000016595111_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016595111-Red-RED-1000016595111_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016595111-Red-RED-1000016595111_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016595111-Red-RED-1000016595111_06-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Trouser",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.5 kg",
+      "dimensions": "10 x 12 x 6 cm",
+      "stockQuantity": 28,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016595111RedRED",
+        "sku": "1000016595111-Red-RED",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 413
+      }
+    },
+    {
+      "name": "Women Embroidered Tunic",
+      "slug": "1000016595098-white-offwhite",
+      "price": 423,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Embroidered Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Embroidered Tunic",
+      "metaDescription": "Women Embroidered Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "White"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016595098-White-OFFWHITE-1000016595098_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016595098-White-OFFWHITE-1000016595098_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016595098-White-OFFWHITE-1000016595098_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016595098-White-OFFWHITE-1000016595098_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016595098-White-OFFWHITE-1000016595098_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016595098-White-OFFWHITE-1000016595098_06-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Band collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Regular fit",
+      "weight": "0.4 kg",
+      "dimensions": "11 x 11 x 2 cm",
+      "stockQuantity": 81,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "1000016595098WhiteOFFWHITE",
+        "sku": "1000016595098-White-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 423
+      }
+    },
+    {
+      "name": "Women Embroidered Tunic",
+      "slug": "1000016595085-yellow-mustard",
+      "price": 487,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Embroidered Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Embroidered Tunic",
+      "metaDescription": "Women Embroidered Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Yellow"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016595085-Yellow-MUSTARD-1000016595085_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016595085-Yellow-MUSTARD-1000016595085_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016595085-Yellow-MUSTARD-1000016595085_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016595085-Yellow-MUSTARD-1000016595085_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016595085-Yellow-MUSTARD-1000016595085_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016595085-Yellow-MUSTARD-1000016595085_06-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.6 kg",
+      "dimensions": "12 x 12 x 5 cm",
+      "stockQuantity": 70,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016595085YellowMUSTARD",
+        "sku": "1000016595085-Yellow-MUSTARD",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 487
+      }
+    },
+    {
+      "name": "Women Floral Print Shirt",
+      "slug": "1000016595059-purple-wine",
+      "price": 466,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Floral Print Shirt. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Shirt",
+      "metaDescription": "Women Floral Print Shirt. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Purple"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016595059-Purple-WINE-1000016595059_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016595059-Purple-WINE-1000016595059_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016595059-Purple-WINE-1000016595059_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016595059-Purple-WINE-1000016595059_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016595059-Purple-WINE-1000016595059_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016595059-Purple-WINE-1000016595059_06-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 11 x 7 cm",
+      "stockQuantity": 112,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-01T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000016595059PurpleWINE",
+        "sku": "1000016595059-Purple-WINE",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 466
+      }
+    },
+    {
+      "name": "Women Printed Tunic",
+      "slug": "1000016555735-blue-blue",
+      "price": 410,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Printed Tunic",
+      "metaDescription": "Women Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016555735-Blue-BLUE-1000016555735_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016555735-Blue-BLUE-1000016555735_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016555735-Blue-BLUE-1000016555735_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016555735-Blue-BLUE-1000016555735_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016555735-Blue-BLUE-1000016555735_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016555735-Blue-BLUE-1000016555735_06-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "12 x 12 x 5 cm",
+      "stockQuantity": 105,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016555735BlueBLUE",
+        "sku": "1000016555735-Blue-BLUE",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 410
+      }
+    },
+    {
+      "name": "Women Printed Shirt",
+      "slug": "1000016555709-blue-blue",
+      "price": 451,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Printed Shirt. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Printed Shirt",
+      "metaDescription": "Women Printed Shirt. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016555709-Blue-BLUE-1000016555709_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016555709-Blue-BLUE-1000016555709_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016555709-Blue-BLUE-1000016555709_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016555709-Blue-BLUE-1000016555709_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016555709-Blue-BLUE-1000016555709_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016555709-Blue-BLUE-1000016555709_06-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.3 kg",
+      "dimensions": "10 x 10 x 2 cm",
+      "stockQuantity": 90,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016555709BlueBLUE",
+        "sku": "1000016555709-Blue-BLUE",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 451
+      }
+    },
+    {
+      "name": "Women Printed Shirt",
+      "slug": "1000016555683-black-black",
+      "price": 416,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Printed Shirt. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Printed Shirt",
+      "metaDescription": "Women Printed Shirt. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016555683-Black-BLACK-1000016555683_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016555683-Black-BLACK-1000016555683_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016555683-Black-BLACK-1000016555683_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016555683-Black-BLACK-1000016555683_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016555683-Black-BLACK-1000016555683_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016555683-Black-BLACK-1000016555683_06-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Kurta",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.6 kg",
+      "dimensions": "11 x 14 x 5 cm",
+      "stockQuantity": 95,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-10T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000016555683BlackBLACK",
+        "sku": "1000016555683-Black-BLACK",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 416
+      }
+    },
+    {
+      "name": "Women Printed Tunic",
+      "slug": "1000016555670-yellow-mustard",
+      "price": 408,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Printed Tunic",
+      "metaDescription": "Women Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Yellow"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016555670-Yellow-MUSTARD-1000016555670_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016555670-Yellow-MUSTARD-1000016555670_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016555670-Yellow-MUSTARD-1000016555670_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016555670-Yellow-MUSTARD-1000016555670_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016555670-Yellow-MUSTARD-1000016555670_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016555670-Yellow-MUSTARD-1000016555670_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016555670-Yellow-MUSTARD-1000016555670_07-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Medium",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 14 x 4 cm",
+      "stockQuantity": 97,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "1000016555670YellowMUSTARD",
+        "sku": "1000016555670-Yellow-MUSTARD",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 408
+      }
+    },
+    {
+      "name": "Women Floral Print Shirt",
+      "slug": "1000016469710-white-offwhite",
+      "price": 467,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Floral Print Shirt. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Shirt",
+      "metaDescription": "Women Floral Print Shirt. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "White"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016469710-White-OFFWHITE-1000016469710_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016469710-White-OFFWHITE-1000016469710_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016469710-White-OFFWHITE-1000016469710_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016469710-White-OFFWHITE-1000016469710_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016469710-White-OFFWHITE-1000016469710_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016469710-White-OFFWHITE-1000016469710_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016469710-White-OFFWHITE-1000016469710_07-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "11 x 11 x 6 cm",
+      "stockQuantity": 77,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016469710WhiteOFFWHITE",
+        "sku": "1000016469710-White-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 467
+      }
+    },
+    {
+      "name": "Women Printed Tunic",
+      "slug": "1000016469697-white-offwhite",
+      "price": 427,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Printed Tunic",
+      "metaDescription": "Women Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "White"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016469697-White-OFFWHITE-1000016469697_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016469697-White-OFFWHITE-1000016469697_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016469697-White-OFFWHITE-1000016469697_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016469697-White-OFFWHITE-1000016469697_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016469697-White-OFFWHITE-1000016469697_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016469697-White-OFFWHITE-1000016469697_06-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "10 x 11 x 4 cm",
+      "stockQuantity": 40,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-03T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "1000016469697WhiteOFFWHITE",
+        "sku": "1000016469697-White-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 427
+      }
+    },
+    {
+      "name": "Women Printed Shirt",
+      "slug": "1000016469632-white-offwhite",
+      "price": 412,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Printed Shirt. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Printed Shirt",
+      "metaDescription": "Women Printed Shirt. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "White"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016469632-White-OFFWHITE-1000016469632_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016469632-White-OFFWHITE-1000016469632_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016469632-White-OFFWHITE-1000016469632_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016469632-White-OFFWHITE-1000016469632_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016469632-White-OFFWHITE-1000016469632_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016469632-White-OFFWHITE-1000016469632_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016469632-White-OFFWHITE-1000016469632_07-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Henley",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 11 x 8 cm",
+      "stockQuantity": 111,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016469632WhiteOFFWHITE",
+        "sku": "1000016469632-White-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 412
+      }
+    },
+    {
+      "name": "Women Printed Shirt",
+      "slug": "1000016469593-brown-brown",
+      "price": 499,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Printed Shirt. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Printed Shirt",
+      "metaDescription": "Women Printed Shirt. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016469593-Brown-BROWN-1000016469593_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016469593-Brown-BROWN-1000016469593_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016469593-Brown-BROWN-1000016469593_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016469593-Brown-BROWN-1000016469593_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016469593-Brown-BROWN-1000016469593_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016469593-Brown-BROWN-1000016469593_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016469593-Brown-BROWN-1000016469593_07-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016469593-Brown-BROWN-1000016469593_08-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Trouser",
+      "washCare": "Dry clean recommended",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "12 x 12 x 2 cm",
+      "stockQuantity": 100,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-02T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016469593BrownBROWN",
+        "sku": "1000016469593-Brown-BROWN",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 499
+      }
+    },
+    {
+      "name": "Women Crinkled Bubble Hem Top",
+      "slug": "1000016362494-white-offwhite",
+      "price": 439,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Crinkled Bubble Hem Top. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Crinkled Bubble Hem Top",
+      "metaDescription": "Women Crinkled Bubble Hem Top. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Off white"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016362494-White-OFFWHITE-1000016362494_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016362494-White-OFFWHITE-1000016362494_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016362494-White-OFFWHITE-1000016362494_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016362494-White-OFFWHITE-1000016362494_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016362494-White-OFFWHITE-1000016362494_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016362494-White-OFFWHITE-1000016362494_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016362494-White-OFFWHITE-1000016362494_07-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.3 kg",
+      "dimensions": "10 x 14 x 2 cm",
+      "stockQuantity": 26,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-02T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016362494WhiteOFFWHITE",
+        "sku": "1000016362494-White-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 439
+      }
+    },
+    {
+      "name": "Women Solid Bubble Hem Top",
+      "slug": "1000016362481-red-red",
+      "price": 408,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Solid Bubble Hem Top. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Solid Bubble Hem Top",
+      "metaDescription": "Women Solid Bubble Hem Top. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Red"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016362481-Red-RED-1000016362481_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016362481-Red-RED-1000016362481_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016362481-Red-RED-1000016362481_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016362481-Red-RED-1000016362481_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016362481-Red-RED-1000016362481_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016362481-Red-RED-1000016362481_06-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "14 x 13 x 4 cm",
+      "stockQuantity": 85,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016362481RedRED",
+        "sku": "1000016362481-Red-RED",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 408
+      }
+    },
+    {
+      "name": "Women Solid Crop Shirt",
+      "slug": "1000016314027-yellow-mustard",
+      "price": 477,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Solid Crop Shirt. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Solid Crop Shirt",
+      "metaDescription": "Women Solid Crop Shirt. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Yellow"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016314027-Yellow-MUSTARD-1000016314027_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016314027-Yellow-MUSTARD-1000016314027_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016314027-Yellow-MUSTARD-1000016314027_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016314027-Yellow-MUSTARD-1000016314027_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016314027-Yellow-MUSTARD-1000016314027_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016314027-Yellow-MUSTARD-1000016314027_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016314027-Yellow-MUSTARD-1000016314027_07-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.4 kg",
+      "dimensions": "9 x 10 x 7 cm",
+      "stockQuantity": 20,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016314027YellowMUSTARD",
+        "sku": "1000016314027-Yellow-MUSTARD",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 477
+      }
+    },
+    {
+      "name": "Women Floral Print Shirt",
+      "slug": "1000016313975-white-offwhite",
+      "price": 419,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Floral Print Shirt. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Shirt",
+      "metaDescription": "Women Floral Print Shirt. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Off white"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016313975-White-OFFWHITE-1000016313975_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313975-White-OFFWHITE-1000016313975_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313975-White-OFFWHITE-1000016313975_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313975-White-OFFWHITE-1000016313975_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313975-White-OFFWHITE-1000016313975_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313975-White-OFFWHITE-1000016313975_06-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Medium",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.8 kg",
+      "dimensions": "11 x 14 x 2 cm",
+      "stockQuantity": 77,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-02T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016313975WhiteOFFWHITE",
+        "sku": "1000016313975-White-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 419
+      }
+    },
+    {
+      "name": "Kalki x Nexa Skyline Women Printed Tunic",
+      "slug": "1000016313949-yellow-yellow",
+      "price": 467,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Kalki x Nexa Skyline Women Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Kalki x Nexa Skyline Women Printed Tunic",
+      "metaDescription": "Kalki x Nexa Skyline Women Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Yellow"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016313949-Yellow-YELLOW-1000016313949_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313949-Yellow-YELLOW-1000016313949_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313949-Yellow-YELLOW-1000016313949_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313949-Yellow-YELLOW-1000016313949_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313949-Yellow-YELLOW-1000016313949_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313949-Yellow-YELLOW-1000016313949_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313949-Yellow-YELLOW-1000016313949_07-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.4 kg",
+      "dimensions": "10 x 11 x 4 cm",
+      "stockQuantity": 96,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016313949YellowYELLOW",
+        "sku": "1000016313949-Yellow-YELLOW",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 467
+      }
+    },
+    {
+      "name": "Women Printed Regular Fit Shirt",
+      "slug": "1000016313936-black-black",
+      "price": 494,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Printed Regular Fit Shirt. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Printed Regular Fit Shirt",
+      "metaDescription": "Women Printed Regular Fit Shirt. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Grey"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016313936-Black-BLACK-1000016313936_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313936-Black-BLACK-1000016313936_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313936-Black-BLACK-1000016313936_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313936-Black-BLACK-1000016313936_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313936-Black-BLACK-1000016313936_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313936-Black-BLACK-1000016313936_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313936-Black-BLACK-1000016313936_07-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Jacket",
+      "washCare": "Dry clean recommended",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 14 x 2 cm",
+      "stockQuantity": 15,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016313936BlackBLACK",
+        "sku": "1000016313936-Black-BLACK",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 494
+      }
+    },
+    {
+      "name": "Women Printed Tunic",
+      "slug": "1000016313897-white-offwhite",
+      "price": 455,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Printed Tunic",
+      "metaDescription": "Women Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "White"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016313897-White-OFFWHITE-1000016313897_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313897-White-OFFWHITE-1000016313897_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313897-White-OFFWHITE-1000016313897_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313897-White-OFFWHITE-1000016313897_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313897-White-OFFWHITE-1000016313897_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313897-White-OFFWHITE-1000016313897_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313897-White-OFFWHITE-1000016313897_07-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 12 x 6 cm",
+      "stockQuantity": 80,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016313897WhiteOFFWHITE",
+        "sku": "1000016313897-White-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 455
+      }
+    },
+    {
+      "name": "Women Printed Tunic",
+      "slug": "1000016313884-black-black",
+      "price": 473,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Printed Tunic",
+      "metaDescription": "Women Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016313884-Black-BLACK-1000016313884_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313884-Black-BLACK-1000016313884_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313884-Black-BLACK-1000016313884_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313884-Black-BLACK-1000016313884_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313884-Black-BLACK-1000016313884_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313884-Black-BLACK-1000016313884_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313884-Black-BLACK-1000016313884_07-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.4 kg",
+      "dimensions": "9 x 16 x 8 cm",
+      "stockQuantity": 34,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016313884BlackBLACK",
+        "sku": "1000016313884-Black-BLACK",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 473
+      }
+    },
+    {
+      "name": "Women Floral Print Top",
+      "slug": "1000016313858-red-red",
+      "price": 458,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Floral Print Top. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Top",
+      "metaDescription": "Women Floral Print Top. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Red"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016313858-Red-RED-1000016313858_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313858-Red-RED-1000016313858_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313858-Red-RED-1000016313858_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313858-Red-RED-1000016313858_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313858-Red-RED-1000016313858_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313858-Red-RED-1000016313858_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313858-Red-RED-1000016313858_07-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Trouser",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.5 kg",
+      "dimensions": "13 x 12 x 4 cm",
+      "stockQuantity": 18,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016313858RedRED",
+        "sku": "1000016313858-Red-RED",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 458
+      }
+    },
+    {
+      "name": "Women Printed Shirt",
+      "slug": "1000016313819-white-offwhite",
+      "price": 453,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Printed Shirt. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Printed Shirt",
+      "metaDescription": "Women Printed Shirt. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Off white"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016313819-White-OFFWHITE-1000016313819_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313819-White-OFFWHITE-1000016313819_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313819-White-OFFWHITE-1000016313819_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313819-White-OFFWHITE-1000016313819_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313819-White-OFFWHITE-1000016313819_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313819-White-OFFWHITE-1000016313819_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016313819-White-OFFWHITE-1000016313819_07-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 13 x 7 cm",
+      "stockQuantity": 47,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016313819WhiteOFFWHITE",
+        "sku": "1000016313819-White-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 453
+      }
+    },
+    {
+      "name": "Women Printed Tunic",
+      "slug": "1000016220125-white-offwhite",
+      "price": 490,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Printed Tunic",
+      "metaDescription": "Women Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "White"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016220125-White-OFFWHITE-1000016220125_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016220125-White-OFFWHITE-1000016220125_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016220125-White-OFFWHITE-1000016220125_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016220125-White-OFFWHITE-1000016220125_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016220125-White-OFFWHITE-1000016220125_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016220125-White-OFFWHITE-1000016220125_06-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.4 kg",
+      "dimensions": "13 x 16 x 2 cm",
+      "stockQuantity": 53,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "1000016220125WhiteOFFWHITE",
+        "sku": "1000016220125-White-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 490
+      }
+    },
+    {
+      "name": "Women Floral Print Tunic",
+      "slug": "1000016220112-white-offwhite",
+      "price": 478,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Floral Print Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Tunic",
+      "metaDescription": "Women Floral Print Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "White"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016220112-White-OFFWHITE-1000016220112_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016220112-White-OFFWHITE-1000016220112_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016220112-White-OFFWHITE-1000016220112_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016220112-White-OFFWHITE-1000016220112_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016220112-White-OFFWHITE-1000016220112_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016220112-White-OFFWHITE-1000016220112_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016220112-White-OFFWHITE-1000016220112_07-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 10 x 7 cm",
+      "stockQuantity": 71,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016220112WhiteOFFWHITE",
+        "sku": "1000016220112-White-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 478
+      }
+    },
+    {
+      "name": "Women Printed Tunic",
+      "slug": "1000016220060-beige-beige",
+      "price": 414,
+      "originalPrice": 599,
+      "category": "tops",
+      "description": "Women Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaTitle": "Women Printed Tunic",
+      "metaDescription": "Women Printed Tunic. Premium tops from our curated ethnic collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016220060-Beige-BEIGE-1000016220060_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016220060-Beige-BEIGE-1000016220060_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016220060-Beige-BEIGE-1000016220060_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016220060-Beige-BEIGE-1000016220060_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016220060-Beige-BEIGE-1000016220060_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016220060-Beige-BEIGE-1000016220060_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016220060-Beige-BEIGE-1000016220060_07-2100.jpg"
+      ],
+      "tags": [
+        "tops",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Kurta",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Relaxed fit",
+      "weight": "0.8 kg",
+      "dimensions": "13 x 11 x 3 cm",
+      "stockQuantity": 16,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1000016220060BeigeBEIGE",
+        "sku": "1000016220060-Beige-BEIGE",
+        "categoryFilter": "maxwomen-ethnicwear-tops",
+        "assignedPriceTier": 414
+      }
+    }
+  ]
+}

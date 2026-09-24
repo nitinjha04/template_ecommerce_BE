@@ -1,0 +1,847 @@
+{
+  "scrapedAt": "2026-05-26T11:00:14.089Z",
+  "categoryFilter": "153",
+  "categoryName": "growns",
+  "priceMin": 6000,
+  "priceMax": 6999,
+  "categoryId": "6557",
+  "priceMode": "random",
+  "sort": "high-to-low",
+  "totalProducts": 15,
+  "pagesFetched": 1,
+  "products": [
+    {
+      "name": "Prabal Gurung — Linda Gown",
+      "slug": "prabal-gurung-linda-gown",
+      "price": 6826,
+      "originalPrice": 648799,
+      "category": "growns",
+      "description": "Linda Gown. Premium growns from our curated collection.",
+      "metaTitle": "Prabal Gurung — Linda Gown",
+      "metaDescription": "Linda Gown. Premium growns from our curated collection.",
+      "metaKeywords": [
+        "growns",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "2",
+        "4",
+        "6"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/a/3af25f0PRAB-WD15_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/a/3af25f0PRAB-WD15_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/a/3af25f0Revolve_Infographic_Fashion.jpg"
+      ],
+      "tags": [
+        "growns"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Band collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "9 x 16 x 4 cm",
+      "stockQuantity": 24,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "growns",
+      "_source": {
+        "nykaaId": "25917790",
+        "sku": "PRABA00000150",
+        "categoryFilter": "153",
+        "assignedPriceTier": 6826
+      }
+    },
+    {
+      "name": "Prabal Gurung — Heidi Gown",
+      "slug": "prabal-gurung-heidi-gown",
+      "price": 6089,
+      "originalPrice": 690299,
+      "category": "growns",
+      "description": "Heidi Gown. Premium growns from our curated collection.",
+      "metaTitle": "Prabal Gurung — Heidi Gown",
+      "metaDescription": "Heidi Gown. Premium growns from our curated collection.",
+      "metaKeywords": [
+        "growns",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "2",
+        "4",
+        "6"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/a/3af25f0PRAB-WD12_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/a/3af25f0PRAB-WD12_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/a/3af25f0Revolve_Infographic_Fashion.jpg"
+      ],
+      "tags": [
+        "growns"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "12 x 15 x 3 cm",
+      "stockQuantity": 39,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-10T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "25922539",
+        "sku": "PRABA00000154",
+        "categoryFilter": "153",
+        "assignedPriceTier": 6089
+      }
+    },
+    {
+      "name": "Maria Lucia Hohan — X Revolve Reina Gown",
+      "slug": "maria-lucia-hohan-x-revolve-reina-gown",
+      "price": 6127,
+      "originalPrice": 342099,
+      "category": "growns",
+      "description": "X Revolve Reina Gown. Premium growns from our curated collection.",
+      "metaTitle": "Maria Lucia Hohan — X Revolve Reina Gown",
+      "metaDescription": "X Revolve Reina Gown. Premium growns from our curated collection.",
+      "metaKeywords": [
+        "growns",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "34/2",
+        "36/4",
+        "38/6",
+        "40/8"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/d/6d750bfMLUC-WD112_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/d/6d750bfMLUC-WD112_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/d/6d750bfRevolve_Infographic_Fashion.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/d/6d750bfMLUC-WD112_3.jpg"
+      ],
+      "tags": [
+        "growns"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.7 kg",
+      "dimensions": "12 x 10 x 3 cm",
+      "stockQuantity": 49,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "20383369",
+        "sku": "MARIA00000364",
+        "categoryFilter": "153",
+        "assignedPriceTier": 6127
+      }
+    },
+    {
+      "name": "Maria Lucia Hohan — Raisa Dress",
+      "slug": "maria-lucia-hohan-raisa-dress",
+      "price": 6388,
+      "originalPrice": 274499,
+      "category": "growns",
+      "description": "Raisa Dress. Premium growns from our curated collection.",
+      "metaTitle": "Maria Lucia Hohan — Raisa Dress",
+      "metaDescription": "Raisa Dress. Premium growns from our curated collection.",
+      "metaKeywords": [
+        "growns",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "34/2",
+        "36/4",
+        "38/6",
+        "40/8"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/d/6d750bfMLUC-WD109_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/d/6d750bfMLUC-WD109_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/d/6d750bfRevolve_Infographic_Fashion.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/d/6d750bfMLUC-WD109_3.jpg"
+      ],
+      "tags": [
+        "growns"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 15 x 6 cm",
+      "stockQuantity": 25,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "20389842",
+        "sku": "MARIA00000377",
+        "categoryFilter": "153",
+        "assignedPriceTier": 6388
+      }
+    },
+    {
+      "name": "Carolina Herrera — Sleeveless Scoopneck Gown",
+      "slug": "carolina-herrera-sleeveless-scoopneck-gown",
+      "price": 6931,
+      "originalPrice": 242599,
+      "category": "growns",
+      "description": "Sleeveless Scoopneck Gown. Premium growns from our curated collection.",
+      "metaTitle": "Carolina Herrera — Sleeveless Scoopneck Gown",
+      "metaDescription": "Sleeveless Scoopneck Gown. Premium growns from our curated collection.",
+      "metaKeywords": [
+        "growns",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "4",
+        "6"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/c/5c30cabCRRF-WD6_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/c/5c30cabCRRF-WD6_2.jpg"
+      ],
+      "tags": [
+        "growns"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Medium",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.3 kg",
+      "dimensions": "8 x 10 x 4 cm",
+      "stockQuantity": 24,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "growns",
+      "_source": {
+        "nykaaId": "26384833",
+        "sku": "CAROL00000756",
+        "categoryFilter": "153",
+        "assignedPriceTier": 6931
+      }
+    },
+    {
+      "name": "Maria Lucia Hohan — Klair Gown",
+      "slug": "maria-lucia-hohan-klair-gown",
+      "price": 6480,
+      "originalPrice": 237399,
+      "category": "growns",
+      "description": "Klair Gown. Premium growns from our curated collection.",
+      "metaTitle": "Maria Lucia Hohan — Klair Gown",
+      "metaDescription": "Klair Gown. Premium growns from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "34/2",
+        "36/4",
+        "38/6",
+        "40/8"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/4/8491a21MLUC-WD35_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/4/8491a21MLUC-WD35_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/4/8491a21MLUC-WD35_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/0/402796brevolve_promise.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Medium",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "14 x 10 x 8 cm",
+      "stockQuantity": 12,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-11T18:30:00.000Z",
+      "breadcrumbCategory": "growns",
+      "_source": {
+        "nykaaId": "14042449",
+        "sku": "MARIA00000160",
+        "categoryFilter": "153",
+        "assignedPriceTier": 6480
+      }
+    },
+    {
+      "name": "Rachel Gilbert — Malia Gown",
+      "slug": "rachel-gilbert-malia-gown",
+      "price": 6550,
+      "originalPrice": 234899,
+      "category": "growns",
+      "description": "Malia Gown. Premium growns from our curated collection.",
+      "metaTitle": "Rachel Gilbert — Malia Gown",
+      "metaDescription": "Malia Gown. Premium growns from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/6/66e42abRGIL-WD55_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/6/66e42abRGIL-WD55_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/6/66e42abRevolve_Infographic_Fashion.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/6/66e42abRGIL-WD55_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/6/66e42abRGIL-WD55_4.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Trouser",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.4 kg",
+      "dimensions": "9 x 12 x 7 cm",
+      "stockQuantity": 73,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-10T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "24869226",
+        "sku": "RACAA00000270",
+        "categoryFilter": "153",
+        "assignedPriceTier": 6550
+      }
+    },
+    {
+      "name": "ITRH — Amelia Column Gown",
+      "slug": "itrh-amelia-column-gown",
+      "price": 6111,
+      "originalPrice": 225000,
+      "category": "growns",
+      "description": "Amelia Column Gown. Premium growns from our curated collection.",
+      "metaTitle": "ITRH — Amelia Column Gown",
+      "metaDescription": "Amelia Column Gown. Premium growns from our curated collection.",
+      "metaKeywords": [
+        "growns",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Custom",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/1/71f582cDC406_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/1/71f582cDC406_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/1/71f582cDC406_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/1/71f582cDC406_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/1/71f582cDC406_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/1/71f582cDC406_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/1/71f582cDC406_7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/1/71f582cDC406_8.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/3/737c7e6designedit_image.jpg"
+      ],
+      "tags": [
+        "growns"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "12 x 10 x 2 cm",
+      "stockQuantity": 48,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "14333857",
+        "sku": "ITRHX00000790",
+        "categoryFilter": "153",
+        "assignedPriceTier": 6111
+      }
+    },
+    {
+      "name": "Atlein — One Sleeve Draped Gown",
+      "slug": "atlein-one-sleeve-draped-gown",
+      "price": 6374,
+      "originalPrice": 219799,
+      "category": "growns",
+      "description": "One Sleeve Draped Gown. Premium growns from our curated collection.",
+      "metaTitle": "Atlein — One Sleeve Draped Gown",
+      "metaDescription": "One Sleeve Draped Gown. Premium growns from our curated collection.",
+      "metaKeywords": [
+        "growns",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/5/e5b1267ATLR-WD14_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/5/e5b1267ATLR-WD14_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/5/e5b1267Revolve_Infographic_Fashion.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/5/e5b1267ATLR-WD14_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/5/e5b1267ATLR-WD14_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/5/e5b1267ATLR-WD14_5.jpg"
+      ],
+      "tags": [
+        "growns"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.4 kg",
+      "dimensions": "8 x 16 x 6 cm",
+      "stockQuantity": 95,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "26654031",
+        "sku": "ATLEI00000249",
+        "categoryFilter": "153",
+        "assignedPriceTier": 6374
+      }
+    },
+    {
+      "name": "Maria Lucia Hohan — Cerise Gown",
+      "slug": "maria-lucia-hohan-cerise-gown",
+      "price": 6054,
+      "originalPrice": 292399,
+      "category": "growns",
+      "description": "Cerise Gown. Premium growns from our curated collection.",
+      "metaTitle": "Maria Lucia Hohan — Cerise Gown",
+      "metaDescription": "Cerise Gown. Premium growns from our curated collection.",
+      "metaKeywords": [
+        "growns",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "36/4",
+        "40/8"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/8/e816cf1MLUC-WD117_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/8/e816cf1MLUC-WD117_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/8/e816cf1Revolve_Infographic_Fashion.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/8/e816cf1MLUC-WD117_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/8/e816cf1MLUC-WD117_4.jpg"
+      ],
+      "tags": [
+        "growns"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "11 x 15 x 7 cm",
+      "stockQuantity": 56,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "growns",
+      "_source": {
+        "nykaaId": "24635212",
+        "sku": "MARIA00000409",
+        "categoryFilter": "153",
+        "assignedPriceTier": 6054
+      }
+    },
+    {
+      "name": "Bronx and Banco — Jasmine Floral Off The Shoulder Gown",
+      "slug": "bronx-and-banco-jasmine-floral-off-the-shoulder-gown",
+      "price": 6003,
+      "originalPrice": 207299,
+      "category": "growns",
+      "description": "Jasmine Floral Off The Shoulder Gown. Premium growns from our curated collection.",
+      "metaTitle": "Bronx and Banco — Jasmine Floral Off The Shoulder Gown",
+      "metaDescription": "Jasmine Floral Off The Shoulder Gown. Premium growns from our curated collection.",
+      "metaKeywords": [
+        "growns",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/a/3af25f0BROR-WD945_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/a/3af25f0BROR-WD945_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/a/3af25f0Revolve_Infographic_Fashion.jpg"
+      ],
+      "tags": [
+        "growns"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "10 x 15 x 5 cm",
+      "stockQuantity": 63,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "growns",
+      "_source": {
+        "nykaaId": "25920627",
+        "sku": "BRONX00004610",
+        "categoryFilter": "153",
+        "assignedPriceTier": 6003
+      }
+    },
+    {
+      "name": "Nafsika Skourti — Woven Muse Gown",
+      "slug": "nafsika-skourti-woven-muse-gown",
+      "price": 6481,
+      "originalPrice": 307499,
+      "category": "growns",
+      "description": "Woven Muse Gown. Premium growns from our curated collection.",
+      "metaTitle": "Nafsika Skourti — Woven Muse Gown",
+      "metaDescription": "Woven Muse Gown. Premium growns from our curated collection.",
+      "metaKeywords": [
+        "growns",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "UK 6 / US XS",
+        "UK 8 / US S",
+        "UK 10 / US M",
+        "UK 12 / US L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/8/88b8241NAFSI00000230_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/8/88b8241NAFSI00000230_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/8/88b8241NAFSI00000230_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/8/88b8241NAFSI00000230_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/8/88b8241Revolve_Infographic_Fashion.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/8/88b8241Revolve_Educational.jpg"
+      ],
+      "tags": [
+        "growns"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Round",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.7 kg",
+      "dimensions": "9 x 12 x 4 cm",
+      "stockQuantity": 22,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "growns",
+      "_source": {
+        "nykaaId": "18049763",
+        "sku": "NAFSI00000230",
+        "categoryFilter": "153",
+        "assignedPriceTier": 6481
+      }
+    },
+    {
+      "name": "Bronx and Banco — Jasmine Off The Shoulder Gown",
+      "slug": "bronx-and-banco-jasmine-off-the-shoulder-gown",
+      "price": 6470,
+      "originalPrice": 207299,
+      "category": "growns",
+      "description": "Jasmine Off The Shoulder Gown. Premium growns from our curated collection.",
+      "metaTitle": "Bronx and Banco — Jasmine Off The Shoulder Gown",
+      "metaDescription": "Jasmine Off The Shoulder Gown. Premium growns from our curated collection.",
+      "metaKeywords": [
+        "growns",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c7c378bBROR-WD856_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c7c378bBROR-WD856_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c7c378bRevolve_Infographic_Fashion.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c7c378bBROR-WD856_3.jpg"
+      ],
+      "tags": [
+        "growns"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Relaxed fit",
+      "weight": "0.6 kg",
+      "dimensions": "12 x 15 x 5 cm",
+      "stockQuantity": 46,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "growns",
+      "_source": {
+        "nykaaId": "23739941",
+        "sku": "BRONX00004020",
+        "categoryFilter": "153",
+        "assignedPriceTier": 6470
+      }
+    },
+    {
+      "name": "David Koma — Jersey & Hotfix Gown",
+      "slug": "david-koma-jersey-hotfix-gown",
+      "price": 6394,
+      "originalPrice": 190199,
+      "category": "growns",
+      "description": "Jersey & Hotfix Gown. Premium growns from our curated collection.",
+      "metaTitle": "David Koma — Jersey & Hotfix Gown",
+      "metaDescription": "Jersey & Hotfix Gown. Premium growns from our curated collection.",
+      "metaKeywords": [
+        "growns",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/c/5c30cabDAVF-WD435_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/c/5c30cabDAVF-WD435_2.jpg"
+      ],
+      "tags": [
+        "growns"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "8 x 15 x 2 cm",
+      "stockQuantity": 49,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "growns",
+      "_source": {
+        "nykaaId": "26382707",
+        "sku": "DAVAE00000821",
+        "categoryFilter": "153",
+        "assignedPriceTier": 6394
+      }
+    },
+    {
+      "name": "Atlein — Bustier Ruched Gown",
+      "slug": "atlein-bustier-ruched-gown",
+      "price": 6866,
+      "originalPrice": 188999,
+      "category": "growns",
+      "description": "Bustier Ruched Gown. Premium growns from our curated collection.",
+      "metaTitle": "Atlein — Bustier Ruched Gown",
+      "metaDescription": "Bustier Ruched Gown. Premium growns from our curated collection.",
+      "metaKeywords": [
+        "growns",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "34",
+        "36",
+        "40"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/d/0de9dc0ATLF-WD54_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/d/0de9dc0ATLF-WD54_2.jpg"
+      ],
+      "tags": [
+        "growns"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.6 kg",
+      "dimensions": "14 x 14 x 5 cm",
+      "stockQuantity": 103,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "growns",
+      "_source": {
+        "nykaaId": "26382894",
+        "sku": "ATLEI00000211",
+        "categoryFilter": "153",
+        "assignedPriceTier": 6866
+      }
+    }
+  ]
+}

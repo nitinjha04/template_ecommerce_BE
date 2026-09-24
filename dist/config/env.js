@@ -1,0 +1,552 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.logEmailEnvDiagnostics = exports.isEmailEnabled = exports.getOrderAdminNotificationRecipients = exports.getStoreOrderAdminEmails = exports.resolveDsaGatewayId = exports.getDsaGatewayIdForDomain = exports.getEmailFromForDomain = exports.getEmailFrom = exports.isEmailConfigured = exports.isBrevoConfigured = exports.isPayuConfiguredForDomain = exports.resolvePayuCredentialsByKey = exports.listStorePayuDomains = exports.hasStorePayuMapping = exports.resolvePayuCredentials = exports.isPayuConfigured = exports.isCashfreeConfiguredForDomain = exports.resolveCashfreeCredentialsByAppId = exports.listStoreCashfreeDomains = exports.hasStoreCashfreeMapping = exports.resolveCashfreeCredentials = exports.isCashfreeConfigured = exports.isRazorpayConfiguredForDomain = exports.resolveRazorpayCredentialsByKeyId = exports.listStoreRazorpayDomains = exports.hasStoreRazorpayMapping = exports.resolveRazorpayCredentials = exports.isRazorpayConfigured = exports.isDsaGatewayConfigured = exports.getPaymentReturnUrl = exports.getFrontendOrigin = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
+const dotenv_1 = __importDefault(require("dotenv"));
+const storeDomain_1 = require("../utils/storeDomain");
+dotenv_1.default.config();
+const required = ["MONGODB_URI", "JWT_SECRET"];
+for (const key of required) {
+    if (!process.env[key]) {
+        throw new Error(`Missing required environment variable: ${key}`);
+    }
+}
+exports.env = {
+    nodeEnv: process.env.NODE_ENV ?? "development",
+    port: Number(process.env.PORT) || 5000,
+    mongodbUri: process.env.MONGODB_URI,
+    jwtSecret: process.env.JWT_SECRET,
+    jwtExpiresIn: process.env.JWT_EXPIRES_IN ?? "7d",
+    corsOrigin: process.env.CORS_ORIGIN?.split(",").map((o) => o.trim()),
+    dsaGateway: {
+        merchantId: process.env.MERCHANT_ID ?? "",
+        privateKey: process.env.PRIVATE_KEY ?? "",
+        publicKey: process.env.PUBLIC_KEY ?? "",
+        baseUrl: (process.env.PAYMENT_BASE_URL ?? "").replace(/\/$/, ""),
+        gatewayId: process.env.GATEWAY_ID ? Number(process.env.GATEWAY_ID) : undefined,
+        gatewayIds: (process.env.DSA_GATEWAY_IDS ?? "")
+            .split(",")
+            .map((v) => Number(String(v).trim()))
+            .filter((n) => Number.isFinite(n) && n > 0),
+    },
+    directUpi: {
+        vpa: (process.env.DIRECT_UPI_VPA ?? "").trim(),
+    },
+    razorpay: {
+        /** Global / fallback credentials (used when store has no STORE_RAZORPAY_KEYS entry). */
+        keyId: (process.env.RAZORPAY_KEY_ID ?? "").trim(),
+        keySecret: (process.env.RAZORPAY_KEY_SECRET ?? "").trim(),
+        /** Optional — set from Razorpay Dashboard → Webhooks for payment.captured. */
+        webhookSecret: (process.env.RAZORPAY_WEBHOOK_SECRET ?? "").trim(),
+    },
+    cashfree: {
+        /** Global / fallback (optional). Prefer STORE_CASHFREE_KEYS per store. */
+        appId: (process.env.CASHFREE_APP_ID ?? "").trim(),
+        secretKey: (process.env.CASHFREE_SECRET_KEY ?? "").trim(),
+        /** sandbox | production */
+        env: ((process.env.CASHFREE_ENV ?? "production").trim().toLowerCase() ===
+            "sandbox"
+            ? "sandbox"
+            : "production"),
+    },
+    payu: {
+        /** Global / fallback (optional). Prefer STORE_PAYU_KEYS per store. */
+        key: (process.env.PAYU_KEY ?? "").trim(),
+        salt: (process.env.PAYU_SALT ?? "").trim(),
+        clientId: (process.env.PAYU_CLIENT_ID ?? "").trim(),
+        clientSecret: (process.env.PAYU_CLIENT_SECRET ?? "").trim(),
+        /** test | production */
+        env: ((process.env.PAYU_ENV ?? "production").trim().toLowerCase() === "test"
+            ? "test"
+            : "production"),
+    },
+    imagekit: {
+        publicKey: process.env.IMAGEKIT_PUBLIC_KEY ?? "",
+        privateKey: process.env.IMAGEKIT_PRIVATE_KEY ?? "",
+        urlEndpoint: process.env.IMAGEKIT_URL_ENDPOINT ?? "",
+    },
+    seedAdmin: {
+        email: process.env.SEED_ADMIN_EMAIL ?? "casaqte@gmail.com",
+        password: process.env.SEED_ADMIN_PASSWORD ?? "Admin@123",
+        name: process.env.SEED_ADMIN_NAME ?? "Casaq Admin",
+    },
+    /**
+     * Email sender + admin notification inbox.
+     * Kept under `smtp` for backwards compatibility with existing templates/usages,
+     * but SMTP delivery is intentionally not supported anymore.
+     */
+    smtp: {
+        from: process.env.EMAIL_FROM ??
+            process.env.SMTP_FROM ??
+            "Casaq <casaqte@gmail.com>",
+        fromCasaq: (process.env.EMAIL_FROM_CASAQ ?? process.env.SMTP_FROM_CASAQ ?? "").trim(),
+        fromArgen: (process.env.EMAIL_FROM_ARGEN ?? process.env.SMTP_FROM_ARGEN ?? "").trim(),
+        adminEmail: process.env.ADMIN_EMAIL ??
+            process.env.SEED_ADMIN_EMAIL ??
+            "casaqte@gmail.com",
+    },
+    emailEnabled: process.env.EMAIL_ENABLED === "true",
+    /** Sendinblue/Brevo transactional email over HTTPS (port 443). */
+    brevo: {
+        apiKey: (process.env.SENDINBLUE_API_KEY ??
+            process.env.BREVO_API_KEY ??
+            "").trim(),
+    },
+    frontendUrl: process.env.FRONTEND_URL?.split(",")[0]?.trim() || "http://localhost:5173",
+    /** Hostname used when Origin is localhost or missing (multi-store). */
+    defaultStoreDomain: (process.env.DEFAULT_STORE_DOMAIN ?? "dulhaniya.vercel.app").trim().toLowerCase(),
+};
+const isPlaceholder = (value) => /your_|changeme|example|placeholder/i.test(value);
+const isImageKitConfigured = () => {
+    const { publicKey, privateKey, urlEndpoint } = exports.env.imagekit;
+    if (!publicKey || !privateKey || !urlEndpoint)
+        return false;
+    if (isPlaceholder(publicKey) ||
+        isPlaceholder(privateKey) ||
+        isPlaceholder(urlEndpoint)) {
+        return false;
+    }
+    return true;
+};
+exports.isImageKitConfigured = isImageKitConfigured;
+const getApiPublicOrigin = () => {
+    const fromEnv = process.env.API_PUBLIC_URL?.trim();
+    if (fromEnv)
+        return fromEnv.replace(/\/$/, "");
+    return `http://localhost:${exports.env.port}`;
+};
+exports.getApiPublicOrigin = getApiPublicOrigin;
+/** Public storefront URL used for PayPro return / success redirects. */
+const parseStoreFrontendUrls = () => {
+    const raw = (process.env.STORE_FRONTEND_URLS ?? "").trim();
+    const map = new Map();
+    if (!raw)
+        return map;
+    for (const entry of raw.split(";")) {
+        const eqIdx = entry.indexOf("=");
+        if (eqIdx <= 0)
+            continue;
+        const domain = (0, storeDomain_1.normalizeStoreDomain)(entry.slice(0, eqIdx));
+        let origin = entry.slice(eqIdx + 1).trim().replace(/\/$/, "");
+        if (!domain || !origin)
+            continue;
+        if (!/^https?:\/\//i.test(origin)) {
+            origin = `https://${origin}`;
+        }
+        map.set(domain, origin.replace(/\/$/, ""));
+    }
+    return map;
+};
+const storeFrontendUrls = parseStoreFrontendUrls();
+/**
+ * Storefront origin for redirects.
+ * Priority: STORE_FRONTEND_URLS[domain] → https://{domain} → PAYMENT_RETURN_URL → FRONTEND_URL
+ */
+const getFrontendOrigin = (storeDomain) => {
+    const normalized = storeDomain ? (0, storeDomain_1.normalizeStoreDomain)(storeDomain) : "";
+    if (normalized) {
+        const mapped = storeFrontendUrls.get(normalized);
+        if (mapped)
+            return mapped;
+        // Real store domains → build https://domain (skip localhost / bare IPs)
+        if (!normalized.includes("localhost") &&
+            !/^\d{1,3}(\.\d{1,3}){3}$/.test(normalized)) {
+            return `https://${normalized}`;
+        }
+    }
+    return (process.env.PAYMENT_RETURN_URL?.trim() || exports.env.frontendUrl).replace(/\/$/, "");
+};
+exports.getFrontendOrigin = getFrontendOrigin;
+const getPaymentReturnUrl = (orderNumber, merchantOrderNo, storeDomain) => `${(0, exports.getFrontendOrigin)(storeDomain)}/payment-return?order=${encodeURIComponent(orderNumber)}&mo=${encodeURIComponent(merchantOrderNo)}`;
+exports.getPaymentReturnUrl = getPaymentReturnUrl;
+const isDsaGatewayConfigured = () => {
+    const { merchantId, privateKey, publicKey, baseUrl } = exports.env.dsaGateway;
+    return Boolean(merchantId && privateKey && publicKey && baseUrl);
+};
+exports.isDsaGatewayConfigured = isDsaGatewayConfigured;
+const isValidRazorpayPair = (keyId, keySecret) => Boolean(keyId &&
+    keySecret &&
+    !isPlaceholder(keyId) &&
+    !isPlaceholder(keySecret));
+/**
+ * Per-store Razorpay merchant accounts.
+ * Format: domain=keyId|keySecret;domain2=keyId2|keySecret2
+ * Example: argenstyle.in=rzp_live_xxx|secretA;clauneck.in=rzp_live_yyy|secretB
+ */
+const parseStoreRazorpayKeys = () => {
+    const raw = (process.env.STORE_RAZORPAY_KEYS ?? "").trim();
+    const map = new Map();
+    if (!raw)
+        return map;
+    for (const entry of raw.split(";")) {
+        const eqIdx = entry.indexOf("=");
+        if (eqIdx <= 0)
+            continue;
+        const domain = (0, storeDomain_1.normalizeStoreDomain)(entry.slice(0, eqIdx));
+        const rest = entry.slice(eqIdx + 1).trim();
+        const pipeIdx = rest.indexOf("|");
+        if (!domain || pipeIdx <= 0)
+            continue;
+        const keyId = rest.slice(0, pipeIdx).trim();
+        const keySecret = rest.slice(pipeIdx + 1).trim();
+        if (!isValidRazorpayPair(keyId, keySecret))
+            continue;
+        map.set(domain, {
+            keyId,
+            keySecret,
+            webhookSecret: "",
+        });
+    }
+    return map;
+};
+const storeRazorpayKeys = parseStoreRazorpayKeys();
+const getGlobalRazorpayCredentials = () => {
+    const { keyId, keySecret, webhookSecret } = exports.env.razorpay;
+    if (!isValidRazorpayPair(keyId, keySecret))
+        return null;
+    return { keyId, keySecret, webhookSecret };
+};
+/** True if global keys or at least one per-store Razorpay account is configured. */
+const isRazorpayConfigured = () => Boolean(getGlobalRazorpayCredentials()) || storeRazorpayKeys.size > 0;
+exports.isRazorpayConfigured = isRazorpayConfigured;
+/** Credentials for a store domain, falling back to global RAZORPAY_* keys. */
+const resolveRazorpayCredentials = (storeDomain) => {
+    const normalized = storeDomain ? (0, storeDomain_1.normalizeStoreDomain)(storeDomain) : "";
+    if (normalized) {
+        const mapped = storeRazorpayKeys.get(normalized);
+        if (mapped) {
+            return {
+                ...mapped,
+                // Prefer store-specific webhook secret later; fall back to global for now.
+                webhookSecret: mapped.webhookSecret || exports.env.razorpay.webhookSecret,
+            };
+        }
+    }
+    return getGlobalRazorpayCredentials();
+};
+exports.resolveRazorpayCredentials = resolveRazorpayCredentials;
+/** Whether STORE_RAZORPAY_KEYS has an explicit entry for this domain. */
+const hasStoreRazorpayMapping = (storeDomain) => {
+    if (!storeDomain)
+        return false;
+    return storeRazorpayKeys.has((0, storeDomain_1.normalizeStoreDomain)(storeDomain));
+};
+exports.hasStoreRazorpayMapping = hasStoreRazorpayMapping;
+/** Domains configured in STORE_RAZORPAY_KEYS (for diagnostics). */
+const listStoreRazorpayDomains = () => [...storeRazorpayKeys.keys()];
+exports.listStoreRazorpayDomains = listStoreRazorpayDomains;
+/** Look up credentials by public key_id (e.g. from a saved payment session). */
+const resolveRazorpayCredentialsByKeyId = (keyId) => {
+    const id = (keyId ?? "").trim();
+    if (!id)
+        return null;
+    for (const creds of storeRazorpayKeys.values()) {
+        if (creds.keyId === id) {
+            return {
+                ...creds,
+                webhookSecret: creds.webhookSecret || exports.env.razorpay.webhookSecret,
+            };
+        }
+    }
+    const global = getGlobalRazorpayCredentials();
+    if (global?.keyId === id)
+        return global;
+    return null;
+};
+exports.resolveRazorpayCredentialsByKeyId = resolveRazorpayCredentialsByKeyId;
+const isRazorpayConfiguredForDomain = (storeDomain) => Boolean((0, exports.resolveRazorpayCredentials)(storeDomain));
+exports.isRazorpayConfiguredForDomain = isRazorpayConfiguredForDomain;
+const isValidCashfreePair = (appId, secretKey) => Boolean(appId &&
+    secretKey &&
+    !isPlaceholder(appId) &&
+    !isPlaceholder(secretKey));
+/**
+ * Per-store Cashfree merchant accounts (not universal).
+ * Format: domain=appId|secretKey;domain2=appId2|secretKey2
+ * Example: mineview.in=13987…|cfsk_ma_prod_…
+ */
+const parseStoreCashfreeKeys = () => {
+    const raw = (process.env.STORE_CASHFREE_KEYS ?? "").trim();
+    const map = new Map();
+    if (!raw)
+        return map;
+    for (const entry of raw.split(";")) {
+        const eqIdx = entry.indexOf("=");
+        if (eqIdx <= 0)
+            continue;
+        const domain = (0, storeDomain_1.normalizeStoreDomain)(entry.slice(0, eqIdx));
+        const rest = entry.slice(eqIdx + 1).trim();
+        const pipeIdx = rest.indexOf("|");
+        if (!domain || pipeIdx <= 0)
+            continue;
+        const appId = rest.slice(0, pipeIdx).trim();
+        const secretKey = rest.slice(pipeIdx + 1).trim();
+        if (!isValidCashfreePair(appId, secretKey))
+            continue;
+        map.set(domain, {
+            appId,
+            secretKey,
+            env: exports.env.cashfree.env,
+        });
+    }
+    return map;
+};
+const storeCashfreeKeys = parseStoreCashfreeKeys();
+const getGlobalCashfreeCredentials = () => {
+    const { appId, secretKey, env: cfEnv } = exports.env.cashfree;
+    if (!isValidCashfreePair(appId, secretKey))
+        return null;
+    return { appId, secretKey, env: cfEnv };
+};
+const isCashfreeConfigured = () => Boolean(getGlobalCashfreeCredentials()) || storeCashfreeKeys.size > 0;
+exports.isCashfreeConfigured = isCashfreeConfigured;
+const resolveCashfreeCredentials = (storeDomain) => {
+    const normalized = storeDomain ? (0, storeDomain_1.normalizeStoreDomain)(storeDomain) : "";
+    if (normalized) {
+        const mapped = storeCashfreeKeys.get(normalized);
+        if (mapped)
+            return mapped;
+    }
+    return getGlobalCashfreeCredentials();
+};
+exports.resolveCashfreeCredentials = resolveCashfreeCredentials;
+const hasStoreCashfreeMapping = (storeDomain) => {
+    if (!storeDomain)
+        return false;
+    return storeCashfreeKeys.has((0, storeDomain_1.normalizeStoreDomain)(storeDomain));
+};
+exports.hasStoreCashfreeMapping = hasStoreCashfreeMapping;
+const listStoreCashfreeDomains = () => [...storeCashfreeKeys.keys()];
+exports.listStoreCashfreeDomains = listStoreCashfreeDomains;
+const resolveCashfreeCredentialsByAppId = (appId) => {
+    const id = (appId ?? "").trim();
+    if (!id)
+        return null;
+    for (const creds of storeCashfreeKeys.values()) {
+        if (creds.appId === id)
+            return creds;
+    }
+    const global = getGlobalCashfreeCredentials();
+    if (global?.appId === id)
+        return global;
+    return null;
+};
+exports.resolveCashfreeCredentialsByAppId = resolveCashfreeCredentialsByAppId;
+const isCashfreeConfiguredForDomain = (storeDomain) => Boolean((0, exports.resolveCashfreeCredentials)(storeDomain));
+exports.isCashfreeConfiguredForDomain = isCashfreeConfiguredForDomain;
+const isValidPayuPair = (key, salt) => Boolean(key && salt && !isPlaceholder(key) && !isPlaceholder(salt));
+/**
+ * Per-store PayU merchant accounts (hosted checkout uses key+salt).
+ * Format: domain=key|salt|clientId|clientSecret
+ * clientId/clientSecret optional (Payment Links / Payouts); leave empty segments if unused.
+ * Example: mohdeepshop.in=KMeTu5|saltHere|clientId|clientSecret
+ */
+const parseStorePayuKeys = () => {
+    const raw = (process.env.STORE_PAYU_KEYS ?? "").trim();
+    const map = new Map();
+    if (!raw)
+        return map;
+    for (const entry of raw.split(";")) {
+        const eqIdx = entry.indexOf("=");
+        if (eqIdx <= 0)
+            continue;
+        const domain = (0, storeDomain_1.normalizeStoreDomain)(entry.slice(0, eqIdx));
+        const parts = entry
+            .slice(eqIdx + 1)
+            .split("|")
+            .map((p) => p.trim());
+        const [key = "", salt = "", clientId = "", clientSecret = ""] = parts;
+        if (!domain || !isValidPayuPair(key, salt))
+            continue;
+        map.set(domain, {
+            key,
+            salt,
+            clientId,
+            clientSecret,
+            env: exports.env.payu.env,
+        });
+    }
+    return map;
+};
+const storePayuKeys = parseStorePayuKeys();
+const getGlobalPayuCredentials = () => {
+    const { key, salt, clientId, clientSecret, env: payuEnv } = exports.env.payu;
+    if (!isValidPayuPair(key, salt))
+        return null;
+    return { key, salt, clientId, clientSecret, env: payuEnv };
+};
+const isPayuConfigured = () => Boolean(getGlobalPayuCredentials()) || storePayuKeys.size > 0;
+exports.isPayuConfigured = isPayuConfigured;
+const resolvePayuCredentials = (storeDomain) => {
+    const normalized = storeDomain ? (0, storeDomain_1.normalizeStoreDomain)(storeDomain) : "";
+    if (normalized) {
+        const mapped = storePayuKeys.get(normalized);
+        if (mapped)
+            return mapped;
+    }
+    return getGlobalPayuCredentials();
+};
+exports.resolvePayuCredentials = resolvePayuCredentials;
+const hasStorePayuMapping = (storeDomain) => {
+    if (!storeDomain)
+        return false;
+    return storePayuKeys.has((0, storeDomain_1.normalizeStoreDomain)(storeDomain));
+};
+exports.hasStorePayuMapping = hasStorePayuMapping;
+const listStorePayuDomains = () => [...storePayuKeys.keys()];
+exports.listStorePayuDomains = listStorePayuDomains;
+const resolvePayuCredentialsByKey = (merchantKey) => {
+    const id = (merchantKey ?? "").trim();
+    if (!id)
+        return null;
+    for (const creds of storePayuKeys.values()) {
+        if (creds.key === id)
+            return creds;
+    }
+    const global = getGlobalPayuCredentials();
+    if (global?.key === id)
+        return global;
+    return null;
+};
+exports.resolvePayuCredentialsByKey = resolvePayuCredentialsByKey;
+const isPayuConfiguredForDomain = (storeDomain) => Boolean((0, exports.resolvePayuCredentials)(storeDomain));
+exports.isPayuConfiguredForDomain = isPayuConfiguredForDomain;
+const isBrevoConfigured = () => Boolean(exports.env.brevo.apiKey);
+exports.isBrevoConfigured = isBrevoConfigured;
+const isEmailConfigured = () => (0, exports.isBrevoConfigured)();
+exports.isEmailConfigured = isEmailConfigured;
+const getEmailFrom = () => {
+    return exports.env.smtp.from;
+};
+exports.getEmailFrom = getEmailFrom;
+const getEmailFromForDomain = (domain) => {
+    const normalized = domain ? (0, storeDomain_1.normalizeStoreDomain)(domain) : "";
+    if (normalized === "casaq.in" && exports.env.smtp.fromCasaq)
+        return exports.env.smtp.fromCasaq;
+    if (normalized === "argenstyle.in" && exports.env.smtp.fromArgen)
+        return exports.env.smtp.fromArgen;
+    return exports.env.smtp.from;
+};
+exports.getEmailFromForDomain = getEmailFromForDomain;
+/**
+ * Per-store DSA/PayPro gateway IDs.
+ * Format: domain=gatewayId;domain2=gatewayId2
+ * Example: casaq.in=489819;protico.in=490009
+ */
+const parseStoreDsaGatewayIds = () => {
+    const raw = (process.env.STORE_DSA_GATEWAY_IDS ?? "").trim();
+    const map = new Map();
+    if (!raw)
+        return map;
+    for (const entry of raw.split(";")) {
+        const eqIdx = entry.indexOf("=");
+        if (eqIdx <= 0)
+            continue;
+        const domain = (0, storeDomain_1.normalizeStoreDomain)(entry.slice(0, eqIdx));
+        const id = Number(String(entry.slice(eqIdx + 1)).trim());
+        if (domain && Number.isFinite(id) && id > 0) {
+            map.set(domain, id);
+        }
+    }
+    return map;
+};
+const storeDsaGatewayIds = parseStoreDsaGatewayIds();
+/** PayPro gateway_id for a store domain (from STORE_DSA_GATEWAY_IDS). */
+const getDsaGatewayIdForDomain = (domain) => {
+    if (!domain)
+        return undefined;
+    return storeDsaGatewayIds.get((0, storeDomain_1.normalizeStoreDomain)(domain));
+};
+exports.getDsaGatewayIdForDomain = getDsaGatewayIdForDomain;
+/**
+ * Resolve which PayPro gateway_id to use for a payment create.
+ * Priority: explicit request id → store domain map → GATEWAY_ID → DSA_GATEWAY_IDS[0] → legacy default.
+ */
+const resolveDsaGatewayId = (input) => {
+    if (Number.isFinite(input?.gatewayId) &&
+        input.gatewayId > 0) {
+        return input.gatewayId;
+    }
+    const fromDomain = (0, exports.getDsaGatewayIdForDomain)(input?.storeDomain);
+    if (fromDomain)
+        return fromDomain;
+    if (exports.env.dsaGateway.gatewayId && exports.env.dsaGateway.gatewayId > 0) {
+        return exports.env.dsaGateway.gatewayId;
+    }
+    const list = exports.env.dsaGateway.gatewayIds ?? [];
+    if (list[0] && list[0] > 0)
+        return list[0];
+    return 489783;
+};
+exports.resolveDsaGatewayId = resolveDsaGatewayId;
+/**
+ * Per-store "new order" notification inboxes (in addition to ADMIN_EMAIL).
+ * Format: domain=email1,email2;domain2=email3
+ */
+const parseStoreOrderAdminEmails = () => {
+    const raw = (process.env.STORE_ORDER_ADMIN_EMAILS ?? "").trim();
+    const map = new Map();
+    if (!raw)
+        return map;
+    for (const entry of raw.split(";")) {
+        const eqIdx = entry.indexOf("=");
+        if (eqIdx <= 0)
+            continue;
+        const domain = (0, storeDomain_1.normalizeStoreDomain)(entry.slice(0, eqIdx));
+        const emails = entry
+            .slice(eqIdx + 1)
+            .split(",")
+            .map((e) => e.trim().toLowerCase())
+            .filter(Boolean);
+        if (domain && emails.length) {
+            map.set(domain, emails);
+        }
+    }
+    return map;
+};
+const storeOrderAdminEmails = parseStoreOrderAdminEmails();
+const getStoreOrderAdminEmails = (domain) => {
+    if (!domain)
+        return [];
+    const normalized = (0, storeDomain_1.normalizeStoreDomain)(domain);
+    return [...(storeOrderAdminEmails.get(normalized) ?? [])];
+};
+exports.getStoreOrderAdminEmails = getStoreOrderAdminEmails;
+/** Global admin + any store-specific order notification emails (deduped). */
+const getOrderAdminNotificationRecipients = (domain) => {
+    const recipients = new Set();
+    const globalAdmin = exports.env.smtp.adminEmail.trim().toLowerCase();
+    if (globalAdmin)
+        recipients.add(globalAdmin);
+    for (const email of (0, exports.getStoreOrderAdminEmails)(domain)) {
+        recipients.add(email);
+    }
+    return [...recipients];
+};
+exports.getOrderAdminNotificationRecipients = getOrderAdminNotificationRecipients;
+/** Emails are off until EMAIL_ENABLED=true and Brevo is configured. */
+const isEmailEnabled = () => exports.env.emailEnabled && (0, exports.isEmailConfigured)();
+exports.isEmailEnabled = isEmailEnabled;
+/** Startup / forgot-password diagnostics — never logs SMTP_PASS. */
+const logEmailEnvDiagnostics = (context) => {
+    console.log(`[email-env][${context}]`, {
+        NODE_ENV: exports.env.nodeEnv,
+        EMAIL_ENABLED_RAW: process.env.EMAIL_ENABLED ?? "(unset)",
+        emailEnabledParsed: exports.env.emailEnabled,
+        isRenderHost: process.env.RENDER === "true",
+        emailTransport: (0, exports.isBrevoConfigured)() ? "brevo" : "none",
+        isEmailConfigured: (0, exports.isEmailConfigured)(),
+        isEmailEnabled: (0, exports.isEmailEnabled)(),
+        BREVO_API_KEY_SET: Boolean(exports.env.brevo.apiKey),
+        SENDINBLUE_API_KEY_SET: Boolean(exports.env.brevo.apiKey),
+        EMAIL_FROM: exports.env.smtp.from,
+        EMAIL_FROM_CASAQ: exports.env.smtp.fromCasaq,
+        EMAIL_FROM_ARGEN: exports.env.smtp.fromArgen,
+        ADMIN_EMAIL: exports.env.smtp.adminEmail,
+        STORE_ORDER_ADMIN_EMAILS: process.env.STORE_ORDER_ADMIN_EMAILS ?? "(unset)",
+        storeOrderAdminDomains: [...storeOrderAdminEmails.keys()],
+    });
+};
+exports.logEmailEnvDiagnostics = logEmailEnvDiagnostics;

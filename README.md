@@ -1,6 +1,6 @@
-# Lucidus Ecommerce API
+# Casaq Ecommerce API
 
-REST API for the Lucidus ecommerce template. Built with **Express**, **MongoDB**, **JWT**, and **ImageKit**.
+REST API for the Casaq ecommerce template. Built with **Express**, **MongoDB**, **JWT**, and **ImageKit**.
 
 ## Architecture (MVVC)
 
@@ -54,7 +54,7 @@ ImageKit (for admin image uploads):
 
 After `npm run seed`:
 
-- **Admin:** `admin@lucidus.in` / `Admin@123`
+- **Admin:** `casaqte@gmail.com` / `Admin@123` (override via `SEED_ADMIN_EMAIL` in `.env`)
 - **8 products** from `FE/src/data/products.ts`
 - **5 orders** from `FE/src/data/mockData.ts`
 - **5 payments** linked to those orders
