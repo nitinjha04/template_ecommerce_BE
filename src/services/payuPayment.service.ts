@@ -35,6 +35,8 @@ export type PayuCreateResult = {
   udf1: string;
   udf2: string;
   actionUrl: string;
+  partnerWebhookSuccess: string;
+  partnerWebhookFailure: string;
   orderNumber: string;
   env: 'test' | 'production';
 };
@@ -394,6 +396,7 @@ export class PayuPaymentService {
     const apiOrigin = getApiPublicOrigin();
     const surl = `${apiOrigin}/api/v1/payments/payu/return`;
     const furl = `${apiOrigin}/api/v1/payments/payu/return`;
+    const webhookUrl = `${apiOrigin}/api/v1/payments/payu/webhook`;
     const actionUrl = payuActionUrl(creds.env);
 
     await Payment.updateOne(
@@ -421,6 +424,7 @@ export class PayuPaymentService {
               udf2,
               surl,
               furl,
+              webhookUrl,
               actionUrl,
               ...(isDevCharge
                 ? { devTestCharge: true, originalOrderTotal: orderTotal }
@@ -438,6 +442,7 @@ export class PayuPaymentService {
       keyPrefix: maskPrefix(creds.key, 6),
       storeDomain: storeDomain ?? '(none)',
       actionUrl,
+      webhookUrl,
       nodeEnv: env.nodeEnv,
       devTestCharge: isDevCharge,
     });
@@ -456,25 +461,37 @@ export class PayuPaymentService {
       udf1,
       udf2,
       actionUrl,
+      /** PayU dashboard + per-txn partner webhook (same endpoint). */
+      partnerWebhookSuccess: webhookUrl,
+      partnerWebhookFailure: webhookUrl,
       orderNumber: order.orderNumber,
       env: creds.env,
     };
   }
 
-  /** PayU browser return (surl/furl) — verify reverse hash and redirect to storefront. */
-  static async handleReturn(
-    payload: PayuReturnPayload
-  ): Promise<{ redirectUrl: string }> {
+  /**
+   * Shared PayU callback processor (browser return + server webhook).
+   * Verifies reverse hash and finalizes on success.
+   */
+  private static async processCallback(
+    payload: PayuReturnPayload,
+    source: 'return' | 'webhook'
+  ): Promise<{
+    success: boolean;
+    orderNumber: string;
+    storeDomain?: string;
+    txnid: string;
+  }> {
     const txnid = String(payload.txnid ?? '').trim();
     const status = String(payload.status ?? '').trim();
     const key = String(payload.key ?? '').trim();
-    const orderNumber = String(payload.udf1 ?? '').trim();
+    const orderNumberUdf = String(payload.udf1 ?? '').trim();
     const storeDomainHint = String(payload.udf2 ?? '').trim();
 
-    this.log('handleReturn:start', {
+    this.log(`${source}:start`, {
       txnid,
       status,
-      orderNumber: orderNumber || '(none)',
+      orderNumber: orderNumberUdf || '(none)',
       keyPrefix: maskPrefix(key, 6),
     });
 
@@ -483,8 +500,10 @@ export class PayuPaymentService {
     }
 
     let payment = await Payment.findOne({ 'payu.txnid': txnid });
-    if (!payment && orderNumber) {
-      const linkedOrder = await Order.findOne({ orderNumber }).select('_id');
+    if (!payment && orderNumberUdf) {
+      const linkedOrder = await Order.findOne({ orderNumber: orderNumberUdf }).select(
+        '_id'
+      );
       if (linkedOrder) {
         payment = await Payment.findOne({ order: linkedOrder._id });
       }
@@ -500,8 +519,7 @@ export class PayuPaymentService {
     }
 
     const storeDomain =
-      storeDomainHint ||
-      (await this.resolveStoreDomainForOrder(order));
+      storeDomainHint || (await this.resolveStoreDomainForOrder(order));
     const { creds } = await this.resolveCredsForOrder(
       order,
       payment.payu?.key || key
@@ -525,7 +543,7 @@ export class PayuPaymentService {
 
     const receivedHash = String(payload.hash ?? '').toLowerCase();
     if (receivedHash && expectedHash.toLowerCase() !== receivedHash) {
-      this.log('handleReturn:invalid_hash', {
+      this.log(`${source}:invalid_hash`, {
         txnid,
         orderNumber: order.orderNumber,
         keyPrefix: maskPrefix(creds.key, 6),
@@ -533,7 +551,6 @@ export class PayuPaymentService {
       throw new ApiError(400, 'Invalid PayU response hash');
     }
 
-    const frontend = getFrontendOrigin(storeDomain);
     const success = isSuccessStatus(status);
 
     if (success) {
@@ -541,33 +558,73 @@ export class PayuPaymentService {
         order,
         payment,
         txnid,
-        mihpayid: payload.mihpayid
-          ? String(payload.mihpayid)
-          : undefined,
+        mihpayid: payload.mihpayid ? String(payload.mihpayid) : undefined,
         status,
         returnData: payload,
       });
-      this.log('handleReturn:paid', {
+      this.log(`${source}:paid`, {
         orderNumber: order.orderNumber,
         txnid,
       });
+    } else {
+      await Payment.updateOne(
+        { _id: payment._id },
+        {
+          $set: {
+            ...(status ? { 'payu.status': status } : {}),
+            ...(source === 'webhook'
+              ? { 'payu.webhookData': payload }
+              : { 'payu.returnData': payload }),
+          },
+        }
+      );
+      this.log(`${source}:not_paid`, {
+        orderNumber: order.orderNumber,
+        txnid,
+        status,
+      });
+    }
+
+    return {
+      success,
+      orderNumber: order.orderNumber,
+      storeDomain: storeDomain || undefined,
+      txnid,
+    };
+  }
+
+  /** PayU browser return (surl/furl) — verify reverse hash and redirect to storefront. */
+  static async handleReturn(
+    payload: PayuReturnPayload
+  ): Promise<{ redirectUrl: string }> {
+    const result = await this.processCallback(payload, 'return');
+    const frontend = getFrontendOrigin(result.storeDomain);
+
+    if (result.success) {
       return {
         redirectUrl: `${frontend}/order-success?order=${encodeURIComponent(
-          order.orderNumber
+          result.orderNumber
         )}`,
       };
     }
 
-    this.log('handleReturn:not_paid', {
-      orderNumber: order.orderNumber,
-      txnid,
-      status,
-    });
-
+    // Do not clear cart on FE — user cancelled / failed; send them to checkout.
     return {
-      redirectUrl: `${frontend}/payment-return?order=${encodeURIComponent(
-        order.orderNumber
-      )}&provider=payu&txnid=${encodeURIComponent(txnid)}&s=0`,
+      redirectUrl: `${frontend}/checkout?payu=failed&order=${encodeURIComponent(
+        result.orderNumber
+      )}&txnid=${encodeURIComponent(result.txnid)}`,
+    };
+  }
+
+  /** PayU server webhook / IPN — same payload as return; respond 200 quickly. */
+  static async handleWebhook(
+    payload: PayuReturnPayload
+  ): Promise<{ ok: true; paid: boolean; orderNumber: string }> {
+    const result = await this.processCallback(payload, 'webhook');
+    return {
+      ok: true,
+      paid: result.success,
+      orderNumber: result.orderNumber,
     };
   }
 

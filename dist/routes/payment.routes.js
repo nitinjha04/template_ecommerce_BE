@@ -20,6 +20,9 @@ router.post('/payu/verify', (0, validate_middleware_1.validate)(payment_validato
 /** PayU hosted checkout return (POST from PayU; also accept GET). */
 router.post('/payu/return', payment_controller_1.PaymentController.payuReturn);
 router.get('/payu/return', payment_controller_1.PaymentController.payuReturn);
+/** PayU webhook / IPN — server-to-server (no browser redirect). */
+router.post('/payu/webhook', payment_controller_1.PaymentController.payuWebhook);
+router.get('/payu/webhook', payment_controller_1.PaymentController.payuWebhook);
 router.use(auth_middleware_1.authenticate);
 router.get('/my', payment_controller_1.PaymentController.getMyPayments);
 router.get('/', (0, auth_middleware_1.authorize)('admin'), (0, validate_middleware_1.validate)(adminList_validator_1.adminListQueryValidator), payment_controller_1.PaymentController.getAll);

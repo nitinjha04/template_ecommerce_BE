@@ -13,6 +13,7 @@ const SKIP_PREFIXES = [
     '/payments/razorpay/webhook',
     '/payments/cashfree/webhook',
     '/payments/payu/return',
+    '/payments/payu/webhook',
     /** Public config probe — no store domain or auth required. */
     '/payments/methods',
 ];

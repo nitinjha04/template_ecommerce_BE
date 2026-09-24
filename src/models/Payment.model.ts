@@ -52,6 +52,7 @@ export interface IPayment extends Document {
     env?: 'test' | 'production';
     createResponse?: unknown;
     returnData?: unknown;
+    webhookData?: unknown;
     successEmailSentAt?: Date;
   };
   gateway?: {
@@ -157,6 +158,7 @@ const paymentSchema = new Schema<IPayment>(
       env: { type: String, enum: ['test', 'production'], required: false },
       createResponse: { type: Schema.Types.Mixed, required: false },
       returnData: { type: Schema.Types.Mixed, required: false },
+      webhookData: { type: Schema.Types.Mixed, required: false },
       successEmailSentAt: { type: Date, required: false },
     },
     gateway: {

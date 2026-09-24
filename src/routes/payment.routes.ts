@@ -51,6 +51,10 @@ router.post(
 router.post('/payu/return', PaymentController.payuReturn);
 router.get('/payu/return', PaymentController.payuReturn);
 
+/** PayU webhook / IPN — server-to-server (no browser redirect). */
+router.post('/payu/webhook', PaymentController.payuWebhook);
+router.get('/payu/webhook', PaymentController.payuWebhook);
+
 router.use(authenticate);
 
 router.get('/my', PaymentController.getMyPayments);

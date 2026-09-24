@@ -297,6 +297,17 @@ export class PaymentController {
     res.redirect(302, redirectUrl);
   });
 
+  /** PayU server webhook / IPN (configure in PayU dashboard or via partner_webhook_*). */
+  static payuWebhook = asyncHandler(async (req: Request, res: Response) => {
+    const payload = {
+      ...(typeof req.body === 'object' && req.body ? req.body : {}),
+      ...(typeof req.query === 'object' && req.query ? req.query : {}),
+    } as Record<string, unknown>;
+
+    const result = await PayuPaymentService.handleWebhook(payload);
+    res.status(200).json(result);
+  });
+
   static verifyPayu = asyncHandler(async (req: Request, res: Response) => {
     const { orderNumber, txnid, email, phone } = req.body as {
       orderNumber: string;

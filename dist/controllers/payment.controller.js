@@ -206,6 +206,15 @@ class PaymentController {
         const { redirectUrl } = await payuPayment_service_1.PayuPaymentService.handleReturn(payload);
         res.redirect(302, redirectUrl);
     });
+    /** PayU server webhook / IPN (configure in PayU dashboard or via partner_webhook_*). */
+    static payuWebhook = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
+        const payload = {
+            ...(typeof req.body === 'object' && req.body ? req.body : {}),
+            ...(typeof req.query === 'object' && req.query ? req.query : {}),
+        };
+        const result = await payuPayment_service_1.PayuPaymentService.handleWebhook(payload);
+        res.status(200).json(result);
+    });
     static verifyPayu = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
         const { orderNumber, txnid, email, phone } = req.body;
         const result = await payuPayment_service_1.PayuPaymentService.verifyAndCapture({

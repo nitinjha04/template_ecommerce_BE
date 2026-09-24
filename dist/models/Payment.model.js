@@ -121,6 +121,7 @@ const paymentSchema = new mongoose_1.Schema({
         env: { type: String, enum: ['test', 'production'], required: false },
         createResponse: { type: mongoose_1.Schema.Types.Mixed, required: false },
         returnData: { type: mongoose_1.Schema.Types.Mixed, required: false },
+        webhookData: { type: mongoose_1.Schema.Types.Mixed, required: false },
         successEmailSentAt: { type: Date, required: false },
     },
     gateway: {
