@@ -233,8 +233,10 @@ class PayuPaymentService {
             udf2,
         });
         const apiOrigin = (0, env_1.getApiPublicOrigin)();
-        const surl = `${apiOrigin}/api/v1/payments/payu/return`;
-        const furl = `${apiOrigin}/api/v1/payments/payu/return`;
+        // Include order/txnid in query so a bare GET (no POST body) can still redirect.
+        const returnQs = `order=${encodeURIComponent(order.orderNumber)}&txnid=${encodeURIComponent(txnid)}`;
+        const surl = `${apiOrigin}/api/v1/payments/payu/return?${returnQs}`;
+        const furl = `${apiOrigin}/api/v1/payments/payu/return?${returnQs}`;
         const webhookUrl = `${apiOrigin}/api/v1/payments/payu/webhook`;
         const actionUrl = payuActionUrl(creds.env);
         await models_1.Payment.updateOne({ _id: payment._id }, {
@@ -399,17 +401,70 @@ class PayuPaymentService {
     }
     /** PayU browser return (surl/furl) — verify reverse hash and redirect to storefront. */
     static async handleReturn(payload) {
-        const result = await this.processCallback(payload, 'return');
-        const frontend = (0, env_1.getFrontendOrigin)(result.storeDomain);
-        if (result.success) {
+        const txnid = String(payload.txnid ?? '').trim();
+        const orderHint = String(payload.order ?? payload.udf1 ?? '').trim();
+        const storeHint = String(payload.udf2 ?? '').trim();
+        // Bare GET (no PayU body) — common after some PayU flows; webhook may already have paid.
+        if (!txnid && !String(payload.status ?? '').trim()) {
+            return this.redirectFromHints({
+                orderNumber: orderHint,
+                txnid: String(payload.txnid ?? '').trim(),
+                storeDomainHint: storeHint,
+            });
+        }
+        try {
+            const result = await this.processCallback(payload, 'return');
+            const frontend = (0, env_1.getFrontendOrigin)(result.storeDomain);
+            if (result.success) {
+                return {
+                    redirectUrl: `${frontend}/order-success?order=${encodeURIComponent(result.orderNumber)}`,
+                };
+            }
             return {
-                redirectUrl: `${frontend}/order-success?order=${encodeURIComponent(result.orderNumber)}`,
+                redirectUrl: `${frontend}/checkout?payu=failed&order=${encodeURIComponent(result.orderNumber)}&txnid=${encodeURIComponent(result.txnid)}`,
             };
         }
-        // Do not clear cart on FE — user cancelled / failed; send them to checkout.
-        return {
-            redirectUrl: `${frontend}/checkout?payu=failed&order=${encodeURIComponent(result.orderNumber)}&txnid=${encodeURIComponent(result.txnid)}`,
-        };
+        catch (err) {
+            this.log('return:error_fallback', {
+                message: err instanceof Error ? err.message : String(err),
+                orderHint: orderHint || '(none)',
+                txnid: txnid || '(none)',
+            });
+            return this.redirectFromHints({
+                orderNumber: orderHint,
+                txnid,
+                storeDomainHint: storeHint,
+            });
+        }
+    }
+    /** Resolve redirect when PayU body is missing but order/txnid are in the URL. */
+    static async redirectFromHints(input) {
+        let order = null;
+        let payment = null;
+        if (input.txnid) {
+            payment = await models_1.Payment.findOne({ 'payu.txnid': input.txnid });
+            if (payment)
+                order = await models_1.Order.findById(payment.order);
+        }
+        if (!order && input.orderNumber) {
+            order = await models_1.Order.findOne({ orderNumber: input.orderNumber });
+            if (order)
+                payment = await models_1.Payment.findOne({ order: order._id });
+        }
+        const storeDomain = input.storeDomainHint ||
+            (order ? await this.resolveStoreDomainForOrder(order) : undefined);
+        const frontend = (0, env_1.getFrontendOrigin)(storeDomain);
+        if (order && (payment?.status === 'Completed' || isSuccessStatus(payment?.payu?.status))) {
+            return {
+                redirectUrl: `${frontend}/order-success?order=${encodeURIComponent(order.orderNumber)}`,
+            };
+        }
+        if (order) {
+            return {
+                redirectUrl: `${frontend}/checkout?payu=failed&order=${encodeURIComponent(order.orderNumber)}${input.txnid ? `&txnid=${encodeURIComponent(input.txnid)}` : ''}`,
+            };
+        }
+        return { redirectUrl: `${frontend}/orders` };
     }
     /** PayU server webhook / IPN — same payload as return; respond 200 quickly. */
     static async handleWebhook(payload) {

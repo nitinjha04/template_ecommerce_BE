@@ -1,4 +1,4 @@
-import { env, isCashfreeConfigured, isPayuConfigured, isRazorpayConfigured, resolveCashfreeCredentials, resolvePayuCredentials, resolveRazorpayCredentials } from '../config/env';
+import { env, getFrontendOrigin, isCashfreeConfigured, isPayuConfigured, isRazorpayConfigured, resolveCashfreeCredentials, resolvePayuCredentials, resolveRazorpayCredentials } from '../config/env';
 import { getStoreContext } from '../context/store.context';
 import { DsaGatewayPaymentService } from '../services/dsaGatewayPayment.service';
 import { CashfreePaymentService } from '../services/cashfreePayment.service';
@@ -286,15 +286,27 @@ export class PaymentController {
     res.status(200).json({ status: 'ok' });
   });
 
-  /** PayU surl/furl — browser lands here after hosted checkout. */
+  /** PayU surl/furl — browser lands here after hosted checkout. Always redirect (never JSON). */
   static payuReturn = asyncHandler(async (req: Request, res: Response) => {
     const payload = {
       ...(typeof req.body === 'object' && req.body ? req.body : {}),
       ...(typeof req.query === 'object' && req.query ? req.query : {}),
     } as Record<string, unknown>;
 
-    const { redirectUrl } = await PayuPaymentService.handleReturn(payload);
-    res.redirect(302, redirectUrl);
+    try {
+      const { redirectUrl } = await PayuPaymentService.handleReturn(payload);
+      res.redirect(302, redirectUrl);
+    } catch (err) {
+      // Last resort: never leave the shopper on a JSON API error page.
+      console.error('[payu] return handler failed', err);
+      const order = String(payload.order ?? payload.udf1 ?? '').trim();
+      const domain = String(payload.udf2 ?? '').trim();
+      const origin = getFrontendOrigin(domain || undefined);
+      const url = order
+        ? `${origin}/order-success?order=${encodeURIComponent(order)}`
+        : `${origin}/orders`;
+      res.redirect(302, url);
+    }
   });
 
   /** PayU server webhook / IPN (configure in PayU dashboard or via partner_webhook_*). */

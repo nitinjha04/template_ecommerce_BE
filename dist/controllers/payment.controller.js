@@ -197,14 +197,27 @@ class PaymentController {
         await cashfreePayment_service_1.CashfreePaymentService.handleWebhook(rawBody, signature, timestamp, req.body);
         res.status(200).json({ status: 'ok' });
     });
-    /** PayU surl/furl — browser lands here after hosted checkout. */
+    /** PayU surl/furl — browser lands here after hosted checkout. Always redirect (never JSON). */
     static payuReturn = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
         const payload = {
             ...(typeof req.body === 'object' && req.body ? req.body : {}),
             ...(typeof req.query === 'object' && req.query ? req.query : {}),
         };
-        const { redirectUrl } = await payuPayment_service_1.PayuPaymentService.handleReturn(payload);
-        res.redirect(302, redirectUrl);
+        try {
+            const { redirectUrl } = await payuPayment_service_1.PayuPaymentService.handleReturn(payload);
+            res.redirect(302, redirectUrl);
+        }
+        catch (err) {
+            // Last resort: never leave the shopper on a JSON API error page.
+            console.error('[payu] return handler failed', err);
+            const order = String(payload.order ?? payload.udf1 ?? '').trim();
+            const domain = String(payload.udf2 ?? '').trim();
+            const origin = (0, env_1.getFrontendOrigin)(domain || undefined);
+            const url = order
+                ? `${origin}/order-success?order=${encodeURIComponent(order)}`
+                : `${origin}/orders`;
+            res.redirect(302, url);
+        }
     });
     /** PayU server webhook / IPN (configure in PayU dashboard or via partner_webhook_*). */
     static payuWebhook = (0, asyncHandler_1.asyncHandler)(async (req, res) => {

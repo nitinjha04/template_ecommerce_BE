@@ -15,20 +15,30 @@ const routes_1 = __importDefault(require("./routes"));
 const app = (0, express_1.default)();
 const uploadsDir = path_1.default.join(process.cwd(), "uploads");
 const allowedOrigins = env_1.env.corsOrigin ?? [];
+/** Browser return + gateway webhooks must never fail CORS (PayU/Razorpay/etc.). */
+const isPaymentGatewayPath = (url = "") => /\/payments\/payu\/(return|webhook)/.test(url) ||
+    /\/payments\/(razorpay|cashfree)\/webhook/.test(url) ||
+    /\/gateway-payments\/webhook/.test(url);
 app.use((0, helmet_1.default)({
     crossOriginResourcePolicy: { policy: "cross-origin" },
 }));
-app.use((0, cors_1.default)({
-    origin: function (origin, callback) {
-        if (!origin)
-            return callback(null, true);
-        if (allowedOrigins.includes(origin)) {
-            return callback(null, true);
-        }
-        return callback(new Error("Not allowed by CORS"));
-    },
-    credentials: true,
-}));
+// Path-aware CORS: gateway callbacks always allowed; never throw (throws → JSON 500
+// on top-level browser navigations like PayU surl/furl).
+app.use((req, res, next) => {
+    if (isPaymentGatewayPath(req.originalUrl || req.url || "")) {
+        return (0, cors_1.default)({ origin: true, credentials: true })(req, res, next);
+    }
+    return (0, cors_1.default)({
+        origin(origin, callback) {
+            if (!origin)
+                return callback(null, true);
+            if (allowedOrigins.includes(origin))
+                return callback(null, true);
+            return callback(null, false);
+        },
+        credentials: true,
+    })(req, res, next);
+});
 app.use((0, morgan_1.default)(env_1.env.nodeEnv === "development" ? "dev" : "combined"));
 app.use(express_1.default.json({
     limit: "10mb",
