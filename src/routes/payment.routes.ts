@@ -8,6 +8,7 @@ import {
   paymentIdValidator,
   updatePaymentStatusValidator,
   verifyCashfreeValidator,
+  verifyPayuValidator,
   verifyRazorpayValidator,
 } from '../validators/payment.validator';
 
@@ -39,6 +40,16 @@ router.post(
 );
 
 router.post('/cashfree/webhook', PaymentController.cashfreeWebhook);
+
+router.post(
+  '/payu/verify',
+  validate(verifyPayuValidator),
+  PaymentController.verifyPayu
+);
+
+/** PayU hosted checkout return (POST from PayU; also accept GET). */
+router.post('/payu/return', PaymentController.payuReturn);
+router.get('/payu/return', PaymentController.payuReturn);
 
 router.use(authenticate);
 

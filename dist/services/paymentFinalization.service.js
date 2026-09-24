@@ -16,7 +16,9 @@ class PaymentFinalizationService {
             payment.gateway?.gatewayOrderNo ??
             payment.razorpay?.paymentId ??
             payment.cashfree?.paymentId ??
-            payment.cashfree?.orderId;
+            payment.cashfree?.orderId ??
+            payment.payu?.mihpayid ??
+            payment.payu?.txnid;
         const paymentInfo = {
             paymentId: payment._id,
             paymentNumber: payment.paymentNumber,
@@ -27,7 +29,8 @@ class PaymentFinalizationService {
             paidAt,
             merchantOrderNo: payment.gateway?.merchantOrderNo ??
                 payment.razorpay?.orderId ??
-                payment.cashfree?.orderId,
+                payment.cashfree?.orderId ??
+                payment.payu?.txnid,
             gatewayOrderNo,
         };
         const order = await models_1.Order.findById(orderId).select('status paymentInfo').exec();
@@ -82,7 +85,8 @@ class PaymentFinalizationService {
         if (!freshPayment ||
             freshPayment.gateway?.successEmailSentAt ||
             freshPayment.razorpay?.successEmailSentAt ||
-            freshPayment.cashfree?.successEmailSentAt) {
+            freshPayment.cashfree?.successEmailSentAt ||
+            freshPayment.payu?.successEmailSentAt) {
             return;
         }
         if (!(0, env_1.isEmailEnabled)()) {
@@ -98,7 +102,9 @@ class PaymentFinalizationService {
                 ? 'razorpay.successEmailSentAt'
                 : freshPayment.provider === 'cashfree'
                     ? 'cashfree.successEmailSentAt'
-                    : 'gateway.successEmailSentAt';
+                    : freshPayment.provider === 'payu'
+                        ? 'payu.successEmailSentAt'
+                        : 'gateway.successEmailSentAt';
             await models_1.Payment.updateOne({ _id: paymentId }, { $set: { [emailSentAtPath]: new Date() } });
             console.info(`[email] Payment confirmation sent for order ${freshOrder.orderNumber}`);
         }

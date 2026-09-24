@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.logEmailEnvDiagnostics = exports.isEmailEnabled = exports.getOrderAdminNotificationRecipients = exports.getStoreOrderAdminEmails = exports.resolveDsaGatewayId = exports.getDsaGatewayIdForDomain = exports.getEmailFromForDomain = exports.getEmailFrom = exports.isEmailConfigured = exports.isBrevoConfigured = exports.isCashfreeConfiguredForDomain = exports.resolveCashfreeCredentialsByAppId = exports.listStoreCashfreeDomains = exports.hasStoreCashfreeMapping = exports.resolveCashfreeCredentials = exports.isCashfreeConfigured = exports.isRazorpayConfiguredForDomain = exports.resolveRazorpayCredentialsByKeyId = exports.listStoreRazorpayDomains = exports.hasStoreRazorpayMapping = exports.resolveRazorpayCredentials = exports.isRazorpayConfigured = exports.isDsaGatewayConfigured = exports.getPaymentReturnUrl = exports.getFrontendOrigin = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
+exports.logEmailEnvDiagnostics = exports.isEmailEnabled = exports.getOrderAdminNotificationRecipients = exports.getStoreOrderAdminEmails = exports.resolveDsaGatewayId = exports.getDsaGatewayIdForDomain = exports.getEmailFromForDomain = exports.getEmailFrom = exports.isEmailConfigured = exports.isBrevoConfigured = exports.isPayuConfiguredForDomain = exports.resolvePayuCredentialsByKey = exports.listStorePayuDomains = exports.hasStorePayuMapping = exports.resolvePayuCredentials = exports.isPayuConfigured = exports.isCashfreeConfiguredForDomain = exports.resolveCashfreeCredentialsByAppId = exports.listStoreCashfreeDomains = exports.hasStoreCashfreeMapping = exports.resolveCashfreeCredentials = exports.isCashfreeConfigured = exports.isRazorpayConfiguredForDomain = exports.resolveRazorpayCredentialsByKeyId = exports.listStoreRazorpayDomains = exports.hasStoreRazorpayMapping = exports.resolveRazorpayCredentials = exports.isRazorpayConfigured = exports.isDsaGatewayConfigured = exports.getPaymentReturnUrl = exports.getFrontendOrigin = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
 const dotenv_1 = __importDefault(require("dotenv"));
 const storeDomain_1 = require("../utils/storeDomain");
 dotenv_1.default.config();
@@ -49,6 +49,17 @@ exports.env = {
         env: ((process.env.CASHFREE_ENV ?? "production").trim().toLowerCase() ===
             "sandbox"
             ? "sandbox"
+            : "production"),
+    },
+    payu: {
+        /** Global / fallback (optional). Prefer STORE_PAYU_KEYS per store. */
+        key: (process.env.PAYU_KEY ?? "").trim(),
+        salt: (process.env.PAYU_SALT ?? "").trim(),
+        clientId: (process.env.PAYU_CLIENT_ID ?? "").trim(),
+        clientSecret: (process.env.PAYU_CLIENT_SECRET ?? "").trim(),
+        /** test | production */
+        env: ((process.env.PAYU_ENV ?? "production").trim().toLowerCase() === "test"
+            ? "test"
             : "production"),
     },
     imagekit: {
@@ -325,6 +336,83 @@ const resolveCashfreeCredentialsByAppId = (appId) => {
 exports.resolveCashfreeCredentialsByAppId = resolveCashfreeCredentialsByAppId;
 const isCashfreeConfiguredForDomain = (storeDomain) => Boolean((0, exports.resolveCashfreeCredentials)(storeDomain));
 exports.isCashfreeConfiguredForDomain = isCashfreeConfiguredForDomain;
+const isValidPayuPair = (key, salt) => Boolean(key && salt && !isPlaceholder(key) && !isPlaceholder(salt));
+/**
+ * Per-store PayU merchant accounts (hosted checkout uses key+salt).
+ * Format: domain=key|salt|clientId|clientSecret
+ * clientId/clientSecret optional (Payment Links / Payouts); leave empty segments if unused.
+ * Example: mohdeepshop.in=KMeTu5|saltHere|clientId|clientSecret
+ */
+const parseStorePayuKeys = () => {
+    const raw = (process.env.STORE_PAYU_KEYS ?? "").trim();
+    const map = new Map();
+    if (!raw)
+        return map;
+    for (const entry of raw.split(";")) {
+        const eqIdx = entry.indexOf("=");
+        if (eqIdx <= 0)
+            continue;
+        const domain = (0, storeDomain_1.normalizeStoreDomain)(entry.slice(0, eqIdx));
+        const parts = entry
+            .slice(eqIdx + 1)
+            .split("|")
+            .map((p) => p.trim());
+        const [key = "", salt = "", clientId = "", clientSecret = ""] = parts;
+        if (!domain || !isValidPayuPair(key, salt))
+            continue;
+        map.set(domain, {
+            key,
+            salt,
+            clientId,
+            clientSecret,
+            env: exports.env.payu.env,
+        });
+    }
+    return map;
+};
+const storePayuKeys = parseStorePayuKeys();
+const getGlobalPayuCredentials = () => {
+    const { key, salt, clientId, clientSecret, env: payuEnv } = exports.env.payu;
+    if (!isValidPayuPair(key, salt))
+        return null;
+    return { key, salt, clientId, clientSecret, env: payuEnv };
+};
+const isPayuConfigured = () => Boolean(getGlobalPayuCredentials()) || storePayuKeys.size > 0;
+exports.isPayuConfigured = isPayuConfigured;
+const resolvePayuCredentials = (storeDomain) => {
+    const normalized = storeDomain ? (0, storeDomain_1.normalizeStoreDomain)(storeDomain) : "";
+    if (normalized) {
+        const mapped = storePayuKeys.get(normalized);
+        if (mapped)
+            return mapped;
+    }
+    return getGlobalPayuCredentials();
+};
+exports.resolvePayuCredentials = resolvePayuCredentials;
+const hasStorePayuMapping = (storeDomain) => {
+    if (!storeDomain)
+        return false;
+    return storePayuKeys.has((0, storeDomain_1.normalizeStoreDomain)(storeDomain));
+};
+exports.hasStorePayuMapping = hasStorePayuMapping;
+const listStorePayuDomains = () => [...storePayuKeys.keys()];
+exports.listStorePayuDomains = listStorePayuDomains;
+const resolvePayuCredentialsByKey = (merchantKey) => {
+    const id = (merchantKey ?? "").trim();
+    if (!id)
+        return null;
+    for (const creds of storePayuKeys.values()) {
+        if (creds.key === id)
+            return creds;
+    }
+    const global = getGlobalPayuCredentials();
+    if (global?.key === id)
+        return global;
+    return null;
+};
+exports.resolvePayuCredentialsByKey = resolvePayuCredentialsByKey;
+const isPayuConfiguredForDomain = (storeDomain) => Boolean((0, exports.resolvePayuCredentials)(storeDomain));
+exports.isPayuConfiguredForDomain = isPayuConfiguredForDomain;
 const isBrevoConfigured = () => Boolean(exports.env.brevo.apiKey);
 exports.isBrevoConfigured = isBrevoConfigured;
 const isEmailConfigured = () => (0, exports.isBrevoConfigured)();

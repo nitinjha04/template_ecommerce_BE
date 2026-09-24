@@ -71,3 +71,18 @@ export const verifyCashfreeValidator = [
     .isLength({ min: 8, max: 18 })
     .withMessage('Valid phone is required'),
 ];
+
+export const verifyPayuValidator = [
+  body('orderNumber').trim().notEmpty().withMessage('orderNumber is required'),
+  body('txnid')
+    .optional()
+    .trim()
+    .isLength({ min: 3, max: 40 })
+    .withMessage('txnid is invalid'),
+  body('email').optional().trim().isEmail().withMessage('Valid email is required'),
+  body('phone')
+    .optional()
+    .trim()
+    .isLength({ min: 8, max: 18 })
+    .withMessage('Valid phone is required'),
+];

@@ -344,6 +344,7 @@ export class OrderService {
           method === 'online payment' ||
           method.includes('razorpay') ||
           method.includes('cashfree') ||
+          method.includes('payu') ||
           method.includes('upi');
         if (!isOnline) return true;
 
@@ -523,6 +524,7 @@ export class OrderService {
       method.includes('online') ||
       method.includes('razorpay') ||
       method.includes('cashfree') ||
+      method.includes('payu') ||
       method.includes('upi');
     if (!isOnline) {
       throw new ApiError(400, 'Only unpaid online orders can be abandoned');

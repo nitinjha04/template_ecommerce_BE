@@ -22,7 +22,9 @@ export class PaymentFinalizationService {
       payment.gateway?.gatewayOrderNo ??
       payment.razorpay?.paymentId ??
       payment.cashfree?.paymentId ??
-      payment.cashfree?.orderId;
+      payment.cashfree?.orderId ??
+      payment.payu?.mihpayid ??
+      payment.payu?.txnid;
 
     const paymentInfo = {
       paymentId: payment._id as Types.ObjectId,
@@ -35,7 +37,8 @@ export class PaymentFinalizationService {
       merchantOrderNo:
         payment.gateway?.merchantOrderNo ??
         payment.razorpay?.orderId ??
-        payment.cashfree?.orderId,
+        payment.cashfree?.orderId ??
+        payment.payu?.txnid,
       gatewayOrderNo,
     };
 
@@ -122,7 +125,8 @@ export class PaymentFinalizationService {
       !freshPayment ||
       freshPayment.gateway?.successEmailSentAt ||
       freshPayment.razorpay?.successEmailSentAt ||
-      freshPayment.cashfree?.successEmailSentAt
+      freshPayment.cashfree?.successEmailSentAt ||
+      freshPayment.payu?.successEmailSentAt
     ) {
       return;
     }
@@ -147,7 +151,9 @@ export class PaymentFinalizationService {
           ? 'razorpay.successEmailSentAt'
           : freshPayment.provider === 'cashfree'
             ? 'cashfree.successEmailSentAt'
-            : 'gateway.successEmailSentAt';
+            : freshPayment.provider === 'payu'
+              ? 'payu.successEmailSentAt'
+              : 'gateway.successEmailSentAt';
       await Payment.updateOne(
         { _id: paymentId },
         { $set: { [emailSentAtPath]: new Date() } }

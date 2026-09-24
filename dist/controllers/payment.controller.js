@@ -5,6 +5,7 @@ const env_1 = require("../config/env");
 const store_context_1 = require("../context/store.context");
 const dsaGatewayPayment_service_1 = require("../services/dsaGatewayPayment.service");
 const cashfreePayment_service_1 = require("../services/cashfreePayment.service");
+const payuPayment_service_1 = require("../services/payuPayment.service");
 const razorpayPayment_service_1 = require("../services/razorpayPayment.service");
 const ApiError_1 = require("../utils/ApiError");
 const models_1 = require("../models");
@@ -49,6 +50,16 @@ class PaymentController {
                 name,
             });
             ApiResponse_1.ApiResponse.success(res, result, 'Cashfree order created');
+            return;
+        }
+        if (provider === 'payu') {
+            const result = await payuPayment_service_1.PayuPaymentService.createForOrder({
+                orderNumber,
+                email,
+                phone,
+                name,
+            });
+            ApiResponse_1.ApiResponse.success(res, result, 'PayU checkout created');
             return;
         }
         if (provider === 'razorpay') {
@@ -117,9 +128,6 @@ class PaymentController {
             ApiResponse_1.ApiResponse.success(res, { upiLink, qrData: upiLink, vpa, amount: order.total, orderNumber: order.orderNumber }, 'UPI link created');
             return;
         }
-        if (provider === 'payu') {
-            throw new ApiError_1.ApiError(501, 'PayU integration is not configured yet. Please choose another method.');
-        }
         if (provider === 'phonepe') {
             throw new ApiError_1.ApiError(501, 'PhonePe integration is not configured yet. Please choose another method.');
         }
@@ -130,10 +138,13 @@ class PaymentController {
         const storeDomain = (0, store_context_1.getStoreContext)()?.storeDomain;
         const rzpCreds = (0, env_1.resolveRazorpayCredentials)(storeDomain);
         const cfCreds = (0, env_1.resolveCashfreeCredentials)(storeDomain);
+        const payuCreds = (0, env_1.resolvePayuCredentials)(storeDomain);
         const razorpay = Boolean(rzpCreds) || (0, env_1.isRazorpayConfigured)();
         const cashfree = Boolean(cfCreds) || (0, env_1.isCashfreeConfigured)();
+        const payu = Boolean(payuCreds) || (0, env_1.isPayuConfigured)();
         const keyId = rzpCreds?.keyId ?? ((0, env_1.isRazorpayConfigured)() ? env_1.env.razorpay.keyId : undefined);
         const appId = cfCreds?.appId ?? ((0, env_1.isCashfreeConfigured)() ? env_1.env.cashfree.appId : undefined);
+        const payuKey = payuCreds?.key ?? ((0, env_1.isPayuConfigured)() ? env_1.env.payu.key : undefined);
         ApiResponse_1.ApiResponse.success(res, {
             razorpay,
             keyId: razorpay ? keyId : undefined,
@@ -142,6 +153,10 @@ class PaymentController {
             appId: cashfree ? appId : undefined,
             appIdPrefix: appId ? `${appId.slice(0, 6)}…` : undefined,
             cashfreeEnv: cashfree ? (cfCreds?.env ?? env_1.env.cashfree.env) : undefined,
+            payu,
+            payuKey: payu ? payuKey : undefined,
+            payuKeyPrefix: payuKey ? `${payuKey.slice(0, 6)}…` : undefined,
+            payuEnv: payu ? (payuCreds?.env ?? env_1.env.payu.env) : undefined,
             storeDomain: storeDomain || undefined,
         }, 'Payment methods');
     });
@@ -181,6 +196,25 @@ class PaymentController {
             Buffer.from(JSON.stringify(req.body ?? {}));
         await cashfreePayment_service_1.CashfreePaymentService.handleWebhook(rawBody, signature, timestamp, req.body);
         res.status(200).json({ status: 'ok' });
+    });
+    /** PayU surl/furl — browser lands here after hosted checkout. */
+    static payuReturn = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
+        const payload = {
+            ...(typeof req.body === 'object' && req.body ? req.body : {}),
+            ...(typeof req.query === 'object' && req.query ? req.query : {}),
+        };
+        const { redirectUrl } = await payuPayment_service_1.PayuPaymentService.handleReturn(payload);
+        res.redirect(302, redirectUrl);
+    });
+    static verifyPayu = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
+        const { orderNumber, txnid, email, phone } = req.body;
+        const result = await payuPayment_service_1.PayuPaymentService.verifyAndCapture({
+            orderNumber,
+            txnid,
+            email,
+            phone,
+        });
+        ApiResponse_1.ApiResponse.success(res, result, 'Payment verified');
     });
 }
 exports.PaymentController = PaymentController;

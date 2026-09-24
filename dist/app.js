@@ -53,10 +53,13 @@ app.get("/api/v1/payments/methods", (_req, res) => {
     const storeDomain = (0, store_context_1.getStoreContext)()?.storeDomain;
     const rzpCreds = (0, env_1.resolveRazorpayCredentials)(storeDomain);
     const cfCreds = (0, env_1.resolveCashfreeCredentials)(storeDomain);
+    const payuCreds = (0, env_1.resolvePayuCredentials)(storeDomain);
     const razorpay = Boolean(rzpCreds) || (0, env_1.isRazorpayConfigured)();
     const cashfree = Boolean(cfCreds) || (0, env_1.isCashfreeConfigured)();
+    const payu = Boolean(payuCreds) || (0, env_1.isPayuConfigured)();
     const keyId = rzpCreds?.keyId ?? ((0, env_1.isRazorpayConfigured)() ? env_1.env.razorpay.keyId : undefined);
     const appId = cfCreds?.appId ?? ((0, env_1.isCashfreeConfigured)() ? env_1.env.cashfree.appId : undefined);
+    const payuKey = payuCreds?.key ?? ((0, env_1.isPayuConfigured)() ? env_1.env.payu.key : undefined);
     res.status(200).json({
         success: true,
         message: "Payment methods",
@@ -70,6 +73,10 @@ app.get("/api/v1/payments/methods", (_req, res) => {
             ...(cashfree
                 ? { cashfreeEnv: cfCreds?.env ?? env_1.env.cashfree.env }
                 : {}),
+            payu,
+            ...(payuKey ? { payuKey } : {}),
+            ...(payuKey ? { payuKeyPrefix: `${String(payuKey).slice(0, 6)}…` } : {}),
+            ...(payu ? { payuEnv: payuCreds?.env ?? env_1.env.payu.env } : {}),
             ...(storeDomain ? { storeDomain } : {}),
         },
     });

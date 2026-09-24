@@ -41,6 +41,19 @@ export interface IPayment extends Document {
     webhookData?: unknown;
     successEmailSentAt?: Date;
   };
+  payu?: {
+    key?: string;
+    txnid?: string;
+    mihpayid?: string;
+    amount?: string;
+    productinfo?: string;
+    hash?: string;
+    status?: string;
+    env?: 'test' | 'production';
+    createResponse?: unknown;
+    returnData?: unknown;
+    successEmailSentAt?: Date;
+  };
   gateway?: {
     provider: 'dsa-gateway';
     gatewayId?: number;
@@ -131,6 +144,19 @@ const paymentSchema = new Schema<IPayment>(
       env: { type: String, enum: ['sandbox', 'production'], required: false },
       createResponse: { type: Schema.Types.Mixed, required: false },
       webhookData: { type: Schema.Types.Mixed, required: false },
+      successEmailSentAt: { type: Date, required: false },
+    },
+    payu: {
+      key: { type: String, required: false },
+      txnid: { type: String, required: false, index: true },
+      mihpayid: { type: String, required: false, index: true },
+      amount: { type: String, required: false },
+      productinfo: { type: String, required: false },
+      hash: { type: String, required: false },
+      status: { type: String, required: false },
+      env: { type: String, enum: ['test', 'production'], required: false },
+      createResponse: { type: Schema.Types.Mixed, required: false },
+      returnData: { type: Schema.Types.Mixed, required: false },
       successEmailSentAt: { type: Date, required: false },
     },
     gateway: {

@@ -1,7 +1,8 @@
-import { env, isCashfreeConfigured, isRazorpayConfigured, resolveCashfreeCredentials, resolveRazorpayCredentials } from '../config/env';
+import { env, isCashfreeConfigured, isPayuConfigured, isRazorpayConfigured, resolveCashfreeCredentials, resolvePayuCredentials, resolveRazorpayCredentials } from '../config/env';
 import { getStoreContext } from '../context/store.context';
 import { DsaGatewayPaymentService } from '../services/dsaGatewayPayment.service';
 import { CashfreePaymentService } from '../services/cashfreePayment.service';
+import { PayuPaymentService } from '../services/payuPayment.service';
 import { RazorpayPaymentService } from '../services/razorpayPayment.service';
 import { ApiError } from '../utils/ApiError';
 import { Order, Payment } from '../models';
@@ -75,6 +76,17 @@ export class PaymentController {
         name,
       });
       ApiResponse.success(res, result, 'Cashfree order created');
+      return;
+    }
+
+    if (provider === 'payu') {
+      const result = await PayuPaymentService.createForOrder({
+        orderNumber,
+        email,
+        phone,
+        name,
+      });
+      ApiResponse.success(res, result, 'PayU checkout created');
       return;
     }
 
@@ -161,12 +173,6 @@ export class PaymentController {
       return;
     }
 
-    if (provider === 'payu') {
-      throw new ApiError(
-        501,
-        'PayU integration is not configured yet. Please choose another method.'
-      );
-    }
     if (provider === 'phonepe') {
       throw new ApiError(
         501,
@@ -182,10 +188,13 @@ export class PaymentController {
     const storeDomain = getStoreContext()?.storeDomain;
     const rzpCreds = resolveRazorpayCredentials(storeDomain);
     const cfCreds = resolveCashfreeCredentials(storeDomain);
+    const payuCreds = resolvePayuCredentials(storeDomain);
     const razorpay = Boolean(rzpCreds) || isRazorpayConfigured();
     const cashfree = Boolean(cfCreds) || isCashfreeConfigured();
+    const payu = Boolean(payuCreds) || isPayuConfigured();
     const keyId = rzpCreds?.keyId ?? (isRazorpayConfigured() ? env.razorpay.keyId : undefined);
     const appId = cfCreds?.appId ?? (isCashfreeConfigured() ? env.cashfree.appId : undefined);
+    const payuKey = payuCreds?.key ?? (isPayuConfigured() ? env.payu.key : undefined);
     ApiResponse.success(
       res,
       {
@@ -196,6 +205,10 @@ export class PaymentController {
         appId: cashfree ? appId : undefined,
         appIdPrefix: appId ? `${appId.slice(0, 6)}…` : undefined,
         cashfreeEnv: cashfree ? (cfCreds?.env ?? env.cashfree.env) : undefined,
+        payu,
+        payuKey: payu ? payuKey : undefined,
+        payuKeyPrefix: payuKey ? `${payuKey.slice(0, 6)}…` : undefined,
+        payuEnv: payu ? (payuCreds?.env ?? env.payu.env) : undefined,
         storeDomain: storeDomain || undefined,
       },
       'Payment methods'
@@ -271,5 +284,33 @@ export class PaymentController {
       req.body
     );
     res.status(200).json({ status: 'ok' });
+  });
+
+  /** PayU surl/furl — browser lands here after hosted checkout. */
+  static payuReturn = asyncHandler(async (req: Request, res: Response) => {
+    const payload = {
+      ...(typeof req.body === 'object' && req.body ? req.body : {}),
+      ...(typeof req.query === 'object' && req.query ? req.query : {}),
+    } as Record<string, unknown>;
+
+    const { redirectUrl } = await PayuPaymentService.handleReturn(payload);
+    res.redirect(302, redirectUrl);
+  });
+
+  static verifyPayu = asyncHandler(async (req: Request, res: Response) => {
+    const { orderNumber, txnid, email, phone } = req.body as {
+      orderNumber: string;
+      txnid?: string;
+      email?: string;
+      phone?: string;
+    };
+
+    const result = await PayuPaymentService.verifyAndCapture({
+      orderNumber,
+      txnid,
+      email,
+      phone,
+    });
+    ApiResponse.success(res, result, 'Payment verified');
   });
 }

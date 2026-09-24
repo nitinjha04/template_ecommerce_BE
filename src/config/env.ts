@@ -49,6 +49,17 @@ export const env = {
       ? "sandbox"
       : "production") as "sandbox" | "production",
   },
+  payu: {
+    /** Global / fallback (optional). Prefer STORE_PAYU_KEYS per store. */
+    key: (process.env.PAYU_KEY ?? "").trim(),
+    salt: (process.env.PAYU_SALT ?? "").trim(),
+    clientId: (process.env.PAYU_CLIENT_ID ?? "").trim(),
+    clientSecret: (process.env.PAYU_CLIENT_SECRET ?? "").trim(),
+    /** test | production */
+    env: ((process.env.PAYU_ENV ?? "production").trim().toLowerCase() === "test"
+      ? "test"
+      : "production") as "test" | "production",
+  },
   imagekit: {
     publicKey: process.env.IMAGEKIT_PUBLIC_KEY ?? "",
     privateKey: process.env.IMAGEKIT_PRIVATE_KEY ?? "",
@@ -371,6 +382,94 @@ export const resolveCashfreeCredentialsByAppId = (
 
 export const isCashfreeConfiguredForDomain = (storeDomain?: string): boolean =>
   Boolean(resolveCashfreeCredentials(storeDomain));
+
+export type PayuCredentials = {
+  key: string;
+  salt: string;
+  clientId: string;
+  clientSecret: string;
+  env: "test" | "production";
+};
+
+const isValidPayuPair = (key: string, salt: string): boolean =>
+  Boolean(key && salt && !isPlaceholder(key) && !isPlaceholder(salt));
+
+/**
+ * Per-store PayU merchant accounts (hosted checkout uses key+salt).
+ * Format: domain=key|salt|clientId|clientSecret
+ * clientId/clientSecret optional (Payment Links / Payouts); leave empty segments if unused.
+ * Example: mohdeepshop.in=KMeTu5|saltHere|clientId|clientSecret
+ */
+const parseStorePayuKeys = (): ReadonlyMap<string, PayuCredentials> => {
+  const raw = (process.env.STORE_PAYU_KEYS ?? "").trim();
+  const map = new Map<string, PayuCredentials>();
+  if (!raw) return map;
+
+  for (const entry of raw.split(";")) {
+    const eqIdx = entry.indexOf("=");
+    if (eqIdx <= 0) continue;
+    const domain = normalizeStoreDomain(entry.slice(0, eqIdx));
+    const parts = entry
+      .slice(eqIdx + 1)
+      .split("|")
+      .map((p) => p.trim());
+    const [key = "", salt = "", clientId = "", clientSecret = ""] = parts;
+    if (!domain || !isValidPayuPair(key, salt)) continue;
+    map.set(domain, {
+      key,
+      salt,
+      clientId,
+      clientSecret,
+      env: env.payu.env,
+    });
+  }
+  return map;
+};
+
+const storePayuKeys = parseStorePayuKeys();
+
+const getGlobalPayuCredentials = (): PayuCredentials | null => {
+  const { key, salt, clientId, clientSecret, env: payuEnv } = env.payu;
+  if (!isValidPayuPair(key, salt)) return null;
+  return { key, salt, clientId, clientSecret, env: payuEnv };
+};
+
+export const isPayuConfigured = (): boolean =>
+  Boolean(getGlobalPayuCredentials()) || storePayuKeys.size > 0;
+
+export const resolvePayuCredentials = (
+  storeDomain?: string
+): PayuCredentials | null => {
+  const normalized = storeDomain ? normalizeStoreDomain(storeDomain) : "";
+  if (normalized) {
+    const mapped = storePayuKeys.get(normalized);
+    if (mapped) return mapped;
+  }
+  return getGlobalPayuCredentials();
+};
+
+export const hasStorePayuMapping = (storeDomain?: string): boolean => {
+  if (!storeDomain) return false;
+  return storePayuKeys.has(normalizeStoreDomain(storeDomain));
+};
+
+export const listStorePayuDomains = (): string[] => [...storePayuKeys.keys()];
+
+export const resolvePayuCredentialsByKey = (
+  merchantKey?: string
+): PayuCredentials | null => {
+  const id = (merchantKey ?? "").trim();
+  if (!id) return null;
+  for (const creds of storePayuKeys.values()) {
+    if (creds.key === id) return creds;
+  }
+  const global = getGlobalPayuCredentials();
+  if (global?.key === id) return global;
+  return null;
+};
+
+export const isPayuConfiguredForDomain = (storeDomain?: string): boolean =>
+  Boolean(resolvePayuCredentials(storeDomain));
 
 export const isBrevoConfigured = (): boolean => Boolean(env.brevo.apiKey);
 

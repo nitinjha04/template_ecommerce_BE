@@ -3,7 +3,7 @@ import express from "express";
 import helmet from "helmet";
 import morgan from "morgan";
 import path from "path";
-import { env, isCashfreeConfigured, isRazorpayConfigured, resolveCashfreeCredentials, resolveRazorpayCredentials } from "./config/env";
+import { env, isCashfreeConfigured, isPayuConfigured, isRazorpayConfigured, resolveCashfreeCredentials, resolvePayuCredentials, resolveRazorpayCredentials } from "./config/env";
 import { getStoreContext } from "./context/store.context";
 import { errorHandler, notFound } from "./middleware/error.middleware";
 import routes from "./routes";
@@ -62,10 +62,13 @@ app.get("/api/v1/payments/methods", (_req, res) => {
   const storeDomain = getStoreContext()?.storeDomain;
   const rzpCreds = resolveRazorpayCredentials(storeDomain);
   const cfCreds = resolveCashfreeCredentials(storeDomain);
+  const payuCreds = resolvePayuCredentials(storeDomain);
   const razorpay = Boolean(rzpCreds) || isRazorpayConfigured();
   const cashfree = Boolean(cfCreds) || isCashfreeConfigured();
+  const payu = Boolean(payuCreds) || isPayuConfigured();
   const keyId = rzpCreds?.keyId ?? (isRazorpayConfigured() ? env.razorpay.keyId : undefined);
   const appId = cfCreds?.appId ?? (isCashfreeConfigured() ? env.cashfree.appId : undefined);
+  const payuKey = payuCreds?.key ?? (isPayuConfigured() ? env.payu.key : undefined);
   res.status(200).json({
     success: true,
     message: "Payment methods",
@@ -79,6 +82,10 @@ app.get("/api/v1/payments/methods", (_req, res) => {
       ...(cashfree
         ? { cashfreeEnv: cfCreds?.env ?? env.cashfree.env }
         : {}),
+      payu,
+      ...(payuKey ? { payuKey } : {}),
+      ...(payuKey ? { payuKeyPrefix: `${String(payuKey).slice(0, 6)}…` } : {}),
+      ...(payu ? { payuEnv: payuCreds?.env ?? env.payu.env } : {}),
       ...(storeDomain ? { storeDomain } : {}),
     },
   });
