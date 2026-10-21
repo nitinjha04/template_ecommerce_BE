@@ -3,10 +3,13 @@ import express from "express";
 import helmet from "helmet";
 import morgan from "morgan";
 import path from "path";
-import { env, isCashfreeConfigured, isPayuConfigured, isRazorpayConfigured, resolveCashfreeCredentials, resolvePayuCredentials, resolveRazorpayCredentials } from "./config/env";
-import { getStoreContext } from "./context/store.context";
+import { env } from "./config/env";
 import { errorHandler, notFound } from "./middleware/error.middleware";
 import routes from "./routes";
+import {
+  getPaymentMethodsSnapshot,
+  resolveStoreDomainFromRequest,
+} from "./services/paymentMethods.snapshot";
 
 const app = express();
 const uploadsDir = path.join(process.cwd(), "uploads");
@@ -67,36 +70,12 @@ app.use(
  * hits store resolution or auth. No headers required.
  * GET /api/v1/payments/methods
  */
-app.get("/api/v1/payments/methods", (_req, res) => {
-  const storeDomain = getStoreContext()?.storeDomain;
-  const rzpCreds = resolveRazorpayCredentials(storeDomain);
-  const cfCreds = resolveCashfreeCredentials(storeDomain);
-  const payuCreds = resolvePayuCredentials(storeDomain);
-  const razorpay = Boolean(rzpCreds) || isRazorpayConfigured();
-  const cashfree = Boolean(cfCreds) || isCashfreeConfigured();
-  const payu = Boolean(payuCreds) || isPayuConfigured();
-  const keyId = rzpCreds?.keyId ?? (isRazorpayConfigured() ? env.razorpay.keyId : undefined);
-  const appId = cfCreds?.appId ?? (isCashfreeConfigured() ? env.cashfree.appId : undefined);
-  const payuKey = payuCreds?.key ?? (isPayuConfigured() ? env.payu.key : undefined);
+app.get("/api/v1/payments/methods", (req, res) => {
+  const storeDomain = resolveStoreDomainFromRequest(req);
   res.status(200).json({
     success: true,
     message: "Payment methods",
-    data: {
-      razorpay,
-      ...(keyId ? { keyId } : {}),
-      ...(keyId ? { keyIdPrefix: `${String(keyId).slice(0, 6)}…` } : {}),
-      cashfree,
-      ...(appId ? { appId } : {}),
-      ...(appId ? { appIdPrefix: `${String(appId).slice(0, 6)}…` } : {}),
-      ...(cashfree
-        ? { cashfreeEnv: cfCreds?.env ?? env.cashfree.env }
-        : {}),
-      payu,
-      ...(payuKey ? { payuKey } : {}),
-      ...(payuKey ? { payuKeyPrefix: `${String(payuKey).slice(0, 6)}…` } : {}),
-      ...(payu ? { payuEnv: payuCreds?.env ?? env.payu.env } : {}),
-      ...(storeDomain ? { storeDomain } : {}),
-    },
+    data: getPaymentMethodsSnapshot(storeDomain),
   });
 });
 

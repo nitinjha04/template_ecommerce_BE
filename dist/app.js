@@ -9,9 +9,9 @@ const helmet_1 = __importDefault(require("helmet"));
 const morgan_1 = __importDefault(require("morgan"));
 const path_1 = __importDefault(require("path"));
 const env_1 = require("./config/env");
-const store_context_1 = require("./context/store.context");
 const error_middleware_1 = require("./middleware/error.middleware");
 const routes_1 = __importDefault(require("./routes"));
+const paymentMethods_snapshot_1 = require("./services/paymentMethods.snapshot");
 const app = (0, express_1.default)();
 const uploadsDir = path_1.default.join(process.cwd(), "uploads");
 const allowedOrigins = env_1.env.corsOrigin ?? [];
@@ -59,36 +59,12 @@ app.use("/uploads", express_1.default.static(uploadsDir, {
  * hits store resolution or auth. No headers required.
  * GET /api/v1/payments/methods
  */
-app.get("/api/v1/payments/methods", (_req, res) => {
-    const storeDomain = (0, store_context_1.getStoreContext)()?.storeDomain;
-    const rzpCreds = (0, env_1.resolveRazorpayCredentials)(storeDomain);
-    const cfCreds = (0, env_1.resolveCashfreeCredentials)(storeDomain);
-    const payuCreds = (0, env_1.resolvePayuCredentials)(storeDomain);
-    const razorpay = Boolean(rzpCreds) || (0, env_1.isRazorpayConfigured)();
-    const cashfree = Boolean(cfCreds) || (0, env_1.isCashfreeConfigured)();
-    const payu = Boolean(payuCreds) || (0, env_1.isPayuConfigured)();
-    const keyId = rzpCreds?.keyId ?? ((0, env_1.isRazorpayConfigured)() ? env_1.env.razorpay.keyId : undefined);
-    const appId = cfCreds?.appId ?? ((0, env_1.isCashfreeConfigured)() ? env_1.env.cashfree.appId : undefined);
-    const payuKey = payuCreds?.key ?? ((0, env_1.isPayuConfigured)() ? env_1.env.payu.key : undefined);
+app.get("/api/v1/payments/methods", (req, res) => {
+    const storeDomain = (0, paymentMethods_snapshot_1.resolveStoreDomainFromRequest)(req);
     res.status(200).json({
         success: true,
         message: "Payment methods",
-        data: {
-            razorpay,
-            ...(keyId ? { keyId } : {}),
-            ...(keyId ? { keyIdPrefix: `${String(keyId).slice(0, 6)}…` } : {}),
-            cashfree,
-            ...(appId ? { appId } : {}),
-            ...(appId ? { appIdPrefix: `${String(appId).slice(0, 6)}…` } : {}),
-            ...(cashfree
-                ? { cashfreeEnv: cfCreds?.env ?? env_1.env.cashfree.env }
-                : {}),
-            payu,
-            ...(payuKey ? { payuKey } : {}),
-            ...(payuKey ? { payuKeyPrefix: `${String(payuKey).slice(0, 6)}…` } : {}),
-            ...(payu ? { payuEnv: payuCreds?.env ?? env_1.env.payu.env } : {}),
-            ...(storeDomain ? { storeDomain } : {}),
-        },
+        data: (0, paymentMethods_snapshot_1.getPaymentMethodsSnapshot)(storeDomain),
     });
 });
 app.use("/api/v1", routes_1.default);

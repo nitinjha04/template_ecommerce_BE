@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PaymentController = void 0;
 const env_1 = require("../config/env");
-const store_context_1 = require("../context/store.context");
+const paymentMethods_snapshot_1 = require("../services/paymentMethods.snapshot");
 const dsaGatewayPayment_service_1 = require("../services/dsaGatewayPayment.service");
 const cashfreePayment_service_1 = require("../services/cashfreePayment.service");
 const payuPayment_service_1 = require("../services/payuPayment.service");
@@ -134,31 +134,9 @@ class PaymentController {
         throw new ApiError_1.ApiError(400, 'Invalid provider');
     });
     /** Public: which checkout providers are enabled on this API. */
-    static getAvailableMethods = (0, asyncHandler_1.asyncHandler)(async (_req, res) => {
-        const storeDomain = (0, store_context_1.getStoreContext)()?.storeDomain;
-        const rzpCreds = (0, env_1.resolveRazorpayCredentials)(storeDomain);
-        const cfCreds = (0, env_1.resolveCashfreeCredentials)(storeDomain);
-        const payuCreds = (0, env_1.resolvePayuCredentials)(storeDomain);
-        const razorpay = Boolean(rzpCreds) || (0, env_1.isRazorpayConfigured)();
-        const cashfree = Boolean(cfCreds) || (0, env_1.isCashfreeConfigured)();
-        const payu = Boolean(payuCreds) || (0, env_1.isPayuConfigured)();
-        const keyId = rzpCreds?.keyId ?? ((0, env_1.isRazorpayConfigured)() ? env_1.env.razorpay.keyId : undefined);
-        const appId = cfCreds?.appId ?? ((0, env_1.isCashfreeConfigured)() ? env_1.env.cashfree.appId : undefined);
-        const payuKey = payuCreds?.key ?? ((0, env_1.isPayuConfigured)() ? env_1.env.payu.key : undefined);
-        ApiResponse_1.ApiResponse.success(res, {
-            razorpay,
-            keyId: razorpay ? keyId : undefined,
-            keyIdPrefix: keyId ? `${keyId.slice(0, 6)}…` : undefined,
-            cashfree,
-            appId: cashfree ? appId : undefined,
-            appIdPrefix: appId ? `${appId.slice(0, 6)}…` : undefined,
-            cashfreeEnv: cashfree ? (cfCreds?.env ?? env_1.env.cashfree.env) : undefined,
-            payu,
-            payuKey: payu ? payuKey : undefined,
-            payuKeyPrefix: payuKey ? `${payuKey.slice(0, 6)}…` : undefined,
-            payuEnv: payu ? (payuCreds?.env ?? env_1.env.payu.env) : undefined,
-            storeDomain: storeDomain || undefined,
-        }, 'Payment methods');
+    static getAvailableMethods = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
+        const storeDomain = (0, paymentMethods_snapshot_1.resolveStoreDomainFromRequest)(req);
+        ApiResponse_1.ApiResponse.success(res, (0, paymentMethods_snapshot_1.getPaymentMethodsSnapshot)(storeDomain), 'Payment methods');
     });
     static verifyRazorpay = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
         const { orderNumber, razorpay_order_id, razorpay_payment_id, razorpay_signature, email, phone, } = req.body;

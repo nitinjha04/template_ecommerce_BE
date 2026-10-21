@@ -1,5 +1,8 @@
-import { env, getFrontendOrigin, isCashfreeConfigured, isPayuConfigured, isRazorpayConfigured, resolveCashfreeCredentials, resolvePayuCredentials, resolveRazorpayCredentials } from '../config/env';
-import { getStoreContext } from '../context/store.context';
+import { env, getFrontendOrigin } from '../config/env';
+import {
+  getPaymentMethodsSnapshot,
+  resolveStoreDomainFromRequest,
+} from '../services/paymentMethods.snapshot';
 import { DsaGatewayPaymentService } from '../services/dsaGatewayPayment.service';
 import { CashfreePaymentService } from '../services/cashfreePayment.service';
 import { PayuPaymentService } from '../services/payuPayment.service';
@@ -184,33 +187,11 @@ export class PaymentController {
   });
 
   /** Public: which checkout providers are enabled on this API. */
-  static getAvailableMethods = asyncHandler(async (_req: Request, res: Response) => {
-    const storeDomain = getStoreContext()?.storeDomain;
-    const rzpCreds = resolveRazorpayCredentials(storeDomain);
-    const cfCreds = resolveCashfreeCredentials(storeDomain);
-    const payuCreds = resolvePayuCredentials(storeDomain);
-    const razorpay = Boolean(rzpCreds) || isRazorpayConfigured();
-    const cashfree = Boolean(cfCreds) || isCashfreeConfigured();
-    const payu = Boolean(payuCreds) || isPayuConfigured();
-    const keyId = rzpCreds?.keyId ?? (isRazorpayConfigured() ? env.razorpay.keyId : undefined);
-    const appId = cfCreds?.appId ?? (isCashfreeConfigured() ? env.cashfree.appId : undefined);
-    const payuKey = payuCreds?.key ?? (isPayuConfigured() ? env.payu.key : undefined);
+  static getAvailableMethods = asyncHandler(async (req: Request, res: Response) => {
+    const storeDomain = resolveStoreDomainFromRequest(req);
     ApiResponse.success(
       res,
-      {
-        razorpay,
-        keyId: razorpay ? keyId : undefined,
-        keyIdPrefix: keyId ? `${keyId.slice(0, 6)}…` : undefined,
-        cashfree,
-        appId: cashfree ? appId : undefined,
-        appIdPrefix: appId ? `${appId.slice(0, 6)}…` : undefined,
-        cashfreeEnv: cashfree ? (cfCreds?.env ?? env.cashfree.env) : undefined,
-        payu,
-        payuKey: payu ? payuKey : undefined,
-        payuKeyPrefix: payuKey ? `${payuKey.slice(0, 6)}…` : undefined,
-        payuEnv: payu ? (payuCreds?.env ?? env.payu.env) : undefined,
-        storeDomain: storeDomain || undefined,
-      },
+      getPaymentMethodsSnapshot(storeDomain),
       'Payment methods'
     );
   });

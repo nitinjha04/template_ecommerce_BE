@@ -489,34 +489,81 @@ export const getEmailFromForDomain = (domain?: string): string => {
   return env.smtp.from;
 };
 
+export const DEFAULT_DSA_PAYMENT_LABEL =
+  "Pay online (UPI / Card / NetBanking)";
+
 /**
  * Per-store DSA/PayPro gateway IDs.
  * Format: domain=gatewayId;domain2=gatewayId2
- * Example: casaq.in=489819;protico.in=490009
+ * Optional checkout name on the same entry: domain=gatewayId|Label
+ * Example: casaq.in=489819;nextrivashop.in=490064|Pine Labs
  */
-const parseStoreDsaGatewayIds = (): ReadonlyMap<string, number> => {
+const parseStoreDsaGatewayIds = (): {
+  ids: ReadonlyMap<string, number>;
+  labels: ReadonlyMap<string, string>;
+} => {
   const raw = (process.env.STORE_DSA_GATEWAY_IDS ?? "").trim();
-  const map = new Map<string, number>();
+  const ids = new Map<string, number>();
+  const labels = new Map<string, string>();
+  if (!raw) return { ids, labels };
+
+  for (const entry of raw.split(";")) {
+    const eqIdx = entry.indexOf("=");
+    if (eqIdx <= 0) continue;
+    const domain = normalizeStoreDomain(entry.slice(0, eqIdx));
+    const rest = entry.slice(eqIdx + 1).trim();
+    const pipeIdx = rest.indexOf("|");
+    const idRaw = (pipeIdx >= 0 ? rest.slice(0, pipeIdx) : rest).trim();
+    const label = (pipeIdx >= 0 ? rest.slice(pipeIdx + 1) : "").trim();
+    const id = Number(idRaw);
+    if (!domain || !Number.isFinite(id) || id <= 0) continue;
+    ids.set(domain, id);
+    if (label) labels.set(domain, label);
+  }
+  return { ids, labels };
+};
+
+/**
+ * Checkout radio label per store (overrides |label on STORE_DSA_GATEWAY_IDS).
+ * Format: domain=Label;domain2=Label2
+ * Example: nextrivashop.in=Pine Labs;brosshop.in=Pine Labs
+ */
+const parseStoreDsaGatewayLabels = (): ReadonlyMap<string, string> => {
+  const raw = (process.env.STORE_DSA_GATEWAY_LABELS ?? "").trim();
+  const map = new Map<string, string>();
   if (!raw) return map;
 
   for (const entry of raw.split(";")) {
     const eqIdx = entry.indexOf("=");
     if (eqIdx <= 0) continue;
     const domain = normalizeStoreDomain(entry.slice(0, eqIdx));
-    const id = Number(String(entry.slice(eqIdx + 1)).trim());
-    if (domain && Number.isFinite(id) && id > 0) {
-      map.set(domain, id);
-    }
+    const label = entry.slice(eqIdx + 1).trim();
+    if (domain && label) map.set(domain, label);
   }
   return map;
 };
 
-const storeDsaGatewayIds = parseStoreDsaGatewayIds();
+const { ids: storeDsaGatewayIds, labels: storeDsaLabelsFromIds } =
+  parseStoreDsaGatewayIds();
+const storeDsaGatewayLabels = parseStoreDsaGatewayLabels();
 
 /** PayPro gateway_id for a store domain (from STORE_DSA_GATEWAY_IDS). */
 export const getDsaGatewayIdForDomain = (domain?: string): number | undefined => {
   if (!domain) return undefined;
   return storeDsaGatewayIds.get(normalizeStoreDomain(domain));
+};
+
+/** Checkout display name for the DSA / PayPro / Pine Labs option. */
+export const getDsaGatewayLabelForDomain = (domain?: string): string => {
+  const normalized = domain ? normalizeStoreDomain(domain) : "";
+  if (normalized) {
+    const fromLabels = storeDsaGatewayLabels.get(normalized);
+    if (fromLabels) return fromLabels;
+    const fromIds = storeDsaLabelsFromIds.get(normalized);
+    if (fromIds) return fromIds;
+  }
+  const fallback = (process.env.DSA_PAYMENT_LABEL ?? "").trim();
+  return fallback || DEFAULT_DSA_PAYMENT_LABEL;
 };
 
 /**

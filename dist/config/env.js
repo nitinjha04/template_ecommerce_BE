@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.logEmailEnvDiagnostics = exports.isEmailEnabled = exports.getOrderAdminNotificationRecipients = exports.getStoreOrderAdminEmails = exports.resolveDsaGatewayId = exports.getDsaGatewayIdForDomain = exports.getEmailFromForDomain = exports.getEmailFrom = exports.isEmailConfigured = exports.isBrevoConfigured = exports.isPayuConfiguredForDomain = exports.resolvePayuCredentialsByKey = exports.listStorePayuDomains = exports.hasStorePayuMapping = exports.resolvePayuCredentials = exports.isPayuConfigured = exports.isCashfreeConfiguredForDomain = exports.resolveCashfreeCredentialsByAppId = exports.listStoreCashfreeDomains = exports.hasStoreCashfreeMapping = exports.resolveCashfreeCredentials = exports.isCashfreeConfigured = exports.isRazorpayConfiguredForDomain = exports.resolveRazorpayCredentialsByKeyId = exports.listStoreRazorpayDomains = exports.hasStoreRazorpayMapping = exports.resolveRazorpayCredentials = exports.isRazorpayConfigured = exports.isDsaGatewayConfigured = exports.getPaymentReturnUrl = exports.getFrontendOrigin = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
+exports.logEmailEnvDiagnostics = exports.isEmailEnabled = exports.getOrderAdminNotificationRecipients = exports.getStoreOrderAdminEmails = exports.resolveDsaGatewayId = exports.getDsaGatewayLabelForDomain = exports.getDsaGatewayIdForDomain = exports.DEFAULT_DSA_PAYMENT_LABEL = exports.getEmailFromForDomain = exports.getEmailFrom = exports.isEmailConfigured = exports.isBrevoConfigured = exports.isPayuConfiguredForDomain = exports.resolvePayuCredentialsByKey = exports.listStorePayuDomains = exports.hasStorePayuMapping = exports.resolvePayuCredentials = exports.isPayuConfigured = exports.isCashfreeConfiguredForDomain = exports.resolveCashfreeCredentialsByAppId = exports.listStoreCashfreeDomains = exports.hasStoreCashfreeMapping = exports.resolveCashfreeCredentials = exports.isCashfreeConfigured = exports.isRazorpayConfiguredForDomain = exports.resolveRazorpayCredentialsByKeyId = exports.listStoreRazorpayDomains = exports.hasStoreRazorpayMapping = exports.resolveRazorpayCredentials = exports.isRazorpayConfigured = exports.isDsaGatewayConfigured = exports.getPaymentReturnUrl = exports.getFrontendOrigin = exports.getApiPublicOrigin = exports.isImageKitConfigured = exports.env = void 0;
 const dotenv_1 = __importDefault(require("dotenv"));
 const storeDomain_1 = require("../utils/storeDomain");
 dotenv_1.default.config();
@@ -430,13 +430,44 @@ const getEmailFromForDomain = (domain) => {
     return exports.env.smtp.from;
 };
 exports.getEmailFromForDomain = getEmailFromForDomain;
+exports.DEFAULT_DSA_PAYMENT_LABEL = "Pay online (UPI / Card / NetBanking)";
 /**
  * Per-store DSA/PayPro gateway IDs.
  * Format: domain=gatewayId;domain2=gatewayId2
- * Example: casaq.in=489819;protico.in=490009
+ * Optional checkout name on the same entry: domain=gatewayId|Label
+ * Example: casaq.in=489819;nextrivashop.in=490064|Pine Labs
  */
 const parseStoreDsaGatewayIds = () => {
     const raw = (process.env.STORE_DSA_GATEWAY_IDS ?? "").trim();
+    const ids = new Map();
+    const labels = new Map();
+    if (!raw)
+        return { ids, labels };
+    for (const entry of raw.split(";")) {
+        const eqIdx = entry.indexOf("=");
+        if (eqIdx <= 0)
+            continue;
+        const domain = (0, storeDomain_1.normalizeStoreDomain)(entry.slice(0, eqIdx));
+        const rest = entry.slice(eqIdx + 1).trim();
+        const pipeIdx = rest.indexOf("|");
+        const idRaw = (pipeIdx >= 0 ? rest.slice(0, pipeIdx) : rest).trim();
+        const label = (pipeIdx >= 0 ? rest.slice(pipeIdx + 1) : "").trim();
+        const id = Number(idRaw);
+        if (!domain || !Number.isFinite(id) || id <= 0)
+            continue;
+        ids.set(domain, id);
+        if (label)
+            labels.set(domain, label);
+    }
+    return { ids, labels };
+};
+/**
+ * Checkout radio label per store (overrides |label on STORE_DSA_GATEWAY_IDS).
+ * Format: domain=Label;domain2=Label2
+ * Example: nextrivashop.in=Pine Labs;brosshop.in=Pine Labs
+ */
+const parseStoreDsaGatewayLabels = () => {
+    const raw = (process.env.STORE_DSA_GATEWAY_LABELS ?? "").trim();
     const map = new Map();
     if (!raw)
         return map;
@@ -445,14 +476,14 @@ const parseStoreDsaGatewayIds = () => {
         if (eqIdx <= 0)
             continue;
         const domain = (0, storeDomain_1.normalizeStoreDomain)(entry.slice(0, eqIdx));
-        const id = Number(String(entry.slice(eqIdx + 1)).trim());
-        if (domain && Number.isFinite(id) && id > 0) {
-            map.set(domain, id);
-        }
+        const label = entry.slice(eqIdx + 1).trim();
+        if (domain && label)
+            map.set(domain, label);
     }
     return map;
 };
-const storeDsaGatewayIds = parseStoreDsaGatewayIds();
+const { ids: storeDsaGatewayIds, labels: storeDsaLabelsFromIds } = parseStoreDsaGatewayIds();
+const storeDsaGatewayLabels = parseStoreDsaGatewayLabels();
 /** PayPro gateway_id for a store domain (from STORE_DSA_GATEWAY_IDS). */
 const getDsaGatewayIdForDomain = (domain) => {
     if (!domain)
@@ -460,6 +491,21 @@ const getDsaGatewayIdForDomain = (domain) => {
     return storeDsaGatewayIds.get((0, storeDomain_1.normalizeStoreDomain)(domain));
 };
 exports.getDsaGatewayIdForDomain = getDsaGatewayIdForDomain;
+/** Checkout display name for the DSA / PayPro / Pine Labs option. */
+const getDsaGatewayLabelForDomain = (domain) => {
+    const normalized = domain ? (0, storeDomain_1.normalizeStoreDomain)(domain) : "";
+    if (normalized) {
+        const fromLabels = storeDsaGatewayLabels.get(normalized);
+        if (fromLabels)
+            return fromLabels;
+        const fromIds = storeDsaLabelsFromIds.get(normalized);
+        if (fromIds)
+            return fromIds;
+    }
+    const fallback = (process.env.DSA_PAYMENT_LABEL ?? "").trim();
+    return fallback || exports.DEFAULT_DSA_PAYMENT_LABEL;
+};
+exports.getDsaGatewayLabelForDomain = getDsaGatewayLabelForDomain;
 /**
  * Resolve which PayPro gateway_id to use for a payment create.
  * Priority: explicit request id → store domain map → GATEWAY_ID → DSA_GATEWAY_IDS[0] → legacy default.
