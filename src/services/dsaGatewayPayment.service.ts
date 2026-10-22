@@ -27,6 +27,10 @@ import { mergeStoreFilter } from "../utils/storeScope";
 type GatewayCreateResult = {
   paymentUrl: string;
   merchantOrderNo: string;
+  orderNumber: string;
+  amount: number;
+  /** Raw UPI deeplink when PayPro returns one — used for desktop QR. */
+  upiLink?: string;
 };
 
 type GatewayWebhookBody = {
@@ -235,7 +239,7 @@ export class DsaGatewayPaymentService {
       response: response.data,
     });
 
-    // Prefer hosted HTTPS checkout (Easebuzz / H5). Fall back to UPI deeplink if needed.
+    // Hosted HTTPS for mobile/fallback; also keep UPI deeplink for desktop QR.
     const data = response?.data;
     const nested = data?.data;
     const candidates = [
@@ -250,10 +254,9 @@ export class DsaGatewayPaymentService {
       data?.upi,
     ].filter((u): u is string => typeof u === "string" && u.length > 0);
 
-    const payUrl =
-      candidates.find((u) => /^https?:\/\//i.test(u)) ??
-      candidates.find((u) => /^upi:/i.test(u)) ??
-      candidates[0];
+    const httpsUrl = candidates.find((u) => /^https?:\/\//i.test(u));
+    const upiLink = candidates.find((u) => /^upi:/i.test(u));
+    const payUrl = httpsUrl ?? upiLink ?? candidates[0];
 
     if (!payUrl || typeof payUrl !== "string") {
       throw new ApiError(502, "Gateway did not return a payment URL");
@@ -276,8 +279,18 @@ export class DsaGatewayPaymentService {
       },
     );
 
-    this.log("createForOrder:done", { merchantOrderNo });
-    return { paymentUrl: payUrl, merchantOrderNo };
+    this.log("createForOrder:done", {
+      merchantOrderNo,
+      hasHttps: Boolean(httpsUrl),
+      hasUpi: Boolean(upiLink),
+    });
+    return {
+      paymentUrl: payUrl,
+      merchantOrderNo,
+      orderNumber: order.orderNumber,
+      amount: chargeTotal,
+      ...(upiLink ? { upiLink } : {}),
+    };
   }
 
   static verifyWebhookSignature(body: GatewayWebhookBody): boolean {

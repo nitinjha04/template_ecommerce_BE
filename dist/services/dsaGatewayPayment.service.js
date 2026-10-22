@@ -175,7 +175,7 @@ class DsaGatewayPaymentService {
             gatewayStatus: response.status,
             response: response.data,
         });
-        // Prefer hosted HTTPS checkout (Easebuzz / H5). Fall back to UPI deeplink if needed.
+        // Hosted HTTPS for mobile/fallback; also keep UPI deeplink for desktop QR.
         const data = response?.data;
         const nested = data?.data;
         const candidates = [
@@ -189,9 +189,9 @@ class DsaGatewayPaymentService {
             nested?.upi,
             data?.upi,
         ].filter((u) => typeof u === "string" && u.length > 0);
-        const payUrl = candidates.find((u) => /^https?:\/\//i.test(u)) ??
-            candidates.find((u) => /^upi:/i.test(u)) ??
-            candidates[0];
+        const httpsUrl = candidates.find((u) => /^https?:\/\//i.test(u));
+        const upiLink = candidates.find((u) => /^upi:/i.test(u));
+        const payUrl = httpsUrl ?? upiLink ?? candidates[0];
         if (!payUrl || typeof payUrl !== "string") {
             throw new ApiError_1.ApiError(502, "Gateway did not return a payment URL");
         }
@@ -208,8 +208,18 @@ class DsaGatewayPaymentService {
                 "gateway.createResponse": response?.data,
             },
         });
-        this.log("createForOrder:done", { merchantOrderNo });
-        return { paymentUrl: payUrl, merchantOrderNo };
+        this.log("createForOrder:done", {
+            merchantOrderNo,
+            hasHttps: Boolean(httpsUrl),
+            hasUpi: Boolean(upiLink),
+        });
+        return {
+            paymentUrl: payUrl,
+            merchantOrderNo,
+            orderNumber: order.orderNumber,
+            amount: chargeTotal,
+            ...(upiLink ? { upiLink } : {}),
+        };
     }
     static verifyWebhookSignature(body) {
         if (!(0, env_1.isDsaGatewayConfigured)())
