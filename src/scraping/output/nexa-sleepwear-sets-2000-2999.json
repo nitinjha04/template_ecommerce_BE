@@ -1,0 +1,965 @@
+{
+  "scrapedAt": "2026-06-24T19:18:47.496Z",
+  "categoryFilter": "maxwomen-sleepwear-sets",
+  "categoryName": "sleepwear sets",
+  "categorySlug": "maxwomen-sleepwear-sets",
+  "storeId": "6a3bf2e10b0f40e291c26f6f",
+  "storeDomain": "nexa-skyline.com",
+  "priceMin": 2000,
+  "priceMax": 2999,
+  "categoryId": "maxwomen-sleepwear-sets",
+  "priceMode": "random",
+  "sort": "high-to-low",
+  "totalProducts": 15,
+  "pagesFetched": 1,
+  "products": [
+    {
+      "name": "Women Ribbed PJ Set",
+      "slug": "1000016397856-green-olive",
+      "price": 2943,
+      "originalPrice": 3093,
+      "category": "sleepwear sets",
+      "description": "Women Ribbed PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaTitle": "Women Ribbed PJ Set",
+      "metaDescription": "Women Ribbed PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear sets",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016397856-Green-OLIVE-1000016397856_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016397856-Green-OLIVE-1000016397856_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016397856-Green-OLIVE-1000016397856_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016397856-Green-OLIVE-1000016397856_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016397856-Green-OLIVE-1000016397856_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016397856-Green-OLIVE-1000016397856_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016397856-Green-OLIVE-1000016397856_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016397856-Green-OLIVE-1000016397856_08-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear sets",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "12 x 16 x 5 cm",
+      "stockQuantity": 22,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear sets",
+      "_source": {
+        "nykaaId": "1000016397856GreenOLIVE",
+        "sku": "1000016397856-Green-OLIVE",
+        "categoryFilter": "maxwomen-sleepwear-sets",
+        "assignedPriceTier": 2943
+      }
+    },
+    {
+      "name": "Women Textured PJ Set",
+      "slug": "1000016397843-brown-darkbrown",
+      "price": 2058,
+      "originalPrice": 2208,
+      "category": "sleepwear sets",
+      "description": "Women Textured PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaTitle": "Women Textured PJ Set",
+      "metaDescription": "Women Textured PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear sets",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016397843-Brown-DARKBROWN-1000016397843_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016397843-Brown-DARKBROWN-1000016397843_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016397843-Brown-DARKBROWN-1000016397843_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016397843-Brown-DARKBROWN-1000016397843_04-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear sets",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "14 x 13 x 3 cm",
+      "stockQuantity": 56,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear sets",
+      "_source": {
+        "nykaaId": "1000016397843BrownDARKBROWN",
+        "sku": "1000016397843-Brown-DARKBROWN",
+        "categoryFilter": "maxwomen-sleepwear-sets",
+        "assignedPriceTier": 2058
+      }
+    },
+    {
+      "name": "Women Textured PJ Set",
+      "slug": "1000016397830-pink-lightpink",
+      "price": 2964,
+      "originalPrice": 3114,
+      "category": "sleepwear sets",
+      "description": "Women Textured PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaTitle": "Women Textured PJ Set",
+      "metaDescription": "Women Textured PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear sets",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016397830-Pink-LIGHTPINK-1000016397830_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016397830-Pink-LIGHTPINK-1000016397830_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016397830-Pink-LIGHTPINK-1000016397830_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016397830-Pink-LIGHTPINK-1000016397830_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016397830-Pink-LIGHTPINK-1000016397830_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016397830-Pink-LIGHTPINK-1000016397830_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016397830-Pink-LIGHTPINK-1000016397830_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016397830-Pink-LIGHTPINK-1000016397830_08-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear sets",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.4 kg",
+      "dimensions": "9 x 11 x 8 cm",
+      "stockQuantity": 20,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "1000016397830PinkLIGHTPINK",
+        "sku": "1000016397830-Pink-LIGHTPINK",
+        "categoryFilter": "maxwomen-sleepwear-sets",
+        "assignedPriceTier": 2964
+      }
+    },
+    {
+      "name": "Women Waffle Patterned PJ Set",
+      "slug": "1000015839720-brown-lightbrown",
+      "price": 2759,
+      "originalPrice": 2909,
+      "category": "sleepwear sets",
+      "description": "Women Waffle Patterned PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaTitle": "Women Waffle Patterned PJ Set",
+      "metaDescription": "Women Waffle Patterned PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear sets",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Pink"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015839720-Brown-LIGHTBROWN-1000015839720_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839720-Brown-LIGHTBROWN-1000015839720_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839720-Brown-LIGHTBROWN-1000015839720_09-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839720-Brown-LIGHTBROWN-1000015839720_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839720-Brown-LIGHTBROWN-1000015839720_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839720-Brown-LIGHTBROWN-1000015839720_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839720-Brown-LIGHTBROWN-1000015839720_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839720-Brown-LIGHTBROWN-1000015839720_07-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear sets",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "8 x 15 x 7 cm",
+      "stockQuantity": 71,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1000015839720BrownLIGHTBROWN",
+        "sku": "1000015839720-Brown-LIGHTBROWN",
+        "categoryFilter": "maxwomen-sleepwear-sets",
+        "assignedPriceTier": 2759
+      }
+    },
+    {
+      "name": "Women Fuzzy PJ Set",
+      "slug": "1000015839694-blue-lightblue",
+      "price": 2664,
+      "originalPrice": 2814,
+      "category": "sleepwear sets",
+      "description": "Women Fuzzy PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaTitle": "Women Fuzzy PJ Set",
+      "metaDescription": "Women Fuzzy PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear sets",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015839694-Blue-LIGHTBLUE-1000015839694_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839694-Blue-LIGHTBLUE-1000015839694_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839694-Blue-LIGHTBLUE-1000015839694_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839694-Blue-LIGHTBLUE-1000015839694_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839694-Blue-LIGHTBLUE-1000015839694_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839694-Blue-LIGHTBLUE-1000015839694_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839694-Blue-LIGHTBLUE-1000015839694_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839694-Blue-LIGHTBLUE-1000015839694_08-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear sets",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Full length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "12 x 15 x 4 cm",
+      "stockQuantity": 31,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear sets",
+      "_source": {
+        "nykaaId": "1000015839694BlueLIGHTBLUE",
+        "sku": "1000015839694-Blue-LIGHTBLUE",
+        "categoryFilter": "maxwomen-sleepwear-sets",
+        "assignedPriceTier": 2664
+      }
+    },
+    {
+      "name": "Women Applique Cosy PJ Set",
+      "slug": "1000015839707-blue-lightblue",
+      "price": 2728,
+      "originalPrice": 2878,
+      "category": "sleepwear sets",
+      "description": "Women Applique Cosy PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaTitle": "Women Applique Cosy PJ Set",
+      "metaDescription": "Women Applique Cosy PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear sets",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015839707-Blue-LIGHTBLUE-1000015839707_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839707-Blue-LIGHTBLUE-1000015839707_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839707-Blue-LIGHTBLUE-1000015839707_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839707-Blue-LIGHTBLUE-1000015839707_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839707-Blue-LIGHTBLUE-1000015839707_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839707-Blue-LIGHTBLUE-1000015839707_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839707-Blue-LIGHTBLUE-1000015839707_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839707-Blue-LIGHTBLUE-1000015839707_08-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear sets",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.7 kg",
+      "dimensions": "12 x 10 x 4 cm",
+      "stockQuantity": 59,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear sets",
+      "_source": {
+        "nykaaId": "1000015839707BlueLIGHTBLUE",
+        "sku": "1000015839707-Blue-LIGHTBLUE",
+        "categoryFilter": "maxwomen-sleepwear-sets",
+        "assignedPriceTier": 2728
+      }
+    },
+    {
+      "name": "Women Cosy PJ Set",
+      "slug": "1000015839681-pink-lightpink",
+      "price": 2030,
+      "originalPrice": 2180,
+      "category": "sleepwear sets",
+      "description": "Women Cosy PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaTitle": "Women Cosy PJ Set",
+      "metaDescription": "Women Cosy PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear sets",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Pink"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015839681-Pink-LIGHTPINK-1000015839681_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839681-Pink-LIGHTPINK-1000015839681_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839681-Pink-LIGHTPINK-1000015839681_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839681-Pink-LIGHTPINK-1000015839681_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839681-Pink-LIGHTPINK-1000015839681_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839681-Pink-LIGHTPINK-1000015839681_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839681-Pink-LIGHTPINK-1000015839681_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839681-Pink-LIGHTPINK-1000015839681_08-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear sets",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 15 x 8 cm",
+      "stockQuantity": 78,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-11T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear sets",
+      "_source": {
+        "nykaaId": "1000015839681PinkLIGHTPINK",
+        "sku": "1000015839681-Pink-LIGHTPINK",
+        "categoryFilter": "maxwomen-sleepwear-sets",
+        "assignedPriceTier": 2030
+      }
+    },
+    {
+      "name": "Women Printed PJ Set",
+      "slug": "1000016275948-purple-mauve",
+      "price": 2166,
+      "originalPrice": 2316,
+      "category": "sleepwear sets",
+      "description": "Women Printed PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaTitle": "Women Printed PJ Set",
+      "metaDescription": "Women Printed PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear sets",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL"
+      ],
+      "colors": [
+        "Orange"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016275948-Purple-MAUVE-1000016370178_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016275948-Purple-MAUVE-1000016370178_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016275948-Purple-MAUVE-1000016370178_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016275948-Purple-MAUVE-1000016370178_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016275948-Purple-MAUVE-1000016370178_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016275948-Purple-MAUVE-1000016370178_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016275948-Purple-MAUVE-1000016370178_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016275948-Purple-MAUVE-1000016370178_08-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear sets",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.5 kg",
+      "dimensions": "11 x 16 x 5 cm",
+      "stockQuantity": 46,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear sets",
+      "_source": {
+        "nykaaId": "1000016275948PurpleMAUVE",
+        "sku": "1000016275948-Purple-MAUVE",
+        "categoryFilter": "maxwomen-sleepwear-sets",
+        "assignedPriceTier": 2166
+      }
+    },
+    {
+      "name": "Women Printed PJ Set",
+      "slug": "1000016275930-black-black",
+      "price": 2043,
+      "originalPrice": 2193,
+      "category": "sleepwear sets",
+      "description": "Women Printed PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaTitle": "Women Printed PJ Set",
+      "metaDescription": "Women Printed PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear sets",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016275930-Black-BLACK-1000016198684_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016275930-Black-BLACK-1000016198684_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016275930-Black-BLACK-1000016198684_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016275930-Black-BLACK-1000016198684_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016275930-Black-BLACK-1000016198684_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016275930-Black-BLACK-1000016198684_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016275930-Black-BLACK-1000016198684_07-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016275930-Black-BLACK-1000016198684_08-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear sets",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Dry clean recommended",
+      "neckline": "Round",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Regular fit",
+      "weight": "0.6 kg",
+      "dimensions": "10 x 11 x 3 cm",
+      "stockQuantity": 33,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear sets",
+      "_source": {
+        "nykaaId": "1000016275930BlackBLACK",
+        "sku": "1000016275930-Black-BLACK",
+        "categoryFilter": "maxwomen-sleepwear-sets",
+        "assignedPriceTier": 2043
+      }
+    },
+    {
+      "name": "Women Printed PJ Set",
+      "slug": "1000016275921-beige-oatmarl",
+      "price": 2687,
+      "originalPrice": 2837,
+      "category": "sleepwear sets",
+      "description": "Women Printed PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaTitle": "Women Printed PJ Set",
+      "metaDescription": "Women Printed PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear sets",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016275921-Beige-OATMARL-1000016198671_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016275921-Beige-OATMARL-1000016198671_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016275921-Beige-OATMARL-1000016198671_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016275921-Beige-OATMARL-1000016198671_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016275921-Beige-OATMARL-1000016198671_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016275921-Beige-OATMARL-1000016198671_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016275921-Beige-OATMARL-1000016198671_07-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016275921-Beige-OATMARL-1000016198671_08-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear sets",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "12 x 14 x 7 cm",
+      "stockQuantity": 114,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear sets",
+      "_source": {
+        "nykaaId": "1000016275921BeigeOATMARL",
+        "sku": "1000016275921-Beige-OATMARL",
+        "categoryFilter": "maxwomen-sleepwear-sets",
+        "assignedPriceTier": 2687
+      }
+    },
+    {
+      "name": "Women Floral Print PJ Set",
+      "slug": "1000016275912-lightblue-blue",
+      "price": 2755,
+      "originalPrice": 2905,
+      "category": "sleepwear sets",
+      "description": "Women Floral Print PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print PJ Set",
+      "metaDescription": "Women Floral Print PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear sets",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016275912-LIGHTBLUE-Blue-1000016198658_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016275912-LIGHTBLUE-Blue-1000016198658_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016275912-LIGHTBLUE-Blue-1000016198658_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016275912-LIGHTBLUE-Blue-1000016198658_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016275912-LIGHTBLUE-Blue-1000016198658_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016275912-LIGHTBLUE-Blue-1000016198658_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016275912-LIGHTBLUE-Blue-1000016198658_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016275912-LIGHTBLUE-Blue-1000016198658_08-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear sets",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.6 kg",
+      "dimensions": "8 x 16 x 7 cm",
+      "stockQuantity": 77,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear sets",
+      "_source": {
+        "nykaaId": "1000016275912LIGHTBLUEBlue",
+        "sku": "1000016275912-LIGHTBLUE-Blue",
+        "categoryFilter": "maxwomen-sleepwear-sets",
+        "assignedPriceTier": 2755
+      }
+    },
+    {
+      "name": "Women Textured PJ Set",
+      "slug": "1000016249153-brown-darkbrown",
+      "price": 2033,
+      "originalPrice": 2183,
+      "category": "sleepwear sets",
+      "description": "Women Textured PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaTitle": "Women Textured PJ Set",
+      "metaDescription": "Women Textured PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear sets",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016249153-Brown-DARKBROWN-1000016249153_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016249153-Brown-DARKBROWN-1000016249153_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016249153-Brown-DARKBROWN-1000016249153_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016249153-Brown-DARKBROWN-1000016249153_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016249153-Brown-DARKBROWN-1000016249153_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016249153-Brown-DARKBROWN-1000016249153_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016249153-Brown-DARKBROWN-1000016249153_07-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016249153-Brown-DARKBROWN-1000016249153_08-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear sets",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Medium",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.4 kg",
+      "dimensions": "9 x 15 x 6 cm",
+      "stockQuantity": 77,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "1000016249153BrownDARKBROWN",
+        "sku": "1000016249153-Brown-DARKBROWN",
+        "categoryFilter": "maxwomen-sleepwear-sets",
+        "assignedPriceTier": 2033
+      }
+    },
+    {
+      "name": "Women Printed PJ Set",
+      "slug": "1000016227837-brown-lightbrown",
+      "price": 2991,
+      "originalPrice": 3141,
+      "category": "sleepwear sets",
+      "description": "Women Printed PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaTitle": "Women Printed PJ Set",
+      "metaDescription": "Women Printed PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear sets",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016227837-Brown-LIGHTBROWN-1000016227837_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016227837-Brown-LIGHTBROWN-1000016227837_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016227837-Brown-LIGHTBROWN-1000016227837_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016227837-Brown-LIGHTBROWN-1000016227837_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016227837-Brown-LIGHTBROWN-1000016227837_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016227837-Brown-LIGHTBROWN-1000016227837_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016227837-Brown-LIGHTBROWN-1000016227837_07-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016227837-Brown-LIGHTBROWN-1000016227837_08-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear sets",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "10 x 13 x 6 cm",
+      "stockQuantity": 28,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-03T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "1000016227837BrownLIGHTBROWN",
+        "sku": "1000016227837-Brown-LIGHTBROWN",
+        "categoryFilter": "maxwomen-sleepwear-sets",
+        "assignedPriceTier": 2991
+      }
+    },
+    {
+      "name": "Women Ribbed PJ Set",
+      "slug": "1000016227824-blue-navy",
+      "price": 2604,
+      "originalPrice": 2754,
+      "category": "sleepwear sets",
+      "description": "Women Ribbed PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaTitle": "Women Ribbed PJ Set",
+      "metaDescription": "Women Ribbed PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear sets",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016227824-Blue-NAVY-1000016227824_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016227824-Blue-NAVY-1000016227824_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016227824-Blue-NAVY-1000016227824_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016227824-Blue-NAVY-1000016227824_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016227824-Blue-NAVY-1000016227824_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016227824-Blue-NAVY-1000016227824_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016227824-Blue-NAVY-1000016227824_07-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016227824-Blue-NAVY-1000016227824_08-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear sets",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.4 kg",
+      "dimensions": "9 x 15 x 6 cm",
+      "stockQuantity": 56,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear sets",
+      "_source": {
+        "nykaaId": "1000016227824BlueNAVY",
+        "sku": "1000016227824-Blue-NAVY",
+        "categoryFilter": "maxwomen-sleepwear-sets",
+        "assignedPriceTier": 2604
+      }
+    },
+    {
+      "name": "Women Knitted PJ Set",
+      "slug": "1000016227811-purple-mauve",
+      "price": 2169,
+      "originalPrice": 2319,
+      "category": "sleepwear sets",
+      "description": "Women Knitted PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaTitle": "Women Knitted PJ Set",
+      "metaDescription": "Women Knitted PJ Set. Premium sleepwear sets from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear sets",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Purple"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016227811-Purple-MAUVE-1000016227811_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016227811-Purple-MAUVE-1000016227811_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016227811-Purple-MAUVE-1000016227811_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016227811-Purple-MAUVE-1000016227811_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016227811-Purple-MAUVE-1000016227811_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016227811-Purple-MAUVE-1000016227811_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016227811-Purple-MAUVE-1000016227811_07-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016227811-Purple-MAUVE-1000016227811_08-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear sets",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.4 kg",
+      "dimensions": "8 x 10 x 8 cm",
+      "stockQuantity": 52,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-03T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000016227811PurpleMAUVE",
+        "sku": "1000016227811-Purple-MAUVE",
+        "categoryFilter": "maxwomen-sleepwear-sets",
+        "assignedPriceTier": 2169
+      }
+    }
+  ]
+}

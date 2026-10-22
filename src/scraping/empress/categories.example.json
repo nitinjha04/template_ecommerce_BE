@@ -1,0 +1,65 @@
+[
+  {
+    "collectionHandle": "sarees",
+    "collectionUrl": "https://empress-clothing.com/collections/sarees",
+    "categoryName": "sarees",
+    "priceMin": 1000,
+    "priceMax": 1499,
+    "limit": 15,
+    "sort": "low-to-high"
+  },
+  {
+    "collectionHandle": "indo-western-wear",
+    "collectionUrl": "https://empress-clothing.com/collections/indo-western-wear",
+    "categoryName": "indo western wear",
+    "priceMin": 1499,
+    "priceMax": 1999,
+    "limit": 15,
+    "sort": "low-to-high"
+  },
+  {
+    "collectionHandle": "lehengas",
+    "collectionUrl": "https://empress-clothing.com/collections/lehengas",
+    "categoryName": "lehengas",
+    "priceMin": 2000,
+    "priceMax": 2999,
+    "limit": 15,
+    "sort": "high-to-low"
+  },
+  {
+    "collectionHandle": "salwar-kameez",
+    "collectionUrl": "https://empress-clothing.com/collections/salwar-kameez",
+    "categoryName": "salwar kameez",
+    "priceMin": 3000,
+    "priceMax": 3999,
+    "limit": 15,
+    "sort": "high-to-low"
+  },
+  {
+    "collectionHandle": "anarkali",
+    "collectionUrl": "https://empress-clothing.com/collections/anarkali",
+    "categoryName": "anarkali",
+    "priceMin": 4000,
+    "priceMax": 4999,
+    "limit": 15,
+    "sort": "high-to-low"
+  },
+  {
+    "collectionHandle": "sharara",
+    "collectionUrl": "https://empress-clothing.com/collections/sharara",
+    "categoryName": "sharara",
+    "priceMin": 5000,
+    "priceMax": 5999,
+    "limit": 15,
+    "sort": "high-to-low"
+  },
+  {
+    "collectionHandle": "gowns",
+    "collectionUrl": "https://empress-clothing.com/collections/gowns",
+    "categoryName": "gowns",
+    "priceMin": 6000,
+    "priceMax": 6999,
+    "limit": 15,
+    "sort": "high-to-low"
+  }
+]

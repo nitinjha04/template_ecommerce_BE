@@ -1,0 +1,2914 @@
+{
+  "scrapedAt": "2026-05-26T10:26:56.629Z",
+  "categoryFilter": "4497",
+  "categoryName": "tops",
+  "priceMin": 100,
+  "priceMax": 200,
+  "categoryId": "6557",
+  "quotas": {
+    "100": 25,
+    "200": 25
+  },
+  "totalProducts": 50,
+  "pagesFetched": 2,
+  "products": [
+    {
+      "name": "Twenty Dresses by Casaq Fashion — Blue And Black Animal Print Asymmetrical Crop T-shirt",
+      "slug": "twenty-dresses-by-casaq-fashion-blue-and-black-animal-print-asymmetrical-crop-t-shirt",
+      "price": 100,
+      "originalPrice": 885,
+      "category": "tops",
+      "description": "Blue And Black Animal Print Asymmetrical Crop T-shirt. Premium tops from our curated collection.",
+      "metaTitle": "Twenty Dresses by Casaq Fashion — Blue And Black Animal Print Asymmetr",
+      "metaDescription": "Blue And Black Animal Print Asymmetrical Crop T-shirt. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/3/d3dff8bTP2082_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/3/d3dff8bTP2082_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/3/d3dff8bTP2082_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/3/d3dff8bTP2082_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/3/d3dff8bTP2082_5.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Kurta",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.3 kg",
+      "dimensions": "12 x 16 x 2 cm",
+      "stockQuantity": 33,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "8283015",
+        "sku": "TWENT00019097",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Trend Arrest — Mustard Dobby Top",
+      "slug": "trend-arrest-mustard-dobby-top",
+      "price": 100,
+      "originalPrice": 1599,
+      "category": "tops",
+      "description": "Mustard Dobby Top. Premium tops from our curated collection.",
+      "metaTitle": "Trend Arrest — Mustard Dobby Top",
+      "metaDescription": "Mustard Dobby Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/1/11df8f6TA-T231603_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/1/11df8f6TA-T231603_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/1/11df8f6TA-T231603_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/1/11df8f6TA-T231603_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/1/11df8f6TA-T231603_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/1/11df8f6TA-T231603_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/1/11df8f6TA-T231603_7.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.8 kg",
+      "dimensions": "14 x 16 x 2 cm",
+      "stockQuantity": 70,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "6009844",
+        "sku": "TREAB00001339",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Trend Arrest — Multi Printed Shirt Style Crop Top",
+      "slug": "trend-arrest-multi-printed-shirt-style-crop-top",
+      "price": 100,
+      "originalPrice": 1599,
+      "category": "tops",
+      "description": "Multi Printed Shirt Style Crop Top. Premium tops from our curated collection.",
+      "metaTitle": "Trend Arrest — Multi Printed Shirt Style Crop Top",
+      "metaDescription": "Multi Printed Shirt Style Crop Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/a/1ad3910T240701_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/a/1ad3910T240701_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/a/1ad3910T240701_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/a/1ad3910T240701_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/a/1ad3910T240701_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/a/1ad3910T240701_6.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.6 kg",
+      "dimensions": "12 x 15 x 7 cm",
+      "stockQuantity": 91,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "8829877",
+        "sku": "TREAB00002217",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Trend Arrest — Orange Smocking Detail Top",
+      "slug": "trend-arrest-orange-smocking-detail-top",
+      "price": 100,
+      "originalPrice": 1499,
+      "category": "tops",
+      "description": "Orange Smocking Detail Top. Premium tops from our curated collection.",
+      "metaTitle": "Trend Arrest — Orange Smocking Detail Top",
+      "metaDescription": "Orange Smocking Detail Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/5/b580881Trend-T238501_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/5/b580881Trend-T238501_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/5/b580881Trend-T238501_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/5/b580881Trend-T238501_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/5/b580881Trend-T238501_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/5/b580881Trend-T238501_7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/5/b580881Trend-T238501_8.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/5/b580881Trend-T238501_9.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Trouser",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.4 kg",
+      "dimensions": "9 x 15 x 4 cm",
+      "stockQuantity": 89,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "8565437",
+        "sku": "TREAB00001913",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Trend Arrest — Blue Ruched Collar Top",
+      "slug": "trend-arrest-blue-ruching-collar-top",
+      "price": 100,
+      "originalPrice": 1299,
+      "category": "tops",
+      "description": "Blue Ruched Collar Top. Premium tops from our curated collection.",
+      "metaTitle": "Trend Arrest — Blue Ruched Collar Top",
+      "metaDescription": "Blue Ruched Collar Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/c/bcc9965T237801_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/c/bcc9965T237801_11.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/c/bcc9965T237801_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/c/bcc9965T237801_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/c/bcc9965T237801_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/c/bcc9965T237801_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/c/bcc9965T237801_7.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.4 kg",
+      "dimensions": "13 x 15 x 5 cm",
+      "stockQuantity": 99,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "9778755",
+        "sku": "TREAB00002508",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Trend Arrest — Floral Ruching Yellow Top",
+      "slug": "trend-arrest-floral-ruching-yellow-top",
+      "price": 100,
+      "originalPrice": 1299,
+      "category": "tops",
+      "description": "Floral Ruching Yellow Top. Premium tops from our curated collection.",
+      "metaTitle": "Trend Arrest — Floral Ruching Yellow Top",
+      "metaDescription": "Floral Ruching Yellow Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/3/e32d03aT232101_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/3/e32d03aT232101_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/3/e32d03aT232101_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/3/e32d03aT232101_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/3/e32d03aT232101_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/3/e32d03aT232101_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/3/e32d03aT232101_7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/3/e32d03aT232101_8.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "8 x 10 x 8 cm",
+      "stockQuantity": 106,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-02T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "4270446",
+        "sku": "TREAB00000672",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Trend Arrest — Green Floral Print Smocking Crop Top",
+      "slug": "trend-arrest-green-floral-print-smocking-crop-top",
+      "price": 100,
+      "originalPrice": 1299,
+      "category": "tops",
+      "description": "Green Floral Print Smocking Crop Top. Premium tops from our curated collection.",
+      "metaTitle": "Trend Arrest — Green Floral Print Smocking Crop Top",
+      "metaDescription": "Green Floral Print Smocking Crop Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/3/53976b3T228413_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/3/53976b3T228413_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/3/53976b3T228413_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/3/53976b3T228413_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/3/53976b3T228413_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/3/53976b3T228413_6.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.7 kg",
+      "dimensions": "13 x 11 x 7 cm",
+      "stockQuantity": 108,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "6855085",
+        "sku": "TREAB00001516",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Trend Arrest — Animal Print Top",
+      "slug": "trend-arrest-animal-print-top",
+      "price": 100,
+      "originalPrice": 1299,
+      "category": "tops",
+      "description": "Animal Print Top. Premium tops from our curated collection.",
+      "metaTitle": "Trend Arrest — Animal Print Top",
+      "metaDescription": "Animal Print Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/8/282f910T236701_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/8/282f910T236701_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/8/282f910T236701_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/8/282f910T236701_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/8/282f910T236701_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/8/282f910T236701_6.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.7 kg",
+      "dimensions": "9 x 12 x 3 cm",
+      "stockQuantity": 89,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-11T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "8829872",
+        "sku": "TREAB00002212",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Trend Arrest — Pink Floral Crop Top",
+      "slug": "trend-arrest-pink-floral-crop-top",
+      "price": 100,
+      "originalPrice": 1299,
+      "category": "tops",
+      "description": "Pink Floral Crop Top. Premium tops from our curated collection.",
+      "metaTitle": "Trend Arrest — Pink Floral Crop Top",
+      "metaDescription": "Pink Floral Crop Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/2/t230801_1_4d4d3783.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/2/t230801_2_9b1f96a5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/2/t230801_4_7e97e853.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/2/t230801_5_e8390b54.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/2/t230801_6_46c392ff.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/2/t230801_7_2b5216e5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/2/t230801_8_35a73775.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/2/t230801_9_a289d6da.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "12 x 15 x 2 cm",
+      "stockQuantity": 55,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "2757974",
+        "sku": "TRAT0447",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Trend Arrest — Printed Blue Peplum Top",
+      "slug": "trend-arrest-printed-blue-peplum-top",
+      "price": 100,
+      "originalPrice": 1299,
+      "category": "tops",
+      "description": "Printed Blue Peplum Top. Premium tops from our curated collection.",
+      "metaTitle": "Trend Arrest — Printed Blue Peplum Top",
+      "metaDescription": "Printed Blue Peplum Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/b/3b1ce7eT239201_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/b/3b1ce7eT239201_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/b/3b1ce7eT239201_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/b/3b1ce7eT239201_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/b/3b1ce7eT239201_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/b/3b1ce7eT239201_7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/b/3b1ce7eT239201_8.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.7 kg",
+      "dimensions": "12 x 15 x 6 cm",
+      "stockQuantity": 86,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "8704049",
+        "sku": "TREAB00002132",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Trend Arrest — Pink Asymmetric Strap Top",
+      "slug": "trend-arrest-pink-asymmetric-strap-top",
+      "price": 100,
+      "originalPrice": 1299,
+      "category": "tops",
+      "description": "Pink Asymmetric Strap Top. Premium tops from our curated collection.",
+      "metaTitle": "Trend Arrest — Pink Asymmetric Strap Top",
+      "metaDescription": "Pink Asymmetric Strap Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/2/62c3aeaT240901-1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/2/62c3aeaT240901-2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/2/62c3aeaT240901-3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/2/62c3aeaT240901-4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/2/62c3aeaT240901-5.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Trouser",
+      "washCare": "Dry clean recommended",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.7 kg",
+      "dimensions": "8 x 11 x 6 cm",
+      "stockQuantity": 66,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "11965651",
+        "sku": "TREAB00003046",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Trend Arrest — Red Printed Frill Crop Top",
+      "slug": "trend-arrest-red-printed-frill-crop-top",
+      "price": 100,
+      "originalPrice": 1399,
+      "category": "tops",
+      "description": "Red Printed Frill Crop Top. Premium tops from our curated collection.",
+      "metaTitle": "Trend Arrest — Red Printed Frill Crop Top",
+      "metaDescription": "Red Printed Frill Crop Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/b/7bd18a3T238701_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/b/7bd18a3T238701_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/b/7bd18a3T238701_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/b/7bd18a3T238701_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/b/7bd18a3T238701_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/b/7bd18a3T238701_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/b/7bd18a3T238701_7.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 10 x 8 cm",
+      "stockQuantity": 14,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-01T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "9568089",
+        "sku": "TREAB00002336",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Trend Arrest — Black Smocking Peplum Top",
+      "slug": "trend-arrest-black-smocking-peplum-top",
+      "price": 100,
+      "originalPrice": 1399,
+      "category": "tops",
+      "description": "Black Smocking Peplum Top. Premium tops from our curated collection.",
+      "metaTitle": "Trend Arrest — Black Smocking Peplum Top",
+      "metaDescription": "Black Smocking Peplum Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/2/t230601_1_2b8e0887.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/2/t230601_2_414a613d.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/2/t230601_5_0ec9cd95.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Long",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "9 x 10 x 2 cm",
+      "stockQuantity": 38,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-10T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "2190274",
+        "sku": "TRAT0361",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Trend Arrest — Red Off Shoulder Floral Smocking Top",
+      "slug": "trend-arrest-red-off-shoulder-floral-smocking-top",
+      "price": 100,
+      "originalPrice": 1399,
+      "category": "tops",
+      "description": "Red Off Shoulder Floral Smocking Top. Premium tops from our curated collection.",
+      "metaTitle": "Trend Arrest — Red Off Shoulder Floral Smocking Top",
+      "metaDescription": "Red Off Shoulder Floral Smocking Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/r/trend-t231001_1_bfecfa47.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/r/trend-t231001_2_04c75725.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/r/trend-t231001_3_6230926d.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/r/trend-t231001_4_5e6cd3af.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/r/trend-t231001_5_424f0920.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/r/trend-t231001_6_bb29d3d1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/r/trend-t231001_7_5df7783f.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/r/trend-t231001_8_4c359160.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Jacket",
+      "washCare": "Dry clean recommended",
+      "neckline": "Band collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.4 kg",
+      "dimensions": "13 x 10 x 4 cm",
+      "stockQuantity": 103,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "2558318",
+        "sku": "TRAT0419",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Trend Arrest — Navy Blue Smocking Top",
+      "slug": "trend-arrest-navy-blue-smocking-top",
+      "price": 100,
+      "originalPrice": 1399,
+      "category": "tops",
+      "description": "Navy Blue Smocking Top. Premium tops from our curated collection.",
+      "metaTitle": "Trend Arrest — Navy Blue Smocking Top",
+      "metaDescription": "Navy Blue Smocking Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/7/1796e7eT236501_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/7/1796e7eT236501_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/7/1796e7eT236501_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/7/1796e7eT236501_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/7/1796e7eT236501_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/7/1796e7eT236501_7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/7/1796e7eT236501_8.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "12 x 13 x 5 cm",
+      "stockQuantity": 120,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "8704042",
+        "sku": "TREAB00002125",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Trend Arrest — Grey Satin Party Crop Top",
+      "slug": "trend-arrest-grey-satin-party-crop-top",
+      "price": 100,
+      "originalPrice": 1399,
+      "category": "tops",
+      "description": "Grey Satin Party Crop Top. Premium tops from our curated collection.",
+      "metaTitle": "Trend Arrest — Grey Satin Party Crop Top",
+      "metaDescription": "Grey Satin Party Crop Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/2/62c3aeaT242201-1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/2/62c3aeaT242201-2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/2/62c3aeaT242201-3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/2/62c3aeaT242201-4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/2/62c3aeaT242201-5.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.3 kg",
+      "dimensions": "8 x 14 x 3 cm",
+      "stockQuantity": 34,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "11965648",
+        "sku": "TREAB00003043",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Trend Arrest — Yellow Dobby Ruffle Sleeve Top",
+      "slug": "trend-arrest-yellow-dobby-ruffle-sleeve-top",
+      "price": 100,
+      "originalPrice": 1399,
+      "category": "tops",
+      "description": "Yellow Dobby Ruffle Sleeve Top. Premium tops from our curated collection.",
+      "metaTitle": "Trend Arrest — Yellow Dobby Ruffle Sleeve Top",
+      "metaDescription": "Yellow Dobby Ruffle Sleeve Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/2/522c910T238601_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/2/522c910T238601_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/2/522c910T238601_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/2/522c910T238601_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/2/522c910T238601_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/2/522c910T238601_6.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Jacket",
+      "washCare": "Dry clean recommended",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.8 kg",
+      "dimensions": "13 x 12 x 5 cm",
+      "stockQuantity": 38,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-11T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "8829873",
+        "sku": "TREAB00002213",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Trend Arrest — Red Ruching Top",
+      "slug": "trend-arrest-red-ruching-top",
+      "price": 100,
+      "originalPrice": 1399,
+      "category": "tops",
+      "description": "Red Ruching Top. Premium tops from our curated collection.",
+      "metaTitle": "Trend Arrest — Red Ruching Top",
+      "metaDescription": "Red Ruching Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/c/3c0203aT231401_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/c/3c0203aT231401_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/c/3c0203aT231401_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/c/3c0203aT231401_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/c/3c0203aT231401_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/c/3c0203aT231401_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/c/3c0203aT231401_7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/c/3c0203aT231401_8.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "8 x 15 x 3 cm",
+      "stockQuantity": 118,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "4270443",
+        "sku": "TREAB00000669",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Trend Arrest — Red Eye Cut Out Top",
+      "slug": "trend-arrest-red-eye-cut-out-top",
+      "price": 100,
+      "originalPrice": 1399,
+      "category": "tops",
+      "description": "Red Eye Cut Out Top. Premium tops from our curated collection.",
+      "metaTitle": "Trend Arrest — Red Eye Cut Out Top",
+      "metaDescription": "Red Eye Cut Out Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/1/419f2e7T243001_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/1/419f2e7T243001_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/1/419f2e7T243001_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/1/419f2e7T243001_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/1/419f2e7T243001_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/1/419f2e7T243001_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/1/419f2e7T243001_7.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Relaxed fit",
+      "weight": "0.7 kg",
+      "dimensions": "13 x 15 x 5 cm",
+      "stockQuantity": 27,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "12547681",
+        "sku": "TREAB00003247",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Trend Arrest — Puff Sleeves Printed Top",
+      "slug": "trend-arrest-puff-sleeves-printed-top",
+      "price": 100,
+      "originalPrice": 1799,
+      "category": "tops",
+      "description": "Puff Sleeves Printed Top. Premium tops from our curated collection.",
+      "metaTitle": "Trend Arrest — Puff Sleeves Printed Top",
+      "metaDescription": "Puff Sleeves Printed Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/f/0f32631T242701_0.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/f/0f32631T242701_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/f/0f32631T242701_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/f/0f32631T242701_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/f/0f32631T242701_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/f/0f32631T242701_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/f/0f32631T242701_7.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.5 kg",
+      "dimensions": "11 x 10 x 7 cm",
+      "stockQuantity": 105,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "12189819",
+        "sku": "TREAB00003133",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Trend Arrest — Green Rib Top",
+      "slug": "trend-arrest-green-rib-top",
+      "price": 100,
+      "originalPrice": 899,
+      "category": "tops",
+      "description": "Green Rib Top. Premium tops from our curated collection.",
+      "metaTitle": "Trend Arrest — Green Rib Top",
+      "metaDescription": "Green Rib Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/9/b98f2cdRE-T2362A01_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/9/b98f2cdRE-T2362A01_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/9/b98f2cdRE-T2362A01_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/9/b98f2cdRE-T2362A01_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/9/b98f2cdRE-T2362A01_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/9/b98f2cdRE-T2362A01_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/9/b98f2cdRE-T2362A01_7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/9/b98f2cdRE-T2362A01_8.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.6 kg",
+      "dimensions": "10 x 14 x 5 cm",
+      "stockQuantity": 57,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-11T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "10765571",
+        "sku": "TREAB00002777",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Twenty Dresses by Casaq Fashion — Lilac One Shoulder Crop Top",
+      "slug": "twenty-dresses-by-casaq-fashion-lilac-one-shoulder-crop-top",
+      "price": 100,
+      "originalPrice": 995,
+      "category": "tops",
+      "description": "Lilac One Shoulder Crop Top. Premium tops from our curated collection.",
+      "metaTitle": "Twenty Dresses by Casaq Fashion — Lilac One Shoulder Crop Top",
+      "metaDescription": "Lilac One Shoulder Crop Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/3/b397e5fTP012303_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/3/b397e5fTP012303_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/3/b397e5fTP012303_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/3/b397e5fTP012303_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/3/b397e5fTP012303_5.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 13 x 7 cm",
+      "stockQuantity": 12,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "9333816",
+        "sku": "TWENT00021740",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "MIXT by Casaq Fashion — Moss Green Solid Round Neck Mesh Party Top",
+      "slug": "mixt-by-casaq-fashion-moss-green-solid-round-neck-mesh-party-top",
+      "price": 100,
+      "originalPrice": 995,
+      "category": "tops",
+      "description": "Moss Green Solid Round Neck Mesh Party Top. Premium tops from our curated collection.",
+      "metaTitle": "MIXT by Casaq Fashion — Moss Green Solid Round Neck Mesh Party Top",
+      "metaDescription": "Moss Green Solid Round Neck Mesh Party Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "XXS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/7/b78d97dTP052960_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/7/b78d97dTP052960_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/7/b78d97dTP052960_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/7/b78d97dTP052960_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/7/b78d97dTP052960_5.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Full length",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "V-neck",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.4 kg",
+      "dimensions": "9 x 13 x 5 cm",
+      "stockQuantity": 99,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "13387536",
+        "sku": "MIXTB00005116",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Trend Arrest — Pink Bustier Crop Top",
+      "slug": "trend-arrest-pink-bustier-crop-top",
+      "price": 100,
+      "originalPrice": 999,
+      "category": "tops",
+      "description": "Pink Bustier Crop Top. Premium tops from our curated collection.",
+      "metaTitle": "Trend Arrest — Pink Bustier Crop Top",
+      "metaDescription": "Pink Bustier Crop Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/d/4d20605T244301_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/d/4d20605T244301_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/d/4d20605T244301_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/d/4d20605T244301_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/d/4d20605T244301_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/d/4d20605T244301_6.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.6 kg",
+      "dimensions": "12 x 12 x 8 cm",
+      "stockQuantity": 45,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "14477841",
+        "sku": "TREAB00003719",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Trend Arrest — Pink Collar Neck Crop Top",
+      "slug": "trend-arrest-pink-collar-neck-crop-top",
+      "price": 100,
+      "originalPrice": 999,
+      "category": "tops",
+      "description": "Pink Collar Neck Crop Top. Premium tops from our curated collection.",
+      "metaTitle": "Trend Arrest — Pink Collar Neck Crop Top",
+      "metaDescription": "Pink Collar Neck Crop Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/a/aa36fb0T239901_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/a/aa36fb0T239901_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/a/aa36fb0T239901_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/a/aa36fb0T239901_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/a/aa36fb0T239901_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/a/aa36fb0T239901_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/a/aa36fb0T239901_7.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash cold",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 11 x 4 cm",
+      "stockQuantity": 90,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "9607495",
+        "sku": "TREAB00002461",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Beatnik — Black Cami Top",
+      "slug": "beatnik-black-cami-top",
+      "price": 200,
+      "originalPrice": 299,
+      "category": "tops",
+      "description": "Black Cami Top. Premium tops from our curated collection.",
+      "metaTitle": "Beatnik — Black Cami Top",
+      "metaDescription": "Black Cami Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/a/fadbc7dWTO172X01Black_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/a/fadbc7dWTO172X01Black_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/a/fadbc7dWTO172X01Black_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/a/fadbc7dWTO172X01Black_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/a/fadbc7dWTO172X01Black_5.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Long",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.5 kg",
+      "dimensions": "11 x 10 x 8 cm",
+      "stockQuantity": 52,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "26928818",
+        "sku": "BEATN00002318",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    },
+    {
+      "name": "Trend Arrest — Green Ruched Tank Top",
+      "slug": "trend-arrest-green-ruched-tank-top",
+      "price": 200,
+      "originalPrice": 1199,
+      "category": "tops",
+      "description": "Green Ruched Tank Top. Premium tops from our curated collection.",
+      "metaTitle": "Trend Arrest — Green Ruched Tank Top",
+      "metaDescription": "Green Ruched Tank Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/2/722cfc5T244801_0.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/2/722cfc5T244801_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/2/722cfc5T244801_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/2/722cfc5T244801_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/2/722cfc5T244801_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/2/722cfc5T244801_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/2/722cfc5T244801_7.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 16 x 5 cm",
+      "stockQuantity": 106,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "15219379",
+        "sku": "TREAB00003836",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    },
+    {
+      "name": "Twenty Dresses by Casaq Fashion — Blue and White Pinstriped Crop Top",
+      "slug": "twenty-dresses-blue-the-stripe-story-crop-top",
+      "price": 200,
+      "originalPrice": 1095,
+      "category": "tops",
+      "description": "Blue and White Pinstriped Crop Top. Premium tops from our curated collection.",
+      "metaTitle": "Twenty Dresses by Casaq Fashion — Blue and White Pinstriped Crop Top",
+      "metaDescription": "Blue and White Pinstriped Crop Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/1/a1457dcNFTD_TWDR551_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/1/a1457dcNFTD_TWDR551_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/1/a1457dcNFTD_REGULAR_SIZE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/1/a1457dcNFTD_TWDR551_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/1/a1457dcNFTD_TWDR551_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/1/a1457dcNFTD_TWDR551_5.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Band collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.6 kg",
+      "dimensions": "11 x 11 x 7 cm",
+      "stockQuantity": 73,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "422776",
+        "sku": "TWDR551",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    },
+    {
+      "name": "Twenty Dresses by Casaq Fashion — Basics Sky Blue Solid Round Neck Crop T Shirt",
+      "slug": "twenty-dresses-by-casaq-fashion-sky-blue-cover-the-basics-crop-top",
+      "price": 200,
+      "originalPrice": 1095,
+      "category": "tops",
+      "description": "Basics Sky Blue Solid Round Neck Crop T Shirt. Premium tops from our curated collection.",
+      "metaTitle": "Twenty Dresses by Casaq Fashion — Basics Sky Blue Solid Round Neck Cro",
+      "metaDescription": "Basics Sky Blue Solid Round Neck Crop T Shirt. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/d/5dad7dcNFTD_TWDR859_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/d/5dad7dcNFTD_TWDR859_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/d/5dad7dcNFTD_REGULAR_SIZE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/d/5dad7dcNFTD_TWDR859_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/d/5dad7dcNFTD_TWDR859_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/d/5dad7dcNFTD_TWDR859_5.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "11 x 10 x 6 cm",
+      "stockQuantity": 96,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "1359298",
+        "sku": "TWDR859",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    },
+    {
+      "name": "Twenty Dresses by Casaq Fashion — Blue Solid Round Neck T Shirt",
+      "slug": "twenty-dresses-by-casaq-fashion-blue-beneath-the-night-sky-top",
+      "price": 200,
+      "originalPrice": 1095,
+      "category": "tops",
+      "description": "Blue Solid Round Neck T Shirt. Premium tops from our curated collection.",
+      "metaTitle": "Twenty Dresses by Casaq Fashion — Blue Solid Round Neck T Shirt",
+      "metaDescription": "Blue Solid Round Neck T Shirt. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/4/94497dcNFTD_TWENT00008003_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/4/94497dcNFTD_TWENT00008003_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/4/94497dcNFTD_REGULAR_SIZE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/4/94497dcNFTD_TWENT00008003_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/4/94497dcNFTD_TWENT00008003_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/4/94497dcNFTD_TWENT00008003_5.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.4 kg",
+      "dimensions": "11 x 10 x 8 cm",
+      "stockQuantity": 105,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "4375926",
+        "sku": "TWENT00008003",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    },
+    {
+      "name": "MIXT by Casaq Fashion — Multicoloured Floral Printed Halter Neck Crop Top",
+      "slug": "mixt-by-casaq-fashion-multicoloured-floral-printed-halter-neck-crop-top",
+      "price": 200,
+      "originalPrice": 895,
+      "category": "tops",
+      "description": "Multicoloured Floral Printed Halter Neck Crop Top. Premium tops from our curated collection.",
+      "metaTitle": "MIXT by Casaq Fashion — Multicoloured Floral Printed Halter Neck Crop ",
+      "metaDescription": "Multicoloured Floral Printed Halter Neck Crop Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/4/7450135NF_MIXTB00000374_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/4/7450135NF_MIXTB00000374_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/4/7450135NF_MIXTB00000374_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/4/7450135NF_MIXTB00000374_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/4/7450135NF_MIXTB00000374_5.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.4 kg",
+      "dimensions": "10 x 14 x 4 cm",
+      "stockQuantity": 38,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-10T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "8795332",
+        "sku": "MIXTB00000374",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    },
+    {
+      "name": "Globus — Solid Pink Top",
+      "slug": "globus-solid-pink-top",
+      "price": 200,
+      "originalPrice": 1049,
+      "category": "tops",
+      "description": "Solid Pink Top. Premium tops from our curated collection.",
+      "metaTitle": "Globus — Solid Pink Top",
+      "metaDescription": "Solid Pink Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/b/4b7b09dS22WCSLTSHAA0001-SALMON_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/b/4b7b09dS22WCSLTSHAA0001-SALMON_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/b/4b7b09dS22WCSLTSHAA0001-SALMON_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/b/4b7b09dS22WCSLTSHAA0001-SALMON_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/b/4b7b09dS22WCSLTSHAA0001-SALMON_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/b/4b7b09dS22WCSLTSHAA0001-SALMON_6.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.6 kg",
+      "dimensions": "14 x 12 x 5 cm",
+      "stockQuantity": 27,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-02T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "9400191",
+        "sku": "GLOAD00009290",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    },
+    {
+      "name": "Globus — Solid Blue Top",
+      "slug": "globus-solid-blue-top",
+      "price": 200,
+      "originalPrice": 1049,
+      "category": "tops",
+      "description": "Solid Blue Top. Premium tops from our curated collection.",
+      "metaTitle": "Globus — Solid Blue Top",
+      "metaDescription": "Solid Blue Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/a/dabe09dS22WCSLTSHAA0002-SKYBLUE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/a/dabe09dS22WCSLTSHAA0002-SKYBLUE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/a/dabe09dS22WCSLTSHAA0002-SKYBLUE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/a/dabe09dS22WCSLTSHAA0002-SKYBLUE_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/a/dabe09dS22WCSLTSHAA0002-SKYBLUE_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/a/dabe09dS22WCSLTSHAA0002-SKYBLUE_6.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.8 kg",
+      "dimensions": "10 x 16 x 2 cm",
+      "stockQuantity": 45,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "9400192",
+        "sku": "GLOAD00009291",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    },
+    {
+      "name": "MIXT by Casaq Fashion — Multicolor Asymmetrical Neck Abstract Print Crop Top",
+      "slug": "mixt-by-casaq-fashion-multicolor-asymmetrical-neck-abstract-print-crop-top",
+      "price": 200,
+      "originalPrice": 895,
+      "category": "tops",
+      "description": "Multicolor Asymmetrical Neck Abstract Print Crop Top. Premium tops from our curated collection.",
+      "metaTitle": "MIXT by Casaq Fashion — Multicolor Asymmetrical Neck Abstract Print Cr",
+      "metaDescription": "Multicolor Asymmetrical Neck Abstract Print Crop Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/5/d5e2e62TP052280_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/5/d5e2e62TP052280_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/5/d5e2e62TP052280_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/5/d5e2e62TP052280_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/5/d5e2e62TP052280_5.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Comfort fit",
+      "weight": "0.6 kg",
+      "dimensions": "11 x 13 x 4 cm",
+      "stockQuantity": 81,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "8923827",
+        "sku": "MIXTB00000717",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    },
+    {
+      "name": "Cover Story — Mustard Tank Crop Top",
+      "slug": "cover-story-mustard-tank-crop-top",
+      "price": 200,
+      "originalPrice": 590,
+      "category": "tops",
+      "description": "Mustard Tank Crop Top. Premium tops from our curated collection.",
+      "metaTitle": "Cover Story — Mustard Tank Crop Top",
+      "metaDescription": "Mustard Tank Crop Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/a/4a981cdCYTSTP07UB3414MU_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/a/4a981cdCYTSTP07UB3414MU_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/a/4a981cdCYTSTP07UB3414MU_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/a/4a981cdCYTSTP07UB3414MU_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/a/4a981cdCYTSTP07UB3414MU_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/a/4a981cdCYTSTP07UB3414MU_7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/a/4a981cdCYTSTP07UB3414MU_9.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.6 kg",
+      "dimensions": "8 x 13 x 8 cm",
+      "stockQuantity": 34,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "15718851",
+        "sku": "COVER00011034",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    },
+    {
+      "name": "MIXT by Casaq Fashion — Brown And Orange Abstract Print V Neck Short Top",
+      "slug": "mixt-by-casaq-fashion-brown-and-orange-abstract-print-v-neck-short-top",
+      "price": 200,
+      "originalPrice": 1195,
+      "category": "tops",
+      "description": "Brown And Orange Abstract Print V Neck Short Top. Premium tops from our curated collection.",
+      "metaTitle": "MIXT by Casaq Fashion — Brown And Orange Abstract Print V Neck Short T",
+      "metaDescription": "Brown And Orange Abstract Print V Neck Short Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/f/0f94247TP052590_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/f/0f94247TP052590_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/f/0f94247TP052590_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/f/0f94247TP052590_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/f/0f94247TP052590_5.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.7 kg",
+      "dimensions": "8 x 10 x 3 cm",
+      "stockQuantity": 109,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "10443827",
+        "sku": "MIXTB00002904",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    },
+    {
+      "name": "MIXT by Casaq Fashion — Green Ribbed Solid Cropped Tank Top",
+      "slug": "mixt-by-casaq-fashion-green-ribbed-solid-cropped-tank-top",
+      "price": 200,
+      "originalPrice": 795,
+      "category": "tops",
+      "description": "Green Ribbed Solid Cropped Tank Top. Premium tops from our curated collection.",
+      "metaTitle": "MIXT by Casaq Fashion — Green Ribbed Solid Cropped Tank Top",
+      "metaDescription": "Green Ribbed Solid Cropped Tank Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/2/2285f15MITP052222_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/2/2285f15MITP052222_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/2/2285f15MITP052222_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/2/2285f15MITP052222_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/2/2285f15MITP052222_5.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "8 x 14 x 6 cm",
+      "stockQuantity": 107,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "8795349",
+        "sku": "MIXTB00000391",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    },
+    {
+      "name": "Twenty Dresses by Casaq Fashion — Blue Solid One Shoulder Crop Top",
+      "slug": "twenty-dresses-by-casaq-fashion-blue-a-whole-new-world-top",
+      "price": 200,
+      "originalPrice": 1195,
+      "category": "tops",
+      "description": "Blue Solid One Shoulder Crop Top. Premium tops from our curated collection.",
+      "metaTitle": "Twenty Dresses by Casaq Fashion — Blue Solid One Shoulder Crop Top",
+      "metaDescription": "Blue Solid One Shoulder Crop Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/4/94ad7dcNFTD_TWENT00008006_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/4/94ad7dcNFTD_TWENT00008006_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/4/94ad7dcNFTD_REGULAR_SIZE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/4/94ad7dcNFTD_TWENT00008006_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/4/94ad7dcNFTD_TWENT00008006_4.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.4 kg",
+      "dimensions": "11 x 15 x 7 cm",
+      "stockQuantity": 49,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "4375929",
+        "sku": "TWENT00008006",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    },
+    {
+      "name": "MIXT by Casaq Fashion — Brown Fitted Round Neck Crop Top",
+      "slug": "mixt-by-casaq-fashion-brown-fitted-round-neck-crop-top",
+      "price": 200,
+      "originalPrice": 795,
+      "category": "tops",
+      "description": "Brown Fitted Round Neck Crop Top. Premium tops from our curated collection.",
+      "metaTitle": "MIXT by Casaq Fashion — Brown Fitted Round Neck Crop Top",
+      "metaDescription": "Brown Fitted Round Neck Crop Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/7/67c4f15MITP052240_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/7/67c4f15MITP052240_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/7/67c4f15MITP052240_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/7/67c4f15MITP052240_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/7/67c4f15MITP052240_5.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "10 x 10 x 6 cm",
+      "stockQuantity": 24,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-02T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "8795338",
+        "sku": "MIXTB00000380",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    },
+    {
+      "name": "MIXT by Casaq Fashion — Plum Sleeveless Scoop Neck Crop Top",
+      "slug": "mixt-by-casaq-fashion-plum-sleeveless-scoop-neck-crop-top",
+      "price": 200,
+      "originalPrice": 795,
+      "category": "tops",
+      "description": "Plum Sleeveless Scoop Neck Crop Top. Premium tops from our curated collection.",
+      "metaTitle": "MIXT by Casaq Fashion — Plum Sleeveless Scoop Neck Crop Top",
+      "metaDescription": "Plum Sleeveless Scoop Neck Crop Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4213bcNK_MIXTB00001066_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4213bcNK_MIXTB00001066_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4213bcNK_MIXTB00001066_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4213bcNK_MIXTB00001066_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4213bcNK_MIXTB00001066_5.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Band collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "13 x 10 x 2 cm",
+      "stockQuantity": 100,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "8982948",
+        "sku": "MIXTB00001066",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    },
+    {
+      "name": "MIXT by Casaq Fashion — Cobalt Blue Sleeveless Scoop Neck Crop Top",
+      "slug": "mixt-by-casaq-fashion-cobalt-blue-sleeveless-scoop-neck-crop-top",
+      "price": 200,
+      "originalPrice": 795,
+      "category": "tops",
+      "description": "Cobalt Blue Sleeveless Scoop Neck Crop Top. Premium tops from our curated collection.",
+      "metaTitle": "MIXT by Casaq Fashion — Cobalt Blue Sleeveless Scoop Neck Crop Top",
+      "metaDescription": "Cobalt Blue Sleeveless Scoop Neck Crop Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4213bcNK_MIXTB00000399_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4213bcNK_MIXTB00000399_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4213bcNK_MIXTB00000399_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4213bcNK_MIXTB00000399_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4213bcNK_MIXTB00000399_5.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.7 kg",
+      "dimensions": "10 x 11 x 5 cm",
+      "stockQuantity": 41,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "8795357",
+        "sku": "MIXTB00000399",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    },
+    {
+      "name": "MIXT by Casaq Fashion — Charcoal Grey Washed Round Neck Fitted Tank Top",
+      "slug": "mixt-by-casaq-fashion-charcoal-grey-washed-round-neck-fitted-tank-top",
+      "price": 200,
+      "originalPrice": 795,
+      "category": "tops",
+      "description": "Charcoal Grey Washed Round Neck Fitted Tank Top. Premium tops from our curated collection.",
+      "metaTitle": "MIXT by Casaq Fashion — Charcoal Grey Washed Round Neck Fitted Tank To",
+      "metaDescription": "Charcoal Grey Washed Round Neck Fitted Tank Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/6/16fad51TP053045_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/6/16fad51TP053045_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/6/16fad51TP053045_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/6/16fad51TP053045_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/6/16fad51TP053045_5.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.6 kg",
+      "dimensions": "14 x 11 x 2 cm",
+      "stockQuantity": 47,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "14201260",
+        "sku": "MIXTB00005567",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    },
+    {
+      "name": "MIXT by Casaq Fashion — Bottle Green Fitted Round Neck Crop Top",
+      "slug": "mixt-by-casaq-fashion-bottle-green-fitted-round-neck-crop-top",
+      "price": 200,
+      "originalPrice": 795,
+      "category": "tops",
+      "description": "Bottle Green Fitted Round Neck Crop Top. Premium tops from our curated collection.",
+      "metaTitle": "MIXT by Casaq Fashion — Bottle Green Fitted Round Neck Crop Top",
+      "metaDescription": "Bottle Green Fitted Round Neck Crop Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4213bcNK_MIXTB00000378_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4213bcNK_MIXTB00000378_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4213bcNK_MIXTB00000378_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4213bcNK_MIXTB00000378_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4213bcNK_MIXTB00000378_5.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 12 x 6 cm",
+      "stockQuantity": 117,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "8795336",
+        "sku": "MIXTB00000378",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    },
+    {
+      "name": "MIXT by Casaq Fashion — Beige Fitted Round Neck Crop Top",
+      "slug": "mixt-by-casaq-fashion-beige-fitted-round-neck-crop-top",
+      "price": 200,
+      "originalPrice": 795,
+      "category": "tops",
+      "description": "Beige Fitted Round Neck Crop Top. Premium tops from our curated collection.",
+      "metaTitle": "MIXT by Casaq Fashion — Beige Fitted Round Neck Crop Top",
+      "metaDescription": "Beige Fitted Round Neck Crop Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/7/b74b102NFX_MIXTB00000382_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/7/b74b102NFX_MIXTB00000382_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/7/b74b102NFX_MIXTB00000382_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/7/b74b102NFX_MIXTB00000382_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/7/b74b102NFX_MIXTB00000382_5.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.3 kg",
+      "dimensions": "8 x 15 x 7 cm",
+      "stockQuantity": 100,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "8795340",
+        "sku": "MIXTB00000382",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    },
+    {
+      "name": "MIXT by Casaq Fashion — Baby Pink Fitted Round Neck Crop Top",
+      "slug": "mixt-by-casaq-fashion-baby-pink-fitted-round-neck-crop-top",
+      "price": 200,
+      "originalPrice": 795,
+      "category": "tops",
+      "description": "Baby Pink Fitted Round Neck Crop Top. Premium tops from our curated collection.",
+      "metaTitle": "MIXT by Casaq Fashion — Baby Pink Fitted Round Neck Crop Top",
+      "metaDescription": "Baby Pink Fitted Round Neck Crop Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4213bcNK_MIXTB00000379_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4213bcNK_MIXTB00000379_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4213bcNK_MIXTB00000379_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4213bcNK_MIXTB00000379_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4213bcNK_MIXTB00000379_5.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.7 kg",
+      "dimensions": "8 x 14 x 3 cm",
+      "stockQuantity": 78,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "8795337",
+        "sku": "MIXTB00000379",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    },
+    {
+      "name": "MIXT by Casaq Fashion — Cobalt Blue Fitted Round Neck Crop Top",
+      "slug": "mixt-by-casaq-fashion-cobalt-blue-fitted-round-neck-crop-top",
+      "price": 200,
+      "originalPrice": 795,
+      "category": "tops",
+      "description": "Cobalt Blue Fitted Round Neck Crop Top. Premium tops from our curated collection.",
+      "metaTitle": "MIXT by Casaq Fashion — Cobalt Blue Fitted Round Neck Crop Top",
+      "metaDescription": "Cobalt Blue Fitted Round Neck Crop Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/1/61aef15MITP052239_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/1/61aef15MITP052239_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/1/61aef15MITP052239_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/1/61aef15MITP052239_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/1/61aef15MITP052239_5.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.4 kg",
+      "dimensions": "9 x 12 x 3 cm",
+      "stockQuantity": 59,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "8795339",
+        "sku": "MIXTB00000381",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    },
+    {
+      "name": "Blush9 Maternity — Napping For Two Nursing Tunic",
+      "slug": "blush9-maternity-napping-for-two-nursing-tunic",
+      "price": 200,
+      "originalPrice": 1200,
+      "category": "tops",
+      "description": "Napping For Two Nursing Tunic. Premium tops from our curated collection.",
+      "metaTitle": "Blush9 Maternity — Napping For Two Nursing Tunic",
+      "metaDescription": "Napping For Two Nursing Tunic. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c7dd2bfBL17_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c7dd2bfBL17_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c7dd2bfBL17_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c7dd2bfBL17_4.JPG",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c7dd2bfBL17_5.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Round",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.6 kg",
+      "dimensions": "13 x 13 x 4 cm",
+      "stockQuantity": 33,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "4661966",
+        "sku": "BLUAD00000111",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    },
+    {
+      "name": "MIXT by Casaq Fashion — Grey Printed Striped Tank Top",
+      "slug": "mixt-by-casaq-fashion-grey-printed-striped-tank-top",
+      "price": 200,
+      "originalPrice": 695,
+      "category": "tops",
+      "description": "Grey Printed Striped Tank Top. Premium tops from our curated collection.",
+      "metaTitle": "MIXT by Casaq Fashion — Grey Printed Striped Tank Top",
+      "metaDescription": "Grey Printed Striped Tank Top. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/2/b2ba14bTP052650_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/2/b2ba14bTP052650_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/2/b2ba14bTP052650_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/2/b2ba14bTP052650_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/2/b2ba14bTP052650_5.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "11 x 11 x 8 cm",
+      "stockQuantity": 106,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "10795836",
+        "sku": "MIXTB00003184",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    },
+    {
+      "name": "R&B — Ivory Cotton Blend Slim Fit Adjustable Straps Camisole",
+      "slug": "r-b-ivory-cotton-blend-slim-fit-adjustable-straps-camisole",
+      "price": 200,
+      "originalPrice": 249,
+      "category": "tops",
+      "description": "Ivory Cotton Blend Slim Fit Adjustable Straps Camisole. Premium tops from our curated collection.",
+      "metaTitle": "R&B — Ivory Cotton Blend Slim Fit Adjustable Straps Camisole",
+      "metaDescription": "Ivory Cotton Blend Slim Fit Adjustable Straps Camisole. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "8",
+        "10",
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/1/415bf505250068WY0964IVORY_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/1/415bf505250068WY0964IVORY_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/1/415bf505250068WY0964IVORY_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/1/415bf505250068WY0964IVORY_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/1/415bf505250068WY0964IVORY_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/1/415bf505250068WY0964IVORY_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/1/415bf505250068WY0964IVORY_7.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Full length",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.3 kg",
+      "dimensions": "9 x 12 x 7 cm",
+      "stockQuantity": 65,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "23243307",
+        "sku": "RBXXX00011905",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    },
+    {
+      "name": "R&B — Nude Cotton Blend Slim Fit Adjustable Straps Camisole",
+      "slug": "r-b-nude-cotton-blend-slim-fit-adjustable-straps-camisole",
+      "price": 200,
+      "originalPrice": 249,
+      "category": "tops",
+      "description": "Nude Cotton Blend Slim Fit Adjustable Straps Camisole. Premium tops from our curated collection.",
+      "metaTitle": "R&B — Nude Cotton Blend Slim Fit Adjustable Straps Camisole",
+      "metaDescription": "Nude Cotton Blend Slim Fit Adjustable Straps Camisole. Premium tops from our curated collection.",
+      "metaKeywords": [
+        "tops",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "8",
+        "10",
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/1/415bf505250068WY0964NUDE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/1/415bf505250068WY0964NUDE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/1/415bf505250068WY0964NUDE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/1/415bf505250068WY0964NUDE_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/1/415bf505250068WY0964NUDE_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/1/415bf505250068WY0964NUDE_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/1/415bf505250068WY0964NUDE_7.jpg"
+      ],
+      "tags": [
+        "tops"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.3 kg",
+      "dimensions": "10 x 13 x 7 cm",
+      "stockQuantity": 17,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "tops",
+      "_source": {
+        "nykaaId": "23243308",
+        "sku": "RBXXX00011906",
+        "categoryFilter": "4497",
+        "assignedPriceTier": 200
+      }
+    }
+  ]
+}
