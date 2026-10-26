@@ -39,6 +39,8 @@ export interface ProductQuery {
   maxPrice?: number;
   sizes?: string[];
   subcategories?: string[];
+  /** Category switch: men's PLT imports are tagged `men`. */
+  department?: "men" | "women";
   /** When true, draft/unpublished products are included (admin only). */
   includeUnpublished?: boolean;
   /** Admin: filter by store; omit for all stores. */
@@ -53,6 +55,22 @@ export interface ProductFacets {
 
 type FacetOmit = "sizes" | "subcategories";
 
+const MEN_CATEGORY_RX = "^men(['’]s)?(\\s|$)";
+
+/** Men's PLT imports are tagged `men` and live in `men …` categories. */
+const departmentFilter = (
+  department?: ProductQuery["department"],
+): FilterQuery<IProduct> | null => {
+  const menClauses: FilterQuery<IProduct>[] = [
+    { tags: { $in: ["men", "mens", "menswear"] } },
+    { category: { $regex: MEN_CATEGORY_RX, $options: "i" } },
+    { breadcrumbCategory: { $regex: MEN_CATEGORY_RX, $options: "i" } },
+  ];
+  if (department === "men") return { $or: menClauses };
+  if (department === "women") return { $nor: menClauses };
+  return null;
+};
+
 const buildProductFilter = (
   query: ProductQuery,
   omit: FacetOmit[] = [],
@@ -64,6 +82,12 @@ const buildProductFilter = (
   }
 
   if (query.category) filter.category = query.category;
+
+  const gender = departmentFilter(query.department);
+  if (gender) {
+    const existingAnd = Array.isArray(filter.$and) ? filter.$and : [];
+    filter.$and = [...existingAnd, gender];
+  }
   if (query.featured !== undefined) filter.featured = query.featured;
   if (query.inStock !== undefined) filter.inStock = query.inStock;
 
@@ -89,19 +113,23 @@ const buildProductFilter = (
           .filter(Boolean),
       ),
     ];
+    const names = [...query.subcategories, ...leaves];
     const escaped = leaves
       .map((leaf) => leaf.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
       .join("|");
+    const leafRegex = escaped
+      ? {
+          $regex: `(^|>\\s*)([^>]*\\s+)?(${escaped})\\s*$`,
+          $options: "i",
+        }
+      : null;
     filter.$or = [
-      { breadcrumbCategory: { $in: [...query.subcategories, ...leaves] } },
-      ...(escaped
+      { breadcrumbCategory: { $in: names } },
+      { category: { $in: names } },
+      ...(leafRegex
         ? [
-            {
-              breadcrumbCategory: {
-                $regex: `(^|>\\s*)([^>]*\\s+)?(${escaped})\\s*$`,
-                $options: "i",
-              },
-            },
+            { breadcrumbCategory: leafRegex },
+            { category: leafRegex },
           ]
         : []),
     ];

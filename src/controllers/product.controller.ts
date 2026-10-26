@@ -27,6 +27,7 @@ export class ProductController {
       maxPrice,
       sizes,
       subcategory,
+      department,
     } = req.query;
 
     const includeUnpublished = shouldIncludeUnpublished(req);
@@ -54,6 +55,10 @@ export class ProductController {
       maxPrice: maxPrice !== undefined ? Number(maxPrice) : undefined,
       sizes: parseCsvQuery(sizes),
       subcategories: parseCsvQuery(subcategory),
+      department:
+        department === 'men' || department === 'women'
+          ? department
+          : undefined,
     });
 
     ApiResponse.success(res, result.products, 'Products fetched', 200, {

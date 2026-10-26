@@ -110,5 +110,6 @@ export const productQueryValidator = [
   query('maxPrice').optional().isFloat({ min: 0 }),
   query('sizes').optional().isString(),
   query('subcategory').optional().isString(),
+  query('department').optional().isIn(['men', 'women']),
   query('includeUnpublished').optional().isIn(['true', 'false']),
 ];
