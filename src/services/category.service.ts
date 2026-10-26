@@ -1,5 +1,6 @@
 import { Category, ICategory, Product } from '../models';
 import { ApiError } from '../utils/ApiError';
+import { shortenCategoryLabel } from '../utils/category-label';
 import { slugify } from '../utils/slug';
 import { mergeStoreFilter, withStoreId } from '../utils/storeScope';
 
@@ -20,19 +21,34 @@ const ensureUniqueSlug = async (
   return `${root}-${Date.now()}`;
 };
 
+const withShortNames = (rows: ICategory[]): ICategory[] => {
+  const seen = new Set<string>();
+  const out: ICategory[] = [];
+  for (const row of rows) {
+    const name = shortenCategoryLabel(row.name);
+    const key = name.toLowerCase();
+    if (!name || seen.has(key)) continue;
+    seen.add(key);
+    out.push({ ...row, name });
+  }
+  return out;
+};
+
 export class CategoryService {
   static async listActive(): Promise<ICategory[]> {
-    return Category.find(mergeStoreFilter({ isActive: { $ne: false } }))
+    const rows = await Category.find(mergeStoreFilter({ isActive: { $ne: false } }))
       .select('name slug sortOrder isActive')
       .sort({ sortOrder: 1, name: 1 })
       .lean<ICategory[]>();
+    return withShortNames(rows);
   }
 
   static async listAll(): Promise<ICategory[]> {
-    return Category.find(mergeStoreFilter())
+    const rows = await Category.find(mergeStoreFilter())
       .select('name slug sortOrder isActive')
       .sort({ sortOrder: 1, name: 1 })
       .lean<ICategory[]>();
+    return withShortNames(rows);
   }
 
   static async create(data: {
@@ -40,7 +56,7 @@ export class CategoryService {
     sortOrder?: number;
     isActive?: boolean;
   }): Promise<ICategory> {
-    const name = data.name.trim();
+    const name = shortenCategoryLabel(data.name);
     if (!name) {
       throw new ApiError(400, 'Category name is required');
     }
@@ -80,7 +96,7 @@ export class CategoryService {
     }
 
     if (data.name !== undefined) {
-      const name = data.name.trim();
+      const name = shortenCategoryLabel(data.name);
       if (!name) {
         throw new ApiError(400, 'Category name is required');
       }
@@ -139,7 +155,7 @@ export class CategoryService {
 
   /** Ensures category exists when saving a product (by display name). */
   static async resolveProductCategory(name: string): Promise<string> {
-    const trimmed = name.trim();
+    const trimmed = shortenCategoryLabel(name);
     if (!trimmed) {
       throw new ApiError(400, 'Category is required');
     }

@@ -4,6 +4,7 @@ import { ApiError } from "../utils/ApiError";
 import { slugify } from "../utils/slug";
 import { CategoryService } from "./category.service";
 import { applySearchOr } from "../utils/pagination";
+import { shortenCategoryLabel } from "../utils/category-label";
 import { normalizeProductImages } from "../utils/productImages";
 import { serializeProducts } from "../utils/serializeProduct";
 import { getStoreId } from "../context/store.context";
@@ -81,7 +82,29 @@ const buildProductFilter = (
   }
 
   if (query.subcategories?.length && !omit.includes("subcategories")) {
-    filter.breadcrumbCategory = { $in: query.subcategories };
+    const leaves = [
+      ...new Set(
+        query.subcategories
+          .map((name) => shortenCategoryLabel(name))
+          .filter(Boolean),
+      ),
+    ];
+    const escaped = leaves
+      .map((leaf) => leaf.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+      .join("|");
+    filter.$or = [
+      { breadcrumbCategory: { $in: [...query.subcategories, ...leaves] } },
+      ...(escaped
+        ? [
+            {
+              breadcrumbCategory: {
+                $regex: `(^|>\\s*)([^>]*\\s+)?(${escaped})\\s*$`,
+                $options: "i",
+              },
+            },
+          ]
+        : []),
+    ];
   }
 
   if (query.search?.trim()) {
@@ -239,15 +262,21 @@ export class ProductService {
 
     const priceRow = priceAgg[0] as { min?: number; max?: number } | undefined;
 
+    const mergedCategories = new Map<string, number>();
+    for (const row of categoryAgg) {
+      const name = shortenCategoryLabel(String(row._id ?? ""));
+      if (!name) continue;
+      mergedCategories.set(name, (mergedCategories.get(name) ?? 0) + Number(row.count ?? 0));
+    }
+
     return {
       sizes: sizeAgg.map((row) => ({
         size: String(row._id),
         count: row.count as number,
       })),
-      categories: categoryAgg.map((row) => ({
-        name: String(row._id),
-        count: row.count as number,
-      })),
+      categories: [...mergedCategories.entries()]
+        .sort(([a], [b]) => a.localeCompare(b))
+        .map(([name, count]) => ({ name, count })),
       priceRange: {
         min: Math.floor(priceRow?.min ?? 0),
         max: Math.ceil(priceRow?.max ?? 5000),

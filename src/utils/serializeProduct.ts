@@ -1,4 +1,5 @@
 import { IProduct } from '../models';
+import { shortenCategoryLabel } from './category-label';
 
 type ProductLike = Record<string, unknown> & {
   _id?: unknown;
@@ -20,6 +21,13 @@ export const serializeProduct = (doc: ProductLike | IProduct): Record<string, un
   delete plain._rand;
   delete plain._id;
   delete plain.__v;
+
+  if (typeof plain.category === 'string') {
+    plain.category = shortenCategoryLabel(plain.category);
+  }
+  if (typeof plain.breadcrumbCategory === 'string') {
+    plain.breadcrumbCategory = shortenCategoryLabel(plain.breadcrumbCategory);
+  }
 
   return plain;
 };
