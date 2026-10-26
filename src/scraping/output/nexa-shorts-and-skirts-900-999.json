@@ -1,0 +1,1658 @@
+{
+  "scrapedAt": "2026-06-24T19:18:28.519Z",
+  "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+  "categoryName": "shorts and skirts",
+  "categorySlug": "maxwomen-bottoms-shortsandskirts",
+  "storeId": "6a3bf2e10b0f40e291c26f6f",
+  "storeDomain": "nexa-skyline.com",
+  "priceMin": 900,
+  "priceMax": 999,
+  "categoryId": "maxwomen-bottoms-shortsandskirts",
+  "priceMode": "random",
+  "sort": "low-to-high",
+  "totalProducts": 26,
+  "pagesFetched": 2,
+  "products": [
+    {
+      "name": "Women Side Striped Midi Skirt",
+      "slug": "1000015416851-black-black",
+      "price": 929,
+      "originalPrice": 999,
+      "category": "shorts and skirts",
+      "description": "Women Side Striped Midi Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "Women Side Striped Midi Skirt",
+      "metaDescription": "Women Side Striped Midi Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015416851-Black-BLACK-1000015416851_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015416851-Black-BLACK-1000015416851_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015416851-Black-BLACK-1000015416851_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015416851-Black-BLACK-1000015416851_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015416851-Black-BLACK-1000015416851_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015416851-Black-BLACK-1000015416851_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015416851-Black-BLACK-1000015416851_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015416851-Black-BLACK-1000015416851_08-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.6 kg",
+      "dimensions": "12 x 11 x 3 cm",
+      "stockQuantity": 64,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "1000015416851BlackBLACK",
+        "sku": "1000015416851-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 929
+      }
+    },
+    {
+      "name": "Nexa Skyline Women Pleated Mini Skirt",
+      "slug": "1000015361966-black-black",
+      "price": 961,
+      "originalPrice": 999,
+      "category": "shorts and skirts",
+      "description": "Nexa Skyline Women Pleated Mini Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "Nexa Skyline Women Pleated Mini Skirt",
+      "metaDescription": "Nexa Skyline Women Pleated Mini Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015361966-Black-BLACK-1000015361966_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015361966-Black-BLACK-1000015361966_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015361966-Black-BLACK-1000015361966_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015361966-Black-BLACK-1000015361966_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015361966-Black-BLACK-1000015361966_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015361966-Black-BLACK-1000015361966_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015361966-Black-BLACK-1000015361966_07-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.8 kg",
+      "dimensions": "12 x 16 x 6 cm",
+      "stockQuantity": 112,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000015361966BlackBLACK",
+        "sku": "1000015361966-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 961
+      }
+    },
+    {
+      "name": "Nexa Skyline Women Pleated Mini Skirt",
+      "slug": "1000015361966-beige-beige",
+      "price": 959,
+      "originalPrice": 999,
+      "category": "shorts and skirts",
+      "description": "Nexa Skyline Women Pleated Mini Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "Nexa Skyline Women Pleated Mini Skirt",
+      "metaDescription": "Nexa Skyline Women Pleated Mini Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015361966-Beige-BEIGE-1000015361966_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015361966-Beige-BEIGE-1000015361966_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015361966-Beige-BEIGE-1000015361966_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015361966-Beige-BEIGE-1000015361966_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015361966-Beige-BEIGE-1000015361966_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015361966-Beige-BEIGE-1000015361966_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015361966-Beige-BEIGE-1000015361966_07-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.6 kg",
+      "dimensions": "14 x 15 x 5 cm",
+      "stockQuantity": 48,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-10T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1000015361966BeigeBEIGE",
+        "sku": "1000015361966-Beige-BEIGE",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 959
+      }
+    },
+    {
+      "name": "Women Checked Tiered Mini Skirt",
+      "slug": "1000015352881-beige-beige",
+      "price": 916,
+      "originalPrice": 999,
+      "category": "shorts and skirts",
+      "description": "Women Checked Tiered Mini Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "Women Checked Tiered Mini Skirt",
+      "metaDescription": "Women Checked Tiered Mini Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015352881-Beige-BEIGE-1000015352881_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015352881-Beige-BEIGE-1000015352881_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015352881-Beige-BEIGE-1000015352881_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015352881-Beige-BEIGE-1000015352881_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015352881-Beige-BEIGE-1000015352881_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015352881-Beige-BEIGE-1000015352881_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015352881-Beige-BEIGE-1000015352881_06-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.4 kg",
+      "dimensions": "9 x 11 x 6 cm",
+      "stockQuantity": 77,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-11T18:30:00.000Z",
+      "breadcrumbCategory": "shorts and skirts",
+      "_source": {
+        "nykaaId": "1000015352881BeigeBEIGE",
+        "sku": "1000015352881-Beige-BEIGE",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 916
+      }
+    },
+    {
+      "name": "Nexa Skyline Women Printed Flared Midi Skirt",
+      "slug": "1000015281763-offwhite-ivory",
+      "price": 962,
+      "originalPrice": 999,
+      "category": "shorts and skirts",
+      "description": "Nexa Skyline Women Printed Flared Midi Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "Nexa Skyline Women Printed Flared Midi Skirt",
+      "metaDescription": "Nexa Skyline Women Printed Flared Midi Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Off white"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015281763-OffWhite-IVORY-1000015281763_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015281763-OffWhite-IVORY-1000015281763_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015281763-OffWhite-IVORY-1000015281763_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015281763-OffWhite-IVORY-1000015281763_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015281763-OffWhite-IVORY-1000015281763_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015281763-OffWhite-IVORY-1000015281763_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015281763-OffWhite-IVORY-1000015281763_07-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.7 kg",
+      "dimensions": "10 x 12 x 3 cm",
+      "stockQuantity": 95,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-11T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "1000015281763OffWhiteIVORY",
+        "sku": "1000015281763-OffWhite-IVORY",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 962
+      }
+    },
+    {
+      "name": "ALAYA F x Nexa Skyline Women Striped Long Skirt",
+      "slug": "1000014836803-beige-ivory",
+      "price": 942,
+      "originalPrice": 999,
+      "category": "shorts and skirts",
+      "description": "ALAYA F x Nexa Skyline Women Striped Long Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "ALAYA F x Nexa Skyline Women Striped Long Skirt",
+      "metaDescription": "ALAYA F x Nexa Skyline Women Striped Long Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014836803-Beige-IVORY-1000014836803_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014836803-Beige-IVORY-1000014836803_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014836803-Beige-IVORY-1000014836803_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014836803-Beige-IVORY-1000014836803_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014836803-Beige-IVORY-1000014836803_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014836803-Beige-IVORY-1000014836803_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014836803-Beige-IVORY-1000014836803_07-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "13 x 14 x 5 cm",
+      "stockQuantity": 89,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "shorts and skirts",
+      "_source": {
+        "nykaaId": "1000014836803BeigeIVORY",
+        "sku": "1000014836803-Beige-IVORY",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 942
+      }
+    },
+    {
+      "name": "Women Washed Denim Skirt",
+      "slug": "1000016211391-blue-midblue",
+      "price": 949,
+      "originalPrice": 1099,
+      "category": "shorts and skirts",
+      "description": "Women Washed Denim Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "Women Washed Denim Skirt",
+      "metaDescription": "Women Washed Denim Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016211391-Blue-MIDBLUE-1000016211391_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016211391-Blue-MIDBLUE-1000016211391_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016211391-Blue-MIDBLUE-1000016211391_08-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016211391-Blue-MIDBLUE-1000016211391_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016211391-Blue-MIDBLUE-1000016211391_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016211391-Blue-MIDBLUE-1000016211391_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016211391-Blue-MIDBLUE-1000016211391_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016211391-Blue-MIDBLUE-1000016211391_07-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 Trouser",
+      "washCare": "Dry clean recommended",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.4 kg",
+      "dimensions": "14 x 12 x 8 cm",
+      "stockQuantity": 102,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "1000016211391BlueMIDBLUE",
+        "sku": "1000016211391-Blue-MIDBLUE",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 949
+      }
+    },
+    {
+      "name": "Women Solid Denim Skirt",
+      "slug": "1000015558648-blue-midblue",
+      "price": 982,
+      "originalPrice": 1099,
+      "category": "shorts and skirts",
+      "description": "Women Solid Denim Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "Women Solid Denim Skirt",
+      "metaDescription": "Women Solid Denim Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015558648-Blue-MIDBLUE-1000015558648_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015558648-Blue-MIDBLUE-1000015558648_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015558648-Blue-MIDBLUE-1000015558648_08-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015558648-Blue-MIDBLUE-1000015558648_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015558648-Blue-MIDBLUE-1000015558648_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015558648-Blue-MIDBLUE-1000015558648_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015558648-Blue-MIDBLUE-1000015558648_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015558648-Blue-MIDBLUE-1000015558648_07-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "10 x 15 x 8 cm",
+      "stockQuantity": 110,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "1000015558648BlueMIDBLUE",
+        "sku": "1000015558648-Blue-MIDBLUE",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 982
+      }
+    },
+    {
+      "name": "Women Printed Tiered Skirt",
+      "slug": "1000016695057-multi-multi",
+      "price": 976,
+      "originalPrice": 1199,
+      "category": "shorts and skirts",
+      "description": "Women Printed Tiered Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "Women Printed Tiered Skirt",
+      "metaDescription": "Women Printed Tiered Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS-S",
+        "M-L",
+        "XL-XXL"
+      ],
+      "colors": [
+        "Multicolour"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016695057-Multi-MULTI-1000016695057_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016695057-Multi-MULTI-1000016695057_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016695057-Multi-MULTI-1000016695057_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016695057-Multi-MULTI-1000016695057_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016695057-Multi-MULTI-1000016695057_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016695057-Multi-MULTI-1000016695057_06-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Medium",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 13 x 3 cm",
+      "stockQuantity": 37,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "shorts and skirts",
+      "_source": {
+        "nykaaId": "1000016695057MultiMULTI",
+        "sku": "1000016695057-Multi-MULTI",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 976
+      }
+    },
+    {
+      "name": "Nexa Skyline Embellished Flared Skirt",
+      "slug": "1000016683386-blue-blue",
+      "price": 975,
+      "originalPrice": 1199,
+      "category": "shorts and skirts",
+      "description": "Nexa Skyline Embellished Flared Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "Nexa Skyline Embellished Flared Skirt",
+      "metaDescription": "Nexa Skyline Embellished Flared Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS-S",
+        "M-L",
+        "XL-XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016683386-Blue-BLUE-1000016683386_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016683386-Blue-BLUE-1000016683386_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016683386-Blue-BLUE-1000016683386_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016683386-Blue-BLUE-1000016683386_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016683386-Blue-BLUE-1000016683386_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016683386-Blue-BLUE-1000016683386_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016683386-Blue-BLUE-1000016683386_07-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016683386-Blue-BLUE-1000016683386_08-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "11 x 13 x 5 cm",
+      "stockQuantity": 117,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "1000016683386BlueBLUE",
+        "sku": "1000016683386-Blue-BLUE",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 975
+      }
+    },
+    {
+      "name": "Women Solid Layered A-Line Skirt",
+      "slug": "1000016647954-blue-midblue",
+      "price": 941,
+      "originalPrice": 1199,
+      "category": "shorts and skirts",
+      "description": "Women Solid Layered A-Line Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "Women Solid Layered A-Line Skirt",
+      "metaDescription": "Women Solid Layered A-Line Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016647954-Blue-MIDBLUE-1000016647954_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016647954-Blue-MIDBLUE-1000016647954_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016647954-Blue-MIDBLUE-1000016647954_07-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016647954-Blue-MIDBLUE-1000016647954_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016647954-Blue-MIDBLUE-1000016647954_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016647954-Blue-MIDBLUE-1000016647954_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016647954-Blue-MIDBLUE-1000016647954_06-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "12 x 14 x 7 cm",
+      "stockQuantity": 22,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-01T18:30:00.000Z",
+      "breadcrumbCategory": "shorts and skirts",
+      "_source": {
+        "nykaaId": "1000016647954BlueMIDBLUE",
+        "sku": "1000016647954-Blue-MIDBLUE",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 941
+      }
+    },
+    {
+      "name": "Women Schiffili Tiered Long Skirt",
+      "slug": "1000016590482-offwhite-ivory",
+      "price": 941,
+      "originalPrice": 1199,
+      "category": "shorts and skirts",
+      "description": "Women Schiffili Tiered Long Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "Women Schiffili Tiered Long Skirt",
+      "metaDescription": "Women Schiffili Tiered Long Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS-S",
+        "M-L",
+        "XL-XXL"
+      ],
+      "colors": [
+        "Off white"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016590482-OffWhite-IVORY-1000016590482_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016590482-OffWhite-IVORY-1000016590482_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016590482-OffWhite-IVORY-1000016590482_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016590482-OffWhite-IVORY-1000016590482_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016590482-OffWhite-IVORY-1000016590482_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016590482-OffWhite-IVORY-1000016590482_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016590482-OffWhite-IVORY-1000016590482_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016590482-OffWhite-IVORY-1000016590482_08-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 11 x 3 cm",
+      "stockQuantity": 55,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-10T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000016590482OffWhiteIVORY",
+        "sku": "1000016590482-OffWhite-IVORY",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 941
+      }
+    },
+    {
+      "name": "Women Printed A-line Midi Skirt with Belt",
+      "slug": "1000016588425-offwhite-ivory",
+      "price": 913,
+      "originalPrice": 1199,
+      "category": "shorts and skirts",
+      "description": "Women Printed A-line Midi Skirt with Belt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "Women Printed A-line Midi Skirt with Belt",
+      "metaDescription": "Women Printed A-line Midi Skirt with Belt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Off white"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016588425-OffWhite-IVORY-1000016588425_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016588425-OffWhite-IVORY-1000016588425_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016588425-OffWhite-IVORY-1000016588425_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016588425-OffWhite-IVORY-1000016588425_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016588425-OffWhite-IVORY-1000016588425_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016588425-OffWhite-IVORY-1000016588425_06-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.8 kg",
+      "dimensions": "14 x 14 x 7 cm",
+      "stockQuantity": 26,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-02T18:30:00.000Z",
+      "breadcrumbCategory": "shorts and skirts",
+      "_source": {
+        "nykaaId": "1000016588425OffWhiteIVORY",
+        "sku": "1000016588425-OffWhite-IVORY",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 913
+      }
+    },
+    {
+      "name": "Women Striped A-line Skirt",
+      "slug": "1000016550458-offwhite-ivory",
+      "price": 985,
+      "originalPrice": 1199,
+      "category": "shorts and skirts",
+      "description": "Women Striped A-line Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "Women Striped A-line Skirt",
+      "metaDescription": "Women Striped A-line Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Off white"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016550458-OffWhite-IVORY-1000016550458_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016550458-OffWhite-IVORY-1000016550458_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016550458-OffWhite-IVORY-1000016550458_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016550458-OffWhite-IVORY-1000016550458_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016550458-OffWhite-IVORY-1000016550458_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016550458-OffWhite-IVORY-1000016550458_06-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Band collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "11 x 15 x 7 cm",
+      "stockQuantity": 71,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "shorts and skirts",
+      "_source": {
+        "nykaaId": "1000016550458OffWhiteIVORY",
+        "sku": "1000016550458-OffWhite-IVORY",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 985
+      }
+    },
+    {
+      "name": "Women Solid Midi Skirt with Belt",
+      "slug": "1000016533789-brown-brown",
+      "price": 950,
+      "originalPrice": 1199,
+      "category": "shorts and skirts",
+      "description": "Women Solid Midi Skirt with Belt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "Women Solid Midi Skirt with Belt",
+      "metaDescription": "Women Solid Midi Skirt with Belt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016533789-Brown-BROWN-1000016533789_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016533789-Brown-BROWN-1000016533789_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016533789-Brown-BROWN-1000016533789_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016533789-Brown-BROWN-1000016533789_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016533789-Brown-BROWN-1000016533789_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016533789-Brown-BROWN-1000016533789_06-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Long",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.4 kg",
+      "dimensions": "14 x 15 x 7 cm",
+      "stockQuantity": 97,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "1000016533789BrownBROWN",
+        "sku": "1000016533789-Brown-BROWN",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 950
+      }
+    },
+    {
+      "name": "Women Solid Denim Skirt",
+      "slug": "1000016528861-blue-midblue",
+      "price": 927,
+      "originalPrice": 1199,
+      "category": "shorts and skirts",
+      "description": "Women Solid Denim Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "Women Solid Denim Skirt",
+      "metaDescription": "Women Solid Denim Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016528861-Blue-MIDBLUE-1000016528861_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016528861-Blue-MIDBLUE-1000016528861_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016528861-Blue-MIDBLUE-1000016528861_07-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016528861-Blue-MIDBLUE-1000016528861_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016528861-Blue-MIDBLUE-1000016528861_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016528861-Blue-MIDBLUE-1000016528861_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016528861-Blue-MIDBLUE-1000016528861_06-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Band collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "10 x 15 x 8 cm",
+      "stockQuantity": 52,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "shorts and skirts",
+      "_source": {
+        "nykaaId": "1000016528861BlueMIDBLUE",
+        "sku": "1000016528861-Blue-MIDBLUE",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 927
+      }
+    },
+    {
+      "name": "Women Printed Long Skirt",
+      "slug": "1000016267615-offwhite-ivory",
+      "price": 956,
+      "originalPrice": 1199,
+      "category": "shorts and skirts",
+      "description": "Women Printed Long Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "Women Printed Long Skirt",
+      "metaDescription": "Women Printed Long Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS-S",
+        "M-L",
+        "XL-XXL"
+      ],
+      "colors": [
+        "Off white"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016267615-OffWhite-IVORY-1000016267615_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016267615-OffWhite-IVORY-1000016267615_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016267615-OffWhite-IVORY-1000016267615_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016267615-OffWhite-IVORY-1000016267615_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016267615-OffWhite-IVORY-1000016267615_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016267615-OffWhite-IVORY-1000016267615_06-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.7 kg",
+      "dimensions": "11 x 12 x 5 cm",
+      "stockQuantity": 85,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-11T18:30:00.000Z",
+      "breadcrumbCategory": "shorts and skirts",
+      "_source": {
+        "nykaaId": "1000016267615OffWhiteIVORY",
+        "sku": "1000016267615-OffWhite-IVORY",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 956
+      }
+    },
+    {
+      "name": "Women Solid A-line Belted skirt",
+      "slug": "1000015366665-green-green",
+      "price": 956,
+      "originalPrice": 1199,
+      "category": "shorts and skirts",
+      "description": "Women Solid A-line Belted skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "Women Solid A-line Belted skirt",
+      "metaDescription": "Women Solid A-line Belted skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015366665-Green-GREEN-1000015366665_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015366665-Green-GREEN-1000015366665_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015366665-Green-GREEN-1000015366665_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015366665-Green-GREEN-1000015366665_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015366665-Green-GREEN-1000015366665_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015366665-Green-GREEN-1000015366665_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015366665-Green-GREEN-1000015366665_07-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.7 kg",
+      "dimensions": "12 x 14 x 6 cm",
+      "stockQuantity": 40,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "shorts and skirts",
+      "_source": {
+        "nykaaId": "1000015366665GreenGREEN",
+        "sku": "1000015366665-Green-GREEN",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 956
+      }
+    },
+    {
+      "name": "Women Printed A-Line Midi Skirt",
+      "slug": "1000015359284-offwhite-ivory",
+      "price": 903,
+      "originalPrice": 1199,
+      "category": "shorts and skirts",
+      "description": "Women Printed A-Line Midi Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "Women Printed A-Line Midi Skirt",
+      "metaDescription": "Women Printed A-Line Midi Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Off white"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015359284-OffWhite-IVORY-1000015359284_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015359284-OffWhite-IVORY-1000015359284_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015359284-OffWhite-IVORY-1000015359284_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015359284-OffWhite-IVORY-1000015359284_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015359284-OffWhite-IVORY-1000015359284_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015359284-OffWhite-IVORY-1000015359284_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015359284-OffWhite-IVORY-1000015359284_07-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.8 kg",
+      "dimensions": "14 x 14 x 5 cm",
+      "stockQuantity": 55,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "shorts and skirts",
+      "_source": {
+        "nykaaId": "1000015359284OffWhiteIVORY",
+        "sku": "1000015359284-OffWhite-IVORY",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 903
+      }
+    },
+    {
+      "name": "ALAYA F x Nexa Skyline Women Checked Slit Tiered Skirt",
+      "slug": "1000015344741-black-black",
+      "price": 908,
+      "originalPrice": 1199,
+      "category": "shorts and skirts",
+      "description": "ALAYA F x Nexa Skyline Women Checked Slit Tiered Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "ALAYA F x Nexa Skyline Women Checked Slit Tiered Skirt",
+      "metaDescription": "ALAYA F x Nexa Skyline Women Checked Slit Tiered Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015344741-Black-BLACK-1000015344741_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015344741-Black-BLACK-1000015344741_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015344741-Black-BLACK-1000015344741_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015344741-Black-BLACK-1000015344741_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015344741-Black-BLACK-1000015344741_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015344741-Black-BLACK-1000015344741_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015344741-Black-BLACK-1000015344741_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015344741-Black-BLACK-1000015344741_08-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Collared",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "11 x 10 x 6 cm",
+      "stockQuantity": 31,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "shorts and skirts",
+      "_source": {
+        "nykaaId": "1000015344741BlackBLACK",
+        "sku": "1000015344741-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 908
+      }
+    },
+    {
+      "name": "Women Solid Skater Skirt",
+      "slug": "1000016721221-blue-midblue",
+      "price": 963,
+      "originalPrice": 1299,
+      "category": "shorts and skirts",
+      "description": "Women Solid Skater Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "Women Solid Skater Skirt",
+      "metaDescription": "Women Solid Skater Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016721221-Blue-MIDBLUE-1000016721221_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016721221-Blue-MIDBLUE-1000016721221_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016721221-Blue-MIDBLUE-1000016721221_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016721221-Blue-MIDBLUE-1000016721221_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016721221-Blue-MIDBLUE-1000016721221_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016721221-Blue-MIDBLUE-1000016721221_06-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.8 kg",
+      "dimensions": "13 x 13 x 7 cm",
+      "stockQuantity": 119,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "1000016721221BlueMIDBLUE",
+        "sku": "1000016721221-Blue-MIDBLUE",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 963
+      }
+    },
+    {
+      "name": "Women Shimmer Pleated Midi Skirt",
+      "slug": "1000016110300-brown-brown",
+      "price": 953,
+      "originalPrice": 1299,
+      "category": "shorts and skirts",
+      "description": "Women Shimmer Pleated Midi Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "Women Shimmer Pleated Midi Skirt",
+      "metaDescription": "Women Shimmer Pleated Midi Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016110300-Brown-BROWN-1000016110300_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016110300-Brown-BROWN-1000016110300_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016110300-Brown-BROWN-1000016110300_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016110300-Brown-BROWN-1000016110300_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016110300-Brown-BROWN-1000016110300_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016110300-Brown-BROWN-1000016110300_06-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.7 kg",
+      "dimensions": "12 x 12 x 2 cm",
+      "stockQuantity": 118,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "shorts and skirts",
+      "_source": {
+        "nykaaId": "1000016110300BrownBROWN",
+        "sku": "1000016110300-Brown-BROWN",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 953
+      }
+    },
+    {
+      "name": "Women Solid Cargo Skirt",
+      "slug": "1000015330994-beige-beige",
+      "price": 959,
+      "originalPrice": 1299,
+      "category": "shorts and skirts",
+      "description": "Women Solid Cargo Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "Women Solid Cargo Skirt",
+      "metaDescription": "Women Solid Cargo Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015330994-Beige-BEIGE-1000015330994_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015330994-Beige-BEIGE-1000015330994_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015330994-Beige-BEIGE-1000015330994_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015330994-Beige-BEIGE-1000015330994_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015330994-Beige-BEIGE-1000015330994_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015330994-Beige-BEIGE-1000015330994_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015330994-Beige-BEIGE-1000015330994_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015330994-Beige-BEIGE-1000015330994_08-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "9 x 15 x 7 cm",
+      "stockQuantity": 14,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-10T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "1000015330994BeigeBEIGE",
+        "sku": "1000015330994-Beige-BEIGE",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 959
+      }
+    },
+    {
+      "name": "Women Schiffili Midi Skirt",
+      "slug": "1000015200121-offwhite-ivory",
+      "price": 951,
+      "originalPrice": 1299,
+      "category": "shorts and skirts",
+      "description": "Women Schiffili Midi Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "Women Schiffili Midi Skirt",
+      "metaDescription": "Women Schiffili Midi Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Ivory"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015200121-OffWhite-IVORY-1000015200121_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015200121-OffWhite-IVORY-1000015200121_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015200121-OffWhite-IVORY-1000015200121_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015200121-OffWhite-IVORY-1000015200121_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015200121-OffWhite-IVORY-1000015200121_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015200121-OffWhite-IVORY-1000015200121_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015200121-OffWhite-IVORY-1000015200121_07-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Trouser",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "8 x 10 x 8 cm",
+      "stockQuantity": 43,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "1000015200121OffWhiteIVORY",
+        "sku": "1000015200121-OffWhite-IVORY",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 951
+      }
+    },
+    {
+      "name": "Women Solid A-Line Denim Skirt",
+      "slug": "1000014786569-blue-lightblue",
+      "price": 902,
+      "originalPrice": 1299,
+      "category": "shorts and skirts",
+      "description": "Women Solid A-Line Denim Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "Women Solid A-Line Denim Skirt",
+      "metaDescription": "Women Solid A-Line Denim Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014786569-Blue-LIGHTBLUE-1000014786569_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014786569-Blue-LIGHTBLUE-1000014786569_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014786569-Blue-LIGHTBLUE-1000014786569_09-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014786569-Blue-LIGHTBLUE-1000014786569_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014786569-Blue-LIGHTBLUE-1000014786569_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014786569-Blue-LIGHTBLUE-1000014786569_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014786569-Blue-LIGHTBLUE-1000014786569_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014786569-Blue-LIGHTBLUE-1000014786569_07-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Trouser",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "12 x 13 x 5 cm",
+      "stockQuantity": 38,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "shorts and skirts",
+      "_source": {
+        "nykaaId": "1000014786569BlueLIGHTBLUE",
+        "sku": "1000014786569-Blue-LIGHTBLUE",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 902
+      }
+    },
+    {
+      "name": "Women Printed Long Skirt",
+      "slug": "1000016321514-offwhite-ivory",
+      "price": 928,
+      "originalPrice": 1499,
+      "category": "shorts and skirts",
+      "description": "Women Printed Long Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaTitle": "Women Printed Long Skirt",
+      "metaDescription": "Women Printed Long Skirt. Premium shorts and skirts from our curated ethnic collection.",
+      "metaKeywords": [
+        "shorts and skirts",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL"
+      ],
+      "colors": [
+        "Off white"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016321514-OffWhite-IVORY-1000016267615_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016321514-OffWhite-IVORY-1000016267615_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016321514-OffWhite-IVORY-1000016267615_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016321514-OffWhite-IVORY-1000016267615_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016321514-OffWhite-IVORY-1000016267615_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016321514-OffWhite-IVORY-1000016267615_06-2100.jpg"
+      ],
+      "tags": [
+        "shorts and skirts",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.5 kg",
+      "dimensions": "11 x 12 x 2 cm",
+      "stockQuantity": 106,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "shorts and skirts",
+      "_source": {
+        "nykaaId": "1000016321514OffWhiteIVORY",
+        "sku": "1000016321514-OffWhite-IVORY",
+        "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+        "assignedPriceTier": 928
+      }
+    }
+  ]
+}

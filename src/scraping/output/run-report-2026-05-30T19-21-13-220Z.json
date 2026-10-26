@@ -1,0 +1,30 @@
+{
+  "startedAt": "2026-05-30T19:21:13.220Z",
+  "finishedAt": "2026-05-30T19:21:13.220Z",
+  "configFile": "single CLI run",
+  "totals": {
+    "categories": 1,
+    "succeeded": 1,
+    "failed": 0,
+    "partial": 0,
+    "productsInserted": 0,
+    "productsSkipped": 0,
+    "productsScraped": 15
+  },
+  "results": [
+    {
+      "categoryName": "sarees",
+      "categoryFilter": "sarees",
+      "collectionHandle": "sarees",
+      "status": "success",
+      "requested": 15,
+      "scraped": 15,
+      "inserted": 0,
+      "skipped": 0,
+      "priceMin": 1000,
+      "priceMax": 1499,
+      "sort": "low-to-high",
+      "outputPath": "D:\\.nitin\\DEV\\ECOMMERCE-TEMPLATE\\BE\\src\\scraping\\output\\empress-sarees-1000-1499.json"
+    }
+  ]
+}

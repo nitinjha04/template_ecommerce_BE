@@ -1,0 +1,3585 @@
+[
+    {
+        "_id": "6a018814a6c9bb35ad93eb66",
+        "name": "LOEWE ANAGRAM EMBROIDERED HIGH-NECK COTTON TOP",
+        "description": "SIZE MENTIONED:M\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003ECHEST:25\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:24.5\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR:WHITE\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ESLIM, CLOSE FITTING SILHOUTTE\u003C/div\u003E\u003Cdiv\u003ESIGNATURE ANAGRAM EMBROIDERY\u003C/div\u003E\u003Cdiv\u003ESLEEVELESS WITH A MOCK OR HIGH NECK&nbsp;\u003Cbr\u003E98% COTTON\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003E2% ELASTANE&nbsp;\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "loewe-anagram-embroidered-high-neck-cotton-top",
+        "sku": "AUTO-LOEWE-ANAGRAM-EMBROIDERED-HIGH-NECK-COTTON-TOP",
+        "mainImage": {
+            "url": "/media/products/2026/05/11_f94fa940.webp",
+            "alt": "1R5A1073"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/11_ae9bc6e2.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "6a018814a6c9bb35ad93eb67",
+                "createdAt": "2026-05-11T07:41:08.833Z",
+                "updatedAt": "2026-05-11T07:41:08.833Z"
+            },
+            {
+                "url": "/media/products/2026/05/11_907d6564.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "6a018814a6c9bb35ad93eb68",
+                "createdAt": "2026-05-11T07:41:08.833Z",
+                "updatedAt": "2026-05-11T07:41:08.833Z"
+            }
+        ],
+        "mrp": 57000,
+        "basePrice": 55000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d47ff",
+                "name": "T Shirts & Shirts",
+                "slug": "t-shirts-shirts",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d47ff",
+                "name": "T Shirts & Shirts",
+                "slug": "t-shirts-shirts",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69fb2725a6c9bb35ad925580",
+            "name": "LOEWE",
+            "slug": "loewe"
+        },
+        "tags": [
+            "WOMENS",
+            "LOEWE",
+            "TANK TOP",
+            "TOP"
+        ],
+        "condition": "New Without Tags",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1758,
+        "colors": [
+            {
+                "colorName": "White",
+                "colorCode": "#F5F5F5",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "M",
+                        "stock": 0
+                    }
+                ],
+                "_id": "6a018814a6c9bb35ad93eb69",
+                "createdAt": "2026-05-11T07:41:08.833Z",
+                "updatedAt": "2026-05-11T07:41:08.833Z"
+            }
+        ],
+        "availableColors": [
+            "White"
+        ],
+        "availableSizes": [
+            "M"
+        ],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-11T07:41:08.834Z",
+        "updatedAt": "2026-05-11T07:41:08.834Z",
+        "__v": 0,
+        "ourPrice": 55000,
+        "retailPrice": 57000,
+        "finalPrice": 55000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69fef51da6c9bb35ad936025",
+        "name": "TED BAKERS WHITE TWEED JACKET JACKET FOR WOMEN",
+        "description": "SIZE MENTIONED:3\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003ECHEST:38\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:17.5\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR:WHITE\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE:CA2549     RN95229\u003Cbr\u003E\u003Cbr\u003EEXTERIOR:\u003Cbr\u003EROUND NECKLINE&nbsp;\u003Cbr\u003ETWEED FRINGE CROP JACKET\u003C/div\u003E\u003Cdiv\u003ESINGLE HOOK-AND-EYE CLASP AT THE NECK&nbsp;\u003Cbr\u003E41% POLYIDE\u003Cbr\u003E10%POLYESTER \u003Cbr\u003E53%COTTON \u003Cbr\u003E32%ACRYLIC \u003Cbr\u003E1%METALLISED FIBERS\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "ted-bakers-white-tweed-jacket-jacket-for-women",
+        "sku": "AUTO-TED-BAKERS-WHITE-TWEED-JACKET-JACKET-FOR-WOMEN",
+        "mainImage": {
+            "url": "/media/products/2026/05/09_767fdd8f.webp",
+            "alt": "152 (1)"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/09_eeb7090c.webp",
+                "alt": "Product image 3",
+                "order": 0,
+                "_id": "69fef51da6c9bb35ad936026",
+                "createdAt": "2026-05-09T08:49:33.843Z",
+                "updatedAt": "2026-05-09T08:49:33.843Z"
+            },
+            {
+                "url": "/media/products/2026/05/09_816207a4.webp",
+                "alt": "Product image 1",
+                "order": 1,
+                "_id": "69fef51da6c9bb35ad936027",
+                "createdAt": "2026-05-09T08:49:33.843Z",
+                "updatedAt": "2026-05-09T08:49:33.843Z"
+            }
+        ],
+        "mrp": 28000,
+        "basePrice": 10000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b17922b2422842d4dce",
+            "name": "TED BAKER",
+            "slug": "ted-baker"
+        },
+        "tags": [
+            "TEDBAKER",
+            "WOMENS",
+            "JACKET",
+            "TWEED",
+            "WHITE"
+        ],
+        "condition": "Pristine",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1751,
+        "colors": [
+            {
+                "colorName": "White",
+                "colorCode": "#F5F5F5",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "3",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69fef51da6c9bb35ad936028",
+                "createdAt": "2026-05-09T08:49:33.843Z",
+                "updatedAt": "2026-05-09T08:49:33.843Z"
+            }
+        ],
+        "availableColors": [
+            "White"
+        ],
+        "availableSizes": [
+            "3"
+        ],
+        "isQuote": false,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-09T08:49:33.843Z",
+        "updatedAt": "2026-05-09T08:49:33.843Z",
+        "__v": 0,
+        "ourPrice": 10000,
+        "retailPrice": 28000,
+        "finalPrice": 10000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69fef1c1a6c9bb35ad935efe",
+        "name": "GUCCI CONTRAST DETAIL CARDIGAN IN ORANGE & WHITE",
+        "description": "SIZE\u003Cbr\u003E\u003Cdiv\u003ECHEST:40\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:28.5\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR:ORANGE/WHITE\u003Cbr\u003E\u003Cbr\u003EAUTHENTICITY CODE:CA37394     CA14517    CA84937\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ETWO FRONT BUTTONED PATCH POCKETS\u003Cbr\u003ESINGLE-BREASTED FRONT BUTTON CLOUSER&nbsp;\u003Cbr\u003ELONG SLEEVES WITH PLEATED DETAILING AT THE BUTTONED CUFFS&nbsp;\u003Cbr\u003E97% VISCOSE\u003Cbr\u003E3%ELASTANE&nbsp; &nbsp; &nbsp;\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "gucci-contrast-detail-cardigan-in-orange-white",
+        "sku": "AUTO-GUCCI-CONTRAST-DETAIL-CARDIGAN-IN-ORANGE-WHITE",
+        "mainImage": {
+            "url": "/media/products/2026/05/09_a0d3b20f.webp",
+            "alt": "134 (4)"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/09_acc28394.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69fef1c1a6c9bb35ad935eff",
+                "createdAt": "2026-05-09T08:35:13.354Z",
+                "updatedAt": "2026-05-09T08:35:13.354Z"
+            },
+            {
+                "url": "/media/products/2026/05/09_a7daa5e2.webp",
+                "alt": "Product image 3",
+                "order": 1,
+                "_id": "69fef1c1a6c9bb35ad935f00",
+                "createdAt": "2026-05-09T08:35:13.354Z",
+                "updatedAt": "2026-05-09T08:35:13.354Z"
+            },
+            {
+                "url": "/media/products/2026/05/09_36318811.webp",
+                "alt": "Product image 2",
+                "order": 2,
+                "_id": "69fef1c1a6c9bb35ad935f01",
+                "createdAt": "2026-05-09T08:35:13.354Z",
+                "updatedAt": "2026-05-09T08:35:13.354Z"
+            }
+        ],
+        "mrp": 225000,
+        "basePrice": 75000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b15922b2422842d3b95",
+            "name": "GUCCI",
+            "slug": "gucci"
+        },
+        "tags": [
+            "CARDIGAN",
+            "WOMENS",
+            "ORANGE",
+            "GUCCI"
+        ],
+        "condition": "Pristine",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1750,
+        "colors": [
+            {
+                "colorName": "Orange",
+                "colorCode": "#F97316",
+                "images": [],
+                "isDefault": true,
+                "sizes": [],
+                "_id": "69fef1c1a6c9bb35ad935f02",
+                "createdAt": "2026-05-09T08:35:13.354Z",
+                "updatedAt": "2026-05-09T08:35:13.354Z"
+            }
+        ],
+        "availableColors": [
+            "Orange"
+        ],
+        "availableSizes": [],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-09T08:35:13.354Z",
+        "updatedAt": "2026-05-09T08:35:13.354Z",
+        "__v": 0,
+        "ourPrice": 75000,
+        "retailPrice": 225000,
+        "finalPrice": 75000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69fedf10a6c9bb35ad935a40",
+        "name": "FENDI PINK FF LOGO COTTON KNIT DRESS",
+        "description": "SIZE MENTIONED:12+\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003ECHEST:34\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:17\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: PINK&nbsp;\u003Cbr\u003E\u003Cbr\u003EBELONGINGS: COMES WITH ORIGINAL DUSTBAG\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ECLASSIC CREWMECK&nbsp;\u003C/div\u003E\u003Cdiv\u003ESHORT-SLEEVED KNIT DRESS\u003Cbr\u003ERIBBED TRIMS AT COLLAR, CUFFS AND HEM&nbsp;\u003Cbr\u003EALL-OVER WHITE FF JACQUARD MONOGRAM MOTIF\u003Cbr\u003E60% VISCOSE \u003Cbr\u003E40% COTTON\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "fendi-pink-ff-logo-cotton-knit-dress",
+        "sku": "AUTO-FENDI-PINK-FF-LOGO-COTTON-KNIT-DRESS",
+        "mainImage": {
+            "url": "/media/products/2026/05/09_91ca9ee6.webp",
+            "alt": "1R5A1034"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/09_9ab76170.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69fedf10a6c9bb35ad935a41",
+                "createdAt": "2026-05-12T11:21:56.600Z",
+                "updatedAt": "2026-05-12T11:21:56.600Z"
+            },
+            {
+                "url": "/media/products/2026/05/09_94ba2b25.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69fedf10a6c9bb35ad935a42",
+                "createdAt": "2026-05-12T11:21:56.600Z",
+                "updatedAt": "2026-05-12T11:21:56.600Z"
+            },
+            {
+                "url": "/media/products/2026/05/12_88a7c8e7.webp",
+                "alt": "Product image 3",
+                "order": 2,
+                "_id": "6a030d54a6c9bb35ad945d44",
+                "createdAt": "2026-05-12T11:21:56.600Z",
+                "updatedAt": "2026-05-12T11:21:56.600Z"
+            }
+        ],
+        "mrp": 0,
+        "basePrice": 32000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d500d",
+                "name": "Dresses & Gowns",
+                "slug": "dresses-gowns",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d500d",
+                "name": "Dresses & Gowns",
+                "slug": "dresses-gowns",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b15922b2422842d3cf1",
+            "name": "FENDI",
+            "slug": "fendi"
+        },
+        "tags": [
+            "FENDI",
+            "DRESS",
+            "WOMENS"
+        ],
+        "condition": "New Without Tags",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1749,
+        "colors": [
+            {
+                "colorName": "Pink",
+                "colorCode": "#E91E63",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "12+",
+                        "stock": 0
+                    }
+                ],
+                "_id": "6a030d54a6c9bb35ad945d45",
+                "createdAt": "2026-05-12T11:21:56.600Z",
+                "updatedAt": "2026-05-12T11:21:56.600Z"
+            }
+        ],
+        "availableColors": [
+            "Pink"
+        ],
+        "availableSizes": [
+            "12+"
+        ],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-09T07:15:28.967Z",
+        "updatedAt": "2026-05-12T11:21:56.600Z",
+        "__v": 0,
+        "ourPrice": 32000,
+        "retailPrice": 0,
+        "finalPrice": 32000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69fdd47fa6c9bb35ad933564",
+        "name": "LOEWE ANAGRAM STRIPED TANK TOP",
+        "description": "SIZE MENTIONED:L\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003ECHEST:26\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:20\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: BLUE/WHITE\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003C/div\u003E\u003Cdiv\u003ESLEEVELESS TANK TOP\u003Cbr\u003EHORIZONTAL NAVY BLUE&nbsp; STRIPES ON A WHITE BASE&nbsp;\u003Cbr\u003EICONIC RED ANAGRAM LOGO EMBROIDERED AT THE CENTER OF THE CHEST&nbsp;\u003Cbr\u003E97% VISCOSE \u003Cbr\u003E3% ELASTANE&nbsp;\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "loewe-anagram-striped-tank-top",
+        "sku": "AUTO-LOEWE-ANAGRAM-STRIPED-TANK-TOP",
+        "mainImage": {
+            "url": "/media/products/2026/05/08_6d67b7cc.webp",
+            "alt": "1R5A1077"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/08_f38687fe.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69fdd47fa6c9bb35ad933565",
+                "createdAt": "2026-05-08T12:18:07.385Z",
+                "updatedAt": "2026-05-08T12:18:07.385Z"
+            },
+            {
+                "url": "/media/products/2026/05/08_b04ba4d9.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69fdd47fa6c9bb35ad933566",
+                "createdAt": "2026-05-08T12:18:07.385Z",
+                "updatedAt": "2026-05-08T12:18:07.385Z"
+            }
+        ],
+        "mrp": 57000,
+        "basePrice": 27000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d47ff",
+                "name": "T Shirts & Shirts",
+                "slug": "t-shirts-shirts",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d47ff",
+                "name": "T Shirts & Shirts",
+                "slug": "t-shirts-shirts",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69fb2725a6c9bb35ad925580",
+            "name": "LOEWE",
+            "slug": "loewe"
+        },
+        "tags": [
+            "TANKTOP",
+            "WOMENS",
+            "LOEWE",
+            "TOP"
+        ],
+        "condition": "New Without Tags",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1748,
+        "colors": [
+            {
+                "colorName": "Blue",
+                "colorCode": "#2563EB",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "L",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69fdd47fa6c9bb35ad933567",
+                "createdAt": "2026-05-08T12:18:07.385Z",
+                "updatedAt": "2026-05-08T12:18:07.385Z"
+            },
+            {
+                "colorName": "White",
+                "colorCode": "#F5F5F5",
+                "images": [],
+                "isDefault": false,
+                "sizes": [
+                    {
+                        "sizeName": "L",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69fdd47fa6c9bb35ad933569",
+                "createdAt": "2026-05-08T12:18:07.385Z",
+                "updatedAt": "2026-05-08T12:18:07.385Z"
+            }
+        ],
+        "availableColors": [
+            "Blue",
+            "White"
+        ],
+        "availableSizes": [
+            "L"
+        ],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-08T12:18:07.385Z",
+        "updatedAt": "2026-05-08T12:18:07.385Z",
+        "__v": 0,
+        "ourPrice": 27000,
+        "retailPrice": 57000,
+        "finalPrice": 27000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69fdd1a1a6c9bb35ad933458",
+        "name": "MONCLER IBERIS HOODED HALF ZIP DOWN JACKET",
+        "description": "\u003Cbr\u003ESIZE MENTIONED\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003ECHEST:46\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:27\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: BLACK/GREY\u003Cbr\u003E\u003Cbr\u003EAUTHENTICITY CODE:38974303EDHH\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003EZIPPERED FRONT POCKETS&nbsp;\u003Cbr\u003ESNAP-BUTTONED WITH SLEEVE DETAILING&nbsp;\u003Cbr\u003ECOLOUR-BLOCKED JACKET WITH FRONT HALF-ZIP&nbsp;\u003C/div\u003E\u003Cdiv\u003EPROMINENT MONCLER LOGO ON THE CHEST&nbsp;\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "moncler-iberis-hooded-half-zip-down-jacket",
+        "sku": "AUTO-MONCLER-IBERIS-HOODED-HALF-ZIP-DOWN-JACKET",
+        "mainImage": {
+            "url": "/media/products/2026/05/08_585ed24c.webp",
+            "alt": "1R5A1371"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/08_ca832470.webp",
+                "alt": "Product image 2",
+                "order": 0,
+                "_id": "69fdd1a1a6c9bb35ad933459",
+                "createdAt": "2026-05-08T12:05:53.537Z",
+                "updatedAt": "2026-05-08T12:05:53.537Z"
+            },
+            {
+                "url": "/media/products/2026/05/08_8c861c42.webp",
+                "alt": "Product image 1",
+                "order": 1,
+                "_id": "69fdd1a1a6c9bb35ad93345a",
+                "createdAt": "2026-05-08T12:05:53.537Z",
+                "updatedAt": "2026-05-08T12:05:53.537Z"
+            },
+            {
+                "url": "/media/products/2026/05/08_54413c32.webp",
+                "alt": "Product image 3",
+                "order": 2,
+                "_id": "69fdd1a1a6c9bb35ad93345b",
+                "createdAt": "2026-05-08T12:05:53.537Z",
+                "updatedAt": "2026-05-08T12:05:53.537Z"
+            }
+        ],
+        "mrp": 120000,
+        "basePrice": 70000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b18922b2422842d5944",
+            "name": "MONCLER",
+            "slug": "moncler"
+        },
+        "tags": [
+            "MONCLER",
+            "JACKET",
+            "WOMENS",
+            "WINTERWEAR"
+        ],
+        "condition": "New Without Tags",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1747,
+        "colors": [
+            {
+                "colorName": "Black",
+                "colorCode": "#111111",
+                "images": [],
+                "isDefault": true,
+                "sizes": [],
+                "_id": "69fdd1a1a6c9bb35ad93345c",
+                "createdAt": "2026-05-08T12:05:53.537Z",
+                "updatedAt": "2026-05-08T12:05:53.537Z"
+            },
+            {
+                "colorName": "Grey",
+                "colorCode": "#8E8E93",
+                "images": [],
+                "isDefault": false,
+                "sizes": [],
+                "_id": "69fdd1a1a6c9bb35ad93345d",
+                "createdAt": "2026-05-08T12:05:53.537Z",
+                "updatedAt": "2026-05-08T12:05:53.537Z"
+            }
+        ],
+        "availableColors": [
+            "Black",
+            "Grey"
+        ],
+        "availableSizes": [],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-08T12:05:53.537Z",
+        "updatedAt": "2026-05-08T12:05:53.537Z",
+        "__v": 0,
+        "ourPrice": 70000,
+        "retailPrice": 120000,
+        "finalPrice": 70000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69fdc956a6c9bb35ad93310a",
+        "name": "FENDI DENIM CROPPED JACKET WITH FF PRINT INNER & COLLAR",
+        "description": "SIZE MENTIONED:12+ YEARS\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003ECHEST:32\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:17\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: BLUE/BROWN&nbsp;\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ELONG SLEEVES\u003Cbr\u003EBUTTONS WITH BRANDED HADRWARE&nbsp;\u003Cbr\u003ETWO FRONT FLAP PATCH POCKETS ON THE CHEST\u003C/div\u003E\u003Cdiv\u003ECONTRAST COLLAR WITH THE ICONIC \"FF\" MONOGRAM\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "fendi-denim-cropped-jacket-with-ff-print-inner-collar",
+        "sku": "AUTO-FENDI-DENIM-CROPPED-JACKET-WITH-FF-PRINT-INNER-COLLAR",
+        "mainImage": {
+            "url": "/media/products/2026/05/08_a3f4e3e3.webp",
+            "alt": "1R5A1368"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/08_53da27ea.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69fdc956a6c9bb35ad93310b",
+                "createdAt": "2026-05-08T11:30:30.673Z",
+                "updatedAt": "2026-05-08T11:30:30.673Z"
+            },
+            {
+                "url": "/media/products/2026/05/08_e04956c2.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69fdc956a6c9bb35ad93310c",
+                "createdAt": "2026-05-08T11:30:30.673Z",
+                "updatedAt": "2026-05-08T11:30:30.673Z"
+            }
+        ],
+        "mrp": 63000,
+        "basePrice": 38000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b15922b2422842d3cf1",
+            "name": "FENDI",
+            "slug": "fendi"
+        },
+        "tags": [
+            "FENDI",
+            "DENIM",
+            "JACKET",
+            "WOMENS"
+        ],
+        "condition": "New Without Tags",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1746,
+        "colors": [
+            {
+                "colorName": "Blue",
+                "colorCode": "#2563EB",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "12+",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69fdc956a6c9bb35ad93310d",
+                "createdAt": "2026-05-08T11:30:30.673Z",
+                "updatedAt": "2026-05-08T11:30:30.673Z"
+            },
+            {
+                "colorName": "Brown",
+                "colorCode": "#7A5230",
+                "images": [],
+                "isDefault": false,
+                "sizes": [
+                    {
+                        "sizeName": "12+",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69fdc956a6c9bb35ad93310f",
+                "createdAt": "2026-05-08T11:30:30.673Z",
+                "updatedAt": "2026-05-08T11:30:30.673Z"
+            }
+        ],
+        "availableColors": [
+            "Blue",
+            "Brown"
+        ],
+        "availableSizes": [
+            "12+"
+        ],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-08T11:30:30.674Z",
+        "updatedAt": "2026-05-08T11:30:30.674Z",
+        "__v": 0,
+        "ourPrice": 38000,
+        "retailPrice": 63000,
+        "finalPrice": 38000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69fdbb3ea6c9bb35ad932c8d",
+        "name": "STELLA MCCARTNEY BEATLES GET BACK PRINT LS T-SHIRT MULTICOLOUR",
+        "description": "SIZE MENTIONED:XXS\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003ECHEST:19.5\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:23\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: MULTICOLOUR\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE: A103 2021 43 6J0004 SPW26\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ECREW NECK&nbsp;\u003Cbr\u003ESHORT SLEEVES\u003Cbr\u003EPSYCHEDELIC GRAPHICS&nbsp;\u003C/div\u003E\u003Cdiv\u003E100% COTTON&nbsp;\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "stella-mccartney-beatles-get-back-print-ls-t-shirt-multicolour",
+        "sku": "AUTO-STELLA-MCCARTNEY-BEATLES-GET-BACK-PRINT-LS-T-SHIRT-MULTICOLOUR",
+        "mainImage": {
+            "url": "/media/products/2026/05/08_632f8461.webp",
+            "alt": "1R5A1067"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/08_3e066cc8.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69fdbb3ea6c9bb35ad932c8e",
+                "createdAt": "2026-05-08T10:30:22.032Z",
+                "updatedAt": "2026-05-08T10:30:22.032Z"
+            },
+            {
+                "url": "/media/products/2026/05/08_a6bcce96.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69fdbb3ea6c9bb35ad932c8f",
+                "createdAt": "2026-05-08T10:30:22.032Z",
+                "updatedAt": "2026-05-08T10:30:22.032Z"
+            }
+        ],
+        "mrp": 37000,
+        "basePrice": 27000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d47ff",
+                "name": "T Shirts & Shirts",
+                "slug": "t-shirts-shirts",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d47ff",
+                "name": "T Shirts & Shirts",
+                "slug": "t-shirts-shirts",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b15922b2422842d3e17",
+            "name": "STELLA MCARTNEY",
+            "slug": "stella-mcartney"
+        },
+        "tags": [
+            "T-SHIRT",
+            "WOMENS",
+            "SRELLA MCCARTNEY"
+        ],
+        "condition": "New Without Tags",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1745,
+        "colors": [
+            {
+                "colorName": "Multicolor",
+                "colorCode": "#A855F7",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "XXS",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69fdbb3ea6c9bb35ad932c90",
+                "createdAt": "2026-05-08T10:30:22.032Z",
+                "updatedAt": "2026-05-08T10:30:22.032Z"
+            }
+        ],
+        "availableColors": [
+            "Multicolor"
+        ],
+        "availableSizes": [
+            "XXS"
+        ],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-08T10:30:22.032Z",
+        "updatedAt": "2026-05-08T10:30:22.032Z",
+        "__v": 0,
+        "ourPrice": 27000,
+        "retailPrice": 37000,
+        "finalPrice": 27000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69fdb379a6c9bb35ad9328f9",
+        "name": "MAJE METALO TWEED KNIT CARDIGAN",
+        "description": "SIZE MENTIONED:1\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003ECHEST:43\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:22.5\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: GREEN/WHITE\u003Cbr\u003E\u003Cbr\u003EAUTHENTICITY CODE: MFPCA00315\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ETWEED-EFFECT KNIT\u003C/div\u003E\u003Cdiv\u003EBUTTON-FRONT CARDIGAN WITH RELAXED FIT&nbsp;\u003Cbr\u003ECLASSIC V-NECK AND FOUR FLAP POCKETS\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "maje-metalo-tweed-knit-cardigan",
+        "sku": "AUTO-MAJE-METALO-TWEED-KNIT-CARDIGAN",
+        "mainImage": {
+            "url": "/media/products/2026/05/08_d7efa537.webp",
+            "alt": "1R5A1447"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/08_0c046ece.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69fdb379a6c9bb35ad9328fa",
+                "createdAt": "2026-05-08T09:57:13.786Z",
+                "updatedAt": "2026-05-08T09:57:13.786Z"
+            },
+            {
+                "url": "/media/products/2026/05/08_4f47d13d.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69fdb379a6c9bb35ad9328fb",
+                "createdAt": "2026-05-08T09:57:13.786Z",
+                "updatedAt": "2026-05-08T09:57:13.786Z"
+            }
+        ],
+        "mrp": 42000,
+        "basePrice": 20000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b17922b2422842d4fd2",
+            "name": "MAJE",
+            "slug": "maje"
+        },
+        "tags": [
+            "CARDIGAN",
+            "WOMENS",
+            "MAJE"
+        ],
+        "condition": "New Without Tags",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1744,
+        "colors": [
+            {
+                "colorName": "White",
+                "colorCode": "#F5F5F5",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "1",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69fdb379a6c9bb35ad9328fc",
+                "createdAt": "2026-05-08T09:57:13.786Z",
+                "updatedAt": "2026-05-08T09:57:13.786Z"
+            }
+        ],
+        "availableColors": [
+            "White"
+        ],
+        "availableSizes": [
+            "1"
+        ],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-08T09:57:13.786Z",
+        "updatedAt": "2026-05-08T09:57:13.786Z",
+        "__v": 0,
+        "ourPrice": 20000,
+        "retailPrice": 42000,
+        "finalPrice": 20000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69fdaf3ca6c9bb35ad932549",
+        "name": "GIUSEPPE ZANOTTI MAILENA CRYSTAL LOGO HOODIE",
+        "description": "SIZE MENTIONED:M&nbsp;\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003ECHEST:42\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:19\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: BLACK&nbsp;\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ECROPPED HOODIE&nbsp;\u003C/div\u003E\u003Cdiv\u003EADJUSTABLE DRAWSTRING CLOSURES&nbsp;\u003Cbr\u003ELONG SLEEVES AND ELASTICATED CUFFS&nbsp;\u003Cbr\u003E100% COTTON&nbsp;\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "giuseppe-zanotti-mailena-crystal-logo-hoodie",
+        "sku": "AUTO-GIUSEPPE-ZANOTTI-MAILENA-CRYSTAL-LOGO-HOODIE",
+        "mainImage": {
+            "url": "/media/products/2026/05/08_08af7ade.webp",
+            "alt": "1R5A1470"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/08_5594379d.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69fdaf3ca6c9bb35ad93254a",
+                "createdAt": "2026-05-08T09:39:08.629Z",
+                "updatedAt": "2026-05-08T09:39:08.629Z"
+            },
+            {
+                "url": "/media/products/2026/05/08_2a13762b.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69fdaf3ca6c9bb35ad93254b",
+                "createdAt": "2026-05-08T09:39:08.629Z",
+                "updatedAt": "2026-05-08T09:39:08.629Z"
+            }
+        ],
+        "mrp": 64000,
+        "basePrice": 20000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b17922b2422842d5603",
+            "name": "GIUSEPPE ZANOTTI",
+            "slug": "giuseppe-zanotti"
+        },
+        "tags": [
+            "HOODIE",
+            "WOMENS",
+            "BLACK",
+            "GIUSEPPE ZANOTTI"
+        ],
+        "condition": "New With Tags",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1743,
+        "colors": [
+            {
+                "colorName": "Black",
+                "colorCode": "#111111",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "M",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69fdaf3ca6c9bb35ad93254c",
+                "createdAt": "2026-05-08T09:39:08.629Z",
+                "updatedAt": "2026-05-08T09:39:08.629Z"
+            }
+        ],
+        "availableColors": [
+            "Black"
+        ],
+        "availableSizes": [
+            "M"
+        ],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-08T09:39:08.629Z",
+        "updatedAt": "2026-05-08T09:39:08.629Z",
+        "__v": 0,
+        "ourPrice": 20000,
+        "retailPrice": 64000,
+        "finalPrice": 20000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69fd9e26a6c9bb35ad9319ca",
+        "name": "MONCLER WHITE LOGO PRINTED COTTON HOODIE",
+        "description": "SIZE MENTIONED:14 A&nbsp;\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003ECHEST:42\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:20\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: WHITE\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE: H2954800006899PS&nbsp;\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003EINTEGRATED HOOD&nbsp;\u003Cbr\u003ELONG SLEEVES WITH RIBBED CUFFS\u003Cbr\u003EICONIC MONCLER LOGO APPLIQUE&nbsp;\u003C/div\u003E\u003Cdiv\u003E100% COTTON&nbsp;\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "moncler-white-logo-printed-cotton-hoodie",
+        "sku": "AUTO-MONCLER-WHITE-LOGO-PRINTED-COTTON-HOODIE",
+        "mainImage": {
+            "url": "/media/products/2026/05/08_cab66318.webp",
+            "alt": "1R5A1479"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/08_cc03faf8.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69fd9e26a6c9bb35ad9319cb",
+                "createdAt": "2026-05-08T08:26:14.759Z",
+                "updatedAt": "2026-05-08T08:26:14.759Z"
+            },
+            {
+                "url": "/media/products/2026/05/08_fd52ce72.webp",
+                "alt": "Product image 3",
+                "order": 1,
+                "_id": "69fd9e26a6c9bb35ad9319cc",
+                "createdAt": "2026-05-08T08:26:14.759Z",
+                "updatedAt": "2026-05-08T08:26:14.759Z"
+            },
+            {
+                "url": "/media/products/2026/05/08_138beb7b.webp",
+                "alt": "Product image 2",
+                "order": 2,
+                "_id": "69fd9e26a6c9bb35ad9319cd",
+                "createdAt": "2026-05-08T08:26:14.759Z",
+                "updatedAt": "2026-05-08T08:26:14.759Z"
+            }
+        ],
+        "mrp": 35000,
+        "basePrice": 24000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b18922b2422842d5944",
+            "name": "MONCLER",
+            "slug": "moncler"
+        },
+        "tags": [
+            "MONCLER",
+            "WOMENS",
+            "HOODIE",
+            "WHITE"
+        ],
+        "condition": "New With Tags",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1742,
+        "colors": [
+            {
+                "colorName": "White",
+                "colorCode": "#F5F5F5",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "14A",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69fd9e26a6c9bb35ad9319ce",
+                "createdAt": "2026-05-08T08:26:14.759Z",
+                "updatedAt": "2026-05-08T08:26:14.759Z"
+            }
+        ],
+        "availableColors": [
+            "White"
+        ],
+        "availableSizes": [
+            "14A"
+        ],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-08T08:26:14.759Z",
+        "updatedAt": "2026-05-08T08:26:14.759Z",
+        "__v": 0,
+        "ourPrice": 24000,
+        "retailPrice": 35000,
+        "finalPrice": 24000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69fd9069a6c9bb35ad9311bd",
+        "name": "ROBERTO CAVALLI JUNIOR WHITE LONG-SLEEVED T-SHIRT",
+        "description": "SIZE MENTIONED:16-17YRS\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003ECHEST:34\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:21\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: WHITE\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE: P046121\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ELONG SLEEVES\u003Cbr\u003ECLASSIC RIBBED CREW NECK&nbsp;\u003Cbr\u003E\"ROBERTO CAVALLI\" SIGNATURE LOGO PRINTED&nbsp;\u003C/div\u003E\u003Cdiv\u003E100% COTTON&nbsp;\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "roberto-cavalli-junior-white-long-sleeved-t-shirt",
+        "sku": "AUTO-ROBERTO-CAVALLI-JUNIOR-WHITE-LONG-SLEEVED-T-SHIRT",
+        "mainImage": {
+            "url": "/media/products/2026/05/08_c741e4ac.webp",
+            "alt": "13 (4)"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/08_648cada5.webp",
+                "alt": "Product image 2",
+                "order": 0,
+                "_id": "69fd9069a6c9bb35ad9311be",
+                "createdAt": "2026-05-08T07:27:37.900Z",
+                "updatedAt": "2026-05-08T07:27:37.900Z"
+            },
+            {
+                "url": "/media/products/2026/05/08_642a6b27.webp",
+                "alt": "Product image 1",
+                "order": 1,
+                "_id": "69fd9069a6c9bb35ad9311bf",
+                "createdAt": "2026-05-08T07:27:37.900Z",
+                "updatedAt": "2026-05-08T07:27:37.900Z"
+            }
+        ],
+        "mrp": 35000,
+        "basePrice": 14000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d47ff",
+                "name": "T Shirts & Shirts",
+                "slug": "t-shirts-shirts",
+                "level": 2
+            },
+            {
+                "_id": "69b31b16922b2422842d42db",
+                "name": "KIDS",
+                "slug": "kids",
+                "level": 0
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d47ff",
+                "name": "T Shirts & Shirts",
+                "slug": "t-shirts-shirts",
+                "level": 2
+            },
+            {
+                "_id": "69b31b16922b2422842d42db",
+                "name": "KIDS",
+                "slug": "kids",
+                "level": 0
+            }
+        ],
+        "brand": {
+            "_id": "69b31b15922b2422842d3be2",
+            "name": "ROBERTO CAVALLI",
+            "slug": "roberto-cavalli"
+        },
+        "tags": [
+            "ROBERTOCAVALLI",
+            "T-SHIRT",
+            "WHITE",
+            "WOMENS"
+        ],
+        "condition": "Pristine",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1741,
+        "colors": [
+            {
+                "colorName": "White",
+                "colorCode": "#F5F5F5",
+                "images": [],
+                "isDefault": true,
+                "sizes": [],
+                "_id": "69fd9069a6c9bb35ad9311c0",
+                "createdAt": "2026-05-08T07:27:37.900Z",
+                "updatedAt": "2026-05-08T07:27:37.900Z"
+            }
+        ],
+        "availableColors": [
+            "White"
+        ],
+        "availableSizes": [],
+        "isQuote": false,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-08T07:27:37.900Z",
+        "updatedAt": "2026-05-08T07:27:37.900Z",
+        "__v": 0,
+        "ourPrice": 14000,
+        "retailPrice": 35000,
+        "finalPrice": 14000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69fc7f52a6c9bb35ad92e34b",
+        "name": "MAJE MEDI CONTRAST-TRIM KNITTED CARDIGAN",
+        "description": "SIZE MENTIONED:1\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003ECHEST:46\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:24\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: OFF-WHITE\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE: MFPCA00310\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003EDEEP V-NECKLINE\u003Cbr\u003ETEXTURED CABLE-KNIT\u003Cbr\u003EBRAIDED, MULTI-COLOR STRIPE DETAILS\u003C/div\u003E\u003Cdiv\u003EFRONT BUTTON CLOUSER AND BUTTONED PATCH POCKETS&nbsp;\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "maje-medi-contrast-trim-knitted-cardigan",
+        "sku": "AUTO-MAJE-MEDI-CONTRAST-TRIM-KNITTED-CARDIGAN",
+        "mainImage": {
+            "url": "/media/products/2026/05/07_ffe4ca96.webp",
+            "alt": "1R5A1443"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/11_59944b9f.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "6a018911a6c9bb35ad93edd2",
+                "createdAt": "2026-05-11T07:45:21.501Z",
+                "updatedAt": "2026-05-11T07:45:21.501Z"
+            },
+            {
+                "url": "/media/products/2026/05/11_69a53480.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "6a018911a6c9bb35ad93edd3",
+                "createdAt": "2026-05-11T07:45:21.501Z",
+                "updatedAt": "2026-05-11T07:45:21.501Z"
+            }
+        ],
+        "mrp": 38000,
+        "basePrice": 22000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b17922b2422842d4fd2",
+            "name": "MAJE",
+            "slug": "maje"
+        },
+        "tags": [
+            "MAJE",
+            "WOMENS",
+            "CARDIGAN"
+        ],
+        "condition": "New With Tags",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1740,
+        "colors": [
+            {
+                "colorName": "White",
+                "colorCode": "#F5F5F5",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "1",
+                        "stock": 0
+                    }
+                ],
+                "_id": "6a018911a6c9bb35ad93edd4",
+                "createdAt": "2026-05-11T07:45:21.501Z",
+                "updatedAt": "2026-05-11T07:45:21.501Z"
+            },
+            {
+                "colorName": "Multicolor",
+                "colorCode": "#A855F7",
+                "images": [],
+                "isDefault": false,
+                "sizes": [
+                    {
+                        "sizeName": "1",
+                        "stock": 0
+                    }
+                ],
+                "_id": "6a018911a6c9bb35ad93edd6",
+                "createdAt": "2026-05-11T07:45:21.501Z",
+                "updatedAt": "2026-05-11T07:45:21.501Z"
+            }
+        ],
+        "availableColors": [
+            "White",
+            "Multicolor"
+        ],
+        "availableSizes": [
+            "1"
+        ],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-07T12:02:26.051Z",
+        "updatedAt": "2026-05-11T07:45:21.501Z",
+        "__v": 0,
+        "ourPrice": 22000,
+        "retailPrice": 38000,
+        "finalPrice": 22000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69fc7b24a6c9bb35ad92e136",
+        "name": "FENDI VARSITY KNIT V NECK CARDIGAN",
+        "description": "SIZE MENTIONED:10A\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003ECHEST:37\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:20.5\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: WHITE\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE: JUG036 AKGE 10A&nbsp;\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003C/div\u003E\u003Cdiv\u003ECLASSIC RIB-KNIT&nbsp;\u003Cbr\u003EDEEP V-NECK AND FRONT BUTTON CLOUSER&nbsp;\u003Cbr\u003ENAVY AND RED CONTRAST STRIPES ON THE PLACKET, CUFFS AND HEM&nbsp;\u003C/div\u003E\u003Cdiv\u003E85% COTTON \u003Cbr\u003E15% CASHMERE\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "fendi-varsity-knit-v-neck-cardigan",
+        "sku": "AUTO-FENDI-VARSITY-KNIT-V-NECK-CARDIGAN",
+        "mainImage": {
+            "url": "/media/products/2026/05/07_26d5a607.webp",
+            "alt": "1R5A1454"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/07_885982be.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69fc7b24a6c9bb35ad92e137",
+                "createdAt": "2026-05-07T11:44:36.298Z",
+                "updatedAt": "2026-05-07T11:44:36.298Z"
+            },
+            {
+                "url": "/media/products/2026/05/07_bef92c18.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69fc7b24a6c9bb35ad92e138",
+                "createdAt": "2026-05-07T11:44:36.298Z",
+                "updatedAt": "2026-05-07T11:44:36.298Z"
+            }
+        ],
+        "mrp": 89000,
+        "basePrice": 55000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b15922b2422842d3cf1",
+            "name": "FENDI",
+            "slug": "fendi"
+        },
+        "tags": [
+            "KNIT",
+            "WOMENS",
+            "SWEATER",
+            "CARDIGAN"
+        ],
+        "condition": "Pristine",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1739,
+        "colors": [
+            {
+                "colorName": "White",
+                "colorCode": "#F5F5F5",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "10A",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69fc7b24a6c9bb35ad92e139",
+                "createdAt": "2026-05-07T11:44:36.298Z",
+                "updatedAt": "2026-05-07T11:44:36.298Z"
+            }
+        ],
+        "availableColors": [
+            "White"
+        ],
+        "availableSizes": [
+            "10A"
+        ],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-07T11:44:36.298Z",
+        "updatedAt": "2026-05-07T11:44:36.298Z",
+        "__v": 0,
+        "ourPrice": 55000,
+        "retailPrice": 89000,
+        "finalPrice": 55000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69fc77f1a6c9bb35ad92deb1",
+        "name": "ELISABETTA FRANCHI LOGO SWEATER IN LETTERS",
+        "description": "SIZE MENTIONED:40\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003ECHEST:39\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:20.5\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: SALMON PINK&nbsp;\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE: MK06Q21E1\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003C/div\u003E\u003Cdiv\u003ERELAXED,CROPPED FIT&nbsp;\u003Cbr\u003ECLASSIC CREW NECKLINE&nbsp;\u003Cbr\u003ELONG SLEEVES WITH RIBBED CUFFS&nbsp;\u003Cbr\u003EVISCOSE\u003C/div\u003E\u003Cdiv\u003EPOLYESTER&nbsp;\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "elisabetta-franchi-logo-sweater-in-letters",
+        "sku": "AUTO-ELISABETTA-FRANCHI-LOGO-SWEATER-IN-LETTERS",
+        "mainImage": {
+            "url": "/media/products/2026/05/07_44bf2ce2.webp",
+            "alt": "1R5A1456"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/07_78614173.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69fc77f1a6c9bb35ad92deb2",
+                "createdAt": "2026-05-07T11:30:57.404Z",
+                "updatedAt": "2026-05-07T11:30:57.404Z"
+            },
+            {
+                "url": "/media/products/2026/05/07_19131355.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69fc77f1a6c9bb35ad92deb3",
+                "createdAt": "2026-05-07T11:30:57.404Z",
+                "updatedAt": "2026-05-07T11:30:57.404Z"
+            }
+        ],
+        "mrp": 36500,
+        "basePrice": 15000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69f9c4c2a6c9bb35ad91f8bb",
+            "name": "ELISABETTA FRANCHI",
+            "slug": "elisabetta-franchi"
+        },
+        "tags": [
+            "SWEATER",
+            "ELISABETTA FRANCHI",
+            "WOMENS"
+        ],
+        "condition": "New With Tags",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1738,
+        "colors": [
+            {
+                "colorName": "Pink",
+                "colorCode": "#E91E63",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "40",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69fc77f1a6c9bb35ad92deb4",
+                "createdAt": "2026-05-07T11:30:57.404Z",
+                "updatedAt": "2026-05-07T11:30:57.404Z"
+            }
+        ],
+        "availableColors": [
+            "Pink"
+        ],
+        "availableSizes": [
+            "40"
+        ],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-07T11:30:57.404Z",
+        "updatedAt": "2026-05-07T11:30:57.404Z",
+        "__v": 0,
+        "ourPrice": 15000,
+        "retailPrice": 36500,
+        "finalPrice": 15000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69fc75dba6c9bb35ad92dc56",
+        "name": "EMPORIO ARMANI SEQUIN LOGO JUMPER",
+        "description": "SIZE MENTIONED:40\u003Cdiv\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECHEST:37\"\u003C/div\u003E\u003Cdiv\u003ELENGTH:19\"\u003C/div\u003E\u003Cdiv\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR:BLACK&nbsp;\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\u003Cbr\u003E3/4 SLLEEVES\n\u003C/div\u003E\u003Cdiv\u003ECLASSIC CREW/ROUND NECKLINE\u003C/div\u003E\u003Cdiv\u003ESILVER-TONED SEQUINED EAGLE LOGO ON THE FRONT&nbsp;\u003C/div\u003E",
+        "slug": "emporio-armani-sequin-logo-jumper",
+        "sku": "AUTO-EMPORIO-ARMANI-SEQUIN-LOGO-JUMPER",
+        "mainImage": {
+            "url": "/media/products/2026/05/07_750a788b.webp",
+            "alt": "1R5A1434"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/07_bf07111e.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69fc75dba6c9bb35ad92dc57",
+                "createdAt": "2026-05-07T11:22:03.997Z",
+                "updatedAt": "2026-05-07T11:22:03.997Z"
+            },
+            {
+                "url": "/media/products/2026/05/07_06022a3f.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69fc75dba6c9bb35ad92dc58",
+                "createdAt": "2026-05-07T11:22:03.997Z",
+                "updatedAt": "2026-05-07T11:22:03.997Z"
+            }
+        ],
+        "mrp": 38000,
+        "basePrice": 15000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b16922b2422842d49a5",
+            "name": "EMPORIO ARMANI",
+            "slug": "emporio-armani"
+        },
+        "tags": [
+            "EMPORIOARMANI",
+            "WOMENS",
+            "JUMPER",
+            "BLACK"
+        ],
+        "condition": "New Without Tags",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1737,
+        "colors": [
+            {
+                "colorName": "Black",
+                "colorCode": "#111111",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "40",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69fc75dba6c9bb35ad92dc59",
+                "createdAt": "2026-05-07T11:22:03.998Z",
+                "updatedAt": "2026-05-07T11:22:03.998Z"
+            }
+        ],
+        "availableColors": [
+            "Black"
+        ],
+        "availableSizes": [
+            "40"
+        ],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-07T11:22:03.998Z",
+        "updatedAt": "2026-05-07T11:22:03.998Z",
+        "__v": 0,
+        "ourPrice": 15000,
+        "retailPrice": 38000,
+        "finalPrice": 15000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69fc7112a6c9bb35ad92da16",
+        "name": "SANDRO AMADORA DENIM TWEED DRESS",
+        "description": "SIZE MENTIONED:36\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003ECHEST:37\"\u003C/div\u003E\u003Cdiv\u003ELENGTH:33.5\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: BLUE &amp; PINK&nbsp;\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE: SFPRO0285-1035\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ESHORT SLEEVED DRESSS\u003C/div\u003E\u003Cdiv\u003EBUTTON-DOWN FRONT WITH GOLD-TONE EMBOSSED BUTTONS&nbsp;\u003Cbr\u003ECOTTON-BLEND TWEED IN A BLUE AND PINK HOUNDSTOOTH PATTERN&nbsp;\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "sandro-amadora-denim-tweed-dress",
+        "sku": "AUTO-SANDRO-AMADORA-DENIM-TWEED-DRESS",
+        "mainImage": {
+            "url": "/media/products/2026/05/07_77f8dc9b.webp",
+            "alt": "1R5A1423"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/07_bc255116.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69fc7112a6c9bb35ad92da17",
+                "createdAt": "2026-05-07T11:01:38.162Z",
+                "updatedAt": "2026-05-07T11:01:38.162Z"
+            },
+            {
+                "url": "/media/products/2026/05/07_93c30da1.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69fc7112a6c9bb35ad92da18",
+                "createdAt": "2026-05-07T11:01:38.162Z",
+                "updatedAt": "2026-05-07T11:01:38.162Z"
+            }
+        ],
+        "mrp": 45000,
+        "basePrice": 25000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d500d",
+                "name": "Dresses & Gowns",
+                "slug": "dresses-gowns",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d500d",
+                "name": "Dresses & Gowns",
+                "slug": "dresses-gowns",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b1a922b2422842d740e",
+            "name": "SANDRO",
+            "slug": "sandro"
+        },
+        "tags": [
+            "DRESS",
+            "WOMENS",
+            "SANDRO"
+        ],
+        "condition": "New Without Tags",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1736,
+        "colors": [
+            {
+                "colorName": "Blue",
+                "colorCode": "#2563EB",
+                "images": [],
+                "isDefault": true,
+                "sizes": [],
+                "_id": "69fc7112a6c9bb35ad92da19",
+                "createdAt": "2026-05-07T11:01:38.162Z",
+                "updatedAt": "2026-05-07T11:01:38.162Z"
+            },
+            {
+                "colorName": "Pink",
+                "colorCode": "#E91E63",
+                "images": [],
+                "isDefault": false,
+                "sizes": [],
+                "_id": "69fc7112a6c9bb35ad92da1a",
+                "createdAt": "2026-05-07T11:01:38.163Z",
+                "updatedAt": "2026-05-07T11:01:38.163Z"
+            }
+        ],
+        "availableColors": [
+            "Blue",
+            "Pink"
+        ],
+        "availableSizes": [],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-07T11:01:38.163Z",
+        "updatedAt": "2026-05-07T11:01:38.163Z",
+        "__v": 0,
+        "ourPrice": 25000,
+        "retailPrice": 45000,
+        "finalPrice": 25000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69fc6b87a6c9bb35ad92d75e",
+        "name": "ELISABETTA FRANCHI Off-SHOULDER KNITTED MINI DRESS",
+        "description": "SIZE MENTIONED:40\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003ECHEST:28\"\u003C/div\u003E\u003Cdiv\u003ELENGTH:30\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR:RED\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE:&nbsp;EXTERIOR:AM76S21E3\u003Cbr\u003E\u003Cbr\u003EEXTERIOR:\u003C/div\u003E\u003Cdiv\u003EFRONT FLAP POCKETS&nbsp;\u003Cbr\u003EOFF-SHOULDER NECKLINE\u003C/div\u003E\u003Cdiv\u003E3/4-SLEEVE LENGTH\n\u003Cbr\u003E65% VISCOSE\u003C/div\u003E\u003Cdiv\u003E8% POLYMAIDE \u003Cbr\u003E2% ELASTANE&nbsp;\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "elisabetta-franchi-off-shoulder-knitted-mini-dress",
+        "sku": "AUTO-ELISABETTA-FRANCHI-OFF-SHOULDER-KNITTED-MINI-DRESS",
+        "mainImage": {
+            "url": "/media/products/2026/05/07_7eb10933.webp",
+            "alt": "1R5A1391"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/07_c563cc89.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69fc6b87a6c9bb35ad92d75f",
+                "createdAt": "2026-05-07T10:39:41.072Z",
+                "updatedAt": "2026-05-07T10:39:41.072Z"
+            },
+            {
+                "url": "/media/products/2026/05/07_2380320f.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69fc6b87a6c9bb35ad92d760",
+                "createdAt": "2026-05-07T10:39:41.072Z",
+                "updatedAt": "2026-05-07T10:39:41.072Z"
+            }
+        ],
+        "mrp": 90000,
+        "basePrice": 54000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d500d",
+                "name": "Dresses & Gowns",
+                "slug": "dresses-gowns",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d500d",
+                "name": "Dresses & Gowns",
+                "slug": "dresses-gowns",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69f9c4c2a6c9bb35ad91f8bb",
+            "name": "ELISABETTA FRANCHI",
+            "slug": "elisabetta-franchi"
+        },
+        "tags": [
+            "WOMENS",
+            "ELISABETTAFRANCHI",
+            "RED"
+        ],
+        "condition": "New With Tags",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1735,
+        "colors": [
+            {
+                "colorName": "Red",
+                "colorCode": "#C62828",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "XS",
+                        "stock": 0
+                    },
+                    {
+                        "sizeName": "S",
+                        "stock": 0
+                    },
+                    {
+                        "sizeName": "M",
+                        "stock": 0
+                    },
+                    {
+                        "sizeName": "L",
+                        "stock": 0
+                    },
+                    {
+                        "sizeName": "XL",
+                        "stock": 0
+                    },
+                    {
+                        "sizeName": "XXL",
+                        "stock": 0
+                    },
+                    {
+                        "sizeName": "One Size",
+                        "stock": 0
+                    },
+                    {
+                        "sizeName": "Free Size",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69fc6beda6c9bb35ad92d806",
+                "createdAt": "2026-05-07T10:39:41.072Z",
+                "updatedAt": "2026-05-07T10:39:41.072Z"
+            }
+        ],
+        "availableColors": [
+            "Red"
+        ],
+        "availableSizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "One Size",
+            "Free Size"
+        ],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-07T10:37:59.155Z",
+        "updatedAt": "2026-05-07T10:39:41.072Z",
+        "__v": 0,
+        "ourPrice": 54000,
+        "retailPrice": 90000,
+        "finalPrice": 54000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69fc6656a6c9bb35ad92d54a",
+        "name": "GIVENCHY WOMENS LOGO PARKA DRESS",
+        "description": "SIZE MENTIONED:12+\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003ECHEST:40\"\n\u003Cbr\u003EWAIST:38\"\u003C/div\u003E\u003Cdiv\u003ELENGTH:32\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR:RED\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE: H12221  3263519  004507\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\u003Cbr\u003EADJUSTABLE DRAWSTRING WAIST&nbsp;\u003Cbr\u003ELONG SLEEVES WITH ELASTICATED CUFFS\u003C/div\u003E\u003Cdiv\u003ESHIRT-STYLE MINI FDRESS WITH A HIGH COLLAR&nbsp;\u003Cbr\u003EFRONT BUTTON-UP PLACKET WITH CONCEALED FLAP&nbsp;\u003Cbr\u003E100% POLYMAIDE&nbsp;\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "givenchy-womens-logo-parka-dress",
+        "sku": "AUTO-GIVENCHY-WOMENS-LOGO-PARKA-DRESS",
+        "mainImage": {
+            "url": "/media/products/2026/05/07_cce7126d.webp",
+            "alt": "1R5A1391"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/07_919f0638.webp",
+                "alt": "Product image 2",
+                "order": 0,
+                "_id": "69fc6da3a6c9bb35ad92d89a",
+                "createdAt": "2026-05-07T10:48:40.459Z",
+                "updatedAt": "2026-05-07T10:48:40.459Z"
+            },
+            {
+                "url": "/media/products/2026/05/07_098ea108.webp",
+                "alt": "Product image 3",
+                "order": 1,
+                "_id": "69fc6da3a6c9bb35ad92d89b",
+                "createdAt": "2026-05-07T10:48:40.459Z",
+                "updatedAt": "2026-05-07T10:48:40.459Z"
+            }
+        ],
+        "mrp": 175000,
+        "basePrice": 65000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d500d",
+                "name": "Dresses & Gowns",
+                "slug": "dresses-gowns",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d500d",
+                "name": "Dresses & Gowns",
+                "slug": "dresses-gowns",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b19922b2422842d6709",
+            "name": "GIVENCHY",
+            "slug": "givenchy"
+        },
+        "tags": [
+            "DRESS",
+            "WOMENS",
+            "RED"
+        ],
+        "condition": "New Without Tags",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1734,
+        "colors": [
+            {
+                "colorName": "Red",
+                "colorCode": "#C62828",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "12+",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69fc6e08a6c9bb35ad92d91f",
+                "createdAt": "2026-05-07T10:48:40.459Z",
+                "updatedAt": "2026-05-07T10:48:40.459Z"
+            }
+        ],
+        "availableColors": [
+            "Red"
+        ],
+        "availableSizes": [
+            "12+"
+        ],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-07T10:15:50.487Z",
+        "updatedAt": "2026-05-07T10:48:40.459Z",
+        "__v": 0,
+        "ourPrice": 65000,
+        "retailPrice": 175000,
+        "finalPrice": 65000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69fc482da6c9bb35ad92c422",
+        "name": "LOUIS VUITTON SHORT HOODED PARKA",
+        "description": "SIZE MENTIONED:34\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003ECHEST:36\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:22\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR:BLACK&nbsp;\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE: RW201W FBP FI0W26\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ECINCHED WAIST&nbsp;\u003Cbr\u003ELEATHER KNOT&nbsp;\u003Cbr\u003EMONOGRAM CANVAS&nbsp;\u003Cbr\u003EREGULAR FIT AND AN ADJUSTABLE\u003C/div\u003E\u003Cdiv\u003ELIGHTWEIGHT SPORTY PARKA\u003Cbr\u003ECONTRASTING MONOGRAM LINING ON THE HOOD&nbsp;\u003Cbr\u003E56% POLYESTER \u003Cbr\u003E28% ELASTANE \u003Cbr\u003E16% POLYNAIMDE&nbsp;\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "louis-vuitton-short-hooded-parka",
+        "sku": "AUTO-LOUIS-VUITTON-SHORT-HOODED-PARKA",
+        "mainImage": {
+            "url": "/media/products/2026/05/07_2de90a58.webp",
+            "alt": "1R5A1430"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/07_311436ee.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69fc482da6c9bb35ad92c423",
+                "createdAt": "2026-05-07T08:07:09.429Z",
+                "updatedAt": "2026-05-07T08:07:09.429Z"
+            },
+            {
+                "url": "/media/products/2026/05/07_5e3bf368.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69fc482da6c9bb35ad92c424",
+                "createdAt": "2026-05-07T08:07:09.429Z",
+                "updatedAt": "2026-05-07T08:07:09.429Z"
+            }
+        ],
+        "mrp": 310000,
+        "basePrice": 275000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b15922b2422842d3ca5",
+            "name": "LOUIS VUITTON",
+            "slug": "louis-vuitton"
+        },
+        "tags": [
+            "JACKET",
+            "WOMENS",
+            "LOUIS VUITTON",
+            "BLACK"
+        ],
+        "condition": "New Without Tags",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1733,
+        "colors": [
+            {
+                "colorName": "Black",
+                "colorCode": "#111111",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "34",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69fc482da6c9bb35ad92c425",
+                "createdAt": "2026-05-07T08:07:09.429Z",
+                "updatedAt": "2026-05-07T08:07:09.429Z"
+            }
+        ],
+        "availableColors": [
+            "Black"
+        ],
+        "availableSizes": [
+            "34"
+        ],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-07T08:07:09.429Z",
+        "updatedAt": "2026-05-07T08:07:09.429Z",
+        "__v": 0,
+        "ourPrice": 275000,
+        "retailPrice": 310000,
+        "finalPrice": 275000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69fc4521a6c9bb35ad92bea7",
+        "name": "MONCLER WOMEN'S ZIP UP CARDIGAN",
+        "description": "SIZE MENTIONED:XL\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003ECHEST:40\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:21\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR:BEIGE&nbsp;\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE: H10938G00016809DH\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ERIBBED CUFFS&nbsp;\u003Cbr\u003ESNAP CLOUSER ON THE CHEST\u003C/div\u003E\u003Cdiv\u003EEQUIPPED WITH TWO ZIPPERED POCKETS&nbsp;\u003Cbr\u003EICONIC FELTED LOGO PATCH ON THE LEFT SLEEVE&nbsp;\u003Cbr\u003ECOTTON POLYAMIDE\u003C/div\u003E",
+        "slug": "moncler-womens-zip-up-cardigan",
+        "sku": "AUTO-MONCLER-WOMENS-ZIP-UP-CARDIGAN",
+        "mainImage": {
+            "url": "/media/products/2026/05/07_b25e2868.webp",
+            "alt": "1R5A1414"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/07_12c55d2e.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69fc4521a6c9bb35ad92bea8",
+                "createdAt": "2026-05-07T07:54:09.680Z",
+                "updatedAt": "2026-05-07T07:54:09.680Z"
+            },
+            {
+                "url": "/media/products/2026/05/07_cf3147af.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69fc4521a6c9bb35ad92bea9",
+                "createdAt": "2026-05-07T07:54:09.680Z",
+                "updatedAt": "2026-05-07T07:54:09.680Z"
+            }
+        ],
+        "mrp": 182000,
+        "basePrice": 130000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b18922b2422842d5944",
+            "name": "MONCLER",
+            "slug": "moncler"
+        },
+        "tags": [
+            "JACKET",
+            "WOMEN",
+            "MONCLER"
+        ],
+        "condition": "New Without Tags",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1732,
+        "colors": [
+            {
+                "colorName": "Beige",
+                "colorCode": "#D6C1A3",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "XL",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69fc4521a6c9bb35ad92beaa",
+                "createdAt": "2026-05-07T07:54:09.680Z",
+                "updatedAt": "2026-05-07T07:54:09.680Z"
+            }
+        ],
+        "availableColors": [
+            "Beige"
+        ],
+        "availableSizes": [
+            "XL"
+        ],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-07T07:54:09.680Z",
+        "updatedAt": "2026-05-07T07:54:09.680Z",
+        "__v": 0,
+        "ourPrice": 130000,
+        "retailPrice": 182000,
+        "finalPrice": 130000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69fc4074a6c9bb35ad92ba89",
+        "name": "GIVENCHY LIGHT PINK HOODED WINDBREAKER",
+        "description": "SIZE MENTIONED:12+\u003Cdiv\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECHEST:42\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:22.5\"\n\u003C/div\u003E\u003Cdiv\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR:PINK&nbsp;\u003C/div\u003E\u003Cdiv\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE: H16094&nbsp;3254246&nbsp;004507\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003EEquipped with two zippered side pockets\u003C/div\u003E\u003Cdiv\u003EPOLYAMIDE&nbsp;\u003C/div\u003E\u003Cdiv\u003E\u003Cbr\u003E\u003C/div\u003E",
+        "slug": "givenchy-light-pink-hooded-windbreaker",
+        "sku": "AUTO-GIVENCHY-LIGHT-PINK-HOODED-WINDBREAKER",
+        "mainImage": {
+            "url": "/media/products/2026/05/07_2587240d.webp",
+            "alt": "1R5A1412"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/07_bcf3faf6.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69fc4074a6c9bb35ad92ba8a",
+                "createdAt": "2026-05-07T07:34:12.313Z",
+                "updatedAt": "2026-05-07T07:34:12.313Z"
+            },
+            {
+                "url": "/media/products/2026/05/07_eabacd46.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69fc4074a6c9bb35ad92ba8b",
+                "createdAt": "2026-05-07T07:34:12.313Z",
+                "updatedAt": "2026-05-07T07:34:12.313Z"
+            }
+        ],
+        "mrp": 200000,
+        "basePrice": 95000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d4b27",
+                "name": "Jackets & Outerwear",
+                "slug": "jackets-outerwear",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b19922b2422842d6709",
+            "name": "GIVENCHY",
+            "slug": "givenchy"
+        },
+        "tags": [
+            "GIVENCHY",
+            "WOMENS",
+            "JACKET"
+        ],
+        "condition": "Pristine",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1731,
+        "colors": [
+            {
+                "colorName": "Pink",
+                "colorCode": "#E91E63",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "12+",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69fc4074a6c9bb35ad92ba8c",
+                "createdAt": "2026-05-07T07:34:12.313Z",
+                "updatedAt": "2026-05-07T07:34:12.313Z"
+            }
+        ],
+        "availableColors": [
+            "Pink"
+        ],
+        "availableSizes": [
+            "12+"
+        ],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-07T07:34:12.313Z",
+        "updatedAt": "2026-05-07T07:34:12.313Z",
+        "__v": 0,
+        "ourPrice": 95000,
+        "retailPrice": 200000,
+        "finalPrice": 95000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69fb3218a6c9bb35ad925d9c",
+        "name": "DOLCE & GABBANA JERSEY T-SHIRT WITH CRYSTAL DG EMBELLISHMENT AND LACE",
+        "description": "SIZE MENTIONED:9/10\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003ECHEST:35\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:17.5\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR:BLACK\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ECREW NECK&nbsp;\u003Cbr\u003ECRYSTAL DG EMBELLISHMENT AND LACE&nbsp;\u003Cbr\u003E100% COTTON&nbsp;\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "dolce-gabbana-jersey-t-shirt-with-crystal-dg-embellishment-and-lace",
+        "sku": "AUTO-DOLCE-GABBANA-JERSEY-T-SHIRT-WITH-CRYSTAL-DG-EMBELLISHMENT-AND-LACE",
+        "mainImage": {
+            "url": "/media/products/2026/05/06_b801aef3.webp",
+            "alt": "1R5A1049"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/06_179e4b18.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69fb3218a6c9bb35ad925d9d",
+                "createdAt": "2026-05-06T12:20:40.021Z",
+                "updatedAt": "2026-05-06T12:20:40.021Z"
+            },
+            {
+                "url": "/media/products/2026/05/06_8b1ed483.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69fb3218a6c9bb35ad925d9e",
+                "createdAt": "2026-05-06T12:20:40.021Z",
+                "updatedAt": "2026-05-06T12:20:40.021Z"
+            }
+        ],
+        "mrp": 57000,
+        "basePrice": 15000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d47ff",
+                "name": "T Shirts & Shirts",
+                "slug": "t-shirts-shirts",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d47ff",
+                "name": "T Shirts & Shirts",
+                "slug": "t-shirts-shirts",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b15922b2422842d3c56",
+            "name": "DOLCE AND GABBANA",
+            "slug": "dolce-and-gabbana"
+        },
+        "tags": [
+            "T-SHIRT",
+            "TOP",
+            "DOLCE & GABBANA"
+        ],
+        "condition": "New Without Tags",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1728,
+        "colors": [
+            {
+                "colorName": "Black",
+                "colorCode": "#111111",
+                "images": [],
+                "isDefault": true,
+                "sizes": [],
+                "_id": "69fb3218a6c9bb35ad925d9f",
+                "createdAt": "2026-05-06T12:20:40.021Z",
+                "updatedAt": "2026-05-06T12:20:40.021Z"
+            }
+        ],
+        "availableColors": [
+            "Black"
+        ],
+        "availableSizes": [],
+        "isQuote": false,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-06T12:20:40.021Z",
+        "updatedAt": "2026-05-06T12:20:40.021Z",
+        "__v": 0,
+        "ourPrice": 15000,
+        "retailPrice": 57000,
+        "finalPrice": 15000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69fb2c5ba6c9bb35ad92589b",
+        "name": "COACH SIGNATURE CREW NECK SWEATER",
+        "description": "SIZE MENTIONED:170/92A\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003ECHEST:42\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:24\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR:BLACK&nbsp;\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ECLASSIC CREW NECKLINE&nbsp;\u003Cbr\u003ECONTRAST EMBROIDERED \"C\" LOGO ONTHE CHEST&nbsp;\u003Cbr\u003ERIBBED KNIT AT THE COLLAR,CUFFS &amp; HEM\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "coach-signature-crew-neck-sweater",
+        "sku": "AUTO-COACH-SIGNATURE-CREW-NECK-SWEATER",
+        "mainImage": {
+            "url": "/media/products/2026/05/06_56fa9dc5.webp",
+            "alt": "1R5A1436"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/06_e9af8037.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69fb2c5ba6c9bb35ad92589c",
+                "createdAt": "2026-05-06T11:56:11.424Z",
+                "updatedAt": "2026-05-06T11:56:11.424Z"
+            },
+            {
+                "url": "/media/products/2026/05/06_aa5066d0.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69fb2c5ba6c9bb35ad92589d",
+                "createdAt": "2026-05-06T11:56:11.424Z",
+                "updatedAt": "2026-05-06T11:56:11.424Z"
+            }
+        ],
+        "mrp": 28000,
+        "basePrice": 13000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            }
+        ],
+        "brand": {
+            "_id": "69b31b15922b2422842d3b53",
+            "name": "COACH",
+            "slug": "coach"
+        },
+        "tags": [
+            "COACH",
+            "SWEATER",
+            "WOMENS"
+        ],
+        "condition": "Pristine",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1727,
+        "colors": [
+            {
+                "colorName": "Black",
+                "colorCode": "#111111",
+                "images": [],
+                "isDefault": true,
+                "sizes": [],
+                "_id": "69fb2c5ba6c9bb35ad92589e",
+                "createdAt": "2026-05-06T11:56:11.424Z",
+                "updatedAt": "2026-05-06T11:56:11.424Z"
+            }
+        ],
+        "availableColors": [
+            "Black"
+        ],
+        "availableSizes": [],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-06T11:56:11.424Z",
+        "updatedAt": "2026-05-06T11:56:11.424Z",
+        "__v": 0,
+        "ourPrice": 13000,
+        "retailPrice": 28000,
+        "finalPrice": 13000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69fb278ba6c9bb35ad9255b1",
+        "name": "LOEWE PRINTED STRETCH JERSEY TOP",
+        "description": "SIZE MENTIONED:40\u003Cdiv\u003ECHEST:34\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:25\"\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR:TAN&nbsp;\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003EROUND NECK&nbsp;\u003Cbr\u003ELONG SLEEVEDSTRETCH T-SHIRT&nbsp;\u003Cbr\u003EALL-OVER BALLOON PRINT IN CAMEL.\u003C/div\u003E\u003Cdiv\u003E72% POLYMAIDE\u003Cbr\u003E28% ELASTANE&nbsp;\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "loewe-printed-stretch-jersey-top",
+        "sku": "AUTO-LOEWE-PRINTED-STRETCH-JERSEY-TOP",
+        "mainImage": {
+            "url": "/media/products/2026/05/06_b0de3737.webp",
+            "alt": "1R5A1436"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/05/06_8513fc61.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69fb278ba6c9bb35ad9255b2",
+                "createdAt": "2026-05-06T11:35:39.605Z",
+                "updatedAt": "2026-05-06T11:35:39.605Z"
+            },
+            {
+                "url": "/media/products/2026/05/06_c4809719.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69fb278ba6c9bb35ad9255b3",
+                "createdAt": "2026-05-06T11:35:39.605Z",
+                "updatedAt": "2026-05-06T11:35:39.605Z"
+            }
+        ],
+        "mrp": 30000,
+        "basePrice": 20000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d47ff",
+                "name": "T Shirts & Shirts",
+                "slug": "t-shirts-shirts",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3b58",
+                "name": "WOMEN",
+                "slug": "women",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d47ff",
+                "name": "T Shirts & Shirts",
+                "slug": "t-shirts-shirts",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69fb2725a6c9bb35ad925580",
+            "name": "LOEWE",
+            "slug": "loewe"
+        },
+        "tags": [
+            "LOEWE",
+            "WOMENS",
+            "TAN"
+        ],
+        "condition": "New With Tags",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1726,
+        "colors": [
+            {
+                "colorName": "Tan",
+                "colorCode": "#B9895B",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "40",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69fb278ba6c9bb35ad9255b4",
+                "createdAt": "2026-05-06T11:35:39.605Z",
+                "updatedAt": "2026-05-06T11:35:39.605Z"
+            }
+        ],
+        "availableColors": [
+            "Tan"
+        ],
+        "availableSizes": [
+            "40"
+        ],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-05-06T11:35:39.605Z",
+        "updatedAt": "2026-05-06T11:35:39.605Z",
+        "__v": 0,
+        "ourPrice": 20000,
+        "retailPrice": 30000,
+        "finalPrice": 20000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    }
+]

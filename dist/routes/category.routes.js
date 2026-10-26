@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const category_controller_1 = require("../controllers/category.controller");
+const auth_middleware_1 = require("../middleware/auth.middleware");
+const validate_middleware_1 = require("../middleware/validate.middleware");
+const category_validator_1 = require("../validators/category.validator");
+const router = (0, express_1.Router)();
+router.get('/', category_controller_1.CategoryController.list);
+router.get('/all', auth_middleware_1.authenticate, (0, auth_middleware_1.authorize)('admin'), category_controller_1.CategoryController.listAll);
+router.post('/', auth_middleware_1.authenticate, (0, auth_middleware_1.authorize)('admin'), (0, validate_middleware_1.validate)(category_validator_1.createCategoryValidator), category_controller_1.CategoryController.create);
+router.patch('/:id', auth_middleware_1.authenticate, (0, auth_middleware_1.authorize)('admin'), (0, validate_middleware_1.validate)(category_validator_1.updateCategoryValidator), category_controller_1.CategoryController.update);
+router.delete('/:id', auth_middleware_1.authenticate, (0, auth_middleware_1.authorize)('admin'), (0, validate_middleware_1.validate)(category_validator_1.categoryIdValidator), category_controller_1.CategoryController.remove);
+exports.default = router;

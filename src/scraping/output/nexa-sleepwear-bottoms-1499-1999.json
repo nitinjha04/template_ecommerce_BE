@@ -1,0 +1,949 @@
+{
+  "scrapedAt": "2026-06-24T19:18:40.347Z",
+  "categoryFilter": "maxwomen-sleepwear-bottoms",
+  "categoryName": "sleepwear bottoms",
+  "categorySlug": "maxwomen-sleepwear-bottoms",
+  "storeId": "6a3bf2e10b0f40e291c26f6f",
+  "storeDomain": "nexa-skyline.com",
+  "priceMin": 1499,
+  "priceMax": 1999,
+  "categoryId": "maxwomen-sleepwear-bottoms",
+  "priceMode": "random",
+  "sort": "low-to-high",
+  "totalProducts": 15,
+  "pagesFetched": 1,
+  "products": [
+    {
+      "name": "Women Printed Shorts",
+      "slug": "1000016046711-grey-greymelange",
+      "price": 1568,
+      "originalPrice": 1718,
+      "category": "sleepwear bottoms",
+      "description": "Women Printed Shorts. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaTitle": "Women Printed Shorts",
+      "metaDescription": "Women Printed Shorts. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear bottoms",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Grey"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016046711-Grey-GREYMELANGE-1000016046711_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016046711-Grey-GREYMELANGE-1000016046711_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016046711-Grey-GREYMELANGE-1000016046711_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016046711-Grey-GREYMELANGE-1000016046711_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016046711-Grey-GREYMELANGE-1000016046711_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016046711-Grey-GREYMELANGE-1000016046711_06-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear bottoms",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Hand wash separately",
+      "neckline": "Henley",
+      "sleeveLength": "Short sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "9 x 10 x 3 cm",
+      "stockQuantity": 69,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear bottoms",
+      "_source": {
+        "nykaaId": "1000016046711GreyGREYMELANGE",
+        "sku": "1000016046711-Grey-GREYMELANGE",
+        "categoryFilter": "maxwomen-sleepwear-bottoms",
+        "assignedPriceTier": 1568
+      }
+    },
+    {
+      "name": "Women Printed Shorts",
+      "slug": "1000015808100-pink-pink",
+      "price": 1594,
+      "originalPrice": 1744,
+      "category": "sleepwear bottoms",
+      "description": "Women Printed Shorts. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaTitle": "Women Printed Shorts",
+      "metaDescription": "Women Printed Shorts. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear bottoms",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Pink"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015808100-Pink-PINK-1000015808100_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015808100-Pink-PINK-1000015808100_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015808100-Pink-PINK-1000015808100_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015808100-Pink-PINK-1000015808100_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015808100-Pink-PINK-1000015808100_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015808100-Pink-PINK-1000015808100_06-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear bottoms",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "12 x 10 x 5 cm",
+      "stockQuantity": 52,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-02T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear bottoms",
+      "_source": {
+        "nykaaId": "1000015808100PinkPINK",
+        "sku": "1000015808100-Pink-PINK",
+        "categoryFilter": "maxwomen-sleepwear-bottoms",
+        "assignedPriceTier": 1594
+      }
+    },
+    {
+      "name": "Women Animal Print Shorts",
+      "slug": "1000015645054-pink-lightpink",
+      "price": 1570,
+      "originalPrice": 1720,
+      "category": "sleepwear bottoms",
+      "description": "Women Animal Print Shorts. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaTitle": "Women Animal Print Shorts",
+      "metaDescription": "Women Animal Print Shorts. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear bottoms",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Pink"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000015645054-Pink-LIGHTPINK-1000015645054_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015645054-Pink-LIGHTPINK-1000015645054_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015645054-Pink-LIGHTPINK-1000015645054_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015645054-Pink-LIGHTPINK-1000015645054_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015645054-Pink-LIGHTPINK-1000015645054_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015645054-Pink-LIGHTPINK-1000015645054_06-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear bottoms",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "11 x 10 x 7 cm",
+      "stockQuantity": 90,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear bottoms",
+      "_source": {
+        "nykaaId": "1000015645054PinkLIGHTPINK",
+        "sku": "1000015645054-Pink-LIGHTPINK",
+        "categoryFilter": "maxwomen-sleepwear-bottoms",
+        "assignedPriceTier": 1570
+      }
+    },
+    {
+      "name": "Women Checked Sleepwear Shorts",
+      "slug": "1000015597047-multi-multi",
+      "price": 1814,
+      "originalPrice": 1964,
+      "category": "sleepwear bottoms",
+      "description": "Women Checked Sleepwear Shorts. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaTitle": "Women Checked Sleepwear Shorts",
+      "metaDescription": "Women Checked Sleepwear Shorts. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear bottoms",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Multicolour"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015597047-Multi-MULTI-1000015597047_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015597047-Multi-MULTI-1000015597047_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015597047-Multi-MULTI-1000015597047_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015597047-Multi-MULTI-1000015597047_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015597047-Multi-MULTI-1000015597047_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015597047-Multi-MULTI-1000015597047_06-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear bottoms",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "10 x 15 x 2 cm",
+      "stockQuantity": 61,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-03T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear bottoms",
+      "_source": {
+        "nykaaId": "1000015597047MultiMULTI",
+        "sku": "1000015597047-Multi-MULTI",
+        "categoryFilter": "maxwomen-sleepwear-bottoms",
+        "assignedPriceTier": 1814
+      }
+    },
+    {
+      "name": "Women Bugs Bunny Print Shorts",
+      "slug": "1000015552776-pink-pink",
+      "price": 1988,
+      "originalPrice": 2138,
+      "category": "sleepwear bottoms",
+      "description": "Women Bugs Bunny Print Shorts. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaTitle": "Women Bugs Bunny Print Shorts",
+      "metaDescription": "Women Bugs Bunny Print Shorts. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear bottoms",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Pink"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015552776-Pink-PINK-1000015552776_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015552776-Pink-PINK-1000015552776_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015552776-Pink-PINK-1000015552776_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015552776-Pink-PINK-1000015552776_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015552776-Pink-PINK-1000015552776_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015552776-Pink-PINK-1000015552776_06-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear bottoms",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 12 x 6 cm",
+      "stockQuantity": 20,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear bottoms",
+      "_source": {
+        "nykaaId": "1000015552776PinkPINK",
+        "sku": "1000015552776-Pink-PINK",
+        "categoryFilter": "maxwomen-sleepwear-bottoms",
+        "assignedPriceTier": 1988
+      }
+    },
+    {
+      "name": "Women Floral Print Shorts",
+      "slug": "1000015362706-purple-orchid",
+      "price": 1685,
+      "originalPrice": 1835,
+      "category": "sleepwear bottoms",
+      "description": "Women Floral Print Shorts. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Shorts",
+      "metaDescription": "Women Floral Print Shorts. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear bottoms",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Purple"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015362706-Purple-ORCHID-1000015362706_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015362706-Purple-ORCHID-1000015362706_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015362706-Purple-ORCHID-1000015362706_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015362706-Purple-ORCHID-1000015362706_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015362706-Purple-ORCHID-1000015362706_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015362706-Purple-ORCHID-1000015362706_06-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear bottoms",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Dry clean recommended",
+      "neckline": "Henley",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "14 x 14 x 7 cm",
+      "stockQuantity": 61,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1000015362706PurpleORCHID",
+        "sku": "1000015362706-Purple-ORCHID",
+        "categoryFilter": "maxwomen-sleepwear-bottoms",
+        "assignedPriceTier": 1685
+      }
+    },
+    {
+      "name": "Women Mickey Printed Shorts",
+      "slug": "1000015362674-multi-multi",
+      "price": 1679,
+      "originalPrice": 1829,
+      "category": "sleepwear bottoms",
+      "description": "Women Mickey Printed Shorts. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaTitle": "Women Mickey Printed Shorts",
+      "metaDescription": "Women Mickey Printed Shorts. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear bottoms",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Multicolour"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015362674-Multi-MULTI-1000015362674_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015362674-Multi-MULTI-1000015362674_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015362674-Multi-MULTI-1000015362674_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015362674-Multi-MULTI-1000015362674_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015362674-Multi-MULTI-1000015362674_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015362674-Multi-MULTI-1000015362674_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015362674-Multi-MULTI-1000015362674_07-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear bottoms",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.7 kg",
+      "dimensions": "14 x 16 x 5 cm",
+      "stockQuantity": 71,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000015362674MultiMULTI",
+        "sku": "1000015362674-Multi-MULTI",
+        "categoryFilter": "maxwomen-sleepwear-bottoms",
+        "assignedPriceTier": 1679
+      }
+    },
+    {
+      "name": "Women Snoopy Print Shorts",
+      "slug": "1000015316756-pink-pink",
+      "price": 1724,
+      "originalPrice": 1874,
+      "category": "sleepwear bottoms",
+      "description": "Women Snoopy Print Shorts. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaTitle": "Women Snoopy Print Shorts",
+      "metaDescription": "Women Snoopy Print Shorts. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear bottoms",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Pink"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015316756-Pink-PINK-1000015316756_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015316756-Pink-PINK-1000015316756_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015316756-Pink-PINK-1000015316756_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015316756-Pink-PINK-1000015316756_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015316756-Pink-PINK-1000015316756_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015316756-Pink-PINK-1000015316756_06-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear bottoms",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "14 x 13 x 4 cm",
+      "stockQuantity": 92,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "1000015316756PinkPINK",
+        "sku": "1000015316756-Pink-PINK",
+        "categoryFilter": "maxwomen-sleepwear-bottoms",
+        "assignedPriceTier": 1724
+      }
+    },
+    {
+      "name": "Women Printed Shorts",
+      "slug": "1000015230155-pink-pink",
+      "price": 1685,
+      "originalPrice": 1835,
+      "category": "sleepwear bottoms",
+      "description": "Women Printed Shorts. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaTitle": "Women Printed Shorts",
+      "metaDescription": "Women Printed Shorts. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear bottoms",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Pink"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015230155-Pink-PINK-1000015230155_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015230155-Pink-PINK-1000015230155_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015230155-Pink-PINK-1000015230155_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015230155-Pink-PINK-1000015230155_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015230155-Pink-PINK-1000015230155_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015230155-Pink-PINK-1000015230155_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015230155-Pink-PINK-1000015230155_07-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear bottoms",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.4 kg",
+      "dimensions": "9 x 16 x 5 cm",
+      "stockQuantity": 42,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000015230155PinkPINK",
+        "sku": "1000015230155-Pink-PINK",
+        "categoryFilter": "maxwomen-sleepwear-bottoms",
+        "assignedPriceTier": 1685
+      }
+    },
+    {
+      "name": "Women Printed Sleep Shorts",
+      "slug": "1000014977438-pink-pink",
+      "price": 1507,
+      "originalPrice": 1657,
+      "category": "sleepwear bottoms",
+      "description": "Women Printed Sleep Shorts. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaTitle": "Women Printed Sleep Shorts",
+      "metaDescription": "Women Printed Sleep Shorts. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear bottoms",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Pink"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014977438-Pink-PINK-1000014977438_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014977438-Pink-PINK-1000014977438_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014977438-Pink-PINK-1000014977438_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014977438-Pink-PINK-1000014977438_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014977438-Pink-PINK-1000014977438_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014977438-Pink-PINK-1000014977438_06-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear bottoms",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Dry clean recommended",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "13 x 15 x 3 cm",
+      "stockQuantity": 116,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1000014977438PinkPINK",
+        "sku": "1000014977438-Pink-PINK",
+        "categoryFilter": "maxwomen-sleepwear-bottoms",
+        "assignedPriceTier": 1507
+      }
+    },
+    {
+      "name": "Women Mickey Printed Capris",
+      "slug": "1000014908256-brown-lightbrown",
+      "price": 1694,
+      "originalPrice": 1844,
+      "category": "sleepwear bottoms",
+      "description": "Women Mickey Printed Capris. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaTitle": "Women Mickey Printed Capris",
+      "metaDescription": "Women Mickey Printed Capris. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear bottoms",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014908256-Brown-LIGHTBROWN-1000014908256_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014908256-Brown-LIGHTBROWN-1000014908256_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014908256-Brown-LIGHTBROWN-1000014908256_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014908256-Brown-LIGHTBROWN-1000014908256_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014908256-Brown-LIGHTBROWN-1000014908256_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014908256-Brown-LIGHTBROWN-1000014908256_06-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear bottoms",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.6 kg",
+      "dimensions": "13 x 12 x 2 cm",
+      "stockQuantity": 104,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear bottoms",
+      "_source": {
+        "nykaaId": "1000014908256BrownLIGHTBROWN",
+        "sku": "1000014908256-Brown-LIGHTBROWN",
+        "categoryFilter": "maxwomen-sleepwear-bottoms",
+        "assignedPriceTier": 1694
+      }
+    },
+    {
+      "name": "Women Printed Capris",
+      "slug": "1000014764437-beige-oatmarl",
+      "price": 1773,
+      "originalPrice": 1923,
+      "category": "sleepwear bottoms",
+      "description": "Women Printed Capris. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaTitle": "Women Printed Capris",
+      "metaDescription": "Women Printed Capris. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear bottoms",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014764437-Beige-OATMARL-1000014764437_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014764437-Beige-OATMARL-1000014764437_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014764437-Beige-OATMARL-1000014764437_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014764437-Beige-OATMARL-1000014764437_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014764437-Beige-OATMARL-1000014764437_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014764437-Beige-OATMARL-1000014764437_06-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear bottoms",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Dry clean recommended",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.5 kg",
+      "dimensions": "9 x 16 x 2 cm",
+      "stockQuantity": 101,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear bottoms",
+      "_source": {
+        "nykaaId": "1000014764437BeigeOATMARL",
+        "sku": "1000014764437-Beige-OATMARL",
+        "categoryFilter": "maxwomen-sleepwear-bottoms",
+        "assignedPriceTier": 1773
+      }
+    },
+    {
+      "name": "Women Printed Knit Capri",
+      "slug": "1000014674494-grey-anthramarl",
+      "price": 1901,
+      "originalPrice": 2051,
+      "category": "sleepwear bottoms",
+      "description": "Women Printed Knit Capri. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaTitle": "Women Printed Knit Capri",
+      "metaDescription": "Women Printed Knit Capri. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear bottoms",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Grey"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014674494-Grey-ANTHRAMARL-1000014674494_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014674494-Grey-ANTHRAMARL-1000014674494_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014674494-Grey-ANTHRAMARL-1000014674494_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014674494-Grey-ANTHRAMARL-1000014674494_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014674494-Grey-ANTHRAMARL-1000014674494_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014674494-Grey-ANTHRAMARL-1000014674494_06-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear bottoms",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.7 kg",
+      "dimensions": "9 x 11 x 3 cm",
+      "stockQuantity": 43,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1000014674494GreyANTHRAMARL",
+        "sku": "1000014674494-Grey-ANTHRAMARL",
+        "categoryFilter": "maxwomen-sleepwear-bottoms",
+        "assignedPriceTier": 1901
+      }
+    },
+    {
+      "name": "Women Printed Capri",
+      "slug": "1000014668364-grey-darkgrey",
+      "price": 1751,
+      "originalPrice": 1901,
+      "category": "sleepwear bottoms",
+      "description": "Women Printed Capri. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaTitle": "Women Printed Capri",
+      "metaDescription": "Women Printed Capri. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear bottoms",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Grey"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014668364-Grey-DARKGREY-1000014668364_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014668364-Grey-DARKGREY-1000014668364_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014668364-Grey-DARKGREY-1000014668364_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014668364-Grey-DARKGREY-1000014668364_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014668364-Grey-DARKGREY-1000014668364_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014668364-Grey-DARKGREY-1000014668364_06-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear bottoms",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Jacket",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "11 x 13 x 2 cm",
+      "stockQuantity": 52,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-03T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear bottoms",
+      "_source": {
+        "nykaaId": "1000014668364GreyDARKGREY",
+        "sku": "1000014668364-Grey-DARKGREY",
+        "categoryFilter": "maxwomen-sleepwear-bottoms",
+        "assignedPriceTier": 1751
+      }
+    },
+    {
+      "name": "Women Printed Knit Capris",
+      "slug": "1000014285391-brown-lightbrown",
+      "price": 1780,
+      "originalPrice": 1930,
+      "category": "sleepwear bottoms",
+      "description": "Women Printed Knit Capris. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaTitle": "Women Printed Knit Capris",
+      "metaDescription": "Women Printed Knit Capris. Premium sleepwear bottoms from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear bottoms",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014285391-Brown-LIGHTBROWN-1000014285391_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014285391-Brown-LIGHTBROWN-1000014285391_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014285391-Brown-LIGHTBROWN-1000014285391_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014285391-Brown-LIGHTBROWN-1000014285391_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014285391-Brown-LIGHTBROWN-1000014285391_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014285391-Brown-LIGHTBROWN-1000014285391_06-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear bottoms",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Jacket",
+      "washCare": "Dry clean recommended",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "10 x 14 x 5 cm",
+      "stockQuantity": 30,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "1000014285391BrownLIGHTBROWN",
+        "sku": "1000014285391-Brown-LIGHTBROWN",
+        "categoryFilter": "maxwomen-sleepwear-bottoms",
+        "assignedPriceTier": 1780
+      }
+    }
+  ]
+}

@@ -1,0 +1,2930 @@
+{
+  "scrapedAt": "2026-05-26T10:58:59.962Z",
+  "categoryFilter": "8522",
+  "categoryName": "jumpsuits",
+  "priceMin": 900,
+  "priceMax": 999,
+  "categoryId": "6557",
+  "priceMode": "random",
+  "sort": "low-to-high",
+  "totalProducts": 50,
+  "pagesFetched": 2,
+  "products": [
+    {
+      "name": "Kipek — Womens Cotton Dyed Flared Jumpsuit Pink",
+      "slug": "kipek-womens-cotton-dyed-flared-jumpsuit-pink",
+      "price": 993,
+      "originalPrice": 3699,
+      "category": "jumpsuits",
+      "description": "Womens Cotton Dyed Flared Jumpsuit Pink. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Kipek — Womens Cotton Dyed Flared Jumpsuit Pink",
+      "metaDescription": "Womens Cotton Dyed Flared Jumpsuit Pink. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/7/775b62fKipek-KKM037PK_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/7/775b62fKipek-KKM037PK_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/7/775b62fKipek-KKM037PK_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/7/775b62fKipek-KKM037PK_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/7/775b62fKipek-KKM037PK_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/7/775b62fKipek-KKM037PK_6.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Round",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.3 kg",
+      "dimensions": "9 x 13 x 4 cm",
+      "stockQuantity": 116,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "8030695",
+        "sku": "KIPEK00002270",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 993
+      }
+    },
+    {
+      "name": "Vaamsi — Women Mustard Printed Ethnic Jumpsuit",
+      "slug": "vaamsi-women-mustard-printed-ethnic-jumpsuit",
+      "price": 956,
+      "originalPrice": 2237,
+      "category": "jumpsuits",
+      "description": "Women Mustard Printed Ethnic Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Vaamsi — Women Mustard Printed Ethnic Jumpsuit",
+      "metaDescription": "Women Mustard Printed Ethnic Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/b/5ba4ae9AHIKA00006219_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/b/5ba4ae9AHIKA00006219_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/b/5ba4ae9AHIKA00006219_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/b/5ba4ae9AHIKA00006219_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/b/5ba4ae9AHIKA00006219_5.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.3 kg",
+      "dimensions": "10 x 13 x 6 cm",
+      "stockQuantity": 72,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "13772017",
+        "sku": "AHIKA00006219",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 956
+      }
+    },
+    {
+      "name": "Ahalyaa — Womens Black Crepe And Net Glitter Print Jumpsuit",
+      "slug": "ahalyaa-womens-black-crepe-and-net-glitter-print-jumpsuit",
+      "price": 985,
+      "originalPrice": 3600,
+      "category": "jumpsuits",
+      "description": "Womens Black Crepe And Net Glitter Print Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Ahalyaa — Womens Black Crepe And Net Glitter Print Jumpsuit",
+      "metaDescription": "Womens Black Crepe And Net Glitter Print Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/2/e223421NK_AHALY00002107_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/2/e223421NK_AHALY00002107_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/2/e223421NK_AHALY00002107_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/2/e223421NK_AHALY00002107_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/2/e223421NK_AHALY00002107_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/2/e223421NK_AHALY00002107_6.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.3 kg",
+      "dimensions": "9 x 13 x 4 cm",
+      "stockQuantity": 111,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-10T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "7293519",
+        "sku": "AHALY00002255",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 985
+      }
+    },
+    {
+      "name": "Vaamsi — Women Navy Blue Polyester Floral Straight Jumpsuit",
+      "slug": "vaamsi-women-navy-blue-polyester-floral-straight-jumpsuit",
+      "price": 919,
+      "originalPrice": 2497,
+      "category": "jumpsuits",
+      "description": "Women Navy Blue Polyester Floral Straight Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Vaamsi — Women Navy Blue Polyester Floral Straight Jumpsuit",
+      "metaDescription": "Women Navy Blue Polyester Floral Straight Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/a/1ab0c63VJMP1022_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/a/1ab0c63VJMP1022_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/a/1ab0c63VJMP1022_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/a/1ab0c63VJMP1022_4.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.4 kg",
+      "dimensions": "9 x 10 x 5 cm",
+      "stockQuantity": 111,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "15364924",
+        "sku": "AHIKA00012603",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 919
+      }
+    },
+    {
+      "name": "Juniper — Red Multi-Motif Bohemian Printed Sleeveless Jumpsuit with Belt",
+      "slug": "juniper-red-multi-motif-bohemian-printed-sleeveless-jumpsuit-with-belt",
+      "price": 915,
+      "originalPrice": 3699,
+      "category": "jumpsuits",
+      "description": "Red Multi-Motif Bohemian Printed Sleeveless Jumpsuit with Belt. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Juniper — Red Multi-Motif Bohemian Printed Sleeveless Jumpsuit with Be",
+      "metaDescription": "Red Multi-Motif Bohemian Printed Sleeveless Jumpsuit with Belt. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/9/e9c85ecMDP1949RED_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/9/e9c85ecMDP1949RED_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/9/e9c85ecMDP1949RED_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/9/e9c85ecMDP1949RED_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/9/e9c85ecMDP1949RED_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/9/e9c85ecMDP1949RED_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/9/e9c85ecMDP1949RED_7.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Hand wash separately",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "8 x 16 x 8 cm",
+      "stockQuantity": 68,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "25931464",
+        "sku": "JUNIP00020253",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 915
+      }
+    },
+    {
+      "name": "Juniper — Multi Color Abstract Printed Viscose Jumpsuit with Belt",
+      "slug": "juniper-navy-blue-abstract-printed-viscose-jumpsuit-with-belt",
+      "price": 944,
+      "originalPrice": 3699,
+      "category": "jumpsuits",
+      "description": "Multi Color Abstract Printed Viscose Jumpsuit with Belt. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Juniper — Multi Color Abstract Printed Viscose Jumpsuit with Belt",
+      "metaDescription": "Multi Color Abstract Printed Viscose Jumpsuit with Belt. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1949NAVY_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1949NAVY_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1949NAVY_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1949NAVY_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1949NAVY_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1949NAVY_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1949NAVY_7.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "10 x 16 x 3 cm",
+      "stockQuantity": 83,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-10T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "23285745",
+        "sku": "JUNIP00018095",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 944
+      }
+    },
+    {
+      "name": "Juniper — Mustard Abstract Printed Viscose Jumpsuit with Belt",
+      "slug": "juniper-mustard-abstract-printed-viscose-jumpsuit-with-belt",
+      "price": 976,
+      "originalPrice": 3699,
+      "category": "jumpsuits",
+      "description": "Mustard Abstract Printed Viscose Jumpsuit with Belt. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Juniper — Mustard Abstract Printed Viscose Jumpsuit with Belt",
+      "metaDescription": "Mustard Abstract Printed Viscose Jumpsuit with Belt. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1949MUSTARD_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1949MUSTARD_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1949MUSTARD_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1949MUSTARD_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1949MUSTARD_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1949MUSTARD_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1949MUSTARD_7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1949MUSTARD_8.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.3 kg",
+      "dimensions": "11 x 11 x 5 cm",
+      "stockQuantity": 114,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "23285744",
+        "sku": "JUNIP00018094",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 976
+      }
+    },
+    {
+      "name": "Juniper — Multi-Colour Abstract Printed Viscose Jumpsuit with Belt",
+      "slug": "juniper-multi-colour-abstract-printed-viscose-jumpsuit-with-belt",
+      "price": 966,
+      "originalPrice": 3699,
+      "category": "jumpsuits",
+      "description": "Multi-Colour Abstract Printed Viscose Jumpsuit with Belt. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Juniper — Multi-Colour Abstract Printed Viscose Jumpsuit with Belt",
+      "metaDescription": "Multi-Colour Abstract Printed Viscose Jumpsuit with Belt. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1949MULTI_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1949MULTI_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1949MULTI_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1949MULTI_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1949MULTI_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1949MULTI_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1949MULTI_7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1949MULTI_8.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Jacket",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "14 x 10 x 2 cm",
+      "stockQuantity": 18,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "23285743",
+        "sku": "JUNIP00018093",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 966
+      }
+    },
+    {
+      "name": "Yufta — Women Charming Maroon Printed Ethnic Jumpsuit",
+      "slug": "yufta-women-charming-maroon-printed-ethnic-jumpsuit",
+      "price": 949,
+      "originalPrice": 2199,
+      "category": "jumpsuits",
+      "description": "Women Charming Maroon Printed Ethnic Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Yufta — Women Charming Maroon Printed Ethnic Jumpsuit",
+      "metaDescription": "Women Charming Maroon Printed Ethnic Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/a/4aa38fbYUF-9551JSMR_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/a/4aa38fbYUF-9551JSMR_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/a/4aa38fbYUF-9551JSMR_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/a/4aa38fbYUF-9551JSMR_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/a/4aa38fbYUF-9551JSMR_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/a/4aa38fbYUF-9551JSMR_6.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Medium",
+      "packageContains": "1 Kurta",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.3 kg",
+      "dimensions": "11 x 16 x 8 cm",
+      "stockQuantity": 24,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "5517350",
+        "sku": "YUFTA00002155",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 949
+      }
+    },
+    {
+      "name": "Ahalyaa — Womens Blue Crepe & Net Silver Glitter Print Jumpsuit",
+      "slug": "ahalyaa-womens-blue-crepe-net-silver-glitter-print-jumpsuit",
+      "price": 983,
+      "originalPrice": 3750,
+      "category": "jumpsuits",
+      "description": "Womens Blue Crepe & Net Silver Glitter Print Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Ahalyaa — Womens Blue Crepe & Net Silver Glitter Print Jumpsuit",
+      "metaDescription": "Womens Blue Crepe & Net Silver Glitter Print Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/2/52ef841RAHALY00001216_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/2/52ef841RAHALY00001216_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/2/52ef841RAHALY00001216_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/2/52ef841RAHALY00001216_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/2/52ef841RAHALY00001216_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/2/52ef841RAHALY00001216_6.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Trouser",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 12 x 6 cm",
+      "stockQuantity": 28,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "5787086",
+        "sku": "AHALY00001216",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 983
+      }
+    },
+    {
+      "name": "Globus — Blue Viscose Notched Lapel Jumpsuit",
+      "slug": "globus-blue-viscose-notched-lapel-jumpsuit",
+      "price": 998,
+      "originalPrice": 2199,
+      "category": "jumpsuits",
+      "description": "Blue Viscose Notched Lapel Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Globus — Blue Viscose Notched Lapel Jumpsuit",
+      "metaDescription": "Blue Viscose Notched Lapel Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIPK8ECOMWJPS2393BBLUE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIPK8ECOMWJPS2393BBLUE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIPK8ECOMWJPS2393BBLUE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIPK8ECOMWJPS2393BBLUE_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIPK8ECOMWJPS2393BBLUE_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIPK8ECOMWJPS2393BBLUE_6.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.4 kg",
+      "dimensions": "11 x 13 x 2 cm",
+      "stockQuantity": 54,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "19082827",
+        "sku": "GLOAD00031504",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 998
+      }
+    },
+    {
+      "name": "Aaheli — Printed Rayon Emerald Playsuit",
+      "slug": "aaheli-printed-rayon-emerald-jumpsuit",
+      "price": 944,
+      "originalPrice": 995,
+      "category": "jumpsuits",
+      "description": "Printed Rayon Emerald Playsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Aaheli — Printed Rayon Emerald Playsuit",
+      "metaDescription": "Printed Rayon Emerald Playsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/f/4fc1027A_2501-Green_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/f/4fc1027A_2501-Green_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/f/4fc1027A_2501-Green_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/f/4fc1027A_2501-Green_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/f/4fc1027A_2501-Green_5.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.5 kg",
+      "dimensions": "12 x 12 x 5 cm",
+      "stockQuantity": 116,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "4299416",
+        "sku": "AAHEL00006605",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 944
+      }
+    },
+    {
+      "name": "Aaheli — Printed Rayon Yellow Playsuit",
+      "slug": "aaheli-printed-rayon-yellow-jumpsuit",
+      "price": 984,
+      "originalPrice": 995,
+      "category": "jumpsuits",
+      "description": "Printed Rayon Yellow Playsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Aaheli — Printed Rayon Yellow Playsuit",
+      "metaDescription": "Printed Rayon Yellow Playsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/e/9e2a027A_2501-Yellow_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/e/9e2a027A_2501-Yellow_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/e/9e2a027A_2501-Yellow_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/e/9e2a027A_2501-Yellow_4.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Medium",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "8 x 15 x 7 cm",
+      "stockQuantity": 14,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-11T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "4299417",
+        "sku": "AAHEL00006606",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 984
+      }
+    },
+    {
+      "name": "Aaheli — Printed Rayon Black Playsuit",
+      "slug": "aaheli-printed-rayon-black-jumpsuit",
+      "price": 960,
+      "originalPrice": 995,
+      "category": "jumpsuits",
+      "description": "Printed Rayon Black Playsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Aaheli — Printed Rayon Black Playsuit",
+      "metaDescription": "Printed Rayon Black Playsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "3XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/1325027A_2501-Black_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/1325027A_2501-Black_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/1325027A_2501-Black_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/1325027A_2501-Black_4.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "12 x 13 x 5 cm",
+      "stockQuantity": 72,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "4299420",
+        "sku": "AAHEL00006609",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 960
+      }
+    },
+    {
+      "name": "Aaheli — Printed Rayon Pink Jumpsuit",
+      "slug": "aaheli-printed-rayon-pink-jumpsuit",
+      "price": 962,
+      "originalPrice": 995,
+      "category": "jumpsuits",
+      "description": "Printed Rayon Pink Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Aaheli — Printed Rayon Pink Jumpsuit",
+      "metaDescription": "Printed Rayon Pink Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/6/2648027A_2501-Coral_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/6/2648027A_2501-Coral_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/6/2648027A_2501-Coral_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/6/2648027A_2501-Coral_4.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Medium",
+      "packageContains": "1 Jacket",
+      "washCare": "Dry clean recommended",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.8 kg",
+      "dimensions": "11 x 12 x 3 cm",
+      "stockQuantity": 62,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "4299419",
+        "sku": "AAHEL00006608",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 962
+      }
+    },
+    {
+      "name": "Aaheli — Printed Rayon Brown Jumpsuit",
+      "slug": "aaheli-printed-rayon-brown-jumpsuit",
+      "price": 922,
+      "originalPrice": 995,
+      "category": "jumpsuits",
+      "description": "Printed Rayon Brown Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Aaheli — Printed Rayon Brown Jumpsuit",
+      "metaDescription": "Printed Rayon Brown Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/1/31cd027A_2501-Brown_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/1/31cd027A_2501-Brown_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/1/31cd027A_2501-Brown_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/1/31cd027A_2501-Brown_4.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Dry clean recommended",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 14 x 4 cm",
+      "stockQuantity": 25,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "4299418",
+        "sku": "AAHEL00006607",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 922
+      }
+    },
+    {
+      "name": "Ancestry — Aafreen Jumpsuit - Blue",
+      "slug": "ancestry-aafreen-jumpsuit-blue",
+      "price": 923,
+      "originalPrice": 2790,
+      "category": "jumpsuits",
+      "description": "Aafreen Jumpsuit - Blue. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Ancestry — Aafreen Jumpsuit - Blue",
+      "metaDescription": "Aafreen Jumpsuit - Blue. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/d/ddd53a1DSJSWW0087-BE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/d/ddd53a1DSJSWW0087-BE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/d/ddd53a1DSJSWW0087-BE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/d/ddd53a1DSJSWW0087-BE_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/d/ddd53a1DSJSWW0087-BE_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/d/ddd53a1DSJSWW0087-BE_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/2/d224858Final-HG-Infographic_last.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash cold",
+      "neckline": "Round",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.4 kg",
+      "dimensions": "9 x 12 x 2 cm",
+      "stockQuantity": 91,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "7623086",
+        "sku": "ANCES00000344",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 923
+      }
+    },
+    {
+      "name": "Juniper — Ivory Ethnic Motif Printed Rayon Jumpsuit with Zip",
+      "slug": "juniper-ivory-rayon-printed-ethnic-jumpsuit-with-belt-set-of-2",
+      "price": 957,
+      "originalPrice": 2399,
+      "category": "jumpsuits",
+      "description": "Ivory Ethnic Motif Printed Rayon Jumpsuit with Zip. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Juniper — Ivory Ethnic Motif Printed Rayon Jumpsuit with Zip",
+      "metaDescription": "Ivory Ethnic Motif Printed Rayon Jumpsuit with Zip. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/c/5ca13242910IVORY_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/c/5ca13242910IVORY_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/c/5ca13242910IVORY_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/c/5ca13242910IVORY_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/c/5ca13242910IVORY_5.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.6 kg",
+      "dimensions": "13 x 10 x 8 cm",
+      "stockQuantity": 53,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "4899406",
+        "sku": "JUNIP00001837",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 957
+      }
+    },
+    {
+      "name": "Juniper — Red Floral Printed Viscose Jumpsuit with Belt",
+      "slug": "juniper-red-floral-printed-viscose-jumpsuit-with-belt",
+      "price": 980,
+      "originalPrice": 3699,
+      "category": "jumpsuits",
+      "description": "Red Floral Printed Viscose Jumpsuit with Belt. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Juniper — Red Floral Printed Viscose Jumpsuit with Belt",
+      "metaDescription": "Red Floral Printed Viscose Jumpsuit with Belt. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1956RED_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1956RED_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1956RED_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1956RED_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1956RED_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1956RED_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1956RED_7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1956RED_8.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Medium",
+      "packageContains": "1 Trouser",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "10 x 16 x 6 cm",
+      "stockQuantity": 72,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-10T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "23285747",
+        "sku": "JUNIP00018097",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 980
+      }
+    },
+    {
+      "name": "Juniper — Wine Floral Printed Viscose Jumpsuit with Belt",
+      "slug": "juniper-wine-floral-printed-viscose-jumpsuit-with-belt",
+      "price": 988,
+      "originalPrice": 3699,
+      "category": "jumpsuits",
+      "description": "Wine Floral Printed Viscose Jumpsuit with Belt. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Juniper — Wine Floral Printed Viscose Jumpsuit with Belt",
+      "metaDescription": "Wine Floral Printed Viscose Jumpsuit with Belt. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1956WINE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1956WINE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1956WINE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1956WINE_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/ba8b139MDP1956WINE_5.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "11 x 11 x 7 cm",
+      "stockQuantity": 33,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "23285749",
+        "sku": "JUNIP00018099",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 988
+      }
+    },
+    {
+      "name": "Mabish By Sonal Jain — Orange One Shoulder Floral Dhoti Jumpsuit",
+      "slug": "mabish-by-sonal-jain-orange-one-shoulder-floral-dhoti-jumpsuit",
+      "price": 952,
+      "originalPrice": 2899,
+      "category": "jumpsuits",
+      "description": "Orange One Shoulder Floral Dhoti Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Mabish By Sonal Jain — Orange One Shoulder Floral Dhoti Jumpsuit",
+      "metaDescription": "Orange One Shoulder Floral Dhoti Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0356JSP5_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0356JSP5_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0356JSP5_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0356JSP5_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0356JSP5_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0356JSP5_6.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.6 kg",
+      "dimensions": "8 x 10 x 3 cm",
+      "stockQuantity": 114,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "23106799",
+        "sku": "MABIS00004391",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 952
+      }
+    },
+    {
+      "name": "Mabish By Sonal Jain — Multi Color One Shoulder Dhoti Jumpsuit",
+      "slug": "mabish-by-sonal-jain-orange-one-shoulder-dhoti-jumpsuit",
+      "price": 937,
+      "originalPrice": 2899,
+      "category": "jumpsuits",
+      "description": "Multi Color One Shoulder Dhoti Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Mabish By Sonal Jain — Multi Color One Shoulder Dhoti Jumpsuit",
+      "metaDescription": "Multi Color One Shoulder Dhoti Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0356JSP3_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0356JSP3_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0356JSP3_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0356JSP3_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0356JSP3_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0356JSP3_6.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.7 kg",
+      "dimensions": "10 x 10 x 8 cm",
+      "stockQuantity": 76,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-10T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "23106798",
+        "sku": "MABIS00004390",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 937
+      }
+    },
+    {
+      "name": "Mabish By Sonal Jain — Red One Shoulder Red Floral Dhoti Jumpsuit",
+      "slug": "mabish-by-sonal-jain-red-one-shoulder-red-floral-dhoti-jumpsuit",
+      "price": 979,
+      "originalPrice": 2899,
+      "category": "jumpsuits",
+      "description": "Red One Shoulder Red Floral Dhoti Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Mabish By Sonal Jain — Red One Shoulder Red Floral Dhoti Jumpsuit",
+      "metaDescription": "Red One Shoulder Red Floral Dhoti Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0356JSP7_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0356JSP7_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0356JSP7_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0356JSP7_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0356JSP7_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0356JSP7_6.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash cold",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.6 kg",
+      "dimensions": "8 x 11 x 6 cm",
+      "stockQuantity": 25,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "23106800",
+        "sku": "MABIS00004392",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 979
+      }
+    },
+    {
+      "name": "Yufta — Women Blue Printed Ethnic Jumpsuit",
+      "slug": "yufta-women-blue-printed-ethnic-jumpsuit",
+      "price": 992,
+      "originalPrice": 2499,
+      "category": "jumpsuits",
+      "description": "Women Blue Printed Ethnic Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Yufta — Women Blue Printed Ethnic Jumpsuit",
+      "metaDescription": "Women Blue Printed Ethnic Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/e/8efa8fbYUF-9550JSSB_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/e/8efa8fbYUF-9550JSSB_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/e/8efa8fbYUF-9550JSSB_3.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.5 kg",
+      "dimensions": "13 x 12 x 3 cm",
+      "stockQuantity": 56,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "5517348",
+        "sku": "YUFTA00002153",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 992
+      }
+    },
+    {
+      "name": "Globus — Blue Viscose Collar Neck Jumpsuit",
+      "slug": "globus-blue-viscose-collar-neck-jumpsuit",
+      "price": 979,
+      "originalPrice": 2099,
+      "category": "jumpsuits",
+      "description": "Blue Viscose Collar Neck Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Globus — Blue Viscose Collar Neck Jumpsuit",
+      "metaDescription": "Blue Viscose Collar Neck Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2138BLUE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2138BLUE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2138BLUE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2138BLUE_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2138BLUE_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2138BLUE_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2138BLUE_7.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.3 kg",
+      "dimensions": "10 x 14 x 5 cm",
+      "stockQuantity": 64,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "19082847",
+        "sku": "GLOAD00031514",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 979
+      }
+    },
+    {
+      "name": "Globus — Pink Viscose Collar Neck Jumpsuit",
+      "slug": "globus-pink-viscose-collar-neck-jumpsuit",
+      "price": 959,
+      "originalPrice": 2099,
+      "category": "jumpsuits",
+      "description": "Pink Viscose Collar Neck Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Globus — Pink Viscose Collar Neck Jumpsuit",
+      "metaDescription": "Pink Viscose Collar Neck Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2137PINK_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2137PINK_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2137PINK_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2137PINK_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2137PINK_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2137PINK_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2137PINK_7.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "V-neck",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "10 x 10 x 5 cm",
+      "stockQuantity": 97,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "19082846",
+        "sku": "GLOAD00031513",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 959
+      }
+    },
+    {
+      "name": "Biba — Womens Navy Blue Printed Rayon Straight Jumpsuit",
+      "slug": "biba-womens-navy-blue-printed-rayon-straight-jumpsuit",
+      "price": 927,
+      "originalPrice": 1999,
+      "category": "jumpsuits",
+      "description": "Womens Navy Blue Printed Rayon Straight Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Biba — Womens Navy Blue Printed Rayon Straight Jumpsuit",
+      "metaDescription": "Womens Navy Blue Printed Rayon Straight Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b0159fJMPST1966SS23NVY_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b0159fJMPST1966SS23NVY_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b0159fJMPST1966SS23NVY_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b0159fJMPST1966SS23NVY_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b0159fJMPST1966SS23NVY_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b0159fJMPST1966SS23NVY_6.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash cold",
+      "neckline": "Round",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 15 x 2 cm",
+      "stockQuantity": 17,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "9798760",
+        "sku": "BIBAX00016212",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 927
+      }
+    },
+    {
+      "name": "Fabindia — Magenta Cotton Printed Women Jumpsuit",
+      "slug": "fabindia-magenta-cotton-printed-women-jumpsuit",
+      "price": 923,
+      "originalPrice": 2999,
+      "category": "jumpsuits",
+      "description": "Magenta Cotton Printed Women Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Fabindia — Magenta Cotton Printed Women Jumpsuit",
+      "metaDescription": "Magenta Cotton Printed Women Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/a/dafcb41FILMP-2108460MAGENTA_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/a/dafcb41FILMP-2108460MAGENTA_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/a/dafcb41FILMP-2108460MAGENTA_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/a/dafcb41FILMP-2108460MAGENTA_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/a/dafcb41FILMP-2108460MAGENTA_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/a/dafcb41FILMP-2108460MAGENTA_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/a/dafcb41FILMP-2108460MAGENTA_7.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Long",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.4 kg",
+      "dimensions": "8 x 10 x 6 cm",
+      "stockQuantity": 75,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "11920980",
+        "sku": "FABIN00073620",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 923
+      }
+    },
+    {
+      "name": "Juniper — Off-White Floral Printed Rayon Slub Jumpsuit with Zip Closure",
+      "slug": "juniper-women-off-white-rayon-printed-jumpsuit-with-belt-set-of-2",
+      "price": 931,
+      "originalPrice": 2599,
+      "category": "jumpsuits",
+      "description": "Off-White Floral Printed Rayon Slub Jumpsuit with Zip Closure. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Juniper — Off-White Floral Printed Rayon Slub Jumpsuit with Zip Closur",
+      "metaDescription": "Off-White Floral Printed Rayon Slub Jumpsuit with Zip Closure. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/f/9fface59934OFFWHITERNL_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/f/9fface59934OFFWHITERNL_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/f/9fface59934OFFWHITERNL_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/f/9fface59934OFFWHITERNL_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/f/9fface59934OFFWHITERNL_5.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "8 x 16 x 5 cm",
+      "stockQuantity": 46,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "14305787",
+        "sku": "JUNIP00011305",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 931
+      }
+    },
+    {
+      "name": "Juniper — Off-White Floral Printed Rayon Slub Jumpsuit with Zip Closure",
+      "slug": "juniper-off-white-rayon-slub-printed-ethnic-jumpsuit",
+      "price": 994,
+      "originalPrice": 2599,
+      "category": "jumpsuits",
+      "description": "Off-White Floral Printed Rayon Slub Jumpsuit with Zip Closure. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Juniper — Off-White Floral Printed Rayon Slub Jumpsuit with Zip Closur",
+      "metaDescription": "Off-White Floral Printed Rayon Slub Jumpsuit with Zip Closure. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/9934offwhite_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/9934offwhite_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/9934offwhite_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/9934offwhite_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/9934offwhite_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/9934offwhite_6.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.4 kg",
+      "dimensions": "11 x 12 x 7 cm",
+      "stockQuantity": 35,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "1079949",
+        "sku": "JNPR536",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 994
+      }
+    },
+    {
+      "name": "Mabish By Sonal Jain — Pink One Shoulder Dhoti Jumpsuit",
+      "slug": "mabish-by-sonal-jain-one-shoulder-dhoti-jumpsuit",
+      "price": 938,
+      "originalPrice": 2599,
+      "category": "jumpsuits",
+      "description": "Pink One Shoulder Dhoti Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Mabish By Sonal Jain — Pink One Shoulder Dhoti Jumpsuit",
+      "metaDescription": "Pink One Shoulder Dhoti Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/1/e12fbdfTP0356RP51_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/1/e12fbdfTP0356RP51_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/1/e12fbdfTP0356RP51_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/1/e12fbdfTP0356RP51_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/1/e12fbdfTP0356RP51_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/1/e12fbdfTP0356RP51_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/1/e12fbdfTP0356RP51_7.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Short",
+      "packageContains": "1 Kurta",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.4 kg",
+      "dimensions": "12 x 11 x 8 cm",
+      "stockQuantity": 88,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "13872870",
+        "sku": "MABIS00001371",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 938
+      }
+    },
+    {
+      "name": "Globus — Pink Viscose Sweetheart Jumpsuit",
+      "slug": "globus-pink-viscose-sweetheart-jumpsuit",
+      "price": 954,
+      "originalPrice": 2499,
+      "category": "jumpsuits",
+      "description": "Pink Viscose Sweetheart Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Globus — Pink Viscose Sweetheart Jumpsuit",
+      "metaDescription": "Pink Viscose Sweetheart Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2620APINK_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2620APINK_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2620APINK_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2620APINK_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2620APINK_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2620APINK_6.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Henley",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 12 x 3 cm",
+      "stockQuantity": 71,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-11T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "19082842",
+        "sku": "GLOAD00031509",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 954
+      }
+    },
+    {
+      "name": "Globus — Blue Viscose Sweetheart Jumpsuit",
+      "slug": "globus-blue-viscose-sweetheart-jumpsuit",
+      "price": 904,
+      "originalPrice": 2499,
+      "category": "jumpsuits",
+      "description": "Blue Viscose Sweetheart Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Globus — Blue Viscose Sweetheart Jumpsuit",
+      "metaDescription": "Blue Viscose Sweetheart Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2620BBLUE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2620BBLUE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2620BBLUE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2620BBLUE_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2620BBLUE_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIFK8ECOMWJPS2620BBLUE_6.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.7 kg",
+      "dimensions": "8 x 10 x 2 cm",
+      "stockQuantity": 86,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "19082843",
+        "sku": "GLOAD00031510",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 904
+      }
+    },
+    {
+      "name": "Rain & Rainbow — Women Shoulder Straps Cotton Basic Jumpsuit",
+      "slug": "rain-rainbow-women-shoulder-straps-cotton-basic-jumpsuit",
+      "price": 942,
+      "originalPrice": 2995,
+      "category": "jumpsuits",
+      "description": "Women Shoulder Straps Cotton Basic Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Rain & Rainbow — Women Shoulder Straps Cotton Basic Jumpsuit",
+      "metaDescription": "Women Shoulder Straps Cotton Basic Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/c/dcf8ef65076-SS-1401-11_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/c/dcf8ef65076-SS-1401-11_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/c/dcf8ef65076-SS-1401-11_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/c/dcf8ef65076-SS-1401-11_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/c/dcf8ef65076-SS-1401-11_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/c/dcf8ef65076-SS-1401-11_6.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "8 x 11 x 2 cm",
+      "stockQuantity": 13,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-10T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "18223012",
+        "sku": "RAINR00003121",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 942
+      }
+    },
+    {
+      "name": "Juniper — Dark Blue Quirky Printed Poly Crepe Jumpsuit with Thread Work Embroidery",
+      "slug": "juniper-navy-blue-embroidered-jumpsuit",
+      "price": 940,
+      "originalPrice": 2549,
+      "category": "jumpsuits",
+      "description": "Dark Blue Quirky Printed Poly Crepe Jumpsuit with Thread Work Embroidery. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Juniper — Dark Blue Quirky Printed Poly Crepe Jumpsuit with Thread Wor",
+      "metaDescription": "Dark Blue Quirky Printed Poly Crepe Jumpsuit with Thread Work Embroidery. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/9935darkblue-1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/9935darkblue-2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/9935darkblue-3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/9935darkblue-4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/9935darkblue-5.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "13 x 10 x 4 cm",
+      "stockQuantity": 35,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1728706",
+        "sku": "JNPR603",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 940
+      }
+    },
+    {
+      "name": "Juniper — Dark Blue Quirky Printed Poly Crepe Jumpsuit with Thread Work Embroidery",
+      "slug": "juniper-women-s-darkblue-micro-poly-embroidered-regular-jumpsuit",
+      "price": 955,
+      "originalPrice": 2549,
+      "category": "jumpsuits",
+      "description": "Dark Blue Quirky Printed Poly Crepe Jumpsuit with Thread Work Embroidery. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Juniper — Dark Blue Quirky Printed Poly Crepe Jumpsuit with Thread Wor",
+      "metaDescription": "Dark Blue Quirky Printed Poly Crepe Jumpsuit with Thread Work Embroidery. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/2/920c1579935DARKBLUE_1.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "9 x 16 x 4 cm",
+      "stockQuantity": 90,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "5659732",
+        "sku": "JUNIP00003040",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 955
+      }
+    },
+    {
+      "name": "Globus — Women Wine Strappy with V Embroidered Printed Flared Leg Jumpsuit",
+      "slug": "globus-women-wine-strappy-with-v-embroidered-printed-flared-leg-jumpsuit",
+      "price": 963,
+      "originalPrice": 2499,
+      "category": "jumpsuits",
+      "description": "Women Wine Strappy with V Embroidered Printed Flared Leg Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Globus — Women Wine Strappy with V Embroidered Printed Flared Leg Jump",
+      "metaDescription": "Women Wine Strappy with V Embroidered Printed Flared Leg Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/6/7653e5eIPK8ECOMWJPS1031_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/6/7653e5eIPK8ECOMWJPS1031_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/6/7653e5eIPK8ECOMWJPS1031_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/6/7653e5eIPK8ECOMWJPS1031_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/6/7653e5eIPK8ECOMWJPS1031_5.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "10 x 14 x 5 cm",
+      "stockQuantity": 71,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "15094103",
+        "sku": "GLOAD00022516",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 963
+      }
+    },
+    {
+      "name": "Mabish By Sonal Jain — Multi Color Overlap Neck Wide Legged Jumpsuit",
+      "slug": "mabish-by-sonal-jain-red-red-overlap-neck-wide-legged-jumpsuit",
+      "price": 973,
+      "originalPrice": 3299,
+      "category": "jumpsuits",
+      "description": "Multi Color Overlap Neck Wide Legged Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Mabish By Sonal Jain — Multi Color Overlap Neck Wide Legged Jumpsuit",
+      "metaDescription": "Multi Color Overlap Neck Wide Legged Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0599JSP2_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0599JSP2_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0599JSP2_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0599JSP2_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0599JSP2_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0599JSP2_6.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Full length",
+      "packageContains": "1 Trouser",
+      "washCare": "Dry clean recommended",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "13 x 11 x 2 cm",
+      "stockQuantity": 43,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "23106802",
+        "sku": "MABIS00004394",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 973
+      }
+    },
+    {
+      "name": "Rustorange — Maroon Front Buttoned Jumpsuit",
+      "slug": "rustorange-maroon-front-buttoned-jumpsuit",
+      "price": 920,
+      "originalPrice": 2999,
+      "category": "jumpsuits",
+      "description": "Maroon Front Buttoned Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Rustorange — Maroon Front Buttoned Jumpsuit",
+      "metaDescription": "Maroon Front Buttoned Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/9/f9fd15cRTOR0122_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/9/f9fd15cRTOR0122_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/9/f9fd15cRTOR0122_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/9/f9fd15cRTOR0122_4.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "9 x 16 x 5 cm",
+      "stockQuantity": 68,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "2299925",
+        "sku": "RTOR0122",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 920
+      }
+    },
+    {
+      "name": "Pannkh — Women Painted Floral Look Digital Printed Sleeveless Jumpsuit",
+      "slug": "pannkh-women-painted-floral-look-digital-printed-sleeveless-jumpsuit",
+      "price": 966,
+      "originalPrice": 1849,
+      "category": "jumpsuits",
+      "description": "Women Painted Floral Look Digital Printed Sleeveless Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Pannkh — Women Painted Floral Look Digital Printed Sleeveless Jumpsuit",
+      "metaDescription": "Women Painted Floral Look Digital Printed Sleeveless Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/4/743ffeeJS647_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/4/743ffeeJS647_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/4/743ffeeJS647_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/4/743ffeeJS647_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/4/743ffeeJS647_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/4/743ffeeJS647_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/4/743ffeeJS647_8.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/4/743ffeeJS647_9.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.7 kg",
+      "dimensions": "10 x 10 x 4 cm",
+      "stockQuantity": 38,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "12586387",
+        "sku": "PANNK00001676",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 966
+      }
+    },
+    {
+      "name": "Juniper — Jade Green Ethnic Motif Printed Rayon Slub Jumpsuit with Zari Work Embroidery",
+      "slug": "juniper-green-embroidered-jumpsuit-with-mask-set-of-2",
+      "price": 986,
+      "originalPrice": 1999,
+      "category": "jumpsuits",
+      "description": "Jade Green Ethnic Motif Printed Rayon Slub Jumpsuit with Zari Work Embroidery. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Juniper — Jade Green Ethnic Motif Printed Rayon Slub Jumpsuit with Zar",
+      "metaDescription": "Jade Green Ethnic Motif Printed Rayon Slub Jumpsuit with Zari Work Embroidery. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/6/d632dcaDJNPR696_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/6/d632dcaDJNPR696_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/6/d632dcaDJNPR696_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/6/d632dcaDJNPR696_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/6/d632dcaDJNPR696_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/6/d632dcaDJNPR696_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/6/d632dcaDJNPR696_7.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Short",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 11 x 8 cm",
+      "stockQuantity": 81,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1772092",
+        "sku": "JNPR696",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 986
+      }
+    },
+    {
+      "name": "Juniper — Jade Green Ethnic Motif Printed Rayon Slub Jumpsuit with Zari Work Embroidery",
+      "slug": "juniper-women-s-jadegreen-rayon-slub-embroidered-regular-jumpsuit-set-of-2",
+      "price": 912,
+      "originalPrice": 1999,
+      "category": "jumpsuits",
+      "description": "Jade Green Ethnic Motif Printed Rayon Slub Jumpsuit with Zari Work Embroidery. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Juniper — Jade Green Ethnic Motif Printed Rayon Slub Jumpsuit with Zar",
+      "metaDescription": "Jade Green Ethnic Motif Printed Rayon Slub Jumpsuit with Zari Work Embroidery. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/9/49c81572280JADEGREEN_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/9/49c81572280JADEGREEN_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/9/49c81572280JADEGREEN_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/9/49c81572280JADEGREEN_6.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Dry clean recommended",
+      "neckline": "Band collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "14 x 13 x 8 cm",
+      "stockQuantity": 92,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "5659731",
+        "sku": "JUNIP00003039",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 912
+      }
+    },
+    {
+      "name": "Pannkh — Women Cotton Printed Jumpsuit",
+      "slug": "pannkh-women-cotton-printed-jumpsuit",
+      "price": 987,
+      "originalPrice": 1699,
+      "category": "jumpsuits",
+      "description": "Women Cotton Printed Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Pannkh — Women Cotton Printed Jumpsuit",
+      "metaDescription": "Women Cotton Printed Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/3/33eece8PK_JS621_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/3/33eece8PK_JS621_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/3/33eece8PK_JS621_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/3/33eece8PK_JS621_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/3/33eece8PK_JS621_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/3/33eece8PK_JS621_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/3/33eece8PK_JS621_8.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Medium",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.5 kg",
+      "dimensions": "11 x 16 x 2 cm",
+      "stockQuantity": 112,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "4310930",
+        "sku": "PANNK00000048",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 987
+      }
+    },
+    {
+      "name": "Pannkh — Grey Women'S Fusion Embroidered Jumpsuit",
+      "slug": "pannkh-grey-women-s-fusion-embroidered-jumpsuit",
+      "price": 993,
+      "originalPrice": 1799,
+      "category": "jumpsuits",
+      "description": "Grey Women'S Fusion Embroidered Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Pannkh — Grey Women'S Fusion Embroidered Jumpsuit",
+      "metaDescription": "Grey Women'S Fusion Embroidered Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/5/153b10aJS651_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/5/153b10aJS651_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/5/153b10aJS651_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/5/153b10aJS651_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/5/153b10aJS651_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/5/153b10aJS651_6.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "8 x 16 x 7 cm",
+      "stockQuantity": 97,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "13163746",
+        "sku": "PANNK00002096",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 993
+      }
+    },
+    {
+      "name": "Mabish By Sonal Jain — Pink Bell Bottom Flare Jumpsuit",
+      "slug": "mabish-by-sonal-jain-pink-pink-bell-bottom-flare-jumpsuit",
+      "price": 913,
+      "originalPrice": 3399,
+      "category": "jumpsuits",
+      "description": "Pink Bell Bottom Flare Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Mabish By Sonal Jain — Pink Bell Bottom Flare Jumpsuit",
+      "metaDescription": "Pink Bell Bottom Flare Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0597JSP8_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0597JSP8_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0597JSP8_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0597JSP8_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0597JSP8_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0597JSP8_6.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "10 x 10 x 3 cm",
+      "stockQuantity": 92,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "23106806",
+        "sku": "MABIS00004398",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 913
+      }
+    },
+    {
+      "name": "Mabish By Sonal Jain — Orange Bell Bottom Flare Jumpsuit",
+      "slug": "mabish-by-sonal-jain-orange-orange-bell-bottom-flare-jumpsuit",
+      "price": 965,
+      "originalPrice": 3399,
+      "category": "jumpsuits",
+      "description": "Orange Bell Bottom Flare Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Mabish By Sonal Jain — Orange Bell Bottom Flare Jumpsuit",
+      "metaDescription": "Orange Bell Bottom Flare Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0597JSP5_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0597JSP5_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0597JSP5_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0597JSP5_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0597JSP5_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/590bc3dTP0597JSP5_6.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 15 x 2 cm",
+      "stockQuantity": 31,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "23106805",
+        "sku": "MABIS00004397",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 965
+      }
+    },
+    {
+      "name": "Globus — Women Mustard Embroidered Shoulder Straps Strappy Sleeve Waist Tie-Up Fusion Jumpsuit",
+      "slug": "globus-women-mustard-embroidered-v-neck-strappy-sleeve-waist-tie-up-fusion-jumpsuit",
+      "price": 981,
+      "originalPrice": 2299,
+      "category": "jumpsuits",
+      "description": "Women Mustard Embroidered Shoulder Straps Strappy Sleeve Waist Tie-Up Fusion Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Globus — Women Mustard Embroidered Shoulder Straps Strappy Sleeve Wais",
+      "metaDescription": "Women Mustard Embroidered Shoulder Straps Strappy Sleeve Waist Tie-Up Fusion Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91b9199A5IWNSFUSJPS2781AMUSTARD_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91b9199A5IWNSFUSJPS2781AMUSTARD_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91b9199A5IWNSFUSJPS2781AMUSTARD_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91b9199A5IWNSFUSJPS2781AMUSTARD_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91b9199A5IWNSFUSJPS2781AMUSTARD_5.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Trouser",
+      "washCare": "Dry clean recommended",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "10 x 11 x 4 cm",
+      "stockQuantity": 66,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "23999973",
+        "sku": "GLOAD00039878",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 981
+      }
+    },
+    {
+      "name": "Globus — Women Indigo Embroidered Shoulder Straps Strappy Sleeve Waist Tie-Up Fusion Jumpsuit",
+      "slug": "globus-women-indigo-embroidered-v-neck-strappy-sleeve-waist-tie-up-fusion-jumpsuit",
+      "price": 912,
+      "originalPrice": 2299,
+      "category": "jumpsuits",
+      "description": "Women Indigo Embroidered Shoulder Straps Strappy Sleeve Waist Tie-Up Fusion Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Globus — Women Indigo Embroidered Shoulder Straps Strappy Sleeve Waist",
+      "metaDescription": "Women Indigo Embroidered Shoulder Straps Strappy Sleeve Waist Tie-Up Fusion Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91b9199A5IWNSFUSJPS2781BINDIGO_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91b9199A5IWNSFUSJPS2781BINDIGO_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91b9199A5IWNSFUSJPS2781BINDIGO_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91b9199A5IWNSFUSJPS2781BINDIGO_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91b9199A5IWNSFUSJPS2781BINDIGO_5.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "8 x 13 x 4 cm",
+      "stockQuantity": 24,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "23999974",
+        "sku": "GLOAD00039879",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 912
+      }
+    },
+    {
+      "name": "Globus — Maroon Georgette Round Neck Jumpsuit",
+      "slug": "globus-maroon-georgette-round-neck-jumpsuit",
+      "price": 975,
+      "originalPrice": 2999,
+      "category": "jumpsuits",
+      "description": "Maroon Georgette Round Neck Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Globus — Maroon Georgette Round Neck Jumpsuit",
+      "metaDescription": "Maroon Georgette Round Neck Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "jumpsuits",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIPK8ECOMWJPS2055MAROON_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIPK8ECOMWJPS2055MAROON_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIPK8ECOMWJPS2055MAROON_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIPK8ECOMWJPS2055MAROON_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/2/427416aIPK8ECOMWJPS2055MAROON_5.jpg"
+      ],
+      "tags": [
+        "jumpsuits"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.6 kg",
+      "dimensions": "12 x 15 x 3 cm",
+      "stockQuantity": 120,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "19082845",
+        "sku": "GLOAD00031512",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 975
+      }
+    },
+    {
+      "name": "Biba — Womens Purple Printed Rayon Straight Jumpsuit",
+      "slug": "biba-womens-purple-printed-rayon-straight-jumpsuit",
+      "price": 964,
+      "originalPrice": 2599,
+      "category": "jumpsuits",
+      "description": "Womens Purple Printed Rayon Straight Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaTitle": "Biba — Womens Purple Printed Rayon Straight Jumpsuit",
+      "metaDescription": "Womens Purple Printed Rayon Straight Jumpsuit. Premium jumpsuits from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/2/6281122QBIBAX00016216_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/2/6281122QBIBAX00016216_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/2/6281122QBIBAX00016216_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/2/6281122QBIBAX00016216_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/2/6281122QBIBAX00016216_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/2/6281122QBIBAX00016216_6.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 16 x 5 cm",
+      "stockQuantity": 40,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "jumpsuits",
+      "_source": {
+        "nykaaId": "9798764",
+        "sku": "BIBAX00016216",
+        "categoryFilter": "8522",
+        "assignedPriceTier": 964
+      }
+    }
+  ]
+}

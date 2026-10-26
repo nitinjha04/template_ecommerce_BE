@@ -1,0 +1,2663 @@
+{
+  "scrapedAt": "2026-05-26T10:55:58.585Z",
+  "categoryFilter": "647",
+  "categoryName": "dupattas",
+  "priceMin": 200,
+  "priceMax": 299,
+  "categoryId": "6557",
+  "priceMode": "random",
+  "sort": "low-to-high",
+  "totalProducts": 50,
+  "pagesFetched": 2,
+  "products": [
+    {
+      "name": "Biba — Womens Red Solid Voile",
+      "slug": "biba-womens-red-solid-voile",
+      "price": 264,
+      "originalPrice": 799,
+      "category": "dupattas",
+      "description": "Womens Red Solid Voile. Premium dupattas from our curated collection.",
+      "metaTitle": "Biba — Womens Red Solid Voile",
+      "metaDescription": "Womens Red Solid Voile. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/c/ecb7a11COREDUP19234SS23RED_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/c/ecb7a11COREDUP19234SS23RED_2.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 14 x 3 cm",
+      "stockQuantity": 64,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "9680331",
+        "sku": "BIBAX00014304",
+        "categoryFilter": "647",
+        "assignedPriceTier": 264
+      }
+    },
+    {
+      "name": "MUFFLY — Gold Banarasi Khicha Patta Cotton Dupatta for Women",
+      "slug": "muffly-gold-banarasi-khicha-patta-cotton-dupatta-for-women",
+      "price": 251,
+      "originalPrice": 410,
+      "category": "dupattas",
+      "description": "Gold Banarasi Khicha Patta Cotton Dupatta for Women. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — Gold Banarasi Khicha Patta Cotton Dupatta for Women",
+      "metaDescription": "Gold Banarasi Khicha Patta Cotton Dupatta for Women. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF559Gold_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF559Gold_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF559Gold_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF559Gold_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF559Gold_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF559Gold_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF559Gold_7.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.6 kg",
+      "dimensions": "9 x 13 x 3 cm",
+      "stockQuantity": 57,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "20773119",
+        "sku": "MUFFL00000988",
+        "categoryFilter": "647",
+        "assignedPriceTier": 251
+      }
+    },
+    {
+      "name": "MUFFLY — Blue Banarasi Khicha Patta Cotton Dupatta for Women",
+      "slug": "muffly-blue-banarasi-khicha-patta-cotton-dupatta-for-women",
+      "price": 262,
+      "originalPrice": 410,
+      "category": "dupattas",
+      "description": "Blue Banarasi Khicha Patta Cotton Dupatta for Women. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — Blue Banarasi Khicha Patta Cotton Dupatta for Women",
+      "metaDescription": "Blue Banarasi Khicha Patta Cotton Dupatta for Women. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF556Aqua_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF556Aqua_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF556Aqua_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF556Aqua_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF556Aqua_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF556Aqua_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF556Aqua_7.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.5 kg",
+      "dimensions": "9 x 12 x 5 cm",
+      "stockQuantity": 83,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "20773116",
+        "sku": "MUFFL00000985",
+        "categoryFilter": "647",
+        "assignedPriceTier": 262
+      }
+    },
+    {
+      "name": "MUFFLY — Green Banarasi Khicha Patta Cotton Dupatta for Women",
+      "slug": "muffly-green-banarasi-khicha-patta-cotton-dupatta-for-women",
+      "price": 245,
+      "originalPrice": 410,
+      "category": "dupattas",
+      "description": "Green Banarasi Khicha Patta Cotton Dupatta for Women. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — Green Banarasi Khicha Patta Cotton Dupatta for Women",
+      "metaDescription": "Green Banarasi Khicha Patta Cotton Dupatta for Women. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF552Green_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF552Green_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF552Green_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF552Green_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF552Green_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF552Green_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF552Green_7.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "8 x 15 x 8 cm",
+      "stockQuantity": 107,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "20773112",
+        "sku": "MUFFL00000981",
+        "categoryFilter": "647",
+        "assignedPriceTier": 245
+      }
+    },
+    {
+      "name": "MUFFLY — Pink Banarasi Khicha Patta Cotton Dupatta for Women",
+      "slug": "muffly-pink-banarasi-khicha-patta-cotton-dupatta-for-women",
+      "price": 203,
+      "originalPrice": 410,
+      "category": "dupattas",
+      "description": "Pink Banarasi Khicha Patta Cotton Dupatta for Women. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — Pink Banarasi Khicha Patta Cotton Dupatta for Women",
+      "metaDescription": "Pink Banarasi Khicha Patta Cotton Dupatta for Women. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF555Pink_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF555Pink_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF555Pink_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF555Pink_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF555Pink_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF555Pink_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF555Pink_7.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Full length",
+      "packageContains": "1 Shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.5 kg",
+      "dimensions": "8 x 10 x 2 cm",
+      "stockQuantity": 96,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "20773115",
+        "sku": "MUFFL00000984",
+        "categoryFilter": "647",
+        "assignedPriceTier": 203
+      }
+    },
+    {
+      "name": "MUFFLY — White Banarasi Khicha Patta Cotton Dupatta for Women",
+      "slug": "muffly-white-banarasi-khicha-patta-cotton-dupatta-for-women",
+      "price": 224,
+      "originalPrice": 410,
+      "category": "dupattas",
+      "description": "White Banarasi Khicha Patta Cotton Dupatta for Women. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — White Banarasi Khicha Patta Cotton Dupatta for Women",
+      "metaDescription": "White Banarasi Khicha Patta Cotton Dupatta for Women. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF5510White_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF5510White_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF5510White_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF5510White_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF5510White_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF5510White_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF5510White_7.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Hand wash separately",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.7 kg",
+      "dimensions": "14 x 15 x 4 cm",
+      "stockQuantity": 25,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "20773120",
+        "sku": "MUFFL00000989",
+        "categoryFilter": "647",
+        "assignedPriceTier": 224
+      }
+    },
+    {
+      "name": "MUFFLY — Maroon Banarasi Khicha Patta Cotton Dupatta for Women",
+      "slug": "muffly-maroon-banarasi-khicha-patta-cotton-dupatta-for-women",
+      "price": 214,
+      "originalPrice": 410,
+      "category": "dupattas",
+      "description": "Maroon Banarasi Khicha Patta Cotton Dupatta for Women. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — Maroon Banarasi Khicha Patta Cotton Dupatta for Women",
+      "metaDescription": "Maroon Banarasi Khicha Patta Cotton Dupatta for Women. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF558Maroon_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF558Maroon_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF558Maroon_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF558Maroon_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF558Maroon_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF558Maroon_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF558Maroon_7.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Band collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 14 x 5 cm",
+      "stockQuantity": 109,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "20773118",
+        "sku": "MUFFL00000987",
+        "categoryFilter": "647",
+        "assignedPriceTier": 214
+      }
+    },
+    {
+      "name": "MUFFLY — Black Banarasi Khicha Patta Cotton Dupatta for Women",
+      "slug": "muffly-black-banarasi-khicha-patta-cotton-dupatta-for-women",
+      "price": 205,
+      "originalPrice": 410,
+      "category": "dupattas",
+      "description": "Black Banarasi Khicha Patta Cotton Dupatta for Women. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — Black Banarasi Khicha Patta Cotton Dupatta for Women",
+      "metaDescription": "Black Banarasi Khicha Patta Cotton Dupatta for Women. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF554Black_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF554Black_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF554Black_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF554Black_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF554Black_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF554Black_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF554Black_7.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.7 kg",
+      "dimensions": "14 x 15 x 5 cm",
+      "stockQuantity": 116,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "20773114",
+        "sku": "MUFFL00000983",
+        "categoryFilter": "647",
+        "assignedPriceTier": 205
+      }
+    },
+    {
+      "name": "MUFFLY — Red Banarasi Khicha Patta Cotton Dupatta for Women",
+      "slug": "muffly-red-banarasi-khicha-patta-cotton-dupatta-for-women",
+      "price": 237,
+      "originalPrice": 410,
+      "category": "dupattas",
+      "description": "Red Banarasi Khicha Patta Cotton Dupatta for Women. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — Red Banarasi Khicha Patta Cotton Dupatta for Women",
+      "metaDescription": "Red Banarasi Khicha Patta Cotton Dupatta for Women. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF551Red_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF551Red_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF551Red_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF551Red_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF551Red_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF551Red_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF551Red_7.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Henley",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.7 kg",
+      "dimensions": "10 x 10 x 4 cm",
+      "stockQuantity": 117,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "20773111",
+        "sku": "MUFFL00000980",
+        "categoryFilter": "647",
+        "assignedPriceTier": 237
+      }
+    },
+    {
+      "name": "MUFFLY — Yellow Banarasi Khicha Patta Cotton Dupatta for Women",
+      "slug": "muffly-yellow-banarasi-khicha-patta-cotton-dupatta-for-women",
+      "price": 279,
+      "originalPrice": 410,
+      "category": "dupattas",
+      "description": "Yellow Banarasi Khicha Patta Cotton Dupatta for Women. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — Yellow Banarasi Khicha Patta Cotton Dupatta for Women",
+      "metaDescription": "Yellow Banarasi Khicha Patta Cotton Dupatta for Women. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF557Yellow_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF557Yellow_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF557Yellow_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF557Yellow_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF557Yellow_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF557Yellow_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF557Yellow_7.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Round",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Relaxed fit",
+      "weight": "0.5 kg",
+      "dimensions": "9 x 10 x 4 cm",
+      "stockQuantity": 23,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "20773117",
+        "sku": "MUFFL00000986",
+        "categoryFilter": "647",
+        "assignedPriceTier": 279
+      }
+    },
+    {
+      "name": "MUFFLY — Green Banarasi Khicha Patta Cotton Dupatta for Women",
+      "slug": "muffly-green-banarasi-khicha-patta-cotton-dupatta-for-women",
+      "price": 298,
+      "originalPrice": 410,
+      "category": "dupattas",
+      "description": "Green Banarasi Khicha Patta Cotton Dupatta for Women. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — Green Banarasi Khicha Patta Cotton Dupatta for Women",
+      "metaDescription": "Green Banarasi Khicha Patta Cotton Dupatta for Women. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF553LightGreen_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF553LightGreen_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF553LightGreen_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF553LightGreen_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF553LightGreen_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF553LightGreen_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/ab14a0bDPTWAF553LightGreen_7.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Short",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.5 kg",
+      "dimensions": "12 x 13 x 6 cm",
+      "stockQuantity": 118,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "20773113",
+        "sku": "MUFFL00000982",
+        "categoryFilter": "647",
+        "assignedPriceTier": 298
+      }
+    },
+    {
+      "name": "Soch — Women Yellow Zari Woven Border Solid Dupatta with Tassels",
+      "slug": "soch-women-yellow-zari-woven-border-solid-dupatta-with-tassels",
+      "price": 218,
+      "originalPrice": 398,
+      "category": "dupattas",
+      "description": "Women Yellow Zari Woven Border Solid Dupatta with Tassels. Premium dupattas from our curated collection.",
+      "metaTitle": "Soch — Women Yellow Zari Woven Border Solid Dupatta with Tassels",
+      "metaDescription": "Women Yellow Zari Woven Border Solid Dupatta with Tassels. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/0/40f14d0SOBPDUP004A_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/0/40f14d0SOBPDUP004A_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/0/40f14d0SOBPDUP004A_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/0/40f14d0SOBPDUP004A_4.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Regular fit",
+      "weight": "0.6 kg",
+      "dimensions": "8 x 11 x 2 cm",
+      "stockQuantity": 90,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "17610742",
+        "sku": "SOCHX00055657",
+        "categoryFilter": "647",
+        "assignedPriceTier": 218
+      }
+    },
+    {
+      "name": "Rangriti — Off White Embellished Dupatta",
+      "slug": "rangriti-off-white-embellished-dupatta-1",
+      "price": 259,
+      "originalPrice": 499,
+      "category": "dupattas",
+      "description": "Off White Embellished Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Rangriti — Off White Embellished Dupatta",
+      "metaDescription": "Off White Embellished Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/m/a/masaima3635ss20owht_1_ec71ac6a.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/m/a/masaima3635ss20owht_2_c40a409a.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/m/a/masaima3635ss20owht_3_0f09dc32.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash cold",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.6 kg",
+      "dimensions": "9 x 12 x 7 cm",
+      "stockQuantity": 37,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "1912609",
+        "sku": "NYFRNRT002852",
+        "categoryFilter": "647",
+        "assignedPriceTier": 259
+      }
+    },
+    {
+      "name": "Rangriti — Turquoise Printed Dupatta",
+      "slug": "rangriti-turquoise-printed-dupatta",
+      "price": 281,
+      "originalPrice": 499,
+      "category": "dupattas",
+      "description": "Turquoise Printed Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Rangriti — Turquoise Printed Dupatta",
+      "metaDescription": "Turquoise Printed Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/g/e/geometri3806aw20trq_1_b113e643.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/g/e/geometri3806aw20trq_2_e22732e1.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "8 x 12 x 2 cm",
+      "stockQuantity": 77,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-02T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "1912602",
+        "sku": "NYFRNRT002845",
+        "categoryFilter": "647",
+        "assignedPriceTier": 281
+      }
+    },
+    {
+      "name": "Rangriti — Mustard Solid Dupatta",
+      "slug": "rangriti-mustard-solid-dupatta",
+      "price": 220,
+      "originalPrice": 499,
+      "category": "dupattas",
+      "description": "Mustard Solid Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Rangriti — Mustard Solid Dupatta",
+      "metaDescription": "Mustard Solid Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/r/m/rmmmadhuban14047aw20mugrn_1_f40f9d22.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/r/m/rmmmadhuban14047aw20mugrn_2_08e9238e.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/r/m/rmmmadhuban14047aw20mugrn_3_a9260b57.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.7 kg",
+      "dimensions": "12 x 15 x 4 cm",
+      "stockQuantity": 75,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "1912617",
+        "sku": "NYFRNRT002860",
+        "categoryFilter": "647",
+        "assignedPriceTier": 220
+      }
+    },
+    {
+      "name": "SWI STYLISH — Organza Dupatta with Zari Border",
+      "slug": "swi-stylish-organza-dupatta-with-zari-border",
+      "price": 213,
+      "originalPrice": 1999,
+      "category": "dupattas",
+      "description": "Organza Dupatta with Zari Border. Premium dupattas from our curated collection.",
+      "metaTitle": "SWI STYLISH — Organza Dupatta with Zari Border",
+      "metaDescription": "Organza Dupatta with Zari Border. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/s/d/sd4beige_1_0138ab6a.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/s/d/sd4beige_2_ad0d9cfa.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/s/d/sd4beige_3_d664f8bb.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "V-neck",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.4 kg",
+      "dimensions": "10 x 16 x 8 cm",
+      "stockQuantity": 65,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "3030139",
+        "sku": "NYFSWST000139",
+        "categoryFilter": "647",
+        "assignedPriceTier": 213
+      }
+    },
+    {
+      "name": "SWI STYLISH — Organza Dupatta with Zari Border",
+      "slug": "swi-stylish-organza-dupatta-with-zari-border",
+      "price": 258,
+      "originalPrice": 1999,
+      "category": "dupattas",
+      "description": "Organza Dupatta with Zari Border. Premium dupattas from our curated collection.",
+      "metaTitle": "SWI STYLISH — Organza Dupatta with Zari Border",
+      "metaDescription": "Organza Dupatta with Zari Border. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/s/d/sd4rose_1_95d4c6d2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/s/d/sd4rose_2_6edcc82a.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/s/d/sd4rose_3_f69a407e.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "13 x 13 x 5 cm",
+      "stockQuantity": 14,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "3030142",
+        "sku": "NYFSWST000142",
+        "categoryFilter": "647",
+        "assignedPriceTier": 258
+      }
+    },
+    {
+      "name": "SWI STYLISH — Organza Dupatta with Zari Border",
+      "slug": "swi-stylish-organza-dupatta-with-zari-border",
+      "price": 223,
+      "originalPrice": 1999,
+      "category": "dupattas",
+      "description": "Organza Dupatta with Zari Border. Premium dupattas from our curated collection.",
+      "metaTitle": "SWI STYLISH — Organza Dupatta with Zari Border",
+      "metaDescription": "Organza Dupatta with Zari Border. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/s/d/sd4yellow_1_ec566f7b.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/s/d/sd4yellow_2_81e72f65.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 14 x 4 cm",
+      "stockQuantity": 77,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "3030144",
+        "sku": "NYFSWST000144",
+        "categoryFilter": "647",
+        "assignedPriceTier": 223
+      }
+    },
+    {
+      "name": "MUFFLY — Green Solid Monica Cotton Dupatta",
+      "slug": "muffly-green-solid-monica-cotton-dupatta",
+      "price": 270,
+      "originalPrice": 899,
+      "category": "dupattas",
+      "description": "Green Solid Monica Cotton Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — Green Solid Monica Cotton Dupatta",
+      "metaDescription": "Green Solid Monica Cotton Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/6/967fe38DPTWAF7X4_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/6/967fe38DPTWAF7X4_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/6/967fe38DPTWAF7X4_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/6/967fe38DPTWAF7X4_4.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 16 x 4 cm",
+      "stockQuantity": 35,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "25086414",
+        "sku": "MUFFL00001511",
+        "categoryFilter": "647",
+        "assignedPriceTier": 270
+      }
+    },
+    {
+      "name": "MUFFLY — Pink Solid Monica Cotton Dupatta",
+      "slug": "muffly-pink-solid-monica-cotton-dupatta",
+      "price": 296,
+      "originalPrice": 899,
+      "category": "dupattas",
+      "description": "Pink Solid Monica Cotton Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — Pink Solid Monica Cotton Dupatta",
+      "metaDescription": "Pink Solid Monica Cotton Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/6/967fe38DPTWAF7X1_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/6/967fe38DPTWAF7X1_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/6/967fe38DPTWAF7X1_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/6/967fe38DPTWAF7X1_4.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 13 x 6 cm",
+      "stockQuantity": 31,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "25086411",
+        "sku": "MUFFL00001508",
+        "categoryFilter": "647",
+        "assignedPriceTier": 296
+      }
+    },
+    {
+      "name": "MUFFLY — Yellow Solid Monica Cotton Dupatta",
+      "slug": "muffly-yellow-solid-monica-cotton-dupatta",
+      "price": 276,
+      "originalPrice": 899,
+      "category": "dupattas",
+      "description": "Yellow Solid Monica Cotton Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — Yellow Solid Monica Cotton Dupatta",
+      "metaDescription": "Yellow Solid Monica Cotton Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/6/967fe38DPTWAF7X3_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/6/967fe38DPTWAF7X3_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/6/967fe38DPTWAF7X3_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/6/967fe38DPTWAF7X3_4.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.7 kg",
+      "dimensions": "14 x 13 x 6 cm",
+      "stockQuantity": 46,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "25086413",
+        "sku": "MUFFL00001510",
+        "categoryFilter": "647",
+        "assignedPriceTier": 276
+      }
+    },
+    {
+      "name": "MUFFLY — Red Solid Monica Cotton Dupatta",
+      "slug": "muffly-red-solid-monica-cotton-dupatta",
+      "price": 289,
+      "originalPrice": 899,
+      "category": "dupattas",
+      "description": "Red Solid Monica Cotton Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — Red Solid Monica Cotton Dupatta",
+      "metaDescription": "Red Solid Monica Cotton Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/6/967fe38DPTWAF7X2_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/6/967fe38DPTWAF7X2_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/6/967fe38DPTWAF7X2_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/6/967fe38DPTWAF7X2_4.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.4 kg",
+      "dimensions": "13 x 11 x 2 cm",
+      "stockQuantity": 108,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "25086412",
+        "sku": "MUFFL00001509",
+        "categoryFilter": "647",
+        "assignedPriceTier": 289
+      }
+    },
+    {
+      "name": "Likha — Black Karigar Korner Banarasi Jacquard Dupatta LIKKKBANR11",
+      "slug": "likha-black-karigar-korner-banarasi-jacquard-dupatta-likkkbanr11",
+      "price": 222,
+      "originalPrice": 899,
+      "category": "dupattas",
+      "description": "Black Karigar Korner Banarasi Jacquard Dupatta LIKKKBANR11. Premium dupattas from our curated collection.",
+      "metaTitle": "Likha — Black Karigar Korner Banarasi Jacquard Dupatta LIKKKBANR11",
+      "metaDescription": "Black Karigar Korner Banarasi Jacquard Dupatta LIKKKBANR11. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/d/6d27928LIKKKBANR11Black_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/d/6d27928LIKKKBANR11Black_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/d/6d27928LIKKKBANR11Black_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/d/6d27928LIKKKBANR11Black_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/d/6d27928LIKKKBANR11Black_5.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Jacket",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "14 x 16 x 3 cm",
+      "stockQuantity": 71,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-10T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "12769190",
+        "sku": "LIKHA00003569",
+        "categoryFilter": "647",
+        "assignedPriceTier": 222
+      }
+    },
+    {
+      "name": "MUFFLY — Elegant Solid Cotton Dupatta with Subtle Texture and Metallic Border for Women",
+      "slug": "muffly-elegant-solid-cotton-dupatta-with-subtle-texture-and-metallic-border-for-women",
+      "price": 211,
+      "originalPrice": 899,
+      "category": "dupattas",
+      "description": "Elegant Solid Cotton Dupatta with Subtle Texture and Metallic Border for Women. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — Elegant Solid Cotton Dupatta with Subtle Texture and Metallic",
+      "metaDescription": "Elegant Solid Cotton Dupatta with Subtle Texture and Metallic Border for Women. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/d/9d29c8eDPT-WAF7X-10-Blue_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/d/9d29c8eDPT-WAF7X-10-Blue_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/d/9d29c8eDPT-WAF7X-10-Blue_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/d/9d29c8eDPT-WAF7X-10-Blue_4.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.5 kg",
+      "dimensions": "10 x 14 x 7 cm",
+      "stockQuantity": 119,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "26359376",
+        "sku": "MUFFL00001685",
+        "categoryFilter": "647",
+        "assignedPriceTier": 211
+      }
+    },
+    {
+      "name": "MUFFLY — Gold Solid Monica Cotton Dupatta",
+      "slug": "muffly-gold-solid-monica-cotton-dupatta",
+      "price": 212,
+      "originalPrice": 899,
+      "category": "dupattas",
+      "description": "Gold Solid Monica Cotton Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — Gold Solid Monica Cotton Dupatta",
+      "metaDescription": "Gold Solid Monica Cotton Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/6/967fe38DPTWAF7X6_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/6/967fe38DPTWAF7X6_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/6/967fe38DPTWAF7X6_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/6/967fe38DPTWAF7X6_4.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.6 kg",
+      "dimensions": "12 x 12 x 5 cm",
+      "stockQuantity": 71,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-10T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "25086416",
+        "sku": "MUFFL00001513",
+        "categoryFilter": "647",
+        "assignedPriceTier": 212
+      }
+    },
+    {
+      "name": "MUFFLY — Elegant Solid Cotton Dupatta with Subtle Texture and Metallic Border for Women",
+      "slug": "muffly-elegant-solid-cotton-dupatta-with-subtle-texture-and-metallic-border-for-women",
+      "price": 286,
+      "originalPrice": 899,
+      "category": "dupattas",
+      "description": "Elegant Solid Cotton Dupatta with Subtle Texture and Metallic Border for Women. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — Elegant Solid Cotton Dupatta with Subtle Texture and Metallic",
+      "metaDescription": "Elegant Solid Cotton Dupatta with Subtle Texture and Metallic Border for Women. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/d/9d29c8eDPT-WAF7X-11-Brown_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/d/9d29c8eDPT-WAF7X-11-Brown_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/d/9d29c8eDPT-WAF7X-11-Brown_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/d/9d29c8eDPT-WAF7X-11-Brown_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/d/9d29c8eDPT-WAF7X-11-Brown_5.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "8 x 16 x 7 cm",
+      "stockQuantity": 91,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "26359377",
+        "sku": "MUFFL00001686",
+        "categoryFilter": "647",
+        "assignedPriceTier": 286
+      }
+    },
+    {
+      "name": "MUFFLY — Blue Solid Monica Cotton Dupatta",
+      "slug": "muffly-blue-solid-monica-cotton-dupatta",
+      "price": 278,
+      "originalPrice": 899,
+      "category": "dupattas",
+      "description": "Blue Solid Monica Cotton Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — Blue Solid Monica Cotton Dupatta",
+      "metaDescription": "Blue Solid Monica Cotton Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/6/967fe38DPTWAF7X5_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/6/967fe38DPTWAF7X5_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/6/967fe38DPTWAF7X5_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/6/967fe38DPTWAF7X5_4.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.7 kg",
+      "dimensions": "11 x 15 x 7 cm",
+      "stockQuantity": 78,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "25086415",
+        "sku": "MUFFL00001512",
+        "categoryFilter": "647",
+        "assignedPriceTier": 278
+      }
+    },
+    {
+      "name": "MUFFLY — Elegant Solid Cotton Dupatta with Subtle Texture and Metallic Border for Women",
+      "slug": "muffly-elegant-solid-cotton-dupatta-with-subtle-texture-and-metallic-border-for-women",
+      "price": 252,
+      "originalPrice": 899,
+      "category": "dupattas",
+      "description": "Elegant Solid Cotton Dupatta with Subtle Texture and Metallic Border for Women. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — Elegant Solid Cotton Dupatta with Subtle Texture and Metallic",
+      "metaDescription": "Elegant Solid Cotton Dupatta with Subtle Texture and Metallic Border for Women. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/d/9d29c8eDPT-WAF7X-9-Yellow_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/d/9d29c8eDPT-WAF7X-9-Yellow_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/d/9d29c8eDPT-WAF7X-9-Yellow_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/d/9d29c8eDPT-WAF7X-9-Yellow_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/d/9d29c8eDPT-WAF7X-9-Yellow_5.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "11 x 11 x 4 cm",
+      "stockQuantity": 66,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "26359375",
+        "sku": "MUFFL00001684",
+        "categoryFilter": "647",
+        "assignedPriceTier": 252
+      }
+    },
+    {
+      "name": "MUFFLY — Women Gold Woven with Zari Border Dupatta",
+      "slug": "muffly-women-gold-woven-with-zari-border-dupatta",
+      "price": 221,
+      "originalPrice": 999,
+      "category": "dupattas",
+      "description": "Women Gold Woven with Zari Border Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — Women Gold Woven with Zari Border Dupatta",
+      "metaDescription": "Women Gold Woven with Zari Border Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/992f65eMDDPTMSFM6Y1AGOLDmrch16_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/992f65eMDDPTMSFM6Y1AGOLDmrch16_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/992f65eMDDPTMSFM6Y1AGOLDmrch16_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/992f65eMDDPTMSFM6Y1AGOLDmrch16_4.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.5 kg",
+      "dimensions": "9 x 10 x 6 cm",
+      "stockQuantity": 103,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "25978122",
+        "sku": "MUFFL00001622",
+        "categoryFilter": "647",
+        "assignedPriceTier": 221
+      }
+    },
+    {
+      "name": "MUFFLY — Women White Solid Gold Zari Border Dupatta",
+      "slug": "muffly-women-white-solid-gold-zari-border-dupatta",
+      "price": 296,
+      "originalPrice": 999,
+      "category": "dupattas",
+      "description": "Women White Solid Gold Zari Border Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — Women White Solid Gold Zari Border Dupatta",
+      "metaDescription": "Women White Solid Gold Zari Border Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/992f65eMDDPTMSFM6Y1BWhitemrch16_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/992f65eMDDPTMSFM6Y1BWhitemrch16_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/992f65eMDDPTMSFM6Y1BWhitemrch16_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/992f65eMDDPTMSFM6Y1BWhitemrch16_4.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.4 kg",
+      "dimensions": "11 x 14 x 2 cm",
+      "stockQuantity": 113,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "25978123",
+        "sku": "MUFFL00001623",
+        "categoryFilter": "647",
+        "assignedPriceTier": 296
+      }
+    },
+    {
+      "name": "Shaily — Pink Solid Chanderi Cotton Dupatta",
+      "slug": "shaily-pink-solid-chanderi-cotton-dupatta",
+      "price": 257,
+      "originalPrice": 1197,
+      "category": "dupattas",
+      "description": "Pink Solid Chanderi Cotton Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Shaily — Pink Solid Chanderi Cotton Dupatta",
+      "metaDescription": "Pink Solid Chanderi Cotton Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/7/a771993HRDPT0011PNK_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/7/a771993HRDPT0011PNK_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/7/a771993HRDPT0011PNK_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/7/a771993HRDPT0011PNK_4.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.6 kg",
+      "dimensions": "14 x 16 x 7 cm",
+      "stockQuantity": 81,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "14595934",
+        "sku": "SHAIL00002529",
+        "categoryFilter": "647",
+        "assignedPriceTier": 257
+      }
+    },
+    {
+      "name": "Shaily — Grey Solid Chanderi Cotton Dupatta",
+      "slug": "shaily-grey-solid-chanderi-cotton-dupatta",
+      "price": 263,
+      "originalPrice": 1197,
+      "category": "dupattas",
+      "description": "Grey Solid Chanderi Cotton Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Shaily — Grey Solid Chanderi Cotton Dupatta",
+      "metaDescription": "Grey Solid Chanderi Cotton Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/7/a771993HRDPT0013GRY_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/7/a771993HRDPT0013GRY_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/7/a771993HRDPT0013GRY_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/7/a771993HRDPT0013GRY_4.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 13 x 7 cm",
+      "stockQuantity": 81,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "14595936",
+        "sku": "SHAIL00002531",
+        "categoryFilter": "647",
+        "assignedPriceTier": 263
+      }
+    },
+    {
+      "name": "Soch — Women Gold Chiffon Embroidered Dupatta",
+      "slug": "soch-women-gold-chiffon-embroidered-dupatta",
+      "price": 201,
+      "originalPrice": 498,
+      "category": "dupattas",
+      "description": "Women Gold Chiffon Embroidered Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Soch — Women Gold Chiffon Embroidered Dupatta",
+      "metaDescription": "Women Gold Chiffon Embroidered Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/3/b30982dDIVAW21DUP051L_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/3/b30982dDIVAW21DUP051L_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/3/b30982dDIVAW21DUP051L_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/3/b30982dDIVAW21DUP051L_4.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 13 x 8 cm",
+      "stockQuantity": 75,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "20601057",
+        "sku": "SOCHX00066967",
+        "categoryFilter": "647",
+        "assignedPriceTier": 201
+      }
+    },
+    {
+      "name": "Dupatta Bazaar — Womens Tiranga (Tricolour) Raschel Net Dupatta",
+      "slug": "dupatta-bazaar-womens-tiranga-tricolour-raschel-net-dupatta",
+      "price": 233,
+      "originalPrice": 799,
+      "category": "dupattas",
+      "description": "Womens Tiranga (Tricolour) Raschel Net Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Dupatta Bazaar — Womens Tiranga (Tricolour) Raschel Net Dupatta",
+      "metaDescription": "Womens Tiranga (Tricolour) Raschel Net Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/b/3b51aa0DB3763_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/b/3b51aa0DB3763_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/b/3b51aa0DB3763_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/b/3b51aa0DB3763_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/b/3b51aa0DB3763_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/b/3b51aa0DB3763_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/b/3b51aa0DB3763_7.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.7 kg",
+      "dimensions": "8 x 11 x 7 cm",
+      "stockQuantity": 40,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "9341296",
+        "sku": "DUPAT00001117",
+        "categoryFilter": "647",
+        "assignedPriceTier": 233
+      }
+    },
+    {
+      "name": "R&B — Teal Polyester Embroidered Tassels Dupatta",
+      "slug": "r-b-teal-polyester-embroidered-tassels-dupatta",
+      "price": 207,
+      "originalPrice": 299,
+      "category": "dupattas",
+      "description": "Teal Polyester Embroidered Tassels Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "R&B — Teal Polyester Embroidered Tassels Dupatta",
+      "metaDescription": "Teal Polyester Embroidered Tassels Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/3/032f2a55230386WY0084TEALMARCH20VN_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/3/032f2a55230386WY0084TEALMARCH20VN_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/3/032f2a55230386WY0084TEALMARCH20VN_3.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "13 x 11 x 2 cm",
+      "stockQuantity": 51,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "26110616",
+        "sku": "RBXXX00044836",
+        "categoryFilter": "647",
+        "assignedPriceTier": 207
+      }
+    },
+    {
+      "name": "Aurelia — Blue Yard Dyed Pure Cotton Soft Dupatta",
+      "slug": "aurelia-blue-yard-dyed-pure-cotton-soft-dupatta",
+      "price": 212,
+      "originalPrice": 599,
+      "category": "dupattas",
+      "description": "Blue Yard Dyed Pure Cotton Soft Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Aurelia — Blue Yard Dyed Pure Cotton Soft Dupatta",
+      "metaDescription": "Blue Yard Dyed Pure Cotton Soft Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/6/06358feA-24AUA80076-705358_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/6/06358feA-24AUA80076-705358_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/6/06358feA-24AUA80076-705358_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/6/06358feA-24AUA80076-705358_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/6/06358feA-24AUA80076-705358_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/6/06358feA-24AUA80076-705358_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/6/06358feA-24AUA80076-705358_7.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 11 x 3 cm",
+      "stockQuantity": 36,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "16839864",
+        "sku": "AUREL00031669",
+        "categoryFilter": "647",
+        "assignedPriceTier": 212
+      }
+    },
+    {
+      "name": "Rangriti — Indigo Cotton Solid Dupatta",
+      "slug": "rangriti-indigo-cotton-solid-dupatta",
+      "price": 267,
+      "originalPrice": 599,
+      "category": "dupattas",
+      "description": "Indigo Cotton Solid Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Rangriti — Indigo Cotton Solid Dupatta",
+      "metaDescription": "Indigo Cotton Solid Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/a/1a7ffb5RMMINDIGO18110SS23INDG_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/a/1a7ffb5RMMINDIGO18110SS23INDG_2.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Jacket",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.8 kg",
+      "dimensions": "10 x 16 x 8 cm",
+      "stockQuantity": 82,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-11T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "12418512",
+        "sku": "RANGR00004804",
+        "categoryFilter": "647",
+        "assignedPriceTier": 267
+      }
+    },
+    {
+      "name": "Rangriti — Cobalt Blue Cotton Blend Woven Dupatta",
+      "slug": "rangriti-cobalt-blue-cotton-blend-woven-dupatta",
+      "price": 290,
+      "originalPrice": 599,
+      "category": "dupattas",
+      "description": "Cobalt Blue Cotton Blend Woven Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Rangriti — Cobalt Blue Cotton Blend Woven Dupatta",
+      "metaDescription": "Cobalt Blue Cotton Blend Woven Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/a/1a7ffb5RMMASRTD18313SS23CBLE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/a/1a7ffb5RMMASRTD18313SS23CBLE_2.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "11 x 13 x 2 cm",
+      "stockQuantity": 83,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "12418501",
+        "sku": "RANGR00004793",
+        "categoryFilter": "647",
+        "assignedPriceTier": 290
+      }
+    },
+    {
+      "name": "MUFFLY — Mustard Elegant Solid Nazneen Chiffon with Lace Border Dupatta",
+      "slug": "muffly-mustard-elegant-solid-nazneen-chiffon-with-lace-border-dupatta",
+      "price": 288,
+      "originalPrice": 999,
+      "category": "dupattas",
+      "description": "Mustard Elegant Solid Nazneen Chiffon with Lace Border Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — Mustard Elegant Solid Nazneen Chiffon with Lace Border Dupatt",
+      "metaDescription": "Mustard Elegant Solid Nazneen Chiffon with Lace Border Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/1302d97DPTOCNS9X1CMUSTARD_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/1302d97DPTOCNS9X1CMUSTARD_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/1302d97DPTOCNS9X1CMUSTARD_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/1302d97DPTOCNS9X1CMUSTARD_4.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "10 x 13 x 7 cm",
+      "stockQuantity": 103,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "26852471",
+        "sku": "MUFFL00001776",
+        "categoryFilter": "647",
+        "assignedPriceTier": 288
+      }
+    },
+    {
+      "name": "MUFFLY — White Elegant Solid Nazneen Chiffon with Lace Border Dupatta",
+      "slug": "muffly-white-elegant-solid-nazneen-chiffon-with-lace-border-dupatta",
+      "price": 270,
+      "originalPrice": 999,
+      "category": "dupattas",
+      "description": "White Elegant Solid Nazneen Chiffon with Lace Border Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — White Elegant Solid Nazneen Chiffon with Lace Border Dupatta",
+      "metaDescription": "White Elegant Solid Nazneen Chiffon with Lace Border Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/1302d97DPTOCNS9X1EWHITE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/1302d97DPTOCNS9X1EWHITE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/1302d97DPTOCNS9X1EWHITE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/1302d97DPTOCNS9X1EWHITE_4.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "12 x 15 x 4 cm",
+      "stockQuantity": 119,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "26852473",
+        "sku": "MUFFL00001778",
+        "categoryFilter": "647",
+        "assignedPriceTier": 270
+      }
+    },
+    {
+      "name": "MUFFLY — Black Elegant Solid Nazneen Chiffon with Lace Border Dupatta",
+      "slug": "muffly-black-elegant-solid-nazneen-chiffon-with-lace-border-dupatta",
+      "price": 289,
+      "originalPrice": 999,
+      "category": "dupattas",
+      "description": "Black Elegant Solid Nazneen Chiffon with Lace Border Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — Black Elegant Solid Nazneen Chiffon with Lace Border Dupatta",
+      "metaDescription": "Black Elegant Solid Nazneen Chiffon with Lace Border Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/1302d97DPTOCNS9X1GBLACK_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/1302d97DPTOCNS9X1GBLACK_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/1302d97DPTOCNS9X1GBLACK_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/1302d97DPTOCNS9X1GBLACK_4.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 Shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 12 x 7 cm",
+      "stockQuantity": 15,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "26852475",
+        "sku": "MUFFL00001780",
+        "categoryFilter": "647",
+        "assignedPriceTier": 289
+      }
+    },
+    {
+      "name": "Rangriti — Black Solid Dupatta",
+      "slug": "rangriti-black-solid-dupatta",
+      "price": 282,
+      "originalPrice": 599,
+      "category": "dupattas",
+      "description": "Black Solid Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Rangriti — Black Solid Dupatta",
+      "metaDescription": "Black Solid Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/r/m/rmmfulani14017aw20blkred_1_a21d48ad.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/r/m/rmmfulani14017aw20blkred_2_9733f7f3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/r/m/rmmfulani14017aw20blkred_3_e80e126d.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/r/m/rmmfulani14017aw20blkred_4_debe2a7d.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 10 x 5 cm",
+      "stockQuantity": 86,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "1912616",
+        "sku": "NYFRNRT002859",
+        "categoryFilter": "647",
+        "assignedPriceTier": 282
+      }
+    },
+    {
+      "name": "Aurelia — Women Navy Blue Stripes Printed Woven Cotton Dupatta",
+      "slug": "aurelia-women-navy-blue-stripes-printed-woven-cotton-dupatta",
+      "price": 237,
+      "originalPrice": 599,
+      "category": "dupattas",
+      "description": "Women Navy Blue Stripes Printed Woven Cotton Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Aurelia — Women Navy Blue Stripes Printed Woven Cotton Dupatta",
+      "metaDescription": "Women Navy Blue Stripes Printed Woven Cotton Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/9/f9df54324FEA80076-704901_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/9/f9df54324FEA80076-704901_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/9/f9df54324FEA80076-704901_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/9/f9df54324FEA80076-704901_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/9/f9df54324FEA80076-704901_5.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.4 kg",
+      "dimensions": "11 x 10 x 2 cm",
+      "stockQuantity": 53,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "14380316",
+        "sku": "AUREL00030486",
+        "categoryFilter": "647",
+        "assignedPriceTier": 237
+      }
+    },
+    {
+      "name": "Rangriti — Indigo Solid Dupatta",
+      "slug": "rangriti-indigo-solid-dupatta-1",
+      "price": 299,
+      "originalPrice": 599,
+      "category": "dupattas",
+      "description": "Indigo Solid Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Rangriti — Indigo Solid Dupatta",
+      "metaDescription": "Indigo Solid Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/r/m/rmmsumbaik14087aw20phind_1_3ed49286.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/r/m/rmmsumbaik14087aw20phind_2_4351de12.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/r/m/rmmsumbaik14087aw20phind_3_d07240c2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/r/m/rmmsumbaik14087aw20phind_4_c6ff64e8.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Trouser",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.8 kg",
+      "dimensions": "11 x 16 x 4 cm",
+      "stockQuantity": 41,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1912619",
+        "sku": "NYFRNRT002862",
+        "categoryFilter": "647",
+        "assignedPriceTier": 299
+      }
+    },
+    {
+      "name": "Rangriti — Indigo Blue Voile Dupatta",
+      "slug": "rangriti-indigo-blue-voile-dupatta",
+      "price": 230,
+      "originalPrice": 599,
+      "category": "dupattas",
+      "description": "Indigo Blue Voile Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Rangriti — Indigo Blue Voile Dupatta",
+      "metaDescription": "Indigo Blue Voile Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/7/f7405fcASSORTED19318SS24INDBLUE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/7/f7405fcASSORTED19318SS24INDBLUE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/7/f7405fcASSORTED19318SS24INDBLUE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/7/f7405fcASSORTED19318SS24INDBLUE_4.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Jacket",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.6 kg",
+      "dimensions": "9 x 15 x 8 cm",
+      "stockQuantity": 68,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "15127958",
+        "sku": "RANGR00006550",
+        "categoryFilter": "647",
+        "assignedPriceTier": 230
+      }
+    },
+    {
+      "name": "MUFFLY — Green Elegant Solid Nazneen Chiffon with Lace Border Dupatta",
+      "slug": "muffly-green-elegant-solid-nazneen-chiffon-with-lace-border-dupatta",
+      "price": 257,
+      "originalPrice": 999,
+      "category": "dupattas",
+      "description": "Green Elegant Solid Nazneen Chiffon with Lace Border Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — Green Elegant Solid Nazneen Chiffon with Lace Border Dupatta",
+      "metaDescription": "Green Elegant Solid Nazneen Chiffon with Lace Border Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/1302d97DPTOCNS9X1DGREEN_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/1302d97DPTOCNS9X1DGREEN_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/1302d97DPTOCNS9X1DGREEN_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/1302d97DPTOCNS9X1DGREEN_4.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Kurta",
+      "washCare": "Dry clean recommended",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.6 kg",
+      "dimensions": "12 x 11 x 6 cm",
+      "stockQuantity": 37,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "26852472",
+        "sku": "MUFFL00001777",
+        "categoryFilter": "647",
+        "assignedPriceTier": 257
+      }
+    },
+    {
+      "name": "Rangriti — Indigo Cotton Blend Solid Dupatta",
+      "slug": "rangriti-indigo-cotton-blend-solid-dupatta",
+      "price": 219,
+      "originalPrice": 599,
+      "category": "dupattas",
+      "description": "Indigo Cotton Blend Solid Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Rangriti — Indigo Cotton Blend Solid Dupatta",
+      "metaDescription": "Indigo Cotton Blend Solid Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/a/1a7ffb5RMMRELOVED18180SS23INDG_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/a/1a7ffb5RMMRELOVED18180SS23INDG_2.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.3 kg",
+      "dimensions": "10 x 10 x 7 cm",
+      "stockQuantity": 113,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "12418517",
+        "sku": "RANGR00004809",
+        "categoryFilter": "647",
+        "assignedPriceTier": 219
+      }
+    },
+    {
+      "name": "MUFFLY — Wine Elegant Solid Nazneen Chiffon with Lace Border Dupatta",
+      "slug": "muffly-wine-elegant-solid-nazneen-chiffon-with-lace-border-dupatta",
+      "price": 265,
+      "originalPrice": 999,
+      "category": "dupattas",
+      "description": "Wine Elegant Solid Nazneen Chiffon with Lace Border Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "MUFFLY — Wine Elegant Solid Nazneen Chiffon with Lace Border Dupatta",
+      "metaDescription": "Wine Elegant Solid Nazneen Chiffon with Lace Border Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/1302d97DPTOCNS9X1FWINE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/1302d97DPTOCNS9X1FWINE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/1302d97DPTOCNS9X1FWINE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/3/1302d97DPTOCNS9X1FWINE_4.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 16 x 2 cm",
+      "stockQuantity": 85,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "26852474",
+        "sku": "MUFFL00001779",
+        "categoryFilter": "647",
+        "assignedPriceTier": 265
+      }
+    },
+    {
+      "name": "Rangriti — Yellow Cotton Blend Woven Dupatta",
+      "slug": "rangriti-yellow-cotton-blend-woven-dupatta",
+      "price": 269,
+      "originalPrice": 599,
+      "category": "dupattas",
+      "description": "Yellow Cotton Blend Woven Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Rangriti — Yellow Cotton Blend Woven Dupatta",
+      "metaDescription": "Yellow Cotton Blend Woven Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/a/1a7ffb5RMMASRTD18313SS23YLW_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/a/1a7ffb5RMMASRTD18313SS23YLW_2.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.7 kg",
+      "dimensions": "14 x 10 x 6 cm",
+      "stockQuantity": 57,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "12418502",
+        "sku": "RANGR00004794",
+        "categoryFilter": "647",
+        "assignedPriceTier": 269
+      }
+    },
+    {
+      "name": "Aurelia — Women Mustard Floral Dupatta",
+      "slug": "aurelia-women-mustard-floral-dupatta",
+      "price": 284,
+      "originalPrice": 599,
+      "category": "dupattas",
+      "description": "Women Mustard Floral Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Aurelia — Women Mustard Floral Dupatta",
+      "metaDescription": "Women Mustard Floral Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/3/93778e3A80082509909_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/3/93778e3A80082509909_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/3/93778e3A80082509909_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/3/93778e3A80082509909_4.jpg"
+      ],
+      "tags": [
+        "dupattas"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "10 x 15 x 8 cm",
+      "stockQuantity": 80,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "21577219",
+        "sku": "AUREL00040137",
+        "categoryFilter": "647",
+        "assignedPriceTier": 284
+      }
+    }
+  ]
+}
