@@ -1,0 +1,30 @@
+{
+  "startedAt": "2026-06-24T15:08:35.802Z",
+  "finishedAt": "2026-06-24T15:08:35.802Z",
+  "configFile": "single CLI run",
+  "totals": {
+    "categories": 1,
+    "succeeded": 0,
+    "failed": 0,
+    "partial": 1,
+    "productsInserted": 0,
+    "productsSkipped": 0,
+    "productsScraped": 5
+  },
+  "results": [
+    {
+      "categoryName": "dupattas",
+      "categoryFilter": "maxwomen-ethnicwear-dupattas",
+      "categorySlug": "maxwomen-ethnicwear-dupattas",
+      "status": "partial",
+      "requested": 15,
+      "scraped": 5,
+      "inserted": 0,
+      "skipped": 0,
+      "priceMin": 1499,
+      "priceMax": 1999,
+      "sort": "low-to-high",
+      "outputPath": "D:\\.nitin\\DEV\\ECOMMERCE-TEMPLATE\\BE\\src\\scraping\\output\\nexa-dupattas-1499-1999.json"
+    }
+  ]
+}

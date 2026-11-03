@@ -1,0 +1,1 @@
+{"version":3,"file":"orderEmailTemplates.d.ts","sourceRoot":"","sources":["../../emails/orderEmailTemplates.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,uBAAuB,CAAC;AAuE/C,eAAO,MAAM,qBAAqB,GAAI,OAAO,MAAM;;;CAsBlD,CAAC;AAEF,eAAO,MAAM,qBAAqB,GAAI,OAAO,MAAM;;;CAqBlD,CAAC;AAEF,eAAO,MAAM,uBAAuB,GAClC,OAAO,MAAM,EACb,gBAAgB,MAAM;;;CAiBvB,CAAC"}

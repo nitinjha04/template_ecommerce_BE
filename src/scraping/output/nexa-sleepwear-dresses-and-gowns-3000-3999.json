@@ -1,0 +1,955 @@
+{
+  "scrapedAt": "2026-06-24T19:18:54.578Z",
+  "categoryFilter": "maxwomen-sleepwear-dressesandgowns",
+  "categoryName": "sleepwear dresses and gowns",
+  "categorySlug": "maxwomen-sleepwear-dressesandgowns",
+  "storeId": "6a3bf2e10b0f40e291c26f6f",
+  "storeDomain": "nexa-skyline.com",
+  "priceMin": 3000,
+  "priceMax": 3999,
+  "categoryId": "maxwomen-sleepwear-dressesandgowns",
+  "priceMode": "random",
+  "sort": "high-to-low",
+  "totalProducts": 15,
+  "pagesFetched": 1,
+  "products": [
+    {
+      "name": "Women Floral Print Night Gown",
+      "slug": "1000016198619-black-black",
+      "price": 3426,
+      "originalPrice": 3576,
+      "category": "sleepwear dresses and gowns",
+      "description": "Women Floral Print Night Gown. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Night Gown",
+      "metaDescription": "Women Floral Print Night Gown. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear dresses and gowns",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016198619-Black-BLACK-1000016198619_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016198619-Black-BLACK-1000016198619_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016198619-Black-BLACK-1000016198619_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016198619-Black-BLACK-1000016198619_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016198619-Black-BLACK-1000016198619_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016198619-Black-BLACK-1000016198619_06-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear dresses and gowns",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Kurta",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "12 x 10 x 3 cm",
+      "stockQuantity": 109,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000016198619BlackBLACK",
+        "sku": "1000016198619-Black-BLACK",
+        "categoryFilter": "maxwomen-sleepwear-dressesandgowns",
+        "assignedPriceTier": 3426
+      }
+    },
+    {
+      "name": "Women Printed Night Gown",
+      "slug": "1000016198606-brown-brown",
+      "price": 3877,
+      "originalPrice": 4027,
+      "category": "sleepwear dresses and gowns",
+      "description": "Women Printed Night Gown. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaTitle": "Women Printed Night Gown",
+      "metaDescription": "Women Printed Night Gown. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear dresses and gowns",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016198606-Brown-BROWN-1000016198606_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016198606-Brown-BROWN-1000016198606_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016198606-Brown-BROWN-1000016198606_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016198606-Brown-BROWN-1000016198606_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016198606-Brown-BROWN-1000016198606_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016198606-Brown-BROWN-1000016198606_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016198606-Brown-BROWN-1000016198606_07-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear dresses and gowns",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Long",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.6 kg",
+      "dimensions": "8 x 11 x 8 cm",
+      "stockQuantity": 17,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear dresses and gowns",
+      "_source": {
+        "nykaaId": "1000016198606BrownBROWN",
+        "sku": "1000016198606-Brown-BROWN",
+        "categoryFilter": "maxwomen-sleepwear-dressesandgowns",
+        "assignedPriceTier": 3877
+      }
+    },
+    {
+      "name": "Women Printed Nightgown",
+      "slug": "1000016198593-brown-lightbrown",
+      "price": 3513,
+      "originalPrice": 3663,
+      "category": "sleepwear dresses and gowns",
+      "description": "Women Printed Nightgown. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaTitle": "Women Printed Nightgown",
+      "metaDescription": "Women Printed Nightgown. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear dresses and gowns",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016198593-Brown-LIGHTBROWN-1000016198593_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016198593-Brown-LIGHTBROWN-1000016198593_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016198593-Brown-LIGHTBROWN-1000016198593_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016198593-Brown-LIGHTBROWN-1000016198593_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016198593-Brown-LIGHTBROWN-1000016198593_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016198593-Brown-LIGHTBROWN-1000016198593_06-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear dresses and gowns",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Dry clean recommended",
+      "neckline": "Band collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.7 kg",
+      "dimensions": "13 x 13 x 4 cm",
+      "stockQuantity": 70,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear dresses and gowns",
+      "_source": {
+        "nykaaId": "1000016198593BrownLIGHTBROWN",
+        "sku": "1000016198593-Brown-LIGHTBROWN",
+        "categoryFilter": "maxwomen-sleepwear-dressesandgowns",
+        "assignedPriceTier": 3513
+      }
+    },
+    {
+      "name": "Women Floral Print Night Gown",
+      "slug": "1000016198580-blue-navy",
+      "price": 3311,
+      "originalPrice": 3461,
+      "category": "sleepwear dresses and gowns",
+      "description": "Women Floral Print Night Gown. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Night Gown",
+      "metaDescription": "Women Floral Print Night Gown. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear dresses and gowns",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016198580-Blue-NAVY-1000016198580_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016198580-Blue-NAVY-1000016198580_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016198580-Blue-NAVY-1000016198580_07-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016198580-Blue-NAVY-1000016198580_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016198580-Blue-NAVY-1000016198580_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016198580-Blue-NAVY-1000016198580_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016198580-Blue-NAVY-1000016198580_06-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear dresses and gowns",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Full length",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.7 kg",
+      "dimensions": "12 x 15 x 6 cm",
+      "stockQuantity": 108,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1000016198580BlueNAVY",
+        "sku": "1000016198580-Blue-NAVY",
+        "categoryFilter": "maxwomen-sleepwear-dressesandgowns",
+        "assignedPriceTier": 3311
+      }
+    },
+    {
+      "name": "Women Floral Print Nightgown",
+      "slug": "1000015750353-blue-blue",
+      "price": 3685,
+      "originalPrice": 3835,
+      "category": "sleepwear dresses and gowns",
+      "description": "Women Floral Print Nightgown. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Nightgown",
+      "metaDescription": "Women Floral Print Nightgown. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear dresses and gowns",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015750353-Blue-BLUE-1000015750353_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015750353-Blue-BLUE-1000015750353_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015750353-Blue-BLUE-1000015750353_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015750353-Blue-BLUE-1000015750353_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015750353-Blue-BLUE-1000015750353_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015750353-Blue-BLUE-1000015750353_06-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear dresses and gowns",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "8 x 16 x 6 cm",
+      "stockQuantity": 117,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1000015750353BlueBLUE",
+        "sku": "1000015750353-Blue-BLUE",
+        "categoryFilter": "maxwomen-sleepwear-dressesandgowns",
+        "assignedPriceTier": 3685
+      }
+    },
+    {
+      "name": "Women Floral Print Nightgown",
+      "slug": "1000015750301-grey-greymelange",
+      "price": 3276,
+      "originalPrice": 3426,
+      "category": "sleepwear dresses and gowns",
+      "description": "Women Floral Print Nightgown. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Nightgown",
+      "metaDescription": "Women Floral Print Nightgown. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear dresses and gowns",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Grey"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015750301-Grey-GREYMELANGE-1000015750301_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015750301-Grey-GREYMELANGE-1000015750301_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015750301-Grey-GREYMELANGE-1000015750301_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015750301-Grey-GREYMELANGE-1000015750301_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015750301-Grey-GREYMELANGE-1000015750301_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015750301-Grey-GREYMELANGE-1000015750301_06-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear dresses and gowns",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "V-neck",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Comfort fit",
+      "weight": "0.4 kg",
+      "dimensions": "14 x 13 x 7 cm",
+      "stockQuantity": 54,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1000015750301GreyGREYMELANGE",
+        "sku": "1000015750301-Grey-GREYMELANGE",
+        "categoryFilter": "maxwomen-sleepwear-dressesandgowns",
+        "assignedPriceTier": 3276
+      }
+    },
+    {
+      "name": "Women Floral Print Nightgown",
+      "slug": "1000015750288-grey-grey",
+      "price": 3102,
+      "originalPrice": 3252,
+      "category": "sleepwear dresses and gowns",
+      "description": "Women Floral Print Nightgown. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Nightgown",
+      "metaDescription": "Women Floral Print Nightgown. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear dresses and gowns",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Grey"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015750288-Grey-GREY-1000015750288_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015750288-Grey-GREY-1000015750288_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015750288-Grey-GREY-1000015750288_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015750288-Grey-GREY-1000015750288_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015750288-Grey-GREY-1000015750288_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015750288-Grey-GREY-1000015750288_06-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear dresses and gowns",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.3 kg",
+      "dimensions": "10 x 11 x 4 cm",
+      "stockQuantity": 95,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-10T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear dresses and gowns",
+      "_source": {
+        "nykaaId": "1000015750288GreyGREY",
+        "sku": "1000015750288-Grey-GREY",
+        "categoryFilter": "maxwomen-sleepwear-dressesandgowns",
+        "assignedPriceTier": 3102
+      }
+    },
+    {
+      "name": "Women Printed Night Gown",
+      "slug": "1000014977178-grey-greymelange",
+      "price": 3127,
+      "originalPrice": 3277,
+      "category": "sleepwear dresses and gowns",
+      "description": "Women Printed Night Gown. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaTitle": "Women Printed Night Gown",
+      "metaDescription": "Women Printed Night Gown. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear dresses and gowns",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Grey"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014977178-Grey-GREYMELANGE-1000014977178_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014977178-Grey-GREYMELANGE-1000014977178_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014977178-Grey-GREYMELANGE-1000014977178_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014977178-Grey-GREYMELANGE-1000014977178_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014977178-Grey-GREYMELANGE-1000014977178_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014977178-Grey-GREYMELANGE-1000014977178_06-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear dresses and gowns",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Long",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.5 kg",
+      "dimensions": "13 x 14 x 5 cm",
+      "stockQuantity": 24,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear dresses and gowns",
+      "_source": {
+        "nykaaId": "1000014977178GreyGREYMELANGE",
+        "sku": "1000014977178-Grey-GREYMELANGE",
+        "categoryFilter": "maxwomen-sleepwear-dressesandgowns",
+        "assignedPriceTier": 3127
+      }
+    },
+    {
+      "name": "Women Fuzzy Hooded Nightdress",
+      "slug": "1000015839629-brown-lightbrown",
+      "price": 3784,
+      "originalPrice": 3934,
+      "category": "sleepwear dresses and gowns",
+      "description": "Women Fuzzy Hooded Nightdress. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaTitle": "Women Fuzzy Hooded Nightdress",
+      "metaDescription": "Women Fuzzy Hooded Nightdress. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear dresses and gowns",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015839629-Brown-LIGHTBROWN-1000015839629_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839629-Brown-LIGHTBROWN-1000015839629_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839629-Brown-LIGHTBROWN-1000015839629_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839629-Brown-LIGHTBROWN-1000015839629_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839629-Brown-LIGHTBROWN-1000015839629_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839629-Brown-LIGHTBROWN-1000015839629_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015839629-Brown-LIGHTBROWN-1000015839629_07-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear dresses and gowns",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 16 x 8 cm",
+      "stockQuantity": 19,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-03T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear dresses and gowns",
+      "_source": {
+        "nykaaId": "1000015839629BrownLIGHTBROWN",
+        "sku": "1000015839629-Brown-LIGHTBROWN",
+        "categoryFilter": "maxwomen-sleepwear-dressesandgowns",
+        "assignedPriceTier": 3784
+      }
+    },
+    {
+      "name": "Women Floral Print Maxi Night Gown",
+      "slug": "1000015570099-pink-lightpink",
+      "price": 3483,
+      "originalPrice": 3633,
+      "category": "sleepwear dresses and gowns",
+      "description": "Women Floral Print Maxi Night Gown. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Maxi Night Gown",
+      "metaDescription": "Women Floral Print Maxi Night Gown. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear dresses and gowns",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL"
+      ],
+      "colors": [
+        "Pink"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015570099-Pink-LIGHTPINK-1000015575996_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015570099-Pink-LIGHTPINK-1000015575996_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015570099-Pink-LIGHTPINK-1000015575996_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015570099-Pink-LIGHTPINK-1000015575996_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015570099-Pink-LIGHTPINK-1000015575996_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015570099-Pink-LIGHTPINK-1000015575996_06-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear dresses and gowns",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 16 x 8 cm",
+      "stockQuantity": 100,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000015570099PinkLIGHTPINK",
+        "sku": "1000015570099-Pink-LIGHTPINK",
+        "categoryFilter": "maxwomen-sleepwear-dressesandgowns",
+        "assignedPriceTier": 3483
+      }
+    },
+    {
+      "name": "Women Floral Printed Pintuck Nightgown",
+      "slug": "1000012030944-blue-lightblue",
+      "price": 3317,
+      "originalPrice": 3467,
+      "category": "sleepwear dresses and gowns",
+      "description": "Women Floral Printed Pintuck Nightgown. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaTitle": "Women Floral Printed Pintuck Nightgown",
+      "metaDescription": "Women Floral Printed Pintuck Nightgown. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear dresses and gowns",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL",
+        "4XL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-uk.landmarkshops.in/max-new/1000012030944-Blue-LIGHTBLUE-1000012030944_01-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012030944-Blue-LIGHTBLUE-1000012030944_02-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012030944-Blue-LIGHTBLUE-1000012030944_08-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012030944-Blue-LIGHTBLUE-1000012030944_03-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012030944-Blue-LIGHTBLUE-1000012030944_04-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012030944-Blue-LIGHTBLUE-1000012030944_05-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012030944-Blue-LIGHTBLUE-1000012030944_06-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012030944-Blue-LIGHTBLUE-1000012030944_07-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear dresses and gowns",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "11 x 13 x 6 cm",
+      "stockQuantity": 19,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear dresses and gowns",
+      "_source": {
+        "nykaaId": "1000012030944BlueLIGHTBLUE",
+        "sku": "1000012030944-Blue-LIGHTBLUE",
+        "categoryFilter": "maxwomen-sleepwear-dressesandgowns",
+        "assignedPriceTier": 3317
+      }
+    },
+    {
+      "name": "Women Printed Nightdress",
+      "slug": "1000015359759-offwhite-ivory",
+      "price": 3486,
+      "originalPrice": 3636,
+      "category": "sleepwear dresses and gowns",
+      "description": "Women Printed Nightdress. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaTitle": "Women Printed Nightdress",
+      "metaDescription": "Women Printed Nightdress. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear dresses and gowns",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Off white"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015359759-OffWhite-IVORY-1000015359759_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015359759-OffWhite-IVORY-1000015359759_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015359759-OffWhite-IVORY-1000015359759_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015359759-OffWhite-IVORY-1000015359759_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015359759-OffWhite-IVORY-1000015359759_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015359759-OffWhite-IVORY-1000015359759_06-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear dresses and gowns",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Long",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.8 kg",
+      "dimensions": "12 x 14 x 2 cm",
+      "stockQuantity": 13,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-10T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear dresses and gowns",
+      "_source": {
+        "nykaaId": "1000015359759OffWhiteIVORY",
+        "sku": "1000015359759-OffWhite-IVORY",
+        "categoryFilter": "maxwomen-sleepwear-dressesandgowns",
+        "assignedPriceTier": 3486
+      }
+    },
+    {
+      "name": "Women Hello Kitty Print Chemise",
+      "slug": "1000015359733-grey-greymelange",
+      "price": 3672,
+      "originalPrice": 3822,
+      "category": "sleepwear dresses and gowns",
+      "description": "Women Hello Kitty Print Chemise. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaTitle": "Women Hello Kitty Print Chemise",
+      "metaDescription": "Women Hello Kitty Print Chemise. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear dresses and gowns",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Grey"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015359733-Grey-GREYMELANGE-1000015359733_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015359733-Grey-GREYMELANGE-1000015359733_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015359733-Grey-GREYMELANGE-1000015359733_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015359733-Grey-GREYMELANGE-1000015359733_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015359733-Grey-GREYMELANGE-1000015359733_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015359733-Grey-GREYMELANGE-1000015359733_06-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear dresses and gowns",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Dry clean recommended",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 14 x 8 cm",
+      "stockQuantity": 91,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "1000015359733GreyGREYMELANGE",
+        "sku": "1000015359733-Grey-GREYMELANGE",
+        "categoryFilter": "maxwomen-sleepwear-dressesandgowns",
+        "assignedPriceTier": 3672
+      }
+    },
+    {
+      "name": "Women Printed Chemise",
+      "slug": "1000015212223-beige-oatmarl",
+      "price": 3128,
+      "originalPrice": 3278,
+      "category": "sleepwear dresses and gowns",
+      "description": "Women Printed Chemise. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaTitle": "Women Printed Chemise",
+      "metaDescription": "Women Printed Chemise. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear dresses and gowns",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000015212223-Beige-OATMARL-1000015212223_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015212223-Beige-OATMARL-1000015212223_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015212223-Beige-OATMARL-1000015212223_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015212223-Beige-OATMARL-1000015212223_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015212223-Beige-OATMARL-1000015212223_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015212223-Beige-OATMARL-1000015212223_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015212223-Beige-OATMARL-1000015212223_07-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015212223-Beige-OATMARL-1000015212223_08-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear dresses and gowns",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.5 kg",
+      "dimensions": "13 x 16 x 3 cm",
+      "stockQuantity": 45,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "sleepwear dresses and gowns",
+      "_source": {
+        "nykaaId": "1000015212223BeigeOATMARL",
+        "sku": "1000015212223-Beige-OATMARL",
+        "categoryFilter": "maxwomen-sleepwear-dressesandgowns",
+        "assignedPriceTier": 3128
+      }
+    },
+    {
+      "name": "Women Floral Print Nightgown",
+      "slug": "1000014977204-grey-darkgrey",
+      "price": 3107,
+      "originalPrice": 3257,
+      "category": "sleepwear dresses and gowns",
+      "description": "Women Floral Print Nightgown. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Nightgown",
+      "metaDescription": "Women Floral Print Nightgown. Premium sleepwear dresses and gowns from our curated ethnic collection.",
+      "metaKeywords": [
+        "sleepwear dresses and gowns",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Grey"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014977204-Grey-DARKGREY-1000014977204_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014977204-Grey-DARKGREY-1000014977204_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014977204-Grey-DARKGREY-1000014977204_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014977204-Grey-DARKGREY-1000014977204_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014977204-Grey-DARKGREY-1000014977204_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014977204-Grey-DARKGREY-1000014977204_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014977204-Grey-DARKGREY-1000014977204_07-2100.jpg"
+      ],
+      "tags": [
+        "sleepwear dresses and gowns",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 12 x 7 cm",
+      "stockQuantity": 66,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000014977204GreyDARKGREY",
+        "sku": "1000014977204-Grey-DARKGREY",
+        "categoryFilter": "maxwomen-sleepwear-dressesandgowns",
+        "assignedPriceTier": 3107
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DEFAULT_PAGE_SIZE = exports.GLOBO_FILTER_KEY = exports.GLOBO_DID = exports.GLOBO_CID = exports.GLOBO_COUNTRY = exports.GLOBO_MARKET_ID = exports.GLOBO_SHOP = exports.GLOBO_COLLECTION = exports.GLOBO_FILTER_ID = exports.GLOBO_API_URL = exports.PROTICO_STORE_SLUG = exports.PROTICO_STORE_NAME = exports.PROTICO_STORE_DOMAIN = void 0;
+exports.PROTICO_STORE_DOMAIN = 'protico.vercel.app';
+exports.PROTICO_STORE_NAME = 'Protico';
+exports.PROTICO_STORE_SLUG = 'protico';
+exports.GLOBO_API_URL = 'https://filter-eu8.globo.io/api/apiFilter';
+exports.GLOBO_FILTER_ID = '388';
+exports.GLOBO_COLLECTION = '293622677570';
+exports.GLOBO_SHOP = 'www-aachho-com.myshopify.com';
+exports.GLOBO_MARKET_ID = '1063682114';
+exports.GLOBO_COUNTRY = 'IN';
+exports.GLOBO_CID = 'cb7a7c6c-7c4c-4107-91f6-098b786ace27';
+exports.GLOBO_DID = '88c87258-bea1-4c2f-b547-4d356a03ae8b';
+exports.GLOBO_FILTER_KEY = '4863';
+exports.DEFAULT_PAGE_SIZE = 48;

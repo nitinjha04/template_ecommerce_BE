@@ -1,0 +1,3702 @@
+[
+    {
+        "_id": "69f1a8c4a6c9bb35ad9065a5",
+        "name": "GUCCI MEN'S BLACK FLAT FRONT TROUSERS",
+        "description": "SIZE MENTIONED:45\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003EWAIST:34\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:41\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: BLACK\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE:572U80\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ESTANDARD BELT LOOPS&nbsp;\u003Cbr\u003EFUNCTIONAL ZIP FLY&nbsp;\u003Cbr\u003ECLASSIC 5-POCKET STYLING&nbsp;\u003Cbr\u003E100% COTTON&nbsp;\u003C/div\u003E\u003Cdiv\u003ERAYON&nbsp;\u003C/div\u003E\u003Cdiv\u003EVISCOSE&nbsp;\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "gucci-mens-black-flat-front-trousers",
+        "sku": "TLV43-M-DA-008",
+        "mainImage": {
+            "url": "/media/products/2026/04/29_f5201107.webp",
+            "alt": "1R5A2754"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/29_9a78c051.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69f1a8c4a6c9bb35ad9065a6",
+                "createdAt": "2026-04-29T06:44:20.197Z",
+                "updatedAt": "2026-04-29T06:44:20.197Z"
+            },
+            {
+                "url": "/media/products/2026/04/29_2a0e8997.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69f1a8c4a6c9bb35ad9065a7",
+                "createdAt": "2026-04-29T06:44:20.197Z",
+                "updatedAt": "2026-04-29T06:44:20.197Z"
+            }
+        ],
+        "mrp": 82000,
+        "basePrice": 12000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d49e5",
+                "name": "Denims & Trousers",
+                "slug": "denims-trousers",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d49e5",
+                "name": "Denims & Trousers",
+                "slug": "denims-trousers",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b15922b2422842d3b95",
+            "name": "GUCCI",
+            "slug": "gucci"
+        },
+        "tags": [
+            "TROUSERS",
+            "MENS",
+            "BLACK",
+            "GUCCI"
+        ],
+        "condition": "Good Condition",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1689,
+        "colors": [
+            {
+                "colorName": "Black",
+                "colorCode": "#111111",
+                "images": [],
+                "isDefault": true,
+                "sizes": [],
+                "_id": "69f1a8c4a6c9bb35ad9065a8",
+                "createdAt": "2026-04-29T06:44:20.197Z",
+                "updatedAt": "2026-04-29T06:44:20.197Z"
+            }
+        ],
+        "availableColors": [
+            "Black"
+        ],
+        "availableSizes": [],
+        "isQuote": false,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-29T06:44:20.198Z",
+        "updatedAt": "2026-04-29T06:44:32.123Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 44,
+            "sqlVendorCode": "1619889674",
+            "sqlVendorName": "NAVYA GUPTA",
+            "vcode": "TLV43",
+            "assignedAt": "2026-04-29T06:44:32.117Z"
+        },
+        "ourPrice": 12000,
+        "retailPrice": 82000,
+        "finalPrice": 12000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69d9436fe781c9e448aca3fb",
+        "name": "ARMANI JEANS SLIM-FIT JEANS",
+        "description": "SIZE MENTIONED: EU30\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003EWAIST:34\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:43\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: BLUE\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE:J2I7T 12 R6 CA 37360\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\u003Cbr\u003ESLIM FIT JEANS\u003C/div\u003E\u003Cdiv\u003EBUTTON CLOUSER\n\u003C/div\u003E\u003Cdiv\u003ETWO SIDE SLIT POCKETS AND TWO REAR WELT POCKET\n\u003C/div\u003E\u003Cdiv\u003E100% COTTON\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "armani-jeans-slim-fit-jeans",
+        "sku": "TLV43-M-DA-007",
+        "mainImage": {
+            "url": "/media/products/2026/04/11_cad75a71.webp",
+            "alt": "1R5A2751"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/11_4f5bff7b.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69d94371e781c9e448aca409",
+                "createdAt": "2026-04-10T18:37:37.051Z",
+                "updatedAt": "2026-04-10T18:37:37.051Z"
+            },
+            {
+                "url": "/media/products/2026/04/11_c069779c.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69d94371e781c9e448aca40a",
+                "createdAt": "2026-04-10T18:37:37.051Z",
+                "updatedAt": "2026-04-10T18:37:37.051Z"
+            }
+        ],
+        "mrp": 35000,
+        "basePrice": 10000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d49e5",
+                "name": "Denims & Trousers",
+                "slug": "denims-trousers",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d49e5",
+                "name": "Denims & Trousers",
+                "slug": "denims-trousers",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b16922b2422842d48df",
+            "name": "ARMANI",
+            "slug": "armani"
+        },
+        "tags": [
+            "jeans",
+            "denim",
+            "blue"
+        ],
+        "condition": "Good Condition",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1598,
+        "colors": [
+            {
+                "colorName": "Blue",
+                "colorCode": "#2563EB",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "30",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69d94371e781c9e448aca40b",
+                "createdAt": "2026-04-10T18:37:37.051Z",
+                "updatedAt": "2026-04-10T18:37:37.051Z"
+            }
+        ],
+        "availableColors": [
+            "Blue"
+        ],
+        "availableSizes": [
+            "30"
+        ],
+        "isQuote": false,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-10T18:37:35.736Z",
+        "updatedAt": "2026-04-11T07:59:08.156Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 44,
+            "sqlVendorCode": "1619889674",
+            "sqlVendorName": "NAVYA GUPTA",
+            "vcode": "TLV43",
+            "assignedAt": "2026-04-10T18:37:53.189Z"
+        },
+        "ourPrice": 10000,
+        "retailPrice": 35000,
+        "finalPrice": 10000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69d94148e781c9e448ac982e",
+        "name": "ARMANI JEANS REGULAR FIT DARK GREY JEANS",
+        "description": "SIZE MENTIONED:EU 32\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003EWAIST:36\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:42.5\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: DARK GREY&nbsp;\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003C/div\u003E\u003Cdiv\u003EBUTTON CLOUSER\u003C/div\u003E\u003Cdiv\u003EBRANDED LEATHER PATCH ON THE WAISTBAND\u003C/div\u003E\u003Cdiv\u003ETWO SIDE SLIT POCKETS AND TWO REAR WELT POCKET\n\u003C/div\u003E\u003Cdiv\u003E100% COTTON\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "armani-jeans-regular-fit-dark-grey-jeans",
+        "sku": "TLV43-M-DA-006",
+        "mainImage": {
+            "url": "/media/products/2026/04/10_9ba8357f.webp",
+            "alt": "1R5A2746"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/10_3a916fb5.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69d9414ee781c9e448ac983d",
+                "createdAt": "2026-04-10T18:28:30.068Z",
+                "updatedAt": "2026-04-10T18:28:30.068Z"
+            },
+            {
+                "url": "/media/products/2026/04/10_2ae005a2.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69d9414ee781c9e448ac983e",
+                "createdAt": "2026-04-10T18:28:30.068Z",
+                "updatedAt": "2026-04-10T18:28:30.068Z"
+            }
+        ],
+        "mrp": 35000,
+        "basePrice": 10000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d49e5",
+                "name": "Denims & Trousers",
+                "slug": "denims-trousers",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d49e5",
+                "name": "Denims & Trousers",
+                "slug": "denims-trousers",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b16922b2422842d48df",
+            "name": "ARMANI",
+            "slug": "armani"
+        },
+        "tags": [
+            "denim",
+            "armanijeans",
+            "darkgrey"
+        ],
+        "condition": "Good Condition",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1597,
+        "colors": [
+            {
+                "colorName": "Grey",
+                "colorCode": "#8E8E93",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "32",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69d9414ee781c9e448ac983f",
+                "createdAt": "2026-04-10T18:28:30.068Z",
+                "updatedAt": "2026-04-10T18:28:30.068Z"
+            }
+        ],
+        "availableColors": [
+            "Grey"
+        ],
+        "availableSizes": [
+            "32"
+        ],
+        "isQuote": false,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-10T18:28:24.510Z",
+        "updatedAt": "2026-04-11T07:59:10.040Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 44,
+            "sqlVendorCode": "1619889674",
+            "sqlVendorName": "NAVYA GUPTA",
+            "vcode": "TLV43",
+            "assignedAt": "2026-04-10T18:28:47.590Z"
+        },
+        "ourPrice": 10000,
+        "retailPrice": 35000,
+        "finalPrice": 10000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69d93bf2e781c9e448ac7e34",
+        "name": "ROBERTO CAVALLI STRAIGHT LEG WITH A MID-RISE DENIM",
+        "description": "SIZE MENTIONED:31\u003Cbr\u003E\u003Cbr\u003EWAIST:34\"\n\u003Cdiv\u003ELENGTH:42\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR:BLUE \n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE:XU2041\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ESLIM FIT&nbsp;\u003C/div\u003E\u003Cdiv\u003EBUTTON CLOUSER\u003C/div\u003E\u003Cdiv\u003ETWO SIDE SLIT POCKETS AND TWO REAR WELT POCKET\n\u003C/div\u003E\u003Cdiv\u003E98%COTTON\u003C/div\u003E\u003Cdiv\u003E2% ELASTANE&nbsp;\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "roberto-cavalli-straight-leg-with-a-mid-rise-denim",
+        "sku": "TLV43-M-DA-005",
+        "mainImage": {
+            "url": "/media/products/2026/04/10_2110378a.webp",
+            "alt": "1R5A2744"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/10_c4c69dc1.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69d93bf3e781c9e448ac7e5d",
+                "createdAt": "2026-04-28T07:39:52.808Z",
+                "updatedAt": "2026-04-28T07:39:52.808Z"
+            },
+            {
+                "url": "/media/products/2026/04/10_f07af5e3.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69d93bf3e781c9e448ac7e5e",
+                "createdAt": "2026-04-28T07:39:52.808Z",
+                "updatedAt": "2026-04-28T07:39:52.808Z"
+            }
+        ],
+        "mrp": 42000,
+        "basePrice": 11000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d49e5",
+                "name": "Denims & Trousers",
+                "slug": "denims-trousers",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d49e5",
+                "name": "Denims & Trousers",
+                "slug": "denims-trousers",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b15922b2422842d3be2",
+            "name": "ROBERTO CAVALLI",
+            "slug": "roberto-cavalli"
+        },
+        "tags": [
+            "mens",
+            "denim",
+            "roberto cavalli"
+        ],
+        "condition": "Good Condition",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1596,
+        "colors": [
+            {
+                "colorName": "Blue",
+                "colorCode": "#2563EB",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "31",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69f06448a6c9bb35ad900a95",
+                "createdAt": "2026-04-28T07:39:52.808Z",
+                "updatedAt": "2026-04-28T07:39:52.808Z"
+            }
+        ],
+        "availableColors": [
+            "Blue"
+        ],
+        "availableSizes": [
+            "31"
+        ],
+        "isQuote": false,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-10T18:05:38.159Z",
+        "updatedAt": "2026-04-28T07:39:52.808Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 44,
+            "sqlVendorCode": "1619889674",
+            "sqlVendorName": "NAVYA GUPTA",
+            "vcode": "TLV43",
+            "assignedAt": "2026-04-10T18:05:57.912Z"
+        },
+        "ourPrice": 11000,
+        "retailPrice": 42000,
+        "finalPrice": 11000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69d93a11e781c9e448ac797a",
+        "name": "ARMANI JEANS SLIM FIT LIGHTLY WASHED DENIM",
+        "description": "\u003Cdiv\u003EWAIST:33\"\u003C/div\u003E\u003Cdiv\u003ELENGTH:44.5\"\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: LIGHT BLUE&nbsp;\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE:J063U T6 CA 37360\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003C/div\u003E\u003Cdiv\u003EEMBOSSED LEATHER PATCH ON THE REAR&nbsp;\u003C/div\u003E\u003Cdiv\u003EBUTTON CLOUSER\n\u003C/div\u003E\u003Cdiv\u003ETWO SIDE SLIT POCKETS AND TWO REAR WELT POCKET\n\u003C/div\u003E\u003Cdiv\u003E99% COTTON&nbsp;\u003C/div\u003E\u003Cdiv\u003E1% ELASTANE&nbsp;\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "armani-jeans-slim-fit-lightly-washed-denim",
+        "sku": "TLV43-M-DA-004",
+        "mainImage": {
+            "url": "/media/products/2026/04/10_b28e4e00.webp",
+            "alt": "1R5A2733"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/10_a29aaead.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69d93a16e781c9e448ac7988",
+                "createdAt": "2026-04-10T17:57:42.815Z",
+                "updatedAt": "2026-04-10T17:57:42.815Z"
+            },
+            {
+                "url": "/media/products/2026/04/10_9cbbe72e.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69d93a16e781c9e448ac7989",
+                "createdAt": "2026-04-10T17:57:42.815Z",
+                "updatedAt": "2026-04-10T17:57:42.815Z"
+            }
+        ],
+        "mrp": 35000,
+        "basePrice": 10000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d49e5",
+                "name": "Denims & Trousers",
+                "slug": "denims-trousers",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d49e5",
+                "name": "Denims & Trousers",
+                "slug": "denims-trousers",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b16922b2422842d48df",
+            "name": "ARMANI",
+            "slug": "armani"
+        },
+        "tags": [
+            "armanijeans",
+            "lightblue",
+            "denim"
+        ],
+        "condition": "Used Fairly Well",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1595,
+        "colors": [
+            {
+                "colorName": "Blue",
+                "colorCode": "#2563EB",
+                "images": [],
+                "isDefault": true,
+                "sizes": [],
+                "_id": "69d93a16e781c9e448ac798a",
+                "createdAt": "2026-04-10T17:57:42.815Z",
+                "updatedAt": "2026-04-10T17:57:42.815Z"
+            }
+        ],
+        "availableColors": [
+            "Blue"
+        ],
+        "availableSizes": [],
+        "isQuote": false,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-10T17:57:37.956Z",
+        "updatedAt": "2026-04-11T07:59:13.490Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 44,
+            "sqlVendorCode": "1619889674",
+            "sqlVendorName": "NAVYA GUPTA",
+            "vcode": "TLV43",
+            "assignedAt": "2026-04-10T17:58:09.989Z"
+        },
+        "ourPrice": 10000,
+        "retailPrice": 35000,
+        "finalPrice": 10000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69d8d923e781c9e448ab48e9",
+        "name": "HUGO BOSS CLASSIC STRAIGHT LEG DENIM",
+        "description": "\u003Cdiv\u003EWAIST:33\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:42\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: BLACK\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003C/div\u003E\u003Cdiv\u003EBLACK SLIM FIT DENIM\u003C/div\u003E\u003Cdiv\u003EBUTTON CLOUSER\n\u003C/div\u003E\u003Cdiv\u003ETWO SIDE SLIT POCKETS AND TWO REAR WELT POCKET\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "hugo-boss-classic-straight-leg-denim",
+        "sku": "TLV43-M-DA-003",
+        "mainImage": {
+            "url": "/media/products/2026/04/10_64d0bdae.webp",
+            "alt": "1R5A2740"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/10_9c7fade7.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69d8d925e781c9e448ab48fe",
+                "createdAt": "2026-04-10T11:04:05.785Z",
+                "updatedAt": "2026-04-10T11:04:05.785Z"
+            },
+            {
+                "url": "/media/products/2026/04/10_3bc1c71d.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69d8d925e781c9e448ab48ff",
+                "createdAt": "2026-04-10T11:04:05.785Z",
+                "updatedAt": "2026-04-10T11:04:05.785Z"
+            }
+        ],
+        "mrp": 15000,
+        "basePrice": 6000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d49e5",
+                "name": "Denims & Trousers",
+                "slug": "denims-trousers",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d49e5",
+                "name": "Denims & Trousers",
+                "slug": "denims-trousers",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b18922b2422842d5a1a",
+            "name": "HUGO BOSS",
+            "slug": "hugo-boss"
+        },
+        "tags": [
+            "trouser",
+            "hugoboss",
+            "black"
+        ],
+        "condition": "Used Fairly Well",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1594,
+        "colors": [
+            {
+                "colorName": "Black",
+                "colorCode": "#111111",
+                "images": [],
+                "isDefault": true,
+                "sizes": [],
+                "_id": "69d8d925e781c9e448ab4900",
+                "createdAt": "2026-04-10T11:04:05.785Z",
+                "updatedAt": "2026-04-10T11:04:05.785Z"
+            }
+        ],
+        "availableColors": [
+            "Black"
+        ],
+        "availableSizes": [],
+        "isQuote": false,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-10T11:04:03.120Z",
+        "updatedAt": "2026-04-11T07:59:14.770Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 44,
+            "sqlVendorCode": "1619889674",
+            "sqlVendorName": "NAVYA GUPTA",
+            "vcode": "TLV43",
+            "assignedAt": "2026-04-10T11:04:13.392Z"
+        },
+        "ourPrice": 6000,
+        "retailPrice": 15000,
+        "finalPrice": 6000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69d8d4cce781c9e448ab4212",
+        "name": "SALVATORE FERRAGAMO SLIM FIT CHINO TROSERS",
+        "description": "SIZE MENTIONED:50\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003EWAIST:36\"\u003Cbr\u003ELENGTH:41\"\u003C/div\u003E\u003Cdiv\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: BEIGE\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE:5461-001\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003C/div\u003E\u003Cdiv\u003EBEIGE SLIM FIT TROUSERS&nbsp;\u003Cbr\u003EBUTTON CLOUSER&nbsp;\u003Cbr\u003ETWO SIDE SLIT POCKETS AND TWO REAR WELT POCKET&nbsp;\u003C/div\u003E\u003Cdiv\u003E100% COTTON\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "salvatore-ferragamo-slim-fit-chino-trosers",
+        "sku": "TLV43-M-DA-002",
+        "mainImage": {
+            "url": "/media/products/2026/04/10_86ce74e4.webp",
+            "alt": "1R5A2731"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/10_78dcca42.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69d8d4cee781c9e448ab4228",
+                "createdAt": "2026-04-10T18:38:30.276Z",
+                "updatedAt": "2026-04-10T18:38:30.276Z"
+            },
+            {
+                "url": "/media/products/2026/04/10_9f449ae5.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69d8d4cee781c9e448ab4229",
+                "createdAt": "2026-04-10T18:38:30.276Z",
+                "updatedAt": "2026-04-10T18:38:30.276Z"
+            }
+        ],
+        "mrp": 65000,
+        "basePrice": 12000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d49e5",
+                "name": "Denims & Trousers",
+                "slug": "denims-trousers",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d49e5",
+                "name": "Denims & Trousers",
+                "slug": "denims-trousers",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b15922b2422842d408d",
+            "name": "SALVATORE FERRAGAMO",
+            "slug": "salvatore-ferragamo"
+        },
+        "tags": [
+            "chinos",
+            "trousers",
+            "salvatoreferragamo"
+        ],
+        "condition": "Good Condition",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1593,
+        "colors": [
+            {
+                "colorName": "Beige",
+                "colorCode": "#D6C1A3",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "50",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69d943a6e781c9e448aca595",
+                "createdAt": "2026-04-10T18:38:30.276Z",
+                "updatedAt": "2026-04-10T18:38:30.276Z"
+            }
+        ],
+        "availableColors": [
+            "Beige"
+        ],
+        "availableSizes": [
+            "50"
+        ],
+        "isQuote": false,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-10T10:45:32.939Z",
+        "updatedAt": "2026-04-10T18:38:30.276Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 44,
+            "sqlVendorCode": "1619889674",
+            "sqlVendorName": "NAVYA GUPTA",
+            "vcode": "TLV43",
+            "assignedAt": "2026-04-10T10:45:46.416Z"
+        },
+        "ourPrice": 12000,
+        "retailPrice": 65000,
+        "finalPrice": 12000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69d8ce08e781c9e448ab25c9",
+        "name": "CORNEALIANI CONTEMPORARY FIT BLACK LIGHTLY WASHED MID RISE JEANS",
+        "description": "SIZE MENTIONED:40\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003EWAIST:36\"\u003Cbr\u003ELENGTH: 41\"\u003C/div\u003E\u003Cdiv\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: CHARCOL DARK GREY&nbsp;\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ESIGNATURE \"C\" TONAL EMBROIDERY ON BOTH REAR POCKETS&nbsp;\u003Cbr\u003ELOGO-DEBOSSED LEATHER PATCH ON THE BACK WAISTBAND&nbsp;\u003Cbr\u003ECLASSIC ZIP FLY WITH A BRANDED TOP BUTTON FASTENING.\u003C/div\u003E\u003Cdiv\u003E100% COTTON\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "cornealiani-contemporary-fit-black-lightly-washed-mid-rise-jeans",
+        "sku": "TLV43-M-DA-001",
+        "mainImage": {
+            "url": "/media/products/2026/04/10_9615058a.webp",
+            "alt": "1R5A2702"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/10_29de6468.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69d8ce09e781c9e448ab25d9",
+                "createdAt": "2026-04-10T10:16:41.468Z",
+                "updatedAt": "2026-04-10T10:16:41.468Z"
+            },
+            {
+                "url": "/media/products/2026/04/10_ee5bf37d.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69d8ce09e781c9e448ab25da",
+                "createdAt": "2026-04-10T10:16:41.468Z",
+                "updatedAt": "2026-04-10T10:16:41.468Z"
+            }
+        ],
+        "mrp": 62000,
+        "basePrice": 8000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d49e5",
+                "name": "Denims & Trousers",
+                "slug": "denims-trousers",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b16922b2422842d49e5",
+                "name": "Denims & Trousers",
+                "slug": "denims-trousers",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b15922b2422842d3f96",
+            "name": "CORNELIANI",
+            "slug": "corneliani"
+        },
+        "tags": [
+            "denim",
+            "jenas",
+            "bottom",
+            "grey"
+        ],
+        "condition": "Good Condition",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1592,
+        "colors": [
+            {
+                "colorName": "Black",
+                "colorCode": "#111111",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "40",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69d8ce09e781c9e448ab25db",
+                "createdAt": "2026-04-10T10:16:41.468Z",
+                "updatedAt": "2026-04-10T10:16:41.468Z"
+            }
+        ],
+        "availableColors": [
+            "Black"
+        ],
+        "availableSizes": [
+            "40"
+        ],
+        "isQuote": false,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-10T10:16:40.074Z",
+        "updatedAt": "2026-04-10T10:58:06.338Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 44,
+            "sqlVendorCode": "1619889674",
+            "sqlVendorName": "NAVYA GUPTA",
+            "vcode": "TLV43",
+            "assignedAt": "2026-04-10T10:16:58.612Z"
+        },
+        "ourPrice": 8000,
+        "retailPrice": 62000,
+        "finalPrice": 8000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69d8b737e781c9e448aadf99",
+        "name": "WHITE VERSACE COLLECTION T-SHIRT",
+        "description": "SIZE MENTIONED: L\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003ECHEST :38\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:29\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: WHITE\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003EBRAND LOGO BADGE&nbsp;\u003Cbr\u003ECLASSIC POLO COLLAR WITH A TWO-BUTTON PLACKET&nbsp;\u003Cbr\u003ERIBBED FINISH ON THE CUFFS AND HEM FOR A STRUCTURED LOOK&nbsp;\u003Cbr\u003E100% COTTON\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "white-versace-collection-t-shirt",
+        "sku": "TLV43-M-TS-004",
+        "mainImage": {
+            "url": "/media/products/2026/04/10_52127311.webp",
+            "alt": "1R5A2251"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/10_f230a05f.webp",
+                "alt": "Product image 2",
+                "order": 0,
+                "_id": "69d8b738e781c9e448aadfb7",
+                "createdAt": "2026-04-10T08:39:44.923Z",
+                "updatedAt": "2026-04-10T08:39:44.923Z"
+            },
+            {
+                "url": "/media/products/2026/04/10_1bfff184.webp",
+                "alt": "Product image 1",
+                "order": 1,
+                "_id": "69d8b738e781c9e448aadfb8",
+                "createdAt": "2026-04-10T08:39:44.923Z",
+                "updatedAt": "2026-04-10T08:39:44.923Z"
+            },
+            {
+                "url": "/media/products/2026/04/10_94a4e7e8.webp",
+                "alt": "Product image 3",
+                "order": 2,
+                "_id": "69d8b738e781c9e448aadfb9",
+                "createdAt": "2026-04-10T08:39:44.923Z",
+                "updatedAt": "2026-04-10T08:39:44.923Z"
+            }
+        ],
+        "mrp": 140000,
+        "basePrice": 19000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d52ed",
+                "name": "T Shirts",
+                "slug": "t-shirts",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d52ed",
+                "name": "T Shirts",
+                "slug": "t-shirts",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b15922b2422842d3fd5",
+            "name": "VERSACE",
+            "slug": "versace"
+        },
+        "tags": [
+            "tshirt",
+            "polo",
+            "collar",
+            "white",
+            "versacecollection"
+        ],
+        "condition": "Good Condition",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1588,
+        "colors": [
+            {
+                "colorName": "White",
+                "colorCode": "#F5F5F5",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "L",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69d8b750e781c9e448aae035",
+                "createdAt": "2026-04-10T08:39:44.923Z",
+                "updatedAt": "2026-04-10T08:39:44.923Z"
+            }
+        ],
+        "availableColors": [
+            "White"
+        ],
+        "availableSizes": [
+            "L"
+        ],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-10T08:39:19.506Z",
+        "updatedAt": "2026-04-10T08:39:44.923Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 44,
+            "sqlVendorCode": "1619889674",
+            "sqlVendorName": "NAVYA GUPTA",
+            "vcode": "TLV43",
+            "assignedAt": "2026-04-10T08:39:29.730Z"
+        },
+        "ourPrice": 19000,
+        "retailPrice": 140000,
+        "finalPrice": 19000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69d8ab25a3b784ad33b096f7",
+        "name": "POLO RALPH LAUREN NAUTICAL EMBROIDERED MESH POLO SHIRT",
+        "description": "SIZE MENTIONED: M\u003Cbr\u003E\u003Cdiv\u003ECHEST :43\"\u003C/div\u003E\u003Cdiv\u003ELENGTH:25\"\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003ECOLOUR: WHITE\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\u003Cbr\u003ERIB-KNIT OR WOVEN BUTTON DOWN POLO COLLAR&nbsp;\u003Cbr\u003ELONG SLEEVES FINISHED WITH RIBBED CUFFS&nbsp;\u003C/div\u003E\u003Cdiv\u003ECUSTOM FIT&nbsp;\u003C/div\u003E\u003Cdiv\u003E100% COTTON\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003C/div\u003E",
+        "slug": "emporio-aramani-navy-blue-polo-t-shirt",
+        "sku": "TLV43-M-TS-003",
+        "mainImage": {
+            "url": "/media/products/2026/04/10_d7bbddcd.webp",
+            "alt": "1R5A2224"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/10_7bf7f30b.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69d8b36ca3b784ad33b0ac91",
+                "createdAt": "2026-04-10T08:28:55.304Z",
+                "updatedAt": "2026-04-10T08:28:55.304Z"
+            },
+            {
+                "url": "/media/products/2026/04/10_269abb5b.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69d8b36ca3b784ad33b0ac92",
+                "createdAt": "2026-04-10T08:28:55.304Z",
+                "updatedAt": "2026-04-10T08:28:55.304Z"
+            }
+        ],
+        "mrp": 22000,
+        "basePrice": 5000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d52ed",
+                "name": "T Shirts",
+                "slug": "t-shirts",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d52ed",
+                "name": "T Shirts",
+                "slug": "t-shirts",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69cf6aeba598d88194e6fe00",
+            "name": "POLO RALPH LAUREN",
+            "slug": "polo-ralph-lauren"
+        },
+        "tags": [
+            "tshirt",
+            "polo",
+            "ralphlauren",
+            "white",
+            "fullsleeves"
+        ],
+        "condition": "Pristine",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1583,
+        "colors": [
+            {
+                "colorName": "White",
+                "colorCode": "#F5F5F5",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "M",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69d8b4c7a3b784ad33b0b299",
+                "createdAt": "2026-04-10T08:28:55.304Z",
+                "updatedAt": "2026-04-10T08:28:55.304Z"
+            }
+        ],
+        "availableColors": [
+            "White"
+        ],
+        "availableSizes": [
+            "M"
+        ],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-10T07:47:49.499Z",
+        "updatedAt": "2026-04-10T08:28:55.304Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 44,
+            "sqlVendorCode": "1619889674",
+            "sqlVendorName": "NAVYA GUPTA",
+            "vcode": "TLV43",
+            "assignedAt": "2026-04-10T07:48:04.202Z"
+        },
+        "ourPrice": 5000,
+        "retailPrice": 22000,
+        "finalPrice": 5000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69d8a6f0a3b784ad33b08b48",
+        "name": "ASTON MARTIN RACING (AMR) EDITION POLO T-SHIRT",
+        "description": "\u003Cdiv\u003ESIZE MENTIONED:M\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003ECHEST :40\"&nbsp;\u003C/div\u003E\u003Cdiv\u003ELENGTH: 28\"\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: WHITE&nbsp;\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ESHORT SLEEVES&nbsp;\u003Cbr\u003ECLASSIC POLO COLLAR\u003Cbr\u003ECONTRASTING BLUE COLLAR&nbsp;\u003Cbr\u003ETAPING DETAILS ON THE SLEEVES\u003Cbr\u003ELOGO EMBROIDERED ON THE LEFT CHEST&nbsp;\u003Cbr\u003E100% COTTON&nbsp;\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "aston-martin-racing-amr-edition-polo-t-shirt",
+        "sku": "TLV43-M-TS-002",
+        "mainImage": {
+            "url": "/media/products/2026/04/10_2a946700.webp",
+            "alt": "1R5A2264"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/10_243f79c9.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69d8a6f0a3b784ad33b08b49",
+                "createdAt": "2026-04-10T07:30:32.175Z",
+                "updatedAt": "2026-04-10T07:30:32.175Z"
+            },
+            {
+                "url": "/media/products/2026/04/10_c90856cf.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69d8a6f0a3b784ad33b08b4a",
+                "createdAt": "2026-04-10T07:30:32.175Z",
+                "updatedAt": "2026-04-10T07:30:32.175Z"
+            }
+        ],
+        "mrp": 13000,
+        "basePrice": 5000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d52ed",
+                "name": "T Shirts",
+                "slug": "t-shirts",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d52ed",
+                "name": "T Shirts",
+                "slug": "t-shirts",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b18922b2422842d5af9",
+            "name": "HACKETT",
+            "slug": "hackett"
+        },
+        "tags": [
+            "tshirt",
+            "astonmartin",
+            "white"
+        ],
+        "condition": "Used Fairly Well",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1581,
+        "colors": [
+            {
+                "colorName": "White",
+                "colorCode": "#F5F5F5",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "M",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69d8a718a3b784ad33b08c57",
+                "createdAt": "2026-04-10T07:30:32.175Z",
+                "updatedAt": "2026-04-10T07:30:32.175Z"
+            }
+        ],
+        "availableColors": [
+            "White"
+        ],
+        "availableSizes": [
+            "M"
+        ],
+        "isQuote": false,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-10T07:29:52.004Z",
+        "updatedAt": "2026-04-10T07:30:32.175Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 44,
+            "sqlVendorCode": "1619889674",
+            "sqlVendorName": "NAVYA GUPTA",
+            "vcode": "TLV43",
+            "assignedAt": "2026-04-10T07:30:00.583Z"
+        },
+        "ourPrice": 5000,
+        "retailPrice": 13000,
+        "finalPrice": 5000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69d8a5fda3b784ad33b087bb",
+        "name": "BURBERRY BLUE LONG SLEEVE POLO SHIRT",
+        "description": "SIZE MENTIONED:M&nbsp;180/96A&nbsp;\u003Cdiv\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003ECHEST :36\"\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:25\"\n\u003C/div\u003E\u003Cdiv\u003ECOLOUR: BLUE\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003C/div\u003E\u003Cdiv\u003EREGULAR FIT&nbsp;\u003C/div\u003E\u003Cdiv\u003ELONG SLEEVES&nbsp;\u003C/div\u003E\u003Cdiv\u003EPOLO SHIRT&nbsp;\u003C/div\u003E\u003Cdiv\u003EFRONT BUTTONED PLACKET&nbsp;\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003C/div\u003E",
+        "slug": "burberry-blue-long-sleeve-polo-shirt",
+        "sku": "TLV1-M-SH-001",
+        "mainImage": {
+            "url": "/media/products/2026/04/10_22a68820.webp",
+            "alt": "1R5A2134"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/10_be88e09c.webp",
+                "alt": "Product image 2",
+                "order": 0,
+                "_id": "69d8a5fea3b784ad33b087d0",
+                "createdAt": "2026-04-10T07:30:11.173Z",
+                "updatedAt": "2026-04-10T07:30:11.173Z"
+            },
+            {
+                "url": "/media/products/2026/04/10_a47e4805.webp",
+                "alt": "Product image 1",
+                "order": 1,
+                "_id": "69d8a5fea3b784ad33b087d1",
+                "createdAt": "2026-04-10T07:30:11.173Z",
+                "updatedAt": "2026-04-10T07:30:11.173Z"
+            }
+        ],
+        "mrp": 28000,
+        "basePrice": 8000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b18922b2422842d5929",
+                "name": "Shirts",
+                "slug": "shirts",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b18922b2422842d5929",
+                "name": "Shirts",
+                "slug": "shirts",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b16922b2422842d4473",
+            "name": "BURBERRY",
+            "slug": "burberry"
+        },
+        "tags": [],
+        "condition": "Good Condition",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1580,
+        "colors": [
+            {
+                "colorName": "Aqua",
+                "colorCode": "#38BDF8",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "XS",
+                        "stock": 0
+                    },
+                    {
+                        "sizeName": "S",
+                        "stock": 0
+                    },
+                    {
+                        "sizeName": "M",
+                        "stock": 0
+                    },
+                    {
+                        "sizeName": "L",
+                        "stock": 0
+                    },
+                    {
+                        "sizeName": "XL",
+                        "stock": 0
+                    },
+                    {
+                        "sizeName": "XXL",
+                        "stock": 0
+                    },
+                    {
+                        "sizeName": "One Size",
+                        "stock": 0
+                    },
+                    {
+                        "sizeName": "Free Size",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69d8a703a3b784ad33b08ba9",
+                "createdAt": "2026-04-10T07:30:11.173Z",
+                "updatedAt": "2026-04-10T07:30:11.173Z"
+            }
+        ],
+        "availableColors": [
+            "Aqua"
+        ],
+        "availableSizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "One Size",
+            "Free Size"
+        ],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-10T07:25:49.337Z",
+        "updatedAt": "2026-04-10T07:30:11.173Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 144,
+            "sqlVendorCode": "688469039",
+            "sqlVendorName": "DEIVYA THUKRAL",
+            "vcode": "TLV1",
+            "assignedAt": "2026-04-10T07:26:17.638Z"
+        },
+        "ourPrice": 8000,
+        "retailPrice": 28000,
+        "finalPrice": 8000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69d79736a3b784ad33ae7e7a",
+        "name": "PAUL SMITH MEN'S BALCK SHIRT",
+        "description": "SIZE MENTIONED:16/41&nbsp;\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003ECHEST :40\"\u003C/div\u003E\u003Cdiv\u003ELENGTH:31\"\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: BLACK&nbsp;\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ELONG SLEEVES&nbsp;\u003Cbr\u003ECURVED HEMLINE&nbsp;\u003Cbr\u003EMULTI-COLORED \"SIGNATURE STRIPE\"\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EBUTTONED FLAPS\u003Cbr\u003E100% COTTON\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "paul-smith-mens-balck-shirt",
+        "sku": "TLV43-M-SH-003",
+        "mainImage": {
+            "url": "/media/products/2026/04/09_0322fe39.webp",
+            "alt": "1R5A2243"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/09_ce0e7fd6.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69d79736a3b784ad33ae7e7b",
+                "createdAt": "2026-04-10T06:38:56.845Z",
+                "updatedAt": "2026-04-10T06:38:56.845Z"
+            },
+            {
+                "url": "/media/products/2026/04/09_95eaac02.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69d79736a3b784ad33ae7e7c",
+                "createdAt": "2026-04-10T06:38:56.845Z",
+                "updatedAt": "2026-04-10T06:38:56.845Z"
+            }
+        ],
+        "mrp": 29000,
+        "basePrice": 6000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b18922b2422842d5929",
+                "name": "Shirts",
+                "slug": "shirts",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b18922b2422842d5929",
+                "name": "Shirts",
+                "slug": "shirts",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b18922b2422842d5c2e",
+            "name": "PAUL SMITH",
+            "slug": "paul-smith"
+        },
+        "tags": [
+            "shirt",
+            "plainblack",
+            "striped"
+        ],
+        "condition": "Pristine",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1578,
+        "colors": [
+            {
+                "colorName": "Black",
+                "colorCode": "#111111",
+                "images": [],
+                "isDefault": true,
+                "sizes": [],
+                "_id": "69d89b00a3b784ad33b06a7a",
+                "createdAt": "2026-04-10T06:38:56.845Z",
+                "updatedAt": "2026-04-10T06:38:56.845Z"
+            },
+            {
+                "colorName": "Multicolor",
+                "colorCode": "#A855F7",
+                "images": [],
+                "isDefault": false,
+                "sizes": [],
+                "_id": "69d89b00a3b784ad33b06a7b",
+                "createdAt": "2026-04-10T06:38:56.845Z",
+                "updatedAt": "2026-04-10T06:38:56.845Z"
+            }
+        ],
+        "availableColors": [
+            "Black",
+            "Multicolor"
+        ],
+        "availableSizes": [],
+        "isQuote": false,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-09T12:10:30.965Z",
+        "updatedAt": "2026-04-10T06:38:56.845Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 44,
+            "sqlVendorCode": "1619889674",
+            "sqlVendorName": "NAVYA GUPTA",
+            "vcode": "TLV43",
+            "assignedAt": "2026-04-09T12:10:38.147Z"
+        },
+        "ourPrice": 6000,
+        "retailPrice": 29000,
+        "finalPrice": 6000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69d79303a3b784ad33ae76e2",
+        "name": "TRU TRUSSARDI LINEN SHIRT",
+        "description": "SIZE MENTIONED:M\n\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003ECHEST :42\"\u003C/div\u003E\u003Cdiv\u003ELENGTH: 26''\u003C/div\u003E\u003Cdiv\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: MINT GREEN&nbsp;\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ECASUL SHIRT&nbsp;\u003Cbr\u003ELONG-SLEEVED SHIRT&nbsp;\u003Cbr\u003ECHEST FEATURES THE SIGNATURE ITALIAN GREYHOUND LOGO&nbsp;\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003E100% LINEN&nbsp;\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "tru-trussardi-linen-shirt",
+        "sku": "TLV43-M-SH-002",
+        "mainImage": {
+            "url": "/media/products/2026/04/09_6b93115b.webp",
+            "alt": "1R5A2240"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/09_998a2083.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69d79306a3b784ad33ae76f1",
+                "createdAt": "2026-04-09T11:52:38.897Z",
+                "updatedAt": "2026-04-09T11:52:38.897Z"
+            },
+            {
+                "url": "/media/products/2026/04/09_bf89905b.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69d79306a3b784ad33ae76f2",
+                "createdAt": "2026-04-09T11:52:38.897Z",
+                "updatedAt": "2026-04-09T11:52:38.897Z"
+            },
+            {
+                "url": "/media/products/2026/04/09_b26d9ae6.webp",
+                "alt": "Product image 3",
+                "order": 2,
+                "_id": "69d79306a3b784ad33ae76f3",
+                "createdAt": "2026-04-09T11:52:38.897Z",
+                "updatedAt": "2026-04-09T11:52:38.897Z"
+            }
+        ],
+        "mrp": 12000,
+        "basePrice": 4000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b18922b2422842d5929",
+                "name": "Shirts",
+                "slug": "shirts",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b18922b2422842d5929",
+                "name": "Shirts",
+                "slug": "shirts",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69d792f2a3b784ad33ae76ce",
+            "name": "TRU TRUSSARDI",
+            "slug": "tru-trussardi"
+        },
+        "tags": [
+            "linen",
+            "shirt",
+            "mintgreen",
+            "casualshirt"
+        ],
+        "condition": "Good Condition",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1577,
+        "colors": [
+            {
+                "colorName": "Green",
+                "colorCode": "#2E7D32",
+                "images": [],
+                "isDefault": true,
+                "sizes": [],
+                "_id": "69d79306a3b784ad33ae76f4",
+                "createdAt": "2026-04-09T11:52:38.897Z",
+                "updatedAt": "2026-04-09T11:52:38.897Z"
+            }
+        ],
+        "availableColors": [
+            "Green"
+        ],
+        "availableSizes": [],
+        "isQuote": false,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-09T11:52:35.237Z",
+        "updatedAt": "2026-04-09T11:52:46.753Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 44,
+            "sqlVendorCode": "1619889674",
+            "sqlVendorName": "NAVYA GUPTA",
+            "vcode": "TLV43",
+            "assignedAt": "2026-04-09T11:52:46.750Z"
+        },
+        "ourPrice": 4000,
+        "retailPrice": 12000,
+        "finalPrice": 4000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69d78740a3b784ad33ae5998",
+        "name": "BURBERRY SLIM FIT COTTON  SHIRT",
+        "description": "SIZE MENTIONED:M\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003ECHEST: 39\"\u003C/div\u003E\u003Cdiv\u003ELENGTH : 27'\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: BEIGE\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ESIGNATURE CHECK SHIRT&nbsp;\u003Cbr\u003EBUTTONED FLAPS&nbsp;\u003Cbr\u003ECLASSIC POINTED/SPREAD COLLAR&nbsp;\u003Cbr\u003ETWO FUNCTIONAL CHEST PATCH POCKETS&nbsp;\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003E100% COTTON\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "burberry-slim-fit-cotton-shirt",
+        "sku": "TLV43-M-SH-001",
+        "mainImage": {
+            "url": "/media/products/2026/04/09_c38ba9a2.webp",
+            "alt": "1R5A2236"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/09_9ee8fd7c.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69d78740a3b784ad33ae5999",
+                "createdAt": "2026-04-09T11:02:24.207Z",
+                "updatedAt": "2026-04-09T11:02:24.207Z"
+            },
+            {
+                "url": "/media/products/2026/04/09_9eb638fb.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69d78740a3b784ad33ae599a",
+                "createdAt": "2026-04-09T11:02:24.207Z",
+                "updatedAt": "2026-04-09T11:02:24.207Z"
+            }
+        ],
+        "mrp": 37000,
+        "basePrice": 12000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b18922b2422842d5929",
+                "name": "Shirts",
+                "slug": "shirts",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b18922b2422842d5929",
+                "name": "Shirts",
+                "slug": "shirts",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b16922b2422842d4473",
+            "name": "BURBERRY",
+            "slug": "burberry"
+        },
+        "tags": [
+            "burberry",
+            "checkshirt",
+            "fullsleeves",
+            "shirt",
+            "beige",
+            "mens"
+        ],
+        "condition": "Good Condition",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1576,
+        "colors": [
+            {
+                "colorName": "Beige",
+                "colorCode": "#D6C1A3",
+                "images": [],
+                "isDefault": true,
+                "sizes": [],
+                "_id": "69d78740a3b784ad33ae599b",
+                "createdAt": "2026-04-09T11:02:24.207Z",
+                "updatedAt": "2026-04-09T11:02:24.207Z"
+            },
+            {
+                "colorName": "Multicolor",
+                "colorCode": "#A855F7",
+                "images": [],
+                "isDefault": false,
+                "sizes": [],
+                "_id": "69d78740a3b784ad33ae599c",
+                "createdAt": "2026-04-09T11:02:24.207Z",
+                "updatedAt": "2026-04-09T11:02:24.207Z"
+            }
+        ],
+        "availableColors": [
+            "Beige",
+            "Multicolor"
+        ],
+        "availableSizes": [],
+        "isQuote": false,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-09T11:02:24.207Z",
+        "updatedAt": "2026-04-09T11:02:37.150Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 44,
+            "sqlVendorCode": "1619889674",
+            "sqlVendorName": "NAVYA GUPTA",
+            "vcode": "TLV43",
+            "assignedAt": "2026-04-09T11:02:37.145Z"
+        },
+        "ourPrice": 12000,
+        "retailPrice": 37000,
+        "finalPrice": 12000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69d77d87a3b784ad33ae3e19",
+        "name": "POLO RALPH LAUREN \"BIG PONY\" MESH POLO T-SHIRT",
+        "description": "SIZE MENTIONED:S\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003ECHEST:38\"\u003C/div\u003E\u003Cdiv\u003ELENGTH : 26\"\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: WHITE/GREEN&nbsp;\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ENAVY COLLAR AND GREEN SHORT SLEEVES\u003Cbr\u003ETWO-BUTTON PLACKET AND A CLASSIC POLO COLLAR&nbsp;\u003Cbr\u003EWIDE NAVY HORIZONTAL STRIPE ACROSS THE CHEST&nbsp;\u003Cbr\u003ECUSTOM FIT&nbsp;\u003Cbr\u003E100% COTTON\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "polo-ralph-lauren-big-pony-mesh-polo-t-shirt",
+        "sku": "TLV44-M-TS-001",
+        "mainImage": {
+            "url": "/media/products/2026/04/09_b5f0c99f.webp",
+            "alt": "1R5A2256"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/09_3586e331.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69d77d87a3b784ad33ae3e1a",
+                "createdAt": "2026-05-14T07:23:08.176Z",
+                "updatedAt": "2026-05-14T07:23:08.176Z"
+            },
+            {
+                "url": "/media/products/2026/04/09_04945097.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69d77d87a3b784ad33ae3e1b",
+                "createdAt": "2026-05-14T07:23:08.176Z",
+                "updatedAt": "2026-05-14T07:23:08.176Z"
+            },
+            {
+                "url": "/media/products/2026/04/09_13bec2ec.webp",
+                "alt": "Product image 3",
+                "order": 2,
+                "_id": "69d77d87a3b784ad33ae3e1c",
+                "createdAt": "2026-05-14T07:23:08.176Z",
+                "updatedAt": "2026-05-14T07:23:08.176Z"
+            }
+        ],
+        "mrp": 13200,
+        "basePrice": 4000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d52ed",
+                "name": "T Shirts",
+                "slug": "t-shirts",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d52ed",
+                "name": "T Shirts",
+                "slug": "t-shirts",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69cf6aeba598d88194e6fe00",
+            "name": "POLO RALPH LAUREN",
+            "slug": "polo-ralph-lauren"
+        },
+        "tags": [
+            "polo",
+            "tshirt",
+            "white-green",
+            "mens"
+        ],
+        "condition": "Good Condition",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1575,
+        "colors": [
+            {
+                "colorName": "White",
+                "colorCode": "#F5F5F5",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "S",
+                        "stock": 0
+                    }
+                ],
+                "_id": "6a05785cd9edd4fbfae7be4b",
+                "createdAt": "2026-05-14T07:23:08.176Z",
+                "updatedAt": "2026-05-14T07:23:08.176Z"
+            },
+            {
+                "colorName": "Green",
+                "colorCode": "#2E7D32",
+                "images": [],
+                "isDefault": false,
+                "sizes": [
+                    {
+                        "sizeName": "S",
+                        "stock": 0
+                    }
+                ],
+                "_id": "6a05785cd9edd4fbfae7be4d",
+                "createdAt": "2026-05-14T07:23:08.176Z",
+                "updatedAt": "2026-05-14T07:23:08.176Z"
+            }
+        ],
+        "availableColors": [
+            "White",
+            "Green"
+        ],
+        "availableSizes": [
+            "S"
+        ],
+        "isQuote": false,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-09T10:20:55.446Z",
+        "updatedAt": "2026-05-14T07:23:08.176Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 41,
+            "sqlVendorCode": "1192493990",
+            "sqlVendorName": "NAVYA GUPTA",
+            "vcode": "TLV44",
+            "assignedAt": "2026-04-09T10:21:20.888Z"
+        },
+        "ourPrice": 4000,
+        "retailPrice": 13200,
+        "finalPrice": 4000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69d762b9a3b784ad33ae0102",
+        "name": "POLO RALPH LAUREN \"RL RACING\" MESH POLO T-SHIRT",
+        "description": "SIZE MENTIONED:M\n\u003Cbr\u003E\u003Cdiv\u003ECHEST:39\"\u003C/div\u003E\u003Cdiv\u003ELENGTH : 28'&nbsp;\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: WHITE/BLUE\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ECUSTOM FIT&nbsp;\u003Cbr\u003EA BOLD, COLOR BLOCKED DESIGN&nbsp;\u003C/div\u003E\u003Cdiv\u003ECONTRAST RIBBED POLO COLLAR\n\u003Cbr\u003E100% COTTON\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "polo-ralph-lauren-rl-racing-mesh-polo-t-shirt",
+        "sku": "TLV43-M-TS-001",
+        "mainImage": {
+            "url": "/media/products/2026/04/09_e4b4b888.webp",
+            "alt": "1R5A2232"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/09_e37d4bb0.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69d762b9a3b784ad33ae0103",
+                "createdAt": "2026-04-09T08:26:33.289Z",
+                "updatedAt": "2026-04-09T08:26:33.289Z"
+            },
+            {
+                "url": "/media/products/2026/04/09_d3a27ddd.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69d762b9a3b784ad33ae0104",
+                "createdAt": "2026-04-09T08:26:33.289Z",
+                "updatedAt": "2026-04-09T08:26:33.289Z"
+            },
+            {
+                "url": "/media/products/2026/04/09_6d7ee0d6.webp",
+                "alt": "Product image 3",
+                "order": 2,
+                "_id": "69d762b9a3b784ad33ae0105",
+                "createdAt": "2026-04-09T08:26:33.289Z",
+                "updatedAt": "2026-04-09T08:26:33.289Z"
+            }
+        ],
+        "mrp": 13200,
+        "basePrice": 4000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d52ed",
+                "name": "T Shirts",
+                "slug": "t-shirts",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d52ed",
+                "name": "T Shirts",
+                "slug": "t-shirts",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69cf6aeba598d88194e6fe00",
+            "name": "POLO RALPH LAUREN",
+            "slug": "polo-ralph-lauren"
+        },
+        "tags": [
+            "pollo",
+            "t-shirt",
+            "collar",
+            "poloralphlauren",
+            "white"
+        ],
+        "condition": "Good Condition",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1574,
+        "colors": [
+            {
+                "colorName": "White",
+                "colorCode": "#F5F5F5",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "M",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69d762b9a3b784ad33ae0106",
+                "createdAt": "2026-04-09T08:26:33.289Z",
+                "updatedAt": "2026-04-09T08:26:33.289Z"
+            }
+        ],
+        "availableColors": [
+            "White"
+        ],
+        "availableSizes": [
+            "M"
+        ],
+        "isQuote": false,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-09T08:26:33.289Z",
+        "updatedAt": "2026-04-09T10:21:43.255Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 44,
+            "sqlVendorCode": "1619889674",
+            "sqlVendorName": "NAVYA GUPTA",
+            "vcode": "TLV43",
+            "assignedAt": "2026-04-09T10:21:43.250Z"
+        },
+        "ourPrice": 4000,
+        "retailPrice": 13200,
+        "finalPrice": 4000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69d50173a3b784ad33a86898",
+        "name": "POLO RALPH LAUREN PRL CLUB \"CHALLENGE CUP MCMLXVII\" T-SHIRT",
+        "description": "SIZE MENTIONED:M\u003Cbr\u003E\u003Cdiv\u003ELENGTH:31\"\u003Cbr\u003ECHEST:38\"\u003C/div\u003E\u003Cdiv\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: WHITE\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE: SUPPLIER# 71451 PO#604049\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ERIBBED POLO COLLAR\u003Cbr\u003EMATCHING SLEEVE CUFFS\u003Cbr\u003EMULTI-COLORED EMBROIDERED CREST\u003Cbr\u003E100% COTTON\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "polo-ralph-lauren-prl-club-challenge-cup-mcmlxvii-t-shirt",
+        "sku": "TLV1-M-TS-005",
+        "mainImage": {
+            "url": "/media/products/2026/04/07_7ee58d80.webp",
+            "alt": "1R5A2247"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/07_992bdd27.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69d50173a3b784ad33a86899",
+                "createdAt": "2026-04-07T13:06:59.813Z",
+                "updatedAt": "2026-04-07T13:06:59.813Z"
+            },
+            {
+                "url": "/media/products/2026/04/07_a5ad79e4.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69d50173a3b784ad33a8689a",
+                "createdAt": "2026-04-07T13:06:59.813Z",
+                "updatedAt": "2026-04-07T13:06:59.813Z"
+            }
+        ],
+        "mrp": 13200,
+        "basePrice": 4000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d52ed",
+                "name": "T Shirts",
+                "slug": "t-shirts",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d52ed",
+                "name": "T Shirts",
+                "slug": "t-shirts",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69cf6aeba598d88194e6fe00",
+            "name": "POLO RALPH LAUREN",
+            "slug": "polo-ralph-lauren"
+        },
+        "tags": [
+            "tshirt",
+            "polo",
+            "collar",
+            "white",
+            "poloralphlauren"
+        ],
+        "condition": "Pristine",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1573,
+        "colors": [
+            {
+                "colorName": "White",
+                "colorCode": "#F5F5F5",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "M",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69d50173a3b784ad33a8689b",
+                "createdAt": "2026-04-07T13:06:59.813Z",
+                "updatedAt": "2026-04-07T13:06:59.813Z"
+            }
+        ],
+        "availableColors": [
+            "White"
+        ],
+        "availableSizes": [
+            "M"
+        ],
+        "isQuote": false,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-07T13:06:59.813Z",
+        "updatedAt": "2026-04-07T13:07:05.312Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 144,
+            "sqlVendorCode": "688469039",
+            "sqlVendorName": "DEIVYA THUKRAL",
+            "vcode": "TLV1",
+            "assignedAt": "2026-04-07T13:07:05.309Z"
+        },
+        "ourPrice": 4000,
+        "retailPrice": 13200,
+        "finalPrice": 4000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69d4dd01a3b784ad33a82389",
+        "name": "POLO RALPH LAUREN ICONIC RUBY SHIRT",
+        "description": "SIZE MENTIONED:14\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003ELENGTH:26.5\"\u003Cbr\u003ECHEST:36\"\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: WHITE/ BLUE\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003EFULL SLEEVES\u003Cbr\u003ESTRIPED SHIRT&nbsp;\u003Cbr\u003ETHREE-BUTTON PLACKET\u003Cbr\u003ECONTRASTING WHITE TWILL PONT COLLAR\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003E100% COTTON\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "polo-ralph-lauren-iconic-ruby-shirt",
+        "sku": "TLV1-M-TS-004",
+        "mainImage": {
+            "url": "/media/products/2026/04/07_df1d60c0.webp",
+            "alt": "1R5A2130"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/07_709ce8a4.webp",
+                "alt": "Product image 2",
+                "order": 0,
+                "_id": "69d4dd01a3b784ad33a8238a",
+                "createdAt": "2026-04-07T10:31:29.293Z",
+                "updatedAt": "2026-04-07T10:31:29.293Z"
+            },
+            {
+                "url": "/media/products/2026/04/07_cfe03865.webp",
+                "alt": "Product image 1",
+                "order": 1,
+                "_id": "69d4dd01a3b784ad33a8238b",
+                "createdAt": "2026-04-07T10:31:29.293Z",
+                "updatedAt": "2026-04-07T10:31:29.293Z"
+            }
+        ],
+        "mrp": 22000,
+        "basePrice": 4800,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b18922b2422842d5929",
+                "name": "Shirts",
+                "slug": "shirts",
+                "level": 2
+            },
+            {
+                "_id": "69b31b17922b2422842d52ed",
+                "name": "T Shirts",
+                "slug": "t-shirts",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b18922b2422842d5929",
+                "name": "Shirts",
+                "slug": "shirts",
+                "level": 2
+            },
+            {
+                "_id": "69b31b17922b2422842d52ed",
+                "name": "T Shirts",
+                "slug": "t-shirts",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69cf6aeba598d88194e6fe00",
+            "name": "POLO RALPH LAUREN",
+            "slug": "polo-ralph-lauren"
+        },
+        "tags": [
+            "poloralphlauren",
+            "tshirt",
+            "fullsleeves"
+        ],
+        "condition": "Pristine",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1567,
+        "colors": [
+            {
+                "colorName": "Navy",
+                "colorCode": "#1F3A5F",
+                "images": [],
+                "isDefault": true,
+                "sizes": [],
+                "_id": "69d4dd01a3b784ad33a8238c",
+                "createdAt": "2026-04-07T10:31:29.293Z",
+                "updatedAt": "2026-04-07T10:31:29.293Z"
+            },
+            {
+                "colorName": "White",
+                "colorCode": "#F5F5F5",
+                "images": [],
+                "isDefault": false,
+                "sizes": [],
+                "_id": "69d4dd01a3b784ad33a8238d",
+                "createdAt": "2026-04-07T10:31:29.293Z",
+                "updatedAt": "2026-04-07T10:31:29.293Z"
+            }
+        ],
+        "availableColors": [
+            "Navy",
+            "White"
+        ],
+        "availableSizes": [],
+        "isQuote": false,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-07T10:31:29.293Z",
+        "updatedAt": "2026-04-07T10:31:34.626Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 144,
+            "sqlVendorCode": "688469039",
+            "sqlVendorName": "DEIVYA THUKRAL",
+            "vcode": "TLV1",
+            "assignedAt": "2026-04-07T10:31:34.624Z"
+        },
+        "ourPrice": 4800,
+        "retailPrice": 22000,
+        "finalPrice": 4800,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69d4be00a3b784ad33a7c822",
+        "name": "HACKETT LONDON CHEST LOGO NAVY POLO T SHIRT",
+        "description": "SIZE MENTIONED:13-14 YRS\u003Cbr\u003E\u003Cbr\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003ELENGTH:26\"\u003Cbr\u003ECHEST:38\"\u003C/div\u003E\u003Cdiv\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: NAVY BLUE&nbsp;\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE: SS2017/10015994   RN 151094\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ERIBBED CUFFS&nbsp;\u003Cbr\u003ESHORT SLEEVES\u003Cbr\u003EFLAT-KNIT POLO COLLAR&nbsp;\u003Cbr\u003EWHITE CONTRAST HACKETT TYPOGRAPHY&nbsp;\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003E100% COTTON\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "hackett-london-chest-logo-navy-polo-t-shirt",
+        "sku": "TLV1-M-TS-003",
+        "mainImage": {
+            "url": "/media/products/2026/04/07_7309c8ee.webp",
+            "alt": "1R5A2220"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/07_b66315b6.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69d4be00a3b784ad33a7c823",
+                "createdAt": "2026-04-07T08:19:12.493Z",
+                "updatedAt": "2026-04-07T08:19:12.493Z"
+            },
+            {
+                "url": "/media/products/2026/04/07_97872a81.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69d4be00a3b784ad33a7c824",
+                "createdAt": "2026-04-07T08:19:12.493Z",
+                "updatedAt": "2026-04-07T08:19:12.493Z"
+            }
+        ],
+        "mrp": 13000,
+        "basePrice": 4000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d52ed",
+                "name": "T Shirts",
+                "slug": "t-shirts",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d52ed",
+                "name": "T Shirts",
+                "slug": "t-shirts",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b18922b2422842d5af9",
+            "name": "HACKETT",
+            "slug": "hackett"
+        },
+        "tags": [
+            "hackett",
+            "collared",
+            "tshirt",
+            "shortsleeve"
+        ],
+        "condition": "Pristine",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1565,
+        "colors": [
+            {
+                "colorName": "Navy",
+                "colorCode": "#1F3A5F",
+                "images": [],
+                "isDefault": true,
+                "sizes": [],
+                "_id": "69d4be00a3b784ad33a7c825",
+                "createdAt": "2026-04-07T08:19:12.493Z",
+                "updatedAt": "2026-04-07T08:19:12.493Z"
+            }
+        ],
+        "availableColors": [
+            "Navy"
+        ],
+        "availableSizes": [],
+        "isQuote": false,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-07T08:19:12.493Z",
+        "updatedAt": "2026-04-07T08:19:22.749Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 144,
+            "sqlVendorCode": "688469039",
+            "sqlVendorName": "DEIVYA THUKRAL",
+            "vcode": "TLV1",
+            "assignedAt": "2026-04-07T08:19:22.746Z"
+        },
+        "ourPrice": 4000,
+        "retailPrice": 13000,
+        "finalPrice": 4000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69d3a68ba3b784ad33a70352",
+        "name": "BURBERRY EQUESTRIAN KNIGHT -EMBROIDERED COTTON POLO T-SHIRT",
+        "description": "SIZE MENTIONED:L\u003Cbr\u003E\u003Cdiv\u003ELENGTH:29\"\u003Cbr\u003ECHEST:38\"\u003C/div\u003E\u003Cdiv\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: BURGUNDY\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE: PESANCRI251CHI\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003C/div\u003E\u003Cdiv\u003ERIBBED POLO COLLAR\n\u003Cbr\u003ECLASSIC THREE-BUTTON PLACKET&nbsp;\u003C/div\u003E\u003Cdiv\u003ESHORT SLEEVES WITH RIBBED HEMS\n\u003C/div\u003E\u003Cdiv\u003E100% COTTON\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "burberry-equestrian-knight-embroidered-cotton-polo-t-shirt",
+        "sku": "TLV1-M-TS-002",
+        "mainImage": {
+            "url": "/media/products/2026/04/06_46fa1765.webp",
+            "alt": "1R5A2213"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/06_b50414f8.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69d3a68ba3b784ad33a70353",
+                "createdAt": "2026-04-06T12:26:51.204Z",
+                "updatedAt": "2026-04-06T12:26:51.204Z"
+            },
+            {
+                "url": "/media/products/2026/04/06_2f2e190a.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69d3a68ba3b784ad33a70354",
+                "createdAt": "2026-04-06T12:26:51.204Z",
+                "updatedAt": "2026-04-06T12:26:51.204Z"
+            }
+        ],
+        "mrp": 32000,
+        "basePrice": 7000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d52ed",
+                "name": "T Shirts",
+                "slug": "t-shirts",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d52ed",
+                "name": "T Shirts",
+                "slug": "t-shirts",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b16922b2422842d4473",
+            "name": "BURBERRY",
+            "slug": "burberry"
+        },
+        "tags": [
+            "tshirt",
+            "burberry",
+            "burgundy",
+            "ribbed"
+        ],
+        "condition": "Pristine",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1561,
+        "colors": [
+            {
+                "colorName": "Maroon",
+                "colorCode": "#7F1D1D",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "L",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69d3a68ba3b784ad33a70355",
+                "createdAt": "2026-04-06T12:26:51.204Z",
+                "updatedAt": "2026-04-06T12:26:51.204Z"
+            }
+        ],
+        "availableColors": [
+            "Maroon"
+        ],
+        "availableSizes": [
+            "L"
+        ],
+        "isQuote": false,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-06T12:26:51.205Z",
+        "updatedAt": "2026-04-06T12:27:01.826Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 144,
+            "sqlVendorCode": "688469039",
+            "sqlVendorName": "DEIVYA THUKRAL",
+            "vcode": "TLV1",
+            "assignedAt": "2026-04-06T12:27:01.822Z"
+        },
+        "ourPrice": 7000,
+        "retailPrice": 32000,
+        "finalPrice": 7000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69d3a370a3b784ad33a700ab",
+        "name": "BURBERRY BRIT STRIPED COLLAR POLO T SHIRT",
+        "description": "SIZE MENTIONED:L\u003Cbr\u003E\u003Cdiv\u003ELENGTH:29\"\u003Cbr\u003ECHEST:42\"\u003C/div\u003E\u003Cdiv\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: PINK/ORANGE&nbsp;\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE: TRYESSAT23BUR  3905076/64C\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003Cbr\u003ERIBBED POLO COLLAR\u003Cbr\u003ESHORT SLEEVES WITH RIBBED HEMS\u003Cbr\u003EA STANDARD TWO-BUTTONPLACKET\u003Cbr\u003E100% COTTON\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "burberry-brit-striped-collar-polo-t-shirt",
+        "sku": "TLV1-M-TS-001",
+        "mainImage": {
+            "url": "/media/products/2026/04/06_1eebc828.webp",
+            "alt": "1R5A2216"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/06_2af4e52d.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69d3a370a3b784ad33a700ac",
+                "createdAt": "2026-04-06T12:13:36.974Z",
+                "updatedAt": "2026-04-06T12:13:36.974Z"
+            },
+            {
+                "url": "/media/products/2026/04/06_9580d725.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69d3a370a3b784ad33a700ad",
+                "createdAt": "2026-04-06T12:13:36.974Z",
+                "updatedAt": "2026-04-06T12:13:36.974Z"
+            }
+        ],
+        "mrp": 32000,
+        "basePrice": 7000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d52ed",
+                "name": "T Shirts",
+                "slug": "t-shirts",
+                "level": 2
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d52ed",
+                "name": "T Shirts",
+                "slug": "t-shirts",
+                "level": 2
+            }
+        ],
+        "brand": {
+            "_id": "69b31b16922b2422842d4473",
+            "name": "BURBERRY",
+            "slug": "burberry"
+        },
+        "tags": [
+            "burberry",
+            "tshirt.",
+            "multicolour"
+        ],
+        "condition": "Pristine",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1560,
+        "colors": [
+            {
+                "colorName": "Pink",
+                "colorCode": "#E91E63",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "LARGE",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69d3a370a3b784ad33a700ae",
+                "createdAt": "2026-04-06T12:13:36.974Z",
+                "updatedAt": "2026-04-06T12:13:36.974Z"
+            },
+            {
+                "colorName": "Orange",
+                "colorCode": "#F97316",
+                "images": [],
+                "isDefault": false,
+                "sizes": [
+                    {
+                        "sizeName": "LARGE",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69d3a370a3b784ad33a700b0",
+                "createdAt": "2026-04-06T12:13:36.974Z",
+                "updatedAt": "2026-04-06T12:13:36.974Z"
+            }
+        ],
+        "availableColors": [
+            "Pink",
+            "Orange"
+        ],
+        "availableSizes": [
+            "LARGE"
+        ],
+        "isQuote": false,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-06T12:13:36.975Z",
+        "updatedAt": "2026-04-06T12:13:44.601Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 144,
+            "sqlVendorCode": "688469039",
+            "sqlVendorName": "DEIVYA THUKRAL",
+            "vcode": "TLV1",
+            "assignedAt": "2026-04-06T12:13:44.597Z"
+        },
+        "ourPrice": 7000,
+        "retailPrice": 32000,
+        "finalPrice": 7000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69d0c255a598d88194eaae17",
+        "name": "BALMAIN COTTON ZIPPED POLO COLLAR T SHIRT",
+        "description": "SIZE:XS\u003Cdiv\u003ELENGTH- 25.5\"\n\u003C/div\u003E\u003Cdiv\u003ECHEST- 35\"\n\u003C/div\u003E\u003Cdiv\u003ECOLOUR: GREY\n\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE: 31612846 12296\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003C/div\u003E\u003Cdiv\u003EPOLO COLLAR&nbsp;\u003C/div\u003E\u003Cdiv\u003ECOIN LOGO PRINTED ON CHEST&nbsp;\u003C/div\u003E\u003Cdiv\u003ESTRAIGHT CUT&nbsp;\u003C/div\u003E\u003Cdiv\u003ESHORT SLEEVES\u003C/div\u003E\u003Cdiv\u003EDRYCLEAN OR GENTLE HANDWASH\u003C/div\u003E\u003Cdiv\u003EFABRIC :\u003C/div\u003E\u003Cdiv\u003E58% POLYESTER&nbsp;\u003C/div\u003E\u003Cdiv\u003E39% COTTON&nbsp;\u003C/div\u003E\u003Cdiv\u003E3% ELASTANE&nbsp;\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "balmain-cotton-zipped-polo-collar-t-shirt",
+        "sku": "TLV28-M-TS-001",
+        "mainImage": {
+            "url": "/media/products/2026/04/04_2f0757c4.webp",
+            "alt": "1R5A1487"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/04_9f952d54.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69d0c257a598d88194eaae26",
+                "createdAt": "2026-04-04T07:48:49.173Z",
+                "updatedAt": "2026-04-04T07:48:49.173Z"
+            },
+            {
+                "url": "/media/products/2026/04/04_3ba39555.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69d0c257a598d88194eaae27",
+                "createdAt": "2026-04-04T07:48:49.173Z",
+                "updatedAt": "2026-04-04T07:48:49.173Z"
+            }
+        ],
+        "mrp": 68000,
+        "basePrice": 16000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b17922b2422842d52ed",
+                "name": "T Shirts",
+                "slug": "t-shirts",
+                "level": 2
+            },
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b17922b2422842d52ed",
+                "name": "T Shirts",
+                "slug": "t-shirts",
+                "level": 2
+            },
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            }
+        ],
+        "brand": {
+            "_id": "69b31b16922b2422842d4a3b",
+            "name": "BALMAIN",
+            "slug": "balmain"
+        },
+        "tags": [],
+        "condition": "New Without Tags",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1529,
+        "colors": [
+            {
+                "colorName": "Black",
+                "colorCode": "#111111",
+                "images": [],
+                "isDefault": true,
+                "sizes": [
+                    {
+                        "sizeName": "XS",
+                        "stock": 0
+                    }
+                ],
+                "_id": "69d0c261a598d88194eaae75",
+                "createdAt": "2026-04-04T07:48:49.173Z",
+                "updatedAt": "2026-04-04T07:48:49.173Z"
+            }
+        ],
+        "availableColors": [
+            "Black"
+        ],
+        "availableSizes": [
+            "XS"
+        ],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-04T07:48:37.818Z",
+        "updatedAt": "2026-04-04T07:48:49.173Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 68,
+            "sqlVendorCode": "1391851967",
+            "sqlVendorName": "NIKITA JAIN",
+            "vcode": "TLV28",
+            "assignedAt": "2026-04-04T07:48:45.063Z"
+        },
+        "ourPrice": 16000,
+        "retailPrice": 68000,
+        "finalPrice": 16000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69ce518ea598d88194e4e06c",
+        "name": "DOLCE & GABBANA GREY CROWN EMBROIDERED POLO T SHIRT",
+        "description": "SIZE:\n\u003Cdiv\u003EMENTIONED SIZE: 46\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ELENGTH- 28.5\"\n\u003C/div\u003E\u003Cdiv\u003ECHEST- 38\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: GREY\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE: JH-G8GH1T / G7HPX-A\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:&nbsp;\u003Cbr\u003ERIBBED SLEEVE CUFFS\u003Cbr\u003ECOLLARED NECKLINE WITH BUTTON-UP CLOSURE\u003Cbr\u003EDOLCE &amp; GABBANA GREY/RED CROWN EMBROIDERY POLO SHIRT&nbsp;\u003Cbr\u003E\u003Cbr\u003EDRYCLEAN OR GENTLE HANDWASH\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "dolce-gabbana-grey-crown-embroidered-polo-t-shirt",
+        "sku": "TLV17-M-TS-002",
+        "mainImage": {
+            "url": "/media/products/2026/04/02_3e9ec7e0.webp",
+            "alt": "1R5A1498"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/02_6ee18234.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69ce518ea598d88194e4e06d",
+                "createdAt": "2026-04-02T11:22:54.943Z",
+                "updatedAt": "2026-04-02T11:22:54.943Z"
+            },
+            {
+                "url": "/media/products/2026/04/02_cba2b48a.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69ce518ea598d88194e4e06e",
+                "createdAt": "2026-04-02T11:22:54.943Z",
+                "updatedAt": "2026-04-02T11:22:54.943Z"
+            }
+        ],
+        "mrp": 70000,
+        "basePrice": 23000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b17922b2422842d52ed",
+                "name": "T Shirts",
+                "slug": "t-shirts",
+                "level": 2
+            },
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            }
+        ],
+        "brand": {
+            "_id": "69b31b15922b2422842d3c56",
+            "name": "DOLCE AND GABBANA",
+            "slug": "dolce-and-gabbana"
+        },
+        "tags": [
+            "collaredtshirt",
+            "tshirt",
+            "grey",
+            "dolce&gabbana",
+            "pollo"
+        ],
+        "condition": "Good Condition",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1510,
+        "colors": [
+            {
+                "colorName": "Grey",
+                "colorCode": "#8E8E93",
+                "images": [],
+                "isDefault": true,
+                "sizes": [],
+                "_id": "69ce518ea598d88194e4e06f",
+                "createdAt": "2026-04-02T11:22:54.943Z",
+                "updatedAt": "2026-04-02T11:22:54.943Z"
+            }
+        ],
+        "availableColors": [
+            "Grey"
+        ],
+        "availableSizes": [],
+        "isQuote": true,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-02T11:22:54.943Z",
+        "updatedAt": "2026-04-02T11:23:24.329Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 145,
+            "sqlVendorCode": "912653437",
+            "sqlVendorName": "MEHAL GARG",
+            "vcode": "TLV17",
+            "assignedAt": "2026-04-02T11:23:24.327Z"
+        },
+        "ourPrice": 23000,
+        "retailPrice": 70000,
+        "finalPrice": 23000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    },
+    {
+        "_id": "69ce4e00a598d88194e4d503",
+        "name": "BURBERRY BLACK LONG SLEEVE SHIRT",
+        "description": "SIZE:\n\u003Cdiv\u003EMENTIONED SIZE: M\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ELENGTH- 28\"\n\u003C/div\u003E\u003Cdiv\u003ECHEST- 44\"\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003ECOLOUR: BLACk\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EAUTHENTICITY CODE:THTHAGAR129SAM 3991162 / 68Q\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EEXTERIOR:\n\u003C/div\u003E\u003Cdiv\u003EFRONT BUTTON FASTENINGS\n\u003C/div\u003E\u003Cdiv\u003ELONG SLEEVES\n\u003C/div\u003E\u003Cdiv\u003EA CLASSIC COLLAR\n\u003C/div\u003E\u003Cdiv\u003E100% COTTON\n\u003Cbr\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv\u003EDRYCLEAN OR GENTLE HANDWASH\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E\u003Cdiv\u003E\n\u003C/div\u003E",
+        "slug": "burberry-black-long-sleeve-shirt",
+        "sku": "TLV17-M-SH-001",
+        "mainImage": {
+            "url": "/media/products/2026/04/02_0d7195ed.webp",
+            "alt": "1R5A1492"
+        },
+        "galleryImages": [
+            {
+                "url": "/media/products/2026/04/02_7c8b4c39.webp",
+                "alt": "Product image 1",
+                "order": 0,
+                "_id": "69ce4e00a598d88194e4d504",
+                "createdAt": "2026-04-02T11:07:44.248Z",
+                "updatedAt": "2026-04-02T11:07:44.248Z"
+            },
+            {
+                "url": "/media/products/2026/04/02_4a013583.webp",
+                "alt": "Product image 2",
+                "order": 1,
+                "_id": "69ce4e00a598d88194e4d505",
+                "createdAt": "2026-04-02T11:07:44.248Z",
+                "updatedAt": "2026-04-02T11:07:44.248Z"
+            }
+        ],
+        "mrp": 28000,
+        "basePrice": 8000,
+        "salePrice": 0,
+        "category": [
+            {
+                "_id": "69b31b15922b2422842d3f29",
+                "name": "MEN",
+                "slug": "men",
+                "level": 0
+            },
+            {
+                "_id": "69b31b16922b2422842d47f7",
+                "name": "Clothing",
+                "slug": "clothing",
+                "level": 1
+            },
+            {
+                "_id": "69b31b18922b2422842d5929",
+                "name": "Shirts",
+                "slug": "shirts",
+                "level": 2
+            },
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            }
+        ],
+        "categoryAncestors": [
+            {
+                "_id": "69b31b15922b2422842d3b75",
+                "name": "Just In",
+                "slug": "just-in",
+                "level": 0
+            }
+        ],
+        "brand": {
+            "_id": "69b31b16922b2422842d4473",
+            "name": "BURBERRY",
+            "slug": "burberry"
+        },
+        "tags": [
+            "burberryshirt",
+            "longsleeve",
+            "shirt",
+            "cotton"
+        ],
+        "condition": "Good Condition",
+        "stockMode": "shared",
+        "totalStock": 1,
+        "position": 1509,
+        "colors": [
+            {
+                "colorName": "Black",
+                "colorCode": "#111111",
+                "images": [],
+                "isDefault": true,
+                "sizes": [],
+                "_id": "69ce4e00a598d88194e4d506",
+                "createdAt": "2026-04-02T11:07:44.248Z",
+                "updatedAt": "2026-04-02T11:07:44.248Z"
+            }
+        ],
+        "availableColors": [
+            "Black"
+        ],
+        "availableSizes": [],
+        "isQuote": false,
+        "isActive": true,
+        "isPublished": true,
+        "forceSoldOut": false,
+        "scheduledVisibility": {
+            "isScheduled": false
+        },
+        "subscriberNotificationSentAt": null,
+        "createdAt": "2026-04-02T11:07:44.249Z",
+        "updatedAt": "2026-04-02T11:23:30.756Z",
+        "__v": 0,
+        "assignedVendor": {
+            "sqlVendorId": 145,
+            "sqlVendorCode": "912653437",
+            "sqlVendorName": "MEHAL GARG",
+            "vcode": "TLV17",
+            "assignedAt": "2026-04-02T11:23:30.754Z"
+        },
+        "ourPrice": 8000,
+        "retailPrice": 28000,
+        "finalPrice": 8000,
+        "discountPercent": 0,
+        "isOnSale": false,
+        "isSoldOut": false,
+        "isVisibleNow": true
+    }
+]

@@ -1,0 +1,18 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const auth_controller_1 = require("../controllers/auth.controller");
+const auth_middleware_1 = require("../middleware/auth.middleware");
+const validate_middleware_1 = require("../middleware/validate.middleware");
+const auth_validator_1 = require("../validators/auth.validator");
+const router = (0, express_1.Router)();
+router.post('/signup', (0, validate_middleware_1.validate)(auth_validator_1.signupValidator), auth_controller_1.AuthController.signup);
+router.post('/verify-signup-otp', (0, validate_middleware_1.validate)(auth_validator_1.verifyOtpValidator), auth_controller_1.AuthController.verifySignupOtp);
+router.post('/resend-signup-otp', (0, validate_middleware_1.validate)(auth_validator_1.resendSignupOtpValidator), auth_controller_1.AuthController.resendSignupOtp);
+router.post('/login', (0, validate_middleware_1.validate)(auth_validator_1.loginValidator), auth_controller_1.AuthController.login);
+router.post('/admin/login', (0, validate_middleware_1.validate)(auth_validator_1.loginValidator), auth_controller_1.AuthController.loginAdmin);
+router.post('/forgot-password', (0, validate_middleware_1.validate)(auth_validator_1.forgotPasswordValidator), auth_controller_1.AuthController.forgotPassword);
+router.post('/verify-forgot-otp', (0, validate_middleware_1.validate)(auth_validator_1.verifyOtpValidator), auth_controller_1.AuthController.verifyForgotPasswordOtp);
+router.post('/reset-password', (0, validate_middleware_1.validate)(auth_validator_1.resetPasswordValidator), auth_controller_1.AuthController.resetPassword);
+router.get('/me', auth_middleware_1.authenticate, auth_controller_1.AuthController.getMe);
+exports.default = router;

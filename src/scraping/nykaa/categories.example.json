@@ -1,0 +1,130 @@
+[
+  {
+    "categoryFilter": "3907",
+    "categoryName": "bottoms",
+    "priceMin": 100,
+    "priceMax": 199,
+    "limit": 50,
+    "sort": "low-to-high"
+  },
+  {
+    "categoryFilter": "647",
+    "categoryName": "dupattas",
+    "priceMin": 200,
+    "priceMax": 299,
+    "limit": 50,
+    "sort": "low-to-high"
+  },
+  {
+    "categoryFilter": "4497",
+    "categoryName": "tops",
+    "priceMin": 300,
+    "priceMax": 399,
+    "limit": 50,
+    "sort": "low-to-high"
+  },
+  {
+    "categoryFilter": "69",
+    "categoryName": "salwar suits",
+    "priceMin": 400,
+    "priceMax": 499,
+    "limit": 50,
+    "sort": "low-to-high"
+  },
+  {
+    "categoryFilter": "662",
+    "categoryName": "kurtis",
+    "priceMin": 500,
+    "priceMax": 599,
+    "limit": 50,
+    "sort": "low-to-high"
+  },
+  {
+    "categoryFilter": "4543",
+    "categoryName": "ethnic",
+    "priceMin": 600,
+    "priceMax": 699,
+    "limit": 50,
+    "sort": "low-to-high"
+  },
+  {
+    "categoryFilter": "5040",
+    "categoryName": "ethnic jackets",
+    "priceMin": 700,
+    "priceMax": 799,
+    "limit": 50,
+    "sort": "low-to-high"
+  },
+  {
+    "categoryFilter": "3909",
+    "categoryName": "cardigans",
+    "priceMin": 800,
+    "priceMax": 899,
+    "limit": 50,
+    "sort": "low-to-high"
+  },
+  {
+    "categoryFilter": "8522",
+    "categoryName": "jumpsuits",
+    "priceMin": 900,
+    "priceMax": 999,
+    "limit": 50,
+    "sort": "low-to-high"
+  },
+  {
+    "categoryFilter": "10",
+    "categoryName": "sarees",
+    "priceMin": 1000,
+    "priceMax": 1499,
+    "limit": 15,
+    "sort": "low-to-high"
+  },
+  {
+    "categoryFilter": "3908",
+    "categoryName": "kaftans",
+    "priceMin": 1499,
+    "priceMax": 1999,
+    "limit": 15,
+    "sort": "low-to-high"
+  },
+  {
+    "categoryFilter": "652",
+    "categoryName": "lehengas",
+    "priceMin": 2000,
+    "priceMax": 2999,
+    "limit": 15,
+    "sort": "high-to-low"
+  },
+  {
+    "categoryFilter": "5",
+    "categoryName": "dresses",
+    "priceMin": 3000,
+    "priceMax": 3999,
+    "limit": 15,
+    "sort": "high-to-low"
+  },
+  {
+    "categoryFilter": "7623",
+    "categoryName": "shirts",
+    "priceMin": 4000,
+    "priceMax": 4999,
+    "limit": 15,
+    "sort": "high-to-low"
+  },
+  {
+    "categoryFilter": "7555",
+    "categoryName": "dress material",
+    "priceMin": 5000,
+    "priceMax": 5999,
+    "limit": 15,
+    "sort": "high-to-low"
+  },
+  {
+    "categoryFilter": "153",
+    "categoryName": "growns",
+    "priceMin": 6000,
+    "priceMax": 6999,
+    "limit": 15,
+    "sort": "high-to-low"
+  }
+]

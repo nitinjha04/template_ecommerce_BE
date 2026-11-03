@@ -10,6 +10,7 @@ import {
   seedPayments,
 } from './mockData.data';
 import { seedProducts } from './products.data';
+import { slugify } from '../utils/slug';
 
 const shouldForce = process.argv.includes('--force');
 
@@ -34,6 +35,8 @@ const seed = async (): Promise<void> => {
       email: env.seedAdmin.email,
       password: env.seedAdmin.password,
       role: 'admin',
+      emailVerified: true,
+      onBoardState: 1,
     });
     console.log(`Admin created: ${env.seedAdmin.email}`);
   } else {
@@ -52,6 +55,8 @@ const seed = async (): Promise<void> => {
         email: customer.email,
         password: customer.password,
         role: 'customer',
+        emailVerified: true,
+        onBoardState: 1,
       });
       console.log(`Customer created: ${customer.email}`);
     }
@@ -64,7 +69,14 @@ const seed = async (): Promise<void> => {
     if (shouldForce && productCount > 0) {
       await Product.deleteMany({});
     }
-    await Product.insertMany(seedProducts);
+    const productsWithSeo = seedProducts.map((p) => ({
+      ...p,
+      slug: slugify(p.name),
+      metaTitle: p.name,
+      metaDescription: p.description.slice(0, 160),
+      metaKeywords: p.tags,
+    }));
+    await Product.insertMany(productsWithSeo);
     console.log(`Seeded ${seedProducts.length} products`);
   } else {
     console.log(`Products already exist (${productCount}), skipped`);

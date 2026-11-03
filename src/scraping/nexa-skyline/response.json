@@ -1,0 +1,431 @@
+{
+  "searchMetaData": {
+    "status": 0,
+    "queryTime": 24,
+    "queryParams": {
+      "apiKey": "d11649dadd583dbf85dbd5eb928160e7",
+      "dd.tag": "mimir.search",
+      "enablePf": "false",
+      "enableTaxonomy": "false",
+      "facet": "true",
+      "facet.multiselect": "true",
+      "fallback.method": "spellcheck,qis",
+      "fallback.qis.maxResultsForTrigger": "0",
+      "fields": "concept,createDate,employeePrice,isConceptDelivery,name,percentageDiscount,productType,productCode,color,sibiling,price,productUrl,childDetail,summary,uniqueId,wasPrice,imageUrl,gallaryImages,badgeVisible,inStock,approvalStatus,stats,sislogo,membershipPrice, membershipDiscount, bestPrice, membershipBestPrice, employeeBestPrice,isCustomFurniture",
+      "filter": [
+        "badgeInvisible_uFilter:\"228X\"",
+        "allCategories:\"maxwomen\"",
+        "inStock:\"1\"",
+        "approvalStatus:\"1\""
+      ],
+      "log.response": "false",
+      "module.exclude": "personalization",
+      "page": "1",
+      "promotion.version": "V3",
+      "q": "*",
+      "q.op": "AND",
+      "req.rm.asterix": "false",
+      "req.rm.promotionEngine": "false",
+      "rows": "2",
+      "selectedfacet": "true",
+      "sort": "customRanking desc",
+      "start": "0",
+      "stats": "price",
+      "uid": "",
+      "user.behaviour": "true"
+    }
+  },
+  "response": {
+    "numberOfProducts": 188,
+    "start": 0,
+    "products": [
+      {
+        "approvalStatus": 1,
+        "badgeVisible": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "NEW,true,green,New,3"
+        ],
+        "bestPrice": 639,
+        "childDetail": [
+          "true#3XL#1000016709841#1",
+          "true#4XL#1000016709843#1",
+          "true#5XL#1000016709845#0",
+          "true#6XL#1000016709847#1"
+        ],
+        "color": [
+          "grey"
+        ],
+        "createDate": 1778574214000,
+        "employeeBestPrice": 543,
+        "employeePrice": 679,
+        "gallaryImages": [
+          "https://media.landmarkshops.in/max-new/1000016338070-Grey-GREY-1000016659799_01-2100.jpg",
+          "https://media.landmarkshops.in/max-new/1000016338070-Grey-GREY-1000016659799_06-2100.jpg",
+          "https://media.landmarkshops.in/max-new/1000016338070-Grey-GREY-1000016659799_02-2100.jpg",
+          "https://media.landmarkshops.in/max-new/1000016338070-Grey-GREY-1000016659799_03-2100.jpg",
+          "https://media.landmarkshops.in/max-new/1000016338070-Grey-GREY-1000016659799_04-2100.jpg",
+          "https://media.landmarkshops.in/max-new/1000016338070-Grey-GREY-1000016659799_05-2100.jpg"
+        ],
+        "imageUrl": [
+          "https://media.landmarkshops.in/max-new/1000016338070-Grey-GREY-1000016659799_01-2100.jpg"
+        ],
+        "inStock": 1,
+        "isConceptDelivery": "false",
+        "membershipBestPrice": 639,
+        "membershipDiscount": 0,
+        "membershipPrice": 799,
+        "name": "URB_N Women Mickey Mouse Oversized T-shirt",
+        "percentageDiscount": 0,
+        "price": 799,
+        "productCode": "1000016338070-Grey-GREY",
+        "productType": "color",
+        "productUrl": "/SHOP-Max-Grey-URB-N-Women-Mickey-Mouse-Oversized-T-shirt-For-Women/p/1000016338070-Grey-GREY",
+        "sibiling": [
+          "1000016659799-Grey-GREY#Grey#https://media-ea.landmarkshops.in/cdn-cgi/image/h=50,w=50,q=85,fit=cover/max-new/1000016659799-Grey-GREY-1000016659799_01-2100.jpg"
+        ],
+        "sislogo": "",
+        "uniqueId": "1000016338070GreyGREY",
+        "wasPrice": 799
+      },
+      {
+        "approvalStatus": 1,
+        "badgeVisible": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "On Offer,true,red,On Offer,4"
+        ],
+        "bestPrice": 279,
+        "childDetail": [
+          "true#XS#1000014908278#1",
+          "true#S#1000014908274#1",
+          "true#M#1000014908272#1",
+          "true#L#1000014908270#1",
+          "true#XL#1000014908276#1",
+          "true#XXL#1000014908280#1"
+        ],
+        "color": [
+          "black"
+        ],
+        "createDate": 1734076346000,
+        "employeeBestPrice": 271,
+        "employeePrice": 339,
+        "gallaryImages": [
+          "https://media.landmarkshops.in/max-new/1000014908269-Black-BLACK-1000014908269_01-2100.jpg",
+          "https://media.landmarkshops.in/max-new/1000014908269-Black-BLACK-1000014908269_02-2100.jpg",
+          "https://media.landmarkshops.in/max-new/1000014908269-Black-BLACK-1000014908269_03-2100.jpg",
+          "https://media.landmarkshops.in/max-new/1000014908269-Black-BLACK-1000014908269_04-2100.jpg",
+          "https://media.landmarkshops.in/max-new/1000014908269-Black-BLACK-1000014908269_05-2100.jpg",
+          "https://media.landmarkshops.in/max-new/1000014908269-Black-BLACK-1000014908269_06-2100.jpg"
+        ],
+        "imageUrl": [
+          "https://media.landmarkshops.in/max-new/1000014908269-Black-BLACK-1000014908269_01-2100.jpg"
+        ],
+        "inStock": 1,
+        "isConceptDelivery": "false",
+        "membershipBestPrice": 279,
+        "membershipDiscount": 13,
+        "membershipPrice": 349,
+        "name": "Women 101 Dalmatians Print Knit Shorts",
+        "percentageDiscount": 13,
+        "price": 349,
+        "productCode": "1000014908269-Black-BLACK",
+        "productType": "color",
+        "productUrl": "/SHOP-Max-Black-Women-101-Dalmatians-Print-Knit-Shorts-For-Women/p/1000014908269-Black-BLACK",
+        "sislogo": "",
+        "uniqueId": "1000014908269BlackBLACK",
+        "wasPrice": 399
+      }
+    ]
+  },
+  "facets": {
+    "text": {
+      "list": [
+        {
+          "facetName": "sizeAll_uFilter",
+          "filterField": "sizeAll_uFilter",
+          "values": [
+            "L",
+            135, "XS",
+            129, "M",
+            126, "S",
+            123, "XL",
+            122, "XXL",
+            98, "3XL",
+            12, "FS",
+            9, "4XL",
+            7, "5XL",
+            7, "6XL",
+            5],
+          "displayName": "Size",
+          "position": 2
+        },
+        {
+          "facetName": "badgeVisibleTitle_uFilter",
+          "filterField": "badgeVisibleTitle_uFilter",
+          "values": [
+            "On Offer",
+            73, "New",
+            44],
+          "displayName": "Promotions",
+          "position": 3
+        },
+        {
+          "facetName": "color_uFilter",
+          "filterField": "color_uFilter",
+          "values": [
+            "blue",
+            28, "black",
+            27, "beige",
+            24, "pink",
+            22, "grey",
+            19, "white",
+            18, "brown",
+            11, "multicolour",
+            8, "green",
+            7, "purple",
+            7, "red",
+            6, "yellow",
+            5, "off white",
+            3, "orange",
+            2, "burgundy",
+            1],
+          "displayName": "Color",
+          "position": 4
+        },
+        {
+          "facetName": "design_uFilter",
+          "filterField": "design_uFilter",
+          "values": [
+            "Printed",
+            161, "Embroidered",
+            7, "Striped",
+            7],
+          "displayName": "Design",
+          "position": 6
+        },
+        {
+          "facetName": "gender_uFilter",
+          "filterField": "gender_uFilter",
+          "values": [
+            "Women",
+            179, "Unisex",
+            1],
+          "displayName": "Gender",
+          "position": 7
+        },
+        {
+          "facetName": "sleeveLength_uFilter",
+          "filterField": "sleeveLength_uFilter",
+          "values": [
+            "Half Sleeves",
+            130, "Full Sleeves",
+            13, "Sleeveless",
+            6, "3/4th Sleeves",
+            1],
+          "displayName": "Sleeve Length",
+          "position": 8
+        },
+        {
+          "facetName": "fabric_uFilter",
+          "filterField": "fabric_uFilter",
+          "values": [
+            "Cotton",
+            155, "Cotton Blend",
+            14, "Polyester Blend",
+            3],
+          "displayName": "Fabric",
+          "position": 10
+        },
+        {
+          "facetName": "categoryFacetValue_uFilter",
+          "filterField": "categoryFacetValue_uFilter",
+          "values": [
+            "maxwomen#Women#false",
+            188, "maxwomen-tops#Tops#false",
+            129, "maxwomen-tops-topsandtees#Tops & Tees#false",
+            125, "maxurban#URB_N#false",
+            121, "maxurban-urbanwomen#URB_N Women#false",
+            121, "maxurban-urbanwomen-topandtees#Top & Tees#false",
+            113, "maxwomen-sleepwear#Sleepwear#false",
+            41, "maxwomen-sleepwear-bottoms#Bottoms#false",
+            21, "maxwomen-accessories#Accessories#false",
+            9, "maxwomen-sleepwear-dressesandgowns#Dresses & Gowns#false",
+            9, "maxwomen-winterwear#Winterwear#false",
+            9, "maxwomen-winterwear-sweatshirtsandhoodies#Sweatshirts & Hoodies#false",
+            9, "maxurban-urbanwomen-sweatshirts#Sweatshirts#false",
+            8, "maxwomen-sleepwear-sets#Sets#false",
+            8, "maxwomen-sportswear#Sportswear#false",
+            5, "maxwomen-sportswear-topsandtees#Tops & Tees#false",
+            5, "maxwomen-accessories-bags#Bags#false",
+            4, "maxwomen-tops-shirtsandblouses#Shirts#false",
+            4, "maxwomen-accessories-caps#Caps#false",
+            2, "maxwomen-accessories-walletsandpouches#Wallets & Pouches#false",
+            2, "maxwomen-sleepwear-tops#Tops#false",
+            2, "maxmen#Men#false",
+            1, "maxmen-accessories#Accessories#false",
+            1, "maxmen-accessories-caps#Caps#false",
+            1, "maxwomen-accessories-socks#Socks#false",
+            1, "maxwomen-bottoms#Bottoms#false",
+            1, "maxwomen-bottoms-shortsandskirts#Shorts & Skirts#false",
+            1],
+          "displayName": "hidecategoryfacet",
+          "position": 11
+        },
+        {
+          "facetName": "type_uFilter",
+          "filterField": "type_uFilter",
+          "values": [
+            "T-shirts",
+            110, "Nightdresses",
+            8, "Pullovers",
+            8, "Pyjama",
+            8, "Capris",
+            6, "Shorts Sets",
+            5, "Shirts",
+            4, "Shopper Bags",
+            4, "Shorts",
+            4, "Tanks",
+            4, "Caps",
+            2, "Joggers",
+            2, "PJ Sets",
+            2, "Crew Length",
+            1, "Crop T-shirts",
+            1, "Hooded",
+            1, "Pouches",
+            1, "Round Neck",
+            1, "Sleepsuits",
+            1, "Tank Tops",
+            1, "Wallets",
+            1],
+          "displayName": "Type",
+          "position": 12
+        },
+        {
+          "facetName": "manufacturerName_uFilter",
+          "filterField": "manufacturerName_uFilter",
+          "values": [
+            "Max",
+            188],
+          "displayName": "Brand",
+          "position": 14
+        },
+        {
+          "facetName": "packsize_uFilter",
+          "filterField": "packsize_uFilter",
+          "values": [
+            "Singles",
+            140, "Pack of 2",
+            6, "Pack of 3",
+            2],
+          "displayName": "Pack size",
+          "position": 15
+        },
+        {
+          "facetName": "character_uFilter",
+          "filterField": "character_uFilter",
+          "values": [
+            "Mickey",
+            20, "Peanuts",
+            16, "Garfield",
+            15, "Lilo & Stitch",
+            9, "Tom & Jerry",
+            9, "Minions",
+            8, "Snoopy",
+            8, "Friends",
+            7, "SpongeBob",
+            7, "The Devil Wears Prada",
+            6, "Mickey & Friends",
+            5, "Naruto",
+            5, "Bugs Bunny",
+            4, "Hello Kitty",
+            4, "Looney Tunes",
+            4, "Wednesday",
+            3, "101 Dalmatians",
+            2, "Harry Potter",
+            2, "Scooby Doo",
+            2, "AC/DC",
+            1, "Barbie",
+            1, "Bosschaert",
+            1, "Charlie Brown",
+            1, "Donald Duck",
+            1, "Guns & Roses",
+            1, "Justin Bieber",
+            1, "Kuromi",
+            1, "Lil Wayne",
+            1, "Mickey & Minnie",
+            1, "Minnie",
+            1, "Snow White",
+            1, "Squid Games",
+            1, "Tweety",
+            1],
+          "displayName": "Character",
+          "position": 16
+        },
+        {
+          "facetName": "countryOfOrigin_uFilter",
+          "filterField": "countryOfOrigin_uFilter",
+          "values": [
+            "India",
+            178, "China",
+            2],
+          "displayName": "Country of origin",
+          "position": 17
+        }
+      ]
+    },
+    "range": {
+      "list": [
+        {
+          "facetName": "price",
+          "values": {
+            "counts": [
+              "0.0",
+              179, "1000.0",
+              9],
+            "end": 99999,
+            "gap": 1000,
+            "start": 0
+          },
+          "displayName": "Price",
+          "position": 1
+        },
+        {
+          "facetName": "percentageDiscount",
+          "values": {
+            "counts": [
+              "0.0",
+              126, "10.0",
+              51, "20.0",
+              5, "30.0",
+              6],
+            "end": 100,
+            "gap": 10,
+            "start": 0
+          },
+          "displayName": "Discount",
+          "position": 5
+        }
+      ]
+    }
+  },
+  "stats": {
+    "price": {
+      "count": 188,
+      "max": 1099,
+      "mean": 589.18085,
+      "min": 299,
+      "sum": 110766
+    }
+  }
+}
