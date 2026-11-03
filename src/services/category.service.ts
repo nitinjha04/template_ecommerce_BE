@@ -34,13 +34,34 @@ const withShortNames = (rows: ICategory[]): ICategory[] => {
   return out;
 };
 
+/** Categories with fewer published products than this stay out of the storefront. */
+export const MIN_LISTED_PRODUCTS = 20;
+
 export class CategoryService {
   static async listActive(): Promise<ICategory[]> {
     const rows = await Category.find(mergeStoreFilter({ isActive: { $ne: false } }))
       .select('name slug sortOrder isActive')
       .sort({ sortOrder: 1, name: 1 })
       .lean<ICategory[]>();
-    return withShortNames(rows);
+
+    const counts = await Product.aggregate<{ _id: string; count: number }>([
+      { $match: mergeStoreFilter({ isPublished: { $ne: false } }) },
+      {
+        $group: {
+          _id: { $toLower: { $ifNull: ['$category', ''] } },
+          count: { $sum: 1 },
+        },
+      },
+    ]);
+    const byName = new Map(
+      counts.map((row) => [String(row._id ?? ''), Number(row.count ?? 0)])
+    );
+    const kept = rows.filter(
+      (row) =>
+        (byName.get(String(row.name ?? '').toLowerCase()) ?? 0) >=
+        MIN_LISTED_PRODUCTS
+    );
+    return withShortNames(kept);
   }
 
   static async listAll(): Promise<ICategory[]> {
