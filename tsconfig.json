@@ -10,5 +10,9 @@
     "resolveJsonModule": true
   },
   "include": ["src/**/*"],
-  "exclude": ["src/scraping/**/*"]
+  "exclude": [
+    "src/scraping/**/*",
+    "src/scripts/clear-biswas-products.ts",
+    "src/scripts/clear-clauneck-products.ts"
+  ]
 }
