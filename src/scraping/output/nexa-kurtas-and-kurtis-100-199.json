@@ -1,0 +1,3147 @@
+{
+  "scrapedAt": "2026-06-24T18:33:48.377Z",
+  "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+  "categoryName": "kurtas and kurtis",
+  "categorySlug": "maxwomen-ethnicwear-kurtasandkurtis",
+  "storeId": "6a3bf2e10b0f40e291c26f6f",
+  "storeDomain": "nexa-skyline.com",
+  "priceMin": 100,
+  "priceMax": 199,
+  "categoryId": "maxwomen-ethnicwear-kurtasandkurtis",
+  "priceMode": "random",
+  "sort": "low-to-high",
+  "totalProducts": 50,
+  "pagesFetched": 2,
+  "products": [
+    {
+      "name": "Women Floral Print A-line Kurti",
+      "slug": "1000015585353-yellow-yellow",
+      "price": 104,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Print A-line Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print A-line Kurti",
+      "metaDescription": "Women Floral Print A-line Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Yellow"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015585353-Yellow-YELLOW-1000015585353_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015585353-Yellow-YELLOW-1000015585353_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015585353-Yellow-YELLOW-1000015585353_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015585353-Yellow-YELLOW-1000015585353_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015585353-Yellow-YELLOW-1000015585353_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015585353-Yellow-YELLOW-1000015585353_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash cold",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.6 kg",
+      "dimensions": "9 x 14 x 2 cm",
+      "stockQuantity": 90,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1000015585353YellowYELLOW",
+        "sku": "1000015585353-Yellow-YELLOW",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 104
+      }
+    },
+    {
+      "name": "Women Printed Tunic",
+      "slug": "1000015554907-blue-indigo",
+      "price": 152,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Printed Tunic. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Printed Tunic",
+      "metaDescription": "Women Printed Tunic. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015554907-Blue-INDIGO-1000015554907_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015554907-Blue-INDIGO-1000015554907_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015554907-Blue-INDIGO-1000015554907_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015554907-Blue-INDIGO-1000015554907_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015554907-Blue-INDIGO-1000015554907_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015554907-Blue-INDIGO-1000015554907_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015554907-Blue-INDIGO-1000015554907_07-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Jacket",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.7 kg",
+      "dimensions": "13 x 12 x 8 cm",
+      "stockQuantity": 42,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000015554907BlueINDIGO",
+        "sku": "1000015554907-Blue-INDIGO",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 152
+      }
+    },
+    {
+      "name": "Women Print Straight Short Kurti",
+      "slug": "1000015484023-red-maroon",
+      "price": 121,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Print Straight Short Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Print Straight Short Kurti",
+      "metaDescription": "Women Print Straight Short Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Maroon"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000015484023-Red-MAROON-1000015484023_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015484023-Red-MAROON-1000015484023_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015484023-Red-MAROON-1000015484023_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015484023-Red-MAROON-1000015484023_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015484023-Red-MAROON-1000015484023_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015484023-Red-MAROON-1000015484023_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Jacket",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 12 x 8 cm",
+      "stockQuantity": 84,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000015484023RedMAROON",
+        "sku": "1000015484023-Red-MAROON",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 121
+      }
+    },
+    {
+      "name": "Women Floral Print Short Kurti",
+      "slug": "1000015291279-offwhite-white",
+      "price": 114,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Print Short Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Short Kurti",
+      "metaDescription": "Women Floral Print Short Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Off white"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015291279-OffWhite-WHITE-1000015291279_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015291279-OffWhite-WHITE-1000015291279_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015291279-OffWhite-WHITE-1000015291279_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015291279-OffWhite-WHITE-1000015291279_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015291279-OffWhite-WHITE-1000015291279_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015291279-OffWhite-WHITE-1000015291279_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015291279-OffWhite-WHITE-1000015291279_07-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 10 x 5 cm",
+      "stockQuantity": 97,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1000015291279OffWhiteWHITE",
+        "sku": "1000015291279-OffWhite-WHITE",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 114
+      }
+    },
+    {
+      "name": "Women Floral Print Straight Kurta with Pleated Detail",
+      "slug": "1000015255976-pink-pink",
+      "price": 165,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Print Straight Kurta with Pleated Detail. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Straight Kurta with Pleated Detail",
+      "metaDescription": "Women Floral Print Straight Kurta with Pleated Detail. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Pink"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015255976-Pink-PINK-1000015255976_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015255976-Pink-PINK-1000015255976_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015255976-Pink-PINK-1000015255976_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015255976-Pink-PINK-1000015255976_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015255976-Pink-PINK-1000015255976_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015255976-Pink-PINK-1000015255976_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015255976-Pink-PINK-1000015255976_07-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "12 x 10 x 8 cm",
+      "stockQuantity": 77,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-03T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000015255976PinkPINK",
+        "sku": "1000015255976-Pink-PINK",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 165
+      }
+    },
+    {
+      "name": "Women Floral Print Straight Kurta with Pleated Detail",
+      "slug": "1000015255976-blue-blue",
+      "price": 153,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Print Straight Kurta with Pleated Detail. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Straight Kurta with Pleated Detail",
+      "metaDescription": "Women Floral Print Straight Kurta with Pleated Detail. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015255976-Blue-BLUE-1000015255976_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015255976-Blue-BLUE-1000015255976_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015255976-Blue-BLUE-1000015255976_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015255976-Blue-BLUE-1000015255976_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015255976-Blue-BLUE-1000015255976_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015255976-Blue-BLUE-1000015255976_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015255976-Blue-BLUE-1000015255976_07-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "8 x 15 x 6 cm",
+      "stockQuantity": 54,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "1000015255976BlueBLUE",
+        "sku": "1000015255976-Blue-BLUE",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 153
+      }
+    },
+    {
+      "name": "Women Floral Print Straight Kurta",
+      "slug": "1000015196868-yellow-yellow",
+      "price": 153,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Print Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Straight Kurta",
+      "metaDescription": "Women Floral Print Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Yellow"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015196868-Yellow-YELLOW-1000015196868_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015196868-Yellow-YELLOW-1000015196868_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015196868-Yellow-YELLOW-1000015196868_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015196868-Yellow-YELLOW-1000015196868_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015196868-Yellow-YELLOW-1000015196868_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015196868-Yellow-YELLOW-1000015196868_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015196868-Yellow-YELLOW-1000015196868_07-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Full length",
+      "packageContains": "1 Trouser",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.3 kg",
+      "dimensions": "8 x 13 x 3 cm",
+      "stockQuantity": 83,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-01T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000015196868YellowYELLOW",
+        "sku": "1000015196868-Yellow-YELLOW",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 153
+      }
+    },
+    {
+      "name": "Women Floral Print Straight Kurta",
+      "slug": "1000015196868-beige-offwhite",
+      "price": 161,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Print Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Straight Kurta",
+      "metaDescription": "Women Floral Print Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Off white"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015196868-Beige-OFFWHITE-1000015196868_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015196868-Beige-OFFWHITE-1000015196868_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015196868-Beige-OFFWHITE-1000015196868_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015196868-Beige-OFFWHITE-1000015196868_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015196868-Beige-OFFWHITE-1000015196868_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015196868-Beige-OFFWHITE-1000015196868_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015196868-Beige-OFFWHITE-1000015196868_07-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.5 kg",
+      "dimensions": "8 x 13 x 6 cm",
+      "stockQuantity": 94,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "1000015196868BeigeOFFWHITE",
+        "sku": "1000015196868-Beige-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 161
+      }
+    },
+    {
+      "name": "Women Printed Short Kurti",
+      "slug": "1000015196831-orange-rust",
+      "price": 168,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Printed Short Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Printed Short Kurti",
+      "metaDescription": "Women Printed Short Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Rust"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015196831-Orange-RUST-1000015196831_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015196831-Orange-RUST-1000015196831_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015196831-Orange-RUST-1000015196831_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015196831-Orange-RUST-1000015196831_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015196831-Orange-RUST-1000015196831_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015196831-Orange-RUST-1000015196831_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "8 x 13 x 6 cm",
+      "stockQuantity": 106,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000015196831OrangeRUST",
+        "sku": "1000015196831-Orange-RUST",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 168
+      }
+    },
+    {
+      "name": "Women Floral Print Straight Kurta",
+      "slug": "1000014961541-beige-offwhite",
+      "price": 190,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Print Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Straight Kurta",
+      "metaDescription": "Women Floral Print Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Off white"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014961541-Beige-OFFWHITE-1000014961541_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014961541-Beige-OFFWHITE-1000014961541_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014961541-Beige-OFFWHITE-1000014961541_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014961541-Beige-OFFWHITE-1000014961541_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014961541-Beige-OFFWHITE-1000014961541_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014961541-Beige-OFFWHITE-1000014961541_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014961541-Beige-OFFWHITE-1000014961541_07-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Full length",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.7 kg",
+      "dimensions": "11 x 12 x 3 cm",
+      "stockQuantity": 61,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "1000014961541BeigeOFFWHITE",
+        "sku": "1000014961541-Beige-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 190
+      }
+    },
+    {
+      "name": "Women Printed Straight Short Kurti",
+      "slug": "1000014961429-green-olive",
+      "price": 198,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Printed Straight Short Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Printed Straight Short Kurti",
+      "metaDescription": "Women Printed Straight Short Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014961429-Green-OLIVE-1000014961429_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014961429-Green-OLIVE-1000014961429_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014961429-Green-OLIVE-1000014961429_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014961429-Green-OLIVE-1000014961429_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014961429-Green-OLIVE-1000014961429_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014961429-Green-OLIVE-1000014961429_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.6 kg",
+      "dimensions": "10 x 16 x 6 cm",
+      "stockQuantity": 68,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-10T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000014961429GreenOLIVE",
+        "sku": "1000014961429-Green-OLIVE",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 198
+      }
+    },
+    {
+      "name": "Women Printed Straight Kurta",
+      "slug": "1000014398243-blue-indigo",
+      "price": 175,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Printed Straight Kurta",
+      "metaDescription": "Women Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014398243-Blue-INDIGO-1000014398243_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014398243-Blue-INDIGO-1000014398243_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014398243-Blue-INDIGO-1000014398243_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014398243-Blue-INDIGO-1000014398243_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014398243-Blue-INDIGO-1000014398243_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014398243-Blue-INDIGO-1000014398243_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014398243-Blue-INDIGO-1000014398243_07-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.5 kg",
+      "dimensions": "11 x 14 x 6 cm",
+      "stockQuantity": 42,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000014398243BlueINDIGO",
+        "sku": "1000014398243-Blue-INDIGO",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 175
+      }
+    },
+    {
+      "name": "Women Floral Printed Straight Kurta",
+      "slug": "1000014346718-offwhite-white",
+      "price": 109,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Printed Straight Kurta",
+      "metaDescription": "Women Floral Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Off white"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014346718-OffWhite-WHITE-1000014346718_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014346718-OffWhite-WHITE-1000014346718_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014346718-OffWhite-WHITE-1000014346718_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014346718-OffWhite-WHITE-1000014346718_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014346718-OffWhite-WHITE-1000014346718_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014346718-OffWhite-WHITE-1000014346718_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Kurta",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.4 kg",
+      "dimensions": "11 x 11 x 4 cm",
+      "stockQuantity": 43,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000014346718OffWhiteWHITE",
+        "sku": "1000014346718-OffWhite-WHITE",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 109
+      }
+    },
+    {
+      "name": "Women Floral Printed Straight Kurta",
+      "slug": "1000014346718-blue-aqua",
+      "price": 194,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Printed Straight Kurta",
+      "metaDescription": "Women Floral Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014346718-Blue-AQUA-1000014346718_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014346718-Blue-AQUA-1000014346718_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014346718-Blue-AQUA-1000014346718_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014346718-Blue-AQUA-1000014346718_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014346718-Blue-AQUA-1000014346718_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014346718-Blue-AQUA-1000014346718_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014346718-Blue-AQUA-1000014346718_07-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 14 x 7 cm",
+      "stockQuantity": 56,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000014346718BlueAQUA",
+        "sku": "1000014346718-Blue-AQUA",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 194
+      }
+    },
+    {
+      "name": "Women Floral Printed Straight Kurta",
+      "slug": "1000014247756-red-maroon",
+      "price": 179,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Printed Straight Kurta",
+      "metaDescription": "Women Floral Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      "colors": [
+        "Red"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014247756-Red-MAROON-1000014247756_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014247756-Red-MAROON-1000014247756_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014247756-Red-MAROON-1000014247756_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014247756-Red-MAROON-1000014247756_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014247756-Red-MAROON-1000014247756_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014247756-Red-MAROON-1000014247756_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014247756-Red-MAROON-1000014247756_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014247756-Red-MAROON-1000014247756_08-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Short",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.7 kg",
+      "dimensions": "9 x 12 x 2 cm",
+      "stockQuantity": 30,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "1000014247756RedMAROON",
+        "sku": "1000014247756-Red-MAROON",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 179
+      }
+    },
+    {
+      "name": "Women Floral Printed Straight Kurta",
+      "slug": "1000014247756-blue-indigo",
+      "price": 181,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Printed Straight Kurta",
+      "metaDescription": "Women Floral Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014247756-Blue-INDIGO-1000014247756_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014247756-Blue-INDIGO-1000014247756_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014247756-Blue-INDIGO-1000014247756_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014247756-Blue-INDIGO-1000014247756_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014247756-Blue-INDIGO-1000014247756_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014247756-Blue-INDIGO-1000014247756_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014247756-Blue-INDIGO-1000014247756_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014247756-Blue-INDIGO-1000014247756_08-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Full length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "14 x 12 x 8 cm",
+      "stockQuantity": 13,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000014247756BlueINDIGO",
+        "sku": "1000014247756-Blue-INDIGO",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 181
+      }
+    },
+    {
+      "name": "Women Printed Straight Kurta",
+      "slug": "1000014049044-blue-blue",
+      "price": 146,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Printed Straight Kurta",
+      "metaDescription": "Women Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014049044-Blue-BLUE-1000014049044_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014049044-Blue-BLUE-1000014049044_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014049044-Blue-BLUE-1000014049044_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014049044-Blue-BLUE-1000014049044_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014049044-Blue-BLUE-1000014049044_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014049044-Blue-BLUE-1000014049044_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Round",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.6 kg",
+      "dimensions": "8 x 12 x 4 cm",
+      "stockQuantity": 76,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000014049044BlueBLUE",
+        "sku": "1000014049044-Blue-BLUE",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 146
+      }
+    },
+    {
+      "name": "Women Floral Printed Straight Kurta",
+      "slug": "1000013712850-beige-offwhite",
+      "price": 152,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Printed Straight Kurta",
+      "metaDescription": "Women Floral Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "images": [
+        "https://media-us.landmarkshops.in/max-new/1000013712850-Beige-OFFWHITE-1000013712850_01-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013712850-Beige-OFFWHITE-1000013712850_02-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013712850-Beige-OFFWHITE-1000013712850_03-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013712850-Beige-OFFWHITE-1000013712850_04-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013712850-Beige-OFFWHITE-1000013712850_05-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013712850-Beige-OFFWHITE-1000013712850_06-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013712850-Beige-OFFWHITE-1000013712850_07-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013712850-Beige-OFFWHITE-1000013712850_08-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 12 x 4 cm",
+      "stockQuantity": 59,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "1000013712850BeigeOFFWHITE",
+        "sku": "1000013712850-Beige-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 152
+      }
+    },
+    {
+      "name": "Women Printed Short Kurti",
+      "slug": "1000013489903-beige-offwhite",
+      "price": 148,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Printed Short Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Printed Short Kurti",
+      "metaDescription": "Women Printed Short Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "images": [
+        "https://media-us.landmarkshops.in/max-new/1000013489903-Beige-OFFWHITE-1000013489903_01-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013489903-Beige-OFFWHITE-1000013489903_02-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013489903-Beige-OFFWHITE-1000013489903_03-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013489903-Beige-OFFWHITE-1000013489903_04-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013489903-Beige-OFFWHITE-1000013489903_05-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013489903-Beige-OFFWHITE-1000013489903_06-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013489903-Beige-OFFWHITE-1000013489903_07-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.4 kg",
+      "dimensions": "13 x 12 x 3 cm",
+      "stockQuantity": 113,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "1000013489903BeigeOFFWHITE",
+        "sku": "1000013489903-Beige-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 148
+      }
+    },
+    {
+      "name": "Women Printed Straight Kurta",
+      "slug": "1000013380127-blue-indigo",
+      "price": 162,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Printed Straight Kurta",
+      "metaDescription": "Women Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-us.landmarkshops.in/max-new/1000013380127-Blue-INDIGO-1000013380127_01-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013380127-Blue-INDIGO-1000013380127_02-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013380127-Blue-INDIGO-1000013380127_03-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013380127-Blue-INDIGO-1000013380127_04-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013380127-Blue-INDIGO-1000013380127_05-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013380127-Blue-INDIGO-1000013380127_06-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013380127-Blue-INDIGO-1000013380127_07-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013380127-Blue-INDIGO-1000013380127_08-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Jacket",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.4 kg",
+      "dimensions": "10 x 14 x 6 cm",
+      "stockQuantity": 106,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-02T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000013380127BlueINDIGO",
+        "sku": "1000013380127-Blue-INDIGO",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 162
+      }
+    },
+    {
+      "name": "Women Printed Straight Kurta",
+      "slug": "1000013280521-green-green",
+      "price": 108,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Printed Straight Kurta",
+      "metaDescription": "Women Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "images": [
+        "https://media-us.landmarkshops.in/max-new/1000013280521-Green-GREEN-1000013280521_01-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013280521-Green-GREEN-1000013280521_02-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013280521-Green-GREEN-1000013280521_03-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013280521-Green-GREEN-1000013280521_04-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013280521-Green-GREEN-1000013280521_05-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013280521-Green-GREEN-1000013280521_06-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013280521-Green-GREEN-1000013280521_07-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013280521-Green-GREEN-1000013280521_08-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.6 kg",
+      "dimensions": "9 x 16 x 5 cm",
+      "stockQuantity": 33,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-10T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000013280521GreenGREEN",
+        "sku": "1000013280521-Green-GREEN",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 108
+      }
+    },
+    {
+      "name": "Women Chikankari Short Kurti",
+      "slug": "1000013280506-yellow-mustard",
+      "price": 101,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Chikankari Short Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Chikankari Short Kurti",
+      "metaDescription": "Women Chikankari Short Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      "colors": [
+        "Yellow"
+      ],
+      "images": [
+        "https://media-us.landmarkshops.in/max-new/1000013280506-Yellow-MUSTARD-1000013280506_01-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013280506-Yellow-MUSTARD-1000013280506_02-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013280506-Yellow-MUSTARD-1000013280506_03-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013280506-Yellow-MUSTARD-1000013280506_04-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013280506-Yellow-MUSTARD-1000013280506_05-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013280506-Yellow-MUSTARD-1000013280506_06-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013280506-Yellow-MUSTARD-1000013280506_07-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000013280506-Yellow-MUSTARD-1000013280506_08-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.5 kg",
+      "dimensions": "13 x 11 x 6 cm",
+      "stockQuantity": 58,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "1000013280506YellowMUSTARD",
+        "sku": "1000013280506-Yellow-MUSTARD",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 101
+      }
+    },
+    {
+      "name": "Women Chikankari Short Kurti",
+      "slug": "1000012818858-blue-blue",
+      "price": 118,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Chikankari Short Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Chikankari Short Kurti",
+      "metaDescription": "Women Chikankari Short Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-uk.landmarkshops.in/max-new/1000012818858-Blue-BLUE-1000012818858_01-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012818858-Blue-BLUE-1000012818858_02-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012818858-Blue-BLUE-1000012818858_03-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012818858-Blue-BLUE-1000012818858_04-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012818858-Blue-BLUE-1000012818858_05-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012818858-Blue-BLUE-1000012818858_06-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012818858-Blue-BLUE-1000012818858_07-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012818858-Blue-BLUE-1000012818858_08-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.4 kg",
+      "dimensions": "11 x 10 x 7 cm",
+      "stockQuantity": 108,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-10T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000012818858BlueBLUE",
+        "sku": "1000012818858-Blue-BLUE",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 118
+      }
+    },
+    {
+      "name": "Women Floral Printed Woven Kurta",
+      "slug": "1000012414350-pink-pink",
+      "price": 163,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Printed Woven Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Printed Woven Kurta",
+      "metaDescription": "Women Floral Printed Woven Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      "colors": [
+        "Pink"
+      ],
+      "images": [
+        "https://media-uk.landmarkshops.in/max-new/1000012414350-Pink-PINK-1000012414350_01-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012414350-Pink-PINK-1000012414350_02-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012414350-Pink-PINK-1000012414350_03-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012414350-Pink-PINK-1000012414350_04-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012414350-Pink-PINK-1000012414350_05-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012414350-Pink-PINK-1000012414350_06-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012414350-Pink-PINK-1000012414350_07-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012414350-Pink-PINK-1000012414350_08-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.6 kg",
+      "dimensions": "13 x 10 x 4 cm",
+      "stockQuantity": 20,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000012414350PinkPINK",
+        "sku": "1000012414350-Pink-PINK",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 163
+      }
+    },
+    {
+      "name": "Women Printed Straight Kurta",
+      "slug": "1000012016824-pink-pink",
+      "price": 144,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Printed Straight Kurta",
+      "metaDescription": "Women Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      "colors": [
+        "Pink"
+      ],
+      "images": [
+        "https://media-us.landmarkshops.in/max-new/1000012016824-Pink-PINK-1000012016824_01-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000012016824-Pink-PINK-1000012016824_02-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000012016824-Pink-PINK-1000012016824_03-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000012016824-Pink-PINK-1000012016824_04-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000012016824-Pink-PINK-1000012016824_05-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000012016824-Pink-PINK-1000012016824_06-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000012016824-Pink-PINK-1000012016824_07-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000012016824-Pink-PINK-1000012016824_08-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Jacket",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.6 kg",
+      "dimensions": "10 x 13 x 6 cm",
+      "stockQuantity": 79,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000012016824PinkPINK",
+        "sku": "1000012016824-Pink-PINK",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 144
+      }
+    },
+    {
+      "name": "Women Chikankari Embroidered Kurti",
+      "slug": "1000012015976-white-white",
+      "price": 166,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Chikankari Embroidered Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Chikankari Embroidered Kurti",
+      "metaDescription": "Women Chikankari Embroidered Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      "colors": [
+        "White"
+      ],
+      "images": [
+        "https://media-uk.landmarkshops.in/max-new/1000012015976-White-WHITE-1000012015976_01-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012015976-White-WHITE-1000012015976_02-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012015976-White-WHITE-1000012015976_03-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012015976-White-WHITE-1000012015976_04-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012015976-White-WHITE-1000012015976_05-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012015976-White-WHITE-1000012015976_06-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012015976-White-WHITE-1000012015976_07-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000012015976-White-WHITE-1000012015976_08-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash cold",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.3 kg",
+      "dimensions": "8 x 12 x 6 cm",
+      "stockQuantity": 45,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-02T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "1000012015976WhiteWHITE",
+        "sku": "1000012015976-White-WHITE",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 166
+      }
+    },
+    {
+      "name": "Women Embroidered Tunic",
+      "slug": "1000011407971-red-crimson",
+      "price": 148,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Embroidered Tunic. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Embroidered Tunic",
+      "metaDescription": "Women Embroidered Tunic. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Red"
+      ],
+      "images": [
+        "https://media-uk.landmarkshops.in/max-new/1000011407971-Red-CRIMSON-1000011407971-22062022_01-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000011407971-Red-CRIMSON-1000011407971-22062022_02-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000011407971-Red-CRIMSON-1000011407971-22062022_03-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000011407971-Red-CRIMSON-1000011407971-22062022_04-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000011407971-Red-CRIMSON-1000011407971-22062022_05-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000011407971-Red-CRIMSON-1000011407971-22062022_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.6 kg",
+      "dimensions": "10 x 16 x 5 cm",
+      "stockQuantity": 33,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000011407971RedCRIMSON",
+        "sku": "1000011407971-Red-CRIMSON",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 148
+      }
+    },
+    {
+      "name": "Women Printed Straight Kurta",
+      "slug": "1000010467455-pink-fuchsia",
+      "price": 123,
+      "originalPrice": 449,
+      "category": "kurtas and kurtis",
+      "description": "Women Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Printed Straight Kurta",
+      "metaDescription": "Women Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Red"
+      ],
+      "images": [
+        "https://media-uk.landmarkshops.in/max-new/1000010467455-Pink-Fuchsia-1000010467455-7222021_01-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000010467455-Pink-Fuchsia-1000010467455-7222021_02-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000010467455-Pink-Fuchsia-1000010467455-7222021_03-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000010467455-Pink-Fuchsia-1000010467455-7222021_04-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000010467455-Pink-Fuchsia-1000010467455-7222021_05-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000010467455-Pink-Fuchsia-1000010467455-7222021_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 10 x 8 cm",
+      "stockQuantity": 95,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000010467455PinkFuchsia",
+        "sku": "1000010467455-Pink-Fuchsia",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 123
+      }
+    },
+    {
+      "name": "Women Floral Print Straight Kurti",
+      "slug": "1000016755219-purple-mauve",
+      "price": 140,
+      "originalPrice": 499,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Print Straight Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Straight Kurti",
+      "metaDescription": "Women Floral Print Straight Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Purple"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016755219-Purple-MAUVE-1000016755219_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016755219-Purple-MAUVE-1000016755219_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016755219-Purple-MAUVE-1000016755219_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016755219-Purple-MAUVE-1000016755219_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016755219-Purple-MAUVE-1000016755219_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016755219-Purple-MAUVE-1000016755219_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "V-neck",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Relaxed fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 10 x 5 cm",
+      "stockQuantity": 108,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000016755219PurpleMAUVE",
+        "sku": "1000016755219-Purple-MAUVE",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 140
+      }
+    },
+    {
+      "name": "Women Floral Print Straight Kurti",
+      "slug": "1000016755219-blue-blue",
+      "price": 156,
+      "originalPrice": 499,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Print Straight Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Straight Kurti",
+      "metaDescription": "Women Floral Print Straight Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016755219-Blue-BLUE-1000016755219_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016755219-Blue-BLUE-1000016755219_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016755219-Blue-BLUE-1000016755219_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016755219-Blue-BLUE-1000016755219_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016755219-Blue-BLUE-1000016755219_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016755219-Blue-BLUE-1000016755219_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.6 kg",
+      "dimensions": "8 x 12 x 4 cm",
+      "stockQuantity": 30,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "1000016755219BlueBLUE",
+        "sku": "1000016755219-Blue-BLUE",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 156
+      }
+    },
+    {
+      "name": "Women Floral Print Alia Cut Short Kurti",
+      "slug": "1000016709980-white-offwhite",
+      "price": 197,
+      "originalPrice": 499,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Print Alia Cut Short Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Alia Cut Short Kurti",
+      "metaDescription": "Women Floral Print Alia Cut Short Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "White"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016709980-White-OFFWHITE-1000016709980_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016709980-White-OFFWHITE-1000016709980_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016709980-White-OFFWHITE-1000016709980_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016709980-White-OFFWHITE-1000016709980_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016709980-White-OFFWHITE-1000016709980_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016709980-White-OFFWHITE-1000016709980_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.3 kg",
+      "dimensions": "8 x 13 x 2 cm",
+      "stockQuantity": 63,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "1000016709980WhiteOFFWHITE",
+        "sku": "1000016709980-White-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 197
+      }
+    },
+    {
+      "name": "Women Floral Print Alia Cut Short Kurti",
+      "slug": "1000016709980-blue-aqua",
+      "price": 162,
+      "originalPrice": 499,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Print Alia Cut Short Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Alia Cut Short Kurti",
+      "metaDescription": "Women Floral Print Alia Cut Short Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016709980-Blue-AQUA-1000016709980_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016709980-Blue-AQUA-1000016709980_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016709980-Blue-AQUA-1000016709980_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016709980-Blue-AQUA-1000016709980_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016709980-Blue-AQUA-1000016709980_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016709980-Blue-AQUA-1000016709980_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.4 kg",
+      "dimensions": "13 x 12 x 4 cm",
+      "stockQuantity": 41,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-03T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000016709980BlueAQUA",
+        "sku": "1000016709980-Blue-AQUA",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 162
+      }
+    },
+    {
+      "name": "Women Printed Straight Kurti",
+      "slug": "1000016709954-red-maroon",
+      "price": 161,
+      "originalPrice": 499,
+      "category": "kurtas and kurtis",
+      "description": "Women Printed Straight Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Printed Straight Kurti",
+      "metaDescription": "Women Printed Straight Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Maroon"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016709954-Red-MAROON-1000016709954_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016709954-Red-MAROON-1000016709954_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016709954-Red-MAROON-1000016709954_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016709954-Red-MAROON-1000016709954_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016709954-Red-MAROON-1000016709954_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016709954-Red-MAROON-1000016709954_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Dry clean recommended",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "12 x 15 x 7 cm",
+      "stockQuantity": 20,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-03T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "1000016709954RedMAROON",
+        "sku": "1000016709954-Red-MAROON",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 161
+      }
+    },
+    {
+      "name": "Women Printed Straight Kurti",
+      "slug": "1000016709941-green-green",
+      "price": 149,
+      "originalPrice": 499,
+      "category": "kurtas and kurtis",
+      "description": "Women Printed Straight Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Printed Straight Kurti",
+      "metaDescription": "Women Printed Straight Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016709941-Green-GREEN-1000016709941_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016709941-Green-GREEN-1000016709941_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016709941-Green-GREEN-1000016709941_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016709941-Green-GREEN-1000016709941_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016709941-Green-GREEN-1000016709941_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016709941-Green-GREEN-1000016709941_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Long",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "11 x 14 x 7 cm",
+      "stockQuantity": 114,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000016709941GreenGREEN",
+        "sku": "1000016709941-Green-GREEN",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 149
+      }
+    },
+    {
+      "name": "Women Printed Straight Kurti",
+      "slug": "1000016668845-pink-pink",
+      "price": 199,
+      "originalPrice": 499,
+      "category": "kurtas and kurtis",
+      "description": "Women Printed Straight Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Printed Straight Kurti",
+      "metaDescription": "Women Printed Straight Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Pink"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016668845-Pink-PINK-1000016668845_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016668845-Pink-PINK-1000016668845_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016668845-Pink-PINK-1000016668845_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016668845-Pink-PINK-1000016668845_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016668845-Pink-PINK-1000016668845_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016668845-Pink-PINK-1000016668845_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Comfort fit",
+      "weight": "0.6 kg",
+      "dimensions": "13 x 15 x 3 cm",
+      "stockQuantity": 15,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000016668845PinkPINK",
+        "sku": "1000016668845-Pink-PINK",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 199
+      }
+    },
+    {
+      "name": "Women Printed Straight Kurti",
+      "slug": "1000016668845-green-olive",
+      "price": 100,
+      "originalPrice": 499,
+      "category": "kurtas and kurtis",
+      "description": "Women Printed Straight Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Printed Straight Kurti",
+      "metaDescription": "Women Printed Straight Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016668845-Green-OLIVE-1000016668845_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016668845-Green-OLIVE-1000016668845_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016668845-Green-OLIVE-1000016668845_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016668845-Green-OLIVE-1000016668845_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016668845-Green-OLIVE-1000016668845_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016668845-Green-OLIVE-1000016668845_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 16 x 7 cm",
+      "stockQuantity": 114,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-10T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000016668845GreenOLIVE",
+        "sku": "1000016668845-Green-OLIVE",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 100
+      }
+    },
+    {
+      "name": "Women Floral Print Straight Kurta",
+      "slug": "1000016637401-blue-indigo",
+      "price": 104,
+      "originalPrice": 499,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Print Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Straight Kurta",
+      "metaDescription": "Women Floral Print Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016637401-Blue-INDIGO-1000016637401_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016637401-Blue-INDIGO-1000016637401_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016637401-Blue-INDIGO-1000016637401_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016637401-Blue-INDIGO-1000016637401_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016637401-Blue-INDIGO-1000016637401_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016637401-Blue-INDIGO-1000016637401_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016637401-Blue-INDIGO-1000016637401_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016637401-Blue-INDIGO-1000016637401_08-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Band collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 14 x 5 cm",
+      "stockQuantity": 20,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-02T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000016637401BlueINDIGO",
+        "sku": "1000016637401-Blue-INDIGO",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 104
+      }
+    },
+    {
+      "name": "Women Printed Straight Kurta",
+      "slug": "1000016637380-yellow-yellow",
+      "price": 149,
+      "originalPrice": 499,
+      "category": "kurtas and kurtis",
+      "description": "Women Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Printed Straight Kurta",
+      "metaDescription": "Women Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Yellow"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016637380-Yellow-YELLOW-1000016637380_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637380-Yellow-YELLOW-1000016637380_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637380-Yellow-YELLOW-1000016637380_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637380-Yellow-YELLOW-1000016637380_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637380-Yellow-YELLOW-1000016637380_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637380-Yellow-YELLOW-1000016637380_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637380-Yellow-YELLOW-1000016637380_07-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637380-Yellow-YELLOW-1000016637380_08-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 14 x 7 cm",
+      "stockQuantity": 24,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000016637380YellowYELLOW",
+        "sku": "1000016637380-Yellow-YELLOW",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 149
+      }
+    },
+    {
+      "name": "Women Printed Straight Kurta",
+      "slug": "1000016637380-blue-aqua",
+      "price": 181,
+      "originalPrice": 499,
+      "category": "kurtas and kurtis",
+      "description": "Women Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Printed Straight Kurta",
+      "metaDescription": "Women Printed Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016637380-Blue-AQUA-1000016637380_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637380-Blue-AQUA-1000016637380_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637380-Blue-AQUA-1000016637380_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637380-Blue-AQUA-1000016637380_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637380-Blue-AQUA-1000016637380_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637380-Blue-AQUA-1000016637380_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Medium",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.8 kg",
+      "dimensions": "10 x 10 x 3 cm",
+      "stockQuantity": 65,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000016637380BlueAQUA",
+        "sku": "1000016637380-Blue-AQUA",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 181
+      }
+    },
+    {
+      "name": "Women Floral Print Straight Kurta",
+      "slug": "1000016637348-white-offwhite",
+      "price": 171,
+      "originalPrice": 499,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Print Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Straight Kurta",
+      "metaDescription": "Women Floral Print Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Off white"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016637348-White-OFFWHITE-1000016637348_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016637348-White-OFFWHITE-1000016637348_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016637348-White-OFFWHITE-1000016637348_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016637348-White-OFFWHITE-1000016637348_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016637348-White-OFFWHITE-1000016637348_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016637348-White-OFFWHITE-1000016637348_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016637348-White-OFFWHITE-1000016637348_07-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 16 x 4 cm",
+      "stockQuantity": 19,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "1000016637348WhiteOFFWHITE",
+        "sku": "1000016637348-White-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 171
+      }
+    },
+    {
+      "name": "Women Floral Print Straight Kurta",
+      "slug": "1000016637317-orange-coral",
+      "price": 172,
+      "originalPrice": 499,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Print Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Straight Kurta",
+      "metaDescription": "Women Floral Print Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Coral"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016637317-Orange-CORAL-1000016637317_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016637317-Orange-CORAL-1000016637317_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016637317-Orange-CORAL-1000016637317_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016637317-Orange-CORAL-1000016637317_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016637317-Orange-CORAL-1000016637317_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016637317-Orange-CORAL-1000016637317_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016637317-Orange-CORAL-1000016637317_07-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 Jacket",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.5 kg",
+      "dimensions": "8 x 14 x 8 cm",
+      "stockQuantity": 21,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-10T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000016637317OrangeCORAL",
+        "sku": "1000016637317-Orange-CORAL",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 172
+      }
+    },
+    {
+      "name": "Women Floral Print A-line Kurti",
+      "slug": "1000016637253-white-offwhite",
+      "price": 170,
+      "originalPrice": 499,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Print A-line Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print A-line Kurti",
+      "metaDescription": "Women Floral Print A-line Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Off white"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016637253-White-OFFWHITE-1000016637253_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637253-White-OFFWHITE-1000016637253_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637253-White-OFFWHITE-1000016637253_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637253-White-OFFWHITE-1000016637253_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637253-White-OFFWHITE-1000016637253_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637253-White-OFFWHITE-1000016637253_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.4 kg",
+      "dimensions": "9 x 11 x 8 cm",
+      "stockQuantity": 25,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "1000016637253WhiteOFFWHITE",
+        "sku": "1000016637253-White-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 170
+      }
+    },
+    {
+      "name": "Women Floral Print A-line Kurti",
+      "slug": "1000016637253-blue-aqua",
+      "price": 106,
+      "originalPrice": 499,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Print A-line Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print A-line Kurti",
+      "metaDescription": "Women Floral Print A-line Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016637253-Blue-AQUA-1000016637253_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637253-Blue-AQUA-1000016637253_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637253-Blue-AQUA-1000016637253_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637253-Blue-AQUA-1000016637253_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637253-Blue-AQUA-1000016637253_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637253-Blue-AQUA-1000016637253_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.4 kg",
+      "dimensions": "13 x 16 x 3 cm",
+      "stockQuantity": 110,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000016637253BlueAQUA",
+        "sku": "1000016637253-Blue-AQUA",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 106
+      }
+    },
+    {
+      "name": "Women Floral Print Straight Kurti",
+      "slug": "1000016637242-yellow-mustard",
+      "price": 163,
+      "originalPrice": 499,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Print Straight Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Straight Kurti",
+      "metaDescription": "Women Floral Print Straight Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Yellow"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016637242-Yellow-MUSTARD-1000016637242_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637242-Yellow-MUSTARD-1000016637242_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637242-Yellow-MUSTARD-1000016637242_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637242-Yellow-MUSTARD-1000016637242_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637242-Yellow-MUSTARD-1000016637242_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637242-Yellow-MUSTARD-1000016637242_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "8 x 10 x 4 cm",
+      "stockQuantity": 58,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000016637242YellowMUSTARD",
+        "sku": "1000016637242-Yellow-MUSTARD",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 163
+      }
+    },
+    {
+      "name": "Women Printed Straight Kurti",
+      "slug": "1000016637231-orange-rust",
+      "price": 151,
+      "originalPrice": 499,
+      "category": "kurtas and kurtis",
+      "description": "Women Printed Straight Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Printed Straight Kurti",
+      "metaDescription": "Women Printed Straight Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Orange"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016637231-Orange-RUST-1000016637231_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637231-Orange-RUST-1000016637231_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637231-Orange-RUST-1000016637231_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637231-Orange-RUST-1000016637231_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637231-Orange-RUST-1000016637231_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637231-Orange-RUST-1000016637231_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "10 x 10 x 6 cm",
+      "stockQuantity": 91,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000016637231OrangeRUST",
+        "sku": "1000016637231-Orange-RUST",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 151
+      }
+    },
+    {
+      "name": "Women Printed Straight Kurti",
+      "slug": "1000016637210-grey-grey",
+      "price": 146,
+      "originalPrice": 499,
+      "category": "kurtas and kurtis",
+      "description": "Women Printed Straight Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Printed Straight Kurti",
+      "metaDescription": "Women Printed Straight Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Grey"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016637210-Grey-GREY-1000016637210_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637210-Grey-GREY-1000016637210_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637210-Grey-GREY-1000016637210_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637210-Grey-GREY-1000016637210_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637210-Grey-GREY-1000016637210_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637210-Grey-GREY-1000016637210_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "10 x 14 x 6 cm",
+      "stockQuantity": 67,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000016637210GreyGREY",
+        "sku": "1000016637210-Grey-GREY",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 146
+      }
+    },
+    {
+      "name": "Women Printed Straight Kurti",
+      "slug": "1000016637210-blue-indigo",
+      "price": 123,
+      "originalPrice": 499,
+      "category": "kurtas and kurtis",
+      "description": "Women Printed Straight Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Printed Straight Kurti",
+      "metaDescription": "Women Printed Straight Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016637210-Blue-INDIGO-1000016637210_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637210-Blue-INDIGO-1000016637210_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637210-Blue-INDIGO-1000016637210_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637210-Blue-INDIGO-1000016637210_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637210-Blue-INDIGO-1000016637210_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016637210-Blue-INDIGO-1000016637210_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Hand wash separately",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 13 x 6 cm",
+      "stockQuantity": 79,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "1000016637210BlueINDIGO",
+        "sku": "1000016637210-Blue-INDIGO",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 123
+      }
+    },
+    {
+      "name": "Women Floral Print Straight Kurta",
+      "slug": "1000016573889-orange-orange",
+      "price": 129,
+      "originalPrice": 499,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Print Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Straight Kurta",
+      "metaDescription": "Women Floral Print Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Orange"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016573889-Orange-ORANGE-1000016573889_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016573889-Orange-ORANGE-1000016573889_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016573889-Orange-ORANGE-1000016573889_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016573889-Orange-ORANGE-1000016573889_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016573889-Orange-ORANGE-1000016573889_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016573889-Orange-ORANGE-1000016573889_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 12 x 6 cm",
+      "stockQuantity": 95,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-10T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000016573889OrangeORANGE",
+        "sku": "1000016573889-Orange-ORANGE",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 129
+      }
+    },
+    {
+      "name": "Women Floral Print Straight Kurta",
+      "slug": "1000016573889-green-olive",
+      "price": 186,
+      "originalPrice": 499,
+      "category": "kurtas and kurtis",
+      "description": "Women Floral Print Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Floral Print Straight Kurta",
+      "metaDescription": "Women Floral Print Straight Kurta. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016573889-Green-OLIVE-1000016573889_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016573889-Green-OLIVE-1000016573889_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016573889-Green-OLIVE-1000016573889_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016573889-Green-OLIVE-1000016573889_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016573889-Green-OLIVE-1000016573889_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016573889-Green-OLIVE-1000016573889_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016573889-Green-OLIVE-1000016573889_07-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Kurta",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.8 kg",
+      "dimensions": "13 x 16 x 2 cm",
+      "stockQuantity": 104,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-03T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1000016573889GreenOLIVE",
+        "sku": "1000016573889-Green-OLIVE",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 186
+      }
+    },
+    {
+      "name": "Women Printed Kurti",
+      "slug": "1000016554237-white-offwhite",
+      "price": 159,
+      "originalPrice": 499,
+      "category": "kurtas and kurtis",
+      "description": "Women Printed Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaTitle": "Women Printed Kurti",
+      "metaDescription": "Women Printed Kurti. Premium kurtas and kurtis from our curated ethnic collection.",
+      "metaKeywords": [
+        "kurtas and kurtis",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "White"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016554237-White-OFFWHITE-1000016554237_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016554237-White-OFFWHITE-1000016554237_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016554237-White-OFFWHITE-1000016554237_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016554237-White-OFFWHITE-1000016554237_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016554237-White-OFFWHITE-1000016554237_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016554237-White-OFFWHITE-1000016554237_06-2100.jpg"
+      ],
+      "tags": [
+        "kurtas and kurtis",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Medium",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Relaxed fit",
+      "weight": "0.4 kg",
+      "dimensions": "10 x 10 x 6 cm",
+      "stockQuantity": 12,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "kurtas and kurtis",
+      "_source": {
+        "nykaaId": "1000016554237WhiteOFFWHITE",
+        "sku": "1000016554237-White-OFFWHITE",
+        "categoryFilter": "maxwomen-ethnicwear-kurtasandkurtis",
+        "assignedPriceTier": 159
+      }
+    }
+  ]
+}

@@ -1,0 +1,2978 @@
+{
+  "scrapedAt": "2026-05-26T10:57:43.252Z",
+  "categoryFilter": "4543",
+  "categoryName": "ethnic",
+  "priceMin": 600,
+  "priceMax": 699,
+  "categoryId": "6557",
+  "priceMode": "random",
+  "sort": "low-to-high",
+  "totalProducts": 50,
+  "pagesFetched": 2,
+  "products": [
+    {
+      "name": "R&B — Cotton Babydoll Ethnic Motifs Yellow Midi Dress",
+      "slug": "r-b-cotton-babydoll-ethnic-motifs-yellow-midi-dress",
+      "price": 690,
+      "originalPrice": 699,
+      "category": "ethnic",
+      "description": "Cotton Babydoll Ethnic Motifs Yellow Midi Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "R&B — Cotton Babydoll Ethnic Motifs Yellow Midi Dress",
+      "metaDescription": "Cotton Babydoll Ethnic Motifs Yellow Midi Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0551WY152-2_YELLOW_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0551WY152-2_YELLOW_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0551WY152-2_YELLOW_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0551WY152-2_YELLOW_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0551WY152-2_YELLOW_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0551WY152-2_YELLOW_6.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "V-neck",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.4 kg",
+      "dimensions": "11 x 16 x 4 cm",
+      "stockQuantity": 33,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "25011546",
+        "sku": "RBXXX00032208",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 690
+      }
+    },
+    {
+      "name": "R&B — Multi-Color Floral Printed Dress",
+      "slug": "r-b-blue-floral-printed-dress",
+      "price": 673,
+      "originalPrice": 699,
+      "category": "ethnic",
+      "description": "Multi-Color Floral Printed Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "R&B — Multi-Color Floral Printed Dress",
+      "metaDescription": "Multi-Color Floral Printed Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e91240147WY0142BLUE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e91240147WY0142BLUE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e91240147WY0142BLUE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e91240147WY0142BLUE_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e91240147WY0142BLUE_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e91240147WY0142BLUE_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e91240147WY0142BLUE_7.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Medium",
+      "packageContains": "1 Jacket",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.6 kg",
+      "dimensions": "11 x 11 x 4 cm",
+      "stockQuantity": 64,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "25022979",
+        "sku": "RBXXX00033769",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 673
+      }
+    },
+    {
+      "name": "R&B — Viscose Tunic Floral Print Ruffled Hem Women Knee Length Dress",
+      "slug": "r-b-viscose-tunic-floral-print-ruffled-hem-women-knee-length-dress",
+      "price": 659,
+      "originalPrice": 699,
+      "category": "ethnic",
+      "description": "Viscose Tunic Floral Print Ruffled Hem Women Knee Length Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "R&B — Viscose Tunic Floral Print Ruffled Hem Women Knee Length Dress",
+      "metaDescription": "Viscose Tunic Floral Print Ruffled Hem Women Knee Length Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0756WY155-2_BLUE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0756WY155-2_BLUE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0756WY155-2_BLUE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0756WY155-2_BLUE_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0756WY155-2_BLUE_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0756WY155-2_BLUE_6.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.3 kg",
+      "dimensions": "12 x 15 x 2 cm",
+      "stockQuantity": 59,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "25011550",
+        "sku": "RBXXX00032212",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 659
+      }
+    },
+    {
+      "name": "R&B — Cotton Babydoll Ethnic Motifs Blue Midi Dress",
+      "slug": "r-b-cotton-babydoll-ethnic-motifs-blue-midi-dress",
+      "price": 648,
+      "originalPrice": 699,
+      "category": "ethnic",
+      "description": "Cotton Babydoll Ethnic Motifs Blue Midi Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "R&B — Cotton Babydoll Ethnic Motifs Blue Midi Dress",
+      "metaDescription": "Cotton Babydoll Ethnic Motifs Blue Midi Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0551WY152-2_BLUE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0551WY152-2_BLUE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0551WY152-2_BLUE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0551WY152-2_BLUE_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0551WY152-2_BLUE_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0551WY152-2_BLUE_6.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.4 kg",
+      "dimensions": "9 x 13 x 5 cm",
+      "stockQuantity": 96,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "25011545",
+        "sku": "RBXXX00032207",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 648
+      }
+    },
+    {
+      "name": "R&B — Cotton Tiered Half Sleeves Knee-Length Dress",
+      "slug": "r-b-cotton-tiered-half-sleeves-knee-length-dress",
+      "price": 611,
+      "originalPrice": 699,
+      "category": "ethnic",
+      "description": "Cotton Tiered Half Sleeves Knee-Length Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "R&B — Cotton Tiered Half Sleeves Knee-Length Dress",
+      "metaDescription": "Cotton Tiered Half Sleeves Knee-Length Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0370WY150-2_OFFWHITE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0370WY150-2_OFFWHITE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0370WY150-2_OFFWHITE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0370WY150-2_OFFWHITE_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0370WY150-2_OFFWHITE_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0370WY150-2_OFFWHITE_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0370WY150-2_OFFWHITE_7.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.4 kg",
+      "dimensions": "14 x 11 x 7 cm",
+      "stockQuantity": 96,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "25011529",
+        "sku": "RBXXX00032191",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 611
+      }
+    },
+    {
+      "name": "R&B — Rayon Empire Waist Ikat Print Smocked Women Knee Length Dress",
+      "slug": "r-b-rayon-empire-waist-ikat-print-smocked-women-knee-length-dress",
+      "price": 639,
+      "originalPrice": 799,
+      "category": "ethnic",
+      "description": "Rayon Empire Waist Ikat Print Smocked Women Knee Length Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "R&B — Rayon Empire Waist Ikat Print Smocked Women Knee Length Dress",
+      "metaDescription": "Rayon Empire Waist Ikat Print Smocked Women Knee Length Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa324-0451WY017-2_CORAL_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa324-0451WY017-2_CORAL_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa324-0451WY017-2_CORAL_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa324-0451WY017-2_CORAL_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa324-0451WY017-2_CORAL_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa324-0451WY017-2_CORAL_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa324-0451WY017-2_CORAL_7.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Trouser",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 16 x 8 cm",
+      "stockQuantity": 35,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "25011557",
+        "sku": "RBXXX00032219",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 639
+      }
+    },
+    {
+      "name": "R&B — Navy Blue Floral Regular Dress",
+      "slug": "r-b-navy-blue-floral-regular-dress",
+      "price": 608,
+      "originalPrice": 799,
+      "category": "ethnic",
+      "description": "Navy Blue Floral Regular Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "R&B — Navy Blue Floral Regular Dress",
+      "metaDescription": "Navy Blue Floral Regular Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e91240451WY0122BLUE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e91240451WY0122BLUE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e91240451WY0122BLUE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e91240451WY0122BLUE_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e91240451WY0122BLUE_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e91240451WY0122BLUE_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e91240451WY0122BLUE_7.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.6 kg",
+      "dimensions": "14 x 12 x 4 cm",
+      "stockQuantity": 53,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "25022980",
+        "sku": "RBXXX00033770",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 608
+      }
+    },
+    {
+      "name": "R&B — Pink Floral Flared Dress",
+      "slug": "r-b-pink-floral-flared-dress",
+      "price": 627,
+      "originalPrice": 799,
+      "category": "ethnic",
+      "description": "Pink Floral Flared Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "R&B — Pink Floral Flared Dress",
+      "metaDescription": "Pink Floral Flared Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e91240451WY0122PINK_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e91240451WY0122PINK_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e91240451WY0122PINK_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e91240451WY0122PINK_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e91240451WY0122PINK_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e91240451WY0122PINK_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e91240451WY0122PINK_7.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.4 kg",
+      "dimensions": "10 x 16 x 8 cm",
+      "stockQuantity": 53,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "25022981",
+        "sku": "RBXXX00033771",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 627
+      }
+    },
+    {
+      "name": "Yufta — Women Red Printed Fit and Flare Dress",
+      "slug": "yufta-women-red-printed-fit-and-flare-dress",
+      "price": 613,
+      "originalPrice": 1699,
+      "category": "ethnic",
+      "description": "Women Red Printed Fit and Flare Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "Yufta — Women Red Printed Fit and Flare Dress",
+      "metaDescription": "Women Red Printed Fit and Flare Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/f/5f107d88155DRSRD-1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/f/5f107d88155DRSRD-2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/f/5f107d88155DRSRD-3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/f/5f107d88155DRSRD-4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/f/5f107d88155DRSRD-5.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Jacket",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.4 kg",
+      "dimensions": "13 x 11 x 4 cm",
+      "stockQuantity": 31,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "9716834",
+        "sku": "YUFTA00006297",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 613
+      }
+    },
+    {
+      "name": "Likha — Solid Black Lurex Shift Dress LIKSHDR601",
+      "slug": "likha-black-lurex-shift-dress-likshdr601",
+      "price": 622,
+      "originalPrice": 1699,
+      "category": "ethnic",
+      "description": "Solid Black Lurex Shift Dress LIKSHDR601. Premium ethnic from our curated collection.",
+      "metaTitle": "Likha — Solid Black Lurex Shift Dress LIKSHDR601",
+      "metaDescription": "Solid Black Lurex Shift Dress LIKSHDR601. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/918a15cLIKSHDR601Black_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/918a15cLIKSHDR601Black_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/918a15cLIKSHDR601Black_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/918a15cLIKSHDR601Black_4.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.4 kg",
+      "dimensions": "8 x 16 x 8 cm",
+      "stockQuantity": 27,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "15035250",
+        "sku": "LIKHA00004743",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 622
+      }
+    },
+    {
+      "name": "SVARCHI — Cotton Bandhej Print A-Line Gown Blue",
+      "slug": "svarchi-womens-cotton-bandhej-print-a-line-gown-blue",
+      "price": 632,
+      "originalPrice": 3199,
+      "category": "ethnic",
+      "description": "Cotton Bandhej Print A-Line Gown Blue. Premium ethnic from our curated collection.",
+      "metaTitle": "SVARCHI — Cotton Bandhej Print A-Line Gown Blue",
+      "metaDescription": "Cotton Bandhej Print A-Line Gown Blue. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/3/53b7aa8286VDK137BL_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/3/53b7aa8286VDK137BL_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/3/53b7aa8286VDK137BL_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/3/53b7aa8286VDK137BL_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/3/53b7aa8286VDK137BL_5.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.7 kg",
+      "dimensions": "13 x 11 x 8 cm",
+      "stockQuantity": 36,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "6169355",
+        "sku": "SVARC00001004",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 632
+      }
+    },
+    {
+      "name": "Juniper — Navy Blue Rayon Ikat Printed Fit & Flare Lacy Short Dress With Dori Tie-Up At Waist",
+      "slug": "juniper-women-navy-blue-rayon-printed-dress-with-belt-set-of-2",
+      "price": 665,
+      "originalPrice": 1999,
+      "category": "ethnic",
+      "description": "Navy Blue Rayon Ikat Printed Fit & Flare Lacy Short Dress With Dori Tie-Up At Waist. Premium ethnic from our curated collection.",
+      "metaTitle": "Juniper — Navy Blue Rayon Ikat Printed Fit & Flare Lacy Short Dress Wi",
+      "metaDescription": "Navy Blue Rayon Ikat Printed Fit & Flare Lacy Short Dress With Dori Tie-Up At Waist. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/9/c92f6aaS4461NAVYNL_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/9/c92f6aaS4461NAVYNL_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/9/c92f6aaS4461NAVYNL_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/9/c92f6aaS4461NAVYNL_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/9/c92f6aaS4461NAVYNL_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/9/c92f6aaS4461NAVYNL_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/9/c92f6aaS4461NAVYNL_7.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "10 x 16 x 6 cm",
+      "stockQuantity": 63,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-10T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "14578501",
+        "sku": "JUNIP00011537",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 665
+      }
+    },
+    {
+      "name": "R&B — Rayon Fit and Flare Polka Dot Smocked Waist Women Midi Dress",
+      "slug": "r-b-rayon-fit-and-flare-polka-dot-smocked-waist-women-midi-dress",
+      "price": 685,
+      "originalPrice": 899,
+      "category": "ethnic",
+      "description": "Rayon Fit and Flare Polka Dot Smocked Waist Women Midi Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "R&B — Rayon Fit and Flare Polka Dot Smocked Waist Women Midi Dress",
+      "metaDescription": "Rayon Fit and Flare Polka Dot Smocked Waist Women Midi Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa324-0451WY025-2_ORANGE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa324-0451WY025-2_ORANGE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa324-0451WY025-2_ORANGE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa324-0451WY025-2_ORANGE_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa324-0451WY025-2_ORANGE_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa324-0451WY025-2_ORANGE_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa324-0451WY025-2_ORANGE_7.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Full length",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.4 kg",
+      "dimensions": "12 x 12 x 4 cm",
+      "stockQuantity": 84,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "25011555",
+        "sku": "RBXXX00032217",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 685
+      }
+    },
+    {
+      "name": "R&B — Rayon A-Line Ethnic Motif Women Red Midi Dress",
+      "slug": "r-b-rayon-a-line-ethnic-motif-women-red-midi-dress",
+      "price": 617,
+      "originalPrice": 899,
+      "category": "ethnic",
+      "description": "Rayon A-Line Ethnic Motif Women Red Midi Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "R&B — Rayon A-Line Ethnic Motif Women Red Midi Dress",
+      "metaDescription": "Rayon A-Line Ethnic Motif Women Red Midi Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0728WY025-2_RED_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0728WY025-2_RED_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0728WY025-2_RED_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0728WY025-2_RED_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0728WY025-2_RED_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0728WY025-2_RED_6.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Band collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.3 kg",
+      "dimensions": "9 x 10 x 3 cm",
+      "stockQuantity": 115,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "25011541",
+        "sku": "RBXXX00032203",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 617
+      }
+    },
+    {
+      "name": "R&B — Rayon A-Line Ethnic Motif Women Black Midi Dress",
+      "slug": "r-b-rayon-a-line-ethnic-motif-women-black-midi-dress",
+      "price": 625,
+      "originalPrice": 899,
+      "category": "ethnic",
+      "description": "Rayon A-Line Ethnic Motif Women Black Midi Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "R&B — Rayon A-Line Ethnic Motif Women Black Midi Dress",
+      "metaDescription": "Rayon A-Line Ethnic Motif Women Black Midi Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0728WY025-2_BLACK_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0728WY025-2_BLACK_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0728WY025-2_BLACK_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0728WY025-2_BLACK_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0728WY025-2_BLACK_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0728WY025-2_BLACK_6.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.7 kg",
+      "dimensions": "8 x 11 x 4 cm",
+      "stockQuantity": 67,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "25011542",
+        "sku": "RBXXX00032204",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 625
+      }
+    },
+    {
+      "name": "Kami Kubi — Yellow Printed Knee Length Dress with Belt",
+      "slug": "kami-kubi-yellow-printed-knee-length-dress-with-belt",
+      "price": 688,
+      "originalPrice": 1999,
+      "category": "ethnic",
+      "description": "Yellow Printed Knee Length Dress with Belt. Premium ethnic from our curated collection.",
+      "metaTitle": "Kami Kubi — Yellow Printed Knee Length Dress with Belt",
+      "metaDescription": "Yellow Printed Knee Length Dress with Belt. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2W21DRST3065_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2W21DRST3065_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2W21DRST3065_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2W21DRST3065_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2W21DRST3065_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2W21DRST3065_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2W21DRST3065_7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2W21DRST3065_8.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "12 x 15 x 7 cm",
+      "stockQuantity": 92,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "17339256",
+        "sku": "KAMIK00004271",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 688
+      }
+    },
+    {
+      "name": "Jompers — Women Mustard Viscose Rayon Embellished Dress",
+      "slug": "jompers-women-mustard-viscose-rayon-embellished-dress",
+      "price": 659,
+      "originalPrice": 3499,
+      "category": "ethnic",
+      "description": "Women Mustard Viscose Rayon Embellished Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "Jompers — Women Mustard Viscose Rayon Embellished Dress",
+      "metaDescription": "Women Mustard Viscose Rayon Embellished Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/6/862c353MdfebINJOK1494Mustard_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/6/862c353MdfebINJOK1494Mustard_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/6/862c353MdfebINJOK1494Mustard_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/6/862c353MdfebINJOK1494Mustard_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/6/862c353MdfebINJOK1494Mustard_5.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Trouser",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.7 kg",
+      "dimensions": "14 x 12 x 5 cm",
+      "stockQuantity": 84,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "25511847",
+        "sku": "JOMPE00018897",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 659
+      }
+    },
+    {
+      "name": "Jompers — Sequin Work Midi Mustard Ethnic Dress",
+      "slug": "jompers-sequin-work-knee-length-mustard-ethnic-dress",
+      "price": 643,
+      "originalPrice": 3499,
+      "category": "ethnic",
+      "description": "Sequin Work Midi Mustard Ethnic Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "Jompers — Sequin Work Midi Mustard Ethnic Dress",
+      "metaDescription": "Sequin Work Midi Mustard Ethnic Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2Xl"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/5/0530efbJOK1494Mustard_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/5/0530efbJOK1494Mustard_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/5/0530efbJOK1494Mustard_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/5/0530efbJOK1494Mustard_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/5/0530efbJOK1494Mustard_5.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Kurta",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.8 kg",
+      "dimensions": "11 x 15 x 6 cm",
+      "stockQuantity": 101,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "24368040",
+        "sku": "JOMPE00011575",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 643
+      }
+    },
+    {
+      "name": "Kami Kubi — Maroon Printed Knee Length Dress with Belt",
+      "slug": "kami-kubi-maroon-printed-knee-length-dress-with-belt",
+      "price": 683,
+      "originalPrice": 1999,
+      "category": "ethnic",
+      "description": "Maroon Printed Knee Length Dress with Belt. Premium ethnic from our curated collection.",
+      "metaTitle": "Kami Kubi — Maroon Printed Knee Length Dress with Belt",
+      "metaDescription": "Maroon Printed Knee Length Dress with Belt. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRSCORE1A_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRSCORE1A_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRSCORE1A_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRSCORE1A_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRSCORE1A_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRSCORE1A_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRSCORE1A_7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRSCORE1A_8.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Jacket",
+      "washCare": "Dry clean recommended",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.7 kg",
+      "dimensions": "14 x 15 x 2 cm",
+      "stockQuantity": 58,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "17339246",
+        "sku": "KAMIK00004261",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 683
+      }
+    },
+    {
+      "name": "Jompers — Women Yellow Viscose Rayon Embellished Dress",
+      "slug": "jompers-women-yellow-viscose-rayon-embellished-dress",
+      "price": 681,
+      "originalPrice": 3499,
+      "category": "ethnic",
+      "description": "Women Yellow Viscose Rayon Embellished Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "Jompers — Women Yellow Viscose Rayon Embellished Dress",
+      "metaDescription": "Women Yellow Viscose Rayon Embellished Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/6/862c353MdfebINJOK1494Yellow_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/6/862c353MdfebINJOK1494Yellow_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/6/862c353MdfebINJOK1494Yellow_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/6/862c353MdfebINJOK1494Yellow_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/6/862c353MdfebINJOK1494Yellow_5.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.8 kg",
+      "dimensions": "10 x 16 x 2 cm",
+      "stockQuantity": 81,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "25511849",
+        "sku": "JOMPE00018899",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 681
+      }
+    },
+    {
+      "name": "Jompers — Sequin Work Midi Grey Ethnic Dress",
+      "slug": "jompers-sequin-work-knee-length-grey-ethnic-dress",
+      "price": 642,
+      "originalPrice": 3499,
+      "category": "ethnic",
+      "description": "Sequin Work Midi Grey Ethnic Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "Jompers — Sequin Work Midi Grey Ethnic Dress",
+      "metaDescription": "Sequin Work Midi Grey Ethnic Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2Xl"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/5/0530efbJOK1494Grey_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/5/0530efbJOK1494Grey_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/5/0530efbJOK1494Grey_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/5/0530efbJOK1494Grey_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/5/0530efbJOK1494Grey_5.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "V-neck",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 10 x 7 cm",
+      "stockQuantity": 36,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "24368039",
+        "sku": "JOMPE00011574",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 642
+      }
+    },
+    {
+      "name": "Jompers — Sequin Work Midi Yellow Ethnic Dress",
+      "slug": "jompers-sequin-work-knee-length-yellow-ethnic-dress",
+      "price": 664,
+      "originalPrice": 3499,
+      "category": "ethnic",
+      "description": "Sequin Work Midi Yellow Ethnic Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "Jompers — Sequin Work Midi Yellow Ethnic Dress",
+      "metaDescription": "Sequin Work Midi Yellow Ethnic Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/5/0530efbJOK1494Yellow_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/5/0530efbJOK1494Yellow_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/5/0530efbJOK1494Yellow_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/5/0530efbJOK1494Yellow_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/5/0530efbJOK1494Yellow_5.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Jacket",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "9 x 11 x 6 cm",
+      "stockQuantity": 26,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "24368042",
+        "sku": "JOMPE00011577",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 664
+      }
+    },
+    {
+      "name": "Kami Kubi — Blue Solid Knee Length Dress with Belt",
+      "slug": "kami-kubi-blue-solid-knee-length-dress-with-belt",
+      "price": 692,
+      "originalPrice": 1999,
+      "category": "ethnic",
+      "description": "Blue Solid Knee Length Dress with Belt. Premium ethnic from our curated collection.",
+      "metaTitle": "Kami Kubi — Blue Solid Knee Length Dress with Belt",
+      "metaDescription": "Blue Solid Knee Length Dress with Belt. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRST3132_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRST3132_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRST3132_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRST3132_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRST3132_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRST3132_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRST3132_7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRST3132_8.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRST3132_9.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 16 x 3 cm",
+      "stockQuantity": 83,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "17339248",
+        "sku": "KAMIK00004263",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 692
+      }
+    },
+    {
+      "name": "Kami Kubi — Grey Floral Printed Knee Length Dress",
+      "slug": "kami-kubi-grey-floral-printed-knee-length-dress",
+      "price": 605,
+      "originalPrice": 1699,
+      "category": "ethnic",
+      "description": "Grey Floral Printed Knee Length Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "Kami Kubi — Grey Floral Printed Knee Length Dress",
+      "metaDescription": "Grey Floral Printed Knee Length Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S24DRSO4050_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S24DRSO4050_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S24DRSO4050_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S24DRSO4050_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S24DRSO4050_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S24DRSO4050_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S24DRSO4050_7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S24DRSO4050_8.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S24DRSO4050_9.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "9 x 12 x 5 cm",
+      "stockQuantity": 94,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "17339230",
+        "sku": "KAMIK00004245",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 605
+      }
+    },
+    {
+      "name": "Shaily — Pink Muslin Polka Dot Printed Casual Dress for Women",
+      "slug": "shaily-pink-muslin-polka-dot-printed-casual-dress-for-women",
+      "price": 648,
+      "originalPrice": 2963,
+      "category": "ethnic",
+      "description": "Pink Muslin Polka Dot Printed Casual Dress for Women. Premium ethnic from our curated collection.",
+      "metaTitle": "Shaily — Pink Muslin Polka Dot Printed Casual Dress for Women",
+      "metaDescription": "Pink Muslin Polka Dot Printed Casual Dress for Women. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c74d848SAILY-1SHY-1018KR_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c74d848SAILY-1SHY-1018KR_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c74d848SAILY-1SHY-1018KR_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c74d848SAILY-1SHY-1018KR_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c74d848SAILY-1SHY-1018KR_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c74d848SAILY-1SHY-1018KR_6.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Trouser",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "9 x 13 x 7 cm",
+      "stockQuantity": 54,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "14521138",
+        "sku": "SHAIL00002431",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 648
+      }
+    },
+    {
+      "name": "Kami Kubi — Pink Printed Midi Dress",
+      "slug": "kami-kubi-pink-printed-midi-dress",
+      "price": 697,
+      "originalPrice": 1899,
+      "category": "ethnic",
+      "description": "Pink Printed Midi Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "Kami Kubi — Pink Printed Midi Dress",
+      "metaDescription": "Pink Printed Midi Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRSA2139_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRSA2139_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRSA2139_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRSA2139_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRSA2139_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRSA2139_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRSA2139_7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S22DRSA2139_8.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.6 kg",
+      "dimensions": "10 x 15 x 3 cm",
+      "stockQuantity": 106,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-11T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "17339259",
+        "sku": "KAMIK00004274",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 697
+      }
+    },
+    {
+      "name": "Globus — Women Multi V-Neck Puff Sleeves Gathered Waist Bow Design Fit & Flare Fusion Midi Dress",
+      "slug": "globus-multi-v-neck-puff-sleeve-waistband-tie-ups-flared-dress",
+      "price": 613,
+      "originalPrice": 1499,
+      "category": "ethnic",
+      "description": "Women Multi V-Neck Puff Sleeves Gathered Waist Bow Design Fit & Flare Fusion Midi Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "Globus — Women Multi V-Neck Puff Sleeves Gathered Waist Bow Design Fit",
+      "metaDescription": "Women Multi V-Neck Puff Sleeves Gathered Waist Bow Design Fit & Flare Fusion Midi Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/3/f36fc17ICK8ECOMWDRS1410-MULTI_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/3/f36fc17ICK8ECOMWDRS1410-MULTI_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/3/f36fc17ICK8ECOMWDRS1410-MULTI_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/3/f36fc17ICK8ECOMWDRS1410-MULTI_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/3/f36fc17ICK8ECOMWDRS1410-MULTI_5.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "8 x 15 x 4 cm",
+      "stockQuantity": 77,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "15396573",
+        "sku": "GLOAD00023320",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 613
+      }
+    },
+    {
+      "name": "Kami Kubi — Blue Printed Knee Length Dress",
+      "slug": "kami-kubi-blue-printed-knee-length-dress",
+      "price": 685,
+      "originalPrice": 1499,
+      "category": "ethnic",
+      "description": "Blue Printed Knee Length Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "Kami Kubi — Blue Printed Knee Length Dress",
+      "metaDescription": "Blue Printed Knee Length Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S24DRSO4001B_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S24DRSO4001B_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S24DRSO4001B_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S24DRSO4001B_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S24DRSO4001B_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S24DRSO4001B_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S24DRSO4001B_7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S24DRSO4001B_8.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S24DRSO4001B_9.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Medium",
+      "packageContains": "1 Kurta",
+      "washCare": "Dry clean recommended",
+      "neckline": "Round",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Regular fit",
+      "weight": "0.3 kg",
+      "dimensions": "9 x 15 x 8 cm",
+      "stockQuantity": 75,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "17339218",
+        "sku": "KAMIK00004233",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 685
+      }
+    },
+    {
+      "name": "Likha — Syaahi Indigo Jaipuri Printed Midi Dress LIKDRS28",
+      "slug": "likha-by-casaq-fashion-syaahi-indigo-jaipuri-printed-midi-dress",
+      "price": 602,
+      "originalPrice": 1899,
+      "category": "ethnic",
+      "description": "Syaahi Indigo Jaipuri Printed Midi Dress LIKDRS28. Premium ethnic from our curated collection.",
+      "metaTitle": "Likha — Syaahi Indigo Jaipuri Printed Midi Dress LIKDRS28",
+      "metaDescription": "Syaahi Indigo Jaipuri Printed Midi Dress LIKDRS28. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/9990212AW2LIK617_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/9990212AW2LIK617_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/9990212AW2LIK617_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/9990212AW2LIK617_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/9990212AW2LIK617_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/9990212AW2LIK617_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/9990212AW2LIK617_7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/9/9990212AW2LIK617_8.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Henley",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.8 kg",
+      "dimensions": "14 x 12 x 3 cm",
+      "stockQuantity": 77,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "6966131",
+        "sku": "LIKAA00000475",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 602
+      }
+    },
+    {
+      "name": "Kami Kubi — Blue Printed Knee Length Dress",
+      "slug": "kami-kubi-blue-printed-knee-length-dress",
+      "price": 645,
+      "originalPrice": 2499,
+      "category": "ethnic",
+      "description": "Blue Printed Knee Length Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "Kami Kubi — Blue Printed Knee Length Dress",
+      "metaDescription": "Blue Printed Knee Length Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S23DRSM8076_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S23DRSM8076_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S23DRSM8076_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S23DRSM8076_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S23DRSM8076_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S23DRSM8076_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S23DRSM8076_7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/c77bdf2S23DRSM8076_8.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "13 x 14 x 5 cm",
+      "stockQuantity": 94,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "17339243",
+        "sku": "KAMIK00004258",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 645
+      }
+    },
+    {
+      "name": "Jompers — Women Blue Georgette Floral Dress",
+      "slug": "jompers-women-blue-georgette-floral-dress",
+      "price": 662,
+      "originalPrice": 2399,
+      "category": "ethnic",
+      "description": "Women Blue Georgette Floral Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "Jompers — Women Blue Georgette Floral Dress",
+      "metaDescription": "Women Blue Georgette Floral Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/6/862c353MdfebINJOK1516Blue_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/6/862c353MdfebINJOK1516Blue_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/6/862c353MdfebINJOK1516Blue_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/6/862c353MdfebINJOK1516Blue_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/6/862c353MdfebINJOK1516Blue_5.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.6 kg",
+      "dimensions": "12 x 11 x 8 cm",
+      "stockQuantity": 47,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "25511850",
+        "sku": "JOMPE00018900",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 662
+      }
+    },
+    {
+      "name": "Jompers — Printed Floral Flared Midi Blue Dress",
+      "slug": "jompers-printed-floral-flared-midi-blue-dress",
+      "price": 629,
+      "originalPrice": 2399,
+      "category": "ethnic",
+      "description": "Printed Floral Flared Midi Blue Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "Jompers — Printed Floral Flared Midi Blue Dress",
+      "metaDescription": "Printed Floral Flared Midi Blue Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/5/0530efbJOK1516Blue_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/5/0530efbJOK1516Blue_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/5/0530efbJOK1516Blue_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/5/0530efbJOK1516Blue_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/5/0530efbJOK1516Blue_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/5/0530efbJOK1516Blue_6.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "8 x 10 x 4 cm",
+      "stockQuantity": 13,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "24368043",
+        "sku": "JOMPE00011578",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 629
+      }
+    },
+    {
+      "name": "Yufta — Women Pink and Blue Colorblock A-Line Dress with Belt (Set of 2)",
+      "slug": "yufta-women-pink-and-blue-colorblock-a-line-dress",
+      "price": 640,
+      "originalPrice": 1999,
+      "category": "ethnic",
+      "description": "Women Pink and Blue Colorblock A-Line Dress with Belt (Set of 2). Premium ethnic from our curated collection.",
+      "metaTitle": "Yufta — Women Pink and Blue Colorblock A-Line Dress with Belt (Set of ",
+      "metaDescription": "Women Pink and Blue Colorblock A-Line Dress with Belt (Set of 2). Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/b/bb078988133DRSPK_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/b/bb078988133DRSPK_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/b/bb078988133DRSPK_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/b/bb078988133DRSPK_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/b/bb078988133DRSPK_5.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.5 kg",
+      "dimensions": "12 x 10 x 7 cm",
+      "stockQuantity": 111,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-01T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "9282804",
+        "sku": "YUFTA00005913",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 640
+      }
+    },
+    {
+      "name": "Gerua By Libas — Off White Printed Cotton Dress",
+      "slug": "gerua-off-white-printed-cotton-dress",
+      "price": 624,
+      "originalPrice": 2199,
+      "category": "ethnic",
+      "description": "Off White Printed Cotton Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "Gerua By Libas — Off White Printed Cotton Dress",
+      "metaDescription": "Off White Printed Cotton Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/9/49c8ff1OGERUA00002074_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/9/49c8ff1OGERUA00002074_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/9/49c8ff1OGERUA00002074_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/9/49c8ff1OGERUA00002074_4.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "12 x 13 x 7 cm",
+      "stockQuantity": 41,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "7000197",
+        "sku": "GERUA00002074",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 624
+      }
+    },
+    {
+      "name": "Libas — Green Silk Blend All-Over Floral Printed Midi Dress",
+      "slug": "libas-green-silk-blend-all-over-floral-printed-midi-dress",
+      "price": 638,
+      "originalPrice": 2199,
+      "category": "ethnic",
+      "description": "Green Silk Blend All-Over Floral Printed Midi Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "Libas — Green Silk Blend All-Over Floral Printed Midi Dress",
+      "metaDescription": "Green Silk Blend All-Over Floral Printed Midi Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/2/02e98a826232_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/2/02e98a826232_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/2/02e98a826232_3.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Medium",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.6 kg",
+      "dimensions": "11 x 13 x 3 cm",
+      "stockQuantity": 83,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "16471677",
+        "sku": "LIBAS00013063",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 638
+      }
+    },
+    {
+      "name": "Gerua By Libas — Off White Printed Cotton Dress",
+      "slug": "gerua-off-white-printed-cotton-dress",
+      "price": 624,
+      "originalPrice": 2199,
+      "category": "ethnic",
+      "description": "Off White Printed Cotton Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "Gerua By Libas — Off White Printed Cotton Dress",
+      "metaDescription": "Off White Printed Cotton Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/2/7282989G2584_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/2/7282989G2584_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/2/7282989G2584_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/2/7282989G2584_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/2/7282989G2584_5.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Kurta",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Comfort fit",
+      "weight": "0.7 kg",
+      "dimensions": "10 x 12 x 3 cm",
+      "stockQuantity": 88,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-01T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "7000198",
+        "sku": "GERUA00002075",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 624
+      }
+    },
+    {
+      "name": "InWeave — Off White V Neck A Line Mini Dress",
+      "slug": "inweave-off-white-v-neck-a-line-mini-dress",
+      "price": 670,
+      "originalPrice": 1195,
+      "category": "ethnic",
+      "description": "Off White V Neck A Line Mini Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "InWeave — Off White V Neck A Line Mini Dress",
+      "metaDescription": "Off White V Neck A Line Mini Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/3/835ed2e545612021326_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/3/835ed2e545612021326_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/3/835ed2e545612021326_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/3/835ed2e545612021326_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/3/835ed2e545612021326_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/3/835ed2e545612021326_6.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.7 kg",
+      "dimensions": "9 x 15 x 8 cm",
+      "stockQuantity": 95,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "25611742",
+        "sku": "INWEA00017819",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 670
+      }
+    },
+    {
+      "name": "InWeave — Dark Green Kantha R Neck W/S Dress",
+      "slug": "inweave-dark-green-kantha-r-neck-w-s-dress",
+      "price": 605,
+      "originalPrice": 1995,
+      "category": "ethnic",
+      "description": "Dark Green Kantha R Neck W/S Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "InWeave — Dark Green Kantha R Neck W/S Dress",
+      "metaDescription": "Dark Green Kantha R Neck W/S Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/9/293f680InWeave545611029414_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/9/293f680InWeave545611029414_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/9/293f680InWeave545611029414_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/9/293f680InWeave545611029414_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/9/293f680InWeave545611029414_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/9/293f680InWeave545611029414_6.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 12 x 6 cm",
+      "stockQuantity": 39,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "19568462",
+        "sku": "INWEA00009315",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 605
+      }
+    },
+    {
+      "name": "InWeave — Black Kantha R Neck W/S Dress",
+      "slug": "inweave-black-kantha-r-neck-w-s-dress",
+      "price": 653,
+      "originalPrice": 1995,
+      "category": "ethnic",
+      "description": "Black Kantha R Neck W/S Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "InWeave — Black Kantha R Neck W/S Dress",
+      "metaDescription": "Black Kantha R Neck W/S Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/9/293f680InWeave545611029413_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/9/293f680InWeave545611029413_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/9/293f680InWeave545611029413_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/9/293f680InWeave545611029413_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/9/293f680InWeave545611029413_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/9/293f680InWeave545611029413_6.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.7 kg",
+      "dimensions": "13 x 15 x 5 cm",
+      "stockQuantity": 16,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "19568461",
+        "sku": "INWEA00009314",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 653
+      }
+    },
+    {
+      "name": "InWeave — Dark Brown Kantha R Neck W/S Dress",
+      "slug": "inweave-dark-brown-kantha-r-neck-w-s-dress",
+      "price": 643,
+      "originalPrice": 1995,
+      "category": "ethnic",
+      "description": "Dark Brown Kantha R Neck W/S Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "InWeave — Dark Brown Kantha R Neck W/S Dress",
+      "metaDescription": "Dark Brown Kantha R Neck W/S Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/9/293f680InWeave545611029412_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/9/293f680InWeave545611029412_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/9/293f680InWeave545611029412_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/9/293f680InWeave545611029412_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/9/293f680InWeave545611029412_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/9/293f680InWeave545611029412_6.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.3 kg",
+      "dimensions": "10 x 10 x 4 cm",
+      "stockQuantity": 112,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "19568460",
+        "sku": "INWEA00009313",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 643
+      }
+    },
+    {
+      "name": "Yufta — Women Sea Green Solid Fit and Flare Dress",
+      "slug": "yufta-women-sea-green-solid-fit-and-flare-dress",
+      "price": 654,
+      "originalPrice": 2499,
+      "category": "ethnic",
+      "description": "Women Sea Green Solid Fit and Flare Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "Yufta — Women Sea Green Solid Fit and Flare Dress",
+      "metaDescription": "Women Sea Green Solid Fit and Flare Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/5/855b946YULLP_8142DRSSG-1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/5/855b946YULLP_8142DRSSG-2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/5/855b946YULLP_8142DRSSG-3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/5/855b946YULLP_8142DRSSG-4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/5/855b946YULLP_8142DRSSG-5.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.5 kg",
+      "dimensions": "8 x 10 x 4 cm",
+      "stockQuantity": 46,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "10137996",
+        "sku": "YUFTA00006563",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 654
+      }
+    },
+    {
+      "name": "InWeave — Wine Kantha R Neck W/S Dress",
+      "slug": "inweave-wine-kantha-r-neck-w-s-dress",
+      "price": 665,
+      "originalPrice": 1995,
+      "category": "ethnic",
+      "description": "Wine Kantha R Neck W/S Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "InWeave — Wine Kantha R Neck W/S Dress",
+      "metaDescription": "Wine Kantha R Neck W/S Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/9/293f680InWeave545611029409_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/9/293f680InWeave545611029409_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/9/293f680InWeave545611029409_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/9/293f680InWeave545611029409_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/9/293f680InWeave545611029409_6.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.7 kg",
+      "dimensions": "14 x 13 x 2 cm",
+      "stockQuantity": 91,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-11T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "19568457",
+        "sku": "INWEA00009310",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 665
+      }
+    },
+    {
+      "name": "R&B — Cotton Fit and Flare Striped Smocked Midi Dress",
+      "slug": "r-b-cotton-fit-and-flare-striped-smocked-midi-dress",
+      "price": 609,
+      "originalPrice": 999,
+      "category": "ethnic",
+      "description": "Cotton Fit and Flare Striped Smocked Midi Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "R&B — Cotton Fit and Flare Striped Smocked Midi Dress",
+      "metaDescription": "Cotton Fit and Flare Striped Smocked Midi Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0119WY037-2_BLACK_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0119WY037-2_BLACK_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0119WY037-2_BLACK_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0119WY037-2_BLACK_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0119WY037-2_BLACK_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0119WY037-2_BLACK_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0119WY037-2_BLACK_7.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.4 kg",
+      "dimensions": "14 x 10 x 2 cm",
+      "stockQuantity": 65,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-01T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "25011527",
+        "sku": "RBXXX00032189",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 609
+      }
+    },
+    {
+      "name": "Likha — Black Cotton Flex Printed Straight Dress LIKCGDR18 (S)",
+      "slug": "likha-black-cotton-flex-printed-straight-dress-likcgdr18",
+      "price": 677,
+      "originalPrice": 1999,
+      "category": "ethnic",
+      "description": "Black Cotton Flex Printed Straight Dress LIKCGDR18 (S). Premium ethnic from our curated collection.",
+      "metaTitle": "Likha — Black Cotton Flex Printed Straight Dress LIKCGDR18 (S)",
+      "metaDescription": "Black Cotton Flex Printed Straight Dress LIKCGDR18 (S). Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/918a15cLIKCGDR18Black_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/918a15cLIKCGDR18Black_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/918a15cLIKCGDR18Black_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/918a15cLIKCGDR18Black_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/918a15cLIKCGDR18Black_5.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.3 kg",
+      "dimensions": "9 x 16 x 4 cm",
+      "stockQuantity": 73,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-02T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "15228006",
+        "sku": "LIKHA00004831",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 677
+      }
+    },
+    {
+      "name": "InWeave — Women Teal Stripes Tassels Mini Dress",
+      "slug": "inweave-women-teal-stripes-tassels-mini-dress",
+      "price": 652,
+      "originalPrice": 2999,
+      "category": "ethnic",
+      "description": "Women Teal Stripes Tassels Mini Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "InWeave — Women Teal Stripes Tassels Mini Dress",
+      "metaDescription": "Women Teal Stripes Tassels Mini Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/8/c853838545617095394_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/8/c853838545617095394_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/8/c853838545617095394_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/8/c853838545617095394_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/8/c853838545617095394_5.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 12 x 5 cm",
+      "stockQuantity": 90,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "14471519",
+        "sku": "INWEA00005762",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 652
+      }
+    },
+    {
+      "name": "Mabish By Sonal Jain — Box Pleated Mini Dress",
+      "slug": "mabish-by-sonal-jain-box-pleated-mini-dress",
+      "price": 660,
+      "originalPrice": 1999,
+      "category": "ethnic",
+      "description": "Box Pleated Mini Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "Mabish By Sonal Jain — Box Pleated Mini Dress",
+      "metaDescription": "Box Pleated Mini Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/6/369f629TP0523CP13_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/6/369f629TP0523CP13_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/6/369f629TP0523CP13_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/6/369f629TP0523CP13_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/6/369f629TP0523CP13_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/6/369f629TP0523CP13_6.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.4 kg",
+      "dimensions": "12 x 10 x 2 cm",
+      "stockQuantity": 61,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "13200373",
+        "sku": "MABIS00000209",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 660
+      }
+    },
+    {
+      "name": "Globus — Women Ethnic Print Tie Ups Tassel Drawstring Neck Fit & Flare Mini Dress",
+      "slug": "globus-women-ethnic-print-tie-ups-tassel-neck-mini-dress",
+      "price": 609,
+      "originalPrice": 1999,
+      "category": "ethnic",
+      "description": "Women Ethnic Print Tie Ups Tassel Drawstring Neck Fit & Flare Mini Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "Globus — Women Ethnic Print Tie Ups Tassel Drawstring Neck Fit & Flare",
+      "metaDescription": "Women Ethnic Print Tie Ups Tassel Drawstring Neck Fit & Flare Mini Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/b/6b99d6bICK8ECOMWDRS1878BLUEA_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/b/6b99d6bICK8ECOMWDRS1878BLUEA_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/b/6b99d6bICK8ECOMWDRS1878BLUEA_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/b/6b99d6bICK8ECOMWDRS1878BLUEA_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/b/6b99d6bICK8ECOMWDRS1878BLUEA_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/b/6b99d6bICK8ECOMWDRS1878BLUEA_6.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Short",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "12 x 16 x 6 cm",
+      "stockQuantity": 113,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "16355244",
+        "sku": "GLOAD00025322",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 609
+      }
+    },
+    {
+      "name": "Mabish By Sonal Jain — Box Pleated Mini Dress",
+      "slug": "mabish-by-sonal-jain-box-pleated-mini-dress",
+      "price": 689,
+      "originalPrice": 1999,
+      "category": "ethnic",
+      "description": "Box Pleated Mini Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "Mabish By Sonal Jain — Box Pleated Mini Dress",
+      "metaDescription": "Box Pleated Mini Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/6/369f629TP0523CP15_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/6/369f629TP0523CP15_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/6/369f629TP0523CP15_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/6/369f629TP0523CP15_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/6/369f629TP0523CP15_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/6/369f629TP0523CP15_6.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.4 kg",
+      "dimensions": "8 x 11 x 4 cm",
+      "stockQuantity": 93,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-02T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "13200374",
+        "sku": "MABIS00000210",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 689
+      }
+    },
+    {
+      "name": "R&B — Cotton Fit and Flare Striped Smocked Midi Dress",
+      "slug": "r-b-cotton-fit-and-flare-striped-smocked-midi-dress",
+      "price": 660,
+      "originalPrice": 999,
+      "category": "ethnic",
+      "description": "Cotton Fit and Flare Striped Smocked Midi Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "R&B — Cotton Fit and Flare Striped Smocked Midi Dress",
+      "metaDescription": "Cotton Fit and Flare Striped Smocked Midi Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0119WY037-2_BLUE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0119WY037-2_BLUE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0119WY037-2_BLUE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0119WY037-2_BLUE_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0119WY037-2_BLUE_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0119WY037-2_BLUE_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aa524-0119WY037-2_BLUE_7.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Long",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.5 kg",
+      "dimensions": "13 x 15 x 3 cm",
+      "stockQuantity": 48,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "25011526",
+        "sku": "RBXXX00032188",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 660
+      }
+    },
+    {
+      "name": "Globus — Women Multicolour Allover Floral Printed V-Neck Smocked Flared Hem A-Line Dress",
+      "slug": "globus-women-multicolour-floral-printed-casual-v-neck-a-line-ethnic-dresses",
+      "price": 634,
+      "originalPrice": 1499,
+      "category": "ethnic",
+      "description": "Women Multicolour Allover Floral Printed V-Neck Smocked Flared Hem A-Line Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "Globus — Women Multicolour Allover Floral Printed V-Neck Smocked Flare",
+      "metaDescription": "Women Multicolour Allover Floral Printed V-Neck Smocked Flared Hem A-Line Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/c/1c85d00ICK8ECOMWDRS0774-MULTI_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/c/1c85d00ICK8ECOMWDRS0774-MULTI_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/c/1c85d00ICK8ECOMWDRS0774-MULTI_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/c/1c85d00ICK8ECOMWDRS0774-MULTI_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/c/1c85d00ICK8ECOMWDRS0774-MULTI_5.jpg"
+      ],
+      "tags": [
+        "ethnic"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Long",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.3 kg",
+      "dimensions": "8 x 14 x 5 cm",
+      "stockQuantity": 77,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "15415905",
+        "sku": "GLOAD00023579",
+        "categoryFilter": "4543",
+        "assignedPriceTier": 634
+      }
+    }
+  ]
+}

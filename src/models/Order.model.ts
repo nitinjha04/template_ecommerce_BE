@@ -1,5 +1,22 @@
-import mongoose, { Document, Schema, Types } from 'mongoose';
-import { OrderStatus } from '../types';
+import mongoose, { Document, Schema, Types } from "mongoose";
+import { OrderStatus, PaymentStatus } from "../types";
+
+/** Snapshot written when online payment succeeds (gateway status 2). */
+export interface IOrderPaymentInfo {
+  paymentId: Types.ObjectId;
+  paymentNumber: string;
+  status: PaymentStatus;
+  amount: number;
+  method: string;
+  provider?: string;
+  paidAt: Date;
+  merchantOrderNo?: string;
+  gatewayOrderNo?: string;
+  /** Bank/gateway UTR from verify response. */
+  utr?: string;
+  gatewayStatus?: string;
+  paidAmount?: number;
+}
 
 export interface IOrderItem {
   product: Types.ObjectId;
@@ -14,7 +31,8 @@ export interface IOrderItem {
 export interface IShippingAddress {
   firstName: string;
   lastName: string;
-  phone: string;
+  company?: string;
+  phone?: string;
   street: string;
   city: string;
   state: string;
@@ -23,8 +41,9 @@ export interface IShippingAddress {
 }
 
 export interface IOrder extends Document {
+  store: Types.ObjectId;
   orderNumber: string;
-  user: Types.ObjectId;
+  user?: Types.ObjectId;
   customerName: string;
   email: string;
   phone: string;
@@ -35,6 +54,7 @@ export interface IOrder extends Document {
   shippingAddress: IShippingAddress;
   paymentMethod: string;
   orderNote?: string;
+  paymentInfo?: IOrderPaymentInfo;
   createdAt: Date;
   updatedAt: Date;
 }
@@ -43,7 +63,7 @@ const orderItemSchema = new Schema<IOrderItem>(
   {
     product: {
       type: Schema.Types.ObjectId,
-      ref: 'Product',
+      ref: "Product",
       required: true,
     },
     name: { type: String, required: true },
@@ -53,33 +73,40 @@ const orderItemSchema = new Schema<IOrderItem>(
     color: { type: String, required: true },
     image: { type: String },
   },
-  { _id: false }
+  { _id: false },
 );
 
 const shippingAddressSchema = new Schema<IShippingAddress>(
   {
     firstName: { type: String, required: true },
     lastName: { type: String, required: true },
-    phone: { type: String, required: true },
+    company: { type: String, default: "" },
+    phone: { type: String },
     street: { type: String, required: true },
     city: { type: String, required: true },
     state: { type: String, required: true },
     country: { type: String, required: true },
     postalCode: { type: String, required: true },
   },
-  { _id: false }
+  { _id: false },
 );
 
 const ORDER_STATUSES: OrderStatus[] = [
-  'Pending',
-  'Processing',
-  'Shipped',
-  'Delivered',
-  'Cancelled',
+  "Pending",
+  "Processing",
+  "Shipped",
+  "Delivered",
+  "Cancelled",
 ];
 
 const orderSchema = new Schema<IOrder>(
   {
+    store: {
+      type: Schema.Types.ObjectId,
+      ref: 'Store',
+      required: true,
+      index: true,
+    },
     orderNumber: {
       type: String,
       unique: true,
@@ -87,8 +114,8 @@ const orderSchema = new Schema<IOrder>(
     },
     user: {
       type: Schema.Types.ObjectId,
-      ref: 'User',
-      required: true,
+      ref: "User",
+      required: false,
       index: true,
     },
     customerName: { type: String, required: true },
@@ -96,21 +123,38 @@ const orderSchema = new Schema<IOrder>(
     phone: { type: String, required: true },
     items: {
       type: [orderItemSchema],
-      validate: [(v: IOrderItem[]) => v.length > 0, 'Order must have items'],
+      validate: [(v: IOrderItem[]) => v.length > 0, "Order must have items"],
     },
     itemCount: { type: Number, required: true, min: 1 },
     total: { type: Number, required: true, min: 0 },
     status: {
       type: String,
       enum: ORDER_STATUSES,
-      default: 'Pending',
+      default: "Pending",
     },
     shippingAddress: {
       type: shippingAddressSchema,
       required: true,
     },
     paymentMethod: { type: String, required: true },
-    orderNote: { type: String, default: '' },
+    orderNote: { type: String, default: "" },
+    paymentInfo: {
+      type: {
+        paymentId: { type: Schema.Types.ObjectId, ref: "Payment" },
+        paymentNumber: { type: String },
+        status: { type: String, enum: ["Completed", "Pending", "Failed"] },
+        amount: { type: Number, min: 0 },
+        method: { type: String },
+        provider: { type: String },
+        paidAt: { type: Date },
+        merchantOrderNo: { type: String },
+        gatewayOrderNo: { type: String },
+        utr: { type: String },
+        gatewayStatus: { type: String },
+        paidAmount: { type: Number, min: 0 },
+      },
+      _id: false,
+    },
   },
   {
     timestamps: true,
@@ -125,9 +169,12 @@ const orderSchema = new Schema<IOrder>(
         return ret;
       },
     },
-  }
+  },
 );
 
 orderSchema.index({ status: 1, createdAt: -1 });
+orderSchema.index({ email: 1, createdAt: -1 });
+orderSchema.index({ phone: 1, createdAt: -1 });
+orderSchema.index({ orderNumber: 1 });
 
-export const Order = mongoose.model<IOrder>('Order', orderSchema);
+export const Order = mongoose.model<IOrder>("Order", orderSchema);

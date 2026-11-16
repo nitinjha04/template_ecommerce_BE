@@ -1,0 +1,2964 @@
+{
+  "scrapedAt": "2026-06-24T19:18:07.456Z",
+  "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+  "categoryName": "jeans and jeggings",
+  "categorySlug": "maxwomen-bottoms-jeansandjeggings",
+  "storeId": "6a3bf2e10b0f40e291c26f6f",
+  "storeDomain": "nexa-skyline.com",
+  "priceMin": 800,
+  "priceMax": 899,
+  "categoryId": "maxwomen-bottoms-jeansandjeggings",
+  "priceMode": "random",
+  "sort": "low-to-high",
+  "totalProducts": 46,
+  "pagesFetched": 2,
+  "products": [
+    {
+      "name": "Women Solid Skinny Fit Jeans",
+      "slug": "1000015801747-black-black",
+      "price": 837,
+      "originalPrice": 999,
+      "category": "jeans and jeggings",
+      "description": "Women Solid Skinny Fit Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Skinny Fit Jeans",
+      "metaDescription": "Women Solid Skinny Fit Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015801747-Black-BLACK-1000015801747_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015801747-Black-BLACK-1000015801747_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015801747-Black-BLACK-1000015801747_08-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015801747-Black-BLACK-1000015801747_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015801747-Black-BLACK-1000015801747_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015801747-Black-BLACK-1000015801747_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015801747-Black-BLACK-1000015801747_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015801747-Black-BLACK-1000015801747_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Round",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.4 kg",
+      "dimensions": "8 x 16 x 7 cm",
+      "stockQuantity": 22,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000015801747BlackBLACK",
+        "sku": "1000015801747-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 837
+      }
+    },
+    {
+      "name": "Women Solid High Rise Jeggings",
+      "slug": "1000015630435-grey-grey",
+      "price": 806,
+      "originalPrice": 999,
+      "category": "jeans and jeggings",
+      "description": "Women Solid High Rise Jeggings. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid High Rise Jeggings",
+      "metaDescription": "Women Solid High Rise Jeggings. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL"
+      ],
+      "colors": [
+        "Grey"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015630435-Grey-GREY-1000015307074_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015630435-Grey-GREY-1000015307074_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015630435-Grey-GREY-1000015307074_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015630435-Grey-GREY-1000015307074_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015630435-Grey-GREY-1000015307074_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015630435-Grey-GREY-1000015307074_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015630435-Grey-GREY-1000015307074_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.7 kg",
+      "dimensions": "9 x 11 x 6 cm",
+      "stockQuantity": 75,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000015630435GreyGREY",
+        "sku": "1000015630435-Grey-GREY",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 806
+      }
+    },
+    {
+      "name": "Women Solid Jeggings",
+      "slug": "1000015630426-blue-darkblue",
+      "price": 870,
+      "originalPrice": 999,
+      "category": "jeans and jeggings",
+      "description": "Women Solid Jeggings. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Jeggings",
+      "metaDescription": "Women Solid Jeggings. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000015630426-Blue-DARKBLUE-1000015307048_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015630426-Blue-DARKBLUE-1000015307048_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015630426-Blue-DARKBLUE-1000015307048_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015630426-Blue-DARKBLUE-1000015307048_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015630426-Blue-DARKBLUE-1000015307048_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015630426-Blue-DARKBLUE-1000015307048_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015630426-Blue-DARKBLUE-1000015307048_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.4 kg",
+      "dimensions": "10 x 11 x 3 cm",
+      "stockQuantity": 57,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000015630426BlueDARKBLUE",
+        "sku": "1000015630426-Blue-DARKBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 870
+      }
+    },
+    {
+      "name": "Women Solid Jeggings",
+      "slug": "1000015630417-black-black",
+      "price": 811,
+      "originalPrice": 999,
+      "category": "jeans and jeggings",
+      "description": "Women Solid Jeggings. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Jeggings",
+      "metaDescription": "Women Solid Jeggings. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000015630417-Black-BLACK-1000015307035_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015630417-Black-BLACK-1000015307035_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015630417-Black-BLACK-1000015307035_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015630417-Black-BLACK-1000015307035_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015630417-Black-BLACK-1000015307035_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015630417-Black-BLACK-1000015307035_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015630417-Black-BLACK-1000015307035_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "10 x 10 x 2 cm",
+      "stockQuantity": 50,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000015630417BlackBLACK",
+        "sku": "1000015630417-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 811
+      }
+    },
+    {
+      "name": "Women Washed Ankle Grazer Jeans",
+      "slug": "1000015583331-blue-lightblue",
+      "price": 832,
+      "originalPrice": 999,
+      "category": "jeans and jeggings",
+      "description": "Women Washed Ankle Grazer Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Washed Ankle Grazer Jeans",
+      "metaDescription": "Women Washed Ankle Grazer Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015583331-Blue-LIGHTBLUE-1000015583331_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015583331-Blue-LIGHTBLUE-1000015583331_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015583331-Blue-LIGHTBLUE-1000015583331_08-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015583331-Blue-LIGHTBLUE-1000015583331_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015583331-Blue-LIGHTBLUE-1000015583331_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015583331-Blue-LIGHTBLUE-1000015583331_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015583331-Blue-LIGHTBLUE-1000015583331_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015583331-Blue-LIGHTBLUE-1000015583331_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.4 kg",
+      "dimensions": "13 x 13 x 4 cm",
+      "stockQuantity": 101,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "1000015583331BlueLIGHTBLUE",
+        "sku": "1000015583331-Blue-LIGHTBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 832
+      }
+    },
+    {
+      "name": "Women Washed Skinny Fit Crop Jeans",
+      "slug": "1000015583316-blue-midblue",
+      "price": 814,
+      "originalPrice": 999,
+      "category": "jeans and jeggings",
+      "description": "Women Washed Skinny Fit Crop Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Washed Skinny Fit Crop Jeans",
+      "metaDescription": "Women Washed Skinny Fit Crop Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015583316-Blue-MIDBLUE-1000015583316_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015583316-Blue-MIDBLUE-1000015583316_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015583316-Blue-MIDBLUE-1000015583316_08-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015583316-Blue-MIDBLUE-1000015583316_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015583316-Blue-MIDBLUE-1000015583316_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015583316-Blue-MIDBLUE-1000015583316_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015583316-Blue-MIDBLUE-1000015583316_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015583316-Blue-MIDBLUE-1000015583316_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Comfort fit",
+      "weight": "0.7 kg",
+      "dimensions": "10 x 16 x 6 cm",
+      "stockQuantity": 96,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000015583316BlueMIDBLUE",
+        "sku": "1000015583316-Blue-MIDBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 814
+      }
+    },
+    {
+      "name": "Women Solid Skinny Fit Jeans",
+      "slug": "1000015578419-black-black",
+      "price": 892,
+      "originalPrice": 999,
+      "category": "jeans and jeggings",
+      "description": "Women Solid Skinny Fit Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Skinny Fit Jeans",
+      "metaDescription": "Women Solid Skinny Fit Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015578419-Black-BLACK-1000015578419_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015578419-Black-BLACK-1000015578419_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015578419-Black-BLACK-1000015578419_08-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015578419-Black-BLACK-1000015578419_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015578419-Black-BLACK-1000015578419_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015578419-Black-BLACK-1000015578419_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015578419-Black-BLACK-1000015578419_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015578419-Black-BLACK-1000015578419_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.4 kg",
+      "dimensions": "13 x 16 x 3 cm",
+      "stockQuantity": 93,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000015578419BlackBLACK",
+        "sku": "1000015578419-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 892
+      }
+    },
+    {
+      "name": "Women Washed Skinny Fit Crop Jeans",
+      "slug": "1000015352866-blue-darkblue",
+      "price": 877,
+      "originalPrice": 999,
+      "category": "jeans and jeggings",
+      "description": "Women Washed Skinny Fit Crop Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Washed Skinny Fit Crop Jeans",
+      "metaDescription": "Women Washed Skinny Fit Crop Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000015352866-Blue-DARKBLUE-1000015352866_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015352866-Blue-DARKBLUE-1000015352866_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015352866-Blue-DARKBLUE-1000015352866_08-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015352866-Blue-DARKBLUE-1000015352866_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015352866-Blue-DARKBLUE-1000015352866_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015352866-Blue-DARKBLUE-1000015352866_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015352866-Blue-DARKBLUE-1000015352866_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000015352866-Blue-DARKBLUE-1000015352866_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.6 kg",
+      "dimensions": "14 x 13 x 6 cm",
+      "stockQuantity": 71,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-03T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000015352866BlueDARKBLUE",
+        "sku": "1000015352866-Blue-DARKBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 877
+      }
+    },
+    {
+      "name": "Women Solid Ankle Grazer Jeans",
+      "slug": "1000015352851-black-black",
+      "price": 823,
+      "originalPrice": 999,
+      "category": "jeans and jeggings",
+      "description": "Women Solid Ankle Grazer Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Ankle Grazer Jeans",
+      "metaDescription": "Women Solid Ankle Grazer Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015352851-Black-BLACK-1000015352851_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015352851-Black-BLACK-1000015352851_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015352851-Black-BLACK-1000015352851_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015352851-Black-BLACK-1000015352851_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015352851-Black-BLACK-1000015352851_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015352851-Black-BLACK-1000015352851_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015352851-Black-BLACK-1000015352851_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Trouser",
+      "washCare": "Dry clean recommended",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "10 x 14 x 5 cm",
+      "stockQuantity": 118,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000015352851BlackBLACK",
+        "sku": "1000015352851-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 823
+      }
+    },
+    {
+      "name": "Women Washed Skinny Fit Jeans",
+      "slug": "1000015327463-blue-midblue",
+      "price": 859,
+      "originalPrice": 999,
+      "category": "jeans and jeggings",
+      "description": "Women Washed Skinny Fit Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Washed Skinny Fit Jeans",
+      "metaDescription": "Women Washed Skinny Fit Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015327463-Blue-MIDBLUE-1000015327463_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015327463-Blue-MIDBLUE-1000015327463_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015327463-Blue-MIDBLUE-1000015327463_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015327463-Blue-MIDBLUE-1000015327463_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015327463-Blue-MIDBLUE-1000015327463_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015327463-Blue-MIDBLUE-1000015327463_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015327463-Blue-MIDBLUE-1000015327463_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015327463-Blue-MIDBLUE-1000015327463_08-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Short",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.8 kg",
+      "dimensions": "10 x 13 x 7 cm",
+      "stockQuantity": 120,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000015327463BlueMIDBLUE",
+        "sku": "1000015327463-Blue-MIDBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 859
+      }
+    },
+    {
+      "name": "Women Skinny Fit Push-Up Jeans",
+      "slug": "1000015327448-grey-grey",
+      "price": 829,
+      "originalPrice": 999,
+      "category": "jeans and jeggings",
+      "description": "Women Skinny Fit Push-Up Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Skinny Fit Push-Up Jeans",
+      "metaDescription": "Women Skinny Fit Push-Up Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "colors": [
+        "Grey"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015327448-Grey-GREY-1000015327448_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015327448-Grey-GREY-1000015327448_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015327448-Grey-GREY-1000015327448_08-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015327448-Grey-GREY-1000015327448_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015327448-Grey-GREY-1000015327448_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015327448-Grey-GREY-1000015327448_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015327448-Grey-GREY-1000015327448_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015327448-Grey-GREY-1000015327448_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "V-neck",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "10 x 13 x 4 cm",
+      "stockQuantity": 51,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000015327448GreyGREY",
+        "sku": "1000015327448-Grey-GREY",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 829
+      }
+    },
+    {
+      "name": "Women Washed Skinny Fit Jeans",
+      "slug": "1000015290362-blue-lightblue",
+      "price": 833,
+      "originalPrice": 999,
+      "category": "jeans and jeggings",
+      "description": "Women Washed Skinny Fit Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Washed Skinny Fit Jeans",
+      "metaDescription": "Women Washed Skinny Fit Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015290362-Blue-LIGHTBLUE-1000015290362_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015290362-Blue-LIGHTBLUE-1000015290362_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015290362-Blue-LIGHTBLUE-1000015290362_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015290362-Blue-LIGHTBLUE-1000015290362_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015290362-Blue-LIGHTBLUE-1000015290362_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015290362-Blue-LIGHTBLUE-1000015290362_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015290362-Blue-LIGHTBLUE-1000015290362_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Jacket",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.4 kg",
+      "dimensions": "9 x 15 x 8 cm",
+      "stockQuantity": 64,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000015290362BlueLIGHTBLUE",
+        "sku": "1000015290362-Blue-LIGHTBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 833
+      }
+    },
+    {
+      "name": "Women Solid Skinny Fit Jeans",
+      "slug": "1000014882380-black-black",
+      "price": 892,
+      "originalPrice": 999,
+      "category": "jeans and jeggings",
+      "description": "Women Solid Skinny Fit Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Skinny Fit Jeans",
+      "metaDescription": "Women Solid Skinny Fit Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014882380-Black-BLACK-1000014882380_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014882380-Black-BLACK-1000014882380_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014882380-Black-BLACK-1000014882380_08-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014882380-Black-BLACK-1000014882380_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014882380-Black-BLACK-1000014882380_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014882380-Black-BLACK-1000014882380_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014882380-Black-BLACK-1000014882380_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014882380-Black-BLACK-1000014882380_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Dry clean recommended",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "14 x 16 x 7 cm",
+      "stockQuantity": 85,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000014882380BlackBLACK",
+        "sku": "1000014882380-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 892
+      }
+    },
+    {
+      "name": "Women Washed Skinny Fit Jeans",
+      "slug": "1000014873627-blue-lightblue",
+      "price": 815,
+      "originalPrice": 999,
+      "category": "jeans and jeggings",
+      "description": "Women Washed Skinny Fit Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Washed Skinny Fit Jeans",
+      "metaDescription": "Women Washed Skinny Fit Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014873627-Blue-LIGHTBLUE-1000014873627_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014873627-Blue-LIGHTBLUE-1000014873627_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014873627-Blue-LIGHTBLUE-1000014873627_08-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014873627-Blue-LIGHTBLUE-1000014873627_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014873627-Blue-LIGHTBLUE-1000014873627_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014873627-Blue-LIGHTBLUE-1000014873627_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014873627-Blue-LIGHTBLUE-1000014873627_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014873627-Blue-LIGHTBLUE-1000014873627_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.5 kg",
+      "dimensions": "13 x 16 x 3 cm",
+      "stockQuantity": 62,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000014873627BlueLIGHTBLUE",
+        "sku": "1000014873627-Blue-LIGHTBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 815
+      }
+    },
+    {
+      "name": "Women Skinny Fit Push-Up Jeans",
+      "slug": "1000014790410-blue-darkblue",
+      "price": 899,
+      "originalPrice": 999,
+      "category": "jeans and jeggings",
+      "description": "Women Skinny Fit Push-Up Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Skinny Fit Push-Up Jeans",
+      "metaDescription": "Women Skinny Fit Push-Up Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014790410-Blue-DARKBLUE-1000014790410_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014790410-Blue-DARKBLUE-1000014790410_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014790410-Blue-DARKBLUE-1000014790410_08-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014790410-Blue-DARKBLUE-1000014790410_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014790410-Blue-DARKBLUE-1000014790410_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014790410-Blue-DARKBLUE-1000014790410_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014790410-Blue-DARKBLUE-1000014790410_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014790410-Blue-DARKBLUE-1000014790410_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "13 x 16 x 4 cm",
+      "stockQuantity": 23,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000014790410BlueDARKBLUE",
+        "sku": "1000014790410-Blue-DARKBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 899
+      }
+    },
+    {
+      "name": "Women Washed Skinny Fit Jeans",
+      "slug": "1000014759668-blue-midblue",
+      "price": 896,
+      "originalPrice": 999,
+      "category": "jeans and jeggings",
+      "description": "Women Washed Skinny Fit Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Washed Skinny Fit Jeans",
+      "metaDescription": "Women Washed Skinny Fit Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014759668-Blue-MIDBLUE-1000014759668_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014759668-Blue-MIDBLUE-1000014759668_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014759668-Blue-MIDBLUE-1000014759668_08-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014759668-Blue-MIDBLUE-1000014759668_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014759668-Blue-MIDBLUE-1000014759668_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014759668-Blue-MIDBLUE-1000014759668_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014759668-Blue-MIDBLUE-1000014759668_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014759668-Blue-MIDBLUE-1000014759668_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "V-neck",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Relaxed fit",
+      "weight": "0.4 kg",
+      "dimensions": "12 x 12 x 5 cm",
+      "stockQuantity": 68,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1000014759668BlueMIDBLUE",
+        "sku": "1000014759668-Blue-MIDBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 896
+      }
+    },
+    {
+      "name": "Women Washed Skinny Fit Jeans",
+      "slug": "1000014737294-grey-darkgrey",
+      "price": 838,
+      "originalPrice": 999,
+      "category": "jeans and jeggings",
+      "description": "Women Washed Skinny Fit Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Washed Skinny Fit Jeans",
+      "metaDescription": "Women Washed Skinny Fit Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "colors": [
+        "Grey"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014737294-Grey-DARKGREY-1000014737294_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014737294-Grey-DARKGREY-1000014737294_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014737294-Grey-DARKGREY-1000014737294_08-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014737294-Grey-DARKGREY-1000014737294_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014737294-Grey-DARKGREY-1000014737294_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014737294-Grey-DARKGREY-1000014737294_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014737294-Grey-DARKGREY-1000014737294_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014737294-Grey-DARKGREY-1000014737294_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Dry clean recommended",
+      "neckline": "Band collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 16 x 3 cm",
+      "stockQuantity": 58,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000014737294GreyDARKGREY",
+        "sku": "1000014737294-Grey-DARKGREY",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 838
+      }
+    },
+    {
+      "name": "Women Solid Elasticated Jeggings",
+      "slug": "1000013152620-black-blackp",
+      "price": 876,
+      "originalPrice": 999,
+      "category": "jeans and jeggings",
+      "description": "Women Solid Elasticated Jeggings. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Elasticated Jeggings",
+      "metaDescription": "Women Solid Elasticated Jeggings. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media-uk.landmarkshops.in/max-new/1000013152620-Black-BLACKP-1000012743789_01-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000013152620-Black-BLACKP-1000012743789_02-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000013152620-Black-BLACKP-1000012743789_03-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000013152620-Black-BLACKP-1000012743789_04-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000013152620-Black-BLACKP-1000012743789_05-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000013152620-Black-BLACKP-1000012743789_06-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000013152620-Black-BLACKP-1000012743789_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "11 x 14 x 3 cm",
+      "stockQuantity": 117,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-02T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000013152620BlackBLACKP",
+        "sku": "1000013152620-Black-BLACKP",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 876
+      }
+    },
+    {
+      "name": "Women Solid Skinny Fit Jeans",
+      "slug": "1000010840890-black-black",
+      "price": 877,
+      "originalPrice": 999,
+      "category": "jeans and jeggings",
+      "description": "Women Solid Skinny Fit Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Skinny Fit Jeans",
+      "metaDescription": "Women Solid Skinny Fit Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media-uk.landmarkshops.in/max-new/1000010840890-Black-BLACK-1000010840890-10032022_01-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000010840890-Black-BLACK-1000010840890-10032022_02-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000010840890-Black-BLACK-1000010840890-10032022_08-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000010840890-Black-BLACK-1000010840890-10032022_03-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000010840890-Black-BLACK-1000010840890-10032022_04-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000010840890-Black-BLACK-1000010840890-10032022_05-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000010840890-Black-BLACK-1000010840890-10032022_06-2100.jpg",
+        "https://media-uk.landmarkshops.in/max-new/1000010840890-Black-BLACK-1000010840890-10032022_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Round",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.6 kg",
+      "dimensions": "10 x 15 x 6 cm",
+      "stockQuantity": 62,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000010840890BlackBLACK",
+        "sku": "1000010840890-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 877
+      }
+    },
+    {
+      "name": "Women Solid Pencil Fit Jeans",
+      "slug": "1000010840838-black-black",
+      "price": 885,
+      "originalPrice": 999,
+      "category": "jeans and jeggings",
+      "description": "Women Solid Pencil Fit Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Pencil Fit Jeans",
+      "metaDescription": "Women Solid Pencil Fit Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media-us.landmarkshops.in/max-new/1000010840838-Black-BLACK-1000010840838-10032022_01-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000010840838-Black-BLACK-1000010840838-10032022_02-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000010840838-Black-BLACK-1000010840838-10032022_03-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000010840838-Black-BLACK-1000010840838-10032022_04-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000010840838-Black-BLACK-1000010840838-10032022_05-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000010840838-Black-BLACK-1000010840838-10032022_06-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000010840838-Black-BLACK-1000010840838-10032022_07-2100.jpg",
+        "https://media-us.landmarkshops.in/max-new/1000010840838-Black-BLACK-1000010840838-10032022_08-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.5 kg",
+      "dimensions": "11 x 15 x 8 cm",
+      "stockQuantity": 59,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000010840838BlackBLACK",
+        "sku": "1000010840838-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 885
+      }
+    },
+    {
+      "name": "Women Washed Wide Leg Jeans",
+      "slug": "1000015583346-blue-lightblue",
+      "price": 827,
+      "originalPrice": 1040,
+      "category": "jeans and jeggings",
+      "description": "Women Washed Wide Leg Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Washed Wide Leg Jeans",
+      "metaDescription": "Women Washed Wide Leg Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015583346-Blue-LIGHTBLUE-1000015583346_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015583346-Blue-LIGHTBLUE-1000015583346_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015583346-Blue-LIGHTBLUE-1000015583346_08-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015583346-Blue-LIGHTBLUE-1000015583346_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015583346-Blue-LIGHTBLUE-1000015583346_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015583346-Blue-LIGHTBLUE-1000015583346_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015583346-Blue-LIGHTBLUE-1000015583346_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015583346-Blue-LIGHTBLUE-1000015583346_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 10 x 5 cm",
+      "stockQuantity": 53,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000015583346BlueLIGHTBLUE",
+        "sku": "1000015583346-Blue-LIGHTBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 827
+      }
+    },
+    {
+      "name": "Women Washed Wide Leg Jeans",
+      "slug": "1000014917502-blue-midblue",
+      "price": 869,
+      "originalPrice": 1040,
+      "category": "jeans and jeggings",
+      "description": "Women Washed Wide Leg Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Washed Wide Leg Jeans",
+      "metaDescription": "Women Washed Wide Leg Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014917502-Blue-MIDBLUE-1000014917502_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014917502-Blue-MIDBLUE-1000014917502_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014917502-Blue-MIDBLUE-1000014917502_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014917502-Blue-MIDBLUE-1000014917502_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014917502-Blue-MIDBLUE-1000014917502_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014917502-Blue-MIDBLUE-1000014917502_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014917502-Blue-MIDBLUE-1000014917502_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.5 kg",
+      "dimensions": "13 x 16 x 6 cm",
+      "stockQuantity": 92,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000014917502BlueMIDBLUE",
+        "sku": "1000014917502-Blue-MIDBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 869
+      }
+    },
+    {
+      "name": "Women Dark Washed Slim Straight Jeans",
+      "slug": "1000016609113-blue-darkblue",
+      "price": 834,
+      "originalPrice": 1099,
+      "category": "jeans and jeggings",
+      "description": "Women Dark Washed Slim Straight Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Dark Washed Slim Straight Jeans",
+      "metaDescription": "Women Dark Washed Slim Straight Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016609113-Blue-DARKBLUE-1000016609113_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016609113-Blue-DARKBLUE-1000016609113_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016609113-Blue-DARKBLUE-1000016609113_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016609113-Blue-DARKBLUE-1000016609113_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016609113-Blue-DARKBLUE-1000016609113_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016609113-Blue-DARKBLUE-1000016609113_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016609113-Blue-DARKBLUE-1000016609113_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.6 kg",
+      "dimensions": "10 x 13 x 6 cm",
+      "stockQuantity": 39,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1000016609113BlueDARKBLUE",
+        "sku": "1000016609113-Blue-DARKBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 834
+      }
+    },
+    {
+      "name": "Women Washed Slim Straight Fit Jeans",
+      "slug": "1000016526329-blue-lightblue",
+      "price": 881,
+      "originalPrice": 1099,
+      "category": "jeans and jeggings",
+      "description": "Women Washed Slim Straight Fit Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Washed Slim Straight Fit Jeans",
+      "metaDescription": "Women Washed Slim Straight Fit Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016526329-Blue-LIGHTBLUE-1000016526329_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016526329-Blue-LIGHTBLUE-1000016526329_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016526329-Blue-LIGHTBLUE-1000016526329_08-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016526329-Blue-LIGHTBLUE-1000016526329_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016526329-Blue-LIGHTBLUE-1000016526329_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016526329-Blue-LIGHTBLUE-1000016526329_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016526329-Blue-LIGHTBLUE-1000016526329_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016526329-Blue-LIGHTBLUE-1000016526329_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "12 x 11 x 6 cm",
+      "stockQuantity": 54,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000016526329BlueLIGHTBLUE",
+        "sku": "1000016526329-Blue-LIGHTBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 881
+      }
+    },
+    {
+      "name": "Women Washed Flared Jeans",
+      "slug": "1000016526316-blue-midblue",
+      "price": 838,
+      "originalPrice": 1099,
+      "category": "jeans and jeggings",
+      "description": "Women Washed Flared Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Washed Flared Jeans",
+      "metaDescription": "Women Washed Flared Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016526316-Blue-MIDBLUE-1000016526316_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016526316-Blue-MIDBLUE-1000016526316_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016526316-Blue-MIDBLUE-1000016526316_08-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016526316-Blue-MIDBLUE-1000016526316_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016526316-Blue-MIDBLUE-1000016526316_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016526316-Blue-MIDBLUE-1000016526316_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016526316-Blue-MIDBLUE-1000016526316_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016526316-Blue-MIDBLUE-1000016526316_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Jacket",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "13 x 12 x 5 cm",
+      "stockQuantity": 56,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000016526316BlueMIDBLUE",
+        "sku": "1000016526316-Blue-MIDBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 838
+      }
+    },
+    {
+      "name": "Women Washed Slim Straight Jeans",
+      "slug": "1000016526264-blue-midblue",
+      "price": 814,
+      "originalPrice": 1099,
+      "category": "jeans and jeggings",
+      "description": "Women Washed Slim Straight Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Washed Slim Straight Jeans",
+      "metaDescription": "Women Washed Slim Straight Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016526264-Blue-MIDBLUE-1000016526264_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016526264-Blue-MIDBLUE-1000016526264_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016526264-Blue-MIDBLUE-1000016526264_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016526264-Blue-MIDBLUE-1000016526264_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016526264-Blue-MIDBLUE-1000016526264_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016526264-Blue-MIDBLUE-1000016526264_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016526264-Blue-MIDBLUE-1000016526264_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash cold",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.4 kg",
+      "dimensions": "9 x 11 x 3 cm",
+      "stockQuantity": 89,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "1000016526264BlueMIDBLUE",
+        "sku": "1000016526264-Blue-MIDBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 814
+      }
+    },
+    {
+      "name": "Women Solid Slim Straight Jeans",
+      "slug": "1000016398885-black-black",
+      "price": 899,
+      "originalPrice": 1099,
+      "category": "jeans and jeggings",
+      "description": "Women Solid Slim Straight Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Slim Straight Jeans",
+      "metaDescription": "Women Solid Slim Straight Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016398885-Black-BLACK-1000016398885_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016398885-Black-BLACK-1000016398885_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016398885-Black-BLACK-1000016398885_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016398885-Black-BLACK-1000016398885_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016398885-Black-BLACK-1000016398885_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016398885-Black-BLACK-1000016398885_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016398885-Black-BLACK-1000016398885_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.4 kg",
+      "dimensions": "14 x 11 x 6 cm",
+      "stockQuantity": 113,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000016398885BlackBLACK",
+        "sku": "1000016398885-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 899
+      }
+    },
+    {
+      "name": "Women Washed Flared Jeans",
+      "slug": "1000016395934-blue-lightblue",
+      "price": 878,
+      "originalPrice": 1099,
+      "category": "jeans and jeggings",
+      "description": "Women Washed Flared Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Washed Flared Jeans",
+      "metaDescription": "Women Washed Flared Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016395934-Blue-LIGHTBLUE-1000016395934_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016395934-Blue-LIGHTBLUE-1000016395934_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016395934-Blue-LIGHTBLUE-1000016395934_08-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016395934-Blue-LIGHTBLUE-1000016395934_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016395934-Blue-LIGHTBLUE-1000016395934_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016395934-Blue-LIGHTBLUE-1000016395934_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016395934-Blue-LIGHTBLUE-1000016395934_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016395934-Blue-LIGHTBLUE-1000016395934_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.5 kg",
+      "dimensions": "13 x 15 x 8 cm",
+      "stockQuantity": 104,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000016395934BlueLIGHTBLUE",
+        "sku": "1000016395934-Blue-LIGHTBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 878
+      }
+    },
+    {
+      "name": "Women Washed Flared Jeans",
+      "slug": "1000016395810-blue-darkblue",
+      "price": 804,
+      "originalPrice": 1099,
+      "category": "jeans and jeggings",
+      "description": "Women Washed Flared Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Washed Flared Jeans",
+      "metaDescription": "Women Washed Flared Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016395810-Blue-DARKBLUE-1000016395810_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016395810-Blue-DARKBLUE-1000016395810_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016395810-Blue-DARKBLUE-1000016395810_08-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016395810-Blue-DARKBLUE-1000016395810_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016395810-Blue-DARKBLUE-1000016395810_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016395810-Blue-DARKBLUE-1000016395810_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016395810-Blue-DARKBLUE-1000016395810_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016395810-Blue-DARKBLUE-1000016395810_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "12 x 12 x 7 cm",
+      "stockQuantity": 31,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-10T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000016395810BlueDARKBLUE",
+        "sku": "1000016395810-Blue-DARKBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 804
+      }
+    },
+    {
+      "name": "Women Washed Slim Straight Fit Jeans",
+      "slug": "1000016395750-blue-darkblue",
+      "price": 818,
+      "originalPrice": 1099,
+      "category": "jeans and jeggings",
+      "description": "Women Washed Slim Straight Fit Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Washed Slim Straight Fit Jeans",
+      "metaDescription": "Women Washed Slim Straight Fit Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016395750-Blue-DARKBLUE-1000016395750_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016395750-Blue-DARKBLUE-1000016395750_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016395750-Blue-DARKBLUE-1000016395750_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016395750-Blue-DARKBLUE-1000016395750_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016395750-Blue-DARKBLUE-1000016395750_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016395750-Blue-DARKBLUE-1000016395750_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016395750-Blue-DARKBLUE-1000016395750_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash cold",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.6 kg",
+      "dimensions": "14 x 16 x 4 cm",
+      "stockQuantity": 23,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "1000016395750BlueDARKBLUE",
+        "sku": "1000016395750-Blue-DARKBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 818
+      }
+    },
+    {
+      "name": "Women Washed Flare Jeans",
+      "slug": "1000016302298-blue-midblue",
+      "price": 889,
+      "originalPrice": 1099,
+      "category": "jeans and jeggings",
+      "description": "Women Washed Flare Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Washed Flare Jeans",
+      "metaDescription": "Women Washed Flare Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016302298-Blue-MIDBLUE-1000016302298_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016302298-Blue-MIDBLUE-1000016302298_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016302298-Blue-MIDBLUE-1000016302298_08-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016302298-Blue-MIDBLUE-1000016302298_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016302298-Blue-MIDBLUE-1000016302298_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016302298-Blue-MIDBLUE-1000016302298_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016302298-Blue-MIDBLUE-1000016302298_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016302298-Blue-MIDBLUE-1000016302298_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.6 kg",
+      "dimensions": "9 x 11 x 5 cm",
+      "stockQuantity": 38,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000016302298BlueMIDBLUE",
+        "sku": "1000016302298-Blue-MIDBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 889
+      }
+    },
+    {
+      "name": "Women Washed Flare Jeans",
+      "slug": "1000016302285-blue-darkblue",
+      "price": 807,
+      "originalPrice": 1099,
+      "category": "jeans and jeggings",
+      "description": "Women Washed Flare Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Washed Flare Jeans",
+      "metaDescription": "Women Washed Flare Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016302285-Blue-DARKBLUE-1000016302285_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016302285-Blue-DARKBLUE-1000016302285_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016302285-Blue-DARKBLUE-1000016302285_08-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016302285-Blue-DARKBLUE-1000016302285_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016302285-Blue-DARKBLUE-1000016302285_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016302285-Blue-DARKBLUE-1000016302285_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016302285-Blue-DARKBLUE-1000016302285_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016302285-Blue-DARKBLUE-1000016302285_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Jacket",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "8 x 10 x 6 cm",
+      "stockQuantity": 43,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000016302285BlueDARKBLUE",
+        "sku": "1000016302285-Blue-DARKBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 807
+      }
+    },
+    {
+      "name": "Women Washed Slim Straight Jeans",
+      "slug": "1000016302272-blue-darkblue",
+      "price": 839,
+      "originalPrice": 1099,
+      "category": "jeans and jeggings",
+      "description": "Women Washed Slim Straight Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Washed Slim Straight Jeans",
+      "metaDescription": "Women Washed Slim Straight Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016302272-Blue-DARKBLUE-1000016302272_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016302272-Blue-DARKBLUE-1000016302272_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016302272-Blue-DARKBLUE-1000016302272_08-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016302272-Blue-DARKBLUE-1000016302272_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016302272-Blue-DARKBLUE-1000016302272_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016302272-Blue-DARKBLUE-1000016302272_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016302272-Blue-DARKBLUE-1000016302272_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016302272-Blue-DARKBLUE-1000016302272_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 11 x 7 cm",
+      "stockQuantity": 95,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000016302272BlueDARKBLUE",
+        "sku": "1000016302272-Blue-DARKBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 839
+      }
+    },
+    {
+      "name": "Women Washed Slim Straight Jeans",
+      "slug": "1000016302259-blue-midblue",
+      "price": 834,
+      "originalPrice": 1099,
+      "category": "jeans and jeggings",
+      "description": "Women Washed Slim Straight Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Washed Slim Straight Jeans",
+      "metaDescription": "Women Washed Slim Straight Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016302259-Blue-MIDBLUE-1000016302259_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016302259-Blue-MIDBLUE-1000016302259_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016302259-Blue-MIDBLUE-1000016302259_08-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016302259-Blue-MIDBLUE-1000016302259_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016302259-Blue-MIDBLUE-1000016302259_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016302259-Blue-MIDBLUE-1000016302259_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016302259-Blue-MIDBLUE-1000016302259_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016302259-Blue-MIDBLUE-1000016302259_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "12 x 14 x 5 cm",
+      "stockQuantity": 26,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-10T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000016302259BlueMIDBLUE",
+        "sku": "1000016302259-Blue-MIDBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 834
+      }
+    },
+    {
+      "name": "Women Washed Flared Jeans",
+      "slug": "1000016299940-blue-lightblue",
+      "price": 866,
+      "originalPrice": 1099,
+      "category": "jeans and jeggings",
+      "description": "Women Washed Flared Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Washed Flared Jeans",
+      "metaDescription": "Women Washed Flared Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016299940-Blue-LIGHTBLUE-1000016299940_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016299940-Blue-LIGHTBLUE-1000016299940_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016299940-Blue-LIGHTBLUE-1000016299940_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016299940-Blue-LIGHTBLUE-1000016299940_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016299940-Blue-LIGHTBLUE-1000016299940_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016299940-Blue-LIGHTBLUE-1000016299940_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016299940-Blue-LIGHTBLUE-1000016299940_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Medium",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Band collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.5 kg",
+      "dimensions": "11 x 12 x 4 cm",
+      "stockQuantity": 104,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "1000016299940BlueLIGHTBLUE",
+        "sku": "1000016299940-Blue-LIGHTBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 866
+      }
+    },
+    {
+      "name": "Women Solid Bootcut Jeans",
+      "slug": "1000016299901-black-black",
+      "price": 857,
+      "originalPrice": 1099,
+      "category": "jeans and jeggings",
+      "description": "Women Solid Bootcut Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Bootcut Jeans",
+      "metaDescription": "Women Solid Bootcut Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016299901-Black-BLACK-1000016299901_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016299901-Black-BLACK-1000016299901_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016299901-Black-BLACK-1000016299901_08-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016299901-Black-BLACK-1000016299901_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016299901-Black-BLACK-1000016299901_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016299901-Black-BLACK-1000016299901_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016299901-Black-BLACK-1000016299901_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016299901-Black-BLACK-1000016299901_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 10 x 6 cm",
+      "stockQuantity": 73,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "1000016299901BlackBLACK",
+        "sku": "1000016299901-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 857
+      }
+    },
+    {
+      "name": "Women Washed Kick Flare Jeans",
+      "slug": "1000016221804-blue-midblue",
+      "price": 860,
+      "originalPrice": 1099,
+      "category": "jeans and jeggings",
+      "description": "Women Washed Kick Flare Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Washed Kick Flare Jeans",
+      "metaDescription": "Women Washed Kick Flare Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016221804-Blue-MIDBLUE-1000016221804_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016221804-Blue-MIDBLUE-1000016221804_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016221804-Blue-MIDBLUE-1000016221804_08-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016221804-Blue-MIDBLUE-1000016221804_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016221804-Blue-MIDBLUE-1000016221804_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016221804-Blue-MIDBLUE-1000016221804_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016221804-Blue-MIDBLUE-1000016221804_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016221804-Blue-MIDBLUE-1000016221804_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Medium",
+      "packageContains": "1 Jacket",
+      "washCare": "Dry clean recommended",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.7 kg",
+      "dimensions": "8 x 11 x 4 cm",
+      "stockQuantity": 43,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "1000016221804BlueMIDBLUE",
+        "sku": "1000016221804-Blue-MIDBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 860
+      }
+    },
+    {
+      "name": "Women Washed Kick Flared Jeans",
+      "slug": "1000016221791-blue-lightblue",
+      "price": 878,
+      "originalPrice": 1099,
+      "category": "jeans and jeggings",
+      "description": "Women Washed Kick Flared Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Washed Kick Flared Jeans",
+      "metaDescription": "Women Washed Kick Flared Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016221791-Blue-LIGHTBLUE-1000016221791_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016221791-Blue-LIGHTBLUE-1000016221791_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016221791-Blue-LIGHTBLUE-1000016221791_08-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016221791-Blue-LIGHTBLUE-1000016221791_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016221791-Blue-LIGHTBLUE-1000016221791_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016221791-Blue-LIGHTBLUE-1000016221791_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016221791-Blue-LIGHTBLUE-1000016221791_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016221791-Blue-LIGHTBLUE-1000016221791_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.7 kg",
+      "dimensions": "14 x 15 x 5 cm",
+      "stockQuantity": 49,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-03T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000016221791BlueLIGHTBLUE",
+        "sku": "1000016221791-Blue-LIGHTBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 878
+      }
+    },
+    {
+      "name": "Women Solid Cargo Jeans",
+      "slug": "1000014917424-black-black",
+      "price": 820,
+      "originalPrice": 1120,
+      "category": "jeans and jeggings",
+      "description": "Women Solid Cargo Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Cargo Jeans",
+      "metaDescription": "Women Solid Cargo Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014917424-Black-BLACK-1000014917424_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014917424-Black-BLACK-1000014917424_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014917424-Black-BLACK-1000014917424_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014917424-Black-BLACK-1000014917424_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014917424-Black-BLACK-1000014917424_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014917424-Black-BLACK-1000014917424_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014917424-Black-BLACK-1000014917424_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014917424-Black-BLACK-1000014917424_08-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 15 x 7 cm",
+      "stockQuantity": 79,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-10T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "1000014917424BlackBLACK",
+        "sku": "1000014917424-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 820
+      }
+    },
+    {
+      "name": "Women Dark Wash Mid Rise Bootcut Jeans",
+      "slug": "1000016703579-blue-darkblue",
+      "price": 861,
+      "originalPrice": 1199,
+      "category": "jeans and jeggings",
+      "description": "Women Dark Wash Mid Rise Bootcut Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Dark Wash Mid Rise Bootcut Jeans",
+      "metaDescription": "Women Dark Wash Mid Rise Bootcut Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016703579-Blue-DARKBLUE-1000016703579_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016703579-Blue-DARKBLUE-1000016703579_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016703579-Blue-DARKBLUE-1000016703579_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016703579-Blue-DARKBLUE-1000016703579_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016703579-Blue-DARKBLUE-1000016703579_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016703579-Blue-DARKBLUE-1000016703579_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016703579-Blue-DARKBLUE-1000016703579_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.5 kg",
+      "dimensions": "13 x 10 x 6 cm",
+      "stockQuantity": 97,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000016703579BlueDARKBLUE",
+        "sku": "1000016703579-Blue-DARKBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 861
+      }
+    },
+    {
+      "name": "Women Solid Mid Rise Jeans",
+      "slug": "1000016694981-black-black",
+      "price": 832,
+      "originalPrice": 1199,
+      "category": "jeans and jeggings",
+      "description": "Women Solid Mid Rise Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Mid Rise Jeans",
+      "metaDescription": "Women Solid Mid Rise Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016694981-Black-BLACK-1000016694981_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016694981-Black-BLACK-1000016694981_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016694981-Black-BLACK-1000016694981_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016694981-Black-BLACK-1000016694981_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016694981-Black-BLACK-1000016694981_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016694981-Black-BLACK-1000016694981_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016694981-Black-BLACK-1000016694981_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.4 kg",
+      "dimensions": "11 x 10 x 6 cm",
+      "stockQuantity": 67,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000016694981BlackBLACK",
+        "sku": "1000016694981-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 832
+      }
+    },
+    {
+      "name": "Women Clean Look Mid Rise Jeans",
+      "slug": "1000016676191-blue-midblue",
+      "price": 872,
+      "originalPrice": 1199,
+      "category": "jeans and jeggings",
+      "description": "Women Clean Look Mid Rise Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Clean Look Mid Rise Jeans",
+      "metaDescription": "Women Clean Look Mid Rise Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016676191-Blue-MIDBLUE-1000016676191_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016676191-Blue-MIDBLUE-1000016676191_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016676191-Blue-MIDBLUE-1000016676191_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016676191-Blue-MIDBLUE-1000016676191_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016676191-Blue-MIDBLUE-1000016676191_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016676191-Blue-MIDBLUE-1000016676191_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016676191-Blue-MIDBLUE-1000016676191_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.6 kg",
+      "dimensions": "10 x 15 x 2 cm",
+      "stockQuantity": 37,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000016676191BlueMIDBLUE",
+        "sku": "1000016676191-Blue-MIDBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 872
+      }
+    },
+    {
+      "name": "Women Solid Flared Jeans",
+      "slug": "1000016666970-black-black",
+      "price": 866,
+      "originalPrice": 1199,
+      "category": "jeans and jeggings",
+      "description": "Women Solid Flared Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Flared Jeans",
+      "metaDescription": "Women Solid Flared Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016666970-Black-BLACK-1000016666970_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016666970-Black-BLACK-1000016666970_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016666970-Black-BLACK-1000016666970_08-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016666970-Black-BLACK-1000016666970_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016666970-Black-BLACK-1000016666970_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016666970-Black-BLACK-1000016666970_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016666970-Black-BLACK-1000016666970_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016666970-Black-BLACK-1000016666970_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "12 x 12 x 3 cm",
+      "stockQuantity": 19,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000016666970BlackBLACK",
+        "sku": "1000016666970-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 866
+      }
+    },
+    {
+      "name": "Women Solid Wide Leg Jeans",
+      "slug": "1000016660299-beige-beige",
+      "price": 867,
+      "originalPrice": 1199,
+      "category": "jeans and jeggings",
+      "description": "Women Solid Wide Leg Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Wide Leg Jeans",
+      "metaDescription": "Women Solid Wide Leg Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016660299-Beige-BEIGE-1000016660299_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016660299-Beige-BEIGE-1000016660299_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016660299-Beige-BEIGE-1000016660299_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016660299-Beige-BEIGE-1000016660299_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016660299-Beige-BEIGE-1000016660299_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016660299-Beige-BEIGE-1000016660299_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016660299-Beige-BEIGE-1000016660299_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.3 kg",
+      "dimensions": "12 x 16 x 7 cm",
+      "stockQuantity": 119,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "1000016660299BeigeBEIGE",
+        "sku": "1000016660299-Beige-BEIGE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 867
+      }
+    },
+    {
+      "name": "Women Dark Wash Full Length Jeans",
+      "slug": "1000016660260-blue-darkblue",
+      "price": 836,
+      "originalPrice": 1199,
+      "category": "jeans and jeggings",
+      "description": "Women Dark Wash Full Length Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Dark Wash Full Length Jeans",
+      "metaDescription": "Women Dark Wash Full Length Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016660260-Blue-DARKBLUE-1000016660260_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016660260-Blue-DARKBLUE-1000016660260_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016660260-Blue-DARKBLUE-1000016660260_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016660260-Blue-DARKBLUE-1000016660260_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016660260-Blue-DARKBLUE-1000016660260_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016660260-Blue-DARKBLUE-1000016660260_06-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "9 x 15 x 7 cm",
+      "stockQuantity": 14,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000016660260BlueDARKBLUE",
+        "sku": "1000016660260-Blue-DARKBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 836
+      }
+    },
+    {
+      "name": "Women Dark Wash Clean Look Mid Rise Jeans",
+      "slug": "1000016631810-blue-darkblue",
+      "price": 859,
+      "originalPrice": 1199,
+      "category": "jeans and jeggings",
+      "description": "Women Dark Wash Clean Look Mid Rise Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaTitle": "Women Dark Wash Clean Look Mid Rise Jeans",
+      "metaDescription": "Women Dark Wash Clean Look Mid Rise Jeans. Premium jeans and jeggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "jeans and jeggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016631810-Blue-DARKBLUE-1000016631810_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016631810-Blue-DARKBLUE-1000016631810_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016631810-Blue-DARKBLUE-1000016631810_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016631810-Blue-DARKBLUE-1000016631810_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016631810-Blue-DARKBLUE-1000016631810_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016631810-Blue-DARKBLUE-1000016631810_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016631810-Blue-DARKBLUE-1000016631810_07-2100.jpg"
+      ],
+      "tags": [
+        "jeans and jeggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "8 x 14 x 6 cm",
+      "stockQuantity": 79,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "jeans and jeggings",
+      "_source": {
+        "nykaaId": "1000016631810BlueDARKBLUE",
+        "sku": "1000016631810-Blue-DARKBLUE",
+        "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+        "assignedPriceTier": 859
+      }
+    }
+  ]
+}

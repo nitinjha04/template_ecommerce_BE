@@ -1,0 +1,817 @@
+{
+  "scrapedAt": "2026-05-26T11:00:05.832Z",
+  "categoryFilter": "7555",
+  "categoryName": "dress material",
+  "priceMin": 5000,
+  "priceMax": 5999,
+  "categoryId": "6557",
+  "priceMode": "random",
+  "sort": "high-to-low",
+  "totalProducts": 15,
+  "pagesFetched": 1,
+  "products": [
+    {
+      "name": "SAAYA THE LABEL — Hand Mukaish Embroidered Lehenga On Pure Organza In Hot Pink (Set of 3)",
+      "slug": "saaya-the-label-hand-mukaish-embroidered-lehenga-on-pure-organza-in-hot-pink-set-of-3",
+      "price": 5819,
+      "originalPrice": 21500,
+      "category": "dress material",
+      "description": "Hand Mukaish Embroidered Lehenga On Pure Organza In Hot Pink (Set of 3). Premium dress material from our curated collection.",
+      "metaTitle": "SAAYA THE LABEL — Hand Mukaish Embroidered Lehenga On Pure Organza In ",
+      "metaDescription": "Hand Mukaish Embroidered Lehenga On Pure Organza In Hot Pink (Set of 3). Premium dress material from our curated collection.",
+      "metaKeywords": [
+        "dress material",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/1/519a53fL01_PI_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/1/519a53fL01_PI_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/1/519a53fL01_PI_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/1/519a53fL01_PI_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/c/6c5ef00Final-HG-Infographic_last.jpg"
+      ],
+      "tags": [
+        "dress material"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.8 kg",
+      "dimensions": "10 x 15 x 8 cm",
+      "stockQuantity": 62,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "dress material",
+      "_source": {
+        "nykaaId": "11838935",
+        "sku": "SAAYA00000093",
+        "categoryFilter": "7555",
+        "assignedPriceTier": 5819
+      }
+    },
+    {
+      "name": "SAAYA THE LABEL — Hand Mukaish Embroidered Lehenga On Pure Organza In Lime Green (Set of 3)",
+      "slug": "saaya-the-label-hand-mukaish-embroidered-lehenga-on-pure-organza-in-lime-green-set-of-3",
+      "price": 5986,
+      "originalPrice": 21500,
+      "category": "dress material",
+      "description": "Hand Mukaish Embroidered Lehenga On Pure Organza In Lime Green (Set of 3). Premium dress material from our curated collection.",
+      "metaTitle": "SAAYA THE LABEL — Hand Mukaish Embroidered Lehenga On Pure Organza In ",
+      "metaDescription": "Hand Mukaish Embroidered Lehenga On Pure Organza In Lime Green (Set of 3). Premium dress material from our curated collection.",
+      "metaKeywords": [
+        "dress material",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/1/519a53fL02_GREEN-1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/1/519a53fL02_GREEN_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/1/519a53fL02_GREEN_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/1/519a53fL02_GREEN_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/c/6c5ef00Final-HG-Infographic_last.jpg"
+      ],
+      "tags": [
+        "dress material"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "12 x 11 x 4 cm",
+      "stockQuantity": 52,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "dress material",
+      "_source": {
+        "nykaaId": "11838936",
+        "sku": "SAAYA00000094",
+        "categoryFilter": "7555",
+        "assignedPriceTier": 5986
+      }
+    },
+    {
+      "name": "The Chikan Label — Pink Organza Chikankari Unstitched Kurti with Dupatta",
+      "slug": "the-chikan-label-pink-organza-chikankari-unstitched-kurti-with-dupatta",
+      "price": 5840,
+      "originalPrice": 21999,
+      "category": "dress material",
+      "description": "Pink Organza Chikankari Unstitched Kurti with Dupatta. Premium dress material from our curated collection.",
+      "metaTitle": "The Chikan Label — Pink Organza Chikankari Unstitched Kurti with Dupat",
+      "metaDescription": "Pink Organza Chikankari Unstitched Kurti with Dupatta. Premium dress material from our curated collection.",
+      "metaKeywords": [
+        "dress material",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/b/4ba358bTCL135PINK_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/b/4ba358bTCL135PINK_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/b/4ba358bTCL135PINK_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/b/4ba358bTCL135PINK_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/b/4ba358bTCL135PINK_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/b/4ba358bTCL135PINK_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/6/c6a731aFinal-HG-Infographic_last.jpg"
+      ],
+      "tags": [
+        "dress material"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.4 kg",
+      "dimensions": "10 x 12 x 3 cm",
+      "stockQuantity": 67,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "23103200",
+        "sku": "THEIB00004256",
+        "categoryFilter": "7555",
+        "assignedPriceTier": 5840
+      }
+    },
+    {
+      "name": "Paisley — Women Yellow Mul Chanderi Embroidered Unstitched Kurta with Pant and Dupatta",
+      "slug": "paisley-women-yellow-mul-chanderi-embroidered-unstitched-kurta-with-pant-and-dupatta",
+      "price": 5734,
+      "originalPrice": 14095,
+      "category": "dress material",
+      "description": "Women Yellow Mul Chanderi Embroidered Unstitched Kurta with Pant and Dupatta. Premium dress material from our curated collection.",
+      "metaTitle": "Paisley — Women Yellow Mul Chanderi Embroidered Unstitched Kurta with ",
+      "metaDescription": "Women Yellow Mul Chanderi Embroidered Unstitched Kurta with Pant and Dupatta. Premium dress material from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/9/49ec7a2MD0605K2974Yellow_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/9/49ec7a2MD0605K2974Yellow_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/9/49ec7a2MD0605K2974Yellow_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/9/49ec7a2MD0605K2974Yellow_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/9/49ec7a2MD0605K2974Yellow_5.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Collared",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.6 kg",
+      "dimensions": "9 x 14 x 4 cm",
+      "stockQuantity": 79,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "dress material",
+      "_source": {
+        "nykaaId": "27085151",
+        "sku": "PAIAB00000020",
+        "categoryFilter": "7555",
+        "assignedPriceTier": 5734
+      }
+    },
+    {
+      "name": "Paisley — Women Brown Mul Chanderi Embroidered Unstitched Kurta with Pant and Dupatta",
+      "slug": "paisley-women-brown-mul-chanderi-embroidered-unstitched-kurta-with-pant-and-dupatta",
+      "price": 5894,
+      "originalPrice": 14095,
+      "category": "dress material",
+      "description": "Women Brown Mul Chanderi Embroidered Unstitched Kurta with Pant and Dupatta. Premium dress material from our curated collection.",
+      "metaTitle": "Paisley — Women Brown Mul Chanderi Embroidered Unstitched Kurta with P",
+      "metaDescription": "Women Brown Mul Chanderi Embroidered Unstitched Kurta with Pant and Dupatta. Premium dress material from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/9/49ec7a2MD0605K2974Brown_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/9/49ec7a2MD0605K2974Brown_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/9/49ec7a2MD0605K2974Brown_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/4/9/49ec7a2MD0605K2974Brown_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.4 kg",
+      "dimensions": "8 x 11 x 5 cm",
+      "stockQuantity": 50,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "27085152",
+        "sku": "PAIAB00000021",
+        "categoryFilter": "7555",
+        "assignedPriceTier": 5894
+      }
+    },
+    {
+      "name": "Paisley — Red Unstitched Mul Chanderi Unstitched Kurta and Pant with Dupatta",
+      "slug": "paisley-red-unstitched-mul-chanderi-unstitched-kurta-and-pant-with-dupatta",
+      "price": 5609,
+      "originalPrice": 14095,
+      "category": "dress material",
+      "description": "Red Unstitched Mul Chanderi Unstitched Kurta and Pant with Dupatta. Premium dress material from our curated collection.",
+      "metaTitle": "Paisley — Red Unstitched Mul Chanderi Unstitched Kurta and Pant with D",
+      "metaDescription": "Red Unstitched Mul Chanderi Unstitched Kurta and Pant with Dupatta. Premium dress material from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K2974RedRed_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K2974RedRed_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K2974RedRed_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K2974RedRed_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.7 kg",
+      "dimensions": "10 x 13 x 6 cm",
+      "stockQuantity": 17,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "dress material",
+      "_source": {
+        "nykaaId": "27203400",
+        "sku": "PAIAB00000049",
+        "categoryFilter": "7555",
+        "assignedPriceTier": 5609
+      }
+    },
+    {
+      "name": "Paisley — Yellow Unstitched Mul Chanderi Unstitched Kurta and Pant with Dupatta",
+      "slug": "paisley-yellow-unstitched-mul-chanderi-unstitched-kurta-and-pant-with-dupatta",
+      "price": 5103,
+      "originalPrice": 14095,
+      "category": "dress material",
+      "description": "Yellow Unstitched Mul Chanderi Unstitched Kurta and Pant with Dupatta. Premium dress material from our curated collection.",
+      "metaTitle": "Paisley — Yellow Unstitched Mul Chanderi Unstitched Kurta and Pant wit",
+      "metaDescription": "Yellow Unstitched Mul Chanderi Unstitched Kurta and Pant with Dupatta. Premium dress material from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K2974Yellow_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K2974Yellow_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K2974Yellow_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K2974Yellow_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K2974Yellow_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K2974Yellow_6.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Short",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.5 kg",
+      "dimensions": "13 x 10 x 4 cm",
+      "stockQuantity": 104,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "27203399",
+        "sku": "PAIAB00000048",
+        "categoryFilter": "7555",
+        "assignedPriceTier": 5103
+      }
+    },
+    {
+      "name": "Paisley — Red Mul Chanderi Embroidered Unstitched Kurta and Pant with Dupatta",
+      "slug": "paisley-red-mul-chanderi-embroidered-unstitched-kurta-and-pant-with-dupatta",
+      "price": 5839,
+      "originalPrice": 14095,
+      "category": "dress material",
+      "description": "Red Mul Chanderi Embroidered Unstitched Kurta and Pant with Dupatta. Premium dress material from our curated collection.",
+      "metaTitle": "Paisley — Red Mul Chanderi Embroidered Unstitched Kurta and Pant with ",
+      "metaDescription": "Red Mul Chanderi Embroidered Unstitched Kurta and Pant with Dupatta. Premium dress material from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K2974Red_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K2974Red_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K2974Red_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K2974Red_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K2974Red_5.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Regular fit",
+      "weight": "0.4 kg",
+      "dimensions": "8 x 12 x 8 cm",
+      "stockQuantity": 99,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "dress material",
+      "_source": {
+        "nykaaId": "27203378",
+        "sku": "PAIAB00000027",
+        "categoryFilter": "7555",
+        "assignedPriceTier": 5839
+      }
+    },
+    {
+      "name": "Paisley — Brown Unstitched Mul Chanderi Unstitched Kurta and Pant with Dupatta",
+      "slug": "paisley-brown-unstitched-mul-chanderi-unstitched-kurta-and-pant-with-dupatta",
+      "price": 5119,
+      "originalPrice": 14095,
+      "category": "dress material",
+      "description": "Brown Unstitched Mul Chanderi Unstitched Kurta and Pant with Dupatta. Premium dress material from our curated collection.",
+      "metaTitle": "Paisley — Brown Unstitched Mul Chanderi Unstitched Kurta and Pant with",
+      "metaDescription": "Brown Unstitched Mul Chanderi Unstitched Kurta and Pant with Dupatta. Premium dress material from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K2974Brown_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K2974Brown_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K2974Brown_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K2974Brown_4.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Full length",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.5 kg",
+      "dimensions": "9 x 13 x 8 cm",
+      "stockQuantity": 30,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "dress material",
+      "_source": {
+        "nykaaId": "27203401",
+        "sku": "PAIAB00000050",
+        "categoryFilter": "7555",
+        "assignedPriceTier": 5119
+      }
+    },
+    {
+      "name": "Koskii — Beige Embroidered Unstitched Top and Unstitched Bottom with Dupatta",
+      "slug": "koskii-beige-embroidered-unstitched-top-and-unstitched-bottom-with-dupatta",
+      "price": 5051,
+      "originalPrice": 13990,
+      "category": "dress material",
+      "description": "Beige Embroidered Unstitched Top and Unstitched Bottom with Dupatta. Premium dress material from our curated collection.",
+      "metaTitle": "Koskii — Beige Embroidered Unstitched Top and Unstitched Bottom with D",
+      "metaDescription": "Beige Embroidered Unstitched Top and Unstitched Bottom with Dupatta. Premium dress material from our curated collection.",
+      "metaKeywords": [
+        "dress material",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/0/10898aeSSUS0046946Beige_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/0/10898aeSSUS0046946Beige_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/0/10898aeSSUS0046946Beige_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/0/10898aeSSUS0046946Beige_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/0/10898aeSSUS0046946Beige_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/0/10898aeSSUS0046946Beige_6.jpg"
+      ],
+      "tags": [
+        "dress material"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "14 x 14 x 2 cm",
+      "stockQuantity": 15,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "dress material",
+      "_source": {
+        "nykaaId": "26037860",
+        "sku": "KOSKI00008917",
+        "categoryFilter": "7555",
+        "assignedPriceTier": 5051
+      }
+    },
+    {
+      "name": "Paisley — Grey Mul Chanderi Embroidered Unstitched Kurta and Pant with Dupatta",
+      "slug": "paisley-grey-mul-chanderi-embroidered-unstitched-kurta-and-pant-with-dupatta",
+      "price": 5475,
+      "originalPrice": 13495,
+      "category": "dress material",
+      "description": "Grey Mul Chanderi Embroidered Unstitched Kurta and Pant with Dupatta. Premium dress material from our curated collection.",
+      "metaTitle": "Paisley — Grey Mul Chanderi Embroidered Unstitched Kurta and Pant with",
+      "metaDescription": "Grey Mul Chanderi Embroidered Unstitched Kurta and Pant with Dupatta. Premium dress material from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K3024Grey_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K3024Grey_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K3024Grey_3.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Short",
+      "packageContains": "1 Kurta",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.5 kg",
+      "dimensions": "13 x 14 x 8 cm",
+      "stockQuantity": 42,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "dress material",
+      "_source": {
+        "nykaaId": "27203380",
+        "sku": "PAIAB00000029",
+        "categoryFilter": "7555",
+        "assignedPriceTier": 5475
+      }
+    },
+    {
+      "name": "Paisley — Womens Pink Mul Chanderi Embroidered Unstitched Kurta and Pant with Dupatta",
+      "slug": "paisley-womens-pink-mul-chanderi-embroidered-unstitched-kurta-and-pant-with-dupatta",
+      "price": 5472,
+      "originalPrice": 13495,
+      "category": "dress material",
+      "description": "Womens Pink Mul Chanderi Embroidered Unstitched Kurta and Pant with Dupatta. Premium dress material from our curated collection.",
+      "metaTitle": "Paisley — Womens Pink Mul Chanderi Embroidered Unstitched Kurta and Pa",
+      "metaDescription": "Womens Pink Mul Chanderi Embroidered Unstitched Kurta and Pant with Dupatta. Premium dress material from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K3024Pink_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K3024Pink_2.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.5 kg",
+      "dimensions": "8 x 11 x 4 cm",
+      "stockQuantity": 48,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "dress material",
+      "_source": {
+        "nykaaId": "27203379",
+        "sku": "PAIAB00000028",
+        "categoryFilter": "7555",
+        "assignedPriceTier": 5472
+      }
+    },
+    {
+      "name": "Paisley — Brown Mul Chanderi Embroidered Unstitched Kurta and Pant with Dupatta",
+      "slug": "paisley-brown-mul-chanderi-embroidered-unstitched-kurta-and-pant-with-dupatta",
+      "price": 5657,
+      "originalPrice": 13495,
+      "category": "dress material",
+      "description": "Brown Mul Chanderi Embroidered Unstitched Kurta and Pant with Dupatta. Premium dress material from our curated collection.",
+      "metaTitle": "Paisley — Brown Mul Chanderi Embroidered Unstitched Kurta and Pant wit",
+      "metaDescription": "Brown Mul Chanderi Embroidered Unstitched Kurta and Pant with Dupatta. Premium dress material from our curated collection.",
+      "metaKeywords": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K3024Brown_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/8/780cde7K3024Brown_2.jpg"
+      ],
+      "tags": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Full length",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.3 kg",
+      "dimensions": "9 x 16 x 3 cm",
+      "stockQuantity": 81,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "dress material",
+      "_source": {
+        "nykaaId": "27203381",
+        "sku": "PAIAB00000030",
+        "categoryFilter": "7555",
+        "assignedPriceTier": 5657
+      }
+    },
+    {
+      "name": "Sutra Art of Clothing — Handloom Pure Silk Pista Green Suit Set With Dupatta",
+      "slug": "sutra-art-of-clothing-handloom-pure-silk-pista-green-suit-set-with-dupatta",
+      "price": 5058,
+      "originalPrice": 12990,
+      "category": "dress material",
+      "description": "Handloom Pure Silk Pista Green Suit Set With Dupatta. Premium dress material from our curated collection.",
+      "metaTitle": "Sutra Art of Clothing — Handloom Pure Silk Pista Green Suit Set With D",
+      "metaDescription": "Handloom Pure Silk Pista Green Suit Set With Dupatta. Premium dress material from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/babad50SACUKS032_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/babad50SACUKS032_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/babad50SACUKS032_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/babad50SACUKS032_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/babad50SACUKS032_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/babad50SACUKS032_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/6/26c3648Final-HG-Infographic_last.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.7 kg",
+      "dimensions": "11 x 16 x 6 cm",
+      "stockQuantity": 18,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "dress material",
+      "_source": {
+        "nykaaId": "27269198",
+        "sku": "SUTAB00003487",
+        "categoryFilter": "7555",
+        "assignedPriceTier": 5058
+      }
+    },
+    {
+      "name": "Sutra Art of Clothing — Handloom Pure Silk Red Banarasi Kurta Set With Dupatta",
+      "slug": "sutra-art-of-clothing-handloom-pure-silk-red-banarasi-kurta-set-with-dupatta",
+      "price": 5831,
+      "originalPrice": 12990,
+      "category": "dress material",
+      "description": "Handloom Pure Silk Red Banarasi Kurta Set With Dupatta. Premium dress material from our curated collection.",
+      "metaTitle": "Sutra Art of Clothing — Handloom Pure Silk Red Banarasi Kurta Set With",
+      "metaDescription": "Handloom Pure Silk Red Banarasi Kurta Set With Dupatta. Premium dress material from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/babad50SACUKS030_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/babad50SACUKS030_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/babad50SACUKS030_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/babad50SACUKS030_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/babad50SACUKS030_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/a/babad50SACUKS030_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/c/6c5ef00Final-HG-Infographic_last.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 11 x 3 cm",
+      "stockQuantity": 105,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "dress material",
+      "_source": {
+        "nykaaId": "27269196",
+        "sku": "SUTAB00003485",
+        "categoryFilter": "7555",
+        "assignedPriceTier": 5831
+      }
+    }
+  ]
+}

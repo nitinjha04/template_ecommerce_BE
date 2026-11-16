@@ -1,0 +1,100 @@
+{
+  "startedAt": "2026-06-24T18:43:44.067Z",
+  "finishedAt": "2026-06-24T18:45:20.143Z",
+  "configFile": "partial-remediation",
+  "totals": {
+    "categories": 6,
+    "succeeded": 6,
+    "failed": 0,
+    "partial": 0,
+    "productsInserted": 195,
+    "productsSkipped": 0,
+    "productsScraped": 195
+  },
+  "results": [
+    {
+      "categoryName": "trousers and treggings",
+      "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+      "categorySlug": "maxwomen-bottoms-trousersandtreggings",
+      "status": "success",
+      "requested": 50,
+      "scraped": 50,
+      "inserted": 50,
+      "skipped": 0,
+      "priceMin": 700,
+      "priceMax": 799,
+      "sort": "low-to-high",
+      "outputPath": "D:\\.nitin\\DEV\\ECOMMERCE-TEMPLATE\\BE\\src\\scraping\\output\\nexa-trousers-and-treggings-700-799.json"
+    },
+    {
+      "categoryName": "jeans and jeggings",
+      "categoryFilter": "maxwomen-bottoms-jeansandjeggings",
+      "categorySlug": "maxwomen-bottoms-jeansandjeggings",
+      "status": "success",
+      "requested": 50,
+      "scraped": 50,
+      "inserted": 50,
+      "skipped": 0,
+      "priceMin": 800,
+      "priceMax": 899,
+      "sort": "low-to-high",
+      "outputPath": "D:\\.nitin\\DEV\\ECOMMERCE-TEMPLATE\\BE\\src\\scraping\\output\\nexa-jeans-and-jeggings-800-899.json"
+    },
+    {
+      "categoryName": "shorts and skirts",
+      "categoryFilter": "maxwomen-bottoms-shortsandskirts",
+      "categorySlug": "maxwomen-bottoms-shortsandskirts",
+      "status": "success",
+      "requested": 50,
+      "scraped": 50,
+      "inserted": 50,
+      "skipped": 0,
+      "priceMin": 900,
+      "priceMax": 999,
+      "sort": "low-to-high",
+      "outputPath": "D:\\.nitin\\DEV\\ECOMMERCE-TEMPLATE\\BE\\src\\scraping\\output\\nexa-shorts-and-skirts-900-999.json"
+    },
+    {
+      "categoryName": "sleepwear bottoms",
+      "categoryFilter": "maxwomen-sleepwear-bottoms",
+      "categorySlug": "maxwomen-sleepwear-bottoms",
+      "status": "success",
+      "requested": 15,
+      "scraped": 15,
+      "inserted": 15,
+      "skipped": 0,
+      "priceMin": 1499,
+      "priceMax": 1999,
+      "sort": "low-to-high",
+      "outputPath": "D:\\.nitin\\DEV\\ECOMMERCE-TEMPLATE\\BE\\src\\scraping\\output\\nexa-sleepwear-bottoms-1499-1999.json"
+    },
+    {
+      "categoryName": "sleepwear sets",
+      "categoryFilter": "maxwomen-sleepwear-sets",
+      "categorySlug": "maxwomen-sleepwear-sets",
+      "status": "success",
+      "requested": 15,
+      "scraped": 15,
+      "inserted": 15,
+      "skipped": 0,
+      "priceMin": 2000,
+      "priceMax": 2999,
+      "sort": "high-to-low",
+      "outputPath": "D:\\.nitin\\DEV\\ECOMMERCE-TEMPLATE\\BE\\src\\scraping\\output\\nexa-sleepwear-sets-2000-2999.json"
+    },
+    {
+      "categoryName": "sleepwear dresses and gowns",
+      "categoryFilter": "maxwomen-sleepwear-dressesandgowns",
+      "categorySlug": "maxwomen-sleepwear-dressesandgowns",
+      "status": "success",
+      "requested": 15,
+      "scraped": 15,
+      "inserted": 15,
+      "skipped": 0,
+      "priceMin": 3000,
+      "priceMax": 3999,
+      "sort": "high-to-low",
+      "outputPath": "D:\\.nitin\\DEV\\ECOMMERCE-TEMPLATE\\BE\\src\\scraping\\output\\nexa-sleepwear-dresses-and-gowns-3000-3999.json"
+    }
+  ]
+}

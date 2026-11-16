@@ -1,0 +1,18 @@
+{
+  "storeId": "6a1b3810c266f7503a001765",
+  "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+  "categoryId": "6557",
+  "pageSize": 36,
+  "sort": "low-to-high",
+  "priceBands": [
+    { "priceMin": 100, "priceMax": 199, "limit": 50 },
+    { "priceMin": 200, "priceMax": 299, "limit": 50 },
+    { "priceMin": 300, "priceMax": 399, "limit": 50 },
+    { "priceMin": 400, "priceMax": 499, "limit": 50 },
+    { "priceMin": 500, "priceMax": 599, "limit": 50 },
+    { "priceMin": 600, "priceMax": 699, "limit": 50 },
+    { "priceMin": 700, "priceMax": 799, "limit": 50 },
+    { "priceMin": 800, "priceMax": 899, "limit": 50 },
+    { "priceMin": 900, "priceMax": 999, "limit": 50 }
+  ]
+}

@@ -1,0 +1,2813 @@
+{
+  "scrapedAt": "2026-06-01T19:49:25.983Z",
+  "storeId": "6a1b3810c266f7503a001765",
+  "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+  "categoryName": "pool-mixed",
+  "priceMin": 400,
+  "priceMax": 499,
+  "categoryId": "6557",
+  "priceMode": "random",
+  "sort": "low-to-high",
+  "totalProducts": 50,
+  "pagesFetched": 13,
+  "products": [
+    {
+      "name": "Soch — Women Gold Chiffon Embroidered Dupatta",
+      "slug": "soch-women-gold-chiffon-embroidered-dupatta",
+      "price": 477,
+      "originalPrice": 498,
+      "category": "dupattas",
+      "description": "Women Gold Chiffon Embroidered Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Soch — Women Gold Chiffon Embroidered Dupatta",
+      "metaDescription": "Women Gold Chiffon Embroidered Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/3/b30982dDIVAW21DUP051L_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/3/b30982dDIVAW21DUP051L_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/3/b30982dDIVAW21DUP051L_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/3/b30982dDIVAW21DUP051L_4.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.4 kg",
+      "dimensions": "8 x 16 x 5 cm",
+      "stockQuantity": 115,
+      "deliveryStartDate": "2026-06-06T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-12T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "20601057",
+        "sku": "SOCHX00066967",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 477
+      }
+    },
+    {
+      "name": "Trendmalls — Women's Blue Bandhani Print Silk Blend Dupatta",
+      "slug": "trendmalls-women-s-blue-bandhani-print-silk-blend-dupatta",
+      "price": 410,
+      "originalPrice": 1099,
+      "category": "dupattas",
+      "description": "Women's Blue Bandhani Print Silk Blend Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Trendmalls — Women's Blue Bandhani Print Silk Blend Dupatta",
+      "metaDescription": "Women's Blue Bandhani Print Silk Blend Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD02Blue_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD02Blue_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD02Blue_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD02Blue_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD02Blue_5.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.7 kg",
+      "dimensions": "14 x 13 x 3 cm",
+      "stockQuantity": 94,
+      "deliveryStartDate": "2026-06-09T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-15T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "26975261",
+        "sku": "TREAH00002256",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 410
+      }
+    },
+    {
+      "name": "Trendmalls — Women's Purple Chinon Silk Golden Zari Weaving Stripes Design Dupatta",
+      "slug": "trendmalls-women-s-purple-chinon-silk-golden-zari-weaving-stripes-design-dupatta",
+      "price": 405,
+      "originalPrice": 699,
+      "category": "dupattas",
+      "description": "Women's Purple Chinon Silk Golden Zari Weaving Stripes Design Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Trendmalls — Women's Purple Chinon Silk Golden Zari Weaving Stripes De",
+      "metaDescription": "Women's Purple Chinon Silk Golden Zari Weaving Stripes Design Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD09Purple_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD09Purple_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD09Purple_3.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "12 x 12 x 6 cm",
+      "stockQuantity": 46,
+      "deliveryStartDate": "2026-06-07T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-16T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "26975272",
+        "sku": "TREAH00002267",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 405
+      }
+    },
+    {
+      "name": "Dupatta Bazaar — Womens Crushed Art Silk Bandhini Printed Dupatta Pink",
+      "slug": "dupatta-bazaar-womens-crushed-art-silk-bandhini-printed-dupatta-pink",
+      "price": 465,
+      "originalPrice": 999,
+      "category": "dupattas",
+      "description": "Womens Crushed Art Silk Bandhini Printed Dupatta Pink. Premium dupattas from our curated collection.",
+      "metaTitle": "Dupatta Bazaar — Womens Crushed Art Silk Bandhini Printed Dupatta Pink",
+      "metaDescription": "Womens Crushed Art Silk Bandhini Printed Dupatta Pink. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/8/08ee287DB3782_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/8/08ee287DB3782_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/8/08ee287DB3782_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/8/08ee287DB3782_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/8/08ee287DB3782_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/8/08ee287DB3782_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/8/08ee287DB3782_7.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 16 x 8 cm",
+      "stockQuantity": 116,
+      "deliveryStartDate": "2026-06-09T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-17T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "10684007",
+        "sku": "DUPAT00001293",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 465
+      }
+    },
+    {
+      "name": "Biba — Pink Polyester Yarn Dyed Dupatta",
+      "slug": "biba-pink-polyester-yarn-dyed-dupatta",
+      "price": 435,
+      "originalPrice": 699,
+      "category": "dupattas",
+      "description": "Pink Polyester Yarn Dyed Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Biba — Pink Polyester Yarn Dyed Dupatta",
+      "metaDescription": "Pink Polyester Yarn Dyed Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/5/2521762FESTVCOL20861SS24PNK_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/5/2521762FESTVCOL20861SS24PNK_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/5/2521762FESTVCOL20861SS24PNK_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/5/2521762FESTVCOL20861SS24PNK_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/5/2521762FESTVCOL20861SS24PNK_5.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.7 kg",
+      "dimensions": "11 x 15 x 8 cm",
+      "stockQuantity": 35,
+      "deliveryStartDate": "2026-06-08T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-12T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "16181323",
+        "sku": "BIBAX00029253",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 435
+      }
+    },
+    {
+      "name": "Trendmalls — Women's Mulitcolor Bandhej Chinon Silk Dupatta",
+      "slug": "trendmalls-women-s-mulitcolor-bandhej-chinon-silk-dupatta",
+      "price": 444,
+      "originalPrice": 1099,
+      "category": "dupattas",
+      "description": "Women's Mulitcolor Bandhej Chinon Silk Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Trendmalls — Women's Mulitcolor Bandhej Chinon Silk Dupatta",
+      "metaDescription": "Women's Mulitcolor Bandhej Chinon Silk Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD012_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD012_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD012_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD012_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD012_5.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Band collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.6 kg",
+      "dimensions": "13 x 14 x 4 cm",
+      "stockQuantity": 90,
+      "deliveryStartDate": "2026-06-05T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-11T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "26975259",
+        "sku": "TREAH00002254",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 444
+      }
+    },
+    {
+      "name": "Trendmalls — Women's Red Bandhani Print Silk Blend Dupatta",
+      "slug": "trendmalls-women-s-red-bandhani-print-silk-blend-dupatta",
+      "price": 441,
+      "originalPrice": 1099,
+      "category": "dupattas",
+      "description": "Women's Red Bandhani Print Silk Blend Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Trendmalls — Women's Red Bandhani Print Silk Blend Dupatta",
+      "metaDescription": "Women's Red Bandhani Print Silk Blend Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD022Red_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD022Red_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD022Red_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD022Red_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD022Red_5.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.8 kg",
+      "dimensions": "14 x 10 x 3 cm",
+      "stockQuantity": 110,
+      "deliveryStartDate": "2026-06-04T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-13T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "26975263",
+        "sku": "TREAH00002258",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 441
+      }
+    },
+    {
+      "name": "Trendmalls — Women's Green Bandhej Chinon Silk Dupatta",
+      "slug": "trendmalls-women-s-green-bandhej-chinon-silk-dupatta",
+      "price": 481,
+      "originalPrice": 1099,
+      "category": "dupattas",
+      "description": "Women's Green Bandhej Chinon Silk Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Trendmalls — Women's Green Bandhej Chinon Silk Dupatta",
+      "metaDescription": "Women's Green Bandhej Chinon Silk Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD011Green_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD011Green_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD011Green_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD011Green_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD011Green_5.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.4 kg",
+      "dimensions": "10 x 10 x 4 cm",
+      "stockQuantity": 95,
+      "deliveryStartDate": "2026-06-04T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "26975258",
+        "sku": "TREAH00002253",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 481
+      }
+    },
+    {
+      "name": "Trendmalls — Women's Green Bandhani Print Silk Blend Dupatta",
+      "slug": "trendmalls-women-s-green-bandhani-print-silk-blend-dupatta",
+      "price": 474,
+      "originalPrice": 1099,
+      "category": "dupattas",
+      "description": "Women's Green Bandhani Print Silk Blend Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Trendmalls — Women's Green Bandhani Print Silk Blend Dupatta",
+      "metaDescription": "Women's Green Bandhani Print Silk Blend Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD021Green_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD021Green_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD021Green_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD021Green_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD021Green_5.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Kurta",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.3 kg",
+      "dimensions": "12 x 15 x 8 cm",
+      "stockQuantity": 54,
+      "deliveryStartDate": "2026-06-09T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-16T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "26975262",
+        "sku": "TREAH00002257",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 474
+      }
+    },
+    {
+      "name": "Trendmalls — Women's Red Chinon Silk Golden Zari Weaving Stripes Design Dupatta",
+      "slug": "trendmalls-women-s-red-chinon-silk-golden-zari-weaving-stripes-design-dupatta",
+      "price": 493,
+      "originalPrice": 699,
+      "category": "dupattas",
+      "description": "Women's Red Chinon Silk Golden Zari Weaving Stripes Design Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Trendmalls — Women's Red Chinon Silk Golden Zari Weaving Stripes Desig",
+      "metaDescription": "Women's Red Chinon Silk Golden Zari Weaving Stripes Design Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD091Red_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD091Red_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD091Red_3.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "13 x 10 x 6 cm",
+      "stockQuantity": 105,
+      "deliveryStartDate": "2026-06-06T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-10T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "26975273",
+        "sku": "TREAH00002268",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 493
+      }
+    },
+    {
+      "name": "Trendmalls — Women's Black Bandhej Chinon Silk Dupatta",
+      "slug": "trendmalls-women-s-black-bandhej-chinon-silk-dupatta",
+      "price": 432,
+      "originalPrice": 1099,
+      "category": "dupattas",
+      "description": "Women's Black Bandhej Chinon Silk Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Trendmalls — Women's Black Bandhej Chinon Silk Dupatta",
+      "metaDescription": "Women's Black Bandhej Chinon Silk Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD01Black_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD01Black_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD01Black_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD01Black_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD01Black_5.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.6 kg",
+      "dimensions": "10 x 15 x 6 cm",
+      "stockQuantity": 53,
+      "deliveryStartDate": "2026-06-09T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-15T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "26975257",
+        "sku": "TREAH00002252",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 432
+      }
+    },
+    {
+      "name": "Trendmalls — Women's Red Bandhej Chinon Silk Dupatta",
+      "slug": "trendmalls-women-s-red-bandhej-chinon-silk-dupatta",
+      "price": 415,
+      "originalPrice": 1099,
+      "category": "dupattas",
+      "description": "Women's Red Bandhej Chinon Silk Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Trendmalls — Women's Red Bandhej Chinon Silk Dupatta",
+      "metaDescription": "Women's Red Bandhej Chinon Silk Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD013Red_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD013Red_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD013Red_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD013Red_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD013Red_5.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.8 kg",
+      "dimensions": "14 x 16 x 3 cm",
+      "stockQuantity": 52,
+      "deliveryStartDate": "2026-06-04T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-12T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "26975260",
+        "sku": "TREAH00002255",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 415
+      }
+    },
+    {
+      "name": "Trendmalls — Women's Black Chinon Silk Golden Zari Weaving Stripes Design Dupatta",
+      "slug": "trendmalls-women-s-black-chinon-silk-golden-zari-weaving-stripes-design-dupatta",
+      "price": 464,
+      "originalPrice": 699,
+      "category": "dupattas",
+      "description": "Women's Black Chinon Silk Golden Zari Weaving Stripes Design Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Trendmalls — Women's Black Chinon Silk Golden Zari Weaving Stripes Des",
+      "metaDescription": "Women's Black Chinon Silk Golden Zari Weaving Stripes Design Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD092Black_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD092Black_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a5a77aD092Black_3.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Trouser",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.3 kg",
+      "dimensions": "8 x 13 x 4 cm",
+      "stockQuantity": 25,
+      "deliveryStartDate": "2026-06-08T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-16T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "26975274",
+        "sku": "TREAH00002269",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 464
+      }
+    },
+    {
+      "name": "R&B — Women Pink Cotton Mandarin Neck Kurta",
+      "slug": "r-b-women-pink-cotton-mandarin-neck-kurta",
+      "price": 408,
+      "originalPrice": 499,
+      "category": "kurtis",
+      "description": "Women Pink Cotton Mandarin Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Pink Cotton Mandarin Neck Kurta",
+      "metaDescription": "Women Pink Cotton Mandarin Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113251322WY0702PINKPink_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113251322WY0702PINKPink_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113251322WY0702PINKPink_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113251322WY0702PINKPink_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113251322WY0702PINKPink_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113251322WY0702PINKPink_6.jpg"
+      ],
+      "tags": [
+        "kurtis",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "V-neck",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Comfort fit",
+      "weight": "0.6 kg",
+      "dimensions": "8 x 10 x 6 cm",
+      "stockQuantity": 68,
+      "deliveryStartDate": "2026-06-06T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-13T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25020388",
+        "sku": "RBXXX00033349",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 408
+      }
+    },
+    {
+      "name": "Rangriti — Blue Polyester Printed Dupatta",
+      "slug": "rangriti-blue-polyester-printed-dupatta",
+      "price": 404,
+      "originalPrice": 699,
+      "category": "dupattas",
+      "description": "Blue Polyester Printed Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Rangriti — Blue Polyester Printed Dupatta",
+      "metaDescription": "Blue Polyester Printed Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/e/de486c4BLSM18785AW23BLU_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/e/de486c4BLSM18785AW23BLU_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/e/de486c4BLSM18785AW23BLU_3.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Short",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 16 x 3 cm",
+      "stockQuantity": 113,
+      "deliveryStartDate": "2026-06-06T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-11T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "12821896",
+        "sku": "RANGR00005965",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 404
+      }
+    },
+    {
+      "name": "R&B — Women Green Cotton Round Neck Kurta",
+      "slug": "r-b-women-green-cotton-round-neck-kurta",
+      "price": 462,
+      "originalPrice": 499,
+      "category": "kurtis",
+      "description": "Women Green Cotton Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Green Cotton Round Neck Kurta",
+      "metaDescription": "Women Green Cotton Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250147WY0652GREENGreen_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250147WY0652GREENGreen_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250147WY0652GREENGreen_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250147WY0652GREENGreen_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250147WY0652GREENGreen_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250147WY0652GREENGreen_6.jpg"
+      ],
+      "tags": [
+        "kurtis",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.5 kg",
+      "dimensions": "13 x 11 x 7 cm",
+      "stockQuantity": 113,
+      "deliveryStartDate": "2026-06-04T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-13T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "25020356",
+        "sku": "RBXXX00033317",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 462
+      }
+    },
+    {
+      "name": "R&B — Pink Embroidered Regular Kurta",
+      "slug": "r-b-pink-embroidered-regular-kurta",
+      "price": 402,
+      "originalPrice": 499,
+      "category": "kurtis",
+      "description": "Pink Embroidered Regular Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Pink Embroidered Regular Kurta",
+      "metaDescription": "Pink Embroidered Regular Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/3/032f2a55250009WY0092PINKMARCH20VN_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/3/032f2a55250009WY0092PINKMARCH20VN_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/3/032f2a55250009WY0092PINKMARCH20VN_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/3/032f2a55250009WY0092PINKMARCH20VN_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/3/032f2a55250009WY0092PINKMARCH20VN_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/3/032f2a55250009WY0092PINKMARCH20VN_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/3/032f2a55250009WY0092PINKMARCH20VN_7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/3/032f2a55250009WY0092PINKMARCH20VN_8.jpg"
+      ],
+      "tags": [
+        "kurtis",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.7 kg",
+      "dimensions": "10 x 14 x 4 cm",
+      "stockQuantity": 50,
+      "deliveryStartDate": "2026-06-06T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-12T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "26110679",
+        "sku": "RBXXX00044868",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 402
+      }
+    },
+    {
+      "name": "Rangriti — White Poly Chiffon Dupatta",
+      "slug": "rangriti-white-poly-chiffon-dupatta",
+      "price": 473,
+      "originalPrice": 699,
+      "category": "dupattas",
+      "description": "White Poly Chiffon Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Rangriti — White Poly Chiffon Dupatta",
+      "metaDescription": "White Poly Chiffon Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/d/3d18564POPPYSERENE19160SS24WHT_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/d/3d18564POPPYSERENE19160SS24WHT_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/d/3d18564POPPYSERENE19160SS24WHT_3.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "14 x 15 x 7 cm",
+      "stockQuantity": 111,
+      "deliveryStartDate": "2026-06-05T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-14T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "15079915",
+        "sku": "RANGR00006340",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 473
+      }
+    },
+    {
+      "name": "R&B — Coral Floral Print Regular Kurta",
+      "slug": "r-b-coral-floral-print-regular-kurta",
+      "price": 483,
+      "originalPrice": 499,
+      "category": "kurtis",
+      "description": "Coral Floral Print Regular Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Coral Floral Print Regular Kurta",
+      "metaDescription": "Coral Floral Print Regular Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/3/032f2a55251549WY0502CORALMARCH20VN_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/3/032f2a55251549WY0502CORALMARCH20VN_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/3/032f2a55251549WY0502CORALMARCH20VN_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/3/032f2a55251549WY0502CORALMARCH20VN_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/3/032f2a55251549WY0502CORALMARCH20VN_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/3/032f2a55251549WY0502CORALMARCH20VN_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/3/032f2a55251549WY0502CORALMARCH20VN_7.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/3/032f2a55251549WY0502CORALMARCH20VN_8.jpg"
+      ],
+      "tags": [
+        "kurtis",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.7 kg",
+      "dimensions": "13 x 13 x 3 cm",
+      "stockQuantity": 114,
+      "deliveryStartDate": "2026-06-04T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-11T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "26110668",
+        "sku": "RBXXX00044857",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 483
+      }
+    },
+    {
+      "name": "R&B — Multi Color Women Polyester Regular Fit Round Neck Printed Kurta",
+      "slug": "r-b-multi-color-women-polyester-regular-fit-round-neck-printed-kurta",
+      "price": 462,
+      "originalPrice": 499,
+      "category": "kurtis",
+      "description": "Multi Color Women Polyester Regular Fit Round Neck Printed Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Multi Color Women Polyester Regular Fit Round Neck Printed Kurta",
+      "metaDescription": "Multi Color Women Polyester Regular Fit Round Neck Printed Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d325-0730WY002-2_WHITE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d325-0730WY002-2_WHITE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d325-0730WY002-2_WHITE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d325-0730WY002-2_WHITE_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d325-0730WY002-2_WHITE_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d325-0730WY002-2_WHITE_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d325-0730WY002-2_WHITE_7.jpg"
+      ],
+      "tags": [
+        "kurtis",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.7 kg",
+      "dimensions": "10 x 10 x 4 cm",
+      "stockQuantity": 115,
+      "deliveryStartDate": "2026-06-06T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-13T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "25011165",
+        "sku": "RBXXX00031829",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 462
+      }
+    },
+    {
+      "name": "R&B — Women Pink Viscose Rayon Round Neck Kurta",
+      "slug": "r-b-women-pink-viscose-rayon-round-neck-kurta",
+      "price": 498,
+      "originalPrice": 499,
+      "category": "kurtis",
+      "description": "Women Pink Viscose Rayon Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Pink Viscose Rayon Round Neck Kurta",
+      "metaDescription": "Women Pink Viscose Rayon Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250814WY0142FUCHSIAPink_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250814WY0142FUCHSIAPink_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250814WY0142FUCHSIAPink_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250814WY0142FUCHSIAPink_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250814WY0142FUCHSIAPink_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250814WY0142FUCHSIAPink_6.jpg"
+      ],
+      "tags": [
+        "kurtis",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Regular fit",
+      "weight": "0.3 kg",
+      "dimensions": "10 x 10 x 2 cm",
+      "stockQuantity": 63,
+      "deliveryStartDate": "2026-06-05T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-11T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "25020449",
+        "sku": "RBXXX00033410",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 498
+      }
+    },
+    {
+      "name": "R&B — Women Teal Viscose Round Neck Kurta",
+      "slug": "r-b-women-teal-viscose-round-neck-kurta",
+      "price": 472,
+      "originalPrice": 499,
+      "category": "kurtis",
+      "description": "Women Teal Viscose Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Teal Viscose Round Neck Kurta",
+      "metaDescription": "Women Teal Viscose Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250119WY0032TEALTeal_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250119WY0032TEALTeal_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250119WY0032TEALTeal_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250119WY0032TEALTeal_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250119WY0032TEALTeal_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250119WY0032TEALTeal_6.jpg"
+      ],
+      "tags": [
+        "kurtis",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 14 x 7 cm",
+      "stockQuantity": 47,
+      "deliveryStartDate": "2026-06-06T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-10T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25020335",
+        "sku": "RBXXX00033296",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 472
+      }
+    },
+    {
+      "name": "WEAVERS VILLA — Pink Checked Dupatta",
+      "slug": "weavers-villa-pink-checked-dupatta-1",
+      "price": 488,
+      "originalPrice": 499,
+      "category": "dupattas",
+      "description": "Pink Checked Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "WEAVERS VILLA — Pink Checked Dupatta",
+      "metaDescription": "Pink Checked Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/p/dp-705-pink_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/p/dp-705-pink_2.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Band collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "12 x 16 x 8 cm",
+      "stockQuantity": 33,
+      "deliveryStartDate": "2026-06-05T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-13T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "710789",
+        "sku": "NYFWVLA000147",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 488
+      }
+    },
+    {
+      "name": "R&B — Women Navy Blue Rayon Mandarin Neck Kurta",
+      "slug": "r-b-women-navy-blue-rayon-mandarin-neck-kurta",
+      "price": 487,
+      "originalPrice": 499,
+      "category": "kurtis",
+      "description": "Women Navy Blue Rayon Mandarin Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Navy Blue Rayon Mandarin Neck Kurta",
+      "metaDescription": "Women Navy Blue Rayon Mandarin Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111250814WY0472BLUENavyBlue_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111250814WY0472BLUENavyBlue_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111250814WY0472BLUENavyBlue_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111250814WY0472BLUENavyBlue_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111250814WY0472BLUENavyBlue_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a111250814WY0472BLUENavyBlue_6.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "9 x 14 x 7 cm",
+      "stockQuantity": 76,
+      "deliveryStartDate": "2026-06-08T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-14T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25020422",
+        "sku": "RBXXX00033383",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 487
+      }
+    },
+    {
+      "name": "Rangriti — Women Gold Polyester Printed Dupatta",
+      "slug": "rangriti-women-gold-polyester-printed-dupatta",
+      "price": 418,
+      "originalPrice": 699,
+      "category": "dupattas",
+      "description": "Women Gold Polyester Printed Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Rangriti — Women Gold Polyester Printed Dupatta",
+      "metaDescription": "Women Gold Polyester Printed Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e41a961ASRTD18724AW23GLD_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e41a961ASRTD18724AW23GLD_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e41a961ASRTD18724AW23GLD_3.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "10 x 15 x 6 cm",
+      "stockQuantity": 101,
+      "deliveryStartDate": "2026-06-04T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-10T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "19382984",
+        "sku": "RANGR00011218",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 418
+      }
+    },
+    {
+      "name": "R&B — Coral Rayon Slub Straight Solid Kurta",
+      "slug": "r-b-coral-rayon-slub-straight-solid-kurta",
+      "price": 444,
+      "originalPrice": 499,
+      "category": "kurtis",
+      "description": "Coral Rayon Slub Straight Solid Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Coral Rayon Slub Straight Solid Kurta",
+      "metaDescription": "Coral Rayon Slub Straight Solid Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/3/736c4c8525-2381WY042-2_CORAL_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/3/736c4c8525-2381WY042-2_CORAL_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/3/736c4c8525-2381WY042-2_CORAL_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/3/736c4c8525-2381WY042-2_CORAL_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/3/736c4c8525-2381WY042-2_CORAL_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/7/3/736c4c8525-2381WY042-2_CORAL_6.jpg"
+      ],
+      "tags": [
+        "kurtis",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.4 kg",
+      "dimensions": "11 x 13 x 5 cm",
+      "stockQuantity": 36,
+      "deliveryStartDate": "2026-06-07T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-13T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25021800",
+        "sku": "RBXXX00033521",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 444
+      }
+    },
+    {
+      "name": "R&B — Women Pink Viscose Round Neck Kurta",
+      "slug": "r-b-women-pink-viscose-round-neck-kurta",
+      "price": 469,
+      "originalPrice": 499,
+      "category": "kurtis",
+      "description": "Women Pink Viscose Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Pink Viscose Round Neck Kurta",
+      "metaDescription": "Women Pink Viscose Round Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250147WY0152PINKPink_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250147WY0152PINKPink_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250147WY0152PINKPink_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250147WY0152PINKPink_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250147WY0152PINKPink_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250147WY0152PINKPink_6.jpg"
+      ],
+      "tags": [
+        "kurtis",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 10 x 3 cm",
+      "stockQuantity": 53,
+      "deliveryStartDate": "2026-06-05T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-14T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25020331",
+        "sku": "RBXXX00033292",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 469
+      }
+    },
+    {
+      "name": "Rangriti — Green Polyester Printed Dupatta",
+      "slug": "rangriti-green-polyester-printed-dupatta",
+      "price": 453,
+      "originalPrice": 699,
+      "category": "dupattas",
+      "description": "Green Polyester Printed Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Rangriti — Green Polyester Printed Dupatta",
+      "metaDescription": "Green Polyester Printed Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/0/f00fa43BLSM18785AW23GRN-1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/0/f00fa43BLSM18785AW23GRN-2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/0/f00fa43BLSM18785AW23GRN-3.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.4 kg",
+      "dimensions": "11 x 16 x 4 cm",
+      "stockQuantity": 38,
+      "deliveryStartDate": "2026-06-04T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-13T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "12567681",
+        "sku": "RANGR00005462",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 453
+      }
+    },
+    {
+      "name": "R&B — Teal Women Viscose Regular Fit Mandarin Collar Printed Kurta",
+      "slug": "r-b-teal-women-viscose-regular-fit-mandarin-collar-printed-kurta",
+      "price": 450,
+      "originalPrice": 499,
+      "category": "kurtis",
+      "description": "Teal Women Viscose Regular Fit Mandarin Collar Printed Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Teal Women Viscose Regular Fit Mandarin Collar Printed Kurta",
+      "metaDescription": "Teal Women Viscose Regular Fit Mandarin Collar Printed Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d325-0119WY004-2_JADE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d325-0119WY004-2_JADE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d325-0119WY004-2_JADE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d325-0119WY004-2_JADE_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d325-0119WY004-2_JADE_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d325-0119WY004-2_JADE_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d325-0119WY004-2_JADE_7.jpg"
+      ],
+      "tags": [
+        "kurtis",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Dry clean recommended",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.8 kg",
+      "dimensions": "12 x 13 x 3 cm",
+      "stockQuantity": 103,
+      "deliveryStartDate": "2026-06-04T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-12T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25011172",
+        "sku": "RBXXX00031836",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 450
+      }
+    },
+    {
+      "name": "WEAVERS VILLA — Beige Solid Dupatta",
+      "slug": "weavers-villa-beige-solid-dupatta",
+      "price": 442,
+      "originalPrice": 499,
+      "category": "dupattas",
+      "description": "Beige Solid Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "WEAVERS VILLA — Beige Solid Dupatta",
+      "metaDescription": "Beige Solid Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/p/dp-704-beige_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/p/dp-704-beige_2.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Knee length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.3 kg",
+      "dimensions": "9 x 14 x 3 cm",
+      "stockQuantity": 20,
+      "deliveryStartDate": "2026-06-07T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-13T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "710785",
+        "sku": "NYFWVLA000143",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 442
+      }
+    },
+    {
+      "name": "Rangriti — White Polyester Dupatta",
+      "slug": "rangriti-white-polyester-dupatta",
+      "price": 453,
+      "originalPrice": 699,
+      "category": "dupattas",
+      "description": "White Polyester Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Rangriti — White Polyester Dupatta",
+      "metaDescription": "White Polyester Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/d/3d18564ASSORTED19353SS24WHT_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/d/3d18564ASSORTED19353SS24WHT_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/d/3d18564ASSORTED19353SS24WHT_3.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "13 x 15 x 6 cm",
+      "stockQuantity": 53,
+      "deliveryStartDate": "2026-06-04T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-13T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "15080047",
+        "sku": "RANGR00006472",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 453
+      }
+    },
+    {
+      "name": "Rangriti — Pink Printed Dupatta",
+      "slug": "rangriti-pink-printed-dupatta-2",
+      "price": 452,
+      "originalPrice": 699,
+      "category": "dupattas",
+      "description": "Pink Printed Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Rangriti — Pink Printed Dupatta",
+      "metaDescription": "Pink Printed Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/n/o/nouveau14196aw20win_1_d6d5f5b9.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/n/o/nouveau14196aw20win_2_fd33373e.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.5 kg",
+      "dimensions": "10 x 11 x 8 cm",
+      "stockQuantity": 27,
+      "deliveryStartDate": "2026-06-04T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-13T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "1912610",
+        "sku": "NYFRNRT002853",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 452
+      }
+    },
+    {
+      "name": "Rangriti — Women Blue Viscose Blend Printed Dupatta",
+      "slug": "rangriti-women-blue-viscose-blend-printed-dupatta",
+      "price": 472,
+      "originalPrice": 699,
+      "category": "dupattas",
+      "description": "Women Blue Viscose Blend Printed Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Rangriti — Women Blue Viscose Blend Printed Dupatta",
+      "metaDescription": "Women Blue Viscose Blend Printed Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e41a961RMMROSEATE18470AW23INDBLU_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e41a961RMMROSEATE18470AW23INDBLU_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e41a961RMMROSEATE18470AW23INDBLU_3.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.5 kg",
+      "dimensions": "14 x 14 x 3 cm",
+      "stockQuantity": 22,
+      "deliveryStartDate": "2026-06-04T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-13T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "19382992",
+        "sku": "RANGR00011226",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 472
+      }
+    },
+    {
+      "name": "R&B — Viscose A-Line Tropical Print Off White Women Midi Dress",
+      "slug": "r-b-viscose-a-line-tropical-print-off-white-women-midi-dress",
+      "price": 415,
+      "originalPrice": 999,
+      "category": "ethnic",
+      "description": "Viscose A-Line Tropical Print Off White Women Midi Dress. Premium ethnic from our curated collection.",
+      "metaTitle": "R&B — Viscose A-Line Tropical Print Off White Women Midi Dress",
+      "metaDescription": "Viscose A-Line Tropical Print Off White Women Midi Dress. Premium ethnic from our curated collection.",
+      "metaKeywords": [
+        "ethnic",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aaSMU5-0147WY098-2_OFFWHITE_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aaSMU5-0147WY098-2_OFFWHITE_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aaSMU5-0147WY098-2_OFFWHITE_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aaSMU5-0147WY098-2_OFFWHITE_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aaSMU5-0147WY098-2_OFFWHITE_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aaSMU5-0147WY098-2_OFFWHITE_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/3/a3389aaSMU5-0147WY098-2_OFFWHITE_7.jpg"
+      ],
+      "tags": [
+        "ethnic",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Long",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 15 x 6 cm",
+      "stockQuantity": 105,
+      "deliveryStartDate": "2026-06-09T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-13T18:30:00.000Z",
+      "breadcrumbCategory": "ethnic",
+      "_source": {
+        "nykaaId": "25011513",
+        "sku": "RBXXX00032175",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 415
+      }
+    },
+    {
+      "name": "De Moza — Women Casual Blouse Yellow",
+      "slug": "de-moza-women-casual-blouse-yellow",
+      "price": 477,
+      "originalPrice": 699,
+      "category": "dresses",
+      "description": "Women Casual Blouse Yellow. Premium dresses from our curated collection.",
+      "metaTitle": "De Moza — Women Casual Blouse Yellow",
+      "metaDescription": "Women Casual Blouse Yellow. Premium dresses from our curated collection.",
+      "metaKeywords": [
+        "dresses",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a36c87LWTTPAOF1718103_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a36c87LWTTPAOF1718103_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a36c87LWTTPAOF1718103_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2a36c87LWTTPAOF1718103_4.jpg"
+      ],
+      "tags": [
+        "dresses",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.4 kg",
+      "dimensions": "12 x 11 x 4 cm",
+      "stockQuantity": 85,
+      "deliveryStartDate": "2026-06-08T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-14T18:30:00.000Z",
+      "breadcrumbCategory": "dresses",
+      "_source": {
+        "nykaaId": "20456019",
+        "sku": "DEMOZ00010839",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 477
+      }
+    },
+    {
+      "name": "Rangriti — Women Blue Polyester Colorblock Dupatta",
+      "slug": "rangriti-women-blue-polyester-colorblock-dupatta",
+      "price": 447,
+      "originalPrice": 699,
+      "category": "dupattas",
+      "description": "Women Blue Polyester Colorblock Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Rangriti — Women Blue Polyester Colorblock Dupatta",
+      "metaDescription": "Women Blue Polyester Colorblock Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e41a961RMMSTRYOF18483AW23BLU_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e41a961RMMSTRYOF18483AW23BLU_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e41a961RMMSTRYOF18483AW23BLU_3.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "10 x 11 x 8 cm",
+      "stockQuantity": 109,
+      "deliveryStartDate": "2026-06-07T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-14T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "19382995",
+        "sku": "RANGR00011229",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 447
+      }
+    },
+    {
+      "name": "Rangriti — Orange Cotton Blend Printed Dupatta",
+      "slug": "rangriti-orange-cotton-blend-printed-dupatta",
+      "price": 421,
+      "originalPrice": 699,
+      "category": "dupattas",
+      "description": "Orange Cotton Blend Printed Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Rangriti — Orange Cotton Blend Printed Dupatta",
+      "metaDescription": "Orange Cotton Blend Printed Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/a/1a7ffb5RMMHOLI18190SS23ORNG_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/a/1a7ffb5RMMHOLI18190SS23ORNG_2.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 10 x 7 cm",
+      "stockQuantity": 17,
+      "deliveryStartDate": "2026-06-08T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-15T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "12418511",
+        "sku": "RANGR00004803",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 421
+      }
+    },
+    {
+      "name": "WEAVERS VILLA — Yellow Solid Dupatta",
+      "slug": "weavers-villa-yellow-solid-dupatta",
+      "price": 408,
+      "originalPrice": 499,
+      "category": "dupattas",
+      "description": "Yellow Solid Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "WEAVERS VILLA — Yellow Solid Dupatta",
+      "metaDescription": "Yellow Solid Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/p/dp-704-yellow_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/p/dp-704-yellow_2.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.6 kg",
+      "dimensions": "13 x 12 x 6 cm",
+      "stockQuantity": 41,
+      "deliveryStartDate": "2026-06-07T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-12T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "710784",
+        "sku": "NYFWVLA000142",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 408
+      }
+    },
+    {
+      "name": "WEAVERS VILLA — Maroon Checked Dupatta",
+      "slug": "weavers-villa-maroon-checked-dupatta",
+      "price": 450,
+      "originalPrice": 499,
+      "category": "dupattas",
+      "description": "Maroon Checked Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "WEAVERS VILLA — Maroon Checked Dupatta",
+      "metaDescription": "Maroon Checked Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/p/dp-705-maroon_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/p/dp-705-maroon_2.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.5 kg",
+      "dimensions": "12 x 10 x 7 cm",
+      "stockQuantity": 118,
+      "deliveryStartDate": "2026-06-08T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-16T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "710790",
+        "sku": "NYFWVLA000148",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 450
+      }
+    },
+    {
+      "name": "WEAVERS VILLA — Green Checked Dupatta",
+      "slug": "weavers-villa-green-checked-dupatta",
+      "price": 484,
+      "originalPrice": 499,
+      "category": "dupattas",
+      "description": "Green Checked Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "WEAVERS VILLA — Green Checked Dupatta",
+      "metaDescription": "Green Checked Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/p/dp-705-green_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/p/dp-705-green_2.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.7 kg",
+      "dimensions": "13 x 16 x 3 cm",
+      "stockQuantity": 85,
+      "deliveryStartDate": "2026-06-09T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-13T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "710788",
+        "sku": "NYFWVLA000146",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 484
+      }
+    },
+    {
+      "name": "R&B — Women Green Viscose Rayon Keyhole Neck Kurta",
+      "slug": "r-b-women-green-viscose-rayon-keyhole-neck-kurta",
+      "price": 457,
+      "originalPrice": 499,
+      "category": "kurtis",
+      "description": "Women Green Viscose Rayon Keyhole Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Green Viscose Rayon Keyhole Neck Kurta",
+      "metaDescription": "Women Green Viscose Rayon Keyhole Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250533WY0062SAGEGREENGreen_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250533WY0062SAGEGREENGreen_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250533WY0062SAGEGREENGreen_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250533WY0062SAGEGREENGreen_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250533WY0062SAGEGREENGreen_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250533WY0062SAGEGREENGreen_6.jpg"
+      ],
+      "tags": [
+        "kurtis",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.6 kg",
+      "dimensions": "14 x 14 x 4 cm",
+      "stockQuantity": 69,
+      "deliveryStartDate": "2026-06-05T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-10T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25020439",
+        "sku": "RBXXX00033400",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 457
+      }
+    },
+    {
+      "name": "R&B — Aqua Women Polyester Regular Fit Round Neck Printed Kurta",
+      "slug": "r-b-aqua-women-polyester-regular-fit-round-neck-printed-kurta",
+      "price": 488,
+      "originalPrice": 499,
+      "category": "kurtis",
+      "description": "Aqua Women Polyester Regular Fit Round Neck Printed Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Aqua Women Polyester Regular Fit Round Neck Printed Kurta",
+      "metaDescription": "Aqua Women Polyester Regular Fit Round Neck Printed Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d325-0730WY002-2_AQUA_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d325-0730WY002-2_AQUA_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d325-0730WY002-2_AQUA_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d325-0730WY002-2_AQUA_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d325-0730WY002-2_AQUA_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d325-0730WY002-2_AQUA_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d325-0730WY002-2_AQUA_7.jpg"
+      ],
+      "tags": [
+        "kurtis",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Trouser",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Collared",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.4 kg",
+      "dimensions": "10 x 14 x 5 cm",
+      "stockQuantity": 15,
+      "deliveryStartDate": "2026-06-09T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-15T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25011166",
+        "sku": "RBXXX00031830",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 488
+      }
+    },
+    {
+      "name": "R&B — Multi Color Women Poly Muslin Regular Fit Mandarin Collar Printed Kurta",
+      "slug": "r-b-multi-color-women-poly-muslin-regular-fit-mandarin-collar-printed-kurta",
+      "price": 492,
+      "originalPrice": 499,
+      "category": "kurtis",
+      "description": "Multi Color Women Poly Muslin Regular Fit Mandarin Collar Printed Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Multi Color Women Poly Muslin Regular Fit Mandarin Collar Printe",
+      "metaDescription": "Multi Color Women Poly Muslin Regular Fit Mandarin Collar Printed Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d125-0710WY042-2_GREY_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d125-0710WY042-2_GREY_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d125-0710WY042-2_GREY_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d125-0710WY042-2_GREY_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/5/958934d125-0710WY042-2_GREY_5.jpg"
+      ],
+      "tags": [
+        "kurtis",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "9 x 11 x 7 cm",
+      "stockQuantity": 119,
+      "deliveryStartDate": "2026-06-08T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-12T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25011154",
+        "sku": "RBXXX00031818",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 492
+      }
+    },
+    {
+      "name": "R&B — Women Peach Polyester Mandarin Neck Kurta",
+      "slug": "r-b-women-peach-polyester-mandarin-neck-kurta",
+      "price": 416,
+      "originalPrice": 499,
+      "category": "kurtis",
+      "description": "Women Peach Polyester Mandarin Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Peach Polyester Mandarin Neck Kurta",
+      "metaDescription": "Women Peach Polyester Mandarin Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250730WY0012PEACHPeach_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250730WY0012PEACHPeach_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250730WY0012PEACHPeach_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250730WY0012PEACHPeach_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250730WY0012PEACHPeach_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250730WY0012PEACHPeach_6.jpg"
+      ],
+      "tags": [
+        "kurtis",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Trouser",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "14 x 16 x 6 cm",
+      "stockQuantity": 59,
+      "deliveryStartDate": "2026-06-06T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-14T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25020345",
+        "sku": "RBXXX00033306",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 416
+      }
+    },
+    {
+      "name": "WEAVERS VILLA — Yellow Checked Dupatta",
+      "slug": "weavers-villa-yellow-checked-dupatta",
+      "price": 440,
+      "originalPrice": 499,
+      "category": "dupattas",
+      "description": "Yellow Checked Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "WEAVERS VILLA — Yellow Checked Dupatta",
+      "metaDescription": "Yellow Checked Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/p/dp-705-yellow_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/p/dp-705-yellow_2.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Round",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.4 kg",
+      "dimensions": "8 x 13 x 5 cm",
+      "stockQuantity": 89,
+      "deliveryStartDate": "2026-06-06T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-14T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "710791",
+        "sku": "NYFWVLA000149",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 440
+      }
+    },
+    {
+      "name": "Rangriti — Black Polyester Printed Dupatta",
+      "slug": "rangriti-black-polyester-printed-dupatta",
+      "price": 421,
+      "originalPrice": 699,
+      "category": "dupattas",
+      "description": "Black Polyester Printed Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Rangriti — Black Polyester Printed Dupatta",
+      "metaDescription": "Black Polyester Printed Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/0/f00fa43RMMJOY18850AW23BLK-1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/0/f00fa43RMMJOY18850AW23BLK-2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/0/f00fa43RMMJOY18850AW23BLK-3.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "10 x 15 x 5 cm",
+      "stockQuantity": 22,
+      "deliveryStartDate": "2026-06-06T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-14T18:30:00.000Z",
+      "breadcrumbCategory": "dupattas",
+      "_source": {
+        "nykaaId": "12567682",
+        "sku": "RANGR00005463",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 421
+      }
+    },
+    {
+      "name": "WEAVERS VILLA — Black Solid Dupatta",
+      "slug": "weavers-villa-black-solid-dupatta",
+      "price": 408,
+      "originalPrice": 499,
+      "category": "dupattas",
+      "description": "Black Solid Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "WEAVERS VILLA — Black Solid Dupatta",
+      "metaDescription": "Black Solid Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/p/dp-704-black_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/p/dp-704-black_2.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.6 kg",
+      "dimensions": "8 x 12 x 7 cm",
+      "stockQuantity": 32,
+      "deliveryStartDate": "2026-06-05T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-14T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "710786",
+        "sku": "NYFWVLA000144",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 408
+      }
+    },
+    {
+      "name": "R&B — Women Teal Polyester Mandarin Neck Kurta",
+      "slug": "r-b-women-teal-polyester-mandarin-neck-kurta",
+      "price": 483,
+      "originalPrice": 499,
+      "category": "kurtis",
+      "description": "Women Teal Polyester Mandarin Neck Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Women Teal Polyester Mandarin Neck Kurta",
+      "metaDescription": "Women Teal Polyester Mandarin Neck Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250730WY0012TEALTeal_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250730WY0012TEALTeal_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250730WY0012TEALTeal_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250730WY0012TEALTeal_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250730WY0012TEALTeal_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/b/abd9a113250730WY0012TEALTeal_6.jpg"
+      ],
+      "tags": [
+        "kurtis",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 14 x 5 cm",
+      "stockQuantity": 73,
+      "deliveryStartDate": "2026-06-08T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-12T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25020346",
+        "sku": "RBXXX00033307",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 483
+      }
+    },
+    {
+      "name": "R&B — Pink Embroidery Regular Kurta",
+      "slug": "r-b-pink-embroidery-regular-kurta",
+      "price": 433,
+      "originalPrice": 499,
+      "category": "kurtis",
+      "description": "Pink Embroidery Regular Kurta. Premium kurtis from our curated collection.",
+      "metaTitle": "R&B — Pink Embroidery Regular Kurta",
+      "metaDescription": "Pink Embroidery Regular Kurta. Premium kurtis from our curated collection.",
+      "metaKeywords": [
+        "kurtis",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e95252381WY0412PINK_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e95252381WY0412PINK_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e95252381WY0412PINK_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e95252381WY0412PINK_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e95252381WY0412PINK_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e95252381WY0412PINK_6.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/9/a99e9e95252381WY0412PINK_7.jpg"
+      ],
+      "tags": [
+        "kurtis",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Full length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.7 kg",
+      "dimensions": "9 x 13 x 8 cm",
+      "stockQuantity": 97,
+      "deliveryStartDate": "2026-06-06T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-14T18:30:00.000Z",
+      "breadcrumbCategory": "kurtis",
+      "_source": {
+        "nykaaId": "25023009",
+        "sku": "RBXXX00033799",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 433
+      }
+    },
+    {
+      "name": "Rangriti — Blue Embellished Dupatta",
+      "slug": "rangriti-blue-embellished-dupatta",
+      "price": 403,
+      "originalPrice": 699,
+      "category": "dupattas",
+      "description": "Blue Embellished Dupatta. Premium dupattas from our curated collection.",
+      "metaTitle": "Rangriti — Blue Embellished Dupatta",
+      "metaDescription": "Blue Embellished Dupatta. Premium dupattas from our curated collection.",
+      "metaKeywords": [
+        "dupattas",
+        "women",
+        "ethnic"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/n/enchante3586ss20blre_1_a256c007.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/n/enchante3586ss20blre_2_1faf1c4b.jpg"
+      ],
+      "tags": [
+        "dupattas",
+        "ethnic wear"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "9 x 15 x 4 cm",
+      "stockQuantity": 95,
+      "deliveryStartDate": "2026-06-04T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-10T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "1912596",
+        "sku": "NYFRNRT002839",
+        "categoryFilter": "10_156_164_3908_4543_5040_57387_647_6498_652_662_69",
+        "assignedPriceTier": 403
+      }
+    }
+  ]
+}

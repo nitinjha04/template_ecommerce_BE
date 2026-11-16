@@ -1,0 +1,2942 @@
+{
+  "scrapedAt": "2026-05-26T10:55:31.434Z",
+  "categoryFilter": "3907",
+  "categoryName": "bottoms",
+  "priceMin": 100,
+  "priceMax": 199,
+  "categoryId": "6557",
+  "priceMode": "random",
+  "sort": "low-to-high",
+  "totalProducts": 50,
+  "pagesFetched": 2,
+  "products": [
+    {
+      "name": "Biba — Women Deep Turquoise Cotton Dyed Churidar",
+      "slug": "biba-women-deep-turquoise-cotton-dyed-churidar",
+      "price": 124,
+      "originalPrice": 499,
+      "category": "bottoms",
+      "description": "Women Deep Turquoise Cotton Dyed Churidar. Premium bottoms from our curated collection.",
+      "metaTitle": "Biba — Women Deep Turquoise Cotton Dyed Churidar",
+      "metaDescription": "Women Deep Turquoise Cotton Dyed Churidar. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18DTRQ_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18DTRQ_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18DTRQ_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18DTRQ_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18DTRQ_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18DTRQ_6.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "11 x 16 x 4 cm",
+      "stockQuantity": 116,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-01T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "21383724",
+        "sku": "BIBAX00042634",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 124
+      }
+    },
+    {
+      "name": "Biba — Women Orange Cotton Dyed Churidar",
+      "slug": "biba-women-orange-cotton-dyed-churidar",
+      "price": 146,
+      "originalPrice": 399,
+      "category": "bottoms",
+      "description": "Women Orange Cotton Dyed Churidar. Premium bottoms from our curated collection.",
+      "metaTitle": "Biba — Women Orange Cotton Dyed Churidar",
+      "metaDescription": "Women Orange Cotton Dyed Churidar. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18ORG_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18ORG_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18ORG_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18ORG_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18ORG_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18ORG_6.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "9 x 13 x 4 cm",
+      "stockQuantity": 84,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "21383730",
+        "sku": "BIBAX00042640",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 146
+      }
+    },
+    {
+      "name": "Biba — Women Blue Cotton Dyed Churidar",
+      "slug": "biba-women-blue-cotton-dyed-churidar",
+      "price": 146,
+      "originalPrice": 399,
+      "category": "bottoms",
+      "description": "Women Blue Cotton Dyed Churidar. Premium bottoms from our curated collection.",
+      "metaTitle": "Biba — Women Blue Cotton Dyed Churidar",
+      "metaDescription": "Women Blue Cotton Dyed Churidar. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18TEL_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18TEL_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18TEL_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18TEL_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18TEL_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18TEL_6.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Short",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 15 x 7 cm",
+      "stockQuantity": 38,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-10T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "21383733",
+        "sku": "BIBAX00042643",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 146
+      }
+    },
+    {
+      "name": "Biba — Women Pink Cotton Dyed Churidar",
+      "slug": "biba-women-pink-cotton-dyed-churidar",
+      "price": 115,
+      "originalPrice": 399,
+      "category": "bottoms",
+      "description": "Women Pink Cotton Dyed Churidar. Premium bottoms from our curated collection.",
+      "metaTitle": "Biba — Women Pink Cotton Dyed Churidar",
+      "metaDescription": "Women Pink Cotton Dyed Churidar. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18FUS_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18FUS_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18FUS_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18FUS_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18FUS_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18FUS_6.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Jacket",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.8 kg",
+      "dimensions": "10 x 11 x 4 cm",
+      "stockQuantity": 114,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "21383769",
+        "sku": "BIBAX00042679",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 115
+      }
+    },
+    {
+      "name": "Biba — Women White Cotton Dyed Churidar",
+      "slug": "biba-women-white-cotton-dyed-churidar",
+      "price": 158,
+      "originalPrice": 399,
+      "category": "bottoms",
+      "description": "Women White Cotton Dyed Churidar. Premium bottoms from our curated collection.",
+      "metaTitle": "Biba — Women White Cotton Dyed Churidar",
+      "metaDescription": "Women White Cotton Dyed Churidar. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18WHT_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18WHT_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18WHT_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18WHT_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18WHT_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18WHT_6.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.6 kg",
+      "dimensions": "11 x 11 x 3 cm",
+      "stockQuantity": 24,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "21383734",
+        "sku": "BIBAX00042644",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 158
+      }
+    },
+    {
+      "name": "Biba — Women Dark Red Cotton Dyed Churidar",
+      "slug": "biba-women-dark-red-cotton-dyed-churidar",
+      "price": 194,
+      "originalPrice": 399,
+      "category": "bottoms",
+      "description": "Women Dark Red Cotton Dyed Churidar. Premium bottoms from our curated collection.",
+      "metaTitle": "Biba — Women Dark Red Cotton Dyed Churidar",
+      "metaDescription": "Women Dark Red Cotton Dyed Churidar. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18DRED_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18DRED_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18DRED_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18DRED_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18DRED_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18DRED_6.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "11 x 10 x 2 cm",
+      "stockQuantity": 120,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "21383767",
+        "sku": "BIBAX00042677",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 194
+      }
+    },
+    {
+      "name": "Biba — Women Deep Yellow Cotton Dyed Churidar",
+      "slug": "biba-women-deep-yellow-cotton-dyed-churidar",
+      "price": 116,
+      "originalPrice": 399,
+      "category": "bottoms",
+      "description": "Women Deep Yellow Cotton Dyed Churidar. Premium bottoms from our curated collection.",
+      "metaTitle": "Biba — Women Deep Yellow Cotton Dyed Churidar",
+      "metaDescription": "Women Deep Yellow Cotton Dyed Churidar. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18DYEL_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18DYEL_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18DYEL_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18DYEL_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18DYEL_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecCBK001AW18DYEL_6.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Medium",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.8 kg",
+      "dimensions": "11 x 13 x 4 cm",
+      "stockQuantity": 39,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "21383725",
+        "sku": "BIBAX00042635",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 116
+      }
+    },
+    {
+      "name": "Rangriti — Women Brown Cotton Leggings",
+      "slug": "rangriti-women-brown-cotton-leggings",
+      "price": 142,
+      "originalPrice": 349,
+      "category": "bottoms",
+      "description": "Women Brown Cotton Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Rangriti — Women Brown Cotton Leggings",
+      "metaDescription": "Women Brown Cotton Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "[object Object]"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3CORE1093BBRN_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3CORE1093BBRN_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3CORE1093BBRN_3.jpg"
+      ],
+      "tags": [
+        "[object Object]"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Relaxed fit",
+      "weight": "0.6 kg",
+      "dimensions": "8 x 10 x 4 cm",
+      "stockQuantity": 117,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "20582303",
+        "sku": "RANGR00013528",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 142
+      }
+    },
+    {
+      "name": "Rangriti — Women Green Cotton Leggings",
+      "slug": "rangriti-women-green-cotton-leggings",
+      "price": 111,
+      "originalPrice": 349,
+      "category": "bottoms",
+      "description": "Women Green Cotton Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Rangriti — Women Green Cotton Leggings",
+      "metaDescription": "Women Green Cotton Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3CORE1093AGRN_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3CORE1093AGRN_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3CORE1093AGRN_3.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "8 x 14 x 8 cm",
+      "stockQuantity": 31,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "20582302",
+        "sku": "RANGR00013527",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 111
+      }
+    },
+    {
+      "name": "Biba — Women Navy Blue Cotton Solid Jeggings",
+      "slug": "biba-women-navy-blue-cotton-solid-jeggings",
+      "price": 102,
+      "originalPrice": 899,
+      "category": "bottoms",
+      "description": "Women Navy Blue Cotton Solid Jeggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Biba — Women Navy Blue Cotton Solid Jeggings",
+      "metaDescription": "Women Navy Blue Cotton Solid Jeggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecBOTTOMW18906AW22NVY_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecBOTTOMW18906AW22NVY_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecBOTTOMW18906AW22NVY_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecBOTTOMW18906AW22NVY_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecBOTTOMW18906AW22NVY_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecBOTTOMW18906AW22NVY_6.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.7 kg",
+      "dimensions": "9 x 11 x 8 cm",
+      "stockQuantity": 41,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "21383698",
+        "sku": "BIBAX00042608",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 102
+      }
+    },
+    {
+      "name": "Biba — Women Olive Green Cotton Solid Jeggings",
+      "slug": "biba-women-olive-green-cotton-solid-jeggings",
+      "price": 167,
+      "originalPrice": 899,
+      "category": "bottoms",
+      "description": "Women Olive Green Cotton Solid Jeggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Biba — Women Olive Green Cotton Solid Jeggings",
+      "metaDescription": "Women Olive Green Cotton Solid Jeggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecBOTTOMW18906AW22OLVGRN_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecBOTTOMW18906AW22OLVGRN_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecBOTTOMW18906AW22OLVGRN_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecBOTTOMW18906AW22OLVGRN_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecBOTTOMW18906AW22OLVGRN_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/a/9a947ecBOTTOMW18906AW22OLVGRN_6.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.6 kg",
+      "dimensions": "13 x 14 x 5 cm",
+      "stockQuantity": 51,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "21383699",
+        "sku": "BIBAX00042609",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 167
+      }
+    },
+    {
+      "name": "Lakshita — Yellow Plain Skinny Legging",
+      "slug": "lakshita-yellow-plain-skinny-legging",
+      "price": 131,
+      "originalPrice": 795,
+      "category": "bottoms",
+      "description": "Yellow Plain Skinny Legging. Premium bottoms from our curated collection.",
+      "metaTitle": "Lakshita — Yellow Plain Skinny Legging",
+      "metaDescription": "Yellow Plain Skinny Legging. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/d/1d6554318SHP014-S-2_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/d/1d6554318SHP014-S-2_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/d/1d6554318SHP014-S-2_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/d/1d6554318SHP014-S-2_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/d/1d6554318SHP014-S-2_5.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Comfort fit",
+      "weight": "0.5 kg",
+      "dimensions": "10 x 13 x 4 cm",
+      "stockQuantity": 28,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "7773597",
+        "sku": "LAKSH00004992",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 131
+      }
+    },
+    {
+      "name": "Lakshita — Mehndi Green Plain Tights",
+      "slug": "lakshita-mehndi-green-plain-tights",
+      "price": 171,
+      "originalPrice": 795,
+      "category": "bottoms",
+      "description": "Mehndi Green Plain Tights. Premium bottoms from our curated collection.",
+      "metaTitle": "Lakshita — Mehndi Green Plain Tights",
+      "metaDescription": "Mehndi Green Plain Tights. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b2b390HP014-3_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b2b390HP014-3_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b2b390HP014-3_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b2b390HP014-3_4.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.3 kg",
+      "dimensions": "10 x 14 x 7 cm",
+      "stockQuantity": 100,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "12137230",
+        "sku": "LAKSH00015784",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 171
+      }
+    },
+    {
+      "name": "Lakshita — Beige Skinny Fit Leggings",
+      "slug": "lakshita-beige-skinny-fit-leggings",
+      "price": 107,
+      "originalPrice": 795,
+      "category": "bottoms",
+      "description": "Beige Skinny Fit Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Lakshita — Beige Skinny Fit Leggings",
+      "metaDescription": "Beige Skinny Fit Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "1X",
+        "2X",
+        "3X",
+        "4X"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP014N-8B_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP014N-8B_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP014N-8B_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP014N-8B_4.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Trouser",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "11 x 16 x 8 cm",
+      "stockQuantity": 28,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "10927727",
+        "sku": "LAKSH00013133",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 107
+      }
+    },
+    {
+      "name": "Lakshita — Cobalt Blue Plain Tights",
+      "slug": "lakshita-cobalt-blue-plain-tights",
+      "price": 163,
+      "originalPrice": 795,
+      "category": "bottoms",
+      "description": "Cobalt Blue Plain Tights. Premium bottoms from our curated collection.",
+      "metaTitle": "Lakshita — Cobalt Blue Plain Tights",
+      "metaDescription": "Cobalt Blue Plain Tights. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b2b390HP014-4_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b2b390HP014-4_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b2b390HP014-4_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b2b390HP014-4_4.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Round",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.5 kg",
+      "dimensions": "12 x 12 x 2 cm",
+      "stockQuantity": 113,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "12137226",
+        "sku": "LAKSH00015780",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 163
+      }
+    },
+    {
+      "name": "Lakshita — Brown Skinny Fit Leggings",
+      "slug": "lakshita-brown-skinny-fit-leggings",
+      "price": 197,
+      "originalPrice": 795,
+      "category": "bottoms",
+      "description": "Brown Skinny Fit Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Lakshita — Brown Skinny Fit Leggings",
+      "metaDescription": "Brown Skinny Fit Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "1X",
+        "2X",
+        "3X",
+        "4X"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP014N-13_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP014N-13_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP014N-13_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP014N-13_4.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.7 kg",
+      "dimensions": "14 x 10 x 5 cm",
+      "stockQuantity": 25,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "10927722",
+        "sku": "LAKSH00013128",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 197
+      }
+    },
+    {
+      "name": "Lakshita — Beige Ankle Length Leggings",
+      "slug": "lakshita-beige-ankle-length-leggings",
+      "price": 138,
+      "originalPrice": 795,
+      "category": "bottoms",
+      "description": "Beige Ankle Length Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Lakshita — Beige Ankle Length Leggings",
+      "metaDescription": "Beige Ankle Length Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "1X",
+        "2X",
+        "3X",
+        "4X"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP065N-8B_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP065N-8B_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP065N-8B_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP065N-8B_5.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.7 kg",
+      "dimensions": "8 x 15 x 4 cm",
+      "stockQuantity": 31,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "10927741",
+        "sku": "LAKSH00013147",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 138
+      }
+    },
+    {
+      "name": "Lakshita — Bright Orange Plain Tights",
+      "slug": "lakshita-bright-orange-plain-tights",
+      "price": 141,
+      "originalPrice": 795,
+      "category": "bottoms",
+      "description": "Bright Orange Plain Tights. Premium bottoms from our curated collection.",
+      "metaTitle": "Lakshita — Bright Orange Plain Tights",
+      "metaDescription": "Bright Orange Plain Tights. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b2b390HP014-16B_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b2b390HP014-16B_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b2b390HP014-16B_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b2b390HP014-16B_4.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "12 x 13 x 3 cm",
+      "stockQuantity": 35,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "12137229",
+        "sku": "LAKSH00015783",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 141
+      }
+    },
+    {
+      "name": "Lakshita — Orange Plain Legging",
+      "slug": "lakshita-orange-plain-legging",
+      "price": 180,
+      "originalPrice": 795,
+      "category": "bottoms",
+      "description": "Orange Plain Legging. Premium bottoms from our curated collection.",
+      "metaTitle": "Lakshita — Orange Plain Legging",
+      "metaDescription": "Orange Plain Legging. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2ad388318SHP014-16_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2ad388318SHP014-16_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2ad388318SHP014-16_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2ad388318SHP014-16_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/a/2ad388318SHP014-16_5.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Jacket",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Comfort fit",
+      "weight": "0.4 kg",
+      "dimensions": "8 x 13 x 4 cm",
+      "stockQuantity": 56,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "10572296",
+        "sku": "LAKSH00012224",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 180
+      }
+    },
+    {
+      "name": "Lakshita — Beige Plain Skinny Legging",
+      "slug": "lakshita-beige-plain-skinny-legging",
+      "price": 171,
+      "originalPrice": 795,
+      "category": "bottoms",
+      "description": "Beige Plain Skinny Legging. Premium bottoms from our curated collection.",
+      "metaTitle": "Lakshita — Beige Plain Skinny Legging",
+      "metaDescription": "Beige Plain Skinny Legging. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/c/bc4854318SHP014-S-8A_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/c/bc4854318SHP014-S-8A_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/c/bc4854318SHP014-S-8A_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/c/bc4854318SHP014-S-8A_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/c/bc4854318SHP014-S-8A_5.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Jacket",
+      "washCare": "Dry clean recommended",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "14 x 10 x 7 cm",
+      "stockQuantity": 81,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "7773598",
+        "sku": "LAKSH00004993",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 171
+      }
+    },
+    {
+      "name": "Lakshita — Yellow Ankle Length Plain Legging",
+      "slug": "lakshita-yellow-ankle-length-plain-legging",
+      "price": 198,
+      "originalPrice": 795,
+      "category": "bottoms",
+      "description": "Yellow Ankle Length Plain Legging. Premium bottoms from our curated collection.",
+      "metaTitle": "Lakshita — Yellow Ankle Length Plain Legging",
+      "metaDescription": "Yellow Ankle Length Plain Legging. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "1X",
+        "2X",
+        "3X",
+        "4X"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/4/64550d9HP065-2C_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/4/64550d9HP065-2C_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/4/64550d9HP065-2C_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/4/64550d9HP065-2C_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/4/64550d9HP065-2C_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/4/64550d9HP065-2C_6.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.4 kg",
+      "dimensions": "12 x 13 x 8 cm",
+      "stockQuantity": 108,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "11930700",
+        "sku": "LAKSH00014978",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 198
+      }
+    },
+    {
+      "name": "Lakshita — Purple Skinny Fit Leggings for Women",
+      "slug": "lakshita-purple-skinny-fit-leggings-for-women",
+      "price": 121,
+      "originalPrice": 795,
+      "category": "bottoms",
+      "description": "Purple Skinny Fit Leggings for Women. Premium bottoms from our curated collection.",
+      "metaTitle": "Lakshita — Purple Skinny Fit Leggings for Women",
+      "metaDescription": "Purple Skinny Fit Leggings for Women. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/0/9041c30HP014-14A_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/0/9041c30HP014-14A_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/0/9041c30HP014-14A_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/0/9041c30HP014-14A_4.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.6 kg",
+      "dimensions": "11 x 16 x 6 cm",
+      "stockQuantity": 41,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "20995229",
+        "sku": "LAKSH00029132",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 121
+      }
+    },
+    {
+      "name": "Lakshita — Dark Grey Skinny Fit Leggings",
+      "slug": "lakshita-dark-grey-skinny-fit-leggings",
+      "price": 185,
+      "originalPrice": 795,
+      "category": "bottoms",
+      "description": "Dark Grey Skinny Fit Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Lakshita — Dark Grey Skinny Fit Leggings",
+      "metaDescription": "Dark Grey Skinny Fit Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "1X",
+        "2X",
+        "3X",
+        "4X"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP014N-15B_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP014N-15B_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP014N-15B_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP014N-15B_4.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.5 kg",
+      "dimensions": "10 x 12 x 7 cm",
+      "stockQuantity": 29,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-02T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "10927718",
+        "sku": "LAKSH00013124",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 185
+      }
+    },
+    {
+      "name": "Lakshita — Orange Skinny Fit Leggings",
+      "slug": "lakshita-orange-skinny-fit-leggings",
+      "price": 101,
+      "originalPrice": 795,
+      "category": "bottoms",
+      "description": "Orange Skinny Fit Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Lakshita — Orange Skinny Fit Leggings",
+      "metaDescription": "Orange Skinny Fit Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "1X",
+        "2X",
+        "3X",
+        "4X"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP014N-17_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP014N-17_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP014N-17_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP014N-17_5.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "13 x 11 x 3 cm",
+      "stockQuantity": 106,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "10927723",
+        "sku": "LAKSH00013129",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 101
+      }
+    },
+    {
+      "name": "Lakshita — Green Skinny Fit Leggings",
+      "slug": "lakshita-green-skinny-fit-leggings",
+      "price": 195,
+      "originalPrice": 795,
+      "category": "bottoms",
+      "description": "Green Skinny Fit Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Lakshita — Green Skinny Fit Leggings",
+      "metaDescription": "Green Skinny Fit Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "1X",
+        "2X",
+        "3X",
+        "4X"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP014N-3B_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP014N-3B_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP014N-3B_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP014N-3B_4.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.8 kg",
+      "dimensions": "10 x 11 x 4 cm",
+      "stockQuantity": 30,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-02T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "10927717",
+        "sku": "LAKSH00013123",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 195
+      }
+    },
+    {
+      "name": "Lakshita — Purple Plain Leggings",
+      "slug": "lakshita-purple-plain-leggings",
+      "price": 177,
+      "originalPrice": 795,
+      "category": "bottoms",
+      "description": "Purple Plain Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Lakshita — Purple Plain Leggings",
+      "metaDescription": "Purple Plain Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "1X",
+        "2X",
+        "3X",
+        "4X"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/4/64550d9HP014-13A_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/4/64550d9HP014-13A_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/4/64550d9HP014-13A_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/4/64550d9HP014-13A_4.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.7 kg",
+      "dimensions": "14 x 10 x 8 cm",
+      "stockQuantity": 31,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "11930721",
+        "sku": "LAKSH00014999",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 177
+      }
+    },
+    {
+      "name": "Lakshita — Dark Pink Viscose Lycra Leggings for Women",
+      "slug": "lakshita-dark-pink-viscose-lycra-leggings-for-women",
+      "price": 166,
+      "originalPrice": 795,
+      "category": "bottoms",
+      "description": "Dark Pink Viscose Lycra Leggings for Women. Premium bottoms from our curated collection.",
+      "metaTitle": "Lakshita — Dark Pink Viscose Lycra Leggings for Women",
+      "metaDescription": "Dark Pink Viscose Lycra Leggings for Women. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/0/9041c30HP065-18C_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/0/9041c30HP065-18C_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/0/9041c30HP065-18C_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/0/9041c30HP065-18C_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/0/9041c30HP065-18C_5.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Band collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.6 kg",
+      "dimensions": "8 x 15 x 6 cm",
+      "stockQuantity": 107,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "20995247",
+        "sku": "LAKSH00029150",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 166
+      }
+    },
+    {
+      "name": "Lakshita — Anchor Grey Plain Tights",
+      "slug": "lakshita-anchor-grey-plain-tights",
+      "price": 189,
+      "originalPrice": 795,
+      "category": "bottoms",
+      "description": "Anchor Grey Plain Tights. Premium bottoms from our curated collection.",
+      "metaTitle": "Lakshita — Anchor Grey Plain Tights",
+      "metaDescription": "Anchor Grey Plain Tights. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b2b390HP014-15_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b2b390HP014-15_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b2b390HP014-15_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b2b390HP014-15_4.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Short sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "12 x 15 x 6 cm",
+      "stockQuantity": 78,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "12137224",
+        "sku": "LAKSH00015778",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 189
+      }
+    },
+    {
+      "name": "Lakshita — Turquoise Blue Plain Tights",
+      "slug": "lakshita-turquoise-blue-plain-tights",
+      "price": 105,
+      "originalPrice": 795,
+      "category": "bottoms",
+      "description": "Turquoise Blue Plain Tights. Premium bottoms from our curated collection.",
+      "metaTitle": "Lakshita — Turquoise Blue Plain Tights",
+      "metaDescription": "Turquoise Blue Plain Tights. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b2b390HP014-20_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b2b390HP014-20_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b2b390HP014-20_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/b/8b2b390HP014-20_4.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Full length",
+      "packageContains": "1 Jacket",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.5 kg",
+      "dimensions": "9 x 13 x 5 cm",
+      "stockQuantity": 53,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "12137231",
+        "sku": "LAKSH00015785",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 105
+      }
+    },
+    {
+      "name": "Biba — Navy Cotton Pant",
+      "slug": "biba-navy-cotton-pant",
+      "price": 181,
+      "originalPrice": 899,
+      "category": "bottoms",
+      "description": "Navy Cotton Pant. Premium bottoms from our curated collection.",
+      "metaTitle": "Biba — Navy Cotton Pant",
+      "metaDescription": "Navy Cotton Pant. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e445b99BOTTOMW14907SS22NAVY_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e445b99BOTTOMW14907SS22NAVY_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e445b99BOTTOMW14907SS22NAVY_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e445b99BOTTOMW14907SS22NAVY_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e445b99BOTTOMW14907SS22NAVY_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e445b99BOTTOMW14907SS22NAVY_6.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 Jacket",
+      "washCare": "Dry clean recommended",
+      "neckline": "Round",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.4 kg",
+      "dimensions": "12 x 14 x 5 cm",
+      "stockQuantity": 69,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-11T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "5802100",
+        "sku": "BIBAX00007207",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 181
+      }
+    },
+    {
+      "name": "Lakshita — Mustard Skinny Fit Leggings",
+      "slug": "lakshita-mustard-skinny-fit-leggings",
+      "price": 121,
+      "originalPrice": 795,
+      "category": "bottoms",
+      "description": "Mustard Skinny Fit Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Lakshita — Mustard Skinny Fit Leggings",
+      "metaDescription": "Mustard Skinny Fit Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "1X",
+        "2X",
+        "3X",
+        "4X"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP014N-2C_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP014N-2C_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP014N-2C_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/1/91076deHP014N-2C_4.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Regular fit",
+      "weight": "0.3 kg",
+      "dimensions": "12 x 15 x 6 cm",
+      "stockQuantity": 96,
+      "deliveryStartDate": "2026-06-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "10927737",
+        "sku": "LAKSH00013143",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 121
+      }
+    },
+    {
+      "name": "Lakshita — Fiery Pink Skinny Fit Leggings for Women",
+      "slug": "lakshita-fiery-pink-skinny-fit-leggings-for-women",
+      "price": 176,
+      "originalPrice": 795,
+      "category": "bottoms",
+      "description": "Fiery Pink Skinny Fit Leggings for Women. Premium bottoms from our curated collection.",
+      "metaTitle": "Lakshita — Fiery Pink Skinny Fit Leggings for Women",
+      "metaDescription": "Fiery Pink Skinny Fit Leggings for Women. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/0/9041c30HP014-18C_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/0/9041c30HP014-18C_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/0/9041c30HP014-18C_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/9/0/9041c30HP014-18C_4.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "11 x 11 x 6 cm",
+      "stockQuantity": 96,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "20995230",
+        "sku": "LAKSH00029133",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 176
+      }
+    },
+    {
+      "name": "Rangriti — Women White Knitted Leggings",
+      "slug": "rangriti-women-black-knitted-leggings",
+      "price": 126,
+      "originalPrice": 399,
+      "category": "bottoms",
+      "description": "Women White Knitted Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Rangriti — Women White Knitted Leggings",
+      "metaDescription": "Women White Knitted Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE5302OWHT_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE5302OWHT_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE5302OWHT_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE5302OWHT_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE5302OWHT_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE5302OWHT_6.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Short",
+      "packageContains": "1 Trouser",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.5 kg",
+      "dimensions": "8 x 14 x 3 cm",
+      "stockQuantity": 82,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "19400895",
+        "sku": "RANGR00011611",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 126
+      }
+    },
+    {
+      "name": "Rangriti — Women Maroon Solid Leggings",
+      "slug": "rangriti-women-maroon-solid-leggings",
+      "price": 103,
+      "originalPrice": 399,
+      "category": "bottoms",
+      "description": "Women Maroon Solid Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Rangriti — Women Maroon Solid Leggings",
+      "metaDescription": "Women Maroon Solid Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/7/67cf270RMMCORE5301MRN_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/7/67cf270RMMCORE5301MRN_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/7/67cf270RMMCORE5301MRN_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/7/67cf270RMMCORE5301MRN_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/7/67cf270RMMCORE5301MRN_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/7/67cf270RMMCORE5301MRN_6.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.4 kg",
+      "dimensions": "11 x 14 x 8 cm",
+      "stockQuantity": 18,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "19942970",
+        "sku": "RANGR00011718",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 103
+      }
+    },
+    {
+      "name": "Rangriti — Women Beige Cotton Legging",
+      "slug": "rangriti-women-beige-cotton-legging",
+      "price": 170,
+      "originalPrice": 399,
+      "category": "bottoms",
+      "description": "Women Beige Cotton Legging. Premium bottoms from our curated collection.",
+      "metaTitle": "Rangriti — Women Beige Cotton Legging",
+      "metaDescription": "Women Beige Cotton Legging. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE8164AW17BEG_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE8164AW17BEG_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE8164AW17BEG_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE8164AW17BEG_4.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 14 x 2 cm",
+      "stockQuantity": 115,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "20582320",
+        "sku": "RANGR00013545",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 170
+      }
+    },
+    {
+      "name": "Rangriti — Women Black Cotton Leggings",
+      "slug": "rangriti-women-black-cotton-leggings",
+      "price": 185,
+      "originalPrice": 399,
+      "category": "bottoms",
+      "description": "Women Black Cotton Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Rangriti — Women Black Cotton Leggings",
+      "metaDescription": "Women Black Cotton Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE5303BLK_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE5303BLK_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE5303BLK_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE5303BLK_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE5303BLK_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE5303BLK_6.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.3 kg",
+      "dimensions": "12 x 16 x 6 cm",
+      "stockQuantity": 36,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "20582319",
+        "sku": "RANGR00013544",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 185
+      }
+    },
+    {
+      "name": "Rangriti — Women Blue Knitted Leggings",
+      "slug": "rangriti-women-blue-knitted-leggings",
+      "price": 127,
+      "originalPrice": 399,
+      "category": "bottoms",
+      "description": "Women Blue Knitted Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Rangriti — Women Blue Knitted Leggings",
+      "metaDescription": "Women Blue Knitted Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE8366RBLU_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE8366RBLU_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE8366RBLU_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE8366RBLU_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE8366RBLU_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE8366RBLU_6.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Jacket",
+      "washCare": "Dry clean recommended",
+      "neckline": "V-neck",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "12 x 12 x 3 cm",
+      "stockQuantity": 21,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "19400902",
+        "sku": "RANGR00011618",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 127
+      }
+    },
+    {
+      "name": "Rangriti — Women Blue Knitted Leggings",
+      "slug": "rangriti-women-blue-knitted-leggings",
+      "price": 147,
+      "originalPrice": 399,
+      "category": "bottoms",
+      "description": "Women Blue Knitted Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Rangriti — Women Blue Knitted Leggings",
+      "metaDescription": "Women Blue Knitted Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE8159CORENYBLU_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE8159CORENYBLU_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE8159CORENYBLU_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE8159CORENYBLU_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE8159CORENYBLU_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE8159CORENYBLU_6.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.6 kg",
+      "dimensions": "11 x 14 x 5 cm",
+      "stockQuantity": 52,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "19400899",
+        "sku": "RANGR00011615",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 147
+      }
+    },
+    {
+      "name": "Rangriti — Women Yellow Cotton Churidar",
+      "slug": "rangriti-women-yellow-cotton-churidar",
+      "price": 120,
+      "originalPrice": 399,
+      "category": "bottoms",
+      "description": "Women Yellow Cotton Churidar. Premium bottoms from our curated collection.",
+      "metaTitle": "Rangriti — Women Yellow Cotton Churidar",
+      "metaDescription": "Women Yellow Cotton Churidar. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3INDIEPA3145AW19BEG_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3INDIEPA3145AW19BEG_2.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "8 x 11 x 4 cm",
+      "stockQuantity": 79,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-02T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "20582313",
+        "sku": "RANGR00013538",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 120
+      }
+    },
+    {
+      "name": "Rangriti — Women Blue Knitted Leggings",
+      "slug": "rangriti-women-blue-knitted-leggings",
+      "price": 198,
+      "originalPrice": 399,
+      "category": "bottoms",
+      "description": "Women Blue Knitted Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Rangriti — Women Blue Knitted Leggings",
+      "metaDescription": "Women Blue Knitted Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE4370DBLU_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE4370DBLU_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE4370DBLU_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE4370DBLU_4.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Kurta",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "10 x 14 x 4 cm",
+      "stockQuantity": 109,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-09T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "19400928",
+        "sku": "RANGR00011644",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 198
+      }
+    },
+    {
+      "name": "Rangriti — Women Orange Knitted Leggings",
+      "slug": "rangriti-women-orange-knitted-leggings",
+      "price": 174,
+      "originalPrice": 399,
+      "category": "bottoms",
+      "description": "Women Orange Knitted Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Rangriti — Women Orange Knitted Leggings",
+      "metaDescription": "Women Orange Knitted Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE4376OWHT_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE4376OWHT_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE4376OWHT_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE4376OWHT_4.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.5 kg",
+      "dimensions": "14 x 10 x 6 cm",
+      "stockQuantity": 116,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "19400931",
+        "sku": "RANGR00011647",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 174
+      }
+    },
+    {
+      "name": "Rangriti — Women Dark Green Cotton Leggings",
+      "slug": "rangriti-women-dark-green-cotton-leggings",
+      "price": 109,
+      "originalPrice": 399,
+      "category": "bottoms",
+      "description": "Women Dark Green Cotton Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Rangriti — Women Dark Green Cotton Leggings",
+      "metaDescription": "Women Dark Green Cotton Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE4371DGRN_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE4371DGRN_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE4371DGRN_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE4371DGRN_4.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.6 kg",
+      "dimensions": "10 x 11 x 3 cm",
+      "stockQuantity": 76,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "20582342",
+        "sku": "RANGR00013567",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 109
+      }
+    },
+    {
+      "name": "Rangriti — Women Navy Blue Cotton Leggings",
+      "slug": "rangriti-women-navy-blue-cotton-leggings",
+      "price": 193,
+      "originalPrice": 399,
+      "category": "bottoms",
+      "description": "Women Navy Blue Cotton Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Rangriti — Women Navy Blue Cotton Leggings",
+      "metaDescription": "Women Navy Blue Cotton Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE4377NYBLU_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE4377NYBLU_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE4377NYBLU_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE4377NYBLU_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE4377NYBLU_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE4377NYBLU_6.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Band collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.7 kg",
+      "dimensions": "8 x 10 x 8 cm",
+      "stockQuantity": 66,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-04T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "20582344",
+        "sku": "RANGR00013569",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 193
+      }
+    },
+    {
+      "name": "Rangriti — Women Brown Knitted Leggings",
+      "slug": "rangriti-women-brown-knitted-leggings",
+      "price": 169,
+      "originalPrice": 399,
+      "category": "bottoms",
+      "description": "Women Brown Knitted Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Rangriti — Women Brown Knitted Leggings",
+      "metaDescription": "Women Brown Knitted Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE4372CHOC_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE4372CHOC_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE4372CHOC_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE4372CHOC_4.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.8 kg",
+      "dimensions": "13 x 10 x 4 cm",
+      "stockQuantity": 33,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-05T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "19400929",
+        "sku": "RANGR00011645",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 169
+      }
+    },
+    {
+      "name": "Rangriti — Women Brown Knitted Leggings",
+      "slug": "rangriti-women-brown-knitted-leggings",
+      "price": 157,
+      "originalPrice": 399,
+      "category": "bottoms",
+      "description": "Women Brown Knitted Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Rangriti — Women Brown Knitted Leggings",
+      "metaDescription": "Women Brown Knitted Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE8156AW17CHOC_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE8156AW17CHOC_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE8156AW17CHOC_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE8156AW17CHOC_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE8156AW17CHOC_5.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE8156AW17CHOC_6.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.8 kg",
+      "dimensions": "12 x 10 x 8 cm",
+      "stockQuantity": 89,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-01T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "19400898",
+        "sku": "RANGR00011614",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 157
+      }
+    },
+    {
+      "name": "Rangriti — Women Yellow Knitted Leggings",
+      "slug": "rangriti-women-yellow-knitted-leggings",
+      "price": 135,
+      "originalPrice": 399,
+      "category": "bottoms",
+      "description": "Women Yellow Knitted Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Rangriti — Women Yellow Knitted Leggings",
+      "metaDescription": "Women Yellow Knitted Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE4382YELL_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE4382YELL_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE4382YELL_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE4382YELL_4.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Relaxed fit",
+      "weight": "0.8 kg",
+      "dimensions": "11 x 13 x 5 cm",
+      "stockQuantity": 47,
+      "deliveryStartDate": "2026-05-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-08T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "19400933",
+        "sku": "RANGR00011649",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 135
+      }
+    },
+    {
+      "name": "Rangriti — Women Beige Cotton Leggings",
+      "slug": "rangriti-women-beige-cotton-leggings",
+      "price": 197,
+      "originalPrice": 399,
+      "category": "bottoms",
+      "description": "Women Beige Cotton Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Rangriti — Women Beige Cotton Leggings",
+      "metaDescription": "Women Beige Cotton Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE4383BEG_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE4383BEG_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE4383BEG_3.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Long",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "8 x 12 x 7 cm",
+      "stockQuantity": 39,
+      "deliveryStartDate": "2026-06-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "20582348",
+        "sku": "RANGR00013573",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 197
+      }
+    },
+    {
+      "name": "Rangriti — Women Blue Knitted Leggings",
+      "slug": "rangriti-women-blue-knitted-leggings",
+      "price": 166,
+      "originalPrice": 399,
+      "category": "bottoms",
+      "description": "Women Blue Knitted Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Rangriti — Women Blue Knitted Leggings",
+      "metaDescription": "Women Blue Knitted Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE4385IND_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE4385IND_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE4385IND_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/e4c5fd5RMMCORE4385IND_4.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.3 kg",
+      "dimensions": "11 x 16 x 7 cm",
+      "stockQuantity": 58,
+      "deliveryStartDate": "2026-05-31T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-07T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "19400934",
+        "sku": "RANGR00011650",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 166
+      }
+    },
+    {
+      "name": "Rangriti — Women Blue Cotton Legging",
+      "slug": "rangriti-women-blue-cotton-legging",
+      "price": 114,
+      "originalPrice": 399,
+      "category": "bottoms",
+      "description": "Women Blue Cotton Legging. Premium bottoms from our curated collection.",
+      "metaTitle": "Rangriti — Women Blue Cotton Legging",
+      "metaDescription": "Women Blue Cotton Legging. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE8165COREBLU_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE8165COREBLU_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE8165COREBLU_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE8165COREBLU_4.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE8165COREBLU_5.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.5 kg",
+      "dimensions": "10 x 13 x 3 cm",
+      "stockQuantity": 33,
+      "deliveryStartDate": "2026-05-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-06T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "20582351",
+        "sku": "RANGR00013576",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 114
+      }
+    },
+    {
+      "name": "Rangriti — Women Blue Cotton Leggings",
+      "slug": "rangriti-women-blue-cotton-leggings",
+      "price": 168,
+      "originalPrice": 399,
+      "category": "bottoms",
+      "description": "Women Blue Cotton Leggings. Premium bottoms from our curated collection.",
+      "metaTitle": "Rangriti — Women Blue Cotton Leggings",
+      "metaDescription": "Women Blue Cotton Leggings. Premium bottoms from our curated collection.",
+      "metaKeywords": [
+        "bottoms",
+        "women",
+        "fashion"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Multi"
+      ],
+      "images": [
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE4386TURQ_1.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE4386TURQ_2.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE4386TURQ_3.jpg",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/2/c280bf3RMMCORE4386TURQ_4.jpg"
+      ],
+      "tags": [
+        "bottoms"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Kurta",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.6 kg",
+      "dimensions": "10 x 10 x 4 cm",
+      "stockQuantity": 55,
+      "deliveryStartDate": "2026-05-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-06-03T18:30:00.000Z",
+      "breadcrumbCategory": "bottoms",
+      "_source": {
+        "nykaaId": "20582350",
+        "sku": "RANGR00013575",
+        "categoryFilter": "3907",
+        "assignedPriceTier": 168
+      }
+    }
+  ]
+}

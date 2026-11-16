@@ -1,0 +1,2896 @@
+{
+  "scrapedAt": "2026-06-24T19:17:46.305Z",
+  "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+  "categoryName": "trousers and treggings",
+  "categorySlug": "maxwomen-bottoms-trousersandtreggings",
+  "storeId": "6a3bf2e10b0f40e291c26f6f",
+  "storeDomain": "nexa-skyline.com",
+  "priceMin": 700,
+  "priceMax": 799,
+  "categoryId": "maxwomen-bottoms-trousersandtreggings",
+  "priceMode": "random",
+  "sort": "low-to-high",
+  "totalProducts": 46,
+  "pagesFetched": 2,
+  "products": [
+    {
+      "name": "Women Embroidered Trousers",
+      "slug": "1000016689837-beige-ecru",
+      "price": 748,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Women Embroidered Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Embroidered Trousers",
+      "metaDescription": "Women Embroidered Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS-S",
+        "M-L",
+        "XL-XXL"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016689837-Beige-ECRU-1000016689837_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016689837-Beige-ECRU-1000016689837_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016689837-Beige-ECRU-1000016689837_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016689837-Beige-ECRU-1000016689837_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016689837-Beige-ECRU-1000016689837_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016689837-Beige-ECRU-1000016689837_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Full length",
+      "packageContains": "1 Jacket",
+      "washCare": "Hand wash separately",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.4 kg",
+      "dimensions": "14 x 16 x 7 cm",
+      "stockQuantity": 86,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-10T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000016689837BeigeECRU",
+        "sku": "1000016689837-Beige-ECRU",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 748
+      }
+    },
+    {
+      "name": "Nexa Skyline Woven Wide-Leg Pants",
+      "slug": "1000016678942-blue-blue",
+      "price": 747,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Nexa Skyline Woven Wide-Leg Pants. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Nexa Skyline Woven Wide-Leg Pants",
+      "metaDescription": "Nexa Skyline Woven Wide-Leg Pants. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016678942-Blue-BLUE-1000016678942_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016678942-Blue-BLUE-1000016678942_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016678942-Blue-BLUE-1000016678942_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016678942-Blue-BLUE-1000016678942_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016678942-Blue-BLUE-1000016678942_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016678942-Blue-BLUE-1000016678942_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016678942-Blue-BLUE-1000016678942_07-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016678942-Blue-BLUE-1000016678942_08-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.4 kg",
+      "dimensions": "11 x 11 x 4 cm",
+      "stockQuantity": 61,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000016678942BlueBLUE",
+        "sku": "1000016678942-Blue-BLUE",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 747
+      }
+    },
+    {
+      "name": "Nexa Skyline Woven Wide-Leg Pants",
+      "slug": "1000016678942-beige-beige",
+      "price": 742,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Nexa Skyline Woven Wide-Leg Pants. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Nexa Skyline Woven Wide-Leg Pants",
+      "metaDescription": "Nexa Skyline Woven Wide-Leg Pants. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016678942-Beige-BEIGE-1000016678942_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016678942-Beige-BEIGE-1000016678942_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016678942-Beige-BEIGE-1000016678942_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016678942-Beige-BEIGE-1000016678942_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016678942-Beige-BEIGE-1000016678942_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016678942-Beige-BEIGE-1000016678942_06-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016678942-Beige-BEIGE-1000016678942_07-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "9 x 10 x 4 cm",
+      "stockQuantity": 69,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000016678942BeigeBEIGE",
+        "sku": "1000016678942-Beige-BEIGE",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 742
+      }
+    },
+    {
+      "name": "ALAYA F x Nexa Skyline Women Knit Wide Leg Trousers",
+      "slug": "1000016643918-brown-brown",
+      "price": 743,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "ALAYA F x Nexa Skyline Women Knit Wide Leg Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "ALAYA F x Nexa Skyline Women Knit Wide Leg Trousers",
+      "metaDescription": "ALAYA F x Nexa Skyline Women Knit Wide Leg Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016643918-Brown-BROWN-1000016643918_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016643918-Brown-BROWN-1000016643918_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016643918-Brown-BROWN-1000016643918_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016643918-Brown-BROWN-1000016643918_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016643918-Brown-BROWN-1000016643918_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016643918-Brown-BROWN-1000016643918_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016643918-Brown-BROWN-1000016643918_07-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": true,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.4 kg",
+      "dimensions": "14 x 13 x 7 cm",
+      "stockQuantity": 67,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-01T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000016643918BrownBROWN",
+        "sku": "1000016643918-Brown-BROWN",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 743
+      }
+    },
+    {
+      "name": "Nexa Skyline Women Solid Carpenter Trousers",
+      "slug": "1000016365823-brown-brown",
+      "price": 717,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Nexa Skyline Women Solid Carpenter Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Nexa Skyline Women Solid Carpenter Trousers",
+      "metaDescription": "Nexa Skyline Women Solid Carpenter Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016365823-Brown-BROWN-1000016365823_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016365823-Brown-BROWN-1000016365823_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016365823-Brown-BROWN-1000016365823_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016365823-Brown-BROWN-1000016365823_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016365823-Brown-BROWN-1000016365823_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016365823-Brown-BROWN-1000016365823_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016365823-Brown-BROWN-1000016365823_07-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Relaxed fit",
+      "weight": "0.6 kg",
+      "dimensions": "12 x 16 x 8 cm",
+      "stockQuantity": 63,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-10T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000016365823BrownBROWN",
+        "sku": "1000016365823-Brown-BROWN",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 717
+      }
+    },
+    {
+      "name": "Nexa Skyline Women Solid Carpenter Trousers",
+      "slug": "1000016365823-black-black",
+      "price": 798,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Nexa Skyline Women Solid Carpenter Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Nexa Skyline Women Solid Carpenter Trousers",
+      "metaDescription": "Nexa Skyline Women Solid Carpenter Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016365823-Black-BLACK-1000016365823_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016365823-Black-BLACK-1000016365823_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016365823-Black-BLACK-1000016365823_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016365823-Black-BLACK-1000016365823_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016365823-Black-BLACK-1000016365823_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016365823-Black-BLACK-1000016365823_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016365823-Black-BLACK-1000016365823_07-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.5 kg",
+      "dimensions": "11 x 15 x 2 cm",
+      "stockQuantity": 62,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "1000016365823BlackBLACK",
+        "sku": "1000016365823-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 798
+      }
+    },
+    {
+      "name": "Women Solid Flared Crop Trousers",
+      "slug": "1000016255444-black-black",
+      "price": 780,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Women Solid Flared Crop Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Flared Crop Trousers",
+      "metaDescription": "Women Solid Flared Crop Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016255444-Black-BLACK-1000016255444_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016255444-Black-BLACK-1000016255444_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016255444-Black-BLACK-1000016255444_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016255444-Black-BLACK-1000016255444_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016255444-Black-BLACK-1000016255444_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016255444-Black-BLACK-1000016255444_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Henley",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.4 kg",
+      "dimensions": "14 x 12 x 4 cm",
+      "stockQuantity": 103,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000016255444BlackBLACK",
+        "sku": "1000016255444-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 780
+      }
+    },
+    {
+      "name": "Women Solid Trousers",
+      "slug": "1000016255419-brown-brown",
+      "price": 769,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Women Solid Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Trousers",
+      "metaDescription": "Women Solid Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016255419-Brown-BROWN-1000016255419_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016255419-Brown-BROWN-1000016255419_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016255419-Brown-BROWN-1000016255419_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016255419-Brown-BROWN-1000016255419_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016255419-Brown-BROWN-1000016255419_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016255419-Brown-BROWN-1000016255419_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.7 kg",
+      "dimensions": "8 x 14 x 2 cm",
+      "stockQuantity": 86,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000016255419BrownBROWN",
+        "sku": "1000016255419-Brown-BROWN",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 769
+      }
+    },
+    {
+      "name": "Women Solid Trousers",
+      "slug": "1000016255419-black-black",
+      "price": 718,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Women Solid Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Trousers",
+      "metaDescription": "Women Solid Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016255419-Black-BLACK-1000016255419_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016255419-Black-BLACK-1000016255419_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016255419-Black-BLACK-1000016255419_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016255419-Black-BLACK-1000016255419_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016255419-Black-BLACK-1000016255419_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016255419-Black-BLACK-1000016255419_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.5 kg",
+      "dimensions": "12 x 10 x 5 cm",
+      "stockQuantity": 100,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000016255419BlackBLACK",
+        "sku": "1000016255419-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 718
+      }
+    },
+    {
+      "name": "Women Solid Loose Fit Trousers",
+      "slug": "1000016233053-brown-brown",
+      "price": 761,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Women Solid Loose Fit Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Loose Fit Trousers",
+      "metaDescription": "Women Solid Loose Fit Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016233053-Brown-BROWN-1000016233053_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016233053-Brown-BROWN-1000016233053_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016233053-Brown-BROWN-1000016233053_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016233053-Brown-BROWN-1000016233053_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016233053-Brown-BROWN-1000016233053_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016233053-Brown-BROWN-1000016233053_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 13 x 8 cm",
+      "stockQuantity": 62,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000016233053BrownBROWN",
+        "sku": "1000016233053-Brown-BROWN",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 761
+      }
+    },
+    {
+      "name": "Women Solid Loose Fit Trousers",
+      "slug": "1000016233053-black-black",
+      "price": 714,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Women Solid Loose Fit Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Loose Fit Trousers",
+      "metaDescription": "Women Solid Loose Fit Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016233053-Black-BLACK-1000016233053_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016233053-Black-BLACK-1000016233053_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016233053-Black-BLACK-1000016233053_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016233053-Black-BLACK-1000016233053_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016233053-Black-BLACK-1000016233053_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016233053-Black-BLACK-1000016233053_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Relaxed fit",
+      "weight": "0.8 kg",
+      "dimensions": "10 x 10 x 6 cm",
+      "stockQuantity": 25,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "1000016233053BlackBLACK",
+        "sku": "1000016233053-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 714
+      }
+    },
+    {
+      "name": "ALAYA F x Nexa Skyline Women Pleated Front Wide Leg Trousers",
+      "slug": "1000016228567-black-black",
+      "price": 732,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "ALAYA F x Nexa Skyline Women Pleated Front Wide Leg Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "ALAYA F x Nexa Skyline Women Pleated Front Wide Leg Trousers",
+      "metaDescription": "ALAYA F x Nexa Skyline Women Pleated Front Wide Leg Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016228567-Black-BLACK-1000016228567_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016228567-Black-BLACK-1000016228567_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016228567-Black-BLACK-1000016228567_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016228567-Black-BLACK-1000016228567_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016228567-Black-BLACK-1000016228567_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016228567-Black-BLACK-1000016228567_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Short",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 12 x 2 cm",
+      "stockQuantity": 53,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000016228567BlackBLACK",
+        "sku": "1000016228567-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 732
+      }
+    },
+    {
+      "name": "ALAYA F x Nexa Skyline Women Embroidered Trousers",
+      "slug": "1000016228403-black-black",
+      "price": 782,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "ALAYA F x Nexa Skyline Women Embroidered Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "ALAYA F x Nexa Skyline Women Embroidered Trousers",
+      "metaDescription": "ALAYA F x Nexa Skyline Women Embroidered Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016228403-Black-BLACK-1000016228403_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016228403-Black-BLACK-1000016228403_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016228403-Black-BLACK-1000016228403_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016228403-Black-BLACK-1000016228403_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016228403-Black-BLACK-1000016228403_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016228403-Black-BLACK-1000016228403_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Collared",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Regular fit",
+      "weight": "0.5 kg",
+      "dimensions": "14 x 12 x 6 cm",
+      "stockQuantity": 30,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-02T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000016228403BlackBLACK",
+        "sku": "1000016228403-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 782
+      }
+    },
+    {
+      "name": "Women Solid Trousers",
+      "slug": "1000016222043-green-green",
+      "price": 796,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Women Solid Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Trousers",
+      "metaDescription": "Women Solid Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016222043-Green-GREEN-1000016222043_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016222043-Green-GREEN-1000016222043_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016222043-Green-GREEN-1000016222043_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016222043-Green-GREEN-1000016222043_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016222043-Green-GREEN-1000016222043_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016222043-Green-GREEN-1000016222043_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Hand wash separately",
+      "neckline": "V-neck",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.6 kg",
+      "dimensions": "10 x 12 x 6 cm",
+      "stockQuantity": 84,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000016222043GreenGREEN",
+        "sku": "1000016222043-Green-GREEN",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 796
+      }
+    },
+    {
+      "name": "Women Solid Trousers",
+      "slug": "1000016222043-black-black",
+      "price": 701,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Women Solid Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Trousers",
+      "metaDescription": "Women Solid Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016222043-Black-BLACK-1000016222043_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016222043-Black-BLACK-1000016222043_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016222043-Black-BLACK-1000016222043_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016222043-Black-BLACK-1000016222043_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016222043-Black-BLACK-1000016222043_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016222043-Black-BLACK-1000016222043_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Short",
+      "packageContains": "1 Jacket",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.4 kg",
+      "dimensions": "12 x 11 x 5 cm",
+      "stockQuantity": 61,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "New Arrivals",
+      "_source": {
+        "nykaaId": "1000016222043BlackBLACK",
+        "sku": "1000016222043-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 701
+      }
+    },
+    {
+      "name": "Women Solid Trousers",
+      "slug": "1000016018752-black-black",
+      "price": 724,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Women Solid Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Trousers",
+      "metaDescription": "Women Solid Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016018752-Black-BLACK-1000016018752_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016018752-Black-BLACK-1000016018752_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016018752-Black-BLACK-1000016018752_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016018752-Black-BLACK-1000016018752_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016018752-Black-BLACK-1000016018752_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016018752-Black-BLACK-1000016018752_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Collared",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 14 x 5 cm",
+      "stockQuantity": 40,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-03T18:30:00.000Z",
+      "breadcrumbCategory": "Festive Edit",
+      "_source": {
+        "nykaaId": "1000016018752BlackBLACK",
+        "sku": "1000016018752-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 724
+      }
+    },
+    {
+      "name": "Women Solid Treggings",
+      "slug": "1000016018739-black-black",
+      "price": 770,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Women Solid Treggings. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Treggings",
+      "metaDescription": "Women Solid Treggings. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016018739-Black-BLACK-1000016018739_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016018739-Black-BLACK-1000016018739_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016018739-Black-BLACK-1000016018739_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016018739-Black-BLACK-1000016018739_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016018739-Black-BLACK-1000016018739_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016018739-Black-BLACK-1000016018739_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Short",
+      "packageContains": "1 Kurta",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Comfort fit",
+      "weight": "0.7 kg",
+      "dimensions": "14 x 13 x 7 cm",
+      "stockQuantity": 17,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000016018739BlackBLACK",
+        "sku": "1000016018739-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 770
+      }
+    },
+    {
+      "name": "Women Striped Knit Treggings",
+      "slug": "1000016018726-grey-anthramarl",
+      "price": 726,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Women Striped Knit Treggings. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Striped Knit Treggings",
+      "metaDescription": "Women Striped Knit Treggings. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Grey"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016018726-Grey-ANTHRAMARL-1000016018726_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016018726-Grey-ANTHRAMARL-1000016018726_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016018726-Grey-ANTHRAMARL-1000016018726_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016018726-Grey-ANTHRAMARL-1000016018726_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016018726-Grey-ANTHRAMARL-1000016018726_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016018726-Grey-ANTHRAMARL-1000016018726_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.4 kg",
+      "dimensions": "12 x 16 x 5 cm",
+      "stockQuantity": 98,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000016018726GreyANTHRAMARL",
+        "sku": "1000016018726-Grey-ANTHRAMARL",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 726
+      }
+    },
+    {
+      "name": "Women Solid Slim Fit Treggings",
+      "slug": "1000016018713-black-black",
+      "price": 741,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Women Solid Slim Fit Treggings. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Slim Fit Treggings",
+      "metaDescription": "Women Solid Slim Fit Treggings. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016018713-Black-BLACK-1000016018713_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016018713-Black-BLACK-1000016018713_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016018713-Black-BLACK-1000016018713_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016018713-Black-BLACK-1000016018713_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016018713-Black-BLACK-1000016018713_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016018713-Black-BLACK-1000016018713_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Kurta",
+      "washCare": "Dry clean recommended",
+      "neckline": "V-neck",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.8 kg",
+      "dimensions": "11 x 10 x 2 cm",
+      "stockQuantity": 24,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1000016018713BlackBLACK",
+        "sku": "1000016018713-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 741
+      }
+    },
+    {
+      "name": "Women Solid Straight Fit Trousers",
+      "slug": "1000016002076-brown-brown",
+      "price": 739,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Women Solid Straight Fit Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Straight Fit Trousers",
+      "metaDescription": "Women Solid Straight Fit Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016002076-Brown-BROWN-1000016002076_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016002076-Brown-BROWN-1000016002076_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016002076-Brown-BROWN-1000016002076_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016002076-Brown-BROWN-1000016002076_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016002076-Brown-BROWN-1000016002076_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016002076-Brown-BROWN-1000016002076_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016002076-Brown-BROWN-1000016002076_07-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Short",
+      "packageContains": "1 Shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.7 kg",
+      "dimensions": "13 x 13 x 7 cm",
+      "stockQuantity": 68,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000016002076BrownBROWN",
+        "sku": "1000016002076-Brown-BROWN",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 739
+      }
+    },
+    {
+      "name": "Women Solid Straight Fit Trousers",
+      "slug": "1000016002076-black-black",
+      "price": 704,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Women Solid Straight Fit Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Straight Fit Trousers",
+      "metaDescription": "Women Solid Straight Fit Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016002076-Black-BLACK-1000016002076_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016002076-Black-BLACK-1000016002076_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016002076-Black-BLACK-1000016002076_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016002076-Black-BLACK-1000016002076_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016002076-Black-BLACK-1000016002076_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016002076-Black-BLACK-1000016002076_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Full length",
+      "packageContains": "1 Kurta",
+      "washCare": "Hand wash separately",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 13 x 3 cm",
+      "stockQuantity": 45,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1000016002076BlackBLACK",
+        "sku": "1000016002076-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 704
+      }
+    },
+    {
+      "name": "Women Solid Wide Leg Trousers",
+      "slug": "1000015951621-beige-beige",
+      "price": 750,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Women Solid Wide Leg Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Wide Leg Trousers",
+      "metaDescription": "Women Solid Wide Leg Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015951621-Beige-BEIGE-1000015951621_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015951621-Beige-BEIGE-1000015951621_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015951621-Beige-BEIGE-1000015951621_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015951621-Beige-BEIGE-1000015951621_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015951621-Beige-BEIGE-1000015951621_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015951621-Beige-BEIGE-1000015951621_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Jacket",
+      "washCare": "Dry clean recommended",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.4 kg",
+      "dimensions": "10 x 12 x 6 cm",
+      "stockQuantity": 22,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-02T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1000015951621BeigeBEIGE",
+        "sku": "1000015951621-Beige-BEIGE",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 750
+      }
+    },
+    {
+      "name": "Women Ribbed Kick Flare Trousers",
+      "slug": "1000015951596-beige-beige",
+      "price": 758,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Women Ribbed Kick Flare Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Ribbed Kick Flare Trousers",
+      "metaDescription": "Women Ribbed Kick Flare Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015951596-Beige-BEIGE-1000015951596_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015951596-Beige-BEIGE-1000015951596_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015951596-Beige-BEIGE-1000015951596_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015951596-Beige-BEIGE-1000015951596_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015951596-Beige-BEIGE-1000015951596_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015951596-Beige-BEIGE-1000015951596_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Full sleeve",
+      "fitting": "A-line fit",
+      "weight": "0.4 kg",
+      "dimensions": "10 x 15 x 4 cm",
+      "stockQuantity": 88,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-11T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1000015951596BeigeBEIGE",
+        "sku": "1000015951596-Beige-BEIGE",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 758
+      }
+    },
+    {
+      "name": "Women Solid Trousers",
+      "slug": "1000015905032-brown-brown",
+      "price": 780,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Women Solid Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Trousers",
+      "metaDescription": "Women Solid Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015905032-Brown-BROWN-1000015905032_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015905032-Brown-BROWN-1000015905032_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015905032-Brown-BROWN-1000015905032_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015905032-Brown-BROWN-1000015905032_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015905032-Brown-BROWN-1000015905032_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015905032-Brown-BROWN-1000015905032_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Premium polyester blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Dry clean recommended",
+      "neckline": "Collared",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.5 kg",
+      "dimensions": "14 x 16 x 2 cm",
+      "stockQuantity": 49,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-03T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000015905032BrownBROWN",
+        "sku": "1000015905032-Brown-BROWN",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 780
+      }
+    },
+    {
+      "name": "Women Solid Trousers",
+      "slug": "1000015905032-beige-ecru",
+      "price": 726,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Women Solid Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Trousers",
+      "metaDescription": "Women Solid Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015905032-Beige-ECRU-1000015905032_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015905032-Beige-ECRU-1000015905032_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015905032-Beige-ECRU-1000015905032_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015905032-Beige-ECRU-1000015905032_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015905032-Beige-ECRU-1000015905032_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015905032-Beige-ECRU-1000015905032_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Jacket",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "10 x 16 x 5 cm",
+      "stockQuantity": 30,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-11T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000015905032BeigeECRU",
+        "sku": "1000015905032-Beige-ECRU",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 726
+      }
+    },
+    {
+      "name": "ALAYA F x Nexa Skyline Women Solid Baggy Fit Cargo Joggers",
+      "slug": "1000015870535-grey-grey",
+      "price": 780,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "ALAYA F x Nexa Skyline Women Solid Baggy Fit Cargo Joggers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "ALAYA F x Nexa Skyline Women Solid Baggy Fit Cargo Joggers",
+      "metaDescription": "ALAYA F x Nexa Skyline Women Solid Baggy Fit Cargo Joggers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Grey"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015870535-Grey-GREY-1000015870535_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015870535-Grey-GREY-1000015870535_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015870535-Grey-GREY-1000015870535_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015870535-Grey-GREY-1000015870535_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015870535-Grey-GREY-1000015870535_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015870535-Grey-GREY-1000015870535_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015870535-Grey-GREY-1000015870535_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015870535-Grey-GREY-1000015870535_08-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Lightweight linen",
+      "garmentLength": "Long",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.5 kg",
+      "dimensions": "11 x 15 x 6 cm",
+      "stockQuantity": 69,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000015870535GreyGREY",
+        "sku": "1000015870535-Grey-GREY",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 780
+      }
+    },
+    {
+      "name": "ALAYA F x Nexa Skyline Women Solid Baggy Fit Cargo Joggers",
+      "slug": "1000015870535-brown-brown",
+      "price": 771,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "ALAYA F x Nexa Skyline Women Solid Baggy Fit Cargo Joggers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "ALAYA F x Nexa Skyline Women Solid Baggy Fit Cargo Joggers",
+      "metaDescription": "ALAYA F x Nexa Skyline Women Solid Baggy Fit Cargo Joggers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015870535-Brown-BROWN-1000015870535_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015870535-Brown-BROWN-1000015870535_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015870535-Brown-BROWN-1000015870535_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015870535-Brown-BROWN-1000015870535_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015870535-Brown-BROWN-1000015870535_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015870535-Brown-BROWN-1000015870535_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015870535-Brown-BROWN-1000015870535_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015870535-Brown-BROWN-1000015870535_08-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Shirt",
+      "washCare": "Hand wash separately",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 13 x 2 cm",
+      "stockQuantity": 45,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-03T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000015870535BrownBROWN",
+        "sku": "1000015870535-Brown-BROWN",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 771
+      }
+    },
+    {
+      "name": "ALAYA F x Nexa Skyline Women Solid Baggy Fit Cargo Joggers",
+      "slug": "1000015870535-black-black",
+      "price": 785,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "ALAYA F x Nexa Skyline Women Solid Baggy Fit Cargo Joggers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "ALAYA F x Nexa Skyline Women Solid Baggy Fit Cargo Joggers",
+      "metaDescription": "ALAYA F x Nexa Skyline Women Solid Baggy Fit Cargo Joggers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015870535-Black-BLACK-1000015870535_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015870535-Black-BLACK-1000015870535_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015870535-Black-BLACK-1000015870535_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015870535-Black-BLACK-1000015870535_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015870535-Black-BLACK-1000015870535_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015870535-Black-BLACK-1000015870535_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015870535-Black-BLACK-1000015870535_07-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.3 kg",
+      "dimensions": "13 x 14 x 5 cm",
+      "stockQuantity": 114,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000015870535BlackBLACK",
+        "sku": "1000015870535-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 785
+      }
+    },
+    {
+      "name": "Women Textured Trousers",
+      "slug": "1000015805502-brown-brown",
+      "price": 740,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Women Textured Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Textured Trousers",
+      "metaDescription": "Women Textured Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015805502-Brown-BROWN-1000015805502_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015805502-Brown-BROWN-1000015805502_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015805502-Brown-BROWN-1000015805502_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015805502-Brown-BROWN-1000015805502_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015805502-Brown-BROWN-1000015805502_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015805502-Brown-BROWN-1000015805502_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Medium",
+      "packageContains": "1 T-shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Henley",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.6 kg",
+      "dimensions": "13 x 16 x 2 cm",
+      "stockQuantity": 49,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "1000015805502BrownBROWN",
+        "sku": "1000015805502-Brown-BROWN",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 740
+      }
+    },
+    {
+      "name": "ALAYA F x Nexa Skyline Textured Wide Leg Trousers",
+      "slug": "1000015761825-brown-brown",
+      "price": 724,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "ALAYA F x Nexa Skyline Textured Wide Leg Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "ALAYA F x Nexa Skyline Textured Wide Leg Trousers",
+      "metaDescription": "ALAYA F x Nexa Skyline Textured Wide Leg Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015761825-Brown-BROWN-1000015761825_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015761825-Brown-BROWN-1000015761825_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015761825-Brown-BROWN-1000015761825_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015761825-Brown-BROWN-1000015761825_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015761825-Brown-BROWN-1000015761825_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015761825-Brown-BROWN-1000015761825_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015761825-Brown-BROWN-1000015761825_07-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Henley",
+      "sleeveLength": "Short sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.8 kg",
+      "dimensions": "11 x 14 x 5 cm",
+      "stockQuantity": 89,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-03T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000015761825BrownBROWN",
+        "sku": "1000015761825-Brown-BROWN",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 724
+      }
+    },
+    {
+      "name": "ALAYA F x Nexa Skyline Textured Wide Leg Trousers",
+      "slug": "1000015761825-beige-beige",
+      "price": 726,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "ALAYA F x Nexa Skyline Textured Wide Leg Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "ALAYA F x Nexa Skyline Textured Wide Leg Trousers",
+      "metaDescription": "ALAYA F x Nexa Skyline Textured Wide Leg Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015761825-Beige-BEIGE-1000015761825_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015761825-Beige-BEIGE-1000015761825_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015761825-Beige-BEIGE-1000015761825_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015761825-Beige-BEIGE-1000015761825_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015761825-Beige-BEIGE-1000015761825_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015761825-Beige-BEIGE-1000015761825_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015761825-Beige-BEIGE-1000015761825_07-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Trouser",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Straight fit",
+      "weight": "0.8 kg",
+      "dimensions": "14 x 13 x 6 cm",
+      "stockQuantity": 89,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000015761825BeigeBEIGE",
+        "sku": "1000015761825-Beige-BEIGE",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 726
+      }
+    },
+    {
+      "name": "ALAYA F x Nexa Skyline Women Textured Cargo Joggers",
+      "slug": "1000015248808-brown-lightbrown",
+      "price": 706,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "ALAYA F x Nexa Skyline Women Textured Cargo Joggers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "ALAYA F x Nexa Skyline Women Textured Cargo Joggers",
+      "metaDescription": "ALAYA F x Nexa Skyline Women Textured Cargo Joggers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015248808-Brown-LIGHTBROWN-1000015248808_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015248808-Brown-LIGHTBROWN-1000015248808_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015248808-Brown-LIGHTBROWN-1000015248808_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015248808-Brown-LIGHTBROWN-1000015248808_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015248808-Brown-LIGHTBROWN-1000015248808_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015248808-Brown-LIGHTBROWN-1000015248808_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015248808-Brown-LIGHTBROWN-1000015248808_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015248808-Brown-LIGHTBROWN-1000015248808_08-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Pure cotton poplin",
+      "garmentLength": "Long",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.6 kg",
+      "dimensions": "8 x 13 x 2 cm",
+      "stockQuantity": 43,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "1000015248808BrownLIGHTBROWN",
+        "sku": "1000015248808-Brown-LIGHTBROWN",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 706
+      }
+    },
+    {
+      "name": "ALAYA F x Nexa Skyline Women Textured Cargo Joggers",
+      "slug": "1000015248808-black-black",
+      "price": 744,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "ALAYA F x Nexa Skyline Women Textured Cargo Joggers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "ALAYA F x Nexa Skyline Women Textured Cargo Joggers",
+      "metaDescription": "ALAYA F x Nexa Skyline Women Textured Cargo Joggers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015248808-Black-BLACK-1000015248808_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015248808-Black-BLACK-1000015248808_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015248808-Black-BLACK-1000015248808_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015248808-Black-BLACK-1000015248808_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015248808-Black-BLACK-1000015248808_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015248808-Black-BLACK-1000015248808_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015248808-Black-BLACK-1000015248808_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015248808-Black-BLACK-1000015248808_08-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Ankle length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Round",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Slim fit",
+      "weight": "0.3 kg",
+      "dimensions": "14 x 15 x 3 cm",
+      "stockQuantity": 59,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1000015248808BlackBLACK",
+        "sku": "1000015248808-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 744
+      }
+    },
+    {
+      "name": "ALAYA F x Nexa Skyline Women Textured Cargo Joggers",
+      "slug": "1000015248808-beige-ecru",
+      "price": 752,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "ALAYA F x Nexa Skyline Women Textured Cargo Joggers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "ALAYA F x Nexa Skyline Women Textured Cargo Joggers",
+      "metaDescription": "ALAYA F x Nexa Skyline Women Textured Cargo Joggers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015248808-Beige-ECRU-1000015248808_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015248808-Beige-ECRU-1000015248808_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015248808-Beige-ECRU-1000015248808_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015248808-Beige-ECRU-1000015248808_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015248808-Beige-ECRU-1000015248808_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015248808-Beige-ECRU-1000015248808_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015248808-Beige-ECRU-1000015248808_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015248808-Beige-ECRU-1000015248808_08-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Jacket",
+      "washCare": "Hand wash separately",
+      "neckline": "Round",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Relaxed fit",
+      "weight": "0.3 kg",
+      "dimensions": "8 x 10 x 3 cm",
+      "stockQuantity": 52,
+      "deliveryStartDate": "2026-06-30T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000015248808BeigeECRU",
+        "sku": "1000015248808-Beige-ECRU",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 752
+      }
+    },
+    {
+      "name": "Kalki x Nexa Skyline Women Embroidered Wide Leg Trousers",
+      "slug": "1000015200108-blue-blue",
+      "price": 789,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Kalki x Nexa Skyline Women Embroidered Wide Leg Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Kalki x Nexa Skyline Women Embroidered Wide Leg Trousers",
+      "metaDescription": "Kalki x Nexa Skyline Women Embroidered Wide Leg Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015200108-Blue-BLUE-1000015200108_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015200108-Blue-BLUE-1000015200108_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015200108-Blue-BLUE-1000015200108_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015200108-Blue-BLUE-1000015200108_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015200108-Blue-BLUE-1000015200108_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015200108-Blue-BLUE-1000015200108_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015200108-Blue-BLUE-1000015200108_07-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Three-quarter sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.7 kg",
+      "dimensions": "12 x 11 x 5 cm",
+      "stockQuantity": 18,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000015200108BlueBLUE",
+        "sku": "1000015200108-Blue-BLUE",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 789
+      }
+    },
+    {
+      "name": "Women Ribbed Relaxed Fit Culottes",
+      "slug": "1000015189401-black-black",
+      "price": 702,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Women Ribbed Relaxed Fit Culottes. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Ribbed Relaxed Fit Culottes",
+      "metaDescription": "Women Ribbed Relaxed Fit Culottes. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015189401-Black-BLACK-1000015189401_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015189401-Black-BLACK-1000015189401_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015189401-Black-BLACK-1000015189401_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015189401-Black-BLACK-1000015189401_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015189401-Black-BLACK-1000015189401_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015189401-Black-BLACK-1000015189401_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Jacket",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Band collar",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "13 x 16 x 6 cm",
+      "stockQuantity": 102,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "1000015189401BlackBLACK",
+        "sku": "1000015189401-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 702
+      }
+    },
+    {
+      "name": "Women Solid Pleated Flared Trousers",
+      "slug": "1000015151876-brown-brown",
+      "price": 771,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Women Solid Pleated Flared Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Pleated Flared Trousers",
+      "metaDescription": "Women Solid Pleated Flared Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015151876-Brown-BROWN-1000015151876_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015151876-Brown-BROWN-1000015151876_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015151876-Brown-BROWN-1000015151876_08-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015151876-Brown-BROWN-1000015151876_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015151876-Brown-BROWN-1000015151876_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015151876-Brown-BROWN-1000015151876_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015151876-Brown-BROWN-1000015151876_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015151876-Brown-BROWN-1000015151876_07-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash cold",
+      "neckline": "Round",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.3 kg",
+      "dimensions": "9 x 13 x 3 cm",
+      "stockQuantity": 118,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000015151876BrownBROWN",
+        "sku": "1000015151876-Brown-BROWN",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 771
+      }
+    },
+    {
+      "name": "Women Solid Pleated Flared Trousers",
+      "slug": "1000015151876-blue-navy",
+      "price": 778,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Women Solid Pleated Flared Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Pleated Flared Trousers",
+      "metaDescription": "Women Solid Pleated Flared Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000015151876-Blue-NAVY-1000015151876_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015151876-Blue-NAVY-1000015151876_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015151876-Blue-NAVY-1000015151876_08-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015151876-Blue-NAVY-1000015151876_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015151876-Blue-NAVY-1000015151876_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015151876-Blue-NAVY-1000015151876_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015151876-Blue-NAVY-1000015151876_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000015151876-Blue-NAVY-1000015151876_07-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Jacket",
+      "washCare": "Machine wash cold",
+      "neckline": "Henley",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Relaxed fit",
+      "weight": "0.8 kg",
+      "dimensions": "9 x 13 x 7 cm",
+      "stockQuantity": 100,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-10T18:30:00.000Z",
+      "breadcrumbCategory": "Best Sellers",
+      "_source": {
+        "nykaaId": "1000015151876BlueNAVY",
+        "sku": "1000015151876-Blue-NAVY",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 778
+      }
+    },
+    {
+      "name": "Women Solid Wide-Leg Trousers",
+      "slug": "1000014882105-beige-ivory",
+      "price": 780,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Women Solid Wide-Leg Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Wide-Leg Trousers",
+      "metaDescription": "Women Solid Wide-Leg Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014882105-Beige-IVORY-1000014882105_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014882105-Beige-IVORY-1000014882105_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014882105-Beige-IVORY-1000014882105_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014882105-Beige-IVORY-1000014882105_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014882105-Beige-IVORY-1000014882105_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014882105-Beige-IVORY-1000014882105_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Short",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Dry clean recommended",
+      "neckline": "Band collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.8 kg",
+      "dimensions": "8 x 14 x 3 cm",
+      "stockQuantity": 119,
+      "deliveryStartDate": "2026-06-29T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-03T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000014882105BeigeIVORY",
+        "sku": "1000014882105-Beige-IVORY",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 780
+      }
+    },
+    {
+      "name": "Kalki x Nexa Skyline Women Solid Knit Trousers",
+      "slug": "1000014169938-brown-tan",
+      "price": 732,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Kalki x Nexa Skyline Women Solid Knit Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Kalki x Nexa Skyline Women Solid Knit Trousers",
+      "metaDescription": "Kalki x Nexa Skyline Women Solid Knit Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014169938-Brown-TAN-1000014169938_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014169938-Brown-TAN-1000014169938_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014169938-Brown-TAN-1000014169938_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014169938-Brown-TAN-1000014169938_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014169938-Brown-TAN-1000014169938_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014169938-Brown-TAN-1000014169938_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014169938-Brown-TAN-1000014169938_07-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014169938-Brown-TAN-1000014169938_08-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Machine wash gentle cycle",
+      "neckline": "Round",
+      "sleeveLength": "Sleeveless",
+      "fitting": "A-line fit",
+      "weight": "0.7 kg",
+      "dimensions": "13 x 13 x 7 cm",
+      "stockQuantity": 111,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000014169938BrownTAN",
+        "sku": "1000014169938-Brown-TAN",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 732
+      }
+    },
+    {
+      "name": "Kalki x Nexa Skyline Women Solid Knit Trousers",
+      "slug": "1000014169938-black-black",
+      "price": 790,
+      "originalPrice": 999,
+      "category": "trousers and treggings",
+      "description": "Kalki x Nexa Skyline Women Solid Knit Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Kalki x Nexa Skyline Women Solid Knit Trousers",
+      "metaDescription": "Kalki x Nexa Skyline Women Solid Knit Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000014169938-Black-BLACK-1000014169938_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014169938-Black-BLACK-1000014169938_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014169938-Black-BLACK-1000014169938_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014169938-Black-BLACK-1000014169938_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014169938-Black-BLACK-1000014169938_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014169938-Black-BLACK-1000014169938_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000014169938-Black-BLACK-1000014169938_07-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Hand wash separately",
+      "neckline": "Band collar",
+      "sleeveLength": "Sleeveless",
+      "fitting": "Slim fit",
+      "weight": "0.3 kg",
+      "dimensions": "9 x 15 x 2 cm",
+      "stockQuantity": 47,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-09T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1000014169938BlackBLACK",
+        "sku": "1000014169938-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 790
+      }
+    },
+    {
+      "name": "Women Solid Loose Fit Trousers",
+      "slug": "1000016298315-brown-brown",
+      "price": 740,
+      "originalPrice": 1099,
+      "category": "trousers and treggings",
+      "description": "Women Solid Loose Fit Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Loose Fit Trousers",
+      "metaDescription": "Women Solid Loose Fit Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016298315-BROWN-Brown-1000016233053_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016298315-BROWN-Brown-1000016233053_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016298315-BROWN-Brown-1000016233053_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016298315-BROWN-Brown-1000016233053_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016298315-BROWN-Brown-1000016233053_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016298315-BROWN-Brown-1000016233053_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": true,
+      "isPublished": true,
+      "fabricComposition": "100% cotton",
+      "garmentLength": "Knee length",
+      "packageContains": "1 Shirt",
+      "washCare": "Machine wash cold",
+      "neckline": "Band collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Regular fit",
+      "weight": "0.4 kg",
+      "dimensions": "11 x 14 x 6 cm",
+      "stockQuantity": 32,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-05T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000016298315BROWNBrown",
+        "sku": "1000016298315-BROWN-Brown",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 740
+      }
+    },
+    {
+      "name": "Women Solid Loose Fit Trousers",
+      "slug": "1000016298315-black-black",
+      "price": 783,
+      "originalPrice": 1099,
+      "category": "trousers and treggings",
+      "description": "Women Solid Loose Fit Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Loose Fit Trousers",
+      "metaDescription": "Women Solid Loose Fit Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016298315-BLACK-Black-1000016233053_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016298315-BLACK-Black-1000016233053_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016298315-BLACK-Black-1000016233053_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016298315-BLACK-Black-1000016233053_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016298315-BLACK-Black-1000016233053_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016298315-BLACK-Black-1000016233053_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 T-shirt",
+      "washCare": "Dry clean recommended",
+      "neckline": "V-neck",
+      "sleeveLength": "Cap sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.7 kg",
+      "dimensions": "11 x 14 x 6 cm",
+      "stockQuantity": 22,
+      "deliveryStartDate": "2026-06-27T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-06T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000016298315BLACKBlack",
+        "sku": "1000016298315-BLACK-Black",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 783
+      }
+    },
+    {
+      "name": "Women Solid Trousers",
+      "slug": "1000016298213-green-green",
+      "price": 745,
+      "originalPrice": 1099,
+      "category": "trousers and treggings",
+      "description": "Women Solid Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Trousers",
+      "metaDescription": "Women Solid Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "images": [
+        "https://media-ea.landmarkshops.in/max-new/1000016298213-Green-GREEN-1000016222043_01-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016298213-Green-GREEN-1000016222043_02-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016298213-Green-GREEN-1000016222043_03-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016298213-Green-GREEN-1000016222043_04-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016298213-Green-GREEN-1000016222043_05-2100.jpg",
+        "https://media-ea.landmarkshops.in/max-new/1000016298213-Green-GREEN-1000016222043_06-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Long",
+      "packageContains": "1 Trouser",
+      "washCare": "Dry clean recommended",
+      "neckline": "Henley",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.8 kg",
+      "dimensions": "13 x 11 x 5 cm",
+      "stockQuantity": 81,
+      "deliveryStartDate": "2026-07-01T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-08T18:30:00.000Z",
+      "breadcrumbCategory": "Flash Sale",
+      "_source": {
+        "nykaaId": "1000016298213GreenGREEN",
+        "sku": "1000016298213-Green-GREEN",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 745
+      }
+    },
+    {
+      "name": "Women Solid Straight Fit Trousers",
+      "slug": "1000016037668-brown-brown",
+      "price": 781,
+      "originalPrice": 1099,
+      "category": "trousers and treggings",
+      "description": "Women Solid Straight Fit Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Straight Fit Trousers",
+      "metaDescription": "Women Solid Straight Fit Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016037668-Brown-BROWN-1000016002076_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016037668-Brown-BROWN-1000016002076_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016037668-Brown-BROWN-1000016002076_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016037668-Brown-BROWN-1000016002076_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016037668-Brown-BROWN-1000016002076_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016037668-Brown-BROWN-1000016002076_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016037668-Brown-BROWN-1000016002076_07-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Stretch cotton",
+      "garmentLength": "Full length",
+      "packageContains": "1 Co-ord set",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "V-neck",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Comfort fit",
+      "weight": "0.4 kg",
+      "dimensions": "13 x 14 x 4 cm",
+      "stockQuantity": 43,
+      "deliveryStartDate": "2026-06-28T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-04T18:30:00.000Z",
+      "breadcrumbCategory": "Ethnic Wear",
+      "_source": {
+        "nykaaId": "1000016037668BrownBROWN",
+        "sku": "1000016037668-Brown-BROWN",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 781
+      }
+    },
+    {
+      "name": "Women Solid Straight Fit Trousers",
+      "slug": "1000016037668-black-black",
+      "price": 764,
+      "originalPrice": 1099,
+      "category": "trousers and treggings",
+      "description": "Women Solid Straight Fit Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaTitle": "Women Solid Straight Fit Trousers",
+      "metaDescription": "Women Solid Straight Fit Trousers. Premium trousers and treggings from our curated ethnic collection.",
+      "metaKeywords": [
+        "trousers and treggings",
+        "women",
+        "ethnic wear"
+      ],
+      "sizes": [
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "https://media.landmarkshops.in/max-new/1000016037668-Black-BLACK-1000016002076_01-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016037668-Black-BLACK-1000016002076_02-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016037668-Black-BLACK-1000016002076_03-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016037668-Black-BLACK-1000016002076_04-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016037668-Black-BLACK-1000016002076_05-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016037668-Black-BLACK-1000016002076_06-2100.jpg",
+        "https://media.landmarkshops.in/max-new/1000016037668-Black-BLACK-1000016002076_07-2100.jpg"
+      ],
+      "tags": [
+        "trousers and treggings",
+        "ethnic wear",
+        "women"
+      ],
+      "inStock": true,
+      "featured": false,
+      "isHot": false,
+      "isPublished": true,
+      "fabricComposition": "Cotton linen blend",
+      "garmentLength": "Medium",
+      "packageContains": "1 Shirt",
+      "washCare": "Do not bleach; line dry",
+      "neckline": "Mandarin collar",
+      "sleeveLength": "Full sleeve",
+      "fitting": "Straight fit",
+      "weight": "0.6 kg",
+      "dimensions": "11 x 15 x 3 cm",
+      "stockQuantity": 62,
+      "deliveryStartDate": "2026-07-02T18:30:00.000Z",
+      "deliveryEndDate": "2026-07-07T18:30:00.000Z",
+      "breadcrumbCategory": "trousers and treggings",
+      "_source": {
+        "nykaaId": "1000016037668BlackBLACK",
+        "sku": "1000016037668-Black-BLACK",
+        "categoryFilter": "maxwomen-bottoms-trousersandtreggings",
+        "assignedPriceTier": 764
+      }
+    }
+  ]
+}

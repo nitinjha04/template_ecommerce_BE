@@ -1,0 +1,2202 @@
+[
+    {
+        "name": "Oversized Poplin Shirt",
+        "price": 529,
+        "category": "Men",
+        "description": "Oversized Poplin Shirt crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-oversized-poplin-shirt/800/1000",
+            "https://picsum.photos/seed/men-oversized-poplin-shirt-alt/800/1000"
+        ],
+        "tags": [
+            "shirt",
+            "cotton",
+            "essentials"
+        ],
+        "inStock": true,
+        "featured": true
+    },
+    {
+        "name": "Heavyweight Cotton T-Shirt",
+        "price": 549,
+        "category": "Men",
+        "description": "Heavyweight Cotton T-Shirt crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-heavyweight-cotton-t-shirt/800/1000",
+            "https://picsum.photos/seed/men-heavyweight-cotton-t-shirt-alt/800/1000"
+        ],
+        "tags": [
+            "tee",
+            "basics",
+            "organic"
+        ],
+        "inStock": true,
+        "featured": true
+    },
+    {
+        "name": "Slim Fit Denim Jacket",
+        "price": 579,
+        "category": "Men",
+        "description": "Slim Fit Denim Jacket crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-slim-fit-denim-jacket/800/1000",
+            "https://picsum.photos/seed/men-slim-fit-denim-jacket-alt/800/1000"
+        ],
+        "tags": [
+            "denim",
+            "jacket",
+            "casual"
+        ],
+        "inStock": true,
+        "featured": true
+    },
+    {
+        "name": "Merino Wool Crew Neck",
+        "price": 599,
+        "category": "Men",
+        "description": "Merino Wool Crew Neck crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-merino-wool-crew-neck/800/1000",
+            "https://picsum.photos/seed/men-merino-wool-crew-neck-alt/800/1000"
+        ],
+        "tags": [
+            "knitwear",
+            "wool",
+            "winter"
+        ],
+        "inStock": true,
+        "featured": true
+    },
+    {
+        "name": "Tailored Chino Trousers",
+        "price": 619,
+        "category": "Men",
+        "description": "Tailored Chino Trousers crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-tailored-chino-trousers/800/1000",
+            "https://picsum.photos/seed/men-tailored-chino-trousers-alt/800/1000"
+        ],
+        "tags": [
+            "trousers",
+            "tailoring",
+            "workwear"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Linen Summer Blazer",
+        "price": 649,
+        "category": "Men",
+        "description": "Linen Summer Blazer crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-linen-summer-blazer/800/1000",
+            "https://picsum.photos/seed/men-linen-summer-blazer-alt/800/1000"
+        ],
+        "tags": [
+            "blazer",
+            "linen",
+            "summer"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Classic Oxford Button-Down",
+        "price": 679,
+        "category": "Men",
+        "description": "Classic Oxford Button-Down crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-classic-oxford-button-down/800/1000",
+            "https://picsum.photos/seed/men-classic-oxford-button-down-alt/800/1000"
+        ],
+        "tags": [
+            "shirt",
+            "oxford",
+            "formal"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Performance Jogger Pants",
+        "price": 699,
+        "category": "Men",
+        "description": "Performance Jogger Pants crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-performance-jogger-pants/800/1000",
+            "https://picsum.photos/seed/men-performance-jogger-pants-alt/800/1000"
+        ],
+        "tags": [
+            "joggers",
+            "activewear",
+            "comfort"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Leather Bomber Jacket",
+        "price": 729,
+        "category": "Men",
+        "description": "Leather Bomber Jacket crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-leather-bomber-jacket/800/1000",
+            "https://picsum.photos/seed/men-leather-bomber-jacket-alt/800/1000"
+        ],
+        "tags": [
+            "leather",
+            "jacket",
+            "outerwear"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Corduroy Carpenter Pants",
+        "price": 749,
+        "category": "Men",
+        "description": "Corduroy Carpenter Pants crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-corduroy-carpenter-pants/800/1000",
+            "https://picsum.photos/seed/men-corduroy-carpenter-pants-alt/800/1000"
+        ],
+        "tags": [
+            "corduroy",
+            "pants",
+            "streetwear"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Henley Long Sleeve Tee",
+        "price": 769,
+        "category": "Men",
+        "description": "Henley Long Sleeve Tee crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-henley-long-sleeve-tee/800/1000",
+            "https://picsum.photos/seed/men-henley-long-sleeve-tee-alt/800/1000"
+        ],
+        "tags": [
+            "tee",
+            "layering",
+            "casual"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Double-Breasted Suit Jacket",
+        "price": 799,
+        "category": "Men",
+        "description": "Double-Breasted Suit Jacket crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-double-breasted-suit-jacket/800/1000",
+            "https://picsum.photos/seed/men-double-breasted-suit-jacket-alt/800/1000"
+        ],
+        "tags": [
+            "suit",
+            "formal",
+            "tailoring"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Relaxed Fit Cargo Pants",
+        "price": 829,
+        "category": "Men",
+        "description": "Relaxed Fit Cargo Pants crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-relaxed-fit-cargo-pants/800/1000",
+            "https://picsum.photos/seed/men-relaxed-fit-cargo-pants-alt/800/1000"
+        ],
+        "tags": [
+            "cargo",
+            "utility",
+            "casual"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Mock Neck Sweater",
+        "price": 849,
+        "category": "Men",
+        "description": "Mock Neck Sweater crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-mock-neck-sweater/800/1000",
+            "https://picsum.photos/seed/men-mock-neck-sweater-alt/800/1000"
+        ],
+        "tags": [
+            "sweater",
+            "knitwear",
+            "winter"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Stretch Denim Jeans",
+        "price": 879,
+        "category": "Men",
+        "description": "Stretch Denim Jeans crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-stretch-denim-jeans/800/1000",
+            "https://picsum.photos/seed/men-stretch-denim-jeans-alt/800/1000"
+        ],
+        "tags": [
+            "denim",
+            "jeans",
+            "essentials"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Quilted Puffer Vest",
+        "price": 899,
+        "category": "Men",
+        "description": "Quilted Puffer Vest crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-quilted-puffer-vest/800/1000",
+            "https://picsum.photos/seed/men-quilted-puffer-vest-alt/800/1000"
+        ],
+        "tags": [
+            "vest",
+            "winter",
+            "layering"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Camp Collar Short Sleeve Shirt",
+        "price": 919,
+        "category": "Men",
+        "description": "Camp Collar Short Sleeve Shirt crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-camp-collar-short-sleeve-shirt/800/1000",
+            "https://picsum.photos/seed/men-camp-collar-short-sleeve-shirt-alt/800/1000"
+        ],
+        "tags": [
+            "shirt",
+            "summer",
+            "resort"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Pleated Dress Trousers",
+        "price": 949,
+        "category": "Men",
+        "description": "Pleated Dress Trousers crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-pleated-dress-trousers/800/1000",
+            "https://picsum.photos/seed/men-pleated-dress-trousers-alt/800/1000"
+        ],
+        "tags": [
+            "trousers",
+            "formal",
+            "office"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Rugby Stripe Polo",
+        "price": 969,
+        "category": "Men",
+        "description": "Rugby Stripe Polo crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-rugby-stripe-polo/800/1000",
+            "https://picsum.photos/seed/men-rugby-stripe-polo-alt/800/1000"
+        ],
+        "tags": [
+            "polo",
+            "preppy",
+            "casual"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Suede Trucker Jacket",
+        "price": 989,
+        "category": "Men",
+        "description": "Suede Trucker Jacket crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-suede-trucker-jacket/800/1000",
+            "https://picsum.photos/seed/men-suede-trucker-jacket-alt/800/1000"
+        ],
+        "tags": [
+            "jacket",
+            "suede",
+            "heritage"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Tapered Athletic Shorts",
+        "price": 512,
+        "category": "Men",
+        "description": "Tapered Athletic Shorts crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-tapered-athletic-shorts/800/1000",
+            "https://picsum.photos/seed/men-tapered-athletic-shorts-alt/800/1000"
+        ],
+        "tags": [
+            "shorts",
+            "activewear",
+            "summer"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Flannel Check Shirt",
+        "price": 538,
+        "category": "Men",
+        "description": "Flannel Check Shirt crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-flannel-check-shirt/800/1000",
+            "https://picsum.photos/seed/men-flannel-check-shirt-alt/800/1000"
+        ],
+        "tags": [
+            "flannel",
+            "shirt",
+            "winter"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Wool Blend Overcoat",
+        "price": 564,
+        "category": "Men",
+        "description": "Wool Blend Overcoat crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-wool-blend-overcoat/800/1000",
+            "https://picsum.photos/seed/men-wool-blend-overcoat-alt/800/1000"
+        ],
+        "tags": [
+            "coat",
+            "wool",
+            "winter"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Knit Polo Shirt",
+        "price": 588,
+        "category": "Men",
+        "description": "Knit Polo Shirt crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-knit-polo-shirt/800/1000",
+            "https://picsum.photos/seed/men-knit-polo-shirt-alt/800/1000"
+        ],
+        "tags": [
+            "polo",
+            "knitwear",
+            "smart-casual"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Utility Field Jacket",
+        "price": 998,
+        "category": "Men",
+        "description": "Utility Field Jacket crafted from premium cotton and wool blends. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "White",
+            "Grey",
+            "Olive"
+        ],
+        "images": [
+            "https://picsum.photos/seed/men-utility-field-jacket/800/1000",
+            "https://picsum.photos/seed/men-utility-field-jacket-alt/800/1000"
+        ],
+        "tags": [
+            "jacket",
+            "utility",
+            "outdoor"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Classic Wool Overcoat",
+        "price": 529,
+        "category": "Women",
+        "description": "Classic Wool Overcoat crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-classic-wool-overcoat/800/1000",
+            "https://picsum.photos/seed/women-classic-wool-overcoat-alt/800/1000"
+        ],
+        "tags": [
+            "coat",
+            "wool",
+            "winter"
+        ],
+        "inStock": true,
+        "featured": true
+    },
+    {
+        "name": "Cashmere Turtleneck Sweater",
+        "price": 549,
+        "category": "Women",
+        "description": "Cashmere Turtleneck Sweater crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-cashmere-turtleneck-sweater/800/1000",
+            "https://picsum.photos/seed/women-cashmere-turtleneck-sweater-alt/800/1000"
+        ],
+        "tags": [
+            "cashmere",
+            "knitwear",
+            "luxury"
+        ],
+        "inStock": true,
+        "featured": true
+    },
+    {
+        "name": "Pleated Wide-Leg Trousers",
+        "price": 579,
+        "category": "Women",
+        "description": "Pleated Wide-Leg Trousers crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-pleated-wide-leg-trousers/800/1000",
+            "https://picsum.photos/seed/women-pleated-wide-leg-trousers-alt/800/1000"
+        ],
+        "tags": [
+            "trousers",
+            "tailoring",
+            "office"
+        ],
+        "inStock": true,
+        "featured": true
+    },
+    {
+        "name": "Silk Slip Dress",
+        "price": 599,
+        "category": "Women",
+        "description": "Silk Slip Dress crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-silk-slip-dress/800/1000",
+            "https://picsum.photos/seed/women-silk-slip-dress-alt/800/1000"
+        ],
+        "tags": [
+            "dress",
+            "silk",
+            "evening"
+        ],
+        "inStock": true,
+        "featured": true
+    },
+    {
+        "name": "Wrap Midi Skirt",
+        "price": 619,
+        "category": "Women",
+        "description": "Wrap Midi Skirt crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-wrap-midi-skirt/800/1000",
+            "https://picsum.photos/seed/women-wrap-midi-skirt-alt/800/1000"
+        ],
+        "tags": [
+            "skirt",
+            "midi",
+            "elegant"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Cropped Tailored Blazer",
+        "price": 649,
+        "category": "Women",
+        "description": "Cropped Tailored Blazer crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-cropped-tailored-blazer/800/1000",
+            "https://picsum.photos/seed/women-cropped-tailored-blazer-alt/800/1000"
+        ],
+        "tags": [
+            "blazer",
+            "tailoring",
+            "workwear"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Ribbed Tank Top Set",
+        "price": 679,
+        "category": "Women",
+        "description": "Ribbed Tank Top Set crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-ribbed-tank-top-set/800/1000",
+            "https://picsum.photos/seed/women-ribbed-tank-top-set-alt/800/1000"
+        ],
+        "tags": [
+            "loungewear",
+            "basics",
+            "set"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "High-Waist Mom Jeans",
+        "price": 699,
+        "category": "Women",
+        "description": "High-Waist Mom Jeans crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-high-waist-mom-jeans/800/1000",
+            "https://picsum.photos/seed/women-high-waist-mom-jeans-alt/800/1000"
+        ],
+        "tags": [
+            "denim",
+            "jeans",
+            "casual"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Satin Camisole",
+        "price": 729,
+        "category": "Women",
+        "description": "Satin Camisole crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-satin-camisole/800/1000",
+            "https://picsum.photos/seed/women-satin-camisole-alt/800/1000"
+        ],
+        "tags": [
+            "top",
+            "satin",
+            "layering"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "A-Line Denim Skirt",
+        "price": 749,
+        "category": "Women",
+        "description": "A-Line Denim Skirt crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-a-line-denim-skirt/800/1000",
+            "https://picsum.photos/seed/women-a-line-denim-skirt-alt/800/1000"
+        ],
+        "tags": [
+            "skirt",
+            "denim",
+            "casual"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Cable Knit Cardigan",
+        "price": 769,
+        "category": "Women",
+        "description": "Cable Knit Cardigan crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-cable-knit-cardigan/800/1000",
+            "https://picsum.photos/seed/women-cable-knit-cardigan-alt/800/1000"
+        ],
+        "tags": [
+            "cardigan",
+            "knitwear",
+            "cozy"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Linen Wide-Leg Pants",
+        "price": 799,
+        "category": "Women",
+        "description": "Linen Wide-Leg Pants crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-linen-wide-leg-pants/800/1000",
+            "https://picsum.photos/seed/women-linen-wide-leg-pants-alt/800/1000"
+        ],
+        "tags": [
+            "linen",
+            "trousers",
+            "summer"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Off-Shoulder Blouse",
+        "price": 829,
+        "category": "Women",
+        "description": "Off-Shoulder Blouse crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-off-shoulder-blouse/800/1000",
+            "https://picsum.photos/seed/women-off-shoulder-blouse-alt/800/1000"
+        ],
+        "tags": [
+            "blouse",
+            "evening",
+            "feminine"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Tailored Vest Top",
+        "price": 849,
+        "category": "Women",
+        "description": "Tailored Vest Top crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-tailored-vest-top/800/1000",
+            "https://picsum.photos/seed/women-tailored-vest-top-alt/800/1000"
+        ],
+        "tags": [
+            "vest",
+            "tailoring",
+            "layering"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Jersey Maxi Dress",
+        "price": 879,
+        "category": "Women",
+        "description": "Jersey Maxi Dress crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-jersey-maxi-dress/800/1000",
+            "https://picsum.photos/seed/women-jersey-maxi-dress-alt/800/1000"
+        ],
+        "tags": [
+            "dress",
+            "maxi",
+            "comfort"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Faux Leather Midi Skirt",
+        "price": 899,
+        "category": "Women",
+        "description": "Faux Leather Midi Skirt crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-faux-leather-midi-skirt/800/1000",
+            "https://picsum.photos/seed/women-faux-leather-midi-skirt-alt/800/1000"
+        ],
+        "tags": [
+            "skirt",
+            "leather",
+            "edgy"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Cropped Fleece Hoodie",
+        "price": 919,
+        "category": "Women",
+        "description": "Cropped Fleece Hoodie crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-cropped-fleece-hoodie/800/1000",
+            "https://picsum.photos/seed/women-cropped-fleece-hoodie-alt/800/1000"
+        ],
+        "tags": [
+            "hoodie",
+            "casual",
+            "streetwear"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Belted Trench Coat",
+        "price": 949,
+        "category": "Women",
+        "description": "Belted Trench Coat crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-belted-trench-coat/800/1000",
+            "https://picsum.photos/seed/women-belted-trench-coat-alt/800/1000"
+        ],
+        "tags": [
+            "trench",
+            "coat",
+            "classic"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Ruffle Hem Mini Skirt",
+        "price": 969,
+        "category": "Women",
+        "description": "Ruffle Hem Mini Skirt crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-ruffle-hem-mini-skirt/800/1000",
+            "https://picsum.photos/seed/women-ruffle-hem-mini-skirt-alt/800/1000"
+        ],
+        "tags": [
+            "skirt",
+            "mini",
+            "party"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Seamless Sports Bra",
+        "price": 989,
+        "category": "Women",
+        "description": "Seamless Sports Bra crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-seamless-sports-bra/800/1000",
+            "https://picsum.photos/seed/women-seamless-sports-bra-alt/800/1000"
+        ],
+        "tags": [
+            "activewear",
+            "gym",
+            "basics"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Palazzo Jumpsuit",
+        "price": 512,
+        "category": "Women",
+        "description": "Palazzo Jumpsuit crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-palazzo-jumpsuit/800/1000",
+            "https://picsum.photos/seed/women-palazzo-jumpsuit-alt/800/1000"
+        ],
+        "tags": [
+            "jumpsuit",
+            "evening",
+            "one-piece"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Puff Sleeve Blouse",
+        "price": 538,
+        "category": "Women",
+        "description": "Puff Sleeve Blouse crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-puff-sleeve-blouse/800/1000",
+            "https://picsum.photos/seed/women-puff-sleeve-blouse-alt/800/1000"
+        ],
+        "tags": [
+            "blouse",
+            "romantic",
+            "office"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Stretch Skinny Jeans",
+        "price": 564,
+        "category": "Women",
+        "description": "Stretch Skinny Jeans crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-stretch-skinny-jeans/800/1000",
+            "https://picsum.photos/seed/women-stretch-skinny-jeans-alt/800/1000"
+        ],
+        "tags": [
+            "denim",
+            "jeans",
+            "essentials"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Wool Blend Peacoat",
+        "price": 588,
+        "category": "Women",
+        "description": "Wool Blend Peacoat crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-wool-blend-peacoat/800/1000",
+            "https://picsum.photos/seed/women-wool-blend-peacoat-alt/800/1000"
+        ],
+        "tags": [
+            "coat",
+            "wool",
+            "heritage"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Lounge Co-ord Set",
+        "price": 998,
+        "category": "Women",
+        "description": "Lounge Co-ord Set crafted from fine natural fibers and soft-touch fabrics. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Ivory",
+            "Navy",
+            "Blush",
+            "Sage"
+        ],
+        "images": [
+            "https://picsum.photos/seed/women-lounge-co-ord-set/800/1000",
+            "https://picsum.photos/seed/women-lounge-co-ord-set-alt/800/1000"
+        ],
+        "tags": [
+            "loungewear",
+            "set",
+            "comfort"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Structured Leather Tote",
+        "price": 529,
+        "category": "Accessories",
+        "description": "Structured Leather Tote crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-structured-leather-tote/800/1000",
+            "https://picsum.photos/seed/accessories-structured-leather-tote-alt/800/1000"
+        ],
+        "tags": [
+            "bag",
+            "leather",
+            "everyday"
+        ],
+        "inStock": true,
+        "featured": true
+    },
+    {
+        "name": "Chunky Ribbed Beanie",
+        "price": 549,
+        "category": "Accessories",
+        "description": "Chunky Ribbed Beanie crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-chunky-ribbed-beanie/800/1000",
+            "https://picsum.photos/seed/accessories-chunky-ribbed-beanie-alt/800/1000"
+        ],
+        "tags": [
+            "beanie",
+            "wool",
+            "winter"
+        ],
+        "inStock": true,
+        "featured": true
+    },
+    {
+        "name": "Minimalist Leather Belt",
+        "price": 579,
+        "category": "Accessories",
+        "description": "Minimalist Leather Belt crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-minimalist-leather-belt/800/1000",
+            "https://picsum.photos/seed/accessories-minimalist-leather-belt-alt/800/1000"
+        ],
+        "tags": [
+            "belt",
+            "leather",
+            "essentials"
+        ],
+        "inStock": true,
+        "featured": true
+    },
+    {
+        "name": "Aviator Sunglasses",
+        "price": 599,
+        "category": "Accessories",
+        "description": "Aviator Sunglasses crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-aviator-sunglasses/800/1000",
+            "https://picsum.photos/seed/accessories-aviator-sunglasses-alt/800/1000"
+        ],
+        "tags": [
+            "sunglasses",
+            "eyewear",
+            "summer"
+        ],
+        "inStock": true,
+        "featured": true
+    },
+    {
+        "name": "Stainless Steel Watch",
+        "price": 619,
+        "category": "Accessories",
+        "description": "Stainless Steel Watch crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-stainless-steel-watch/800/1000",
+            "https://picsum.photos/seed/accessories-stainless-steel-watch-alt/800/1000"
+        ],
+        "tags": [
+            "watch",
+            "jewelry",
+            "classic"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Canvas Crossbody Bag",
+        "price": 649,
+        "category": "Accessories",
+        "description": "Canvas Crossbody Bag crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-canvas-crossbody-bag/800/1000",
+            "https://picsum.photos/seed/accessories-canvas-crossbody-bag-alt/800/1000"
+        ],
+        "tags": [
+            "bag",
+            "canvas",
+            "travel"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Cashmere Scarf",
+        "price": 679,
+        "category": "Accessories",
+        "description": "Cashmere Scarf crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-cashmere-scarf/800/1000",
+            "https://picsum.photos/seed/accessories-cashmere-scarf-alt/800/1000"
+        ],
+        "tags": [
+            "scarf",
+            "cashmere",
+            "winter"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Leather Card Holder",
+        "price": 699,
+        "category": "Accessories",
+        "description": "Leather Card Holder crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-leather-card-holder/800/1000",
+            "https://picsum.photos/seed/accessories-leather-card-holder-alt/800/1000"
+        ],
+        "tags": [
+            "wallet",
+            "leather",
+            "travel"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Wool Fedora Hat",
+        "price": 729,
+        "category": "Accessories",
+        "description": "Wool Fedora Hat crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-wool-fedora-hat/800/1000",
+            "https://picsum.photos/seed/accessories-wool-fedora-hat-alt/800/1000"
+        ],
+        "tags": [
+            "hat",
+            "wool",
+            "heritage"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Chain Link Necklace",
+        "price": 749,
+        "category": "Accessories",
+        "description": "Chain Link Necklace crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-chain-link-necklace/800/1000",
+            "https://picsum.photos/seed/accessories-chain-link-necklace-alt/800/1000"
+        ],
+        "tags": [
+            "jewelry",
+            "necklace",
+            "gold-tone"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Classic Leather Wallet",
+        "price": 769,
+        "category": "Accessories",
+        "description": "Classic Leather Wallet crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-classic-leather-wallet/800/1000",
+            "https://picsum.photos/seed/accessories-classic-leather-wallet-alt/800/1000"
+        ],
+        "tags": [
+            "wallet",
+            "leather",
+            "gift"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Insulated Steel Bottle",
+        "price": 799,
+        "category": "Accessories",
+        "description": "Insulated Steel Bottle crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-insulated-steel-bottle/800/1000",
+            "https://picsum.photos/seed/accessories-insulated-steel-bottle-alt/800/1000"
+        ],
+        "tags": [
+            "bottle",
+            "outdoor",
+            "essentials"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Silk Square Scarf",
+        "price": 829,
+        "category": "Accessories",
+        "description": "Silk Square Scarf crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-silk-square-scarf/800/1000",
+            "https://picsum.photos/seed/accessories-silk-square-scarf-alt/800/1000"
+        ],
+        "tags": [
+            "scarf",
+            "silk",
+            "accessory"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Gold Hoop Earrings Set",
+        "price": 849,
+        "category": "Accessories",
+        "description": "Gold Hoop Earrings Set crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-gold-hoop-earrings-set/800/1000",
+            "https://picsum.photos/seed/accessories-gold-hoop-earrings-set-alt/800/1000"
+        ],
+        "tags": [
+            "jewelry",
+            "earrings",
+            "gift"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Laptop Backpack",
+        "price": 879,
+        "category": "Accessories",
+        "description": "Laptop Backpack crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-laptop-backpack/800/1000",
+            "https://picsum.photos/seed/accessories-laptop-backpack-alt/800/1000"
+        ],
+        "tags": [
+            "backpack",
+            "work",
+            "travel"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Vintage Round Sunglasses",
+        "price": 899,
+        "category": "Accessories",
+        "description": "Vintage Round Sunglasses crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-vintage-round-sunglasses/800/1000",
+            "https://picsum.photos/seed/accessories-vintage-round-sunglasses-alt/800/1000"
+        ],
+        "tags": [
+            "sunglasses",
+            "vintage",
+            "eyewear"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Braided Leather Bracelet",
+        "price": 919,
+        "category": "Accessories",
+        "description": "Braided Leather Bracelet crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-braided-leather-bracelet/800/1000",
+            "https://picsum.photos/seed/accessories-braided-leather-bracelet-alt/800/1000"
+        ],
+        "tags": [
+            "bracelet",
+            "leather",
+            "casual"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Cotton Snapback Cap",
+        "price": 949,
+        "category": "Accessories",
+        "description": "Cotton Snapback Cap crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-cotton-snapback-cap/800/1000",
+            "https://picsum.photos/seed/accessories-cotton-snapback-cap-alt/800/1000"
+        ],
+        "tags": [
+            "cap",
+            "streetwear",
+            "summer"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Weekender Duffel Bag",
+        "price": 969,
+        "category": "Accessories",
+        "description": "Weekender Duffel Bag crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-weekender-duffel-bag/800/1000",
+            "https://picsum.photos/seed/accessories-weekender-duffel-bag-alt/800/1000"
+        ],
+        "tags": [
+            "bag",
+            "travel",
+            "weekend"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Pearl Drop Earrings",
+        "price": 989,
+        "category": "Accessories",
+        "description": "Pearl Drop Earrings crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-pearl-drop-earrings/800/1000",
+            "https://picsum.photos/seed/accessories-pearl-drop-earrings-alt/800/1000"
+        ],
+        "tags": [
+            "jewelry",
+            "pearls",
+            "evening"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Merino Wool Gloves",
+        "price": 512,
+        "category": "Accessories",
+        "description": "Merino Wool Gloves crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-merino-wool-gloves/800/1000",
+            "https://picsum.photos/seed/accessories-merino-wool-gloves-alt/800/1000"
+        ],
+        "tags": [
+            "gloves",
+            "wool",
+            "winter"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "RFID Passport Holder",
+        "price": 538,
+        "category": "Accessories",
+        "description": "RFID Passport Holder crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-rfid-passport-holder/800/1000",
+            "https://picsum.photos/seed/accessories-rfid-passport-holder-alt/800/1000"
+        ],
+        "tags": [
+            "travel",
+            "leather",
+            "organizer"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Polarized Wayfarer Shades",
+        "price": 564,
+        "category": "Accessories",
+        "description": "Polarized Wayfarer Shades crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-polarized-wayfarer-shades/800/1000",
+            "https://picsum.photos/seed/accessories-polarized-wayfarer-shades-alt/800/1000"
+        ],
+        "tags": [
+            "sunglasses",
+            "polarized",
+            "summer"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Stackable Ring Set",
+        "price": 588,
+        "category": "Accessories",
+        "description": "Stackable Ring Set crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-stackable-ring-set/800/1000",
+            "https://picsum.photos/seed/accessories-stackable-ring-set-alt/800/1000"
+        ],
+        "tags": [
+            "jewelry",
+            "rings",
+            "minimal"
+        ],
+        "inStock": true,
+        "featured": false
+    },
+    {
+        "name": "Ceramic Travel Tumbler",
+        "price": 998,
+        "category": "Accessories",
+        "description": "Ceramic Travel Tumbler crafted from quality materials and thoughtful craftsmanship. Easy to style and built to last. Designed for everyday wear with a refined, modern silhouette.",
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Black",
+            "Tan",
+            "Silver",
+            "Gold"
+        ],
+        "images": [
+            "https://picsum.photos/seed/accessories-ceramic-travel-tumbler/800/1000",
+            "https://picsum.photos/seed/accessories-ceramic-travel-tumbler-alt/800/1000"
+        ],
+        "tags": [
+            "tumbler",
+            "drinkware",
+            "gift"
+        ],
+        "inStock": true,
+        "featured": false
+    }
+]

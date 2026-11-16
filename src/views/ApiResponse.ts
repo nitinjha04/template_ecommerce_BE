@@ -37,13 +37,15 @@ export class ApiResponse {
     res: Response,
     message: string,
     statusCode = 500,
-    errors?: unknown[]
+    errors?: unknown[],
+    data?: unknown
   ): Response {
-    const body: ApiResponseBody<null> = {
+    const body: ApiResponseBody<unknown> = {
       success: false,
       message,
     };
     if (errors) body.errors = errors;
+    if (data !== undefined) body.data = data;
     return res.status(statusCode).json(body);
   }
 }

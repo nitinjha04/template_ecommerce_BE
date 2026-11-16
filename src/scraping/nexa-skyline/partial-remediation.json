@@ -1,0 +1,61 @@
+{
+  "removeCategoryNames": [
+    "fashion bottoms",
+    "leggings",
+    "straight pants",
+    "dupattas",
+    "skirts",
+    "salwar and patialas",
+    "kotis"
+  ],
+  "replacements": [
+    {
+      "categorySlug": "maxwomen-bottoms-trousersandtreggings",
+      "categoryName": "trousers and treggings",
+      "priceMin": 700,
+      "priceMax": 799,
+      "limit": 50,
+      "sort": "low-to-high"
+    },
+    {
+      "categorySlug": "maxwomen-bottoms-jeansandjeggings",
+      "categoryName": "jeans and jeggings",
+      "priceMin": 800,
+      "priceMax": 899,
+      "limit": 50,
+      "sort": "low-to-high"
+    },
+    {
+      "categorySlug": "maxwomen-bottoms-shortsandskirts",
+      "categoryName": "shorts and skirts",
+      "priceMin": 900,
+      "priceMax": 999,
+      "limit": 50,
+      "sort": "low-to-high"
+    },
+    {
+      "categorySlug": "maxwomen-sleepwear-bottoms",
+      "categoryName": "sleepwear bottoms",
+      "priceMin": 1499,
+      "priceMax": 1999,
+      "limit": 15,
+      "sort": "low-to-high"
+    },
+    {
+      "categorySlug": "maxwomen-sleepwear-sets",
+      "categoryName": "sleepwear sets",
+      "priceMin": 2000,
+      "priceMax": 2999,
+      "limit": 15,
+      "sort": "high-to-low"
+    },
+    {
+      "categorySlug": "maxwomen-sleepwear-dressesandgowns",
+      "categoryName": "sleepwear dresses and gowns",
+      "priceMin": 3000,
+      "priceMax": 3999,
+      "limit": 15,
+      "sort": "high-to-low"
+    }
+  ]
+}
