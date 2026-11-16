@@ -12,3 +12,7 @@ old.env
 .env.production
 
 web2.pem
+
+dist
+
+src/scripts/*
