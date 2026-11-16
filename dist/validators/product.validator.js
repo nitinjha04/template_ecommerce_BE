@@ -105,5 +105,6 @@ exports.productQueryValidator = [
     (0, express_validator_1.query)('maxPrice').optional().isFloat({ min: 0 }),
     (0, express_validator_1.query)('sizes').optional().isString(),
     (0, express_validator_1.query)('subcategory').optional().isString(),
+    (0, express_validator_1.query)('department').optional().isIn(['men', 'women']),
     (0, express_validator_1.query)('includeUnpublished').optional().isIn(['true', 'false']),
 ];

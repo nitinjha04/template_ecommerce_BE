@@ -1,8 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.CategoryService = void 0;
+exports.CategoryService = exports.MIN_LISTED_PRODUCTS = void 0;
 const models_1 = require("../models");
 const ApiError_1 = require("../utils/ApiError");
+const category_label_1 = require("../utils/category-label");
 const slug_1 = require("../utils/slug");
 const storeScope_1 = require("../utils/storeScope");
 const ensureUniqueSlug = async (base, excludeId) => {
@@ -20,21 +21,50 @@ const ensureUniqueSlug = async (base, excludeId) => {
     }
     return `${root}-${Date.now()}`;
 };
+const withShortNames = (rows) => {
+    const seen = new Set();
+    const out = [];
+    for (const row of rows) {
+        const name = (0, category_label_1.shortenCategoryLabel)(row.name);
+        const key = name.toLowerCase();
+        if (!name || seen.has(key))
+            continue;
+        seen.add(key);
+        out.push({ ...row, name });
+    }
+    return out;
+};
+/** Categories with fewer published products than this stay out of the storefront. */
+exports.MIN_LISTED_PRODUCTS = 20;
 class CategoryService {
     static async listActive() {
-        return models_1.Category.find((0, storeScope_1.mergeStoreFilter)({ isActive: { $ne: false } }))
+        const rows = await models_1.Category.find((0, storeScope_1.mergeStoreFilter)({ isActive: { $ne: false } }))
             .select('name slug sortOrder isActive')
             .sort({ sortOrder: 1, name: 1 })
             .lean();
+        const counts = await models_1.Product.aggregate([
+            { $match: (0, storeScope_1.mergeStoreFilter)({ isPublished: { $ne: false } }) },
+            {
+                $group: {
+                    _id: { $toLower: { $ifNull: ['$category', ''] } },
+                    count: { $sum: 1 },
+                },
+            },
+        ]);
+        const byName = new Map(counts.map((row) => [String(row._id ?? ''), Number(row.count ?? 0)]));
+        const kept = rows.filter((row) => (byName.get(String(row.name ?? '').toLowerCase()) ?? 0) >=
+            exports.MIN_LISTED_PRODUCTS);
+        return withShortNames(kept);
     }
     static async listAll() {
-        return models_1.Category.find((0, storeScope_1.mergeStoreFilter)())
+        const rows = await models_1.Category.find((0, storeScope_1.mergeStoreFilter)())
             .select('name slug sortOrder isActive')
             .sort({ sortOrder: 1, name: 1 })
             .lean();
+        return withShortNames(rows);
     }
     static async create(data) {
-        const name = data.name.trim();
+        const name = (0, category_label_1.shortenCategoryLabel)(data.name);
         if (!name) {
             throw new ApiError_1.ApiError(400, 'Category name is required');
         }
@@ -60,7 +90,7 @@ class CategoryService {
             throw new ApiError_1.ApiError(404, 'Category not found');
         }
         if (data.name !== undefined) {
-            const name = data.name.trim();
+            const name = (0, category_label_1.shortenCategoryLabel)(data.name);
             if (!name) {
                 throw new ApiError_1.ApiError(400, 'Category name is required');
             }
@@ -100,7 +130,7 @@ class CategoryService {
     }
     /** Ensures category exists when saving a product (by display name). */
     static async resolveProductCategory(name) {
-        const trimmed = name.trim();
+        const trimmed = (0, category_label_1.shortenCategoryLabel)(name);
         if (!trimmed) {
             throw new ApiError_1.ApiError(400, 'Category is required');
         }

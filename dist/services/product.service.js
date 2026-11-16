@@ -7,6 +7,7 @@ const ApiError_1 = require("../utils/ApiError");
 const slug_1 = require("../utils/slug");
 const category_service_1 = require("./category.service");
 const pagination_1 = require("../utils/pagination");
+const category_label_1 = require("../utils/category-label");
 const productImages_1 = require("../utils/productImages");
 const serializeProduct_1 = require("../utils/serializeProduct");
 const store_context_1 = require("../context/store.context");
@@ -26,6 +27,20 @@ const ensureUniqueSlug = async (base, excludeId) => {
     }
     return `${root}-${Date.now()}`;
 };
+const MEN_CATEGORY_RX = "^men(['’]s)?(\\s|$)";
+/** Men's PLT imports are tagged `men` and live in `men …` categories. */
+const departmentFilter = (department) => {
+    const menClauses = [
+        { tags: { $in: ["men", "mens", "menswear"] } },
+        { category: { $regex: MEN_CATEGORY_RX, $options: "i" } },
+        { breadcrumbCategory: { $regex: MEN_CATEGORY_RX, $options: "i" } },
+    ];
+    if (department === "men")
+        return { $or: menClauses };
+    if (department === "women")
+        return { $nor: menClauses };
+    return null;
+};
 const buildProductFilter = (query, omit = []) => {
     const filter = (0, storeScope_1.mergeStoreFilter)({}, query.storeId);
     if (!query.includeUnpublished) {
@@ -33,6 +48,11 @@ const buildProductFilter = (query, omit = []) => {
     }
     if (query.category)
         filter.category = query.category;
+    const gender = departmentFilter(query.department);
+    if (gender) {
+        const existingAnd = Array.isArray(filter.$and) ? filter.$and : [];
+        filter.$and = [...existingAnd, gender];
+    }
     if (query.featured !== undefined)
         filter.featured = query.featured;
     if (query.inStock !== undefined)
@@ -50,7 +70,31 @@ const buildProductFilter = (query, omit = []) => {
         filter.sizes = { $in: query.sizes };
     }
     if (query.subcategories?.length && !omit.includes("subcategories")) {
-        filter.breadcrumbCategory = { $in: query.subcategories };
+        const leaves = [
+            ...new Set(query.subcategories
+                .map((name) => (0, category_label_1.shortenCategoryLabel)(name))
+                .filter(Boolean)),
+        ];
+        const names = [...query.subcategories, ...leaves];
+        const escaped = leaves
+            .map((leaf) => leaf.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+            .join("|");
+        const leafRegex = escaped
+            ? {
+                $regex: `(^|>\\s*)([^>]*\\s+)?(${escaped})\\s*$`,
+                $options: "i",
+            }
+            : null;
+        filter.$or = [
+            { breadcrumbCategory: { $in: names } },
+            { category: { $in: names } },
+            ...(leafRegex
+                ? [
+                    { breadcrumbCategory: leafRegex },
+                    { category: leafRegex },
+                ]
+                : []),
+        ];
     }
     if (query.search?.trim()) {
         return (0, pagination_1.applySearchOr)(filter, query.search, [
@@ -151,15 +195,21 @@ class ProductService {
             ]),
         ]);
         const priceRow = priceAgg[0];
+        const mergedCategories = new Map();
+        for (const row of categoryAgg) {
+            const name = (0, category_label_1.shortenCategoryLabel)(String(row._id ?? ""));
+            if (!name)
+                continue;
+            mergedCategories.set(name, (mergedCategories.get(name) ?? 0) + Number(row.count ?? 0));
+        }
         return {
             sizes: sizeAgg.map((row) => ({
                 size: String(row._id),
                 count: row.count,
             })),
-            categories: categoryAgg.map((row) => ({
-                name: String(row._id),
-                count: row.count,
-            })),
+            categories: [...mergedCategories.entries()]
+                .sort(([a], [b]) => a.localeCompare(b))
+                .map(([name, count]) => ({ name, count })),
             priceRange: {
                 min: Math.floor(priceRow?.min ?? 0),
                 max: Math.ceil(priceRow?.max ?? 5000),
