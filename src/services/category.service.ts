@@ -29,7 +29,7 @@ const withShortNames = (rows: ICategory[]): ICategory[] => {
     const key = name.toLowerCase();
     if (!name || seen.has(key)) continue;
     seen.add(key);
-    out.push({ ...row, name });
+    out.push({ ...row, name } as unknown as ICategory);
   }
   return out;
 };

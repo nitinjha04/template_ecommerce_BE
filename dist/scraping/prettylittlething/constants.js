@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.MAX_DISCOUNT_RATIO = exports.MIN_DISCOUNT_RATIO = exports.BROS_STORE_SLUG = exports.BROS_STORE_NAME = exports.BROS_STORE_DOMAIN = exports.MOHDEEP_STORE_SLUG = exports.MOHDEEP_STORE_NAME = exports.MOHDEEP_STORE_DOMAIN = exports.BHOJAK_STORE_SLUG = exports.BHOJAK_STORE_NAME = exports.BHOJAK_STORE_DOMAIN = exports.HIGREENNY_STORE_SLUG = exports.HIGREENNY_STORE_NAME = exports.HIGREENNY_STORE_DOMAIN = exports.NEXTRIVA_STORE_SLUG = exports.NEXTRIVA_STORE_NAME = exports.NEXTRIVA_STORE_DOMAIN = exports.CLAUNECK_STORE_SLUG = exports.CLAUNECK_STORE_NAME = exports.CLAUNECK_STORE_DOMAIN = void 0;
+exports.PRIYA_LUXE_STORE_SLUG = exports.PRIYA_LUXE_STORE_NAME = exports.PRIYA_LUXE_STORE_DOMAIN = exports.MAX_DISCOUNT_RATIO = exports.MIN_DISCOUNT_RATIO = exports.BROS_STORE_SLUG = exports.BROS_STORE_NAME = exports.BROS_STORE_DOMAIN = exports.MOHDEEP_STORE_SLUG = exports.MOHDEEP_STORE_NAME = exports.MOHDEEP_STORE_DOMAIN = exports.BHOJAK_STORE_SLUG = exports.BHOJAK_STORE_NAME = exports.BHOJAK_STORE_DOMAIN = exports.HIGREENNY_STORE_SLUG = exports.HIGREENNY_STORE_NAME = exports.HIGREENNY_STORE_DOMAIN = exports.NEXTRIVA_STORE_SLUG = exports.NEXTRIVA_STORE_NAME = exports.NEXTRIVA_STORE_DOMAIN = exports.CLAUNECK_STORE_SLUG = exports.CLAUNECK_STORE_NAME = exports.CLAUNECK_STORE_DOMAIN = void 0;
 /** Clauneck storefront — PrettyLittleThing source catalog. */
 exports.CLAUNECK_STORE_DOMAIN = 'clauneck.in';
 exports.CLAUNECK_STORE_NAME = 'Clauneck';
@@ -28,3 +28,7 @@ exports.BROS_STORE_SLUG = 'bros';
 /** Discount on list: min 5%, max 20%. */
 exports.MIN_DISCOUNT_RATIO = 0.05;
 exports.MAX_DISCOUNT_RATIO = 0.2;
+/** Priya Luxe storefront */
+exports.PRIYA_LUXE_STORE_DOMAIN = 'priyaluxe.in';
+exports.PRIYA_LUXE_STORE_NAME = 'Priya Luxe';
+exports.PRIYA_LUXE_STORE_SLUG = 'priya-luxe';

@@ -15,7 +15,7 @@ const parseCsvQuery = (value) => {
 };
 class ProductController {
     static getAll = (0, asyncHandler_1.asyncHandler)(async (req, res) => {
-        const { page, limit, featured, inStock, search, sort, category, minPrice, maxPrice, sizes, subcategory, } = req.query;
+        const { page, limit, featured, inStock, search, sort, category, minPrice, maxPrice, sizes, subcategory, department, } = req.query;
         const includeUnpublished = (0, optionalAdmin_1.shouldIncludeUnpublished)(req);
         const storeId = includeUnpublished
             ? (0, adminStoreQuery_1.pickStoreIdFromQuery)(req.query.storeId)
@@ -34,6 +34,9 @@ class ProductController {
             maxPrice: maxPrice !== undefined ? Number(maxPrice) : undefined,
             sizes: parseCsvQuery(sizes),
             subcategories: parseCsvQuery(subcategory),
+            department: department === 'men' || department === 'women'
+                ? department
+                : undefined,
         });
         ApiResponse_1.ApiResponse.success(res, result.products, 'Products fetched', 200, {
             ...result.pagination,

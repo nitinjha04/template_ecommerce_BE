@@ -60,6 +60,8 @@
     "scrape:plt:bros:dry": "tsx src/scraping/prettylittlething/import-bros.ts -- --dry-run",
     "scrape:plt:men": "tsx src/scraping/prettylittlething/import-men.ts",
     "scrape:plt:men:dry": "tsx src/scraping/prettylittlething/import-men.ts -- --dry-run",
+    "scrape:plt:fill-thin-men": "tsx src/scraping/prettylittlething/fill-thin-men-categories.ts",
+    "scrape:plt:fill-thin-men:dry": "tsx src/scraping/prettylittlething/fill-thin-men-categories.ts -- --dry-run",
     "topup:price-bands": "node --max-old-space-size=8192 --import tsx src/scraping/prettylittlething/topup-price-bands.ts",
     "topup:price-bands:dry": "node --max-old-space-size=8192 --import tsx src/scraping/prettylittlething/topup-price-bands.ts --dry-run",
     "remove:duplicate-products": "tsx src/scripts/remove-duplicate-products.ts",

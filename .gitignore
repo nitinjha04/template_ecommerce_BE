@@ -10,3 +10,5 @@ src/scraping/*
 old.env
 
 .env.production
+
+web2.pem
