@@ -39,7 +39,6 @@ export const getPaymentMethodsSnapshot = (storeDomain?: string) => {
   const razorpay = Boolean(rzpCreds) || isRazorpayConfigured();
   const cashfree = Boolean(cfCreds) || isCashfreeConfigured();
   const payu = Boolean(payuCreds) || isPayuConfigured();
-  const dsa = isDsaGatewayConfigured();
   const keyId =
     rzpCreds?.keyId ?? (isRazorpayConfigured() ? env.razorpay.keyId : undefined);
   const appId =
@@ -47,6 +46,9 @@ export const getPaymentMethodsSnapshot = (storeDomain?: string) => {
   const payuKey =
     payuCreds?.key ?? (isPayuConfigured() ? env.payu.key : undefined);
   const dsaGatewayId = getDsaGatewayIdForDomain(storeDomain);
+  // Only show Pay online when this store has an explicit STORE_DSA_GATEWAY_IDS entry.
+  // Unmapped domains (e.g. priyaluxe.com) stay without the online option until assigned.
+  const dsa = isDsaGatewayConfigured() && Boolean(dsaGatewayId);
   const dsaLabel = getDsaGatewayLabelForDomain(storeDomain);
 
   return {
