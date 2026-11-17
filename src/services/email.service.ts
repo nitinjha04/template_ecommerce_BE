@@ -1,11 +1,11 @@
 import { IOrder } from '../models/Order.model';
 import { sendViaBrevo } from '../config/brevo';
 import { getEmailTransport } from '../config/emailTransport';
+import { getMailTransporter } from '../config/mail';
 import {
   env,
   getEmailFromForDomain,
   getOrderAdminNotificationRecipients,
-  isBrevoConfigured,
   isEmailConfigured,
   isEmailEnabled,
   logEmailEnvDiagnostics,
@@ -30,12 +30,12 @@ import { signupWelcomeEmail } from '../emails/signupWelcomeEmail';
 import { ApiError } from '../utils/ApiError';
 
 type SendEmailOptions = {
-  /** When true, sending is required (email enabled + SMTP configured) or an error is thrown. */
+  /** When true, sending is required (email enabled + transport configured) or an error is thrown. */
   mustDeliver?: boolean;
 };
 
 /**
- * Transactional email via Brevo/Sendinblue (HTTPS API).
+ * Transactional email via SMTP (Nodemailer), with optional Brevo fallback.
  */
 export class EmailService {
   private static getBrandName(): string {
@@ -104,6 +104,19 @@ export class EmailService {
     console.log('[email] Attempting send:', { to, subject, transport, from, storeDomain });
 
     try {
+      if (transport === 'smtp') {
+        const result = await getMailTransporter().sendMail({
+          from,
+          to,
+          subject,
+          html,
+        });
+        console.log(
+          `[email] Sent via SMTP: "${subject}" → ${to} (id: ${result.messageId})`
+        );
+        return;
+      }
+
       if (transport === 'brevo') {
         const result = await sendViaBrevo({ to, subject, html, from });
         console.log(

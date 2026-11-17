@@ -70,12 +70,13 @@ export const env = {
     password: process.env.SEED_ADMIN_PASSWORD ?? "Admin@123",
     name: process.env.SEED_ADMIN_NAME ?? "Casaq Admin",
   },
-  /**
-   * Email sender + admin notification inbox.
-   * Kept under `smtp` for backwards compatibility with existing templates/usages,
-   * but SMTP delivery is intentionally not supported anymore.
-   */
+  /** SMTP (Nodemailer) + sender / admin notification inbox. */
   smtp: {
+    host: (process.env.SMTP_HOST ?? "").trim(),
+    port: Number(process.env.SMTP_PORT) || 587,
+    secure: process.env.SMTP_SECURE === "true",
+    user: (process.env.SMTP_USER ?? "").trim(),
+    pass: (process.env.SMTP_PASS ?? "").trim(),
     from:
       process.env.EMAIL_FROM ??
       process.env.SMTP_FROM ??
@@ -90,7 +91,7 @@ export const env = {
       "casaqte@gmail.com",
   },
   emailEnabled: process.env.EMAIL_ENABLED === "true",
-  /** Sendinblue/Brevo transactional email over HTTPS (port 443). */
+  /** Optional Brevo/Sendinblue fallback (HTTPS API). */
   brevo: {
     apiKey: (
       process.env.SENDINBLUE_API_KEY ??
@@ -471,10 +472,20 @@ export const resolvePayuCredentialsByKey = (
 export const isPayuConfiguredForDomain = (storeDomain?: string): boolean =>
   Boolean(resolvePayuCredentials(storeDomain));
 
+export const isSmtpConfigured = (): boolean => {
+  const { host, user, pass } = env.smtp;
+  if (!host || !user || !pass) return false;
+  if (isPlaceholder(host) || isPlaceholder(user) || isPlaceholder(pass)) {
+    return false;
+  }
+  return true;
+};
+
 export const isBrevoConfigured = (): boolean => Boolean(env.brevo.apiKey);
 
+/** SMTP preferred; Brevo remains an optional fallback. */
 export const isEmailConfigured = (): boolean =>
-  isBrevoConfigured();
+  isSmtpConfigured() || isBrevoConfigured();
 
 export const getEmailFrom = (): string => {
   return env.smtp.from;
@@ -638,22 +649,36 @@ export const getOrderAdminNotificationRecipients = (domain?: string): string[] =
   return [...recipients];
 };
 
-/** Emails are off until EMAIL_ENABLED=true and Brevo is configured. */
+/** Emails are off until EMAIL_ENABLED=true and SMTP (or Brevo) is configured. */
 export const isEmailEnabled = (): boolean =>
   env.emailEnabled && isEmailConfigured();
 
 /** Startup / forgot-password diagnostics — never logs SMTP_PASS. */
 export const logEmailEnvDiagnostics = (context: string): void => {
+  const prefer = process.env.EMAIL_TRANSPORT?.trim().toLowerCase();
+  const transport =
+    prefer === "brevo" && isBrevoConfigured()
+      ? "brevo"
+      : isSmtpConfigured()
+        ? "smtp"
+        : isBrevoConfigured()
+          ? "brevo"
+          : "none";
+
   console.log(`[email-env][${context}]`, {
     NODE_ENV: env.nodeEnv,
     EMAIL_ENABLED_RAW: process.env.EMAIL_ENABLED ?? "(unset)",
     emailEnabledParsed: env.emailEnabled,
-    isRenderHost: process.env.RENDER === "true",
-    emailTransport: isBrevoConfigured() ? "brevo" : "none",
+    EMAIL_TRANSPORT: prefer ?? "(unset)",
+    emailTransport: transport,
     isEmailConfigured: isEmailConfigured(),
     isEmailEnabled: isEmailEnabled(),
+    isSmtpConfigured: isSmtpConfigured(),
+    SMTP_HOST: env.smtp.host || "(unset)",
+    SMTP_PORT: env.smtp.port,
+    SMTP_USER_SET: Boolean(env.smtp.user),
+    SMTP_PASS_SET: Boolean(env.smtp.pass),
     BREVO_API_KEY_SET: Boolean(env.brevo.apiKey),
-    SENDINBLUE_API_KEY_SET: Boolean(env.brevo.apiKey),
     EMAIL_FROM: env.smtp.from,
     EMAIL_FROM_CASAQ: env.smtp.fromCasaq,
     EMAIL_FROM_ARGEN: env.smtp.fromArgen,

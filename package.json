@@ -62,6 +62,8 @@
     "scrape:plt:men:dry": "tsx src/scraping/prettylittlething/import-men.ts -- --dry-run",
     "scrape:plt:fill-thin-men": "tsx src/scraping/prettylittlething/fill-thin-men-categories.ts",
     "scrape:plt:fill-thin-men:dry": "tsx src/scraping/prettylittlething/fill-thin-men-categories.ts -- --dry-run",
+    "scrape:plt:priya-luxe": "node --max-old-space-size=8192 --import tsx src/scraping/prettylittlething/import-priya-luxe.ts",
+    "scrape:plt:priya-luxe:dry": "node --max-old-space-size=8192 --import tsx src/scraping/prettylittlething/import-priya-luxe.ts --dry-run",
     "topup:price-bands": "node --max-old-space-size=8192 --import tsx src/scraping/prettylittlething/topup-price-bands.ts",
     "topup:price-bands:dry": "node --max-old-space-size=8192 --import tsx src/scraping/prettylittlething/topup-price-bands.ts --dry-run",
     "remove:duplicate-products": "tsx src/scripts/remove-duplicate-products.ts",
@@ -94,6 +96,7 @@
     "mongoose": "^8.9.3",
     "morgan": "^1.10.0",
     "multer": "^1.4.5-lts.1",
+    "nodemailer": "^10.6.0",
     "razorpay": "^2.9.8"
   },
   "devDependencies": {
@@ -104,6 +107,7 @@
     "@types/morgan": "^1.9.9",
     "@types/multer": "^1.4.12",
     "@types/node": "^22.10.2",
+    "@types/nodemailer": "^8.0.2",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2"
   }
